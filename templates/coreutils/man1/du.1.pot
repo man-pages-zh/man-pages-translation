@@ -1,0 +1,530 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/du.1:2
+#, no-wrap
+msgid "DU"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/du.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/du.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/du.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:5
+msgid "du - estimate file space usage"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:8
+msgid "B<du> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:11
+msgid "B<du> [I<\\,OPTION\\/>]... I<\\,--files0-from=F\\/>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:15
+msgid "Summarize disk usage of the set of FILEs, recursively for directories."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:17
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:17
+#, no-wrap
+msgid "B<-0>, B<--null>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:20
+msgid "end each output line with NUL, not newline"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:20
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:23
+msgid "write counts for all files, not just directories"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:23
+#, no-wrap
+msgid "B<--apparent-size>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:29
+msgid ""
+"print apparent sizes, rather than disk usage; although the apparent size is "
+"usually smaller, it may be larger due to holes in ('sparse') files, internal "
+"fragmentation, indirect blocks, and the like"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:29
+#, no-wrap
+msgid "B<-B>, B<--block-size>=I<\\,SIZE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:34
+msgid ""
+"scale sizes by SIZE before printing them; e.g., \\&'-BM' prints sizes in "
+"units of 1,048,576 bytes; see SIZE format below"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:34
+#, no-wrap
+msgid "B<-b>, B<--bytes>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:37
+msgid "equivalent to '--apparent-size B<--block-size>=I<\\,1\\/>'"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:37
+#, no-wrap
+msgid "B<-c>, B<--total>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:40
+msgid "produce a grand total"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:40
+#, no-wrap
+msgid "B<-D>, B<--dereference-args>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:44
+msgid "dereference only symlinks that are listed on the command line"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:44
+#, no-wrap
+msgid "B<-d>, B<--max-depth>=I<\\,N\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:50
+msgid ""
+"print the total for a directory (or file, with B<--all>)  only if it is N or "
+"fewer levels below the command line argument; B<--max-depth>=I<\\,0\\/> is "
+"the same as B<--summarize>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:50
+#, no-wrap
+msgid "B<--files0-from>=I<\\,F\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:55
+msgid ""
+"summarize disk usage of the NUL-terminated file names specified in file F; "
+"if F is -, then read names from standard input"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:55
+#, no-wrap
+msgid "B<-H>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:58
+msgid "equivalent to B<--dereference-args> (B<-D>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:58
+#, no-wrap
+msgid "B<-h>, B<--human-readable>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:61
+msgid "print sizes in human readable format (e.g., 1K 234M 2G)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:61
+#, no-wrap
+msgid "B<--inodes>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:64
+msgid "list inode usage information instead of block usage"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:64
+#, no-wrap
+msgid "B<-k>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:67
+msgid "like B<--block-size>=I<\\,1K\\/>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:67
+#, no-wrap
+msgid "B<-L>, B<--dereference>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:70
+msgid "dereference all symbolic links"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:70
+#, no-wrap
+msgid "B<-l>, B<--count-links>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:73
+msgid "count sizes many times if hard linked"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:73
+#, no-wrap
+msgid "B<-m>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:76
+msgid "like B<--block-size>=I<\\,1M\\/>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:76
+#, no-wrap
+msgid "B<-P>, B<--no-dereference>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:79
+msgid "don't follow any symbolic links (this is the default)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:79
+#, no-wrap
+msgid "B<-S>, B<--separate-dirs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:82
+msgid "for directories do not include size of subdirectories"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:82
+#, no-wrap
+msgid "B<--si>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:85
+msgid "like B<-h>, but use powers of 1000 not 1024"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:85
+#, no-wrap
+msgid "B<-s>, B<--summarize>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:88
+msgid "display only a total for each argument"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:88
+#, no-wrap
+msgid "B<-t>, B<--threshold>=I<\\,SIZE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:92
+msgid ""
+"exclude entries smaller than SIZE if positive, or entries greater than SIZE "
+"if negative"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:92
+#, no-wrap
+msgid "B<--time>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:96
+msgid ""
+"show time of the last modification of any file in the directory, or any of "
+"its subdirectories"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:96
+#, no-wrap
+msgid "B<--time>=I<\\,WORD\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:100
+msgid ""
+"show time as WORD instead of modification time: atime, access, use, ctime or "
+"status"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:100
+#, no-wrap
+msgid "B<--time-style>=I<\\,STYLE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:105
+msgid ""
+"show times using STYLE, which can be: full-iso, long-iso, iso, or +FORMAT; "
+"FORMAT is interpreted like in 'date'"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:105
+#, no-wrap
+msgid "B<-X>, B<--exclude-from>=I<\\,FILE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:108
+msgid "exclude files that match any pattern in FILE"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:108
+#, no-wrap
+msgid "B<--exclude>=I<\\,PATTERN\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:111
+msgid "exclude files that match PATTERN"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:111
+#, no-wrap
+msgid "B<-x>, B<--one-file-system>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:114
+msgid "skip directories on different file systems"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:114
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:117
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/du.1:117
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:120
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:124
+msgid ""
+"Display values are in units of the first available SIZE from "
+"B<--block-size>, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
+"variables.  Otherwise, units default to 1024 bytes (or 512 if "
+"POSIXLY_CORRECT is set)."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:127
+msgid ""
+"The SIZE argument is an integer and optional unit (example: 10K is "
+"10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
+"of 1000)."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:127
+#, no-wrap
+msgid "PATTERNS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:138
+msgid ""
+"PATTERN is a shell pattern (not a regular expression).  The pattern B<?> "
+"matches any one character, whereas B<*> matches any string (composed of "
+"zero, one or multiple characters).  For example, B<*.o> will match any files "
+"whose names end in B<.o>.  Therefore, the command"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:140
+msgid "B<du --exclude=\\(aq*.o\\(aq>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:146
+msgid ""
+"will skip all files and subdirectories ending in B<.o> (including the file "
+"B<.o> itself)."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:146
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:149
+msgid ""
+"Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim "
+"Meyering."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:149
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:151
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:153
+msgid "Report du translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:153
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:156
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:159
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/du.1:159
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:161
+msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/duE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/du.1:162
+msgid "or available locally via: info \\(aq(coreutils) du invocation\\(aq"
+msgstr ""

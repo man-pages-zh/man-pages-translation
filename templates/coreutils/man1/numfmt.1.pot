@@ -1,0 +1,586 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, no-wrap
+msgid "NUMFMT"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:5
+msgid "numfmt - Convert numbers from/to human-readable strings"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:8
+msgid "B<numfmt> [I<\\,OPTION\\/>]... [I<\\,NUMBER\\/>]..."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:12
+msgid ""
+"Reformat NUMBER(s), or the numbers from standard input if none are "
+"specified."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:14
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:14
+#, no-wrap
+msgid "B<--debug>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:17
+msgid "print warnings about invalid input"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:17
+#, no-wrap
+msgid "B<-d>, B<--delimiter>=I<\\,X\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:20
+msgid "use X instead of whitespace for field delimiter"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:20
+#, no-wrap
+msgid "B<--field>=I<\\,FIELDS\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:24
+msgid "replace the numbers in these input fields (default=1)  see FIELDS below"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:24
+#, no-wrap
+msgid "B<--format>=I<\\,FORMAT\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:28
+msgid "use printf style floating-point FORMAT; see FORMAT below for details"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:28
+#, no-wrap
+msgid "B<--from>=I<\\,UNIT\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:32
+msgid "auto-scale input numbers to UNITs; default is 'none'; see UNIT below"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:32
+#, no-wrap
+msgid "B<--from-unit>=I<\\,N\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:35
+msgid "specify the input unit size (instead of the default 1)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:35
+#, no-wrap
+msgid "B<--grouping>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:39
+msgid ""
+"use locale-defined grouping of digits, e.g. 1,000,000 (which means it has no "
+"effect in the C/POSIX locale)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:39
+#, no-wrap
+msgid "B<--header>[=I<\\,N\\/>]"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:43
+msgid ""
+"print (without converting) the first N header lines; N defaults to 1 if not "
+"specified"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:43
+#, no-wrap
+msgid "B<--invalid>=I<\\,MODE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:47
+msgid ""
+"failure mode for invalid numbers: MODE can be: abort (default), fail, warn, "
+"ignore"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:47
+#, no-wrap
+msgid "B<--padding>=I<\\,N\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:54
+msgid ""
+"pad the output to N characters; positive N will right-align; negative N will "
+"left-align; padding is ignored if the output is wider than N; the default is "
+"to automatically pad if a whitespace is found"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:54
+#, no-wrap
+msgid "B<--round>=I<\\,METHOD\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:58
+msgid ""
+"use METHOD for rounding when scaling; METHOD can be: up, down, from-zero "
+"(default), towards-zero, nearest"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:58
+#, no-wrap
+msgid "B<--suffix>=I<\\,SUFFIX\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:62
+msgid "add SUFFIX to output numbers, and accept optional SUFFIX in input numbers"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:62
+#, no-wrap
+msgid "B<--to>=I<\\,UNIT\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:65
+msgid "auto-scale output numbers to UNITs; see UNIT below"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:65
+#, no-wrap
+msgid "B<--to-unit>=I<\\,N\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:68
+msgid "the output unit size (instead of the default 1)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:68
+#, no-wrap
+msgid "B<-z>, B<--zero-terminated>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:71
+msgid "line delimiter is NUL, not newline"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:71
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:74
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:74
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:77
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SS
+#: raw/coreutils/man1/numfmt.1:77
+#, no-wrap
+msgid "UNIT options:"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:78
+#, no-wrap
+msgid "none"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:81
+msgid "no auto-scaling is done; suffixes will trigger an error"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:81
+#, no-wrap
+msgid "auto"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:84
+msgid "accept optional single/two letter suffix:"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:89
+msgid "1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:89
+#, no-wrap
+msgid "si"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:92 raw/coreutils/man1/numfmt.1:99
+msgid "accept optional single letter suffix:"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:96
+msgid "1K = 1000, 1M = 1000000, \\&..."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:96
+#, no-wrap
+msgid "iec"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:103
+msgid "1K = 1024, 1M = 1048576, \\&..."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:103
+#, no-wrap
+msgid "iec-i"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:106
+msgid "accept optional two-letter suffix:"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:110
+msgid "1Ki = 1024, 1Mi = 1048576, \\&..."
+msgstr ""
+
+#. type: SS
+#: raw/coreutils/man1/numfmt.1:110
+#, no-wrap
+msgid "FIELDS supports cut(1) style field ranges:"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:111
+#, no-wrap
+msgid "N"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:114
+msgid "N'th field, counted from 1"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:114
+#, no-wrap
+msgid "N-"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:117
+msgid "from N'th field, to end of line"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:117
+#, no-wrap
+msgid "N-M"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:120
+msgid "from N'th to M'th field (inclusive)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:120
+#, no-wrap
+msgid "B<-M>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:123
+msgid "from first to M'th field (inclusive)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:123
+#, no-wrap
+msgid "-"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:126
+msgid "all fields"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:128
+msgid "Multiple fields/ranges can be separated with commas"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:134
+msgid ""
+"FORMAT must be suitable for printing one floating-point argument '%f'.  "
+"Optional quote (%'f) will enable B<--grouping> (if supported by current "
+"locale).  Optional width value (%10f) will pad output. Optional zero (%010f) "
+"width will zero pad the number. Optional negative values (%-10f) will left "
+"align.  Optional precision (%.1f) will override the input determined "
+"precision."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:141
+msgid ""
+"Exit status is 0 if all input numbers were successfully converted.  By "
+"default, numfmt will stop at the first conversion error with exit status 2.  "
+"With B<--invalid=>'fail' a warning is printed for each conversion error and "
+"the exit status is 2.  With B<--invalid=>'warn' each conversion error is "
+"diagnosed, but the exit status is 0.  With B<--invalid=>'ignore' conversion "
+"errors are not diagnosed and the exit status is 0."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:141
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:144
+msgid "CW<$ numfmt --to=si 1000>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:146
+msgid "-E<gt> \"1.0K\""
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:148
+msgid "CW<$ numfmt --to=iec 2048>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:150
+msgid "-E<gt> \"2.0K\""
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:152
+msgid "CW<$ numfmt --to=iec-i 4096>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:154
+msgid "-E<gt> \"4.0Ki\""
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:156
+msgid "CW<$ echo 1K | numfmt --from=si>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:158
+msgid "-E<gt> \"1000\""
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:160
+msgid "CW<$ echo 1K | numfmt --from=iec>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:162
+msgid "-E<gt> \"1024\""
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:164
+msgid "CW<$ df -B1 | numfmt --header --field 2-4 --to=si>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:166
+msgid "CW<$ ls -l | numfmt --header --field 5 --to=iec>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:168
+msgid "CW<$ ls -lh | numfmt --header --field 5 --from=iec --padding=10>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:170
+msgid "CW<$ ls -lh | numfmt --header --field 5 --from=iec --format %10f>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:170
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:172
+msgid "Written by Assaf Gordon."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:172
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:174
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:176
+msgid ""
+"Report numfmt translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:176
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:179
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:182
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:182
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:184
+msgid ""
+"Full documentation at: "
+"E<lt>http://www.gnu.org/software/coreutils/numfmtE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:185
+msgid "or available locally via: info \\(aq(coreutils) numfmt invocation\\(aq"
+msgstr ""

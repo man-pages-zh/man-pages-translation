@@ -1,0 +1,430 @@
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:41+0800\n"
+"PO-Revision-Date: 2016-12-16 14:26+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/wc.1, line: 2
+# File: raw/man1/wc.1, line: 2
+# File: raw/man1/wc.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/wc.1:2
+#, no-wrap
+msgid "WC"
+msgstr "WC"
+
+#
+# File: raw/man1/wc.1, line: 2
+# File: raw/man1/wc.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/wc.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/wc.1, line: 2
+# File: raw/man1/wc.1, line: 2
+# File: raw/man1/wc.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/wc.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/wc.1, line: 2
+# File: raw/man1/wc.1, line: 2
+# File: raw/man1/wc.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/wc.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "User Commands"
+
+#
+# File: raw/man1/wc.1, line: 3
+# File: raw/man1/wc.1, line: 3
+# File: raw/man1/wc.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/wc.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/wc.1, line: 5
+# File: raw/man1/wc.1, line: 5
+# File: raw/man1/wc.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:5
+msgid "wc - print newline, word, and byte counts for each file"
+msgstr "wc - 输出文件中的行数、单词数、字节数"
+
+#
+# File: raw/man1/wc.1, line: 5
+# File: raw/man1/wc.1, line: 5
+# File: raw/man1/wc.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/wc.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+# File: raw/man1/wc.1, line: 8
+# File: raw/man1/wc.1, line: 8
+# File: raw/man1/wc.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:8
+msgid "B<wc> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr "B<wc> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
+
+# File: raw/man1/wc.1, line: 11
+# File: raw/man1/wc.1, line: 11
+# File: raw/man1/wc.1, line: 11
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:11
+msgid "B<wc> [I<\\,OPTION\\/>]... I<\\,--files0-from=F\\/>"
+msgstr "B<wc> [I<\\,选项\\/>]... I<\\,--files0-from=F\\/>"
+
+#
+# File: raw/man1/wc.1, line: 11
+# File: raw/man1/wc.1, line: 11
+# File: raw/man1/wc.1, line: 11
+#. type: SH
+#: raw/coreutils/man1/wc.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+# File: raw/man1/wc.1, line: 17
+# File: raw/man1/wc.1, line: 17
+# File: raw/man1/wc.1, line: 17
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:17
+msgid ""
+"Print newline, word, and byte counts for each FILE, and a total line if more "
+"than one FILE is specified.  A word is a non-zero-length sequence of "
+"characters delimited by white space."
+msgstr ""
+"对每个文件输出行、单词和字节统计数，如果指定的文件多于一个，则同时输出总行"
+"数。单词指以空白字符分隔的长度非零的字符序列。"
+
+#
+# File: raw/man1/wc.1, line: 19
+# File: raw/man1/wc.1, line: 19
+# File: raw/man1/wc.1, line: 19
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:19
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
+
+#
+# File: raw/man1/wc.1, line: 22
+# File: raw/man1/wc.1, line: 22
+# File: raw/man1/wc.1, line: 22
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:22
+msgid ""
+"The options below may be used to select which counts are printed, always in "
+"the following order: newline, word, character, byte, maximum line length."
+msgstr ""
+"下列选项可被用来选择应该显示哪些计数信息。它们总是按照行数、单词数、字符数、"
+"字节数、最大行长度的顺序显示。"
+
+#
+# File: raw/man1/wc.1, line: 22
+# File: raw/man1/wc.1, line: 22
+# File: raw/man1/wc.1, line: 22
+#. type: TP
+#: raw/coreutils/man1/wc.1:22
+#, no-wrap
+msgid "B<-c>, B<--bytes>"
+msgstr "B<-c>, B<--bytes>"
+
+#
+# File: raw/man1/wc.1, line: 25
+# File: raw/man1/wc.1, line: 25
+# File: raw/man1/wc.1, line: 25
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:25
+msgid "print the byte counts"
+msgstr "输出字节统计数"
+
+#
+# File: raw/man1/wc.1, line: 25
+# File: raw/man1/wc.1, line: 25
+# File: raw/man1/wc.1, line: 25
+#. type: TP
+#: raw/coreutils/man1/wc.1:25
+#, no-wrap
+msgid "B<-m>, B<--chars>"
+msgstr "B<-m>, B<--chars>"
+
+#
+# File: raw/man1/wc.1, line: 28
+# File: raw/man1/wc.1, line: 28
+# File: raw/man1/wc.1, line: 28
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:28
+msgid "print the character counts"
+msgstr "输出字符统计数"
+
+#
+# File: raw/man1/wc.1, line: 28
+# File: raw/man1/wc.1, line: 28
+# File: raw/man1/wc.1, line: 28
+#. type: TP
+#: raw/coreutils/man1/wc.1:28
+#, no-wrap
+msgid "B<-l>, B<--lines>"
+msgstr "B<-l>, B<--lines>"
+
+#
+# File: raw/man1/wc.1, line: 31
+# File: raw/man1/wc.1, line: 31
+# File: raw/man1/wc.1, line: 31
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:31
+msgid "print the newline counts"
+msgstr "输出换行符统计数"
+
+# File: raw/man1/wc.1, line: 31
+# File: raw/man1/wc.1, line: 31
+# File: raw/man1/wc.1, line: 31
+#. type: TP
+#: raw/coreutils/man1/wc.1:31
+#, no-wrap
+msgid "B<--files0-from>=I<\\,F\\/>"
+msgstr "B<--files0-from>=I<\\,F\\/>"
+
+#
+# File: raw/man1/wc.1, line: 36
+# File: raw/man1/wc.1, line: 36
+# File: raw/man1/wc.1, line: 36
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:36
+msgid ""
+"read input from the files specified by NUL-terminated names in file F; If F "
+"is - then read names from standard input"
+msgstr ""
+"将文件F 中的以 NUL 结尾的名字所指定的文件作为待统计文件；如果文件F 为“-”，则"
+"从标准输入读取这些名字"
+
+#
+# File: raw/man1/wc.1, line: 36
+# File: raw/man1/wc.1, line: 36
+# File: raw/man1/wc.1, line: 36
+#. type: TP
+#: raw/coreutils/man1/wc.1:36
+#, no-wrap
+msgid "B<-L>, B<--max-line-length>"
+msgstr "B<-L>, B<--max-line-length>"
+
+# File: raw/man1/wc.1, line: 39
+#
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:39
+msgid "print the maximum display width"
+msgstr "打印最大显示宽度"
+
+#
+# File: raw/man1/wc.1, line: 39
+# File: raw/man1/wc.1, line: 39
+# File: raw/man1/wc.1, line: 39
+#. type: TP
+#: raw/coreutils/man1/wc.1:39
+#, no-wrap
+msgid "B<-w>, B<--words>"
+msgstr "B<-w>, B<--words>"
+
+#
+# File: raw/man1/wc.1, line: 42
+# File: raw/man1/wc.1, line: 42
+# File: raw/man1/wc.1, line: 42
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:42
+msgid "print the word counts"
+msgstr "输出单词统计数"
+
+#
+# File: raw/man1/wc.1, line: 42
+# File: raw/man1/wc.1, line: 42
+# File: raw/man1/wc.1, line: 42
+#. type: TP
+#: raw/coreutils/man1/wc.1:42
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/wc.1, line: 45
+# File: raw/man1/wc.1, line: 45
+# File: raw/man1/wc.1, line: 45
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:45
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/wc.1, line: 45
+# File: raw/man1/wc.1, line: 45
+# File: raw/man1/wc.1, line: 45
+#. type: TP
+#: raw/coreutils/man1/wc.1:45
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/wc.1, line: 48
+# File: raw/man1/wc.1, line: 48
+# File: raw/man1/wc.1, line: 48
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:48
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/wc.1, line: 48
+# File: raw/man1/wc.1, line: 48
+# File: raw/man1/wc.1, line: 48
+#. type: SH
+#: raw/coreutils/man1/wc.1:48
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/wc.1, line: 50
+# File: raw/man1/wc.1, line: 50
+# File: raw/man1/wc.1, line: 50
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:50
+msgid "Written by Paul Rubin and David MacKenzie."
+msgstr "由 Paul Rubin 和 David MacKenzie 编写。"
+
+#
+# File: raw/man1/wc.1, line: 50
+# File: raw/man1/wc.1, line: 50
+# File: raw/man1/wc.1, line: 50
+#. type: SH
+#: raw/coreutils/man1/wc.1:50
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/wc.1, line: 52
+# File: raw/man1/wc.1, line: 52
+# File: raw/man1/wc.1, line: 52
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:52
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/wc.1, line: 54
+# File: raw/man1/wc.1, line: 54
+# File: raw/man1/wc.1, line: 54
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:54
+msgid ""
+"Report wc translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 wc 的翻译错"
+"误。"
+
+#
+# File: raw/man1/wc.1, line: 54
+# File: raw/man1/wc.1, line: 54
+# File: raw/man1/wc.1, line: 54
+#. type: SH
+#: raw/coreutils/man1/wc.1:54
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+# File: raw/man1/wc.1, line: 57
+# File: raw/man1/wc.1, line: 57
+# File: raw/man1/wc.1, line: 57
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:57
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/wc.1, line: 60
+# File: raw/man1/wc.1, line: 60
+# File: raw/man1/wc.1, line: 60
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:60
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/wc.1, line: 60
+# File: raw/man1/wc.1, line: 60
+# File: raw/man1/wc.1, line: 60
+#. type: SH
+#: raw/coreutils/man1/wc.1:60
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/wc.1, line: 62
+# File: raw/man1/wc.1, line: 62
+# File: raw/man1/wc.1, line: 62
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:62
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/wcE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/wcE<gt>"
+
+#
+# File: raw/man1/wc.1, line: 63
+# File: raw/man1/wc.1, line: 63
+# File: raw/man1/wc.1, line: 63
+#. type: Plain text
+#: raw/coreutils/man1/wc.1:63
+msgid "or available locally via: info \\(aq(coreutils) wc invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) wc invocation\\(aq"
+
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"
+
+#
+#
+#
+#~ msgid "print the length of the longest line"
+#~ msgstr "输出最长的行的长度"

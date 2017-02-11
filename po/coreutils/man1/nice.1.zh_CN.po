@@ -1,0 +1,367 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2016-12-15 20:49+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/nice.1:2
+#, no-wrap
+msgid "NICE"
+msgstr "NICE"
+
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/nice.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/nice.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+# File: raw/man1/nice.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/nice.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#
+# File: raw/man1/nice.1, line: 3
+# File: raw/man1/nice.1, line: 3
+# File: raw/man1/nice.1, line: 3
+# File: raw/man1/nice.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/nice.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/nice.1, line: 5
+# File: raw/man1/nice.1, line: 5
+# File: raw/man1/nice.1, line: 5
+# File: raw/man1/nice.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:5
+msgid "nice - run a program with modified scheduling priority"
+msgstr "nice - 改变执行程序的调度优先级"
+
+#
+# File: raw/man1/nice.1, line: 5
+# File: raw/man1/nice.1, line: 5
+# File: raw/man1/nice.1, line: 5
+# File: raw/man1/nice.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/nice.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/nice.1, line: 8
+# File: raw/man1/nice.1, line: 8
+# File: raw/man1/nice.1, line: 8
+# File: raw/man1/nice.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:8
+msgid "B<nice> [I<\\,OPTION\\/>] [I<\\,COMMAND \\/>[I<\\,ARG\\/>]...]"
+msgstr "B<nice> [I<\\,选项\\/>] [I<\\,命令 \\/>[I<\\,参数\\/>]...]"
+
+#
+# File: raw/man1/nice.1, line: 8
+# File: raw/man1/nice.1, line: 8
+# File: raw/man1/nice.1, line: 8
+# File: raw/man1/nice.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/nice.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/nice.1, line: 14
+# File: raw/man1/nice.1, line: 14
+# File: raw/man1/nice.1, line: 14
+# File: raw/man1/nice.1, line: 14
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:14
+msgid ""
+"Run COMMAND with an adjusted niceness, which affects process scheduling.  "
+"With no COMMAND, print the current niceness.  Niceness values range from "
+"B<-20> (most favorable to the process) to 19 (least favorable to the "
+"process)."
+msgstr ""
+"以调整过的优先级运行命令以影响进程调度。如果未给出命令，则显示当前的优先级。"
+"优先级的值的范围从B<-20>（最高级）到19（最低级）。"
+
+#
+# File: raw/man1/nice.1, line: 16
+# File: raw/man1/nice.1, line: 16
+# File: raw/man1/nice.1, line: 16
+# File: raw/man1/nice.1, line: 16
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:16
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "必选参数对长短选项同时适用。"
+
+#
+# File: raw/man1/nice.1, line: 16
+# File: raw/man1/nice.1, line: 16
+# File: raw/man1/nice.1, line: 16
+# File: raw/man1/nice.1, line: 16
+#. type: TP
+#: raw/coreutils/man1/nice.1:16
+#, no-wrap
+msgid "B<-n>, B<--adjustment>=I<\\,N\\/>"
+msgstr "B<-n>, B<--adjustment>=I<\\,N\\/>"
+
+#
+# File: raw/man1/nice.1, line: 19
+# File: raw/man1/nice.1, line: 19
+# File: raw/man1/nice.1, line: 19
+# File: raw/man1/nice.1, line: 19
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:19
+msgid "add integer N to the niceness (default 10)"
+msgstr "给优先级加上整数N（默认为10）"
+
+#
+# File: raw/man1/nice.1, line: 19
+# File: raw/man1/nice.1, line: 19
+# File: raw/man1/nice.1, line: 19
+# File: raw/man1/nice.1, line: 19
+#. type: TP
+#: raw/coreutils/man1/nice.1:19
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/nice.1, line: 22
+# File: raw/man1/nice.1, line: 22
+# File: raw/man1/nice.1, line: 22
+# File: raw/man1/nice.1, line: 22
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:22
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/nice.1, line: 22
+# File: raw/man1/nice.1, line: 22
+# File: raw/man1/nice.1, line: 22
+# File: raw/man1/nice.1, line: 22
+#. type: TP
+#: raw/coreutils/man1/nice.1:22
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/nice.1, line: 25
+# File: raw/man1/nice.1, line: 25
+# File: raw/man1/nice.1, line: 25
+# File: raw/man1/nice.1, line: 25
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:25
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/nice.1, line: 29
+# File: raw/man1/nice.1, line: 29
+# File: raw/man1/nice.1, line: 29
+# File: raw/man1/nice.1, line: 29
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:29
+msgid ""
+"NOTE: your shell may have its own version of nice, which usually supersedes "
+"the version described here.  Please refer to your shell's documentation for "
+"details about the options it supports."
+msgstr ""
+"注意：您的 shell 可能内置了自己的 nice 程序版本，它会覆盖这里所提及的相应版"
+"本。请查阅您的 shell 文档获知它所支持的选项。"
+
+#
+# File: raw/man1/nice.1, line: 29
+# File: raw/man1/nice.1, line: 29
+# File: raw/man1/nice.1, line: 29
+# File: raw/man1/nice.1, line: 29
+#. type: SH
+#: raw/coreutils/man1/nice.1:29
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/nice.1, line: 31
+# File: raw/man1/nice.1, line: 31
+# File: raw/man1/nice.1, line: 31
+# File: raw/man1/nice.1, line: 31
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:31
+msgid "Written by David MacKenzie."
+msgstr "由 David MacKenzie 编写。"
+
+#
+# File: raw/man1/nice.1, line: 31
+# File: raw/man1/nice.1, line: 31
+# File: raw/man1/nice.1, line: 31
+# File: raw/man1/nice.1, line: 31
+#. type: SH
+#: raw/coreutils/man1/nice.1:31
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/nice.1, line: 33
+# File: raw/man1/nice.1, line: 33
+# File: raw/man1/nice.1, line: 33
+# File: raw/man1/nice.1, line: 33
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:33
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/nice.1, line: 35
+# File: raw/man1/nice.1, line: 35
+# File: raw/man1/nice.1, line: 35
+# File: raw/man1/nice.1, line: 35
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:35
+msgid ""
+"Report nice translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 nice 的翻译"
+"错误。"
+
+#
+# File: raw/man1/nice.1, line: 35
+# File: raw/man1/nice.1, line: 35
+# File: raw/man1/nice.1, line: 35
+# File: raw/man1/nice.1, line: 35
+#. type: SH
+#: raw/coreutils/man1/nice.1:35
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/nice.1, line: 38
+# File: raw/man1/nice.1, line: 38
+# File: raw/man1/nice.1, line: 38
+# File: raw/man1/nice.1, line: 38
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:38
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/nice.1, line: 41
+# File: raw/man1/nice.1, line: 41
+# File: raw/man1/nice.1, line: 41
+# File: raw/man1/nice.1, line: 41
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:41
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/nice.1, line: 41
+# File: raw/man1/nice.1, line: 41
+# File: raw/man1/nice.1, line: 41
+# File: raw/man1/nice.1, line: 41
+#. type: SH
+#: raw/coreutils/man1/nice.1:41
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/nice.1, line: 43
+# File: raw/man1/nice.1, line: 43
+# File: raw/man1/nice.1, line: 43
+# File: raw/man1/nice.1, line: 43
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:43
+msgid "nice(2), renice(1)"
+msgstr "nice(2), renice(1)"
+
+#
+# File: raw/man1/nice.1, line: 46
+# File: raw/man1/nice.1, line: 46
+# File: raw/man1/nice.1, line: 46
+# File: raw/man1/nice.1, line: 46
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:46
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/niceE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/niceE<gt>"
+
+#
+# File: raw/man1/nice.1, line: 47
+# File: raw/man1/nice.1, line: 47
+# File: raw/man1/nice.1, line: 47
+# File: raw/man1/nice.1, line: 47
+#. type: Plain text
+#: raw/coreutils/man1/nice.1:47
+msgid "or available locally via: info \\(aq(coreutils) nice invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) nice invocation\\(aq"
+
+#
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

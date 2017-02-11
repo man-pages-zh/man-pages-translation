@@ -1,18 +1,30 @@
 #!/bin/sh
 
-# update-po -- wrapper for msgmerge and msginit.
+# update-po -- update current .po files using .pot files.
 #
-# Update current .po files using .pot files.
+# Only a wrapper for msgmerge and msginit.
+
+_MAN_LANG="zh_CN"
 
 set -e
 
-for item in template/*.pot; do
-        i="$(printf "%s" "$(basename "${item}")" | sed 's/....$//')"
-    if [ -e po/"${i}".zh_CN.po ]; then
+for potitem in templates/*/man*/*.pot; do
+    i="$(printf "%s" "$(basename "${potitem}")" | sed 's/....$//')" # "....$" -> ".pot$"
+    echo "i is ${i}."
+    poitem="po/$(dirname "${potitem}" | cut -d\/ -f2- )/${i}.${_MAN_LANG}.po"
+    rawitem="raw/$(dirname "${potitem}" | cut -d\/ -f2- )/${i}"
+    printf "%s\n" "now poitem is ${poitem}."
+    mkdir -p "$(dirname "${poitem}")"
+    if [ -e "${poitem}" ]; then
         printf "%s" "${i}"
-        msgmerge -U --strict po/"${i}".zh_CN.po template/"${i}".pot
+        #msgmerge -U --strict "${poitem}" "${potitem}"
+        #
+        # NO, we don't use msgmerge anymore.
+        # msgmerge cannot recognize comment styles, which causes problems.
+        # we would directly use raw file.
+        po4a-updatepo -f man -m "${rawitem}" -M utf8 -p "${poitem}"
     else
-        (>&2 printf "%s does not exist, trying to create one..." "${i}.zh_CN.po")
-        msginit --no-translator -i template/"${i}".pot -o po/"${i}".zh_CN.po -l "zh_CN.UTF-8"
+        (>&2 printf "%s does not exist, trying to create one..." "${i}.${_MAN_LANG}.po")
+        msginit --no-translator -i "${potitem}" -o "${poitem}" -l "${_MAN_LANG}.UTF-8"
     fi
 done

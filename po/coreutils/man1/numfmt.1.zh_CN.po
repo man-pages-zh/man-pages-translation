@@ -1,0 +1,1097 @@
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2015-04-26 11:29+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, no-wrap
+msgid "NUMFMT"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, fuzzy, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.23"
+
+#
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+# File: raw/man1/numfmt.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/numfmt.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "User Commands"
+
+#
+# File: raw/man1/numfmt.1, line: 3
+# File: raw/man1/numfmt.1, line: 3
+# File: raw/man1/numfmt.1, line: 3
+# File: raw/man1/numfmt.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/numfmt.1, line: 5
+# File: raw/man1/numfmt.1, line: 5
+# File: raw/man1/numfmt.1, line: 5
+# File: raw/man1/numfmt.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:5
+msgid "numfmt - Convert numbers from/to human-readable strings"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 5
+# File: raw/man1/numfmt.1, line: 5
+# File: raw/man1/numfmt.1, line: 5
+# File: raw/man1/numfmt.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/numfmt.1, line: 8
+# File: raw/man1/numfmt.1, line: 8
+# File: raw/man1/numfmt.1, line: 8
+# File: raw/man1/numfmt.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:8
+msgid "B<numfmt> [I<\\,OPTION\\/>]... [I<\\,NUMBER\\/>]..."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 8
+# File: raw/man1/numfmt.1, line: 8
+# File: raw/man1/numfmt.1, line: 8
+# File: raw/man1/numfmt.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/numfmt.1, line: 12
+# File: raw/man1/numfmt.1, line: 12
+# File: raw/man1/numfmt.1, line: 12
+# File: raw/man1/numfmt.1, line: 12
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:12
+msgid ""
+"Reformat NUMBER(s), or the numbers from standard input if none are specified."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 14
+# File: raw/man1/numfmt.1, line: 14
+# File: raw/man1/numfmt.1, line: 14
+# File: raw/man1/numfmt.1, line: 14
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:14
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "必选参数对长短选项同时适用。"
+
+#
+# File: raw/man1/numfmt.1, line: 14
+# File: raw/man1/numfmt.1, line: 14
+# File: raw/man1/numfmt.1, line: 14
+# File: raw/man1/numfmt.1, line: 14
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:14
+#, no-wrap
+msgid "B<--debug>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 17
+# File: raw/man1/numfmt.1, line: 17
+# File: raw/man1/numfmt.1, line: 17
+# File: raw/man1/numfmt.1, line: 17
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:17
+msgid "print warnings about invalid input"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 17
+# File: raw/man1/numfmt.1, line: 17
+# File: raw/man1/numfmt.1, line: 17
+# File: raw/man1/numfmt.1, line: 17
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:17
+#, no-wrap
+msgid "B<-d>, B<--delimiter>=I<\\,X\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 20
+# File: raw/man1/numfmt.1, line: 20
+# File: raw/man1/numfmt.1, line: 20
+# File: raw/man1/numfmt.1, line: 20
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:20
+msgid "use X instead of whitespace for field delimiter"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 20
+# File: raw/man1/numfmt.1, line: 20
+# File: raw/man1/numfmt.1, line: 20
+# File: raw/man1/numfmt.1, line: 20
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:20
+#, no-wrap
+msgid "B<--field>=I<\\,FIELDS\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 24
+# File: raw/man1/numfmt.1, line: 24
+# File: raw/man1/numfmt.1, line: 24
+# File: raw/man1/numfmt.1, line: 24
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:24
+msgid "replace the numbers in these input fields (default=1)  see FIELDS below"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 24
+# File: raw/man1/numfmt.1, line: 24
+# File: raw/man1/numfmt.1, line: 24
+# File: raw/man1/numfmt.1, line: 24
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:24
+#, no-wrap
+msgid "B<--format>=I<\\,FORMAT\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 28
+# File: raw/man1/numfmt.1, line: 28
+# File: raw/man1/numfmt.1, line: 28
+# File: raw/man1/numfmt.1, line: 28
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:28
+msgid "use printf style floating-point FORMAT; see FORMAT below for details"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 28
+# File: raw/man1/numfmt.1, line: 28
+# File: raw/man1/numfmt.1, line: 28
+# File: raw/man1/numfmt.1, line: 28
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:28
+#, no-wrap
+msgid "B<--from>=I<\\,UNIT\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 32
+# File: raw/man1/numfmt.1, line: 32
+# File: raw/man1/numfmt.1, line: 32
+# File: raw/man1/numfmt.1, line: 32
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:32
+msgid "auto-scale input numbers to UNITs; default is 'none'; see UNIT below"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 32
+# File: raw/man1/numfmt.1, line: 32
+# File: raw/man1/numfmt.1, line: 32
+# File: raw/man1/numfmt.1, line: 32
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:32
+#, no-wrap
+msgid "B<--from-unit>=I<\\,N\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 35
+# File: raw/man1/numfmt.1, line: 35
+# File: raw/man1/numfmt.1, line: 35
+# File: raw/man1/numfmt.1, line: 35
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:35
+msgid "specify the input unit size (instead of the default 1)"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 35
+# File: raw/man1/numfmt.1, line: 35
+# File: raw/man1/numfmt.1, line: 35
+# File: raw/man1/numfmt.1, line: 35
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:35
+#, no-wrap
+msgid "B<--grouping>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 39
+# File: raw/man1/numfmt.1, line: 39
+# File: raw/man1/numfmt.1, line: 39
+# File: raw/man1/numfmt.1, line: 39
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:39
+msgid ""
+"use locale-defined grouping of digits, e.g. 1,000,000 (which means it has no "
+"effect in the C/POSIX locale)"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 39
+# File: raw/man1/numfmt.1, line: 39
+# File: raw/man1/numfmt.1, line: 39
+# File: raw/man1/numfmt.1, line: 39
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:39
+#, no-wrap
+msgid "B<--header>[=I<\\,N\\/>]"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 43
+# File: raw/man1/numfmt.1, line: 43
+# File: raw/man1/numfmt.1, line: 43
+# File: raw/man1/numfmt.1, line: 43
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:43
+msgid ""
+"print (without converting) the first N header lines; N defaults to 1 if not "
+"specified"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 43
+# File: raw/man1/numfmt.1, line: 43
+# File: raw/man1/numfmt.1, line: 43
+# File: raw/man1/numfmt.1, line: 43
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:43
+#, no-wrap
+msgid "B<--invalid>=I<\\,MODE\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 47
+# File: raw/man1/numfmt.1, line: 47
+# File: raw/man1/numfmt.1, line: 47
+# File: raw/man1/numfmt.1, line: 47
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:47
+msgid ""
+"failure mode for invalid numbers: MODE can be: abort (default), fail, warn, "
+"ignore"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 47
+# File: raw/man1/numfmt.1, line: 47
+# File: raw/man1/numfmt.1, line: 47
+# File: raw/man1/numfmt.1, line: 47
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:47
+#, no-wrap
+msgid "B<--padding>=I<\\,N\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 54
+# File: raw/man1/numfmt.1, line: 54
+# File: raw/man1/numfmt.1, line: 54
+# File: raw/man1/numfmt.1, line: 54
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:54
+msgid ""
+"pad the output to N characters; positive N will right-align; negative N will "
+"left-align; padding is ignored if the output is wider than N; the default is "
+"to automatically pad if a whitespace is found"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 54
+# File: raw/man1/numfmt.1, line: 54
+# File: raw/man1/numfmt.1, line: 54
+# File: raw/man1/numfmt.1, line: 54
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:54
+#, no-wrap
+msgid "B<--round>=I<\\,METHOD\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 58
+# File: raw/man1/numfmt.1, line: 58
+# File: raw/man1/numfmt.1, line: 58
+# File: raw/man1/numfmt.1, line: 58
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:58
+msgid ""
+"use METHOD for rounding when scaling; METHOD can be: up, down, from-zero "
+"(default), towards-zero, nearest"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 58
+# File: raw/man1/numfmt.1, line: 58
+# File: raw/man1/numfmt.1, line: 58
+# File: raw/man1/numfmt.1, line: 58
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:58
+#, no-wrap
+msgid "B<--suffix>=I<\\,SUFFIX\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 62
+# File: raw/man1/numfmt.1, line: 62
+# File: raw/man1/numfmt.1, line: 62
+# File: raw/man1/numfmt.1, line: 62
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:62
+msgid ""
+"add SUFFIX to output numbers, and accept optional SUFFIX in input numbers"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 62
+# File: raw/man1/numfmt.1, line: 62
+# File: raw/man1/numfmt.1, line: 62
+# File: raw/man1/numfmt.1, line: 62
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:62
+#, no-wrap
+msgid "B<--to>=I<\\,UNIT\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 65
+# File: raw/man1/numfmt.1, line: 65
+# File: raw/man1/numfmt.1, line: 65
+# File: raw/man1/numfmt.1, line: 65
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:65
+msgid "auto-scale output numbers to UNITs; see UNIT below"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 65
+# File: raw/man1/numfmt.1, line: 65
+# File: raw/man1/numfmt.1, line: 65
+# File: raw/man1/numfmt.1, line: 65
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:65
+#, no-wrap
+msgid "B<--to-unit>=I<\\,N\\/>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 68
+# File: raw/man1/numfmt.1, line: 68
+# File: raw/man1/numfmt.1, line: 68
+# File: raw/man1/numfmt.1, line: 68
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:68
+msgid "the output unit size (instead of the default 1)"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 68
+# File: raw/man1/numfmt.1, line: 68
+# File: raw/man1/numfmt.1, line: 68
+# File: raw/man1/numfmt.1, line: 68
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:68
+#, no-wrap
+msgid "B<-z>, B<--zero-terminated>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 71
+# File: raw/man1/numfmt.1, line: 71
+# File: raw/man1/numfmt.1, line: 71
+# File: raw/man1/numfmt.1, line: 71
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:71
+msgid "line delimiter is NUL, not newline"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 71
+# File: raw/man1/numfmt.1, line: 71
+# File: raw/man1/numfmt.1, line: 71
+# File: raw/man1/numfmt.1, line: 71
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:71
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/numfmt.1, line: 74
+# File: raw/man1/numfmt.1, line: 74
+# File: raw/man1/numfmt.1, line: 74
+# File: raw/man1/numfmt.1, line: 74
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:74
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/numfmt.1, line: 74
+# File: raw/man1/numfmt.1, line: 74
+# File: raw/man1/numfmt.1, line: 74
+# File: raw/man1/numfmt.1, line: 74
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:74
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/numfmt.1, line: 77
+# File: raw/man1/numfmt.1, line: 77
+# File: raw/man1/numfmt.1, line: 77
+# File: raw/man1/numfmt.1, line: 77
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:77
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/numfmt.1, line: 77
+# File: raw/man1/numfmt.1, line: 77
+# File: raw/man1/numfmt.1, line: 77
+# File: raw/man1/numfmt.1, line: 77
+#. type: SS
+#: raw/coreutils/man1/numfmt.1:77
+#, no-wrap
+msgid "UNIT options:"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 78
+# File: raw/man1/numfmt.1, line: 78
+# File: raw/man1/numfmt.1, line: 78
+# File: raw/man1/numfmt.1, line: 78
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:78
+#, no-wrap
+msgid "none"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 81
+# File: raw/man1/numfmt.1, line: 81
+# File: raw/man1/numfmt.1, line: 81
+# File: raw/man1/numfmt.1, line: 81
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:81
+msgid "no auto-scaling is done; suffixes will trigger an error"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 81
+# File: raw/man1/numfmt.1, line: 81
+# File: raw/man1/numfmt.1, line: 81
+# File: raw/man1/numfmt.1, line: 81
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:81
+#, no-wrap
+msgid "auto"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 84
+# File: raw/man1/numfmt.1, line: 84
+# File: raw/man1/numfmt.1, line: 84
+# File: raw/man1/numfmt.1, line: 84
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:84
+msgid "accept optional single/two letter suffix:"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 89
+# File: raw/man1/numfmt.1, line: 89
+# File: raw/man1/numfmt.1, line: 89
+# File: raw/man1/numfmt.1, line: 89
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:89
+msgid "1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 89
+# File: raw/man1/numfmt.1, line: 89
+# File: raw/man1/numfmt.1, line: 89
+# File: raw/man1/numfmt.1, line: 89
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:89
+#, no-wrap
+msgid "si"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 92
+# File: raw/man1/numfmt.1, line: 99
+# File: raw/man1/numfmt.1, line: 92
+# File: raw/man1/numfmt.1, line: 99
+# File: raw/man1/numfmt.1, line: 92
+# File: raw/man1/numfmt.1, line: 99
+# File: raw/man1/numfmt.1, line: 92
+# File: raw/man1/numfmt.1, line: 99
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:92 raw/coreutils/man1/numfmt.1:99
+msgid "accept optional single letter suffix:"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 96
+# File: raw/man1/numfmt.1, line: 96
+# File: raw/man1/numfmt.1, line: 96
+# File: raw/man1/numfmt.1, line: 96
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:96
+msgid "1K = 1000, 1M = 1000000, \\&..."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 96
+# File: raw/man1/numfmt.1, line: 96
+# File: raw/man1/numfmt.1, line: 96
+# File: raw/man1/numfmt.1, line: 96
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:96
+#, no-wrap
+msgid "iec"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 103
+# File: raw/man1/numfmt.1, line: 103
+# File: raw/man1/numfmt.1, line: 103
+# File: raw/man1/numfmt.1, line: 103
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:103
+msgid "1K = 1024, 1M = 1048576, \\&..."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 103
+# File: raw/man1/numfmt.1, line: 103
+# File: raw/man1/numfmt.1, line: 103
+# File: raw/man1/numfmt.1, line: 103
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:103
+#, no-wrap
+msgid "iec-i"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 106
+# File: raw/man1/numfmt.1, line: 106
+# File: raw/man1/numfmt.1, line: 106
+# File: raw/man1/numfmt.1, line: 106
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:106
+msgid "accept optional two-letter suffix:"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 110
+# File: raw/man1/numfmt.1, line: 110
+# File: raw/man1/numfmt.1, line: 110
+# File: raw/man1/numfmt.1, line: 110
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:110
+msgid "1Ki = 1024, 1Mi = 1048576, \\&..."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 110
+# File: raw/man1/numfmt.1, line: 110
+# File: raw/man1/numfmt.1, line: 110
+# File: raw/man1/numfmt.1, line: 110
+#. type: SS
+#: raw/coreutils/man1/numfmt.1:110
+#, no-wrap
+msgid "FIELDS supports cut(1) style field ranges:"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 111
+# File: raw/man1/numfmt.1, line: 111
+# File: raw/man1/numfmt.1, line: 111
+# File: raw/man1/numfmt.1, line: 111
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:111
+#, no-wrap
+msgid "N"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 114
+# File: raw/man1/numfmt.1, line: 114
+# File: raw/man1/numfmt.1, line: 114
+# File: raw/man1/numfmt.1, line: 114
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:114
+msgid "N'th field, counted from 1"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 114
+# File: raw/man1/numfmt.1, line: 114
+# File: raw/man1/numfmt.1, line: 114
+# File: raw/man1/numfmt.1, line: 114
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:114
+#, no-wrap
+msgid "N-"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 117
+# File: raw/man1/numfmt.1, line: 117
+# File: raw/man1/numfmt.1, line: 117
+# File: raw/man1/numfmt.1, line: 117
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:117
+msgid "from N'th field, to end of line"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 117
+# File: raw/man1/numfmt.1, line: 117
+# File: raw/man1/numfmt.1, line: 117
+# File: raw/man1/numfmt.1, line: 117
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:117
+#, no-wrap
+msgid "N-M"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 120
+# File: raw/man1/numfmt.1, line: 120
+# File: raw/man1/numfmt.1, line: 120
+# File: raw/man1/numfmt.1, line: 120
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:120
+msgid "from N'th to M'th field (inclusive)"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 120
+# File: raw/man1/numfmt.1, line: 120
+# File: raw/man1/numfmt.1, line: 120
+# File: raw/man1/numfmt.1, line: 120
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:120
+#, no-wrap
+msgid "B<-M>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 123
+# File: raw/man1/numfmt.1, line: 123
+# File: raw/man1/numfmt.1, line: 123
+# File: raw/man1/numfmt.1, line: 123
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:123
+msgid "from first to M'th field (inclusive)"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 123
+# File: raw/man1/numfmt.1, line: 123
+# File: raw/man1/numfmt.1, line: 123
+# File: raw/man1/numfmt.1, line: 123
+#. type: TP
+#: raw/coreutils/man1/numfmt.1:123
+#, no-wrap
+msgid "-"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 126
+# File: raw/man1/numfmt.1, line: 126
+# File: raw/man1/numfmt.1, line: 126
+# File: raw/man1/numfmt.1, line: 126
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:126
+msgid "all fields"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 128
+# File: raw/man1/numfmt.1, line: 128
+# File: raw/man1/numfmt.1, line: 128
+# File: raw/man1/numfmt.1, line: 128
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:128
+msgid "Multiple fields/ranges can be separated with commas"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 134
+# File: raw/man1/numfmt.1, line: 134
+# File: raw/man1/numfmt.1, line: 134
+# File: raw/man1/numfmt.1, line: 134
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:134
+msgid ""
+"FORMAT must be suitable for printing one floating-point argument '%f'.  "
+"Optional quote (%'f) will enable B<--grouping> (if supported by current "
+"locale).  Optional width value (%10f) will pad output. Optional zero (%010f) "
+"width will zero pad the number. Optional negative values (%-10f) will left "
+"align.  Optional precision (%.1f) will override the input determined "
+"precision."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 141
+# File: raw/man1/numfmt.1, line: 141
+# File: raw/man1/numfmt.1, line: 141
+# File: raw/man1/numfmt.1, line: 141
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:141
+msgid ""
+"Exit status is 0 if all input numbers were successfully converted.  By "
+"default, numfmt will stop at the first conversion error with exit status 2.  "
+"With B<--invalid=>'fail' a warning is printed for each conversion error and "
+"the exit status is 2.  With B<--invalid=>'warn' each conversion error is "
+"diagnosed, but the exit status is 0.  With B<--invalid=>'ignore' conversion "
+"errors are not diagnosed and the exit status is 0."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 141
+# File: raw/man1/numfmt.1, line: 141
+# File: raw/man1/numfmt.1, line: 141
+# File: raw/man1/numfmt.1, line: 141
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:141
+#, no-wrap
+msgid "EXAMPLES"
+msgstr "范例"
+
+#
+# File: raw/man1/numfmt.1, line: 144
+# File: raw/man1/numfmt.1, line: 144
+# File: raw/man1/numfmt.1, line: 144
+# File: raw/man1/numfmt.1, line: 144
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:144
+msgid "CW<$ numfmt --to=si 1000>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 146
+# File: raw/man1/numfmt.1, line: 146
+# File: raw/man1/numfmt.1, line: 146
+# File: raw/man1/numfmt.1, line: 146
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:146
+msgid "-E<gt> \"1.0K\""
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 148
+# File: raw/man1/numfmt.1, line: 148
+# File: raw/man1/numfmt.1, line: 148
+# File: raw/man1/numfmt.1, line: 148
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:148
+msgid "CW<$ numfmt --to=iec 2048>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 150
+# File: raw/man1/numfmt.1, line: 150
+# File: raw/man1/numfmt.1, line: 150
+# File: raw/man1/numfmt.1, line: 150
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:150
+msgid "-E<gt> \"2.0K\""
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 152
+# File: raw/man1/numfmt.1, line: 152
+# File: raw/man1/numfmt.1, line: 152
+# File: raw/man1/numfmt.1, line: 152
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:152
+msgid "CW<$ numfmt --to=iec-i 4096>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 154
+# File: raw/man1/numfmt.1, line: 154
+# File: raw/man1/numfmt.1, line: 154
+# File: raw/man1/numfmt.1, line: 154
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:154
+msgid "-E<gt> \"4.0Ki\""
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 156
+# File: raw/man1/numfmt.1, line: 156
+# File: raw/man1/numfmt.1, line: 156
+# File: raw/man1/numfmt.1, line: 156
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:156
+msgid "CW<$ echo 1K | numfmt --from=si>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 158
+# File: raw/man1/numfmt.1, line: 158
+# File: raw/man1/numfmt.1, line: 158
+# File: raw/man1/numfmt.1, line: 158
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:158
+msgid "-E<gt> \"1000\""
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 160
+# File: raw/man1/numfmt.1, line: 160
+# File: raw/man1/numfmt.1, line: 160
+# File: raw/man1/numfmt.1, line: 160
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:160
+msgid "CW<$ echo 1K | numfmt --from=iec>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 162
+# File: raw/man1/numfmt.1, line: 162
+# File: raw/man1/numfmt.1, line: 162
+# File: raw/man1/numfmt.1, line: 162
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:162
+msgid "-E<gt> \"1024\""
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 164
+# File: raw/man1/numfmt.1, line: 164
+# File: raw/man1/numfmt.1, line: 164
+# File: raw/man1/numfmt.1, line: 164
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:164
+msgid "CW<$ df -B1 | numfmt --header --field 2-4 --to=si>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 166
+# File: raw/man1/numfmt.1, line: 166
+# File: raw/man1/numfmt.1, line: 166
+# File: raw/man1/numfmt.1, line: 166
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:166
+msgid "CW<$ ls -l | numfmt --header --field 5 --to=iec>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 168
+# File: raw/man1/numfmt.1, line: 168
+# File: raw/man1/numfmt.1, line: 168
+# File: raw/man1/numfmt.1, line: 168
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:168
+msgid "CW<$ ls -lh | numfmt --header --field 5 --from=iec --padding=10>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 170
+# File: raw/man1/numfmt.1, line: 170
+# File: raw/man1/numfmt.1, line: 170
+# File: raw/man1/numfmt.1, line: 170
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:170
+msgid "CW<$ ls -lh | numfmt --header --field 5 --from=iec --format %10f>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 170
+# File: raw/man1/numfmt.1, line: 170
+# File: raw/man1/numfmt.1, line: 170
+# File: raw/man1/numfmt.1, line: 170
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:170
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/numfmt.1, line: 172
+# File: raw/man1/numfmt.1, line: 172
+# File: raw/man1/numfmt.1, line: 172
+# File: raw/man1/numfmt.1, line: 172
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:172
+msgid "Written by Assaf Gordon."
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 172
+# File: raw/man1/numfmt.1, line: 172
+# File: raw/man1/numfmt.1, line: 172
+# File: raw/man1/numfmt.1, line: 172
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:172
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/numfmt.1, line: 174
+# File: raw/man1/numfmt.1, line: 174
+# File: raw/man1/numfmt.1, line: 174
+# File: raw/man1/numfmt.1, line: 174
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:174
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/numfmt.1, line: 176
+# File: raw/man1/numfmt.1, line: 176
+# File: raw/man1/numfmt.1, line: 176
+# File: raw/man1/numfmt.1, line: 176
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:176
+msgid ""
+"Report numfmt translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 176
+# File: raw/man1/numfmt.1, line: 176
+# File: raw/man1/numfmt.1, line: 176
+# File: raw/man1/numfmt.1, line: 176
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:176
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/numfmt.1, line: 179
+# File: raw/man1/numfmt.1, line: 179
+# File: raw/man1/numfmt.1, line: 179
+# File: raw/man1/numfmt.1, line: 179
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:179
+#, fuzzy
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/numfmt.1, line: 182
+# File: raw/man1/numfmt.1, line: 182
+# File: raw/man1/numfmt.1, line: 182
+# File: raw/man1/numfmt.1, line: 182
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:182
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/numfmt.1, line: 182
+# File: raw/man1/numfmt.1, line: 182
+# File: raw/man1/numfmt.1, line: 182
+# File: raw/man1/numfmt.1, line: 182
+#. type: SH
+#: raw/coreutils/man1/numfmt.1:182
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/numfmt.1, line: 184
+# File: raw/man1/numfmt.1, line: 184
+# File: raw/man1/numfmt.1, line: 184
+# File: raw/man1/numfmt.1, line: 184
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:184
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/numfmtE<gt>"
+msgstr ""
+
+#
+# File: raw/man1/numfmt.1, line: 185
+# File: raw/man1/numfmt.1, line: 185
+# File: raw/man1/numfmt.1, line: 185
+# File: raw/man1/numfmt.1, line: 185
+#. type: Plain text
+#: raw/coreutils/man1/numfmt.1:185
+msgid "or available locally via: info \\(aq(coreutils) numfmt invocation\\(aq"
+msgstr ""
+
+#
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

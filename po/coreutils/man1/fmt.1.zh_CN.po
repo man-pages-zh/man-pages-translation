@@ -1,0 +1,463 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2017-01-08 17:40+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+# File: raw/man1/fmt.1, line: 2
+#
+#. type: TH
+#: raw/coreutils/man1/fmt.1:2
+#, no-wrap
+msgid "FMT"
+msgstr "FMT"
+
+# File: raw/man1/fmt.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/fmt.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/fmt.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/fmt.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+# File: raw/man1/fmt.1, line: 2
+#
+#. type: TH
+#: raw/coreutils/man1/fmt.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#
+# File: raw/man1/fmt.1, line: 3
+# File: raw/man1/fmt.1, line: 3
+# File: raw/man1/fmt.1, line: 3
+# File: raw/man1/fmt.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/fmt.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/fmt.1, line: 5
+# File: raw/man1/fmt.1, line: 5
+# File: raw/man1/fmt.1, line: 5
+# File: raw/man1/fmt.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:5
+msgid "fmt - simple optimal text formatter"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 5
+# File: raw/man1/fmt.1, line: 5
+# File: raw/man1/fmt.1, line: 5
+# File: raw/man1/fmt.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/fmt.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/fmt.1, line: 8
+# File: raw/man1/fmt.1, line: 8
+# File: raw/man1/fmt.1, line: 8
+# File: raw/man1/fmt.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:8
+msgid "B<fmt> [I<\\,-WIDTH\\/>] [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr "B<fmt> [I<\\,-宽度\\/>] [I<\\,选项\\/>]... [I<\\,文件\\/>]..."
+
+#
+# File: raw/man1/fmt.1, line: 8
+# File: raw/man1/fmt.1, line: 8
+# File: raw/man1/fmt.1, line: 8
+# File: raw/man1/fmt.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/fmt.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/fmt.1, line: 13
+# File: raw/man1/fmt.1, line: 13
+# File: raw/man1/fmt.1, line: 13
+# File: raw/man1/fmt.1, line: 13
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:13
+msgid ""
+"Reformat each paragraph in the FILE(s), writing to standard output.  The "
+"option B<-WIDTH> is an abbreviated form of B<--width>=I<\\,DIGITS\\/>."
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 15
+# File: raw/man1/fmt.1, line: 15
+# File: raw/man1/fmt.1, line: 15
+# File: raw/man1/fmt.1, line: 15
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:15
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
+
+#
+# File: raw/man1/fmt.1, line: 17
+# File: raw/man1/fmt.1, line: 17
+# File: raw/man1/fmt.1, line: 17
+# File: raw/man1/fmt.1, line: 17
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:17
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "必选参数对长短选项同时适用。"
+
+#
+# File: raw/man1/fmt.1, line: 17
+# File: raw/man1/fmt.1, line: 17
+# File: raw/man1/fmt.1, line: 17
+# File: raw/man1/fmt.1, line: 17
+#. type: TP
+#: raw/coreutils/man1/fmt.1:17
+#, no-wrap
+msgid "B<-c>, B<--crown-margin>"
+msgstr "B<-c>, B<--crown-margin>"
+
+#
+# File: raw/man1/fmt.1, line: 20
+# File: raw/man1/fmt.1, line: 20
+# File: raw/man1/fmt.1, line: 20
+# File: raw/man1/fmt.1, line: 20
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:20
+msgid "preserve indentation of first two lines"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 20
+# File: raw/man1/fmt.1, line: 20
+# File: raw/man1/fmt.1, line: 20
+# File: raw/man1/fmt.1, line: 20
+#. type: TP
+#: raw/coreutils/man1/fmt.1:20
+#, no-wrap
+msgid "B<-p>, B<--prefix>=I<\\,STRING\\/>"
+msgstr "B<-p>, B<--prefix>=I<\\,STRING\\/>"
+
+#
+# File: raw/man1/fmt.1, line: 24
+# File: raw/man1/fmt.1, line: 24
+# File: raw/man1/fmt.1, line: 24
+# File: raw/man1/fmt.1, line: 24
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:24
+msgid ""
+"reformat only lines beginning with STRING, reattaching the prefix to "
+"reformatted lines"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 24
+# File: raw/man1/fmt.1, line: 24
+# File: raw/man1/fmt.1, line: 24
+# File: raw/man1/fmt.1, line: 24
+#. type: TP
+#: raw/coreutils/man1/fmt.1:24
+#, no-wrap
+msgid "B<-s>, B<--split-only>"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 27
+# File: raw/man1/fmt.1, line: 27
+# File: raw/man1/fmt.1, line: 27
+# File: raw/man1/fmt.1, line: 27
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:27
+msgid "split long lines, but do not refill"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 27
+# File: raw/man1/fmt.1, line: 27
+# File: raw/man1/fmt.1, line: 27
+# File: raw/man1/fmt.1, line: 27
+#. type: TP
+#: raw/coreutils/man1/fmt.1:27
+#, no-wrap
+msgid "B<-t>, B<--tagged-paragraph>"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 30
+# File: raw/man1/fmt.1, line: 30
+# File: raw/man1/fmt.1, line: 30
+# File: raw/man1/fmt.1, line: 30
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:30
+msgid "indentation of first line different from second"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 30
+# File: raw/man1/fmt.1, line: 30
+# File: raw/man1/fmt.1, line: 30
+# File: raw/man1/fmt.1, line: 30
+#. type: TP
+#: raw/coreutils/man1/fmt.1:30
+#, no-wrap
+msgid "B<-u>, B<--uniform-spacing>"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 33
+# File: raw/man1/fmt.1, line: 33
+# File: raw/man1/fmt.1, line: 33
+# File: raw/man1/fmt.1, line: 33
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:33
+msgid "one space between words, two after sentences"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 33
+# File: raw/man1/fmt.1, line: 33
+# File: raw/man1/fmt.1, line: 33
+# File: raw/man1/fmt.1, line: 33
+#. type: TP
+#: raw/coreutils/man1/fmt.1:33
+#, no-wrap
+msgid "B<-w>, B<--width>=I<\\,WIDTH\\/>"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 36
+# File: raw/man1/fmt.1, line: 36
+# File: raw/man1/fmt.1, line: 36
+# File: raw/man1/fmt.1, line: 36
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:36
+msgid "maximum line width (default of 75 columns)"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 36
+# File: raw/man1/fmt.1, line: 36
+# File: raw/man1/fmt.1, line: 36
+# File: raw/man1/fmt.1, line: 36
+#. type: TP
+#: raw/coreutils/man1/fmt.1:36
+#, no-wrap
+msgid "B<-g>, B<--goal>=I<\\,WIDTH\\/>"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 39
+# File: raw/man1/fmt.1, line: 39
+# File: raw/man1/fmt.1, line: 39
+# File: raw/man1/fmt.1, line: 39
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:39
+msgid "goal width (default of 93% of width)"
+msgstr ""
+
+#
+# File: raw/man1/fmt.1, line: 39
+# File: raw/man1/fmt.1, line: 39
+# File: raw/man1/fmt.1, line: 39
+# File: raw/man1/fmt.1, line: 39
+#. type: TP
+#: raw/coreutils/man1/fmt.1:39
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/fmt.1, line: 42
+# File: raw/man1/fmt.1, line: 42
+# File: raw/man1/fmt.1, line: 42
+# File: raw/man1/fmt.1, line: 42
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:42
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/fmt.1, line: 42
+# File: raw/man1/fmt.1, line: 42
+# File: raw/man1/fmt.1, line: 42
+# File: raw/man1/fmt.1, line: 42
+#. type: TP
+#: raw/coreutils/man1/fmt.1:42
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/fmt.1, line: 45
+# File: raw/man1/fmt.1, line: 45
+# File: raw/man1/fmt.1, line: 45
+# File: raw/man1/fmt.1, line: 45
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:45
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/fmt.1, line: 45
+# File: raw/man1/fmt.1, line: 45
+# File: raw/man1/fmt.1, line: 45
+# File: raw/man1/fmt.1, line: 45
+#. type: SH
+#: raw/coreutils/man1/fmt.1:45
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/fmt.1, line: 47
+# File: raw/man1/fmt.1, line: 47
+# File: raw/man1/fmt.1, line: 47
+# File: raw/man1/fmt.1, line: 47
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:47
+msgid "Written by Ross Paterson."
+msgstr "由 Ross Paterson 编写。"
+
+#
+# File: raw/man1/fmt.1, line: 47
+# File: raw/man1/fmt.1, line: 47
+# File: raw/man1/fmt.1, line: 47
+# File: raw/man1/fmt.1, line: 47
+#. type: SH
+#: raw/coreutils/man1/fmt.1:47
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/fmt.1, line: 49
+# File: raw/man1/fmt.1, line: 49
+# File: raw/man1/fmt.1, line: 49
+# File: raw/man1/fmt.1, line: 49
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:49
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/fmt.1, line: 51
+# File: raw/man1/fmt.1, line: 51
+# File: raw/man1/fmt.1, line: 51
+# File: raw/man1/fmt.1, line: 51
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:51
+msgid ""
+"Report fmt translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 fmt 的翻译"
+"错误。"
+
+#
+# File: raw/man1/fmt.1, line: 51
+# File: raw/man1/fmt.1, line: 51
+# File: raw/man1/fmt.1, line: 51
+# File: raw/man1/fmt.1, line: 51
+#. type: SH
+#: raw/coreutils/man1/fmt.1:51
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/fmt.1, line: 54
+# File: raw/man1/fmt.1, line: 54
+# File: raw/man1/fmt.1, line: 54
+# File: raw/man1/fmt.1, line: 54
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:54
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/fmt.1, line: 57
+# File: raw/man1/fmt.1, line: 57
+# File: raw/man1/fmt.1, line: 57
+# File: raw/man1/fmt.1, line: 57
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:57
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/fmt.1, line: 57
+# File: raw/man1/fmt.1, line: 57
+# File: raw/man1/fmt.1, line: 57
+# File: raw/man1/fmt.1, line: 57
+#. type: SH
+#: raw/coreutils/man1/fmt.1:57
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/fmt.1, line: 59
+# File: raw/man1/fmt.1, line: 59
+# File: raw/man1/fmt.1, line: 59
+# File: raw/man1/fmt.1, line: 59
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:59
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/fmtE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/fmtE<gt>"
+
+#
+# File: raw/man1/fmt.1, line: 60
+# File: raw/man1/fmt.1, line: 60
+# File: raw/man1/fmt.1, line: 60
+# File: raw/man1/fmt.1, line: 60
+#. type: Plain text
+#: raw/coreutils/man1/fmt.1:60
+msgid "or available locally via: info \\(aq(coreutils) fmt invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) fmt invocation\\(aq"
+
+#
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

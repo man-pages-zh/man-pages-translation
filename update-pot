@@ -1,11 +1,67 @@
 #!/bin/sh
-
+#
 # update-pot -- Update pot file from upstream man page.
+#
 #
 # Upstream man pages should be extracted into subdirs inside "raw/" directory
 # in advance.
+#
+# If no pot files were found, this script should do things like "gettextize"
+# using po4a-gettextize.
+#
+# Directories:
+# ------------
+# * raw/
+# * templates/
+# * po/
+#
+
+POT_DIR="templates"
 
 set -e
+
+logv() {
+    printf "%s\n" "$1"
+}
+
+for pkgdir in raw/*; do
+    if ! [ -d "${pkgdir}" ]; then
+        logv "${pkgdir} not a dir, skipping..."
+        continue
+    fi
+    logv "found dir ${pkgdir}..."
+    for mansection in 1 2 3 4 5 6 7 8; do
+        _rawmandir="${pkgdir}/man${mansection}"
+        if ! [ -e "${_rawmandir}" ]; then
+            continue
+        fi
+        for manfile in "${_rawmandir}"/*; do
+            if [ -L "${manfile}" ]; then
+                continue
+            fi
+
+            # Now $manfile is the one needs process
+            _package_name="$(basename "${pkgdir}")"
+            _section_name="${mansection}"
+            _command_name="$(basename "${manfile}" | rev | cut -d"." -f2- | rev)"
+            logv "pkgname: ${_package_name}, section: ${_section_name}, command: ${_command_name}"
+
+            # TODO FINISH ME
+            _potfile="${POT_DIR}/${_package_name}/man${_section_name}/$(basename "${manfile}").pot"
+            mkdir -p "$(dirname "${_potfile}")"
+            #if ! [ -e "${_potfile}" ]; then
+            #    po4a-gettextize -f man -m "${manfile}" -p "${_potfile}"
+            #    logv "New pot file ${_potfile} created."
+            #else
+            #fi
+            po4a-updatepo -f man -m "${manfile}" -M utf8 -p "${_potfile}"
+            logv "Processed ${_potfile}..."
+
+        done
+    done
+done
+
+exit 0
 
 for i in 1 2 3 4 5 6 7 8; do
     if ! [ -e "raw/man${i}" ]; then

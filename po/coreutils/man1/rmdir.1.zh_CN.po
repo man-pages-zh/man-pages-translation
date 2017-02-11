@@ -1,0 +1,357 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2016-12-15 20:49+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rmdir.1:2
+#, no-wrap
+msgid "RMDIR"
+msgstr "RMDIR"
+
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rmdir.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rmdir.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+# File: raw/man1/rmdir.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rmdir.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#
+# File: raw/man1/rmdir.1, line: 3
+# File: raw/man1/rmdir.1, line: 3
+# File: raw/man1/rmdir.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/rmdir.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/rmdir.1, line: 5
+# File: raw/man1/rmdir.1, line: 5
+# File: raw/man1/rmdir.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:5
+msgid "rmdir - remove empty directories"
+msgstr "rmdir - 删除空目录"
+
+#
+# File: raw/man1/rmdir.1, line: 5
+# File: raw/man1/rmdir.1, line: 5
+# File: raw/man1/rmdir.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/rmdir.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/rmdir.1, line: 8
+# File: raw/man1/rmdir.1, line: 8
+# File: raw/man1/rmdir.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:8
+msgid "B<rmdir> [I<\\,OPTION\\/>]... I<\\,DIRECTORY\\/>..."
+msgstr "B<rmdir> [I<\\,选项\\/>]... I<\\,目录列表\\/>..."
+
+#
+# File: raw/man1/rmdir.1, line: 8
+# File: raw/man1/rmdir.1, line: 8
+# File: raw/man1/rmdir.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/rmdir.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/rmdir.1, line: 12
+# File: raw/man1/rmdir.1, line: 12
+# File: raw/man1/rmdir.1, line: 12
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:12
+msgid "Remove the DIRECTORY(ies), if they are empty."
+msgstr "删除目录列表中的空目录。"
+
+#
+# File: raw/man1/rmdir.1, line: 14
+# File: raw/man1/rmdir.1, line: 14
+# File: raw/man1/rmdir.1, line: 14
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:14
+msgid "B<--ignore-fail-on-non-empty>"
+msgstr "B<--ignore-fail-on-non-empty>"
+
+#
+# File: raw/man1/rmdir.1, line: 16
+# File: raw/man1/rmdir.1, line: 16
+# File: raw/man1/rmdir.1, line: 16
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:16
+msgid "ignore each failure that is solely because a directory"
+msgstr "忽略每一个仅因目录非空而导致的错误"
+
+#
+# File: raw/man1/rmdir.1, line: 18
+# File: raw/man1/rmdir.1, line: 18
+# File: raw/man1/rmdir.1, line: 18
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:18
+msgid "is non-empty"
+msgstr " "
+
+#
+# File: raw/man1/rmdir.1, line: 18
+# File: raw/man1/rmdir.1, line: 18
+# File: raw/man1/rmdir.1, line: 18
+#. type: TP
+#: raw/coreutils/man1/rmdir.1:18
+#, no-wrap
+msgid "B<-p>, B<--parents>"
+msgstr "B<-p>, B<--parents>"
+
+#
+# File: raw/man1/rmdir.1, line: 22
+# File: raw/man1/rmdir.1, line: 22
+# File: raw/man1/rmdir.1, line: 22
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:22
+msgid ""
+"remove DIRECTORY and its ancestors; e.g., 'rmdir B<-p> a/b/c' is similar to "
+"'rmdir a/b/c a/b a'"
+msgstr ""
+"删除目录及其路径上的目录；比如，'rmdir B<-p> a/b/c' 类似于 'rmdir a/b/c a/b "
+"a'"
+
+#
+# File: raw/man1/rmdir.1, line: 22
+# File: raw/man1/rmdir.1, line: 22
+# File: raw/man1/rmdir.1, line: 22
+#. type: TP
+#: raw/coreutils/man1/rmdir.1:22
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--verbose>"
+
+#
+# File: raw/man1/rmdir.1, line: 25
+# File: raw/man1/rmdir.1, line: 25
+# File: raw/man1/rmdir.1, line: 25
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:25
+msgid "output a diagnostic for every directory processed"
+msgstr "为每一个处理过的目录输出诊断信息"
+
+#
+# File: raw/man1/rmdir.1, line: 25
+# File: raw/man1/rmdir.1, line: 25
+# File: raw/man1/rmdir.1, line: 25
+#. type: TP
+#: raw/coreutils/man1/rmdir.1:25
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/rmdir.1, line: 28
+# File: raw/man1/rmdir.1, line: 28
+# File: raw/man1/rmdir.1, line: 28
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:28
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/rmdir.1, line: 28
+# File: raw/man1/rmdir.1, line: 28
+# File: raw/man1/rmdir.1, line: 28
+#. type: TP
+#: raw/coreutils/man1/rmdir.1:28
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/rmdir.1, line: 31
+# File: raw/man1/rmdir.1, line: 31
+# File: raw/man1/rmdir.1, line: 31
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:31
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/rmdir.1, line: 31
+# File: raw/man1/rmdir.1, line: 31
+# File: raw/man1/rmdir.1, line: 31
+#. type: SH
+#: raw/coreutils/man1/rmdir.1:31
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/rmdir.1, line: 33
+# File: raw/man1/rmdir.1, line: 33
+# File: raw/man1/rmdir.1, line: 33
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:33
+msgid "Written by David MacKenzie."
+msgstr "由 David MacKenzie 编写。"
+
+#
+# File: raw/man1/rmdir.1, line: 33
+# File: raw/man1/rmdir.1, line: 33
+# File: raw/man1/rmdir.1, line: 33
+#. type: SH
+#: raw/coreutils/man1/rmdir.1:33
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/rmdir.1, line: 35
+# File: raw/man1/rmdir.1, line: 35
+# File: raw/man1/rmdir.1, line: 35
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:35
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/rmdir.1, line: 37
+# File: raw/man1/rmdir.1, line: 37
+# File: raw/man1/rmdir.1, line: 37
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:37
+msgid ""
+"Report rmdir translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 rmdir 的翻"
+"译错误。"
+
+#
+# File: raw/man1/rmdir.1, line: 37
+# File: raw/man1/rmdir.1, line: 37
+# File: raw/man1/rmdir.1, line: 37
+#. type: SH
+#: raw/coreutils/man1/rmdir.1:37
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/rmdir.1, line: 40
+# File: raw/man1/rmdir.1, line: 40
+# File: raw/man1/rmdir.1, line: 40
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:40
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/rmdir.1, line: 43
+# File: raw/man1/rmdir.1, line: 43
+# File: raw/man1/rmdir.1, line: 43
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:43
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/rmdir.1, line: 43
+# File: raw/man1/rmdir.1, line: 43
+# File: raw/man1/rmdir.1, line: 43
+#. type: SH
+#: raw/coreutils/man1/rmdir.1:43
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/rmdir.1, line: 45
+# File: raw/man1/rmdir.1, line: 45
+# File: raw/man1/rmdir.1, line: 45
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:45
+msgid "rmdir(2)"
+msgstr "rmdir(2)"
+
+#
+# File: raw/man1/rmdir.1, line: 48
+# File: raw/man1/rmdir.1, line: 48
+# File: raw/man1/rmdir.1, line: 48
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:48
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/rmdirE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/rmdirE<gt>"
+
+#
+# File: raw/man1/rmdir.1, line: 49
+# File: raw/man1/rmdir.1, line: 49
+# File: raw/man1/rmdir.1, line: 49
+#. type: Plain text
+#: raw/coreutils/man1/rmdir.1:49
+msgid "or available locally via: info \\(aq(coreutils) rmdir invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) rmdir invocation\\(aq"
+
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

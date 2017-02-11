@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/id.1:2
+#, no-wrap
+msgid "ID"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/id.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/id.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/id.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/id.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:5
+msgid "id - print real and effective user and group IDs"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/id.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:8
+msgid "B<id> [I<\\,OPTION\\/>]... [I<\\,USER\\/>]"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/id.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:13
+msgid ""
+"Print user and group information for the specified USER, or (when USER "
+"omitted) for the current user."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:13
+#, no-wrap
+msgid "B<-a>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:16
+msgid "ignore, for compatibility with other versions"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:16
+#, no-wrap
+msgid "B<-Z>, B<--context>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:19
+msgid "print only the security context of the process"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:19
+#, no-wrap
+msgid "B<-g>, B<--group>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:22
+msgid "print only the effective group ID"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:22
+#, no-wrap
+msgid "B<-G>, B<--groups>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:25
+msgid "print all group IDs"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:25
+#, no-wrap
+msgid "B<-n>, B<--name>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:28
+msgid "print a name instead of a number, for B<-ugG>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:28
+#, no-wrap
+msgid "B<-r>, B<--real>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:31
+msgid "print the real ID instead of the effective ID, with B<-ugG>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:31
+#, no-wrap
+msgid "B<-u>, B<--user>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:34
+msgid "print only the effective user ID"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:34
+#, no-wrap
+msgid "B<-z>, B<--zero>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:37
+msgid "delimit entries with NUL characters, not whitespace;"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:39
+msgid "not permitted in default format"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:39
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:42
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/id.1:42
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:45
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:47
+msgid "Without any OPTION, print some useful set of identified information."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/id.1:47
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:49
+msgid "Written by Arnold Robbins and David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/id.1:49
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:51
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:53
+msgid "Report id translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/id.1:53
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:56
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:59
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/id.1:59
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:61
+msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/idE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/id.1:62
+msgid "or available locally via: info \\(aq(coreutils) id invocation\\(aq"
+msgstr ""

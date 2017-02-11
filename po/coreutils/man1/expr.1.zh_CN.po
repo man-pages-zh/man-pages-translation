@@ -1,0 +1,783 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2016-12-15 19:08+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/expr.1:2
+#, no-wrap
+msgid "EXPR"
+msgstr "EXPR"
+
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/expr.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/expr.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+# File: raw/man1/expr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/expr.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "User Commands"
+
+#
+# File: raw/man1/expr.1, line: 3
+# File: raw/man1/expr.1, line: 3
+# File: raw/man1/expr.1, line: 3
+# File: raw/man1/expr.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/expr.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/expr.1, line: 5
+# File: raw/man1/expr.1, line: 5
+# File: raw/man1/expr.1, line: 5
+# File: raw/man1/expr.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:5
+msgid "expr - evaluate expressions"
+msgstr "expr - 对表达式求值"
+
+#
+# File: raw/man1/expr.1, line: 5
+# File: raw/man1/expr.1, line: 5
+# File: raw/man1/expr.1, line: 5
+# File: raw/man1/expr.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/expr.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/expr.1, line: 8
+# File: raw/man1/expr.1, line: 8
+# File: raw/man1/expr.1, line: 8
+# File: raw/man1/expr.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:8
+msgid "B<expr> I<\\,EXPRESSION\\/>"
+msgstr "B<expr> I<\\,表达式\\/>"
+
+#
+# File: raw/man1/expr.1, line: 11
+# File: raw/man1/expr.1, line: 11
+# File: raw/man1/expr.1, line: 11
+# File: raw/man1/expr.1, line: 11
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:11
+msgid "B<expr> I<\\,OPTION\\/>"
+msgstr "B<expr> I<\\,选项\\/>"
+
+#
+# File: raw/man1/expr.1, line: 11
+# File: raw/man1/expr.1, line: 11
+# File: raw/man1/expr.1, line: 11
+# File: raw/man1/expr.1, line: 11
+#. type: SH
+#: raw/coreutils/man1/expr.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/expr.1, line: 13
+# File: raw/man1/expr.1, line: 13
+# File: raw/man1/expr.1, line: 13
+# File: raw/man1/expr.1, line: 13
+#. type: TP
+#: raw/coreutils/man1/expr.1:13
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/expr.1, line: 16
+# File: raw/man1/expr.1, line: 16
+# File: raw/man1/expr.1, line: 16
+# File: raw/man1/expr.1, line: 16
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:16
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/expr.1, line: 16
+# File: raw/man1/expr.1, line: 16
+# File: raw/man1/expr.1, line: 16
+# File: raw/man1/expr.1, line: 16
+#. type: TP
+#: raw/coreutils/man1/expr.1:16
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/expr.1, line: 19
+# File: raw/man1/expr.1, line: 19
+# File: raw/man1/expr.1, line: 19
+# File: raw/man1/expr.1, line: 19
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:19
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/expr.1, line: 22
+# File: raw/man1/expr.1, line: 22
+# File: raw/man1/expr.1, line: 22
+# File: raw/man1/expr.1, line: 22
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:22
+msgid ""
+"Print the value of EXPRESSION to standard output.  A blank line below "
+"separates increasing precedence groups.  EXPRESSION may be:"
+msgstr ""
+"将表达式的值打印至标准输出。以下说明以空行分隔优先级级别，运算优先级从低到"
+"高。表达式可能为："
+
+#
+# File: raw/man1/expr.1, line: 22
+# File: raw/man1/expr.1, line: 22
+# File: raw/man1/expr.1, line: 22
+# File: raw/man1/expr.1, line: 22
+#. type: TP
+#: raw/coreutils/man1/expr.1:22
+#, no-wrap
+msgid "ARG1 | ARG2"
+msgstr "参数1 | 参数2"
+
+#
+# File: raw/man1/expr.1, line: 25
+# File: raw/man1/expr.1, line: 25
+# File: raw/man1/expr.1, line: 25
+# File: raw/man1/expr.1, line: 25
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:25
+msgid "ARG1 if it is neither null nor 0, otherwise ARG2"
+msgstr "如果参数1 既不是 null 也不是 0，则为参数1，否则为参数2"
+
+#
+# File: raw/man1/expr.1, line: 25
+# File: raw/man1/expr.1, line: 25
+# File: raw/man1/expr.1, line: 25
+# File: raw/man1/expr.1, line: 25
+#. type: TP
+#: raw/coreutils/man1/expr.1:25
+#, no-wrap
+msgid "ARG1 & ARG2"
+msgstr "参数1 & 参数2"
+
+#
+# File: raw/man1/expr.1, line: 28
+# File: raw/man1/expr.1, line: 28
+# File: raw/man1/expr.1, line: 28
+# File: raw/man1/expr.1, line: 28
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:28
+msgid "ARG1 if neither argument is null or 0, otherwise 0"
+msgstr "如果两个参数都不是 null 也不是 0，则为参数1，否则为 0"
+
+#
+# File: raw/man1/expr.1, line: 28
+# File: raw/man1/expr.1, line: 28
+# File: raw/man1/expr.1, line: 28
+# File: raw/man1/expr.1, line: 28
+#. type: TP
+#: raw/coreutils/man1/expr.1:28
+#, no-wrap
+msgid "ARG1 E<lt> ARG2"
+msgstr "参数1 E<lt> 参数2"
+
+#
+# File: raw/man1/expr.1, line: 31
+# File: raw/man1/expr.1, line: 31
+# File: raw/man1/expr.1, line: 31
+# File: raw/man1/expr.1, line: 31
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:31
+msgid "ARG1 is less than ARG2"
+msgstr "参数1 小于参数2"
+
+#
+# File: raw/man1/expr.1, line: 31
+# File: raw/man1/expr.1, line: 31
+# File: raw/man1/expr.1, line: 31
+# File: raw/man1/expr.1, line: 31
+#. type: TP
+#: raw/coreutils/man1/expr.1:31
+#, no-wrap
+msgid "ARG1 E<lt>= ARG2"
+msgstr "参数1 E<lt>= 参数2"
+
+#
+# File: raw/man1/expr.1, line: 34
+# File: raw/man1/expr.1, line: 34
+# File: raw/man1/expr.1, line: 34
+# File: raw/man1/expr.1, line: 34
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:34
+msgid "ARG1 is less than or equal to ARG2"
+msgstr "参数1 小于或等于参数2"
+
+#
+# File: raw/man1/expr.1, line: 34
+# File: raw/man1/expr.1, line: 34
+# File: raw/man1/expr.1, line: 34
+# File: raw/man1/expr.1, line: 34
+#. type: TP
+#: raw/coreutils/man1/expr.1:34
+#, no-wrap
+msgid "ARG1 = ARG2"
+msgstr "参数1 = 参数2"
+
+#
+# File: raw/man1/expr.1, line: 37
+# File: raw/man1/expr.1, line: 37
+# File: raw/man1/expr.1, line: 37
+# File: raw/man1/expr.1, line: 37
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:37
+msgid "ARG1 is equal to ARG2"
+msgstr "参数1 等于参数2"
+
+#
+# File: raw/man1/expr.1, line: 37
+# File: raw/man1/expr.1, line: 37
+# File: raw/man1/expr.1, line: 37
+# File: raw/man1/expr.1, line: 37
+#. type: TP
+#: raw/coreutils/man1/expr.1:37
+#, no-wrap
+msgid "ARG1 != ARG2"
+msgstr "参数1 != 参数2"
+
+#
+# File: raw/man1/expr.1, line: 40
+# File: raw/man1/expr.1, line: 40
+# File: raw/man1/expr.1, line: 40
+# File: raw/man1/expr.1, line: 40
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:40
+msgid "ARG1 is unequal to ARG2"
+msgstr "参数1 不等于参数2"
+
+#
+# File: raw/man1/expr.1, line: 40
+# File: raw/man1/expr.1, line: 40
+# File: raw/man1/expr.1, line: 40
+# File: raw/man1/expr.1, line: 40
+#. type: TP
+#: raw/coreutils/man1/expr.1:40
+#, no-wrap
+msgid "ARG1 E<gt>= ARG2"
+msgstr "参数1 E<gt>= 参数2"
+
+#
+# File: raw/man1/expr.1, line: 43
+# File: raw/man1/expr.1, line: 43
+# File: raw/man1/expr.1, line: 43
+# File: raw/man1/expr.1, line: 43
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:43
+msgid "ARG1 is greater than or equal to ARG2"
+msgstr "参数1 大于或等于参数2"
+
+#
+# File: raw/man1/expr.1, line: 43
+# File: raw/man1/expr.1, line: 43
+# File: raw/man1/expr.1, line: 43
+# File: raw/man1/expr.1, line: 43
+#. type: TP
+#: raw/coreutils/man1/expr.1:43
+#, no-wrap
+msgid "ARG1 E<gt> ARG2"
+msgstr "参数1 E<gt> 参数2"
+
+#
+# File: raw/man1/expr.1, line: 46
+# File: raw/man1/expr.1, line: 46
+# File: raw/man1/expr.1, line: 46
+# File: raw/man1/expr.1, line: 46
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:46
+msgid "ARG1 is greater than ARG2"
+msgstr "参数1 大于参数2"
+
+#
+# File: raw/man1/expr.1, line: 46
+# File: raw/man1/expr.1, line: 46
+# File: raw/man1/expr.1, line: 46
+# File: raw/man1/expr.1, line: 46
+#. type: TP
+#: raw/coreutils/man1/expr.1:46
+#, no-wrap
+msgid "ARG1 + ARG2"
+msgstr "参数1 + 参数2"
+
+#
+# File: raw/man1/expr.1, line: 49
+# File: raw/man1/expr.1, line: 49
+# File: raw/man1/expr.1, line: 49
+# File: raw/man1/expr.1, line: 49
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:49
+msgid "arithmetic sum of ARG1 and ARG2"
+msgstr "参数1 和参数2 的代数和"
+
+#
+# File: raw/man1/expr.1, line: 49
+# File: raw/man1/expr.1, line: 49
+# File: raw/man1/expr.1, line: 49
+# File: raw/man1/expr.1, line: 49
+#. type: TP
+#: raw/coreutils/man1/expr.1:49
+#, no-wrap
+msgid "ARG1 - ARG2"
+msgstr "参数1 - 参数2"
+
+#
+# File: raw/man1/expr.1, line: 52
+# File: raw/man1/expr.1, line: 52
+# File: raw/man1/expr.1, line: 52
+# File: raw/man1/expr.1, line: 52
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:52
+msgid "arithmetic difference of ARG1 and ARG2"
+msgstr "参数1 和参数2 的代数差"
+
+#
+# File: raw/man1/expr.1, line: 52
+# File: raw/man1/expr.1, line: 52
+# File: raw/man1/expr.1, line: 52
+# File: raw/man1/expr.1, line: 52
+#. type: TP
+#: raw/coreutils/man1/expr.1:52
+#, no-wrap
+msgid "ARG1 * ARG2"
+msgstr "参数1 * 参数2"
+
+#
+# File: raw/man1/expr.1, line: 55
+# File: raw/man1/expr.1, line: 55
+# File: raw/man1/expr.1, line: 55
+# File: raw/man1/expr.1, line: 55
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:55
+msgid "arithmetic product of ARG1 and ARG2"
+msgstr "参数1 和参数2 的代数乘积"
+
+#
+# File: raw/man1/expr.1, line: 55
+# File: raw/man1/expr.1, line: 55
+# File: raw/man1/expr.1, line: 55
+# File: raw/man1/expr.1, line: 55
+#. type: TP
+#: raw/coreutils/man1/expr.1:55
+#, no-wrap
+msgid "ARG1 / ARG2"
+msgstr "参数1 / 参数2"
+
+#
+# File: raw/man1/expr.1, line: 58
+# File: raw/man1/expr.1, line: 58
+# File: raw/man1/expr.1, line: 58
+# File: raw/man1/expr.1, line: 58
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:58
+msgid "arithmetic quotient of ARG1 divided by ARG2"
+msgstr "参数1 除以参数2 的代数商"
+
+#
+# File: raw/man1/expr.1, line: 58
+# File: raw/man1/expr.1, line: 58
+# File: raw/man1/expr.1, line: 58
+# File: raw/man1/expr.1, line: 58
+#. type: TP
+#: raw/coreutils/man1/expr.1:58
+#, no-wrap
+msgid "ARG1 % ARG2"
+msgstr "参数1 % 参数2"
+
+#
+# File: raw/man1/expr.1, line: 61
+# File: raw/man1/expr.1, line: 61
+# File: raw/man1/expr.1, line: 61
+# File: raw/man1/expr.1, line: 61
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:61
+msgid "arithmetic remainder of ARG1 divided by ARG2"
+msgstr "参数1 除以参数2 所得余数"
+
+#
+# File: raw/man1/expr.1, line: 61
+# File: raw/man1/expr.1, line: 61
+# File: raw/man1/expr.1, line: 61
+# File: raw/man1/expr.1, line: 61
+#. type: TP
+#: raw/coreutils/man1/expr.1:61
+#, no-wrap
+msgid "STRING : REGEXP"
+msgstr "字符串 : 正则表达式"
+
+#
+# File: raw/man1/expr.1, line: 64
+# File: raw/man1/expr.1, line: 64
+# File: raw/man1/expr.1, line: 64
+# File: raw/man1/expr.1, line: 64
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:64
+msgid "anchored pattern match of REGEXP in STRING"
+msgstr "在字符串中由给定正则表达式决定的锚定模式匹配"
+
+#
+# File: raw/man1/expr.1, line: 64
+# File: raw/man1/expr.1, line: 64
+# File: raw/man1/expr.1, line: 64
+# File: raw/man1/expr.1, line: 64
+#. type: TP
+#: raw/coreutils/man1/expr.1:64
+#, no-wrap
+msgid "match STRING REGEXP"
+msgstr "match 字符串 正则表达式"
+
+#
+# File: raw/man1/expr.1, line: 67
+# File: raw/man1/expr.1, line: 67
+# File: raw/man1/expr.1, line: 67
+# File: raw/man1/expr.1, line: 67
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:67
+msgid "same as STRING : REGEXP"
+msgstr "与”字符串 : 正则表达式“相同"
+
+#
+# File: raw/man1/expr.1, line: 67
+# File: raw/man1/expr.1, line: 67
+# File: raw/man1/expr.1, line: 67
+# File: raw/man1/expr.1, line: 67
+#. type: TP
+#: raw/coreutils/man1/expr.1:67
+#, no-wrap
+msgid "substr STRING POS LENGTH"
+msgstr "substr 字符串 位置 长度"
+
+#
+# File: raw/man1/expr.1, line: 70
+# File: raw/man1/expr.1, line: 70
+# File: raw/man1/expr.1, line: 70
+# File: raw/man1/expr.1, line: 70
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:70
+msgid "substring of STRING, POS counted from 1"
+msgstr "字符串的子串，位置由 1 开始计数"
+
+#
+# File: raw/man1/expr.1, line: 70
+# File: raw/man1/expr.1, line: 70
+# File: raw/man1/expr.1, line: 70
+# File: raw/man1/expr.1, line: 70
+#. type: TP
+#: raw/coreutils/man1/expr.1:70
+#, no-wrap
+msgid "index STRING CHARS"
+msgstr "index 字符串 CHARS"
+
+#
+# File: raw/man1/expr.1, line: 73
+# File: raw/man1/expr.1, line: 73
+# File: raw/man1/expr.1, line: 73
+# File: raw/man1/expr.1, line: 73
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:73
+msgid "index in STRING where any CHARS is found, or 0"
+msgstr "任何能够在字符串中找到的 CHARS 的位置，或者 0"
+
+#
+# File: raw/man1/expr.1, line: 73
+# File: raw/man1/expr.1, line: 73
+# File: raw/man1/expr.1, line: 73
+# File: raw/man1/expr.1, line: 73
+#. type: TP
+#: raw/coreutils/man1/expr.1:73
+#, no-wrap
+msgid "length STRING"
+msgstr "length 字符串"
+
+#
+# File: raw/man1/expr.1, line: 76
+# File: raw/man1/expr.1, line: 76
+# File: raw/man1/expr.1, line: 76
+# File: raw/man1/expr.1, line: 76
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:76
+msgid "length of STRING"
+msgstr "字符串 的长度"
+
+#
+# File: raw/man1/expr.1, line: 76
+# File: raw/man1/expr.1, line: 76
+# File: raw/man1/expr.1, line: 76
+# File: raw/man1/expr.1, line: 76
+#. type: TP
+#: raw/coreutils/man1/expr.1:76
+#, no-wrap
+msgid "+ TOKEN"
+msgstr "+ TOKEN"
+
+#
+# File: raw/man1/expr.1, line: 79
+# File: raw/man1/expr.1, line: 79
+# File: raw/man1/expr.1, line: 79
+# File: raw/man1/expr.1, line: 79
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:79
+msgid "interpret TOKEN as a string, even if it is a"
+msgstr "将 TOKEN 视作字符串，即使它是一个"
+
+#
+# File: raw/man1/expr.1, line: 81
+# File: raw/man1/expr.1, line: 81
+# File: raw/man1/expr.1, line: 81
+# File: raw/man1/expr.1, line: 81
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:81
+msgid "keyword like 'match' or an operator like '/'"
+msgstr "类似于 'match' 的关键字或是一个类似 '/' 的操作符"
+
+#
+# File: raw/man1/expr.1, line: 81
+# File: raw/man1/expr.1, line: 81
+# File: raw/man1/expr.1, line: 81
+# File: raw/man1/expr.1, line: 81
+#. type: TP
+#: raw/coreutils/man1/expr.1:81
+#, no-wrap
+msgid "( EXPRESSION )"
+msgstr "( 表达式 )"
+
+#
+# File: raw/man1/expr.1, line: 84
+# File: raw/man1/expr.1, line: 84
+# File: raw/man1/expr.1, line: 84
+# File: raw/man1/expr.1, line: 84
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:84
+msgid "value of EXPRESSION"
+msgstr "表达式 的值"
+
+#
+# File: raw/man1/expr.1, line: 89
+# File: raw/man1/expr.1, line: 89
+# File: raw/man1/expr.1, line: 89
+# File: raw/man1/expr.1, line: 89
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:89
+msgid ""
+"Beware that many operators need to be escaped or quoted for shells.  "
+"Comparisons are arithmetic if both ARGs are numbers, else lexicographical.  "
+"Pattern matches return the string matched between \\e( and \\e) or null; if "
+"\\e( and \\e) are not used, they return the number of characters matched or "
+"0."
+msgstr ""
+"请注意许多运算符需要在 shell 环境下转义或被引号引起。如果两个 参数 都是数字，"
+"那么比较将在代数意义下进行，否则将按照词典序比较。模式比较时，将返回在 "
+"\\e( 和 \\e) 之间的字符串或者 null；如果 \\e( 和 \\e) 未被使用，那么返回匹配"
+"的字符个数或者 0。"
+
+#
+# File: raw/man1/expr.1, line: 92
+# File: raw/man1/expr.1, line: 92
+# File: raw/man1/expr.1, line: 92
+# File: raw/man1/expr.1, line: 92
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:92
+msgid ""
+"Exit status is 0 if EXPRESSION is neither null nor 0, 1 if EXPRESSION is "
+"null or 0, 2 if EXPRESSION is syntactically invalid, and 3 if an error "
+"occurred."
+msgstr ""
+"如果 表达式 既不是 null 也不是 0，则返回状态值为 0；如果 表达式 是 null 或 "
+"0，则返回状态值为 1；如果 表达式 在语法上无效，则返回状态值为 1；如果发生错"
+"误，则返回状态值为 3。"
+
+#
+# File: raw/man1/expr.1, line: 92
+# File: raw/man1/expr.1, line: 92
+# File: raw/man1/expr.1, line: 92
+# File: raw/man1/expr.1, line: 92
+#. type: SH
+#: raw/coreutils/man1/expr.1:92
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/expr.1, line: 94
+# File: raw/man1/expr.1, line: 94
+# File: raw/man1/expr.1, line: 94
+# File: raw/man1/expr.1, line: 94
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:94
+msgid "Written by Mike Parker, James Youngman, and Paul Eggert."
+msgstr "由 Mike Parker, James Youngman 和 Paul Eggert 编写。"
+
+#
+# File: raw/man1/expr.1, line: 94
+# File: raw/man1/expr.1, line: 94
+# File: raw/man1/expr.1, line: 94
+# File: raw/man1/expr.1, line: 94
+#. type: SH
+#: raw/coreutils/man1/expr.1:94
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/expr.1, line: 96
+# File: raw/man1/expr.1, line: 96
+# File: raw/man1/expr.1, line: 96
+# File: raw/man1/expr.1, line: 96
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:96
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/expr.1, line: 98
+# File: raw/man1/expr.1, line: 98
+# File: raw/man1/expr.1, line: 98
+# File: raw/man1/expr.1, line: 98
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:98
+msgid ""
+"Report expr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 expr 的翻译"
+"错误。"
+
+#
+# File: raw/man1/expr.1, line: 98
+# File: raw/man1/expr.1, line: 98
+# File: raw/man1/expr.1, line: 98
+# File: raw/man1/expr.1, line: 98
+#. type: SH
+#: raw/coreutils/man1/expr.1:98
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/expr.1, line: 101
+# File: raw/man1/expr.1, line: 101
+# File: raw/man1/expr.1, line: 101
+# File: raw/man1/expr.1, line: 101
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:101
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/expr.1, line: 104
+# File: raw/man1/expr.1, line: 104
+# File: raw/man1/expr.1, line: 104
+# File: raw/man1/expr.1, line: 104
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:104
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/expr.1, line: 104
+# File: raw/man1/expr.1, line: 104
+# File: raw/man1/expr.1, line: 104
+# File: raw/man1/expr.1, line: 104
+#. type: SH
+#: raw/coreutils/man1/expr.1:104
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/expr.1, line: 106
+# File: raw/man1/expr.1, line: 106
+# File: raw/man1/expr.1, line: 106
+# File: raw/man1/expr.1, line: 106
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:106
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/exprE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/exprE<gt>"
+
+#
+# File: raw/man1/expr.1, line: 107
+# File: raw/man1/expr.1, line: 107
+# File: raw/man1/expr.1, line: 107
+# File: raw/man1/expr.1, line: 107
+#. type: Plain text
+#: raw/coreutils/man1/expr.1:107
+msgid "or available locally via: info \\(aq(coreutils) expr invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) expr invocation\\(aq"
+
+#
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

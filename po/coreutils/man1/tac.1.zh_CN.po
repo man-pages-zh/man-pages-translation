@@ -1,0 +1,363 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:41+0800\n"
+"PO-Revision-Date: 2016-12-15 20:48+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/tac.1:2
+#, no-wrap
+msgid "TAC"
+msgstr "TAC"
+
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/tac.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/tac.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+# File: raw/man1/tac.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/tac.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#
+# File: raw/man1/tac.1, line: 3
+# File: raw/man1/tac.1, line: 3
+# File: raw/man1/tac.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/tac.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/tac.1, line: 5
+# File: raw/man1/tac.1, line: 5
+# File: raw/man1/tac.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:5
+msgid "tac - concatenate and print files in reverse"
+msgstr "tac - 连接文件并逆序输出"
+
+#
+# File: raw/man1/tac.1, line: 5
+# File: raw/man1/tac.1, line: 5
+# File: raw/man1/tac.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/tac.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/tac.1, line: 8
+# File: raw/man1/tac.1, line: 8
+# File: raw/man1/tac.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:8
+msgid "B<tac> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr "B<tac> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
+
+#
+# File: raw/man1/tac.1, line: 8
+# File: raw/man1/tac.1, line: 8
+# File: raw/man1/tac.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/tac.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/tac.1, line: 12
+# File: raw/man1/tac.1, line: 12
+# File: raw/man1/tac.1, line: 12
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:12
+msgid "Write each FILE to standard output, last line first."
+msgstr "将文件列表中的每一个文件输出到标准输出，行号大的优先。"
+
+#
+# File: raw/man1/tac.1, line: 14
+# File: raw/man1/tac.1, line: 14
+# File: raw/man1/tac.1, line: 14
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:14
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr "如果没有指定文件，或者指定文件为 \"-\"，则从标准输入读取。"
+
+#
+# File: raw/man1/tac.1, line: 16
+# File: raw/man1/tac.1, line: 16
+# File: raw/man1/tac.1, line: 16
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:16
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "必选参数对长短选项同时适用。"
+
+#
+# File: raw/man1/tac.1, line: 16
+# File: raw/man1/tac.1, line: 16
+# File: raw/man1/tac.1, line: 16
+#. type: TP
+#: raw/coreutils/man1/tac.1:16
+#, no-wrap
+msgid "B<-b>, B<--before>"
+msgstr "B<-b>, B<--before>"
+
+#
+# File: raw/man1/tac.1, line: 19
+# File: raw/man1/tac.1, line: 19
+# File: raw/man1/tac.1, line: 19
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:19
+msgid "attach the separator before instead of after"
+msgstr "将分隔符附加在行首而不是行尾"
+
+#
+# File: raw/man1/tac.1, line: 19
+# File: raw/man1/tac.1, line: 19
+# File: raw/man1/tac.1, line: 19
+#. type: TP
+#: raw/coreutils/man1/tac.1:19
+#, no-wrap
+msgid "B<-r>, B<--regex>"
+msgstr "B<-r>, B<--regex>"
+
+#
+# File: raw/man1/tac.1, line: 22
+# File: raw/man1/tac.1, line: 22
+# File: raw/man1/tac.1, line: 22
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:22
+msgid "interpret the separator as a regular expression"
+msgstr "将分隔符视为正则表达式"
+
+#
+# File: raw/man1/tac.1, line: 22
+# File: raw/man1/tac.1, line: 22
+# File: raw/man1/tac.1, line: 22
+#. type: TP
+#: raw/coreutils/man1/tac.1:22
+#, no-wrap
+msgid "B<-s>, B<--separator>=I<\\,STRING\\/>"
+msgstr "B<-s>, B<--separator>=I<\\,字符串\\/>"
+
+#
+# File: raw/man1/tac.1, line: 25
+# File: raw/man1/tac.1, line: 25
+# File: raw/man1/tac.1, line: 25
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:25
+msgid "use STRING as the separator instead of newline"
+msgstr "以指定字符串作为分隔符而不是换行符"
+
+#
+# File: raw/man1/tac.1, line: 25
+# File: raw/man1/tac.1, line: 25
+# File: raw/man1/tac.1, line: 25
+#. type: TP
+#: raw/coreutils/man1/tac.1:25
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/tac.1, line: 28
+# File: raw/man1/tac.1, line: 28
+# File: raw/man1/tac.1, line: 28
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:28
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/tac.1, line: 28
+# File: raw/man1/tac.1, line: 28
+# File: raw/man1/tac.1, line: 28
+#. type: TP
+#: raw/coreutils/man1/tac.1:28
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/tac.1, line: 31
+# File: raw/man1/tac.1, line: 31
+# File: raw/man1/tac.1, line: 31
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:31
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/tac.1, line: 31
+# File: raw/man1/tac.1, line: 31
+# File: raw/man1/tac.1, line: 31
+#. type: SH
+#: raw/coreutils/man1/tac.1:31
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/tac.1, line: 33
+# File: raw/man1/tac.1, line: 33
+# File: raw/man1/tac.1, line: 33
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:33
+msgid "Written by Jay Lepreau and David MacKenzie."
+msgstr "由 Jay Lepreau 和 David MacKenzie 编写。"
+
+#
+# File: raw/man1/tac.1, line: 33
+# File: raw/man1/tac.1, line: 33
+# File: raw/man1/tac.1, line: 33
+#. type: SH
+#: raw/coreutils/man1/tac.1:33
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/tac.1, line: 35
+# File: raw/man1/tac.1, line: 35
+# File: raw/man1/tac.1, line: 35
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:35
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/tac.1, line: 37
+# File: raw/man1/tac.1, line: 37
+# File: raw/man1/tac.1, line: 37
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:37
+msgid ""
+"Report tac translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 tac 的翻译"
+"错误。"
+
+#
+# File: raw/man1/tac.1, line: 37
+# File: raw/man1/tac.1, line: 37
+# File: raw/man1/tac.1, line: 37
+#. type: SH
+#: raw/coreutils/man1/tac.1:37
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/tac.1, line: 40
+# File: raw/man1/tac.1, line: 40
+# File: raw/man1/tac.1, line: 40
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:40
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/tac.1, line: 43
+# File: raw/man1/tac.1, line: 43
+# File: raw/man1/tac.1, line: 43
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:43
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/tac.1, line: 43
+# File: raw/man1/tac.1, line: 43
+# File: raw/man1/tac.1, line: 43
+#. type: SH
+#: raw/coreutils/man1/tac.1:43
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/tac.1, line: 45
+# File: raw/man1/tac.1, line: 45
+# File: raw/man1/tac.1, line: 45
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:45
+msgid "B<rev>(1)"
+msgstr "B<rev>(1)"
+
+#
+# File: raw/man1/tac.1, line: 48
+# File: raw/man1/tac.1, line: 48
+# File: raw/man1/tac.1, line: 48
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:48
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/tacE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/tacE<gt>"
+
+#
+# File: raw/man1/tac.1, line: 49
+# File: raw/man1/tac.1, line: 49
+# File: raw/man1/tac.1, line: 49
+#. type: Plain text
+#: raw/coreutils/man1/tac.1:49
+msgid "or available locally via: info \\(aq(coreutils) tac invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) tac invocation\\(aq"
+
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

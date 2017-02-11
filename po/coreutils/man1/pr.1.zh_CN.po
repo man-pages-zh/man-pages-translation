@@ -1,0 +1,854 @@
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2015-04-26 11:29+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/pr.1:2
+#, no-wrap
+msgid "PR"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/pr.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/pr.1:2
+#, fuzzy, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.23"
+
+#
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+# File: raw/man1/pr.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/pr.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "User Commands"
+
+#
+# File: raw/man1/pr.1, line: 3
+# File: raw/man1/pr.1, line: 3
+# File: raw/man1/pr.1, line: 3
+# File: raw/man1/pr.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/pr.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/pr.1, line: 5
+# File: raw/man1/pr.1, line: 5
+# File: raw/man1/pr.1, line: 5
+# File: raw/man1/pr.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:5
+msgid "pr - convert text files for printing"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 5
+# File: raw/man1/pr.1, line: 5
+# File: raw/man1/pr.1, line: 5
+# File: raw/man1/pr.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/pr.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/pr.1, line: 8
+# File: raw/man1/pr.1, line: 8
+# File: raw/man1/pr.1, line: 8
+# File: raw/man1/pr.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:8
+msgid "B<pr> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 8
+# File: raw/man1/pr.1, line: 8
+# File: raw/man1/pr.1, line: 8
+# File: raw/man1/pr.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/pr.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/pr.1, line: 12
+# File: raw/man1/pr.1, line: 12
+# File: raw/man1/pr.1, line: 12
+# File: raw/man1/pr.1, line: 12
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:12
+msgid "Paginate or columnate FILE(s) for printing."
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 14
+# File: raw/man1/pr.1, line: 14
+# File: raw/man1/pr.1, line: 14
+# File: raw/man1/pr.1, line: 14
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:14
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 16
+# File: raw/man1/pr.1, line: 16
+# File: raw/man1/pr.1, line: 16
+# File: raw/man1/pr.1, line: 16
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:16
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr "必选参数对长短选项同时适用。"
+
+#
+# File: raw/man1/pr.1, line: 16
+# File: raw/man1/pr.1, line: 16
+# File: raw/man1/pr.1, line: 16
+# File: raw/man1/pr.1, line: 16
+#. type: TP
+#: raw/coreutils/man1/pr.1:16
+#, no-wrap
+msgid "+FIRST_PAGE[:LAST_PAGE], B<--pages>=I<\\,FIRST_PAGE[\\/>:LAST_PAGE]"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 19
+# File: raw/man1/pr.1, line: 19
+# File: raw/man1/pr.1, line: 19
+# File: raw/man1/pr.1, line: 19
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:19
+msgid "begin [stop] printing with page FIRST_[LAST_]PAGE"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 19
+# File: raw/man1/pr.1, line: 19
+# File: raw/man1/pr.1, line: 19
+# File: raw/man1/pr.1, line: 19
+#. type: TP
+#: raw/coreutils/man1/pr.1:19
+#, no-wrap
+msgid "B<-COLUMN>, B<--columns>=I<\\,COLUMN\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 24
+# File: raw/man1/pr.1, line: 24
+# File: raw/man1/pr.1, line: 24
+# File: raw/man1/pr.1, line: 24
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:24
+msgid ""
+"output COLUMN columns and print columns down, unless B<-a> is used. Balance "
+"number of lines in the columns on each page"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 24
+# File: raw/man1/pr.1, line: 24
+# File: raw/man1/pr.1, line: 24
+# File: raw/man1/pr.1, line: 24
+#. type: TP
+#: raw/coreutils/man1/pr.1:24
+#, no-wrap
+msgid "B<-a>, B<--across>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 28
+# File: raw/man1/pr.1, line: 28
+# File: raw/man1/pr.1, line: 28
+# File: raw/man1/pr.1, line: 28
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:28
+msgid "print columns across rather than down, used together with B<-COLUMN>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 28
+# File: raw/man1/pr.1, line: 28
+# File: raw/man1/pr.1, line: 28
+# File: raw/man1/pr.1, line: 28
+#. type: TP
+#: raw/coreutils/man1/pr.1:28
+#, no-wrap
+msgid "B<-c>, B<--show-control-chars>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 31
+# File: raw/man1/pr.1, line: 31
+# File: raw/man1/pr.1, line: 31
+# File: raw/man1/pr.1, line: 31
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:31
+msgid "use hat notation (^G) and octal backslash notation"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 31
+# File: raw/man1/pr.1, line: 31
+# File: raw/man1/pr.1, line: 31
+# File: raw/man1/pr.1, line: 31
+#. type: TP
+#: raw/coreutils/man1/pr.1:31
+#, no-wrap
+msgid "B<-d>, B<--double-space>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 34
+# File: raw/man1/pr.1, line: 34
+# File: raw/man1/pr.1, line: 34
+# File: raw/man1/pr.1, line: 34
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:34
+msgid "double space the output"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 34
+# File: raw/man1/pr.1, line: 34
+# File: raw/man1/pr.1, line: 34
+# File: raw/man1/pr.1, line: 34
+#. type: TP
+#: raw/coreutils/man1/pr.1:34
+#, no-wrap
+msgid "B<-D>, B<--date-format>=I<\\,FORMAT\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 37
+# File: raw/man1/pr.1, line: 37
+# File: raw/man1/pr.1, line: 37
+# File: raw/man1/pr.1, line: 37
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:37
+msgid "use FORMAT for the header date"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 37
+# File: raw/man1/pr.1, line: 37
+# File: raw/man1/pr.1, line: 37
+# File: raw/man1/pr.1, line: 37
+#. type: TP
+#: raw/coreutils/man1/pr.1:37
+#, no-wrap
+msgid "B<-e[CHAR[WIDTH]]>, B<--expand-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 40
+# File: raw/man1/pr.1, line: 40
+# File: raw/man1/pr.1, line: 40
+# File: raw/man1/pr.1, line: 40
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:40
+msgid "expand input CHARs (TABs) to tab WIDTH (8)"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 40
+# File: raw/man1/pr.1, line: 40
+# File: raw/man1/pr.1, line: 40
+# File: raw/man1/pr.1, line: 40
+#. type: TP
+#: raw/coreutils/man1/pr.1:40
+#, no-wrap
+msgid "B<-F>, B<-f>, B<--form-feed>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 45
+# File: raw/man1/pr.1, line: 45
+# File: raw/man1/pr.1, line: 45
+# File: raw/man1/pr.1, line: 45
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:45
+msgid ""
+"use form feeds instead of newlines to separate pages (by a 3-line page "
+"header with B<-F> or a 5-line header and trailer without B<-F>)"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 45
+# File: raw/man1/pr.1, line: 45
+# File: raw/man1/pr.1, line: 45
+# File: raw/man1/pr.1, line: 45
+#. type: TP
+#: raw/coreutils/man1/pr.1:45
+#, no-wrap
+msgid "B<-h>, B<--header>=I<\\,HEADER\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 49
+# File: raw/man1/pr.1, line: 49
+# File: raw/man1/pr.1, line: 49
+# File: raw/man1/pr.1, line: 49
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:49
+msgid ""
+"use a centered HEADER instead of filename in page header, B<-h> \"\" prints "
+"a blank line, don't use B<-h>\"\""
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 49
+# File: raw/man1/pr.1, line: 49
+# File: raw/man1/pr.1, line: 49
+# File: raw/man1/pr.1, line: 49
+#. type: TP
+#: raw/coreutils/man1/pr.1:49
+#, no-wrap
+msgid "B<-i[CHAR[WIDTH]]>, B<--output-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 52
+# File: raw/man1/pr.1, line: 52
+# File: raw/man1/pr.1, line: 52
+# File: raw/man1/pr.1, line: 52
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:52
+msgid "replace spaces with CHARs (TABs) to tab WIDTH (8)"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 52
+# File: raw/man1/pr.1, line: 52
+# File: raw/man1/pr.1, line: 52
+# File: raw/man1/pr.1, line: 52
+#. type: TP
+#: raw/coreutils/man1/pr.1:52
+#, no-wrap
+msgid "B<-J>, B<--join-lines>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 56
+# File: raw/man1/pr.1, line: 56
+# File: raw/man1/pr.1, line: 56
+# File: raw/man1/pr.1, line: 56
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:56
+msgid ""
+"merge full lines, turns off B<-W> line truncation, no column alignment, B<--"
+"sep-string>[=I<\\,STRING\\/>] sets separators"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 56
+# File: raw/man1/pr.1, line: 56
+# File: raw/man1/pr.1, line: 56
+# File: raw/man1/pr.1, line: 56
+#. type: TP
+#: raw/coreutils/man1/pr.1:56
+#, no-wrap
+msgid "B<-l>, B<--length>=I<\\,PAGE_LENGTH\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 61
+# File: raw/man1/pr.1, line: 61
+# File: raw/man1/pr.1, line: 61
+# File: raw/man1/pr.1, line: 61
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:61
+msgid ""
+"set the page length to PAGE_LENGTH (66) lines (default number of lines of "
+"text 56, and with B<-F> 63).  implies B<-t> if PAGE_LENGTH E<lt>= 10"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 61
+# File: raw/man1/pr.1, line: 61
+# File: raw/man1/pr.1, line: 61
+# File: raw/man1/pr.1, line: 61
+#. type: TP
+#: raw/coreutils/man1/pr.1:61
+#, no-wrap
+msgid "B<-m>, B<--merge>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 65
+# File: raw/man1/pr.1, line: 65
+# File: raw/man1/pr.1, line: 65
+# File: raw/man1/pr.1, line: 65
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:65
+msgid ""
+"print all files in parallel, one in each column, truncate lines, but join "
+"lines of full length with B<-J>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 65
+# File: raw/man1/pr.1, line: 65
+# File: raw/man1/pr.1, line: 65
+# File: raw/man1/pr.1, line: 65
+#. type: TP
+#: raw/coreutils/man1/pr.1:65
+#, no-wrap
+msgid "B<-n[SEP[DIGITS]]>, B<--number-lines>[=I<\\,SEP[DIGITS]\\/>]"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 69
+# File: raw/man1/pr.1, line: 69
+# File: raw/man1/pr.1, line: 69
+# File: raw/man1/pr.1, line: 69
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:69
+msgid ""
+"number lines, use DIGITS (5) digits, then SEP (TAB), default counting starts "
+"with 1st line of input file"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 69
+# File: raw/man1/pr.1, line: 69
+# File: raw/man1/pr.1, line: 69
+# File: raw/man1/pr.1, line: 69
+#. type: TP
+#: raw/coreutils/man1/pr.1:69
+#, no-wrap
+msgid "B<-N>, B<--first-line-number>=I<\\,NUMBER\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 73
+# File: raw/man1/pr.1, line: 73
+# File: raw/man1/pr.1, line: 73
+# File: raw/man1/pr.1, line: 73
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:73
+msgid ""
+"start counting with NUMBER at 1st line of first page printed (see "
+"+FIRST_PAGE)"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 73
+# File: raw/man1/pr.1, line: 73
+# File: raw/man1/pr.1, line: 73
+# File: raw/man1/pr.1, line: 73
+#. type: TP
+#: raw/coreutils/man1/pr.1:73
+#, no-wrap
+msgid "B<-o>, B<--indent>=I<\\,MARGIN\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 77
+# File: raw/man1/pr.1, line: 77
+# File: raw/man1/pr.1, line: 77
+# File: raw/man1/pr.1, line: 77
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:77
+msgid ""
+"offset each line with MARGIN (zero) spaces, do not affect B<-w> or B<-W>, "
+"MARGIN will be added to PAGE_WIDTH"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 77
+# File: raw/man1/pr.1, line: 77
+# File: raw/man1/pr.1, line: 77
+# File: raw/man1/pr.1, line: 77
+#. type: TP
+#: raw/coreutils/man1/pr.1:77
+#, no-wrap
+msgid "B<-r>, B<--no-file-warnings>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 80
+# File: raw/man1/pr.1, line: 80
+# File: raw/man1/pr.1, line: 80
+# File: raw/man1/pr.1, line: 80
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:80
+msgid "omit warning when a file cannot be opened"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 80
+# File: raw/man1/pr.1, line: 80
+# File: raw/man1/pr.1, line: 80
+# File: raw/man1/pr.1, line: 80
+#. type: TP
+#: raw/coreutils/man1/pr.1:80
+#, no-wrap
+msgid "B<-s[CHAR]>, B<--separator>[=I<\\,CHAR\\/>]"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 86
+# File: raw/man1/pr.1, line: 86
+# File: raw/man1/pr.1, line: 86
+# File: raw/man1/pr.1, line: 86
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:86
+msgid ""
+"separate columns by a single character, default for CHAR is the "
+"E<lt>TABE<gt> character without B<-w> and 'no char' with B<-w>.  B<-s[CHAR]> "
+"turns off line truncation of all 3 column options (B<-COLUMN>|-a B<-COLUMN>|-"
+"m) except B<-w> is set"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 86
+# File: raw/man1/pr.1, line: 86
+# File: raw/man1/pr.1, line: 86
+# File: raw/man1/pr.1, line: 86
+#. type: TP
+#: raw/coreutils/man1/pr.1:86
+#, no-wrap
+msgid "B<-S[STRING]>, B<--sep-string>[=I<\\,STRING\\/>]"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 91
+# File: raw/man1/pr.1, line: 91
+# File: raw/man1/pr.1, line: 91
+# File: raw/man1/pr.1, line: 91
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:91
+msgid ""
+"separate columns by STRING, without B<-S>: Default separator E<lt>TABE<gt> "
+"with B<-J> and E<lt>spaceE<gt> otherwise (same as B<-S>\" \"), no effect on "
+"column options"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 91
+# File: raw/man1/pr.1, line: 91
+# File: raw/man1/pr.1, line: 91
+# File: raw/man1/pr.1, line: 91
+#. type: TP
+#: raw/coreutils/man1/pr.1:91
+#, no-wrap
+msgid "B<-t>, B<--omit-header>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 95
+# File: raw/man1/pr.1, line: 95
+# File: raw/man1/pr.1, line: 95
+# File: raw/man1/pr.1, line: 95
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:95
+msgid "omit page headers and trailers; implied if PAGE_LENGTH E<lt>= 10"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 95
+# File: raw/man1/pr.1, line: 95
+# File: raw/man1/pr.1, line: 95
+# File: raw/man1/pr.1, line: 95
+#. type: TP
+#: raw/coreutils/man1/pr.1:95
+#, no-wrap
+msgid "B<-T>, B<--omit-pagination>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 99
+# File: raw/man1/pr.1, line: 99
+# File: raw/man1/pr.1, line: 99
+# File: raw/man1/pr.1, line: 99
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:99
+msgid ""
+"omit page headers and trailers, eliminate any pagination by form feeds set "
+"in input files"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 99
+# File: raw/man1/pr.1, line: 99
+# File: raw/man1/pr.1, line: 99
+# File: raw/man1/pr.1, line: 99
+#. type: TP
+#: raw/coreutils/man1/pr.1:99
+#, no-wrap
+msgid "B<-v>, B<--show-nonprinting>"
+msgstr "B<-v>, B<--show-nonprinting>"
+
+#
+# File: raw/man1/pr.1, line: 102
+# File: raw/man1/pr.1, line: 102
+# File: raw/man1/pr.1, line: 102
+# File: raw/man1/pr.1, line: 102
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:102
+msgid "use octal backslash notation"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 102
+# File: raw/man1/pr.1, line: 102
+# File: raw/man1/pr.1, line: 102
+# File: raw/man1/pr.1, line: 102
+#. type: TP
+#: raw/coreutils/man1/pr.1:102
+#, no-wrap
+msgid "B<-w>, B<--width>=I<\\,PAGE_WIDTH\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 106
+# File: raw/man1/pr.1, line: 106
+# File: raw/man1/pr.1, line: 106
+# File: raw/man1/pr.1, line: 106
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:106
+msgid ""
+"set page width to PAGE_WIDTH (72) characters for multiple text-column output "
+"only, B<-s[char]> turns off (72)"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 106
+# File: raw/man1/pr.1, line: 106
+# File: raw/man1/pr.1, line: 106
+# File: raw/man1/pr.1, line: 106
+#. type: TP
+#: raw/coreutils/man1/pr.1:106
+#, no-wrap
+msgid "B<-W>, B<--page-width>=I<\\,PAGE_WIDTH\\/>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 111
+# File: raw/man1/pr.1, line: 111
+# File: raw/man1/pr.1, line: 111
+# File: raw/man1/pr.1, line: 111
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:111
+msgid ""
+"set page width to PAGE_WIDTH (72) characters always, truncate lines, except "
+"B<-J> option is set, no interference with B<-S> or B<-s>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 111
+# File: raw/man1/pr.1, line: 111
+# File: raw/man1/pr.1, line: 111
+# File: raw/man1/pr.1, line: 111
+#. type: TP
+#: raw/coreutils/man1/pr.1:111
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/pr.1, line: 114
+# File: raw/man1/pr.1, line: 114
+# File: raw/man1/pr.1, line: 114
+# File: raw/man1/pr.1, line: 114
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:114
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/pr.1, line: 114
+# File: raw/man1/pr.1, line: 114
+# File: raw/man1/pr.1, line: 114
+# File: raw/man1/pr.1, line: 114
+#. type: TP
+#: raw/coreutils/man1/pr.1:114
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/pr.1, line: 117
+# File: raw/man1/pr.1, line: 117
+# File: raw/man1/pr.1, line: 117
+# File: raw/man1/pr.1, line: 117
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:117
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/pr.1, line: 117
+# File: raw/man1/pr.1, line: 117
+# File: raw/man1/pr.1, line: 117
+# File: raw/man1/pr.1, line: 117
+#. type: SH
+#: raw/coreutils/man1/pr.1:117
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/pr.1, line: 119
+# File: raw/man1/pr.1, line: 119
+# File: raw/man1/pr.1, line: 119
+# File: raw/man1/pr.1, line: 119
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:119
+msgid "Written by Pete TerMaat and Roland Huebner."
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 119
+# File: raw/man1/pr.1, line: 119
+# File: raw/man1/pr.1, line: 119
+# File: raw/man1/pr.1, line: 119
+#. type: SH
+#: raw/coreutils/man1/pr.1:119
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/pr.1, line: 121
+# File: raw/man1/pr.1, line: 121
+# File: raw/man1/pr.1, line: 121
+# File: raw/man1/pr.1, line: 121
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:121
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/pr.1, line: 123
+# File: raw/man1/pr.1, line: 123
+# File: raw/man1/pr.1, line: 123
+# File: raw/man1/pr.1, line: 123
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:123
+msgid ""
+"Report pr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 123
+# File: raw/man1/pr.1, line: 123
+# File: raw/man1/pr.1, line: 123
+# File: raw/man1/pr.1, line: 123
+#. type: SH
+#: raw/coreutils/man1/pr.1:123
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/pr.1, line: 126
+# File: raw/man1/pr.1, line: 126
+# File: raw/man1/pr.1, line: 126
+# File: raw/man1/pr.1, line: 126
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:126
+#, fuzzy
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/pr.1, line: 129
+# File: raw/man1/pr.1, line: 129
+# File: raw/man1/pr.1, line: 129
+# File: raw/man1/pr.1, line: 129
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:129
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/pr.1, line: 129
+# File: raw/man1/pr.1, line: 129
+# File: raw/man1/pr.1, line: 129
+# File: raw/man1/pr.1, line: 129
+#. type: SH
+#: raw/coreutils/man1/pr.1:129
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/pr.1, line: 131
+# File: raw/man1/pr.1, line: 131
+# File: raw/man1/pr.1, line: 131
+# File: raw/man1/pr.1, line: 131
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:131
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/prE<gt>"
+msgstr ""
+
+#
+# File: raw/man1/pr.1, line: 132
+# File: raw/man1/pr.1, line: 132
+# File: raw/man1/pr.1, line: 132
+# File: raw/man1/pr.1, line: 132
+#. type: Plain text
+#: raw/coreutils/man1/pr.1:132
+msgid "or available locally via: info \\(aq(coreutils) pr invocation\\(aq"
+msgstr ""
+
+#
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

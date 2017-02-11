@@ -1,0 +1,654 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2016-12-15 20:32+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/echo.1:2
+#, no-wrap
+msgid "ECHO"
+msgstr "ECHO"
+
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/echo.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/echo.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+# File: raw/man1/echo.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/echo.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#
+# File: raw/man1/echo.1, line: 3
+# File: raw/man1/echo.1, line: 3
+# File: raw/man1/echo.1, line: 3
+# File: raw/man1/echo.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/echo.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/echo.1, line: 5
+# File: raw/man1/echo.1, line: 5
+# File: raw/man1/echo.1, line: 5
+# File: raw/man1/echo.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:5
+msgid "echo - display a line of text"
+msgstr "echo - 显示一行文本"
+
+#
+# File: raw/man1/echo.1, line: 5
+# File: raw/man1/echo.1, line: 5
+# File: raw/man1/echo.1, line: 5
+# File: raw/man1/echo.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/echo.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/echo.1, line: 8
+# File: raw/man1/echo.1, line: 8
+# File: raw/man1/echo.1, line: 8
+# File: raw/man1/echo.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:8
+msgid "B<echo> [I<\\,SHORT-OPTION\\/>]... [I<\\,STRING\\/>]..."
+msgstr "B<echo> [I<\\,短选项\\/>]... [I<\\,字符串列表\\/>]..."
+
+#
+# File: raw/man1/echo.1, line: 11
+# File: raw/man1/echo.1, line: 11
+# File: raw/man1/echo.1, line: 11
+# File: raw/man1/echo.1, line: 11
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:11
+msgid "B<echo> I<\\,LONG-OPTION\\/>"
+msgstr "B<echo> I<\\,长选项\\/>"
+
+#
+# File: raw/man1/echo.1, line: 11
+# File: raw/man1/echo.1, line: 11
+# File: raw/man1/echo.1, line: 11
+# File: raw/man1/echo.1, line: 11
+#. type: SH
+#: raw/coreutils/man1/echo.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/echo.1, line: 15
+# File: raw/man1/echo.1, line: 15
+# File: raw/man1/echo.1, line: 15
+# File: raw/man1/echo.1, line: 15
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:15
+msgid "Echo the STRING(s) to standard output."
+msgstr "将字符串列表中的字符输出到标准输出。"
+
+#
+# File: raw/man1/echo.1, line: 15
+# File: raw/man1/echo.1, line: 15
+# File: raw/man1/echo.1, line: 15
+# File: raw/man1/echo.1, line: 15
+#. type: TP
+#: raw/coreutils/man1/echo.1:15
+#, no-wrap
+msgid "B<-n>"
+msgstr "B<-n>"
+
+#
+# File: raw/man1/echo.1, line: 18
+# File: raw/man1/echo.1, line: 18
+# File: raw/man1/echo.1, line: 18
+# File: raw/man1/echo.1, line: 18
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:18
+msgid "do not output the trailing newline"
+msgstr "不输出尾随的换行符"
+
+#
+# File: raw/man1/echo.1, line: 18
+# File: raw/man1/echo.1, line: 18
+# File: raw/man1/echo.1, line: 18
+# File: raw/man1/echo.1, line: 18
+#. type: TP
+#: raw/coreutils/man1/echo.1:18
+#, no-wrap
+msgid "B<-e>"
+msgstr "B<-e>"
+
+#
+# File: raw/man1/echo.1, line: 21
+# File: raw/man1/echo.1, line: 21
+# File: raw/man1/echo.1, line: 21
+# File: raw/man1/echo.1, line: 21
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:21
+msgid "enable interpretation of backslash escapes"
+msgstr "启用解释反斜杠的转义功能"
+
+#
+# File: raw/man1/echo.1, line: 21
+# File: raw/man1/echo.1, line: 21
+# File: raw/man1/echo.1, line: 21
+# File: raw/man1/echo.1, line: 21
+#. type: TP
+#: raw/coreutils/man1/echo.1:21
+#, no-wrap
+msgid "B<-E>"
+msgstr "B<-E>"
+
+#
+# File: raw/man1/echo.1, line: 24
+# File: raw/man1/echo.1, line: 24
+# File: raw/man1/echo.1, line: 24
+# File: raw/man1/echo.1, line: 24
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:24
+msgid "disable interpretation of backslash escapes (default)"
+msgstr "禁用解释反斜杠的转义功能（默认）"
+
+#
+# File: raw/man1/echo.1, line: 24
+# File: raw/man1/echo.1, line: 24
+# File: raw/man1/echo.1, line: 24
+# File: raw/man1/echo.1, line: 24
+#. type: TP
+#: raw/coreutils/man1/echo.1:24
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/echo.1, line: 27
+# File: raw/man1/echo.1, line: 27
+# File: raw/man1/echo.1, line: 27
+# File: raw/man1/echo.1, line: 27
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:27
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/echo.1, line: 27
+# File: raw/man1/echo.1, line: 27
+# File: raw/man1/echo.1, line: 27
+# File: raw/man1/echo.1, line: 27
+#. type: TP
+#: raw/coreutils/man1/echo.1:27
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/echo.1, line: 30
+# File: raw/man1/echo.1, line: 30
+# File: raw/man1/echo.1, line: 30
+# File: raw/man1/echo.1, line: 30
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:30
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/echo.1, line: 32
+# File: raw/man1/echo.1, line: 32
+# File: raw/man1/echo.1, line: 32
+# File: raw/man1/echo.1, line: 32
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:32
+msgid "If B<-e> is in effect, the following sequences are recognized:"
+msgstr "若 B<-e> 可用，则以下序列即可识别："
+
+#
+# File: raw/man1/echo.1, line: 32
+# File: raw/man1/echo.1, line: 32
+# File: raw/man1/echo.1, line: 32
+# File: raw/man1/echo.1, line: 32
+#. type: TP
+#: raw/coreutils/man1/echo.1:32
+#, no-wrap
+msgid "\\e\\e"
+msgstr "\\e\\e"
+
+#
+# File: raw/man1/echo.1, line: 35
+# File: raw/man1/echo.1, line: 35
+# File: raw/man1/echo.1, line: 35
+# File: raw/man1/echo.1, line: 35
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:35
+msgid "backslash"
+msgstr "反斜线"
+
+#
+# File: raw/man1/echo.1, line: 35
+# File: raw/man1/echo.1, line: 35
+# File: raw/man1/echo.1, line: 35
+# File: raw/man1/echo.1, line: 35
+#. type: TP
+#: raw/coreutils/man1/echo.1:35
+#, no-wrap
+msgid "\\ea"
+msgstr "\\ea"
+
+#
+# File: raw/man1/echo.1, line: 38
+# File: raw/man1/echo.1, line: 38
+# File: raw/man1/echo.1, line: 38
+# File: raw/man1/echo.1, line: 38
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:38
+msgid "alert (BEL)"
+msgstr "报警符(BEL)"
+
+#
+# File: raw/man1/echo.1, line: 38
+# File: raw/man1/echo.1, line: 38
+# File: raw/man1/echo.1, line: 38
+# File: raw/man1/echo.1, line: 38
+#. type: TP
+#: raw/coreutils/man1/echo.1:38
+#, no-wrap
+msgid "\\eb"
+msgstr "\\eb"
+
+#
+# File: raw/man1/echo.1, line: 41
+# File: raw/man1/echo.1, line: 41
+# File: raw/man1/echo.1, line: 41
+# File: raw/man1/echo.1, line: 41
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:41
+msgid "backspace"
+msgstr "退格符"
+
+#
+# File: raw/man1/echo.1, line: 41
+# File: raw/man1/echo.1, line: 41
+# File: raw/man1/echo.1, line: 41
+# File: raw/man1/echo.1, line: 41
+#. type: TP
+#: raw/coreutils/man1/echo.1:41
+#, no-wrap
+msgid "\\ec"
+msgstr "\\ec"
+
+#
+# File: raw/man1/echo.1, line: 44
+# File: raw/man1/echo.1, line: 44
+# File: raw/man1/echo.1, line: 44
+# File: raw/man1/echo.1, line: 44
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:44
+msgid "produce no further output"
+msgstr "禁止尾随的换行符"
+
+#
+# File: raw/man1/echo.1, line: 44
+# File: raw/man1/echo.1, line: 44
+# File: raw/man1/echo.1, line: 44
+# File: raw/man1/echo.1, line: 44
+#. type: TP
+#: raw/coreutils/man1/echo.1:44
+#, no-wrap
+msgid "\\ee"
+msgstr "\\ee"
+
+#
+# File: raw/man1/echo.1, line: 47
+# File: raw/man1/echo.1, line: 47
+# File: raw/man1/echo.1, line: 47
+# File: raw/man1/echo.1, line: 47
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:47
+msgid "escape"
+msgstr "escape 字符"
+
+#
+# File: raw/man1/echo.1, line: 47
+# File: raw/man1/echo.1, line: 47
+# File: raw/man1/echo.1, line: 47
+# File: raw/man1/echo.1, line: 47
+#. type: TP
+#: raw/coreutils/man1/echo.1:47
+#, no-wrap
+msgid "\\ef"
+msgstr "\\ef"
+
+#
+# File: raw/man1/echo.1, line: 50
+# File: raw/man1/echo.1, line: 50
+# File: raw/man1/echo.1, line: 50
+# File: raw/man1/echo.1, line: 50
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:50
+msgid "form feed"
+msgstr "换页符"
+
+#
+# File: raw/man1/echo.1, line: 50
+# File: raw/man1/echo.1, line: 50
+# File: raw/man1/echo.1, line: 50
+# File: raw/man1/echo.1, line: 50
+#. type: TP
+#: raw/coreutils/man1/echo.1:50
+#, no-wrap
+msgid "\\en"
+msgstr "\\en"
+
+#
+# File: raw/man1/echo.1, line: 53
+# File: raw/man1/echo.1, line: 53
+# File: raw/man1/echo.1, line: 53
+# File: raw/man1/echo.1, line: 53
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:53
+msgid "new line"
+msgstr "另起一行"
+
+#
+# File: raw/man1/echo.1, line: 53
+# File: raw/man1/echo.1, line: 53
+# File: raw/man1/echo.1, line: 53
+# File: raw/man1/echo.1, line: 53
+#. type: TP
+#: raw/coreutils/man1/echo.1:53
+#, no-wrap
+msgid "\\er"
+msgstr "\\er"
+
+#
+# File: raw/man1/echo.1, line: 56
+# File: raw/man1/echo.1, line: 56
+# File: raw/man1/echo.1, line: 56
+# File: raw/man1/echo.1, line: 56
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:56
+msgid "carriage return"
+msgstr "回到行首"
+
+#
+# File: raw/man1/echo.1, line: 56
+# File: raw/man1/echo.1, line: 56
+# File: raw/man1/echo.1, line: 56
+# File: raw/man1/echo.1, line: 56
+#. type: TP
+#: raw/coreutils/man1/echo.1:56
+#, no-wrap
+msgid "\\et"
+msgstr "\\et"
+
+#
+# File: raw/man1/echo.1, line: 59
+# File: raw/man1/echo.1, line: 59
+# File: raw/man1/echo.1, line: 59
+# File: raw/man1/echo.1, line: 59
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:59
+msgid "horizontal tab"
+msgstr "水平制表符"
+
+#
+# File: raw/man1/echo.1, line: 59
+# File: raw/man1/echo.1, line: 59
+# File: raw/man1/echo.1, line: 59
+# File: raw/man1/echo.1, line: 59
+#. type: TP
+#: raw/coreutils/man1/echo.1:59
+#, no-wrap
+msgid "\\ev"
+msgstr "\\ev"
+
+#
+# File: raw/man1/echo.1, line: 62
+# File: raw/man1/echo.1, line: 62
+# File: raw/man1/echo.1, line: 62
+# File: raw/man1/echo.1, line: 62
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:62
+msgid "vertical tab"
+msgstr "垂直制表符"
+
+#
+# File: raw/man1/echo.1, line: 62
+# File: raw/man1/echo.1, line: 62
+# File: raw/man1/echo.1, line: 62
+# File: raw/man1/echo.1, line: 62
+#. type: TP
+#: raw/coreutils/man1/echo.1:62
+#, no-wrap
+msgid "\\e0NNN"
+msgstr "\\e0NNN"
+
+#
+# File: raw/man1/echo.1, line: 65
+# File: raw/man1/echo.1, line: 65
+# File: raw/man1/echo.1, line: 65
+# File: raw/man1/echo.1, line: 65
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:65
+msgid "byte with octal value NNN (1 to 3 digits)"
+msgstr "字节数以八进制数 NNN (1至3位)表示"
+
+#
+# File: raw/man1/echo.1, line: 65
+# File: raw/man1/echo.1, line: 65
+# File: raw/man1/echo.1, line: 65
+# File: raw/man1/echo.1, line: 65
+#. type: TP
+#: raw/coreutils/man1/echo.1:65
+#, no-wrap
+msgid "\\exHH"
+msgstr "\\exHH"
+
+#
+# File: raw/man1/echo.1, line: 68
+# File: raw/man1/echo.1, line: 68
+# File: raw/man1/echo.1, line: 68
+# File: raw/man1/echo.1, line: 68
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:68
+msgid "byte with hexadecimal value HH (1 to 2 digits)"
+msgstr "字节数以十六进制数 HH (1至2位)表示"
+
+#
+# File: raw/man1/echo.1, line: 72
+# File: raw/man1/echo.1, line: 72
+# File: raw/man1/echo.1, line: 72
+# File: raw/man1/echo.1, line: 72
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:72
+msgid ""
+"NOTE: your shell may have its own version of echo, which usually supersedes "
+"the version described here.  Please refer to your shell's documentation for "
+"details about the options it supports."
+msgstr ""
+"注意：您的 shell 可能内置了自己的 echo 程序版本，它会覆盖这里所提及的相应版"
+"本。请查阅您的 shell 文档获知它所支持的选项。"
+
+#
+# File: raw/man1/echo.1, line: 72
+# File: raw/man1/echo.1, line: 72
+# File: raw/man1/echo.1, line: 72
+# File: raw/man1/echo.1, line: 72
+#. type: SH
+#: raw/coreutils/man1/echo.1:72
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/echo.1, line: 74
+# File: raw/man1/echo.1, line: 74
+# File: raw/man1/echo.1, line: 74
+# File: raw/man1/echo.1, line: 74
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:74
+msgid "Written by Brian Fox and Chet Ramey."
+msgstr "由 Brian Fox 和 Chet Ramey 编写。"
+
+#
+# File: raw/man1/echo.1, line: 74
+# File: raw/man1/echo.1, line: 74
+# File: raw/man1/echo.1, line: 74
+# File: raw/man1/echo.1, line: 74
+#. type: SH
+#: raw/coreutils/man1/echo.1:74
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/echo.1, line: 76
+# File: raw/man1/echo.1, line: 76
+# File: raw/man1/echo.1, line: 76
+# File: raw/man1/echo.1, line: 76
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:76
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/echo.1, line: 78
+# File: raw/man1/echo.1, line: 78
+# File: raw/man1/echo.1, line: 78
+# File: raw/man1/echo.1, line: 78
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:78
+msgid ""
+"Report echo translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 echo 的翻译"
+"错误。"
+
+#
+# File: raw/man1/echo.1, line: 78
+# File: raw/man1/echo.1, line: 78
+# File: raw/man1/echo.1, line: 78
+# File: raw/man1/echo.1, line: 78
+#. type: SH
+#: raw/coreutils/man1/echo.1:78
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/echo.1, line: 81
+# File: raw/man1/echo.1, line: 81
+# File: raw/man1/echo.1, line: 81
+# File: raw/man1/echo.1, line: 81
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:81
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/echo.1, line: 84
+# File: raw/man1/echo.1, line: 84
+# File: raw/man1/echo.1, line: 84
+# File: raw/man1/echo.1, line: 84
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:84
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/echo.1, line: 84
+# File: raw/man1/echo.1, line: 84
+# File: raw/man1/echo.1, line: 84
+# File: raw/man1/echo.1, line: 84
+#. type: SH
+#: raw/coreutils/man1/echo.1:84
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/echo.1, line: 86
+# File: raw/man1/echo.1, line: 86
+# File: raw/man1/echo.1, line: 86
+# File: raw/man1/echo.1, line: 86
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:86
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/echoE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/echoE<gt>"
+
+#
+# File: raw/man1/echo.1, line: 87
+# File: raw/man1/echo.1, line: 87
+# File: raw/man1/echo.1, line: 87
+# File: raw/man1/echo.1, line: 87
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:87
+msgid "or available locally via: info \\(aq(coreutils) echo invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) echo invocation\\(aq"
+
+#
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

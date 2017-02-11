@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/realpath.1:2
+#, no-wrap
+msgid "REALPATH"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/realpath.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/realpath.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/realpath.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/realpath.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:5
+msgid "realpath - print the resolved path"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/realpath.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:8
+msgid "B<realpath> [I<\\,OPTION\\/>]... I<\\,FILE\\/>..."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/realpath.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:13
+msgid "Print the resolved absolute file name; all but the last component must exist"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:13
+#, no-wrap
+msgid "B<-e>, B<--canonicalize-existing>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:16
+msgid "all components of the path must exist"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:16
+#, no-wrap
+msgid "B<-m>, B<--canonicalize-missing>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:19
+msgid "no path components need exist or be a directory"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:19
+#, no-wrap
+msgid "B<-L>, B<--logical>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:22
+msgid "resolve '..' components before symlinks"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:22
+#, no-wrap
+msgid "B<-P>, B<--physical>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:25
+msgid "resolve symlinks as encountered (default)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:25
+#, no-wrap
+msgid "B<-q>, B<--quiet>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:28
+msgid "suppress most error messages"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:28
+#, no-wrap
+msgid "B<--relative-to>=I<\\,FILE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:31
+msgid "print the resolved path relative to FILE"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:31
+#, no-wrap
+msgid "B<--relative-base>=I<\\,FILE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:34
+msgid "print absolute paths unless paths below FILE"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:34
+#, no-wrap
+msgid "B<-s>, B<--strip>, B<--no-symlinks>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:37
+msgid "don't expand symlinks"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:37
+#, no-wrap
+msgid "B<-z>, B<--zero>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:40
+msgid "end each output line with NUL, not newline"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:40
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:43
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/realpath.1:43
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:46
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/realpath.1:46
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:48
+msgid "Written by Padraig Brady."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/realpath.1:48
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:50
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:52
+msgid ""
+"Report realpath translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/realpath.1:52
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:55
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:58
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/realpath.1:58
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:60
+msgid "readlink(1), readlink(2), realpath(3)"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:63
+msgid ""
+"Full documentation at: "
+"E<lt>http://www.gnu.org/software/coreutils/realpathE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/realpath.1:64
+msgid "or available locally via: info \\(aq(coreutils) realpath invocation\\(aq"
+msgstr ""

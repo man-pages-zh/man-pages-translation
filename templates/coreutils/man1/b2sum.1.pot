@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/b2sum.1:2
+#, no-wrap
+msgid "B2SUM"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/b2sum.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/b2sum.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/b2sum.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/b2sum.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:5
+msgid "b2sum - compute and check BLAKE2 message digest"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/b2sum.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:8
+msgid "B<b2sum> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/b2sum.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:12
+msgid "Print or check BLAKE2 (512-bit) checksums."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:14
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:14
+#, no-wrap
+msgid "B<-b>, B<--binary>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:17
+msgid "read in binary mode"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:17
+#, no-wrap
+msgid "B<-c>, B<--check>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:20
+msgid "read BLAKE2 sums from the FILEs and check them"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:20
+#, no-wrap
+msgid "B<-l>, B<--length>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:24
+msgid ""
+"digest length in bits; must not exceed the maximum for the blake2 algorithm "
+"and must be a multiple of 8"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:24
+#, no-wrap
+msgid "B<--tag>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:27
+msgid "create a BSD-style checksum"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:27
+#, no-wrap
+msgid "B<-t>, B<--text>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:30
+msgid "read in text mode (default)"
+msgstr ""
+
+#. type: SS
+#: raw/coreutils/man1/b2sum.1:30
+#, no-wrap
+msgid "The following five options are useful only when verifying checksums:"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:31
+#, no-wrap
+msgid "B<--ignore-missing>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:34
+msgid "don't fail or report status for missing files"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:34
+#, no-wrap
+msgid "B<--quiet>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:37
+msgid "don't print OK for each successfully verified file"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:37
+#, no-wrap
+msgid "B<--status>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:40
+msgid "don't output anything, status code shows success"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:40
+#, no-wrap
+msgid "B<--strict>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:43
+msgid "exit non-zero for improperly formatted checksum lines"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:43
+#, no-wrap
+msgid "B<-w>, B<--warn>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:46
+msgid "warn about improperly formatted checksum lines"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:46
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:49
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/b2sum.1:49
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:52
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:57
+msgid ""
+"The sums are computed as described in RFC 7693.  When checking, the input "
+"should be a former output of this program.  The default mode is to print a "
+"line with checksum, a space, a character indicating input mode ('*' for "
+"binary, \\&' ' for text or where binary is insignificant), and name for each "
+"FILE."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/b2sum.1:57
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:59
+msgid "Written by Padraig Brady and Samuel Neves."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/b2sum.1:59
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:61
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:63
+msgid ""
+"Report b2sum translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/b2sum.1:63
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:66
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:69
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/b2sum.1:69
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:71
+msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/b2sumE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/b2sum.1:72
+msgid "or available locally via: info \\(aq(coreutils) b2sum invocation\\(aq"
+msgstr ""

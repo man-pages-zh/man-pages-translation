@@ -1,0 +1,607 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"PO-Revision-Date: 2016-12-15 20:32+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rm.1:2
+#, no-wrap
+msgid "RM"
+msgstr "RM"
+
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rm.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rm.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/rm.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#
+# File: raw/man1/rm.1, line: 3
+# File: raw/man1/rm.1, line: 3
+# File: raw/man1/rm.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/rm.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/rm.1, line: 5
+# File: raw/man1/rm.1, line: 5
+# File: raw/man1/rm.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:5
+msgid "rm - remove files or directories"
+msgstr "rm - 移除文件或者目录"
+
+#
+# File: raw/man1/rm.1, line: 5
+# File: raw/man1/rm.1, line: 5
+# File: raw/man1/rm.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/rm.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/rm.1, line: 8
+# File: raw/man1/rm.1, line: 8
+# File: raw/man1/rm.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:8
+msgid "B<rm> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr "B<rm> [I<\\,选项\\/>]... I<\\,文件列表\\/>..."
+
+#
+# File: raw/man1/rm.1, line: 8
+# File: raw/man1/rm.1, line: 8
+# File: raw/man1/rm.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/rm.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/rm.1, line: 15
+# File: raw/man1/rm.1, line: 15
+# File: raw/man1/rm.1, line: 15
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:15
+msgid ""
+"This manual page documents the GNU version of B<rm>.  B<rm> removes each "
+"specified file.  By default, it does not remove directories."
+msgstr ""
+"本手册页记录 GNU 版本的 B<rm>。B<rm> 移除每一个指定的文件。默认情况下，它不删"
+"除目录。"
+
+#
+# File: raw/man1/rm.1, line: 22
+# File: raw/man1/rm.1, line: 22
+# File: raw/man1/rm.1, line: 22
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:22
+msgid ""
+"If the I<-I> or I<--interactive\\=once> option is given, and there are more "
+"than three files or the I<-r>, I<-R>, or I<--recursive> are given, then "
+"B<rm> prompts the user for whether to proceed with the entire operation.  If "
+"the response is not affirmative, the entire command is aborted."
+msgstr ""
+"如果指定 I<-I> 或 I<--interactive\\=once> 选项，且给出了三个以上的文件或指定"
+"了 I<-r>, I<-R> 或 I<--recursive> 选项，则 B<rm> 将提示并询问用户是否继续进行"
+"整个操作。如果未得到用户的确认，则整个命令将被中止。"
+
+#
+# File: raw/man1/rm.1, line: 29
+# File: raw/man1/rm.1, line: 29
+# File: raw/man1/rm.1, line: 29
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:29
+msgid ""
+"Otherwise, if a file is unwritable, standard input is a terminal, and the I<-"
+"f> or I<--force> option is not given, or the I<-i> or I<--interactive"
+"\\=always> option is given, B<rm> prompts the user for whether to remove the "
+"file.  If the response is not affirmative, the file is skipped."
+msgstr ""
+"否则，如果一个文件不可写、标准输入是一个终端且未给出 I<-f> 或 I<--force> 选"
+"项，或 I<--interactive\\=always> 选项被给出， B<rm> 将提示用户是否删除该文"
+"件。如果未得到用户的确认，则该文件将被跳过。"
+
+#
+# File: raw/man1/rm.1, line: 29
+# File: raw/man1/rm.1, line: 29
+# File: raw/man1/rm.1, line: 29
+#. type: SH
+#: raw/coreutils/man1/rm.1:29
+#, no-wrap
+msgid "OPTIONS"
+msgstr "选项"
+
+#
+# File: raw/man1/rm.1, line: 32
+# File: raw/man1/rm.1, line: 32
+# File: raw/man1/rm.1, line: 32
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:32
+msgid "Remove (unlink) the FILE(s)."
+msgstr "删除 (unlink) 给定文件。"
+
+#
+# File: raw/man1/rm.1, line: 32
+# File: raw/man1/rm.1, line: 32
+# File: raw/man1/rm.1, line: 32
+#. type: TP
+#: raw/coreutils/man1/rm.1:32
+#, no-wrap
+msgid "B<-f>, B<--force>"
+msgstr "B<-f>, B<--force>"
+
+#
+# File: raw/man1/rm.1, line: 35
+# File: raw/man1/rm.1, line: 35
+# File: raw/man1/rm.1, line: 35
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:35
+msgid "ignore nonexistent files and arguments, never prompt"
+msgstr "忽略不存在的文件和参数，从不提示"
+
+#
+# File: raw/man1/rm.1, line: 35
+# File: raw/man1/rm.1, line: 35
+# File: raw/man1/rm.1, line: 35
+#. type: TP
+#: raw/coreutils/man1/rm.1:35
+#, no-wrap
+msgid "B<-i>"
+msgstr "B<-i>"
+
+#
+# File: raw/man1/rm.1, line: 38
+# File: raw/man1/rm.1, line: 38
+# File: raw/man1/rm.1, line: 38
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:38
+msgid "prompt before every removal"
+msgstr "在每次删除前提示"
+
+#
+# File: raw/man1/rm.1, line: 38
+# File: raw/man1/rm.1, line: 38
+# File: raw/man1/rm.1, line: 38
+#. type: TP
+#: raw/coreutils/man1/rm.1:38
+#, no-wrap
+msgid "B<-I>"
+msgstr "B<-I>"
+
+#
+# File: raw/man1/rm.1, line: 43
+# File: raw/man1/rm.1, line: 43
+# File: raw/man1/rm.1, line: 43
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:43
+msgid ""
+"prompt once before removing more than three files, or when removing "
+"recursively; less intrusive than B<-i>, while still giving protection "
+"against most mistakes"
+msgstr ""
+"在进行递归删除或删除多于三个文件之前提示用户一次；与 B<-i> 相比较更少干扰用"
+"户，但是仍然为大多数操作失误起到保护作用。"
+
+#
+# File: raw/man1/rm.1, line: 43
+# File: raw/man1/rm.1, line: 43
+# File: raw/man1/rm.1, line: 43
+#. type: TP
+#: raw/coreutils/man1/rm.1:43
+#, no-wrap
+msgid "B<--interactive>[=I<\\,WHEN\\/>]"
+msgstr "B<--interactive>[=I<\\,WHEN\\/>]"
+
+#
+# File: raw/man1/rm.1, line: 47
+# File: raw/man1/rm.1, line: 47
+# File: raw/man1/rm.1, line: 47
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:47
+msgid ""
+"prompt according to WHEN: never, once (B<-I>), or always (B<-i>); without "
+"WHEN, prompt always"
+msgstr ""
+"根据 WHEN 确定提示用户的频率： \"never\"（从不）、\"once\" (B<-I>)、或者 "
+"\"always\" (B<-i>)；如果没有给定 WHEN 参数，则总是提示用户。"
+
+#
+# File: raw/man1/rm.1, line: 47
+# File: raw/man1/rm.1, line: 47
+# File: raw/man1/rm.1, line: 47
+#. type: TP
+#: raw/coreutils/man1/rm.1:47
+#, no-wrap
+msgid "B<--one-file-system>"
+msgstr "B<--one-file-system>"
+
+#
+# File: raw/man1/rm.1, line: 52
+# File: raw/man1/rm.1, line: 52
+# File: raw/man1/rm.1, line: 52
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:52
+msgid ""
+"when removing a hierarchy recursively, skip any directory that is on a file "
+"system different from that of the corresponding command line argument"
+msgstr ""
+"在递归地删除一个目录结构时，跳过与对应命令行参数不在同一个文件系统中的所有目"
+"录"
+
+#
+# File: raw/man1/rm.1, line: 52
+# File: raw/man1/rm.1, line: 52
+# File: raw/man1/rm.1, line: 52
+#. type: TP
+#: raw/coreutils/man1/rm.1:52
+#, no-wrap
+msgid "B<--no-preserve-root>"
+msgstr "B<--no-preserve-root>"
+
+#
+# File: raw/man1/rm.1, line: 55
+# File: raw/man1/rm.1, line: 55
+# File: raw/man1/rm.1, line: 55
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:55
+msgid "do not treat '/' specially"
+msgstr "不对 '/' 做特殊处理"
+
+#
+# File: raw/man1/rm.1, line: 55
+# File: raw/man1/rm.1, line: 55
+# File: raw/man1/rm.1, line: 55
+#. type: TP
+#: raw/coreutils/man1/rm.1:55
+#, no-wrap
+msgid "B<--preserve-root>"
+msgstr "B<--preserve-root>"
+
+#
+# File: raw/man1/rm.1, line: 58
+# File: raw/man1/rm.1, line: 58
+# File: raw/man1/rm.1, line: 58
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:58
+msgid "do not remove '/' (default)"
+msgstr "不删除 '/'（默认）"
+
+#
+# File: raw/man1/rm.1, line: 58
+# File: raw/man1/rm.1, line: 58
+# File: raw/man1/rm.1, line: 58
+#. type: TP
+#: raw/coreutils/man1/rm.1:58
+#, no-wrap
+msgid "B<-r>, B<-R>, B<--recursive>"
+msgstr "B<-r>, B<-R>, B<--recursive>"
+
+#
+# File: raw/man1/rm.1, line: 61
+# File: raw/man1/rm.1, line: 61
+# File: raw/man1/rm.1, line: 61
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:61
+msgid "remove directories and their contents recursively"
+msgstr "递归地移除目录及它们的内容"
+
+#
+# File: raw/man1/rm.1, line: 61
+# File: raw/man1/rm.1, line: 61
+# File: raw/man1/rm.1, line: 61
+#. type: TP
+#: raw/coreutils/man1/rm.1:61
+#, no-wrap
+msgid "B<-d>, B<--dir>"
+msgstr "B<-d>, B<--dir>"
+
+#
+# File: raw/man1/rm.1, line: 64
+# File: raw/man1/rm.1, line: 64
+# File: raw/man1/rm.1, line: 64
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:64
+msgid "remove empty directories"
+msgstr "删除空目录"
+
+#
+# File: raw/man1/rm.1, line: 64
+# File: raw/man1/rm.1, line: 64
+# File: raw/man1/rm.1, line: 64
+#. type: TP
+#: raw/coreutils/man1/rm.1:64
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--verbose>"
+
+#
+# File: raw/man1/rm.1, line: 67
+# File: raw/man1/rm.1, line: 67
+# File: raw/man1/rm.1, line: 67
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:67
+msgid "explain what is being done"
+msgstr "解释正在发生的情况"
+
+#
+# File: raw/man1/rm.1, line: 67
+# File: raw/man1/rm.1, line: 67
+# File: raw/man1/rm.1, line: 67
+#. type: TP
+#: raw/coreutils/man1/rm.1:67
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/rm.1, line: 70
+# File: raw/man1/rm.1, line: 70
+# File: raw/man1/rm.1, line: 70
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:70
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/rm.1, line: 70
+# File: raw/man1/rm.1, line: 70
+# File: raw/man1/rm.1, line: 70
+#. type: TP
+#: raw/coreutils/man1/rm.1:70
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/rm.1, line: 73
+# File: raw/man1/rm.1, line: 73
+# File: raw/man1/rm.1, line: 73
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:73
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/rm.1, line: 76
+# File: raw/man1/rm.1, line: 76
+# File: raw/man1/rm.1, line: 76
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:76
+msgid ""
+"By default, rm does not remove directories.  Use the B<--recursive> (B<-r> "
+"or B<-R>)  option to remove each listed directory, too, along with all of "
+"its contents."
+msgstr ""
+"默认情况下，rm 不移除目录。可以使用 B<--recursive>（B<-r> 或 B<-R>）选项来同"
+"时移除列出的每个目录及其内容。"
+
+#
+# File: raw/man1/rm.1, line: 79
+# File: raw/man1/rm.1, line: 79
+# File: raw/man1/rm.1, line: 79
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:79
+msgid ""
+"To remove a file whose name starts with a '-', for example '-foo', use one "
+"of these commands:"
+msgstr ""
+"如果需要删除一个文件名以连字符 “-”起始的文件，例如 '-foo'，请使用下列命令："
+
+#
+# File: raw/man1/rm.1, line: 81
+# File: raw/man1/rm.1, line: 81
+# File: raw/man1/rm.1, line: 81
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:81
+msgid "rm B<--> B<-foo>"
+msgstr "rm B<--> B<-foo>"
+
+#
+# File: raw/man1/rm.1, line: 83
+# File: raw/man1/rm.1, line: 83
+# File: raw/man1/rm.1, line: 83
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:83
+msgid "rm ./-foo"
+msgstr "rm ./-foo"
+
+#
+# File: raw/man1/rm.1, line: 87
+# File: raw/man1/rm.1, line: 87
+# File: raw/man1/rm.1, line: 87
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:87
+msgid ""
+"Note that if you use rm to remove a file, it might be possible to recover "
+"some of its contents, given sufficient expertise and/or time.  For greater "
+"assurance that the contents are truly unrecoverable, consider using shred."
+msgstr ""
+"请注意，如果你使用 rm 删除一个文件，在有足够技术水平和/或时间的情况下，它的部"
+"分内容可能仍然能够被恢复。如果需要更高的保障来使得文件内容不可恢复，请考虑使"
+"用 shred."
+
+#
+# File: raw/man1/rm.1, line: 87
+# File: raw/man1/rm.1, line: 87
+# File: raw/man1/rm.1, line: 87
+#. type: SH
+#: raw/coreutils/man1/rm.1:87
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/rm.1, line: 90
+# File: raw/man1/rm.1, line: 90
+# File: raw/man1/rm.1, line: 90
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:90
+msgid ""
+"Written by Paul Rubin, David MacKenzie, Richard M. Stallman, and Jim "
+"Meyering."
+msgstr ""
+"由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。"
+
+#
+# File: raw/man1/rm.1, line: 90
+# File: raw/man1/rm.1, line: 90
+# File: raw/man1/rm.1, line: 90
+#. type: SH
+#: raw/coreutils/man1/rm.1:90
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/rm.1, line: 92
+# File: raw/man1/rm.1, line: 92
+# File: raw/man1/rm.1, line: 92
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:92
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/rm.1, line: 94
+# File: raw/man1/rm.1, line: 94
+# File: raw/man1/rm.1, line: 94
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:94
+msgid ""
+"Report rm translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 rm 的翻译错"
+"误。"
+
+#
+# File: raw/man1/rm.1, line: 94
+# File: raw/man1/rm.1, line: 94
+# File: raw/man1/rm.1, line: 94
+#. type: SH
+#: raw/coreutils/man1/rm.1:94
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/rm.1, line: 97
+# File: raw/man1/rm.1, line: 97
+# File: raw/man1/rm.1, line: 97
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:97
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/rm.1, line: 100
+# File: raw/man1/rm.1, line: 100
+# File: raw/man1/rm.1, line: 100
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:100
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/rm.1, line: 100
+# File: raw/man1/rm.1, line: 100
+# File: raw/man1/rm.1, line: 100
+#. type: SH
+#: raw/coreutils/man1/rm.1:100
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/rm.1, line: 102
+# File: raw/man1/rm.1, line: 102
+# File: raw/man1/rm.1, line: 102
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:102
+msgid "unlink(1), unlink(2), chattr(1), shred(1)"
+msgstr "unlink(1), unlink(2), chattr(1), shred(1)"
+
+#
+# File: raw/man1/rm.1, line: 105
+# File: raw/man1/rm.1, line: 105
+# File: raw/man1/rm.1, line: 105
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:105
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/rmE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/rmE<gt>"
+
+#
+# File: raw/man1/rm.1, line: 106
+# File: raw/man1/rm.1, line: 106
+# File: raw/man1/rm.1, line: 106
+#. type: Plain text
+#: raw/coreutils/man1/rm.1:106
+msgid "or available locally via: info \\(aq(coreutils) rm invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) rm invocation\\(aq"
+
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

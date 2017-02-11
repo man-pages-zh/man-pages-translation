@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/unexpand.1:2
+#, no-wrap
+msgid "UNEXPAND"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/unexpand.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/unexpand.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/unexpand.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/unexpand.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:5
+msgid "unexpand - convert spaces to tabs"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/unexpand.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:8
+msgid "B<unexpand> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/unexpand.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:12
+msgid "Convert blanks in each FILE to tabs, writing to standard output."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:14
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:16
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/unexpand.1:16
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:19
+msgid "convert all blanks, instead of just initial blanks"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/unexpand.1:19
+#, no-wrap
+msgid "B<--first-only>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:22
+msgid "convert only leading sequences of blanks (overrides B<-a>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/unexpand.1:22
+#, no-wrap
+msgid "B<-t>, B<--tabs>=I<\\,N\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:25
+msgid "have tabs N characters apart instead of 8 (enables B<-a>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/unexpand.1:25
+#, no-wrap
+msgid "B<-t>, B<--tabs>=I<\\,LIST\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:28
+msgid "use comma separated LIST of tab positions (enables B<-a>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/unexpand.1:28
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:31
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/unexpand.1:31
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:34
+msgid "output version information and exit"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/unexpand.1:34
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:36
+msgid "Written by David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/unexpand.1:36
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:38
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:40
+msgid ""
+"Report unexpand translation bugs to "
+"E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/unexpand.1:40
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:43
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:46
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/unexpand.1:46
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:48
+msgid "expand(1)"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:51
+msgid ""
+"Full documentation at: "
+"E<lt>http://www.gnu.org/software/coreutils/unexpandE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/unexpand.1:52
+msgid "or available locally via: info \\(aq(coreutils) unexpand invocation\\(aq"
+msgstr ""

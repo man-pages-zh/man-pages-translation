@@ -1,0 +1,615 @@
+#
+#
+# Chinese translations for PACKAGE package
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2015.
+# Darcy Shen <sadhen@zoho.com>, 2015.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-12 00:41+0800\n"
+"PO-Revision-Date: 2016-12-15 19:58+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/who.1:2
+#, no-wrap
+msgid "WHO"
+msgstr "WHO"
+
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/who.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr "2016年12月"
+
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/who.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.26"
+
+#
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+#. type: TH
+#: raw/coreutils/man1/who.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#
+# File: raw/man1/who.1, line: 3
+# File: raw/man1/who.1, line: 3
+# File: raw/man1/who.1, line: 3
+#. type: SH
+#: raw/coreutils/man1/who.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#
+# File: raw/man1/who.1, line: 5
+# File: raw/man1/who.1, line: 5
+# File: raw/man1/who.1, line: 5
+#. type: Plain text
+#: raw/coreutils/man1/who.1:5
+msgid "who - show who is logged on"
+msgstr "who - 显示已登录用户"
+
+#
+# File: raw/man1/who.1, line: 5
+# File: raw/man1/who.1, line: 5
+# File: raw/man1/who.1, line: 5
+#. type: SH
+#: raw/coreutils/man1/who.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#
+# File: raw/man1/who.1, line: 8
+# File: raw/man1/who.1, line: 8
+# File: raw/man1/who.1, line: 8
+#. type: Plain text
+#: raw/coreutils/man1/who.1:8
+msgid "B<who> [I<\\,OPTION\\/>]... [ I<\\,FILE | ARG1 ARG2 \\/>]"
+msgstr "B<who> [I<\\,选项\\/>]... [ I<\\,文件 | 参数1 参数2 \\/>]"
+
+#
+# File: raw/man1/who.1, line: 8
+# File: raw/man1/who.1, line: 8
+# File: raw/man1/who.1, line: 8
+#. type: SH
+#: raw/coreutils/man1/who.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#
+# File: raw/man1/who.1, line: 12
+# File: raw/man1/who.1, line: 12
+# File: raw/man1/who.1, line: 12
+#. type: Plain text
+#: raw/coreutils/man1/who.1:12
+msgid "Print information about users who are currently logged in."
+msgstr "显示与当前登录用户有关的信息。"
+
+#
+# File: raw/man1/who.1, line: 12
+# File: raw/man1/who.1, line: 12
+# File: raw/man1/who.1, line: 12
+#. type: TP
+#: raw/coreutils/man1/who.1:12
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr "B<-a>, B<--all>"
+
+#
+# File: raw/man1/who.1, line: 15
+# File: raw/man1/who.1, line: 15
+# File: raw/man1/who.1, line: 15
+#. type: Plain text
+#: raw/coreutils/man1/who.1:15
+msgid "same as B<-b> B<-d> B<--login> B<-p> B<-r> B<-t> B<-T> B<-u>"
+msgstr "等价于 B<-b> B<-d> B<--login> B<-p> B<-r> B<-t> B<-T> B<-u>"
+
+#
+# File: raw/man1/who.1, line: 15
+# File: raw/man1/who.1, line: 15
+# File: raw/man1/who.1, line: 15
+#. type: TP
+#: raw/coreutils/man1/who.1:15
+#, no-wrap
+msgid "B<-b>, B<--boot>"
+msgstr "B<-b>, B<--boot>"
+
+#
+# File: raw/man1/who.1, line: 18
+# File: raw/man1/who.1, line: 18
+# File: raw/man1/who.1, line: 18
+#. type: Plain text
+#: raw/coreutils/man1/who.1:18
+msgid "time of last system boot"
+msgstr "最近一次系统引导的时间"
+
+#
+# File: raw/man1/who.1, line: 18
+# File: raw/man1/who.1, line: 18
+# File: raw/man1/who.1, line: 18
+#. type: TP
+#: raw/coreutils/man1/who.1:18
+#, no-wrap
+msgid "B<-d>, B<--dead>"
+msgstr "B<-d>, B<--dead>"
+
+#
+# File: raw/man1/who.1, line: 21
+# File: raw/man1/who.1, line: 21
+# File: raw/man1/who.1, line: 21
+#. type: Plain text
+#: raw/coreutils/man1/who.1:21
+msgid "print dead processes"
+msgstr "显示死进程"
+
+#
+# File: raw/man1/who.1, line: 21
+# File: raw/man1/who.1, line: 21
+# File: raw/man1/who.1, line: 21
+#. type: TP
+#: raw/coreutils/man1/who.1:21
+#, no-wrap
+msgid "B<-H>, B<--heading>"
+msgstr "B<-H>, B<--heading>"
+
+#
+# File: raw/man1/who.1, line: 24
+# File: raw/man1/who.1, line: 24
+# File: raw/man1/who.1, line: 24
+#. type: Plain text
+#: raw/coreutils/man1/who.1:24
+msgid "print line of column headings"
+msgstr "显示表格的表头"
+
+#
+# File: raw/man1/who.1, line: 24
+# File: raw/man1/who.1, line: 24
+# File: raw/man1/who.1, line: 24
+#. type: TP
+#: raw/coreutils/man1/who.1:24
+#, no-wrap
+msgid "B<--ips>"
+msgstr "B<--ips>"
+
+#
+# File: raw/man1/who.1, line: 29
+# File: raw/man1/who.1, line: 29
+# File: raw/man1/who.1, line: 29
+#. type: Plain text
+#: raw/coreutils/man1/who.1:29
+msgid ""
+"print ips instead of hostnames. with B<--lookup>, canonicalizes based on "
+"stored IP, if available, rather than stored hostname"
+msgstr ""
+"显示 IP地址而不是主机名。加上 B<--lookup>，则会尽可能基于已存储的 IP 规范化，"
+"而不是已存储的主机名"
+
+#
+# File: raw/man1/who.1, line: 29
+# File: raw/man1/who.1, line: 29
+# File: raw/man1/who.1, line: 29
+#. type: TP
+#: raw/coreutils/man1/who.1:29
+#, no-wrap
+msgid "B<-l>, B<--login>"
+msgstr "B<-l>, B<--login>"
+
+#
+# File: raw/man1/who.1, line: 32
+# File: raw/man1/who.1, line: 32
+# File: raw/man1/who.1, line: 32
+#. type: Plain text
+#: raw/coreutils/man1/who.1:32
+msgid "print system login processes"
+msgstr "显示系统登录进程"
+
+#
+# File: raw/man1/who.1, line: 32
+# File: raw/man1/who.1, line: 32
+# File: raw/man1/who.1, line: 32
+#. type: TP
+#: raw/coreutils/man1/who.1:32
+#, no-wrap
+msgid "B<--lookup>"
+msgstr "B<--lookup>"
+
+#
+# File: raw/man1/who.1, line: 35
+# File: raw/man1/who.1, line: 35
+# File: raw/man1/who.1, line: 35
+#. type: Plain text
+#: raw/coreutils/man1/who.1:35
+msgid "attempt to canonicalize hostnames via DNS"
+msgstr "试图通过 DNS 规范主机名"
+
+#
+# File: raw/man1/who.1, line: 35
+# File: raw/man1/who.1, line: 35
+# File: raw/man1/who.1, line: 35
+#. type: TP
+#: raw/coreutils/man1/who.1:35
+#, no-wrap
+msgid "B<-m>"
+msgstr "B<-m>"
+
+#
+# File: raw/man1/who.1, line: 38
+# File: raw/man1/who.1, line: 38
+# File: raw/man1/who.1, line: 38
+#. type: Plain text
+#: raw/coreutils/man1/who.1:38
+msgid "only hostname and user associated with stdin"
+msgstr "仅显示和标准输入关联的主机名和用户"
+
+#
+# File: raw/man1/who.1, line: 38
+# File: raw/man1/who.1, line: 38
+# File: raw/man1/who.1, line: 38
+#. type: TP
+#: raw/coreutils/man1/who.1:38
+#, no-wrap
+msgid "B<-p>, B<--process>"
+msgstr "B<-p>, B<--process>"
+
+#
+# File: raw/man1/who.1, line: 41
+# File: raw/man1/who.1, line: 41
+# File: raw/man1/who.1, line: 41
+#. type: Plain text
+#: raw/coreutils/man1/who.1:41
+msgid "print active processes spawned by init"
+msgstr "显示由 init 生成的活跃进程"
+
+#
+# File: raw/man1/who.1, line: 41
+# File: raw/man1/who.1, line: 41
+# File: raw/man1/who.1, line: 41
+#. type: TP
+#: raw/coreutils/man1/who.1:41
+#, no-wrap
+msgid "B<-q>, B<--count>"
+msgstr "B<-q>, B<--count>"
+
+#
+# File: raw/man1/who.1, line: 44
+# File: raw/man1/who.1, line: 44
+# File: raw/man1/who.1, line: 44
+#. type: Plain text
+#: raw/coreutils/man1/who.1:44
+msgid "all login names and number of users logged on"
+msgstr "所有登录名称与已登录用户数量"
+
+#
+# File: raw/man1/who.1, line: 44
+# File: raw/man1/who.1, line: 44
+# File: raw/man1/who.1, line: 44
+#. type: TP
+#: raw/coreutils/man1/who.1:44
+#, no-wrap
+msgid "B<-r>, B<--runlevel>"
+msgstr "B<-r>, B<--runlevel>"
+
+#
+# File: raw/man1/who.1, line: 47
+# File: raw/man1/who.1, line: 47
+# File: raw/man1/who.1, line: 47
+#. type: Plain text
+#: raw/coreutils/man1/who.1:47
+msgid "print current runlevel"
+msgstr "显示当前运行级别"
+
+#
+# File: raw/man1/who.1, line: 47
+# File: raw/man1/who.1, line: 47
+# File: raw/man1/who.1, line: 47
+#. type: TP
+#: raw/coreutils/man1/who.1:47
+#, no-wrap
+msgid "B<-s>, B<--short>"
+msgstr "B<-s>, B<--short>"
+
+#
+# Please make the word "line" clear.
+# File: raw/man1/who.1, line: 50
+# File: raw/man1/who.1, line: 50
+# File: raw/man1/who.1, line: 50
+#. type: Plain text
+#: raw/coreutils/man1/who.1:50
+msgid "print only name, line, and time (default)"
+msgstr "仅显示名称、线路与时间（默认）"
+
+#
+# File: raw/man1/who.1, line: 50
+# File: raw/man1/who.1, line: 50
+# File: raw/man1/who.1, line: 50
+#. type: TP
+#: raw/coreutils/man1/who.1:50
+#, no-wrap
+msgid "B<-t>, B<--time>"
+msgstr "B<-t>, B<--time>"
+
+#
+# File: raw/man1/who.1, line: 53
+# File: raw/man1/who.1, line: 53
+# File: raw/man1/who.1, line: 53
+#. type: Plain text
+#: raw/coreutils/man1/who.1:53
+msgid "print last system clock change"
+msgstr "显示最近一次系统时钟更改"
+
+#
+# File: raw/man1/who.1, line: 53
+# File: raw/man1/who.1, line: 53
+# File: raw/man1/who.1, line: 53
+#. type: TP
+#: raw/coreutils/man1/who.1:53
+#, no-wrap
+msgid "B<-T>, B<-w>, B<--mesg>"
+msgstr "B<-T>, B<-w>, B<--mesg>"
+
+#
+# File: raw/man1/who.1, line: 56
+# File: raw/man1/who.1, line: 56
+# File: raw/man1/who.1, line: 56
+#. type: Plain text
+#: raw/coreutils/man1/who.1:56
+msgid "add user's message status as +, - or ?"
+msgstr "添加用户状态信息，如 +, - 或 ?"
+
+#
+# File: raw/man1/who.1, line: 56
+# File: raw/man1/who.1, line: 56
+# File: raw/man1/who.1, line: 56
+#. type: TP
+#: raw/coreutils/man1/who.1:56
+#, no-wrap
+msgid "B<-u>, B<--users>"
+msgstr "B<-u>, B<--users>"
+
+#
+# File: raw/man1/who.1, line: 59
+# File: raw/man1/who.1, line: 59
+# File: raw/man1/who.1, line: 59
+#. type: Plain text
+#: raw/coreutils/man1/who.1:59
+msgid "list users logged in"
+msgstr "列出已登陆用户"
+
+#
+# File: raw/man1/who.1, line: 59
+# File: raw/man1/who.1, line: 59
+# File: raw/man1/who.1, line: 59
+#. type: TP
+#: raw/coreutils/man1/who.1:59
+#, no-wrap
+msgid "B<--message>"
+msgstr "B<--message>"
+
+#
+# File: raw/man1/who.1, line: 62
+# File: raw/man1/who.1, line: 65
+# File: raw/man1/who.1, line: 62
+# File: raw/man1/who.1, line: 65
+# File: raw/man1/who.1, line: 62
+# File: raw/man1/who.1, line: 65
+#. type: Plain text
+#: raw/coreutils/man1/who.1:62 raw/coreutils/man1/who.1:65
+msgid "same as B<-T>"
+msgstr "等价于 B<-T>"
+
+#
+# File: raw/man1/who.1, line: 62
+# File: raw/man1/who.1, line: 62
+# File: raw/man1/who.1, line: 62
+#. type: TP
+#: raw/coreutils/man1/who.1:62
+#, no-wrap
+msgid "B<--writable>"
+msgstr "B<--writable>"
+
+#
+# File: raw/man1/who.1, line: 65
+# File: raw/man1/who.1, line: 65
+# File: raw/man1/who.1, line: 65
+#. type: TP
+#: raw/coreutils/man1/who.1:65
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#
+# File: raw/man1/who.1, line: 68
+# File: raw/man1/who.1, line: 68
+# File: raw/man1/who.1, line: 68
+#. type: Plain text
+#: raw/coreutils/man1/who.1:68
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#
+# File: raw/man1/who.1, line: 68
+# File: raw/man1/who.1, line: 68
+# File: raw/man1/who.1, line: 68
+#. type: TP
+#: raw/coreutils/man1/who.1:68
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#
+# File: raw/man1/who.1, line: 71
+# File: raw/man1/who.1, line: 71
+# File: raw/man1/who.1, line: 71
+#. type: Plain text
+#: raw/coreutils/man1/who.1:71
+msgid "output version information and exit"
+msgstr "显示版本信息并退出"
+
+#
+# File: raw/man1/who.1, line: 74
+# File: raw/man1/who.1, line: 74
+# File: raw/man1/who.1, line: 74
+#. type: Plain text
+#: raw/coreutils/man1/who.1:74
+msgid ""
+"If FILE is not specified, use I<\\,/var/run/utmp\\/>.  I<\\,/var/log/wtmp\\/"
+"> as FILE is common.  If ARG1 ARG2 given, B<-m> presumed: 'am i' or 'mom "
+"likes' are usual."
+msgstr ""
+"如果没有指定文件，默认使用 I<\\,/var/run/utmp\\/>。I<\\,/var/log/wtmp\\/> 常"
+"被指定为文件参数。如果给出参数1 和参数2，则等价于 B<-m>：两个参数通常可以是 "
+"'am i' 或 'mom likes'。"
+
+#
+# File: raw/man1/who.1, line: 74
+# File: raw/man1/who.1, line: 74
+# File: raw/man1/who.1, line: 74
+#. type: SH
+#: raw/coreutils/man1/who.1:74
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#
+# File: raw/man1/who.1, line: 76
+# File: raw/man1/who.1, line: 76
+# File: raw/man1/who.1, line: 76
+#. type: Plain text
+#: raw/coreutils/man1/who.1:76
+msgid "Written by Joseph Arceneaux, David MacKenzie, and Michael Stone."
+msgstr "由 Joseph Arceneaux, David MacKenzie 和 Michael Stone 编写。"
+
+#
+# File: raw/man1/who.1, line: 76
+# File: raw/man1/who.1, line: 76
+# File: raw/man1/who.1, line: 76
+#. type: SH
+#: raw/coreutils/man1/who.1:76
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#
+# File: raw/man1/who.1, line: 78
+# File: raw/man1/who.1, line: 78
+# File: raw/man1/who.1, line: 78
+#. type: Plain text
+#: raw/coreutils/man1/who.1:78
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+
+#
+# File: raw/man1/who.1, line: 80
+# File: raw/man1/who.1, line: 80
+# File: raw/man1/who.1, line: 80
+#. type: Plain text
+#: raw/coreutils/man1/who.1:80
+msgid ""
+"Report who translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 who 的翻译"
+"错误。"
+
+#
+# File: raw/man1/who.1, line: 80
+# File: raw/man1/who.1, line: 80
+# File: raw/man1/who.1, line: 80
+#. type: SH
+#: raw/coreutils/man1/who.1:80
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#
+# File: raw/man1/who.1, line: 83
+# File: raw/man1/who.1, line: 83
+# File: raw/man1/who.1, line: 83
+#. type: Plain text
+#: raw/coreutils/man1/who.1:83
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+
+#
+# File: raw/man1/who.1, line: 86
+# File: raw/man1/who.1, line: 86
+# File: raw/man1/who.1, line: 86
+#. type: Plain text
+#: raw/coreutils/man1/who.1:86
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#
+# File: raw/man1/who.1, line: 86
+# File: raw/man1/who.1, line: 86
+# File: raw/man1/who.1, line: 86
+#. type: SH
+#: raw/coreutils/man1/who.1:86
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#
+# File: raw/man1/who.1, line: 88
+# File: raw/man1/who.1, line: 88
+# File: raw/man1/who.1, line: 88
+#. type: Plain text
+#: raw/coreutils/man1/who.1:88
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/whoE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/whoE<gt>"
+
+#
+# File: raw/man1/who.1, line: 89
+# File: raw/man1/who.1, line: 89
+# File: raw/man1/who.1, line: 89
+#. type: Plain text
+#: raw/coreutils/man1/who.1:89
+msgid "or available locally via: info \\(aq(coreutils) who invocation\\(aq"
+msgstr "或者在本地使用： info \\(aq(coreutils) who invocation\\(aq"
+
+#
+#
+#
+#~ msgid "March 2015"
+#~ msgstr "2015年三月"

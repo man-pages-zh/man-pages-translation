@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/df.1:2
+#, no-wrap
+msgid "DF"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/df.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/df.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/df.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:5
+msgid "df - report file system disk space usage"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:8
+msgid "B<df> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:19
+msgid ""
+"This manual page documents the GNU version of B<df>.  B<df> displays the "
+"amount of disk space available on the file system containing each file name "
+"argument.  If no file name is given, the space available on all currently "
+"mounted file systems is shown.  Disk space is shown in 1K blocks by default, "
+"unless the environment variable POSIXLY_CORRECT is set, in which case "
+"512-byte blocks are used."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:29
+msgid ""
+"If an argument is the absolute file name of a disk device node containing a "
+"mounted file system, B<df> shows the space available on that file system "
+"rather than on the file system containing the device node.  This version of "
+"B<df> cannot show the space available on unmounted file systems, because on "
+"most kinds of systems doing so requires very nonportable intimate knowledge "
+"of file system structures."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:29
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:33
+msgid ""
+"Show information about the file system on which each FILE resides, or all "
+"file systems by default."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:35
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:35
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:38
+msgid "include pseudo, duplicate, inaccessible file systems"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:38
+#, no-wrap
+msgid "B<-B>, B<--block-size>=I<\\,SIZE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:43
+msgid ""
+"scale sizes by SIZE before printing them; e.g., \\&'-BM' prints sizes in "
+"units of 1,048,576 bytes; see SIZE format below"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:43
+#, no-wrap
+msgid "B<-h>, B<--human-readable>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:46
+msgid "print sizes in powers of 1024 (e.g., 1023M)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:46
+#, no-wrap
+msgid "B<-H>, B<--si>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:49
+msgid "print sizes in powers of 1000 (e.g., 1.1G)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:49
+#, no-wrap
+msgid "B<-i>, B<--inodes>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:52
+msgid "list inode information instead of block usage"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:52
+#, no-wrap
+msgid "B<-k>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:55
+msgid "like B<--block-size>=I<\\,1K\\/>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:55
+#, no-wrap
+msgid "B<-l>, B<--local>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:58
+msgid "limit listing to local file systems"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:58
+#, no-wrap
+msgid "B<--no-sync>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:61
+msgid "do not invoke sync before getting usage info (default)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:61
+#, no-wrap
+msgid "B<--output>[=I<\\,FIELD_LIST\\/>]"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:65
+msgid ""
+"use the output format defined by FIELD_LIST, or print all fields if "
+"FIELD_LIST is omitted."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:65
+#, no-wrap
+msgid "B<-P>, B<--portability>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:68
+msgid "use the POSIX output format"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:68
+#, no-wrap
+msgid "B<--sync>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:71
+msgid "invoke sync before getting usage info"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:71
+#, no-wrap
+msgid "B<--total>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:75
+msgid ""
+"elide all entries insignificant to available space, and produce a grand "
+"total"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:75
+#, no-wrap
+msgid "B<-t>, B<--type>=I<\\,TYPE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:78
+msgid "limit listing to file systems of type TYPE"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:78
+#, no-wrap
+msgid "B<-T>, B<--print-type>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:81
+msgid "print file system type"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:81
+#, no-wrap
+msgid "B<-x>, B<--exclude-type>=I<\\,TYPE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:84
+msgid "limit listing to file systems not of type TYPE"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:84
+#, no-wrap
+msgid "B<-v>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:87
+msgid "(ignored)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:87
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:90
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/df.1:90
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:93
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:97
+msgid ""
+"Display values are in units of the first available SIZE from "
+"B<--block-size>, and the DF_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
+"variables.  Otherwise, units default to 1024 bytes (or 512 if "
+"POSIXLY_CORRECT is set)."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:100
+msgid ""
+"The SIZE argument is an integer and optional unit (example: 10K is "
+"10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
+"of 1000)."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:104
+msgid ""
+"FIELD_LIST is a comma-separated list of columns to be included.  Valid field "
+"names are: 'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent', "
+"\\&'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page)."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:104
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:106
+msgid "Written by Torbjorn Granlund, David MacKenzie, and Paul Eggert."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:106
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:108
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:110
+msgid "Report df translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:110
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:113
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:116
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/df.1:116
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:118
+msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/dfE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:119
+msgid "or available locally via: info \\(aq(coreutils) df invocation\\(aq"
+msgstr ""

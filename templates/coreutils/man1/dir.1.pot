@@ -1,0 +1,882 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/coreutils/man1/dir.1:2
+#, no-wrap
+msgid "DIR"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/dir.1:2
+#, no-wrap
+msgid "December 2016"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/dir.1:2
+#, no-wrap
+msgid "GNU coreutils 8.26"
+msgstr ""
+
+#. type: TH
+#: raw/coreutils/man1/dir.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/dir.1:3
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:5
+msgid "dir - list directory contents"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/dir.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:8
+msgid "B<dir> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/dir.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:13
+msgid ""
+"List information about the FILEs (the current directory by default).  Sort "
+"entries alphabetically if none of B<-cftuvSUX> nor B<--sort> is specified."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:15
+msgid "Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:15
+#, no-wrap
+msgid "B<-a>, B<--all>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:18
+msgid "do not ignore entries starting with ."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:18
+#, no-wrap
+msgid "B<-A>, B<--almost-all>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:21
+msgid "do not list implied . and .."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:21
+#, no-wrap
+msgid "B<--author>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:24
+msgid "with B<-l>, print the author of each file"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:24
+#, no-wrap
+msgid "B<-b>, B<--escape>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:27
+msgid "print C-style escapes for nongraphic characters"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:27
+#, no-wrap
+msgid "B<--block-size>=I<\\,SIZE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:32
+msgid ""
+"scale sizes by SIZE before printing them; e.g., \\&'--block-size=M' prints "
+"sizes in units of 1,048,576 bytes; see SIZE format below"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:32
+#, no-wrap
+msgid "B<-B>, B<--ignore-backups>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:35
+msgid "do not list implied entries ending with ~"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:35
+#, no-wrap
+msgid "B<-c>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:41
+msgid ""
+"with B<-lt>: sort by, and show, ctime (time of last modification of file "
+"status information); with B<-l>: show ctime and sort by name; otherwise: "
+"sort by ctime, newest first"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:41
+#, no-wrap
+msgid "B<-C>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:44
+msgid "list entries by columns"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:44
+#, no-wrap
+msgid "B<--color>[=I<\\,WHEN\\/>]"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:48
+msgid ""
+"colorize the output; WHEN can be 'always' (default if omitted), 'auto', or "
+"'never'; more info below"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:48
+#, no-wrap
+msgid "B<-d>, B<--directory>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:51
+msgid "list directories themselves, not their contents"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:51
+#, no-wrap
+msgid "B<-D>, B<--dired>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:54
+msgid "generate output designed for Emacs' dired mode"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:54
+#, no-wrap
+msgid "B<-f>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:57
+msgid "do not sort, enable B<-aU>, disable B<-ls> B<--color>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:57
+#, no-wrap
+msgid "B<-F>, B<--classify>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:60
+msgid "append indicator (one of */=E<gt>@|) to entries"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:60
+#, no-wrap
+msgid "B<--file-type>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:63
+msgid "likewise, except do not append '*'"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:63
+#, no-wrap
+msgid "B<--format>=I<\\,WORD\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:67
+msgid ""
+"across B<-x>, commas B<-m>, horizontal B<-x>, long B<-l>, single-column "
+"B<-1>, verbose B<-l>, vertical B<-C>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:67
+#, no-wrap
+msgid "B<--full-time>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:70
+msgid "like B<-l> B<--time-style>=I<\\,full-iso\\/>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:70
+#, no-wrap
+msgid "B<-g>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:73
+msgid "like B<-l>, but do not list owner"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:73
+#, no-wrap
+msgid "B<--group-directories-first>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:76
+msgid "group directories before files;"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:79
+msgid ""
+"can be augmented with a B<--sort> option, but any use of "
+"B<--sort>=I<\\,none\\/> (B<-U>) disables grouping"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:79
+#, no-wrap
+msgid "B<-G>, B<--no-group>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:82
+msgid "in a long listing, don't print group names"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:82
+#, no-wrap
+msgid "B<-h>, B<--human-readable>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:86
+msgid "with B<-l> and/or B<-s>, print human readable sizes (e.g., 1K 234M 2G)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:86
+#, no-wrap
+msgid "B<--si>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:89
+msgid "likewise, but use powers of 1000 not 1024"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:89
+#, no-wrap
+msgid "B<-H>, B<--dereference-command-line>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:92
+msgid "follow symbolic links listed on the command line"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:92
+#, no-wrap
+msgid "B<--dereference-command-line-symlink-to-dir>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:95
+msgid "follow each command line symbolic link"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:97
+msgid "that points to a directory"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:97
+#, no-wrap
+msgid "B<--hide>=I<\\,PATTERN\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:101
+msgid ""
+"do not list implied entries matching shell PATTERN (overridden by B<-a> or "
+"B<-A>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:101
+#, no-wrap
+msgid "B<--indicator-style>=I<\\,WORD\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:106
+msgid ""
+"append indicator with style WORD to entry names: none (default), slash "
+"(B<-p>), file-type (B<--file-type>), classify (B<-F>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:106
+#, no-wrap
+msgid "B<-i>, B<--inode>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:109
+msgid "print the index number of each file"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:109
+#, no-wrap
+msgid "B<-I>, B<--ignore>=I<\\,PATTERN\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:112
+msgid "do not list implied entries matching shell PATTERN"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:112
+#, no-wrap
+msgid "B<-k>, B<--kibibytes>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:115
+msgid "default to 1024-byte blocks for disk usage"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:115
+#, no-wrap
+msgid "B<-l>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:118
+msgid "use a long listing format"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:118
+#, no-wrap
+msgid "B<-L>, B<--dereference>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:123
+msgid ""
+"when showing file information for a symbolic link, show information for the "
+"file the link references rather than for the link itself"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:123
+#, no-wrap
+msgid "B<-m>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:126
+msgid "fill width with a comma separated list of entries"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:126
+#, no-wrap
+msgid "B<-n>, B<--numeric-uid-gid>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:129
+msgid "like B<-l>, but list numeric user and group IDs"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:129
+#, no-wrap
+msgid "B<-N>, B<--literal>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:132
+msgid "print entry names without quoting"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:132
+#, no-wrap
+msgid "B<-o>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:135
+msgid "like B<-l>, but do not list group information"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:135
+#, no-wrap
+msgid "B<-p>, B<--indicator-style>=I<\\,slash\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:138
+msgid "append / indicator to directories"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:138
+#, no-wrap
+msgid "B<-q>, B<--hide-control-chars>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:141
+msgid "print ? instead of nongraphic characters"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:141
+#, no-wrap
+msgid "B<--show-control-chars>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:145
+msgid ""
+"show nongraphic characters as-is (the default, unless program is 'ls' and "
+"output is a terminal)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:145
+#, no-wrap
+msgid "B<-Q>, B<--quote-name>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:148
+msgid "enclose entry names in double quotes"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:148
+#, no-wrap
+msgid "B<--quoting-style>=I<\\,WORD\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:153
+msgid ""
+"use quoting style WORD for entry names: literal, locale, shell, "
+"shell-always, shell-escape, shell-escape-always, c, escape"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:153
+#, no-wrap
+msgid "B<-r>, B<--reverse>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:156
+msgid "reverse order while sorting"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:156
+#, no-wrap
+msgid "B<-R>, B<--recursive>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:159
+msgid "list subdirectories recursively"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:159
+#, no-wrap
+msgid "B<-s>, B<--size>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:162
+msgid "print the allocated size of each file, in blocks"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:162
+#, no-wrap
+msgid "B<-S>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:165
+msgid "sort by file size, largest first"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:165
+#, no-wrap
+msgid "B<--sort>=I<\\,WORD\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:169
+msgid ""
+"sort by WORD instead of name: none (B<-U>), size (B<-S>), time (B<-t>), "
+"version (B<-v>), extension (B<-X>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:169
+#, no-wrap
+msgid "B<--time>=I<\\,WORD\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:175
+msgid ""
+"with B<-l>, show time as WORD instead of default modification time: atime or "
+"access or use (B<-u>); ctime or status (B<-c>); also use specified time as "
+"sort key if B<--sort>=I<\\,time\\/> (newest first)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:175
+#, no-wrap
+msgid "B<--time-style>=I<\\,STYLE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:184
+msgid ""
+"with B<-l>, show times using style STYLE: full-iso, long-iso, iso, locale, "
+"or +FORMAT; FORMAT is interpreted like in 'date'; if FORMAT is "
+"FORMAT1E<lt>newlineE<gt>FORMAT2, then FORMAT1 applies to non-recent files "
+"and FORMAT2 to recent files; if STYLE is prefixed with 'posix-', STYLE takes "
+"effect only outside the POSIX locale"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:184
+#, no-wrap
+msgid "B<-t>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:187
+msgid "sort by modification time, newest first"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:187
+#, no-wrap
+msgid "B<-T>, B<--tabsize>=I<\\,COLS\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:190
+msgid "assume tab stops at each COLS instead of 8"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:190
+#, no-wrap
+msgid "B<-u>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:195
+msgid ""
+"with B<-lt>: sort by, and show, access time; with B<-l>: show access time "
+"and sort by name; otherwise: sort by access time, newest first"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:195
+#, no-wrap
+msgid "B<-U>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:198
+msgid "do not sort; list entries in directory order"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:198
+#, no-wrap
+msgid "B<-v>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:201
+msgid "natural sort of (version) numbers within text"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:201
+#, no-wrap
+msgid "B<-w>, B<--width>=I<\\,COLS\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:204
+msgid "set output width to COLS.  0 means no limit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:204
+#, no-wrap
+msgid "B<-x>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:207
+msgid "list entries by lines instead of by columns"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:207
+#, no-wrap
+msgid "B<-X>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:210
+msgid "sort alphabetically by entry extension"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:210
+#, no-wrap
+msgid "B<-Z>, B<--context>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:213
+msgid "print any security context of each file"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:213
+#, no-wrap
+msgid "B<-1>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:216
+msgid "list one file per line.  Avoid '\\en' with B<-q> or B<-b>"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:216
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:219
+msgid "display this help and exit"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:219
+#, no-wrap
+msgid "B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:222
+msgid "output version information and exit"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:225
+msgid ""
+"The SIZE argument is an integer and optional unit (example: 10K is "
+"10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
+"of 1000)."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:230
+msgid ""
+"Using color to distinguish file types is disabled both by default and with "
+"B<--color>=I<\\,never\\/>.  With B<--color>=I<\\,auto\\/>, ls emits color "
+"codes only when standard output is connected to a terminal.  The LS_COLORS "
+"environment variable can change the settings.  Use the dircolors command to "
+"set it."
+msgstr ""
+
+#. type: SS
+#: raw/coreutils/man1/dir.1:230
+#, no-wrap
+msgid "Exit status:"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:231
+#, no-wrap
+msgid "0"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:234
+msgid "if OK,"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:234
+#, no-wrap
+msgid "1"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:237
+msgid "if minor problems (e.g., cannot access subdirectory),"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:237
+#, no-wrap
+msgid "2"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:240
+msgid "if serious trouble (e.g., cannot access command-line argument)."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/dir.1:240
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:242
+msgid "Written by Richard M. Stallman and David MacKenzie."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/dir.1:242
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:244
+msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:246
+msgid "Report dir translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/dir.1:246
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:249
+msgid ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:252
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/dir.1:252
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:254
+msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/dirE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:255
+msgid "or available locally via: info \\(aq(coreutils) dir invocation\\(aq"
+msgstr ""
