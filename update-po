@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# update-po -- wrapper for msgmerge and msginit.
+#
+# Update current .po files using .pot files.
+
+set -e
+
+for item in template/*.pot; do
+        i="$(printf "%s" "$(basename "${item}")" | sed 's/....$//')"
+    if [ -e po/"${i}".zh_CN.po ]; then
+        printf "%s" "${i}"
+        msgmerge -U --strict po/"${i}".zh_CN.po template/"${i}".pot
+    else
+        (>&2 printf "%s does not exist, trying to create one..." "${i}.zh_CN.po")
+        msginit --no-translator -i template/"${i}".pot -o po/"${i}".zh_CN.po -l "zh_CN.UTF-8"
+    fi
+done
