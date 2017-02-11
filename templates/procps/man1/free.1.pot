@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/procps/man1/free.1:5
+#, no-wrap
+msgid "FREE"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/free.1:5
+#, no-wrap
+msgid "2016-06-03"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/free.1:5
+#, no-wrap
+msgid "procps-ng"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/free.1:5
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/free.1:6
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:8
+msgid "free - Display amount of free and used memory in the system"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/free.1:8
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:11
+msgid "B<free> [I<options>]"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/free.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:17
+msgid ""
+"B<free> displays the total amount of free and used physical and swap memory "
+"in the system, as well as the buffers and caches used by the kernel. The "
+"information is gathered by parsing /proc/meminfo. The displayed columns are:"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:17
+#, no-wrap
+msgid "B<total>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:20
+msgid "Total installed memory (MemTotal and SwapTotal in /proc/meminfo)"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:20
+#, no-wrap
+msgid "B<used>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:23
+msgid "Used memory (calculated as B<total> - B<free> - B<buffers> - B<cache>)"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:23
+#, no-wrap
+msgid "B<free>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:26
+msgid "Unused memory (MemFree and SwapFree in /proc/meminfo)"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:26
+#, no-wrap
+msgid "B<shared>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:29
+msgid "Memory used (mostly) by tmpfs (Shmem in /proc/meminfo)"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:29
+#, no-wrap
+msgid "B<buffers>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:32
+msgid "Memory used by kernel buffers (Buffers in /proc/meminfo)"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:32
+#, no-wrap
+msgid "B<cache>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:35
+msgid ""
+"Memory used by the page cache and slabs (Cached and SReclaimable in "
+"/proc/meminfo)"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:35
+#, no-wrap
+msgid "B<buff/cache>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:38
+msgid "Sum of B<buffers> and B<cache>"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:38
+#, no-wrap
+msgid "B<available>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:47
+msgid ""
+"Estimation of how much memory is available for starting new applications, "
+"without swapping. Unlike the data provided by the B<cache> or B<free> "
+"fields, this field takes into account page cache and also that not all "
+"reclaimable memory slabs will be reclaimed due to items being in use "
+"(MemAvailable in /proc/meminfo, available on kernels 3.14, emulated on "
+"kernels 2.6.27+, otherwise the same as B<free>)"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/free.1:47
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:48
+#, no-wrap
+msgid "B<-b>, B<--bytes>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:51
+msgid "Display the amount of memory in bytes."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:51
+#, no-wrap
+msgid "B<-k>, B<--kibi>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:54
+msgid "Display the amount of memory in kibibytes.  This is the default."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:54
+#, no-wrap
+msgid "B<-m>, B<--mebi>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:57
+msgid "Display the amount of memory in mebibytes."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:57
+#, no-wrap
+msgid "B<-g>, B<--gibi>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:60
+msgid "Display the amount of memory in gibibytes."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:60
+#, no-wrap
+msgid "B<--tebi>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:63
+msgid "Display the amount of memory in tebibytes."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:63
+#, no-wrap
+msgid "B<--pebi>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:66
+msgid "Display the amount of memory in pebibytes."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:66
+#, no-wrap
+msgid "B<--kilo>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:69
+msgid "Display the amount of memory in kilobytes. Implies --si."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:69
+#, no-wrap
+msgid "B<--mega>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:72
+msgid "Display the amount of memory in megabytes. Implies --si."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:72
+#, no-wrap
+msgid "B<--giga>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:75
+msgid "Display the amount of memory in gigabytes. Implies --si."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:75
+#, no-wrap
+msgid "B<--tera>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:78
+msgid "Display the amount of memory in terabytes. Implies --si."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:78
+#, no-wrap
+msgid "B<--peta>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:81
+msgid "Display the amount of memory in petabytes. Implies --si."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:81
+#, no-wrap
+msgid "B<-h>, B<--human>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:85
+msgid ""
+"Show all output fields automatically scaled to shortest three digit unit and "
+"display the units of print out.  Following units are used."
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:93
+#, no-wrap
+msgid ""
+"  B = bytes\n"
+"  K = kibibyte\n"
+"  M = mebibyte\n"
+"  G = gibibyte\n"
+"  T = tebibyte\n"
+"  P = pebibyte\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:97
+msgid ""
+"If unit is missing, and you have exbibyte of RAM or swap, the number is in "
+"tebibytes and columns might not be aligned with header."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:97
+#, no-wrap
+msgid "B<-w>, B<--wide>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:102
+msgid ""
+"Switch to the wide mode. The wide mode produces lines longer than 80 "
+"characters. In this mode B<buffers> and B<cache> are reported in two "
+"separate columns."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:102
+#, no-wrap
+msgid "B<-c>, B<--count> I<count>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:109
+msgid "Display the result I<count> times.  Requires the B<-s> option."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:109
+#, no-wrap
+msgid "B<-l>, B<--lohi>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:112
+msgid "Show detailed low and high memory statistics."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:112
+#, no-wrap
+msgid "B<-s>, B<--seconds> I<delay>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:119
+msgid ""
+"Continuously display the result I<delay> seconds apart.  You may actually "
+"specify any floating point number for I<delay> using either . or , for "
+"decimal point.  B<usleep>(3)  is used for microsecond resolution delay "
+"times."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:119
+#, no-wrap
+msgid "B<--si>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:123
+msgid ""
+"Use kilo, mega, giga etc (power of 1000) instead of kibi, mebi, gibi (power "
+"of 1024)."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:123
+#, no-wrap
+msgid "B<-t>, B<--total>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:126
+msgid "Display a line showing the column totals."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:126
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:129
+msgid "Print help."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:129
+#, no-wrap
+msgid "B<-V>, B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:132
+msgid "Display version information."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/free.1:133
+#, no-wrap
+msgid "FILES"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:134
+#, no-wrap
+msgid "/proc/meminfo"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:137
+msgid "memory information"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/free.1:138
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:141
+msgid ""
+"The value for the B<shared> column is not available from kernels before "
+"2.6.32 and is displayed as zero."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/free.1:141
+#, no-wrap
+msgid "Please send bug reports to"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:145
+msgid "E<.UR procps@freelists.org> E<.UE>"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/free.1:145
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/free.1:149
+msgid "B<ps>(1), B<slabtop>(1), B<top>(1), B<vmstat>(8)."
+msgstr ""

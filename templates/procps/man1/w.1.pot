@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/procps/man1/w.1:3
+#, no-wrap
+msgid "W"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/w.1:3
+#, no-wrap
+msgid "May 2012"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/w.1:3
+#, no-wrap
+msgid "procps-ng"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/w.1:3
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:4
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:6
+msgid "w - Show who is logged on and what they are doing."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:6
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:9
+msgid "B<w> [I<options>] I<user> [...]"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:9
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:15
+msgid ""
+"B<w> displays information about the users currently on the machine, and "
+"their processes.  The header shows, in this order, the current time, how "
+"long the system has been running, how many users are currently logged on, "
+"and the system load averages for the past 1, 5, and 15 minutes."
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:19
+msgid ""
+"The following entries are displayed for each user: login name, the tty name, "
+"the remote host, login time, idle time, JCPU, PCPU, and the command line of "
+"their current process."
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:23
+msgid ""
+"The JCPU time is the time used by all processes attached to the tty.  It "
+"does not include past background jobs, but does include currently running "
+"background jobs."
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:26
+msgid ""
+"The PCPU time is the time used by the current process, named in the \"what\" "
+"field."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:26
+#, no-wrap
+msgid "COMMAND-LINE OPTIONS"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:27
+#, no-wrap
+msgid "B<-h>, B<--no-header>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:30
+msgid "Don't print the header."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:30
+#, no-wrap
+msgid "B<-u>, B<--no-current>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:35
+msgid ""
+"Ignores the username while figuring out the current process and cpu times.  "
+"To demonstrate this, do a \"su\" and do a \"w\" and a \"w -u\"."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:35
+#, no-wrap
+msgid "B<-s>, B<--short>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:38
+msgid "Use the short format.  Don't print the login time, JCPU or PCPU times."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:38
+#, no-wrap
+msgid "B<-f>, B<--from>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:48
+msgid ""
+"Toggle printing the B<from> (remote hostname) field.  The default as "
+"released is for the B<from> field to not be printed, although your system "
+"administrator or distribution maintainer may have compiled a version in "
+"which the B<from> field is shown by default."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:48
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:51
+msgid "Display help text and exit."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:51
+#, no-wrap
+msgid "B<-i>, B<--ip-addr>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:54
+msgid "Display IP address instead of hostname for B<from> field."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:54
+#, no-wrap
+msgid "B<-V>, B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:57
+msgid "Display version information."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:57
+#, no-wrap
+msgid "B<-o>, B<--old-style>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:60
+msgid "Old style output.  Prints blank space for idle times less than one minute."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:60
+#, no-wrap
+msgid "B<user >"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:63
+msgid "Show information about the specified user only."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:63
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:64
+#, no-wrap
+msgid "PROCPS_USERLEN"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:67
+msgid "Override the default width of the username column.  Defaults to 8."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:67
+#, no-wrap
+msgid "PROCPS_FROMLEN"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:70
+msgid "Override the default width of the from column.  Defaults to 16."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:70
+#, no-wrap
+msgid "FILES"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:71
+#, no-wrap
+msgid "I</var/run/utmp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:74
+msgid "information about who is currently logged on"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/w.1:74
+#, no-wrap
+msgid "I</proc>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:77
+msgid "process information"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:77
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:84
+msgid "B<free>(1), B<ps>(1), B<top>(1), B<uptime>(1), B<utmp>(5), B<who>(1)"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:84
+#, no-wrap
+msgid "AUTHORS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:94
+msgid ""
+"B<w> was re-written almost entirely by Charles Blake, based on the version "
+"by E<.UR greenfie@\\:gauss.\\:rutgers.\\:edu> Larry Greenfield E<.UE> and "
+"E<.UR johnsonm@\\:redhat.\\:com> Michael K. Johnson E<.UE>"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/w.1:94
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/w.1:97
+msgid "Please send bug reports to E<.UR procps@freelists.org> E<.UE>"
+msgstr ""

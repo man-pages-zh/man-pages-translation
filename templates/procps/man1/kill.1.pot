@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-12 00:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/procps/man1/kill.1:8
+#, no-wrap
+msgid "KILL"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/kill.1:8
+#, no-wrap
+msgid "October 2011"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/kill.1:8
+#, no-wrap
+msgid "procps-ng"
+msgstr ""
+
+#. type: TH
+#: raw/procps/man1/kill.1:8
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:9
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:11
+msgid "kill - send a signal to a process"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:11
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:14
+msgid "B<kill> [options] E<lt>pidE<gt> [...]"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:14
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:30
+msgid ""
+"The default signal for kill is TERM.  Use B<-l> or B<-L> to list available "
+"signals.  Particularly useful signals include HUP, INT, KILL, STOP, CONT, "
+"and 0.  Alternate signals may be specified in three ways: B<-9>, B<-SIGKILL> "
+"or B<-KILL>.  Negative PID values may be used to choose whole process "
+"groups; see the PGID column in ps command output.  A PID of B<-1> is "
+"special; it indicates all processes except the kill process itself and init."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:30
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:31
+#, no-wrap
+msgid "B<E<lt>pidE<gt> [...]>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:34
+msgid "Send signal to every E<lt>pidE<gt> listed."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:34
+#, no-wrap
+msgid "B<-E<lt>signalE<gt>>"
+msgstr ""
+
+#. type: TQ
+#: raw/procps/man1/kill.1:36
+#, no-wrap
+msgid "B<-s E<lt>signalE<gt>>"
+msgstr ""
+
+#. type: TQ
+#: raw/procps/man1/kill.1:38
+#, no-wrap
+msgid "B<--signal E<lt>signalE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:46
+msgid ""
+"Specify the B<signal> to be sent.  The signal can be specified by using name "
+"or number.  The behavior of signals is explained in B<signal>(7)  manual "
+"page."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:46
+#, no-wrap
+msgid "B<-l>, B<--list> [I<signal>]"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:50
+msgid ""
+"List signal names.  This option has optional argument, which will convert "
+"signal number to signal name, or other way round."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:50
+#, no-wrap
+msgid "B<-L>,B<\\ --table>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:53
+msgid "List signal names in a nice table."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:55
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:59
+msgid ""
+"Your shell (command line interpreter) may have a built-in kill command.  You "
+"may need to run the command described here as /bin/kill to solve the "
+"conflict."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:59
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:60
+#, no-wrap
+msgid "B<kill -9 -1>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:63
+msgid "Kill all processes you can kill."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:63
+#, no-wrap
+msgid "B<kill -l 11>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:66
+msgid "Translate number 11 into a signal name."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:66
+#, no-wrap
+msgid "B<kill -L>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:69
+msgid "List the available signal choices in a nice table."
+msgstr ""
+
+#. type: TP
+#: raw/procps/man1/kill.1:69
+#, no-wrap
+msgid "B<kill 123 543 2341 3453>"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:72
+msgid "Send the default signal, SIGTERM, to all those processes."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:72
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:80
+msgid ""
+"B<kill>(2), B<killall>(1), B<nice>(1), B<pkill>(1), B<renice>(1), "
+"B<signal>(7), B<skill>(1)"
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:80
+#, no-wrap
+msgid "STANDARDS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:84
+msgid "This command meets appropriate standards. The B<-L> flag is Linux-specific."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:84
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:90
+msgid ""
+"E<.UR albert@users.sf.net> Albert Cahalan E<.UE> wrote kill in 1999 to "
+"replace a bsdutils one that was not standards compliant.  The util-linux one "
+"might also work correctly."
+msgstr ""
+
+#. type: SH
+#: raw/procps/man1/kill.1:90
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/procps/man1/kill.1:93
+msgid "Please send bug reports to E<.UR procps@freelists.org> E<.UE>"
+msgstr ""
