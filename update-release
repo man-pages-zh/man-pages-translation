@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# update-release - update released translated man pages
+#
+
+_MAN_LANG=zh_CN
+
+for manfile in raw/*/man*/*; do
+    pofile="po/$(dirname "${manfile}" | cut -d\/ -f2-)/$(basename "${manfile}").${_MAN_LANG}.po"
+    if ! [ -f "${pofile}" ]; then
+        continue
+    fi
+    releasefile="src/$(dirname "${manfile}" | cut -d\/ -f2-)/$(basename "${manfile}")"
+    po4a-translate -f man -m "${manfile}" -p "${pofile}" -l "${releasefile}"
+    printf "%s\n" "Generating ${releasefile}..."
+done
