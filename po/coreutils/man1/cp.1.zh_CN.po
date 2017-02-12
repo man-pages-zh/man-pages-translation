@@ -1,5 +1,3 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
@@ -11,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-01-22 19:14+0800\n"
+"PO-Revision-Date: 2017-02-12 21:57+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -19,847 +17,462 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 1.8.11\n"
 
-# File: raw/man1/cp.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
 msgid "CP"
 msgstr "CP"
 
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
 msgid "December 2016"
 msgstr "2016年12月"
 
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
 msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
-#
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
-# File: raw/man1/cp.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
-# File: raw/man1/cp.1, line: 3
-# File: raw/man1/cp.1, line: 3
-# File: raw/man1/cp.1, line: 3
-# File: raw/man1/cp.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/cp.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
-# File: raw/man1/cp.1, line: 5
-# File: raw/man1/cp.1, line: 5
-# File: raw/man1/cp.1, line: 5
-# File: raw/man1/cp.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:5
 msgid "cp - copy files and directories"
 msgstr "cp - 复制文件和目录"
 
-#
-# File: raw/man1/cp.1, line: 5
-# File: raw/man1/cp.1, line: 5
-# File: raw/man1/cp.1, line: 5
-# File: raw/man1/cp.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/cp.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/cp.1, line: 8
-#
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:8
 msgid "B<cp> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,SOURCE DEST\\/>"
-msgstr ""
+msgstr "B<cp> [I<\\,选项\\/>]... [I<\\,-T\\/>] I<\\,来源 目标\\/>"
 
-#
-# File: raw/man1/cp.1, line: 11
-# File: raw/man1/cp.1, line: 11
-# File: raw/man1/cp.1, line: 11
-# File: raw/man1/cp.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:11
 msgid "B<cp> [I<\\,OPTION\\/>]... I<\\,SOURCE\\/>... I<\\,DIRECTORY\\/>"
-msgstr ""
+msgstr "B<cp> [I<\\,选项\\/>]... I<\\,来源\\/>... I<\\,目录\\/>"
 
-#
-# File: raw/man1/cp.1, line: 14
-# File: raw/man1/cp.1, line: 14
-# File: raw/man1/cp.1, line: 14
-# File: raw/man1/cp.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:14
 msgid "B<cp> [I<\\,OPTION\\/>]... I<\\,-t DIRECTORY SOURCE\\/>..."
-msgstr ""
+msgstr "B<cp> [I<\\,选项\\/>]... I<\\,-t 目录 来源\\/>..."
 
-#
-# File: raw/man1/cp.1, line: 14
-# File: raw/man1/cp.1, line: 14
-# File: raw/man1/cp.1, line: 14
-# File: raw/man1/cp.1, line: 14
 #. type: SH
 #: raw/coreutils/man1/cp.1:14
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
-# File: raw/man1/cp.1, line: 18
-# File: raw/man1/cp.1, line: 18
-# File: raw/man1/cp.1, line: 18
-# File: raw/man1/cp.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:18
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY."
-msgstr ""
+msgstr "从指定的来源文件复制到目标处，或者将多个源文件复制到目标目录中。"
 
-#
-# File: raw/man1/cp.1, line: 20
-# File: raw/man1/cp.1, line: 20
-# File: raw/man1/cp.1, line: 20
-# File: raw/man1/cp.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:20
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
-# File: raw/man1/cp.1, line: 20
-# File: raw/man1/cp.1, line: 20
-# File: raw/man1/cp.1, line: 20
-# File: raw/man1/cp.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/cp.1:20
 #, no-wrap
 msgid "B<-a>, B<--archive>"
 msgstr "B<-a>, B<--archive>"
 
-#
-# File: raw/man1/cp.1, line: 23
-# File: raw/man1/cp.1, line: 23
-# File: raw/man1/cp.1, line: 23
-# File: raw/man1/cp.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:23
 msgid "same as B<-dR> B<--preserve>=I<\\,all\\/>"
-msgstr ""
+msgstr "与 B<-dR> B<--preserve>=I<\\,all\\/> 相同。"
 
-#
-# File: raw/man1/cp.1, line: 23
-# File: raw/man1/cp.1, line: 23
-# File: raw/man1/cp.1, line: 23
-# File: raw/man1/cp.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/cp.1:23
 #, no-wrap
 msgid "B<--attributes-only>"
 msgstr "B<--attributes-only>"
 
-#
-# File: raw/man1/cp.1, line: 26
-# File: raw/man1/cp.1, line: 26
-# File: raw/man1/cp.1, line: 26
-# File: raw/man1/cp.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:26
 msgid "don't copy the file data, just the attributes"
-msgstr ""
+msgstr "不要复制文件数据，仅仅复制其属性值。"
 
-#
 # Words in texinfo document is also hard to understand. Please make sure that you understand what CONTROL/METHOD is.
-# File: raw/man1/cp.1, line: 26
-# File: raw/man1/cp.1, line: 26
-# File: raw/man1/cp.1, line: 26
-# File: raw/man1/cp.1, line: 26
 #. type: TP
 #: raw/coreutils/man1/cp.1:26
 #, no-wrap
 msgid "B<--backup>[=I<\\,CONTROL\\/>]"
 msgstr "B<--backup>[=I<\\,控制参数\\/>]"
 
-#
-# File: raw/man1/cp.1, line: 29
-# File: raw/man1/cp.1, line: 29
-# File: raw/man1/cp.1, line: 29
-# File: raw/man1/cp.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:29
 msgid "make a backup of each existing destination file"
 msgstr "为每个已存在的目标文件创建一个备份"
 
-#
-# File: raw/man1/cp.1, line: 29
-# File: raw/man1/cp.1, line: 29
-# File: raw/man1/cp.1, line: 29
-# File: raw/man1/cp.1, line: 29
 #. type: TP
 #: raw/coreutils/man1/cp.1:29
 #, no-wrap
 msgid "B<-b>"
 msgstr "B<-b>"
 
-#
-# File: raw/man1/cp.1, line: 32
-# File: raw/man1/cp.1, line: 32
-# File: raw/man1/cp.1, line: 32
-# File: raw/man1/cp.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:32
 msgid "like B<--backup> but does not accept an argument"
 msgstr "类似 B<--backup>，但是不接受参数"
 
-#
-# File: raw/man1/cp.1, line: 32
-# File: raw/man1/cp.1, line: 32
-# File: raw/man1/cp.1, line: 32
-# File: raw/man1/cp.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/cp.1:32
 #, no-wrap
 msgid "B<--copy-contents>"
-msgstr ""
+msgstr "B<--copy-contents>"
 
-#
-# File: raw/man1/cp.1, line: 35
-# File: raw/man1/cp.1, line: 35
-# File: raw/man1/cp.1, line: 35
-# File: raw/man1/cp.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:35
 msgid "copy contents of special files when recursive"
-msgstr ""
+msgstr "递归模式下复制特殊文件的内容"
 
-#
-# File: raw/man1/cp.1, line: 35
-# File: raw/man1/cp.1, line: 35
-# File: raw/man1/cp.1, line: 35
-# File: raw/man1/cp.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/cp.1:35
 #, no-wrap
 msgid "B<-d>"
-msgstr ""
+msgstr "B<-d>"
 
-#
-# File: raw/man1/cp.1, line: 38
-# File: raw/man1/cp.1, line: 38
-# File: raw/man1/cp.1, line: 38
-# File: raw/man1/cp.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:38
 msgid "same as B<--no-dereference> B<--preserve>=I<\\,links\\/>"
-msgstr ""
+msgstr "与 B<--no-dereference> B<--preserve>=I<\\,links\\/> 相同"
 
-#
-# File: raw/man1/cp.1, line: 38
-# File: raw/man1/cp.1, line: 38
-# File: raw/man1/cp.1, line: 38
-# File: raw/man1/cp.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/cp.1:38
 #, no-wrap
 msgid "B<-f>, B<--force>"
 msgstr "B<-f>, B<--force>"
 
-#
-# File: raw/man1/cp.1, line: 43
-# File: raw/man1/cp.1, line: 43
-# File: raw/man1/cp.1, line: 43
-# File: raw/man1/cp.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:43
 msgid ""
 "if an existing destination file cannot be opened, remove it and try again "
 "(this option is ignored when the B<-n> option is also used)"
 msgstr ""
+"如果有一个已存在且无法打开的目标文件，删除之并进行重试（该选项在 B<-n> 选项同"
+"时被使用时无效）"
 
-#
-# File: raw/man1/cp.1, line: 43
-# File: raw/man1/cp.1, line: 43
-# File: raw/man1/cp.1, line: 43
-# File: raw/man1/cp.1, line: 43
 #. type: TP
 #: raw/coreutils/man1/cp.1:43
 #, no-wrap
 msgid "B<-i>, B<--interactive>"
-msgstr ""
+msgstr "B<i>, B<--interactive>"
 
-#
-# File: raw/man1/cp.1, line: 47
-# File: raw/man1/cp.1, line: 47
-# File: raw/man1/cp.1, line: 47
-# File: raw/man1/cp.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:47
 msgid "prompt before overwrite (overrides a previous B<-n> option)"
-msgstr ""
+msgstr "覆写前进行提示（覆盖先前的 B<-n> 选项）"
 
-#
-# File: raw/man1/cp.1, line: 47
-# File: raw/man1/cp.1, line: 47
-# File: raw/man1/cp.1, line: 47
-# File: raw/man1/cp.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/cp.1:47
 #, no-wrap
 msgid "B<-H>"
-msgstr ""
+msgstr "B<-H>"
 
-#
-# File: raw/man1/cp.1, line: 50
-# File: raw/man1/cp.1, line: 50
-# File: raw/man1/cp.1, line: 50
-# File: raw/man1/cp.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:50
 msgid "follow command-line symbolic links in SOURCE"
-msgstr ""
+msgstr "跟随源文件命令行中显式给出的符号链接"
 
-#
-# File: raw/man1/cp.1, line: 50
-# File: raw/man1/cp.1, line: 50
-# File: raw/man1/cp.1, line: 50
-# File: raw/man1/cp.1, line: 50
 #. type: TP
 #: raw/coreutils/man1/cp.1:50
 #, no-wrap
 msgid "B<-l>, B<--link>"
-msgstr ""
+msgstr "B<-l>, B<--link>"
 
-#
-# File: raw/man1/cp.1, line: 53
-# File: raw/man1/cp.1, line: 53
-# File: raw/man1/cp.1, line: 53
-# File: raw/man1/cp.1, line: 53
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:53
 msgid "hard link files instead of copying"
-msgstr ""
+msgstr "使用硬链接取代复制"
 
-#
-# File: raw/man1/cp.1, line: 53
-# File: raw/man1/cp.1, line: 53
-# File: raw/man1/cp.1, line: 53
-# File: raw/man1/cp.1, line: 53
 #. type: TP
 #: raw/coreutils/man1/cp.1:53
 #, no-wrap
 msgid "B<-L>, B<--dereference>"
 msgstr "B<-L>, B<--dereference>"
 
-#
-# File: raw/man1/cp.1, line: 56
-# File: raw/man1/cp.1, line: 56
-# File: raw/man1/cp.1, line: 56
-# File: raw/man1/cp.1, line: 56
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:56
 msgid "always follow symbolic links in SOURCE"
-msgstr ""
+msgstr "总是跟随源文件中的符号链接"
 
-#
-# File: raw/man1/cp.1, line: 56
-# File: raw/man1/cp.1, line: 56
-# File: raw/man1/cp.1, line: 56
-# File: raw/man1/cp.1, line: 56
 #. type: TP
 #: raw/coreutils/man1/cp.1:56
 #, no-wrap
 msgid "B<-n>, B<--no-clobber>"
-msgstr ""
+msgstr "B<-n>, B<--no-clobber>"
 
-#
-# File: raw/man1/cp.1, line: 60
-# File: raw/man1/cp.1, line: 60
-# File: raw/man1/cp.1, line: 60
-# File: raw/man1/cp.1, line: 60
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:60
 msgid "do not overwrite an existing file (overrides a previous B<-i> option)"
-msgstr ""
+msgstr "不要覆写已有的文件（覆盖先前给出的 B<-i> 选项）"
 
-#
-# File: raw/man1/cp.1, line: 60
-# File: raw/man1/cp.1, line: 60
-# File: raw/man1/cp.1, line: 60
-# File: raw/man1/cp.1, line: 60
 #. type: TP
 #: raw/coreutils/man1/cp.1:60
 #, no-wrap
 msgid "B<-P>, B<--no-dereference>"
 msgstr "B<-P>, B<--no-dereference>"
 
-#
-# File: raw/man1/cp.1, line: 63
-# File: raw/man1/cp.1, line: 63
-# File: raw/man1/cp.1, line: 63
-# File: raw/man1/cp.1, line: 63
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:63
 msgid "never follow symbolic links in SOURCE"
-msgstr ""
+msgstr "永远不要跟随源文件中的符号链接"
 
-#
-# File: raw/man1/cp.1, line: 63
-# File: raw/man1/cp.1, line: 63
-# File: raw/man1/cp.1, line: 63
-# File: raw/man1/cp.1, line: 63
 #. type: TP
 #: raw/coreutils/man1/cp.1:63
 #, no-wrap
 msgid "B<-p>"
-msgstr ""
+msgstr "B<-p>"
 
-#
-# File: raw/man1/cp.1, line: 66
-# File: raw/man1/cp.1, line: 66
-# File: raw/man1/cp.1, line: 66
-# File: raw/man1/cp.1, line: 66
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:66
 msgid "same as B<--preserve>=I<\\,mode\\/>,ownership,timestamps"
-msgstr ""
+msgstr "与 B<--preserve>=I<\\,mode\\/>,ownership,timestamps 相同"
 
-#
-# File: raw/man1/cp.1, line: 66
-# File: raw/man1/cp.1, line: 66
-# File: raw/man1/cp.1, line: 66
-# File: raw/man1/cp.1, line: 66
 #. type: TP
 #: raw/coreutils/man1/cp.1:66
 #, no-wrap
 msgid "B<--preserve>[=I<\\,ATTR_LIST\\/>]"
-msgstr ""
+msgstr "B<--preserve>[=I<\\,属性列表\\/>]"
 
-#
-# File: raw/man1/cp.1, line: 72
-# File: raw/man1/cp.1, line: 72
-# File: raw/man1/cp.1, line: 72
-# File: raw/man1/cp.1, line: 72
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:72
 msgid ""
 "preserve the specified attributes (default: mode,ownership,timestamps), if "
 "possible additional attributes: context, links, xattr, all"
 msgstr ""
+"保留指定的属性（默认：模式、从属关系、时间戳），如果可能的话还有额外属性：上"
+"下文、链接（links）、xattr、all"
 
-#
-# File: raw/man1/cp.1, line: 72
-# File: raw/man1/cp.1, line: 72
-# File: raw/man1/cp.1, line: 72
-# File: raw/man1/cp.1, line: 72
 #. type: TP
 #: raw/coreutils/man1/cp.1:72
 #, no-wrap
 msgid "B<--no-preserve>=I<\\,ATTR_LIST\\/>"
-msgstr ""
+msgstr "B<--no-preserve>=I<\\,属性列表\\/>"
 
-#
-# File: raw/man1/cp.1, line: 75
-# File: raw/man1/cp.1, line: 75
-# File: raw/man1/cp.1, line: 75
-# File: raw/man1/cp.1, line: 75
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:75
 msgid "don't preserve the specified attributes"
-msgstr ""
+msgstr "不要保留指定的属性"
 
-#
-# File: raw/man1/cp.1, line: 75
-# File: raw/man1/cp.1, line: 75
-# File: raw/man1/cp.1, line: 75
-# File: raw/man1/cp.1, line: 75
 #. type: TP
 #: raw/coreutils/man1/cp.1:75
 #, no-wrap
 msgid "B<--parents>"
-msgstr ""
+msgstr "B<--parents>"
 
-#
-# File: raw/man1/cp.1, line: 78
-# File: raw/man1/cp.1, line: 78
-# File: raw/man1/cp.1, line: 78
-# File: raw/man1/cp.1, line: 78
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:78
 msgid "use full source file name under DIRECTORY"
-msgstr ""
+msgstr "在目标目录下使用完整的源文件名"
 
-#
-# File: raw/man1/cp.1, line: 78
-# File: raw/man1/cp.1, line: 78
-# File: raw/man1/cp.1, line: 78
-# File: raw/man1/cp.1, line: 78
 #. type: TP
 #: raw/coreutils/man1/cp.1:78
 #, no-wrap
 msgid "B<-R>, B<-r>, B<--recursive>"
-msgstr ""
+msgstr "B<-R>, B<-r>, B<--recursive>"
 
-#
-# File: raw/man1/cp.1, line: 81
-# File: raw/man1/cp.1, line: 81
-# File: raw/man1/cp.1, line: 81
-# File: raw/man1/cp.1, line: 81
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:81
 msgid "copy directories recursively"
-msgstr ""
+msgstr "递归地复制文件"
 
-#
-# File: raw/man1/cp.1, line: 81
-# File: raw/man1/cp.1, line: 81
-# File: raw/man1/cp.1, line: 81
-# File: raw/man1/cp.1, line: 81
 #. type: TP
 #: raw/coreutils/man1/cp.1:81
 #, no-wrap
 msgid "B<--reflink>[=I<\\,WHEN\\/>]"
-msgstr ""
+msgstr "B<--reflink>[=I<\\,WHEN\\/>]"
 
-#
-# File: raw/man1/cp.1, line: 84
-# File: raw/man1/cp.1, line: 84
-# File: raw/man1/cp.1, line: 84
-# File: raw/man1/cp.1, line: 84
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:84
 msgid "control clone/CoW copies. See below"
-msgstr ""
+msgstr "控制克隆/写入时复制（CoW）副本。详情见下文"
 
-#
-# File: raw/man1/cp.1, line: 84
-# File: raw/man1/cp.1, line: 84
-# File: raw/man1/cp.1, line: 84
-# File: raw/man1/cp.1, line: 84
 #. type: TP
 #: raw/coreutils/man1/cp.1:84
 #, no-wrap
 msgid "B<--remove-destination>"
-msgstr ""
+msgstr "B<--remove-destination>"
 
-#
-# File: raw/man1/cp.1, line: 88
-# File: raw/man1/cp.1, line: 88
-# File: raw/man1/cp.1, line: 88
-# File: raw/man1/cp.1, line: 88
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:88
 msgid ""
 "remove each existing destination file before attempting to open it (contrast "
 "with B<--force>)"
 msgstr ""
+"在尝试打开每个已存在的目标文件之前对其进行删除（和 B<--force> 行为相反）"
 
-#
-# File: raw/man1/cp.1, line: 88
-# File: raw/man1/cp.1, line: 88
-# File: raw/man1/cp.1, line: 88
-# File: raw/man1/cp.1, line: 88
 #. type: TP
 #: raw/coreutils/man1/cp.1:88
 #, no-wrap
 msgid "B<--sparse>=I<\\,WHEN\\/>"
-msgstr ""
+msgstr "B<--sparse>=I<\\,WHEN\\/>"
 
-#
-# File: raw/man1/cp.1, line: 91
-# File: raw/man1/cp.1, line: 91
-# File: raw/man1/cp.1, line: 91
-# File: raw/man1/cp.1, line: 91
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:91
 msgid "control creation of sparse files. See below"
-msgstr ""
+msgstr "控制稀疏文件的创建。详情见下文"
 
-#
-# File: raw/man1/cp.1, line: 91
-# File: raw/man1/cp.1, line: 91
-# File: raw/man1/cp.1, line: 91
-# File: raw/man1/cp.1, line: 91
 #. type: TP
 #: raw/coreutils/man1/cp.1:91
 #, no-wrap
 msgid "B<--strip-trailing-slashes>"
 msgstr "B<--strip-trailing-slashes>"
 
-#
-# File: raw/man1/cp.1, line: 95
-# File: raw/man1/cp.1, line: 95
-# File: raw/man1/cp.1, line: 95
-# File: raw/man1/cp.1, line: 95
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:95
 msgid "remove any trailing slashes from each SOURCE argument"
-msgstr ""
+msgstr "移除每个源文件参数后的任何末尾斜杠"
 
-#
-# File: raw/man1/cp.1, line: 95
-# File: raw/man1/cp.1, line: 95
-# File: raw/man1/cp.1, line: 95
-# File: raw/man1/cp.1, line: 95
 #. type: TP
 #: raw/coreutils/man1/cp.1:95
 #, no-wrap
 msgid "B<-s>, B<--symbolic-link>"
 msgstr "B<-s>, B<--symbolic-link>"
 
-#
-# File: raw/man1/cp.1, line: 98
-# File: raw/man1/cp.1, line: 98
-# File: raw/man1/cp.1, line: 98
-# File: raw/man1/cp.1, line: 98
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:98
 msgid "make symbolic links instead of copying"
-msgstr ""
+msgstr "使用符号链接代替复制"
 
-#
-# File: raw/man1/cp.1, line: 98
-# File: raw/man1/cp.1, line: 98
-# File: raw/man1/cp.1, line: 98
-# File: raw/man1/cp.1, line: 98
 #. type: TP
 #: raw/coreutils/man1/cp.1:98
 #, no-wrap
 msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
-msgstr ""
+msgstr "B<-S>, B<--suffix>=I<\\,后缀名\\/>"
 
-#
-# File: raw/man1/cp.1, line: 101
-# File: raw/man1/cp.1, line: 101
-# File: raw/man1/cp.1, line: 101
-# File: raw/man1/cp.1, line: 101
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:101
 msgid "override the usual backup suffix"
-msgstr ""
+msgstr "使用给定名称代替常用备份后缀名"
 
-#
-# File: raw/man1/cp.1, line: 101
-# File: raw/man1/cp.1, line: 101
-# File: raw/man1/cp.1, line: 101
-# File: raw/man1/cp.1, line: 101
 #. type: TP
 #: raw/coreutils/man1/cp.1:101
 #, no-wrap
 msgid "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 msgstr "B<-t>, B<--target-directory>=I<\\,目录\\/>"
 
-#
-# File: raw/man1/cp.1, line: 104
-# File: raw/man1/cp.1, line: 104
-# File: raw/man1/cp.1, line: 104
-# File: raw/man1/cp.1, line: 104
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:104
 msgid "copy all SOURCE arguments into DIRECTORY"
-msgstr ""
+msgstr "将所有源文件参数给出的内容复制到目标目录中"
 
-#
-# File: raw/man1/cp.1, line: 104
-# File: raw/man1/cp.1, line: 104
-# File: raw/man1/cp.1, line: 104
-# File: raw/man1/cp.1, line: 104
 #. type: TP
 #: raw/coreutils/man1/cp.1:104
 #, no-wrap
 msgid "B<-T>, B<--no-target-directory>"
 msgstr "B<-T>, B<--no-target-directory>"
 
-#
-# File: raw/man1/cp.1, line: 107
-# File: raw/man1/cp.1, line: 107
-# File: raw/man1/cp.1, line: 107
-# File: raw/man1/cp.1, line: 107
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:107
 msgid "treat DEST as a normal file"
 msgstr "将目标文件当作普通文件对待（而不是目录）"
 
-#
-# File: raw/man1/cp.1, line: 107
-# File: raw/man1/cp.1, line: 107
-# File: raw/man1/cp.1, line: 107
-# File: raw/man1/cp.1, line: 107
 #. type: TP
 #: raw/coreutils/man1/cp.1:107
 #, no-wrap
 msgid "B<-u>, B<--update>"
-msgstr ""
+msgstr "B<-u>, B<--update>"
 
-#
-# File: raw/man1/cp.1, line: 112
-# File: raw/man1/cp.1, line: 112
-# File: raw/man1/cp.1, line: 112
-# File: raw/man1/cp.1, line: 112
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:112
 msgid ""
 "copy only when the SOURCE file is newer than the destination file or when "
 "the destination file is missing"
-msgstr ""
+msgstr "仅在源文件比目标文件新，或者目标文件不存在的情况下复制"
 
-#
-# File: raw/man1/cp.1, line: 112
-# File: raw/man1/cp.1, line: 112
-# File: raw/man1/cp.1, line: 112
-# File: raw/man1/cp.1, line: 112
 #. type: TP
 #: raw/coreutils/man1/cp.1:112
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
-# File: raw/man1/cp.1, line: 115
-# File: raw/man1/cp.1, line: 115
-# File: raw/man1/cp.1, line: 115
-# File: raw/man1/cp.1, line: 115
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:115
 msgid "explain what is being done"
 msgstr "解释正在发生的情况"
 
-#
-# File: raw/man1/cp.1, line: 115
-# File: raw/man1/cp.1, line: 115
-# File: raw/man1/cp.1, line: 115
-# File: raw/man1/cp.1, line: 115
 #. type: TP
 #: raw/coreutils/man1/cp.1:115
 #, no-wrap
 msgid "B<-x>, B<--one-file-system>"
-msgstr ""
+msgstr "B<-x>, B<--one-file-system>"
 
-#
-# File: raw/man1/cp.1, line: 118
-# File: raw/man1/cp.1, line: 118
-# File: raw/man1/cp.1, line: 118
-# File: raw/man1/cp.1, line: 118
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:118
 msgid "stay on this file system"
-msgstr ""
+msgstr "停留在当前文件系统中"
 
-#
-# File: raw/man1/cp.1, line: 118
-# File: raw/man1/cp.1, line: 118
-# File: raw/man1/cp.1, line: 118
-# File: raw/man1/cp.1, line: 118
 #. type: TP
 #: raw/coreutils/man1/cp.1:118
 #, no-wrap
 msgid "B<-Z>"
 msgstr "B<-Z>"
 
-#
-# File: raw/man1/cp.1, line: 122
-# File: raw/man1/cp.1, line: 122
-# File: raw/man1/cp.1, line: 122
-# File: raw/man1/cp.1, line: 122
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:122
 msgid "set SELinux security context of destination file to default type"
-msgstr ""
+msgstr "将目标文件 SELinux 安全上下文设置为默认类型"
 
-#
-# File: raw/man1/cp.1, line: 122
-# File: raw/man1/cp.1, line: 122
-# File: raw/man1/cp.1, line: 122
-# File: raw/man1/cp.1, line: 122
 #. type: TP
 #: raw/coreutils/man1/cp.1:122
 #, no-wrap
 msgid "B<--context>[=I<\\,CTX\\/>]"
 msgstr "B<--context>[=I<\\,CTX\\/>]"
 
-#
-# File: raw/man1/cp.1, line: 126
-# File: raw/man1/cp.1, line: 126
-# File: raw/man1/cp.1, line: 126
-# File: raw/man1/cp.1, line: 126
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:126
 msgid ""
 "like B<-Z>, or if CTX is specified then set the SELinux or SMACK security "
 "context to CTX"
 msgstr ""
+"类似 B<-Z>，或者如果给定了上下文（CTX）那么将 SELinux 或者 SMACK 安全上下文设"
+"置为给定值"
 
-#
-# File: raw/man1/cp.1, line: 126
-# File: raw/man1/cp.1, line: 126
-# File: raw/man1/cp.1, line: 126
-# File: raw/man1/cp.1, line: 126
 #. type: TP
 #: raw/coreutils/man1/cp.1:126
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
-# File: raw/man1/cp.1, line: 129
-# File: raw/man1/cp.1, line: 129
-# File: raw/man1/cp.1, line: 129
-# File: raw/man1/cp.1, line: 129
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:129
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
-# File: raw/man1/cp.1, line: 129
-# File: raw/man1/cp.1, line: 129
-# File: raw/man1/cp.1, line: 129
-# File: raw/man1/cp.1, line: 129
 #. type: TP
 #: raw/coreutils/man1/cp.1:129
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
-# File: raw/man1/cp.1, line: 132
-# File: raw/man1/cp.1, line: 132
-# File: raw/man1/cp.1, line: 132
-# File: raw/man1/cp.1, line: 132
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:132
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
-# File: raw/man1/cp.1, line: 138
-# File: raw/man1/cp.1, line: 138
-# File: raw/man1/cp.1, line: 138
-# File: raw/man1/cp.1, line: 138
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:138
 msgid ""
@@ -871,11 +484,6 @@ msgid ""
 "of sparse files."
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 142
-# File: raw/man1/cp.1, line: 142
-# File: raw/man1/cp.1, line: 142
-# File: raw/man1/cp.1, line: 142
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:142
 msgid ""
@@ -885,11 +493,6 @@ msgid ""
 "back to a standard copy."
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 146
-# File: raw/man1/cp.1, line: 146
-# File: raw/man1/cp.1, line: 146
-# File: raw/man1/cp.1, line: 146
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:146
 msgid ""
@@ -899,95 +502,50 @@ msgid ""
 "Here are the values:"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 146
-# File: raw/man1/cp.1, line: 146
-# File: raw/man1/cp.1, line: 146
-# File: raw/man1/cp.1, line: 146
 #. type: TP
 #: raw/coreutils/man1/cp.1:146
 #, no-wrap
 msgid "none, off"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 149
-# File: raw/man1/cp.1, line: 149
-# File: raw/man1/cp.1, line: 149
-# File: raw/man1/cp.1, line: 149
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:149
 msgid "never make backups (even if B<--backup> is given)"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 149
-# File: raw/man1/cp.1, line: 149
-# File: raw/man1/cp.1, line: 149
-# File: raw/man1/cp.1, line: 149
 #. type: TP
 #: raw/coreutils/man1/cp.1:149
 #, no-wrap
 msgid "numbered, t"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 152
-# File: raw/man1/cp.1, line: 152
-# File: raw/man1/cp.1, line: 152
-# File: raw/man1/cp.1, line: 152
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:152
 msgid "make numbered backups"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 152
-# File: raw/man1/cp.1, line: 152
-# File: raw/man1/cp.1, line: 152
-# File: raw/man1/cp.1, line: 152
 #. type: TP
 #: raw/coreutils/man1/cp.1:152
 #, no-wrap
 msgid "existing, nil"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 155
-# File: raw/man1/cp.1, line: 155
-# File: raw/man1/cp.1, line: 155
-# File: raw/man1/cp.1, line: 155
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:155
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 155
-# File: raw/man1/cp.1, line: 155
-# File: raw/man1/cp.1, line: 155
-# File: raw/man1/cp.1, line: 155
 #. type: TP
 #: raw/coreutils/man1/cp.1:155
 #, no-wrap
 msgid "simple, never"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 158
-# File: raw/man1/cp.1, line: 158
-# File: raw/man1/cp.1, line: 158
-# File: raw/man1/cp.1, line: 158
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:158
 msgid "always make simple backups"
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 162
-# File: raw/man1/cp.1, line: 162
-# File: raw/man1/cp.1, line: 162
-# File: raw/man1/cp.1, line: 162
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:162
 msgid ""
@@ -996,43 +554,23 @@ msgid ""
 "regular file."
 msgstr ""
 
-#
-# File: raw/man1/cp.1, line: 162
-# File: raw/man1/cp.1, line: 162
-# File: raw/man1/cp.1, line: 162
-# File: raw/man1/cp.1, line: 162
 #. type: SH
 #: raw/coreutils/man1/cp.1:162
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
-# File: raw/man1/cp.1, line: 164
-# File: raw/man1/cp.1, line: 164
-# File: raw/man1/cp.1, line: 164
-# File: raw/man1/cp.1, line: 164
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:164
 msgid "Written by Torbjorn Granlund, David MacKenzie, and Jim Meyering."
 msgstr "由 Torbjorn Granlund、David MacKenzie 和 Jim Meyering 编写。"
 
-#
-# File: raw/man1/cp.1, line: 164
-# File: raw/man1/cp.1, line: 164
-# File: raw/man1/cp.1, line: 164
-# File: raw/man1/cp.1, line: 164
 #. type: SH
 #: raw/coreutils/man1/cp.1:164
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
-# File: raw/man1/cp.1, line: 166
-# File: raw/man1/cp.1, line: 166
-# File: raw/man1/cp.1, line: 166
-# File: raw/man1/cp.1, line: 166
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:166
 msgid ""
@@ -1040,11 +578,6 @@ msgid ""
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
-# File: raw/man1/cp.1, line: 168
-# File: raw/man1/cp.1, line: 168
-# File: raw/man1/cp.1, line: 168
-# File: raw/man1/cp.1, line: 168
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:168
 msgid ""
@@ -1053,22 +586,12 @@ msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 cp 的翻译错"
 "误。"
 
-#
-# File: raw/man1/cp.1, line: 168
-# File: raw/man1/cp.1, line: 168
-# File: raw/man1/cp.1, line: 168
-# File: raw/man1/cp.1, line: 168
 #. type: SH
 #: raw/coreutils/man1/cp.1:168
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
-# File: raw/man1/cp.1, line: 171
-# File: raw/man1/cp.1, line: 171
-# File: raw/man1/cp.1, line: 171
-# File: raw/man1/cp.1, line: 171
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:171
 msgid ""
@@ -1078,11 +601,6 @@ msgstr ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
-# File: raw/man1/cp.1, line: 174
-# File: raw/man1/cp.1, line: 174
-# File: raw/man1/cp.1, line: 174
-# File: raw/man1/cp.1, line: 174
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:174
 msgid ""
@@ -1092,41 +610,19 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
-# File: raw/man1/cp.1, line: 174
-# File: raw/man1/cp.1, line: 174
-# File: raw/man1/cp.1, line: 174
-# File: raw/man1/cp.1, line: 174
 #. type: SH
 #: raw/coreutils/man1/cp.1:174
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
-# File: raw/man1/cp.1, line: 176
-# File: raw/man1/cp.1, line: 176
-# File: raw/man1/cp.1, line: 176
-# File: raw/man1/cp.1, line: 176
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:176
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
 
-#
-# File: raw/man1/cp.1, line: 177
-# File: raw/man1/cp.1, line: 177
-# File: raw/man1/cp.1, line: 177
-# File: raw/man1/cp.1, line: 177
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:177
 msgid "or available locally via: info \\(aq(coreutils) cp invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) cp invocation\\(aq"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
