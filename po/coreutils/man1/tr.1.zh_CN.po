@@ -4,12 +4,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:41+0800\n"
-"PO-Revision-Date: 2016-12-24 16:55+0800\n"
+"PO-Revision-Date: 2017-02-12 22:12+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -754,8 +754,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/tr.1:123
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/tr.1, line: 125
@@ -766,8 +765,7 @@ msgstr ""
 msgid ""
 "Report tr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 tr 的翻译错"
-"误。"
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 tr 的翻译错误。"
 
 #
 # File: raw/man1/tr.1, line: 125

@@ -6,12 +6,12 @@
 #
 # riser <boomer@ccidnet.com>, 2000.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-16 14:20+0800\n"
+"PO-Revision-Date: 2017-02-12 22:17+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -22,30 +22,18 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/head.1:2
 #, no-wrap
 msgid "HEAD"
 msgstr "HEAD"
 
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/head.1:2
 #, no-wrap
 msgid "December 2016"
 msgstr "2016年12月"
 
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/head.1:2
 #, no-wrap
@@ -53,21 +41,13 @@ msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
-# File: raw/man1/head.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/head.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "User Commands"
+msgstr "用户命令"
 
 #
-# File: raw/man1/head.1, line: 3
-# File: raw/man1/head.1, line: 3
-# File: raw/man1/head.1, line: 3
-# File: raw/man1/head.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/head.1:3
 #, no-wrap
@@ -75,20 +55,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/head.1, line: 5
-# File: raw/man1/head.1, line: 5
-# File: raw/man1/head.1, line: 5
-# File: raw/man1/head.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/head.1:5
 msgid "head - output the first part of files"
 msgstr "head - 输出文件的起始部分"
 
 #
-# File: raw/man1/head.1, line: 5
-# File: raw/man1/head.1, line: 5
-# File: raw/man1/head.1, line: 5
-# File: raw/man1/head.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/head.1:5
 #, no-wrap
@@ -96,30 +68,18 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/head.1, line: 8
-# File: raw/man1/head.1, line: 8
-# File: raw/man1/head.1, line: 8
-# File: raw/man1/head.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/head.1:8
 msgid "B<head> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<head> [I<\\,选项\\/>]... [I<\\,文件\\/>]..."
 
 #
-# File: raw/man1/head.1, line: 8
-# File: raw/man1/head.1, line: 8
-# File: raw/man1/head.1, line: 8
-# File: raw/man1/head.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/head.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-# File: raw/man1/head.1, line: 13
-# File: raw/man1/head.1, line: 13
-# File: raw/man1/head.1, line: 13
-# File: raw/man1/head.1, line: 13
 #. type: Plain text
 #: raw/coreutils/man1/head.1:13
 msgid ""
@@ -130,10 +90,6 @@ msgstr ""
 "个文件的部分之前添加给定文件名称。"
 
 #
-# File: raw/man1/head.1, line: 15
-# File: raw/man1/head.1, line: 15
-# File: raw/man1/head.1, line: 15
-# File: raw/man1/head.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/head.1:15
 msgid "With no FILE, or when FILE is -, read standard input."
@@ -150,10 +106,6 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-# File: raw/man1/head.1, line: 17
-# File: raw/man1/head.1, line: 17
-# File: raw/man1/head.1, line: 17
-# File: raw/man1/head.1, line: 17
 #. type: TP
 #: raw/coreutils/man1/head.1:17
 #, no-wrap
@@ -349,8 +301,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/head.1:50
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/head.1, line: 52
@@ -405,10 +356,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/head.1, line: 58
-# File: raw/man1/head.1, line: 58
-# File: raw/man1/head.1, line: 58
-# File: raw/man1/head.1, line: 58
 #. type: SH
 #: raw/coreutils/man1/head.1:58
 #, no-wrap
@@ -416,10 +363,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/head.1, line: 60
-# File: raw/man1/head.1, line: 60
-# File: raw/man1/head.1, line: 60
-# File: raw/man1/head.1, line: 60
 #. type: Plain text
 #: raw/coreutils/man1/head.1:60
 msgid "tail(1)"

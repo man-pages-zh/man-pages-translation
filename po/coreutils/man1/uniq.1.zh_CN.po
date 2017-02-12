@@ -5,12 +5,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:41+0800\n"
-"PO-Revision-Date: 2016-12-18 09:49+0800\n"
+"PO-Revision-Date: 2017-02-12 22:16+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -83,15 +83,10 @@ msgstr "uniq - 报告或省略重复行"
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
-# File: raw/man1/uniq.1, line: 8
-# File: raw/man1/uniq.1, line: 8
-# File: raw/man1/uniq.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:8
-#, fuzzy
 msgid "B<uniq> [I<\\,OPTION\\/>]... [I<\\,INPUT \\/>[I<\\,OUTPUT\\/>]]"
-msgstr "B<uniq> [I<选项>]... [I<输入 >[I<输出>]]"
+msgstr "B<uniq> [I<\\,选项\\/>]... [I<\\,输入 \\/>[I<\\,输出\\/>]]"
 
 #
 # File: raw/man1/uniq.1, line: 8
@@ -112,8 +107,7 @@ msgstr "描述"
 msgid ""
 "Filter adjacent matching lines from INPUT (or standard input), writing to "
 "OUTPUT (or standard output)."
-msgstr ""
-"从输入文件（或标准输入）筛选一组相邻的匹配行，写入到输出文件（或标准输出）。"
+msgstr "从输入文件（或标准输入）筛选一组相邻的匹配行，写入到输出文件（或标准输出）。"
 
 #
 # File: raw/man1/uniq.1, line: 15
@@ -190,15 +184,11 @@ msgstr "B<-D>"
 msgid "print all duplicate lines"
 msgstr "显示所有重复的行"
 
-#
-# File: raw/man1/uniq.1, line: 26
-# File: raw/man1/uniq.1, line: 26
-# File: raw/man1/uniq.1, line: 26
 #. type: TP
 #: raw/coreutils/man1/uniq.1:26
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<--all-repeated>[=I<\\,METHOD\\/>]"
-msgstr "B<-D>, B<--all-repeated>[=I<METHOD>]"
+msgstr "B<-D>, B<--all-repeated>[=I<\\,METHOD\\/>]"
 
 #
 # File: raw/man1/uniq.1, line: 31
@@ -241,7 +231,6 @@ msgstr "比较时跳过前 N 个域"
 msgid "B<--group>[=I<\\,METHOD\\/>]"
 msgstr "B<--group>[=I<METHOD>]"
 
-#
 # File: raw/man1/uniq.1, line: 38
 # File: raw/man1/uniq.1, line: 38
 # File: raw/man1/uniq.1, line: 38
@@ -252,7 +241,7 @@ msgid ""
 "show all items, separating groups with an empty line; "
 "METHOD={separate(default),prepend,append,both}"
 msgstr ""
-"显示所有行，用一个空行分隔每一组 METHOD={separate(default), prepend, append, "
+"s显示所有行，用一个空行分隔每一组 METHOD={separate(default), prepend, append, "
 "both}"
 
 #
@@ -452,8 +441,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/uniq.1:70
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/uniq.1, line: 72

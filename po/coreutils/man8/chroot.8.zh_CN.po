@@ -2,60 +2,63 @@
 # PACKAGE 软件包的简体中文翻译
 # Copyright (C) 2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2017.
 #
+# Automatically generated, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:25+0800\n"
-"PO-Revision-Date: 2017-02-12 00:25+0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-02-12 22:14+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
 #, no-wrap
 msgid "CHROOT"
-msgstr ""
+msgstr "CHROOT"
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
 #, no-wrap
 msgid "December 2016"
-msgstr ""
+msgstr "2016年12月"
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
 #, no-wrap
 msgid "GNU coreutils 8.26"
-msgstr ""
+msgstr "GNU coreutils 8.26"
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:3
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:5
 msgid "chroot - run command or interactive shell with special root directory"
-msgstr ""
+msgstr "chroot - 在特殊的根目录下运行目录或者交互式 shell"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:8
@@ -73,7 +76,7 @@ msgstr ""
 #: raw/coreutils/man8/chroot.8:11
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:15
@@ -106,7 +109,7 @@ msgstr ""
 #: raw/coreutils/man8/chroot.8:21
 #, no-wrap
 msgid "B<--skip-chdir>"
-msgstr ""
+msgstr "B<--skip-chdir>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:24
@@ -117,23 +120,23 @@ msgstr ""
 #: raw/coreutils/man8/chroot.8:24
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:27
 msgid "display this help and exit"
-msgstr ""
+msgstr "显示此帮助信息并退出"
 
 #. type: TP
 #: raw/coreutils/man8/chroot.8:27
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:30
 msgid "output version information and exit"
-msgstr ""
+msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:32
@@ -145,24 +148,24 @@ msgstr ""
 #: raw/coreutils/man8/chroot.8:32
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:34
 msgid "Written by Roland McGrath."
-msgstr ""
+msgstr "由 Roland McGrath 编写。"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:34
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:36
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:38
@@ -170,12 +173,13 @@ msgid ""
 "Report chroot translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 chroot 的翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:38
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr ""
+msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:41
@@ -183,6 +187,8 @@ msgid ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:44
@@ -190,25 +196,29 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:44
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:46
 msgid "chroot(2)"
-msgstr ""
+msgstr "chroot(2)"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:49
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chrootE<gt>"
-msgstr ""
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chrootE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:50
 msgid "or available locally via: info \\(aq(coreutils) chroot invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) chroot invocation\\(aq"
+
+
