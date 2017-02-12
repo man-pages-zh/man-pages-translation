@@ -6,67 +6,68 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:59+0800\n"
-"PO-Revision-Date: 2017-02-12 00:59+0800\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2017-02-12 16:33+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. type: TH
 #: raw/procps/man1/w.1:3
 #, no-wrap
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #. type: TH
 #: raw/procps/man1/w.1:3
 #, no-wrap
 msgid "May 2012"
-msgstr ""
+msgstr "2012年5月"
 
 #. type: TH
 #: raw/procps/man1/w.1:3
 #, no-wrap
 msgid "procps-ng"
-msgstr ""
+msgstr "procps-ng"
 
 #. type: TH
 #: raw/procps/man1/w.1:3
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: raw/procps/man1/w.1:4
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:6
 msgid "w - Show who is logged on and what they are doing."
-msgstr ""
+msgstr "w - 显示已登录用户以及他们正在干什么。"
 
 #. type: SH
 #: raw/procps/man1/w.1:6
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:9
 msgid "B<w> [I<options>] I<user> [...]"
-msgstr ""
+msgstr "B<w> [I<选项>] I<用户> [...]"
 
 #. type: SH
 #: raw/procps/man1/w.1:9
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:15
@@ -76,6 +77,9 @@ msgid ""
 "long the system has been running, how many users are currently logged on, "
 "and the system load averages for the past 1, 5, and 15 minutes."
 msgstr ""
+"B<w> 显示当前该机器上有关用户的信息，以及他们的进程。第一行按顺序显示当前时"
+"间、机器开机运行至今的时长、当前有多少用户已登录、以及机器在过去一分钟、五分"
+"钟和十五分钟的平均负载。"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:19
@@ -84,6 +88,8 @@ msgid ""
 "the remote host, login time, idle time, JCPU, PCPU, and the command line of "
 "their current process."
 msgstr ""
+"对每个用户，会显示下列条目：登录名、tty 名、远程主机、登录时间、闲置时间、"
+"JCPU、PCPU 和当前进程的命令行。"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:23
@@ -92,36 +98,38 @@ msgid ""
 "does not include past background jobs, but does include currently running "
 "background jobs."
 msgstr ""
+"JCPU 时间是当前附加到 tty 上的所有进程所使用的时间。它不包括过去在后台运行的"
+"工作，但是包括当前正在后台运行的工作。"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:26
 msgid ""
 "The PCPU time is the time used by the current process, named in the \"what\" "
 "field."
-msgstr ""
+msgstr "PCPU 时间是当前进程所用的时间，即对应“what”一栏的进程名。"
 
 #. type: SH
 #: raw/procps/man1/w.1:26
 #, no-wrap
 msgid "COMMAND-LINE OPTIONS"
-msgstr ""
+msgstr "命令行选项"
 
 #. type: TP
 #: raw/procps/man1/w.1:27
 #, no-wrap
 msgid "B<-h>, B<--no-header>"
-msgstr ""
+msgstr "B<-h>, B<--no-header>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:30
 msgid "Don't print the header."
-msgstr ""
+msgstr "不要打印头行。"
 
 #. type: TP
 #: raw/procps/man1/w.1:30
 #, no-wrap
 msgid "B<-u>, B<--no-current>"
-msgstr ""
+msgstr "B<-u>, B<--no-current>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:35
@@ -129,23 +137,25 @@ msgid ""
 "Ignores the username while figuring out the current process and cpu times.  "
 "To demonstrate this, do a \"su\" and do a \"w\" and a \"w -u\"."
 msgstr ""
+"在处理得到当前进程与 CPU 时间时忽视用户名。要展示其效果，请尝试进行一次“su”然"
+"后尝试“w”和“w -u”。"
 
 #. type: TP
 #: raw/procps/man1/w.1:35
 #, no-wrap
 msgid "B<-s>, B<--short>"
-msgstr ""
+msgstr "B<-s>, B<--short>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:38
 msgid "Use the short format.  Don't print the login time, JCPU or PCPU times."
-msgstr ""
+msgstr "使用短格式。不要打印登录时间、JCPU 和 PCPU 时间。"
 
 #. type: TP
 #: raw/procps/man1/w.1:38
 #, no-wrap
 msgid "B<-f>, B<--from>"
-msgstr ""
+msgstr "B<-f>, B<--from>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:48
@@ -155,135 +165,138 @@ msgid ""
 "administrator or distribution maintainer may have compiled a version in "
 "which the B<from> field is shown by default."
 msgstr ""
+"切换对 B<from>（远程主机名）一栏的打印与否。发布时的默认值是不打印 B<from> "
+"栏，尽管您的系统管理员或者发行版维护者可能提供一个 B<from> 栏默认显示的编译版"
+"本。"
 
 #. type: TP
 #: raw/procps/man1/w.1:48
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:51
 msgid "Display help text and exit."
-msgstr ""
+msgstr "显示帮助信息并退出。"
 
 #. type: TP
 #: raw/procps/man1/w.1:51
 #, no-wrap
 msgid "B<-i>, B<--ip-addr>"
-msgstr ""
+msgstr "B<-i>, B<--ip-addr>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:54
 msgid "Display IP address instead of hostname for B<from> field."
-msgstr ""
+msgstr "为 B<from> 一栏显示显示 IP 地址而非主机名。"
 
 #. type: TP
 #: raw/procps/man1/w.1:54
 #, no-wrap
 msgid "B<-V>, B<--version>"
-msgstr ""
+msgstr "B<-V>, B<--version>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:57
 msgid "Display version information."
-msgstr ""
+msgstr "显示版本信息。"
 
 #. type: TP
 #: raw/procps/man1/w.1:57
 #, no-wrap
 msgid "B<-o>, B<--old-style>"
-msgstr ""
+msgstr "B<-o>, B<--old-style>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:60
 msgid ""
 "Old style output.  Prints blank space for idle times less than one minute."
-msgstr ""
+msgstr "旧的输出风格。为少于一分钟的闲置时间打印空白字符。"
 
 #. type: TP
 #: raw/procps/man1/w.1:60
 #, no-wrap
 msgid "B<user >"
-msgstr ""
+msgstr "B<user >"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:63
 msgid "Show information about the specified user only."
-msgstr ""
+msgstr "只为指定的用户显示相关信息。"
 
 #. type: SH
 #: raw/procps/man1/w.1:63
 #, no-wrap
 msgid "ENVIRONMENT"
-msgstr ""
+msgstr "环境变量"
 
 #. type: TP
 #: raw/procps/man1/w.1:64
 #, no-wrap
 msgid "PROCPS_USERLEN"
-msgstr ""
+msgstr "PROCPS_USERLEN"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:67
 msgid "Override the default width of the username column.  Defaults to 8."
-msgstr ""
+msgstr "将覆盖用户名一栏的默认宽度。默认值为 8。"
 
 #. type: TP
 #: raw/procps/man1/w.1:67
 #, no-wrap
 msgid "PROCPS_FROMLEN"
-msgstr ""
+msgstr "PROCPS_FROMLEN"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:70
 msgid "Override the default width of the from column.  Defaults to 16."
-msgstr ""
+msgstr "将覆盖 from 一栏的默认宽度。默认值为 16。"
 
 #. type: SH
 #: raw/procps/man1/w.1:70
 #, no-wrap
 msgid "FILES"
-msgstr ""
+msgstr "文件"
 
 #. type: TP
 #: raw/procps/man1/w.1:71
 #, no-wrap
 msgid "I</var/run/utmp>"
-msgstr ""
+msgstr "I</var/run/utmp>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:74
 msgid "information about who is currently logged on"
-msgstr ""
+msgstr "与已登录用户有关的信息"
 
 #. type: TP
 #: raw/procps/man1/w.1:74
 #, no-wrap
 msgid "I</proc>"
-msgstr ""
+msgstr "I</proc>"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:77
 msgid "process information"
-msgstr ""
+msgstr "进程信息"
 
 #. type: SH
 #: raw/procps/man1/w.1:77
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参见"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:84
 msgid "B<free>(1), B<ps>(1), B<top>(1), B<uptime>(1), B<utmp>(5), B<who>(1)"
-msgstr ""
+msgstr "B<free>(1), B<ps>(1), B<top>(1), B<uptime>(1), B<utmp>(5), B<who>(1)"
 
 #. type: SH
 #: raw/procps/man1/w.1:84
 #, no-wrap
 msgid "AUTHORS"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:94
@@ -292,14 +305,17 @@ msgid ""
 "by E<.UR greenfie@\\:gauss.\\:rutgers.\\:edu> Larry Greenfield E<.UE> and E<."
 "UR johnsonm@\\:redhat.\\:com> Michael K. Johnson E<.UE>"
 msgstr ""
+"B<w> 基于 E<.UR greenfie@\\:gauss.\\:rutgers.\\:edu> Larry Greenfield E<.UE> "
+"和 E<.UR johnsonm@\\:redhat.\\:com> Michael K. Johnson E<.UE>的版本，Charles "
+"Blake 做了几乎彻底的重写。"
 
 #. type: SH
 #: raw/procps/man1/w.1:94
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: raw/procps/man1/w.1:97
 msgid "Please send bug reports to E<.UR procps@freelists.org> E<.UE>"
-msgstr ""
+msgstr "请将错误报告发送至 E<.UR procps@freelists.org> E<.UE>"

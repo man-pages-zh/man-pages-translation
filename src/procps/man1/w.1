@@ -1,0 +1,81 @@
+.\"             -*-Nroff-*-
+.\"
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH W 1 2012年5月 procps\-ng 用户命令
+.SH 名称
+w \- 显示已登录用户以及他们正在干什么。
+.SH 概述
+\fBw\fP [\fI选项\fP] \fI用户\fP [...]
+.SH 描述
+\fBw\fP
+显示当前该机器上有关用户的信息，以及他们的进程。第一行按顺序显示当前时间、机器开机运行至今的时长、当前有多少用户已登录、以及机器在过去一分钟、五分钟和十五分钟的平均负载。
+.PP
+对每个用户，会显示下列条目：登录名、tty 名、远程主机、登录时间、闲置时间、JCPU、PCPU 和当前进程的命令行。
+.PP
+JCPU 时间是当前附加到 tty 上的所有进程所使用的时间。它不包括过去在后台运行的工作，但是包括当前正在后台运行的工作。
+.PP
+PCPU 时间是当前进程所用的时间，即对应“what”一栏的进程名。
+.SH 命令行选项
+.TP 
+\fB\-h\fP, \fB\-\-no\-header\fP
+不要打印头行。
+.TP 
+\fB\-u\fP, \fB\-\-no\-current\fP
+在处理得到当前进程与 CPU 时间时忽视用户名。要展示其效果，请尝试进行一次“su”然后尝试“w”和“w \-u”。
+.TP 
+\fB\-s\fP, \fB\-\-short\fP
+使用短格式。不要打印登录时间、JCPU 和 PCPU 时间。
+.TP 
+\fB\-f\fP, \fB\-\-from\fP
+切换对 \fBfrom\fP（远程主机名）一栏的打印与否。发布时的默认值是不打印 \fBfrom\fP 栏，尽管您的系统管理员或者发行版维护者可能提供一个
+\fBfrom\fP 栏默认显示的编译版本。
+.TP 
+\fB\-\-help\fP
+显示帮助信息并退出。
+.TP 
+\fB\-i\fP, \fB\-\-ip\-addr\fP
+为 \fBfrom\fP 一栏显示显示 IP 地址而非主机名。
+.TP 
+\fB\-V\fP, \fB\-\-version\fP
+显示版本信息。
+.TP 
+\fB\-o\fP, \fB\-\-old\-style\fP
+旧的输出风格。为少于一分钟的闲置时间打印空白字符。
+.TP 
+\fBuser \fP
+只为指定的用户显示相关信息。
+.SH 环境变量
+.TP 
+PROCPS_USERLEN
+将覆盖用户名一栏的默认宽度。默认值为 8。
+.TP 
+PROCPS_FROMLEN
+将覆盖 from 一栏的默认宽度。默认值为 16。
+.SH 文件
+.TP 
+\fI/var/run/utmp\fP
+与已登录用户有关的信息
+.TP 
+\fI/proc\fP
+进程信息
+.SH 参见
+\fBfree\fP(1), \fBps\fP(1), \fBtop\fP(1), \fBuptime\fP(1), \fButmp\fP(5), \fBwho\fP(1)
+.SH 作者
+\fBw\fP 基于
+.UR greenfie@\:gauss.\:rutgers.\:edu
+Larry Greenfield
+.UE
+和
+.UR johnsonm@\:redhat.\:com
+Michael K. Johnson
+.UE
+的版本，Charles Blake
+做了几乎彻底的重写。
+.SH 报告错误
+请将错误报告发送至
+.UR procps@freelists.org
+.UE
