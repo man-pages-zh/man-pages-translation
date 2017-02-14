@@ -1,0 +1,395 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-02-14 19:14+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages/man1/iconv.1:26
+#, no-wrap
+msgid "ICONV"
+msgstr ""
+
+#. type: TH
+#: raw/manpages/man1/iconv.1:26
+#, no-wrap
+msgid "2014-07-08"
+msgstr ""
+
+#. type: TH
+#: raw/manpages/man1/iconv.1:26
+#, no-wrap
+msgid "GNU"
+msgstr ""
+
+#. type: TH
+#: raw/manpages/man1/iconv.1:26
+#, no-wrap
+msgid "Linux User Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:27
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:29
+msgid "iconv - convert text from one character encoding to another"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:29
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:35
+msgid ""
+"B<iconv> [I<options>] [-f I<from-encoding>] [-t I<to-encoding>] "
+"[I<inputfile>]..."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:35
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:46
+msgid ""
+"The B<iconv> program reads in text in one encoding and outputs the text in "
+"another encoding.  If no input files are given, or if it is given as a dash "
+"(-), B<iconv> reads from standard input.  If no output file is given, "
+"B<iconv> writes to standard output."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:56
+msgid ""
+"If no I<from-encoding> is given, the default is derived from the current "
+"locale's character encoding.  If no I<to-encoding> is given, the default is "
+"derived from the current locale's character encoding."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:56
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:57
+#, no-wrap
+msgid "B<-f>I< from-encoding>B<, --from-code=>I<from-encoding>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:62
+msgid "Use I<from-encoding> for input characters."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:62
+#, no-wrap
+msgid "B<-t>I< to-encoding>B<, --to-code=>I<to-encoding>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:67
+msgid "Use I<to-encoding> for output characters."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:74
+msgid ""
+"If the string B<//IGNORE> is appended to I<to-encoding>, characters that "
+"cannot be converted are discarded and an error is printed after conversion."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:85
+msgid ""
+"If the string B<//TRANSLIT> is appended to I<to-encoding>, characters being "
+"converted are transliterated when needed and possible.  This means that when "
+"a character cannot be represented in the target character set, it can be "
+"approximated through one or several similar looking characters.  Characters "
+"that are outside of the target character set and cannot be transliterated "
+"are replaced with a question mark (?) in the output."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:85
+#, no-wrap
+msgid "B<-l>, B<--list>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:88
+msgid "List all known character set encodings."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:88
+#, no-wrap
+msgid "B<-c>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:92
+msgid ""
+"Silently discard characters that cannot be converted instead of terminating "
+"when encountering such characters."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:92
+#, no-wrap
+msgid "B<-o>I< outputfile>B<, --output=>I<outputfile>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:97
+msgid "Use I<outputfile> for output."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:97
+#, no-wrap
+msgid "B<-s>, B<--silent>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:100
+msgid "This option is ignored; it is provided only for compatibility."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:100
+#, no-wrap
+msgid "B<--verbose>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:104
+msgid "Print progress information on standard error when processing multiple files."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:104
+#, no-wrap
+msgid "B<-?>, B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:107
+msgid "Print a usage summary and exit."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:107
+#, no-wrap
+msgid "B<--usage>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:110
+msgid "Print a short usage summary and exit."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:110
+#, no-wrap
+msgid "B<-V>, B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:114
+msgid "Print the version number, license, and disclaimer of warranty for B<iconv>."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:114
+#, no-wrap
+msgid "EXIT STATUS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:116
+msgid "Zero on success, non-zero on errors."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:116
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:134
+msgid ""
+"Internally, the B<iconv> program uses the B<iconv>(3)  function which in "
+"turn uses I<gconv> modules (dynamically loaded shared libraries)  to convert "
+"to and from a character set.  Before calling B<iconv>(3), the B<iconv> "
+"program must first allocate a conversion descriptor using B<iconv_open>(3).  "
+"The operation of the latter function is influenced by the setting of the "
+"B<GCONV_PATH> environment variable:"
+msgstr ""
+
+#. type: IP
+#: raw/manpages/man1/iconv.1:134 raw/manpages/man1/iconv.1:145
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:145
+msgid ""
+"If B<GCONV_PATH> is not set, B<iconv_open>(3)  loads the system gconv module "
+"configuration cache file created by B<iconvconfig>(8)  and then, based on "
+"the configuration, loads the gconv modules needed to perform the "
+"conversion.  If the system gconv module configuration cache file is not "
+"available then the system gconv module configuration file is used."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:169
+msgid ""
+"If B<GCONV_PATH> is defined (as a colon-separated list of pathnames), the "
+"system gconv module configuration cache is not used.  Instead, "
+"B<iconv_open>(3)  first tries to load the configuration files by searching "
+"the directories in B<GCONV_PATH> in order, followed by the system default "
+"gconv module configuration file.  If a directory does not contain a gconv "
+"module configuration file, any gconv modules that it may contain are "
+"ignored.  If a directory contains a gconv module configuration file and it "
+"is determined that a module needed for this conversion is available in the "
+"directory, then the needed module is loaded from that directory, the order "
+"being such that the first suitable module found in B<GCONV_PATH> is used.  "
+"This allows users to use custom modules and even replace system-provided "
+"modules by providing such modules in B<GCONV_PATH> directories."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:169
+#, no-wrap
+msgid "FILES"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:170
+#, no-wrap
+msgid "I</usr/lib/gconv>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:173
+msgid "Usual default gconv module path."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:173
+#, no-wrap
+msgid "I</usr/lib/gconv/gconv-modules>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:176
+msgid "Usual system default gconv module configuration file."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man1/iconv.1:176
+#, no-wrap
+msgid "I</usr/lib/gconv/gconv-modules.cache>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:179
+msgid "Usual system gconv module configuration cache."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:179
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:181
+msgid "POSIX.1-2001."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:181
+#, no-wrap
+msgid "EXAMPLE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:183
+msgid "Convert text from the ISO 8859-15 character encoding to UTF-8:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:187
+#, no-wrap
+msgid "$ B<iconv -f ISO-8859-15 -t UTF-8 E<lt> input.txt E<gt> output.txt>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:192
+msgid ""
+"The next example converts from UTF-8 to ASCII, transliterating when "
+"possible:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:197
+#, no-wrap
+msgid ""
+"$ B<echo abc ß α € àḃç | iconv -f UTF-8 -t ASCII//TRANSLIT>\n"
+"abc ss ? EUR abc\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:199
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:205
+msgid ""
+"B<locale>(1), B<iconv>(3), B<nl_langinfo>(3), B<charsets>(7), "
+"B<iconvconfig>(8)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man1/iconv.1:205
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man1/iconv.1:213
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at "
+"\\%https://www.kernel.org/doc/man-pages/."
+msgstr ""

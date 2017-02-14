@@ -1,5 +1,3 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
@@ -21,90 +19,52 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
 msgid "DATE"
 msgstr "DATE"
 
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
 msgid "December 2016"
 msgstr "2016年12月"
 
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
 msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
-#
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
-# File: raw/man1/date.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
-# File: raw/man1/date.1, line: 3
-# File: raw/man1/date.1, line: 3
-# File: raw/man1/date.1, line: 3
-# File: raw/man1/date.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/date.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
-# File: raw/man1/date.1, line: 5
-# File: raw/man1/date.1, line: 5
-# File: raw/man1/date.1, line: 5
-# File: raw/man1/date.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/date.1:5
 msgid "date - print or set the system date and time"
 msgstr "date - 输出或设置系统日期与时间"
 
-#
-# File: raw/man1/date.1, line: 5
-# File: raw/man1/date.1, line: 5
-# File: raw/man1/date.1, line: 5
-# File: raw/man1/date.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/date.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/date.1, line: 8
-# File: raw/man1/date.1, line: 8
-# File: raw/man1/date.1, line: 8
-# File: raw/man1/date.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/date.1:8
 msgid "B<date> [I<\\,OPTION\\/>]... [I<\\,+FORMAT\\/>]"
 msgstr "B<date> [I<\\,选项\\/>]... [I<\\,+格式\\/>]"
 
-#
-# File: raw/man1/date.1, line: 11
-# File: raw/man1/date.1, line: 11
-# File: raw/man1/date.1, line: 11
-# File: raw/man1/date.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/date.1:11
 #, fuzzy
