@@ -1,0 +1,167 @@
+.\" Copyright (c) 2002 Andries Brouwer <aeb@cwi.nl>
+.\"
+.\" %%%LICENSE_START(VERBATIM)
+.\" Permission is granted to make and distribute verbatim copies of this
+.\" manual provided the copyright notice and this permission notice are
+.\" preserved on all copies.
+.\"
+.\" Permission is granted to copy and distribute modified versions of this
+.\" manual under the conditions for verbatim copying, provided that the
+.\" entire resulting derived work is distributed under the terms of a
+.\" permission notice identical to this one.
+.\"
+.\" Since the Linux kernel and libraries are constantly changing, this
+.\" manual page may be incorrect or out-of-date.  The author(s) assume no
+.\" responsibility for errors or omissions, or for damages resulting from
+.\" the use of the information contained herein.  The author(s) may not
+.\" have taken the same level of care in the production of this manual,
+.\" which is licensed free of charge, as they might when working
+.\" professionally.
+.\"
+.\" Formatted or processed versions of this manual, if unaccompanied by
+.\" the source, must acknowledge the copyright and authors of this work.
+.\" %%%LICENSE_END
+.\"
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH INTRO 1 2015\-07\-23 Linux "Linux 用户手册"
+.SH 名称
+intro \- 用户命令的介绍
+.SH 描述
+手册页的第一部分描述了用户命令和工具，例如，文件操作工具、各个 shell、编译器、网页浏览器、文件和图像查看器和编辑器，等等。
+.SH 注记
+Linux 是类 UNIX 的一个变种，粗略地看，很多 UNIX 下的用户命令都可以同样地在 Linux（以及 FreeBSD 和很多其它类 UNIX
+系统上）工作。
+.LP
+在 Linux 下，存在 GUI（图形用户界面），其中您可以进行指向、点击或者拖曳，这些工作一般不需要阅读大量手册即可完成。传统的 UNIX 环境是一个
+CLI（命令行用户界面），其中您键入命令来告诉计算机该做什么。这样更快、更强大，但是需要先弄清楚这些命令是什么。下面是如何开始工作的一些基础性指导。
+.SS 登录
+要开始工作，您可能需要首先提供您的用户名和密码以打开一个会话。\fBlogin\fP(1) 程序现在会为您启动一个
+\fIshell\fP（命令解释器）。在图形登录的时候，您需要在一个有着菜单和图标的屏幕上使用鼠标点击，最终可以在一个窗口内启动一个 shell。参见
+\fBxterm\fP(1)。
+.SS "使用 shell"
+用户输入命令并将其传送给命令解释器，即 \fIshell\fP。它不是内置的，只是一个独立程序，您可以更改自己使用的
+shell。每个人都有其最喜爱的选择。标准的 shell 被称作 \fIsh\fP。参见
+\fBash\fP(1)、\fBbash\fP(1)、\fBchsh\fP(1)、\fBcsh\fP(1)、\fBdash\fP(1)、\fBksh\fP(1)、\fBzsh\fP(1)。
+.LP
+一个会话的进行可能如下所示：
+.LP
+.RS
+.nf
+knuth login: \fBaeb\fP
+Password: \fB********\fP
+$ \fBdate\fP
+Tue Aug  6 23:50:44 CEST 2002
+$ \fBcal\fP
+     August 2002
+Su Mo Tu We Th Fr Sa
+             1  2  3
+ 4  5  6  7  8  9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30 31
+
+$ \fBls\fP
+bin  tel
+$ \fBls \-l\fP
+total 2
+drwxrwxr\-x   2 aeb       1024 Aug  6 23:51 bin
+\-rw\-rw\-r\-\-   1 aeb         37 Aug  6 23:52 tel
+$ \fBcat tel\fP
+maja    0501\-1136285
+peter   0136\-7399214
+$ \fBcp tel tel2\fP
+$ \fBls \-l\fP
+total 3
+drwxr\-xr\-x   2 aeb       1024 Aug  6 23:51 bin
+\-rw\-r\-\-r\-\-   1 aeb         37 Aug  6 23:52 tel
+\-rw\-r\-\-r\-\-   1 aeb         37 Aug  6 23:53 tel2
+$ \fBmv tel tel1\fP
+$ \fBls \-l\fP
+total 3
+drwxr\-xr\-x   2 aeb       1024 Aug  6 23:51 bin
+\-rw\-r\-\-r\-\-   1 aeb         37 Aug  6 23:52 tel1
+\-rw\-r\-\-r\-\-   1 aeb         37 Aug  6 23:53 tel2
+$ \fBdiff tel1 tel2\fP
+$ \fBrm tel1\fP
+$ \fBgrep maja tel2\fP
+maja    0501\-1136285
+$
+.fi
+.RE
+.LP
+这里键入 Control\-D 会终止会话。
+.LP
+这里的 \fB$\fP 是命令提示符\(em这是 shell
+用来提示它已经准备好接收下一条命令的方式。提示符可以用许多方式进行定制，同时可能包含诸如用户名、机器名、当前目录、时间等等附加信息。进行一次类似
+PS1="下面该做些什么，主人？" 这样的赋值可以按照用户要求修改该提示的内容。
+.LP
+我们可以看见的命令有 \fIdate\fP（提供日期和时间），以及 \fIcal\fP（提供日历）。
+.LP
+命令 \fIls\fP 列出当前目录的内容\(em它告诉您您拥有什么文件。使用 \fI\-l\fP
+选项可以给出一个长列表，其中包括文件的所有者、大小和日期，以及人们读取和/或修改它的权限。例如，这里的“tel”有37字节长，由 aeb
+所有，其所有者可以读取或写入它，其他人只能读取它。所有者和权限可以使用 \fIchown\fP 和 \fIchmod\fP 命令进行修改。
+.LP
+命令 \fIcat\fP 将会显示一个文件的内容。（其名称来自“concatenate and
+print”：所有当作参数给出的文件将会被连接起来并发送至“标准输出”（见 \fBstdout\fP(3)），这里是终端屏幕。）
+.LP
+命令 \fIcp\fP（来自 "copy" 单词）将会复制一个文件。
+.LP
+命令 \fImv\fP（来自“move”），则只会将其重命名。
+.LP
+命令 \fIdiff\fP 列出两个文件之间的不同之处。这里没有输出，因为两者之间没有区别。
+.LP
+命令 \fIrm\fP（来自“remove”）删除文件，请小心！它不见了。没有回收站或者类似的东西。删除即意味着对是。
+.LP
+命令 \fIgrep\fP（来自“g/re/p”）在一个或多个文件中寻找某个字符串的出现情况。这里它找到了 Maja 的电话号码。
+.SS 路径名和当前目录
+文件存在于一个巨大的树结构中，即文件目录结构。每个文件有一个 \fIpathname\fP 描述从树的树根（被称作
+\fI/\fP）到这个文件的路径。例如，这样的一个完整路径名可能是
+\fI/home/aeb/tel\fP。总是使用完整的路径名可能不太方便，所以当前目录下文件的名称可以缩写为只给出其最后一部分。这就是在当前目录是
+\fI/home/aeb\fP 时 \fI/home/aeb/tel\fP 可以被缩写为 \fItel\fP 的原因。
+.LP
+命令 \fIpwd\fP 打印当前目录。
+.LP
+命令 \fIcd\fP 改变当前目录。
+.LP
+请交替尝试使用 \fIcd\fP 和 \fIpwd\fP 命令并探索 \fIcd\fP 的用法：“cd”、“cd .”、“cd ..”、“cd /”和“cd ~”。
+.SS 目录
+命令 \fImkdir\fP 创建一个新目录。
+.LP
+命令 \fIrmdir\fP 在目录为空的情况下删除该目录，若非空则提示出错。
+.LP
+命令 \fIfind\fP 具有不寻常的语法，它可以使用给定的文件名或其它属性查找文件。例如，“find . \-name tel”会从当前目录（也被称作
+\&\fI.\fP）开始寻找文件 \fItel\fP。而“find / \-name tel”会做同样的工作，但是从目录树的根开始寻找。在以 GB
+为单位计量容量的磁盘上进行大规模查找可能耗时很多，使用 \fBlocate\fP(1) 可能是相对更好的方案。
+.SS 磁盘和文件系统
+命令 \fImount\fP 会将某些磁盘（或者软盘、光盘等等）上寻找到的文件系统挂载到大的文件系统层次中。而 \fIumount\fP 会将其重新卸载。命令
+\fIdf\fP 会告诉您磁盘上还有多少空闲空间。
+.SS 进程
+在一个 UNIX 系统上，有许多用户进程和系统进程同时运行。您正与其交互的进程被称为在 \fI前台\fP 运行，其它的则在 \fI后台\fP。命令 \fIps\fP
+将会为您显示哪些进程是活跃的，以及这些进程的编号。命令 \fIkill\fP 允许您将其停止。如果没有额外参数，这将是一个友好的请求：请停止吧。而“kill
+\-9”命令，后面加上该进程的编号则会立刻杀死它。前台进程通常可以通过按下 Control\-C 来杀死。
+.SS 获取信息
+系统上可能有成千上万个命令，每个都有许多可用参数。传统上，命令使用 \fIman 手册页\fP 进行记录（类似当前这个文档），这样使用“man
+kill”命令就可以显示命令“kill”的使用方法（而“man man”则记录了命令“man”的使用方法）。“man”程序将文字送给某些
+\fI分页器\fP，通常是 \fIless\fP 程序。敲击空格键可以翻到下一页，点击 q 可以退出。
+.LP
+文档中，习惯上会使用一个名称和一个分类编号来指代一个手册页，例如
+\fBman\fP(1)。手册页通常简明扼要，允许您在忘记某些细节时进行快速查找。对新手来说，一段介绍性文字和更多的示例和解释可能会更有用。
+.LP
+许多 GNU/FSF 软件提供了 info 文件。输入“info info”以查阅使用 \fIinfo\fP 程序的一段介绍。
+.LP
+.\"
+.\" Actual examples? Separate section for each of cat, cp, ...?
+.\" gzip, bzip2, tar, rpm
+特别的主题通常被作为 HOWTO 文档。请在 \fI/usr/share/doc/howto/en\fP 目录下看一看，如果您找到了 HTML
+文档的话，请使用浏览器阅览。
+.SH 参见
+\fBash\fP(1), \fBbash\fP(1), \fBchsh\fP(1), \fBcsh\fP(1), \fBdash\fP(1), \fBksh\fP(1),
+\fBlocate\fP(1), \fBlogin\fP(1), \fBman\fP(1), \fBxterm\fP(1), \fBzsh\fP(1), \fBwait\fP(2),
+\fBstdout\fP(3), \fBman\-pages\fP(7), \fBstandards\fP(7)
+.SH 跋
+本页面是 Linux \fIman\-pages\fP 项目 4.09 版的一部分。该项目的描述、有关报告错误的信息以及本页面的最新版本可以在
+\%https://www.kernel.org/doc/pan\-pages/ 上找到。

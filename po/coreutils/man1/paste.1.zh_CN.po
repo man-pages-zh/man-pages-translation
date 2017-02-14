@@ -315,38 +315,19 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
-# File: raw/man1/paste.1, line: 44
-# File: raw/man1/paste.1, line: 44
-# File: raw/man1/paste.1, line: 44
-# File: raw/man1/paste.1, line: 44
 #. type: SH
 #: raw/coreutils/man1/paste.1:44
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
-# File: raw/man1/paste.1, line: 46
-# File: raw/man1/paste.1, line: 46
-# File: raw/man1/paste.1, line: 46
-# File: raw/man1/paste.1, line: 46
 #. type: Plain text
 #: raw/coreutils/man1/paste.1:46
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/pasteE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/pasteE<gt>"
 
-# File: raw/man1/paste.1, line: 47
-#
 #. type: Plain text
 #: raw/coreutils/man1/paste.1:47
 msgid "or available locally via: info \\(aq(coreutils) paste invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) paste invocation\\(aq"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

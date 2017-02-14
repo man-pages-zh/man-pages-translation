@@ -946,41 +946,19 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
-# File: raw/man1/du.1, line: 159
-# File: raw/man1/du.1, line: 159
-# File: raw/man1/du.1, line: 159
-# File: raw/man1/du.1, line: 159
 #. type: SH
 #: raw/coreutils/man1/du.1:159
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
-# File: raw/man1/du.1, line: 161
-# File: raw/man1/du.1, line: 161
-# File: raw/man1/du.1, line: 161
-# File: raw/man1/du.1, line: 161
 #. type: Plain text
 #: raw/coreutils/man1/du.1:161
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/duE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/duE<gt>"
 
-#
-# File: raw/man1/du.1, line: 162
-# File: raw/man1/du.1, line: 162
-# File: raw/man1/du.1, line: 162
-# File: raw/man1/du.1, line: 162
 #. type: Plain text
 #: raw/coreutils/man1/du.1:162
 msgid "or available locally via: info \\(aq(coreutils) du invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) du invocation\\(aq"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
