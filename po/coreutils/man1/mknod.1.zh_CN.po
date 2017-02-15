@@ -4,12 +4,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-22 16:25+0800\n"
+"PO-Revision-Date: 2017-02-15 17:04+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -35,27 +35,18 @@ msgstr "MKNOD"
 msgid "December 2016"
 msgstr "2016年12月"
 
-#
-# File: raw/man1/mknod.1, line: 2
-# File: raw/man1/mknod.1, line: 2
-# File: raw/man1/mknod.1, line: 2
-# File: raw/man1/mknod.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/mknod.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GNU coreutils 8.26"
-msgstr "GNU coreutils 8.23"
+msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/mknod.1, line: 2
-# File: raw/man1/mknod.1, line: 2
-# File: raw/man1/mknod.1, line: 2
-# File: raw/man1/mknod.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/mknod.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "User Commands"
+msgstr "用户命令"
 
 #
 # File: raw/man1/mknod.1, line: 3
@@ -69,14 +60,10 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/mknod.1, line: 5
-# File: raw/man1/mknod.1, line: 5
-# File: raw/man1/mknod.1, line: 5
-# File: raw/man1/mknod.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:5
 msgid "mknod - make block or character special files"
-msgstr ""
+msgstr "mknod - 创建块或者字符特殊文件"
 
 #
 # File: raw/man1/mknod.1, line: 5
@@ -90,14 +77,10 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/mknod.1, line: 8
-# File: raw/man1/mknod.1, line: 8
-# File: raw/man1/mknod.1, line: 8
-# File: raw/man1/mknod.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:8
 msgid "B<mknod> [I<\\,OPTION\\/>]... I<\\,NAME TYPE \\/>[I<\\,MAJOR MINOR\\/>]"
-msgstr ""
+msgstr "B<mknod> [I<\\,选项\\/>]... I<\\,名称 类型 \\/>[I<\\,主设备号 从设备号\\/>]"
 
 #
 # File: raw/man1/mknod.1, line: 8
@@ -111,14 +94,10 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/mknod.1, line: 12
-# File: raw/man1/mknod.1, line: 12
-# File: raw/man1/mknod.1, line: 12
-# File: raw/man1/mknod.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:12
 msgid "Create the special file NAME of the given TYPE."
-msgstr ""
+msgstr "使用指定文件名称和给定类型创建特殊文件。"
 
 #
 # File: raw/man1/mknod.1, line: 14
@@ -131,16 +110,11 @@ msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
-# File: raw/man1/mknod.1, line: 14
-# File: raw/man1/mknod.1, line: 14
-# File: raw/man1/mknod.1, line: 14
-# File: raw/man1/mknod.1, line: 14
 #. type: TP
 #: raw/coreutils/man1/mknod.1:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<-m>, B<--mode>=I<\\,MODE\\/>"
-msgstr "B<-m>, B<--mode>=I<模式>"
+msgstr "B<-m>, B<--mode>=I<\\,模式\\/>"
 
 #
 # File: raw/man1/mknod.1, line: 17
@@ -150,7 +124,7 @@ msgstr "B<-m>, B<--mode>=I<模式>"
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:17
 msgid "set file permission bits to MODE, not a=rw - umask"
-msgstr ""
+msgstr "将文件权限位设置为给定的模式（类似 chmod），而不是类似 a=rw 这样"
 
 #
 # File: raw/man1/mknod.1, line: 17
@@ -164,37 +138,24 @@ msgid "B<-Z>"
 msgstr "B<-Z>"
 
 #
-# File: raw/man1/mknod.1, line: 20
-# File: raw/man1/mknod.1, line: 20
-# File: raw/man1/mknod.1, line: 20
-# File: raw/man1/mknod.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:20
 msgid "set the SELinux security context to default type"
-msgstr ""
+msgstr "将 SELinux 安全上下文设置为默认类型"
 
-#
-# File: raw/man1/mknod.1, line: 20
-# File: raw/man1/mknod.1, line: 20
-# File: raw/man1/mknod.1, line: 20
-# File: raw/man1/mknod.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/mknod.1:20
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<--context>[=I<\\,CTX\\/>]"
-msgstr "B<--context>[=I<CTX>]"
+msgstr "B<--context>[=I<\\,CTX\\/>]"
 
 #
-# File: raw/man1/mknod.1, line: 24
-# File: raw/man1/mknod.1, line: 24
-# File: raw/man1/mknod.1, line: 24
-# File: raw/man1/mknod.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:24
 msgid ""
 "like B<-Z>, or if CTX is specified then set the SELinux or SMACK security "
 "context to CTX"
-msgstr ""
+msgstr "类似 B<-Z>，或者如果指定了上下文，则将 SELinux 或者 SMACK 安全上下文设置为指定类型"
 
 #
 # File: raw/man1/mknod.1, line: 24
@@ -239,10 +200,6 @@ msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/mknod.1, line: 35
-# File: raw/man1/mknod.1, line: 35
-# File: raw/man1/mknod.1, line: 35
-# File: raw/man1/mknod.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:35
 msgid ""
@@ -251,6 +208,8 @@ msgid ""
 "is interpreted as hexadecimal; otherwise, if it begins with 0, as octal; "
 "otherwise, as decimal.  TYPE may be:"
 msgstr ""
+"当类型为 b、c 或者 u 时，必须同时指定主设备号和从设备号，当类型为 p 时它们必须同时被省略。如果主设备号和从设备号以 0x 或者 0X"
+" 起始，它将被解释为十六进制数据；否则，如果它以 0 起始，则看作八进制；否则看作十进制。所指定类型可以为："
 
 # File: raw/man1/mknod.1, line: 35
 #
@@ -261,62 +220,38 @@ msgid "b"
 msgstr "b"
 
 #
-# File: raw/man1/mknod.1, line: 38
-# File: raw/man1/mknod.1, line: 38
-# File: raw/man1/mknod.1, line: 38
-# File: raw/man1/mknod.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:38
 msgid "create a block (buffered) special file"
-msgstr ""
+msgstr "创建一个块（缓冲）特殊文件"
 
 #
-# File: raw/man1/mknod.1, line: 38
-# File: raw/man1/mknod.1, line: 38
-# File: raw/man1/mknod.1, line: 38
-# File: raw/man1/mknod.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/mknod.1:38
 #, no-wrap
 msgid "c, u"
-msgstr ""
+msgstr "c, u"
 
 #
-# File: raw/man1/mknod.1, line: 41
-# File: raw/man1/mknod.1, line: 41
-# File: raw/man1/mknod.1, line: 41
-# File: raw/man1/mknod.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:41
 msgid "create a character (unbuffered) special file"
-msgstr ""
+msgstr "创建一个字符（无缓冲）特殊文件"
 
 #
-# File: raw/man1/mknod.1, line: 41
-# File: raw/man1/mknod.1, line: 41
-# File: raw/man1/mknod.1, line: 41
-# File: raw/man1/mknod.1, line: 41
 #. type: TP
 #: raw/coreutils/man1/mknod.1:41
 #, no-wrap
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #
-# File: raw/man1/mknod.1, line: 44
-# File: raw/man1/mknod.1, line: 44
-# File: raw/man1/mknod.1, line: 44
-# File: raw/man1/mknod.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:44
 msgid "create a FIFO"
-msgstr ""
+msgstr "创建一个 FIFO"
 
 #
-# File: raw/man1/mknod.1, line: 48
-# File: raw/man1/mknod.1, line: 48
-# File: raw/man1/mknod.1, line: 48
-# File: raw/man1/mknod.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:48
 msgid ""
@@ -324,6 +259,7 @@ msgid ""
 "the version described here.  Please refer to your shell's documentation for "
 "details about the options it supports."
 msgstr ""
+"注意：您的 shell 可能提供了它自己版本的 mknod，且它通常都会覆盖这里所描述的版本。请参考您所用 shell 的文档以了解它们所支持选项的细节。"
 
 #
 # File: raw/man1/mknod.1, line: 48
@@ -366,8 +302,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mknod.1:52
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 # File: raw/man1/mknod.1, line: 54
 #
@@ -391,19 +326,13 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
-# File: raw/man1/mknod.1, line: 57
-# File: raw/man1/mknod.1, line: 57
-# File: raw/man1/mknod.1, line: 57
-# File: raw/man1/mknod.1, line: 57
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:57
-#, fuzzy
 msgid ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
@@ -438,7 +367,6 @@ msgstr "参见"
 msgid "mknod(2)"
 msgstr "mknod(2)"
 
-# File: raw/man1/mknod.1, line: 65
 #
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:65
@@ -446,7 +374,6 @@ msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/mknodE<gt>"
 msgstr "完整文档请见：E<lt>http://www.gnu.org/software/coreutils/mknodE<gt>"
 
-# File: raw/man1/mknod.1, line: 66
 #
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:66

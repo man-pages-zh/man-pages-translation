@@ -4,29 +4,23 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH MKDIR 1 2016年12月 "GNU coreutils 8.26" "User Commands"
+.TH MKFIFO 1 2016年12月 "GNU coreutils 8.26" 用户命令
 .SH 名称
-mkdir \- 创建目录
+mkfifo \- 创建 FIFO（命名管道）
 .SH 概述
-\fBmkdir\fP [\fI\,选项\/\fP]... \fI\,目录列表\/\fP...
+\fBmkfifo\fP [\fI\,选项\/\fP]... \fI\,名称\/\fP...
 .SH 描述
 .\" Add any additional description here
 .PP
-如果目录列表中的目录不存在，则创建之。
+使用给定的名称创建命名管道（FIFO）。
 .PP
 必选参数对长短选项同时适用。
 .TP 
 \fB\-m\fP, \fB\-\-mode\fP=\fI\,模式\/\fP
-设置文件模式(类似chmod)，而不是 rwx 减 umask
-.TP 
-\fB\-p\fP, \fB\-\-parents\fP
-如果目录已存在，不报错，且按需创建父目录
-.TP 
-\fB\-v\fP, \fB\-\-verbose\fP
-为每一个已创建的目录打印信息
+将文件权限位设置为给定的模式（类似 chmod），而不是类似 a=rw 这样
 .TP 
 \fB\-Z\fP
-将每个创建的目录的 SELinux 安全上下文设置为默认类型
+将 SELinux 安全上下文设置为默认类型
 .TP 
 \fB\-\-context\fP[=\fI\,CTX\/\fP]
 类似 \fB\-Z\fP，或者如果指定了上下文，则将 SELinux 或者 SMACK 安全上下文设置为指定类型
@@ -41,7 +35,7 @@ mkdir \- 创建目录
 .SH 报告错误
 GNU coreutils 的在线帮助： <http://www.gnu.org/software/coreutils/>
 .br
-请向 <http://translationproject.org/team/zh_CN.html> 报告 mkdir 的翻译错误。
+请向 <http://translationproject.org/team/zh_CN.html> 报告 mkfifo 的翻译错误。
 .SH 版权
 Copyright \(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
 version 3 or later <http://gnu.org/licenses/gpl.html>.
@@ -49,9 +43,9 @@ version 3 or later <http://gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it.  There is
 NO WARRANTY, to the extent permitted by law.
 .SH 参见
-mkdir(2)
+mkfifo(3)
 .PP
 .br
-完整文档请见： <http://www.gnu.org/software/coreutils/mkdir>
+完整文档请见： <http://www.gnu.org/software/coreutils/mkfifo>
 .br
-或者在本地使用： info \(aq(coreutils) mkdir invocation\(aq
+或者在本地使用： info \(aq(coreutils) mkfifo invocation\(aq

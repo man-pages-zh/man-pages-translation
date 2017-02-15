@@ -119,38 +119,31 @@ cp \- 复制文件和目录
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-By default, sparse SOURCE files are detected by a crude heuristic and the
-corresponding DEST file is made sparse as well.  That is the behavior
-selected by \fB\-\-sparse\fP=\fI\,auto\/\fP.  Specify \fB\-\-sparse\fP=\fI\,always\/\fP to
-create a sparse DEST file whenever the SOURCE file contains a long enough
-sequence of zero bytes.  Use \fB\-\-sparse\fP=\fI\,never\/\fP to inhibit creation of
-sparse files.
+默认情况下，程序会使用一种粗糙的启发式算法探测源文件是否是稀疏的，若判定为稀疏，则目标文件也会以稀疏形式创建。这个行为可以通过
+\fB\-\-sparse\fP=\fI\,auto\/\fP 指定。若指定
+\fB\-\-sparse\fP=\fI\,always\/\fP，将在源文件包含足够多内容为零的字节序列时将其视作稀疏文件。使用
+\fB\-\-sparse\fP=\fI\,never\/\fP 以禁止创建稀疏文件。
 .PP
-When \fB\-\-reflink\fP[=\fI\,always\/\fP] is specified, perform a lightweight copy,
-where the data blocks are copied only when modified.  If this is not
-possible the copy fails, or if \fB\-\-reflink\fP=\fI\,auto\/\fP is specified, fall
-back to a standard copy.
+当指定了 \fB\-\-reflink\fP[=\fI\,always\/\fP]
+时，进行轻量级复制，其中的数据块仅在被修改时进行复制。如果这样的复制失败，或无法实行，或者指定了 \fB\-\-reflink\fP=\fI\,auto\/\fP
+时，回退到标准复制。
 .PP
-The backup suffix is '~', unless set with \fB\-\-suffix\fP or
-SIMPLE_BACKUP_SUFFIX.  The version control method may be selected via the
-\fB\-\-backup\fP option or through the VERSION_CONTROL environment variable.
-Here are the values:
+备份的后缀为“~”，除非设置了 \fB\-\-suffix\fP 或者 SIMPLE_BACKUP_SUFFIX。版本控制方式可以使用 \fB\-\-backup\fP
+选项或者 VERSION_CONTROL 环境变量进行指定。可用的值如下：
 .TP 
 none, off
-never make backups (even if \fB\-\-backup\fP is given)
+永远不制作备份（即使给出了 \fB\-\-backup\fP ）
 .TP 
 numbered, t
-make numbered backups
+制作编号的备份
 .TP 
 existing, nil
-numbered if numbered backups exist, simple otherwise
+如果已编号副本存在则编号，否则采用简单方式
 .TP 
 simple, never
-always make simple backups
+总是制作简单备份
 .PP
-As a special case, cp makes a backup of SOURCE when the force and backup
-options are given and SOURCE and DEST are the same name for an existing,
-regular file.
+作为一个特例，cp 将在同时给出 force 选项与 backup 选项，并且源文件和目标文件是同一个已存在普通文件的情况下制作备份副本。
 .SH 作者
 由 Torbjorn Granlund、David MacKenzie 和 Jim Meyering 编写。
 .SH 报告错误

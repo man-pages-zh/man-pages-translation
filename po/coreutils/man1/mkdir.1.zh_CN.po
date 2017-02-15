@@ -5,12 +5,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-16 14:21+0800\n"
+"PO-Revision-Date: 2017-02-15 16:24+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -214,7 +214,7 @@ msgstr "B<-Z>"
 #: raw/coreutils/man1/mkdir.1:27
 msgid ""
 "set SELinux security context of each created directory to the default type"
-msgstr ""
+msgstr "将每个创建的目录的 SELinux 安全上下文设置为默认类型"
 
 # File: raw/man1/mkdir.1, line: 27
 # File: raw/man1/mkdir.1, line: 27
@@ -233,7 +233,7 @@ msgstr "B<--context>[=I<\\,CTX\\/>]"
 msgid ""
 "like B<-Z>, or if CTX is specified then set the SELinux or SMACK security "
 "context to CTX"
-msgstr ""
+msgstr "类似 B<-Z>，或者如果指定了上下文，则将 SELinux 或者 SMACK 安全上下文设置为指定类型"
 
 #
 # File: raw/man1/mkdir.1, line: 31
@@ -318,8 +318,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mkdir.1:41
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/mkdir.1, line: 43
