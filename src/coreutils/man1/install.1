@@ -78,12 +78,10 @@ yum(1) 或 apt\-get(1) 这样的软件包管理器。
 保持 SELinux 安全上下文
 .TP 
 \fB\-Z\fP
-set SELinux security context of destination file and each created directory
-to default type
+将目标文件和每个创建的目录的 SELinux 安全上下文设置为默认类型
 .TP 
 \fB\-\-context\fP[=\fI\,CTX\/\fP]
-like \fB\-Z\fP, or if CTX is specified then set the SELinux or SMACK security
-context to CTX
+类似 \fB\-Z\fP，或者如果指定了上下文，则将 SELinux 或者 SMACK 安全上下文设置为指定类型
 .TP 
 \fB\-\-help\fP
 显示此帮助信息并退出

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-01-08 17:40+0800\n"
+"PO-Revision-Date: 2017-02-15 23:06+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/id.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/id.1:2
@@ -170,7 +169,7 @@ msgstr "B<-n>, B<--name>"
 #. type: Plain text
 #: raw/coreutils/man1/id.1:28
 msgid "print a name instead of a number, for B<-ugG>"
-msgstr ""
+msgstr "显示名称而非编号，与 B<-ugG> 共同使用"
 
 # File: raw/man1/id.1, line: 28
 #
@@ -185,7 +184,7 @@ msgstr "B<-r>, B<--real>"
 #. type: Plain text
 #: raw/coreutils/man1/id.1:31
 msgid "print the real ID instead of the effective ID, with B<-ugG>"
-msgstr ""
+msgstr "显示真实 ID 而非有效 ID，与 B<-ugG> 共同使用"
 
 # File: raw/man1/id.1, line: 31
 #
@@ -302,8 +301,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/id.1:51
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/id.1, line: 53

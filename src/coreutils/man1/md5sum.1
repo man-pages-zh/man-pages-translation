@@ -50,15 +50,12 @@ md5sum \- 计算并校验 MD5 信息摘要
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-The sums are computed as described in RFC 1321.  When checking, the input
-should be a former output of this program.  The default mode is to print a
-line with checksum, a space, a character indicating input mode ('*' for
-binary, \&' ' for text or where binary is insignificant), and name for each
-FILE.
+校验和按照 RFC 1321
+描述的方式进行计算。在校验过程中，其输入内容应当为该程序先前的输出内容。默认模式是输出一行文字，包含校验和、一个空格、一个指示输入模式的字符（'*'
+表示二进制输入，空格表示字符输入）以及每个文件的名称。
 .SH BUGS
-The MD5 algorithm should not be used any more for security related
-purposes.  Instead, better use an SHA\-2 algorithm, implemented in the
-programs sha224sum(1), sha256sum(1), sha384sum(1), sha512sum(1)
+MD5 算法不应再被用于和安全相关的目的。作为替代，使用 SHA\-2 算法更好，它实现在了
+sha224sum(1)、sha256sum(1)、sha384sum(1) 和 sha512sum(1) 这些程序中
 .SH 作者
 由 Ulrich Drepper, Scott Miller 和 David Madore 编写。
 .SH 报告错误

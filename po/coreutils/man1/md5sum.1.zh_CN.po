@@ -5,12 +5,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-16 14:31+0800\n"
+"PO-Revision-Date: 2017-02-15 23:03+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -366,14 +366,8 @@ msgstr "B<--version>"
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
-# File: raw/man1/md5sum.1, line: 53
-# File: raw/man1/md5sum.1, line: 53
-# File: raw/man1/md5sum.1, line: 53
-# File: raw/man1/md5sum.1, line: 53
 #. type: Plain text
 #: raw/coreutils/man1/md5sum.1:53
-#, fuzzy
 msgid ""
 "The sums are computed as described in RFC 1321.  When checking, the input "
 "should be a former output of this program.  The default mode is to print a "
@@ -381,9 +375,8 @@ msgid ""
 "binary, \\&' ' for text or where binary is insignificant), and name for each "
 "FILE."
 msgstr ""
-"校验和按照 RFC 1321 描述的方式进行计算。在校验过程中，其输入内容应当为该程序"
-"先前的输出内容。默认模式是输出一行文字，包含校验和、一个指示输入模式的字符"
-"（'*' 表示二进制输入，空格表示字符输入）以及每个文件的名称。"
+"校验和按照 RFC 1321 描述的方式进行计算。在校验过程中，其输入内容应当为该程序先前的输出内容。默认模式是输出一行文字，包含校验和、一个空格、一个指示"
+"输入模式的字符（'*' 表示二进制输入，空格表示字符输入）以及每个文件的名称。"
 
 #
 # File: raw/man1/md5sum.1, line: 53
@@ -397,10 +390,6 @@ msgid "BUGS"
 msgstr "BUGS"
 
 #
-# File: raw/man1/md5sum.1, line: 57
-# File: raw/man1/md5sum.1, line: 57
-# File: raw/man1/md5sum.1, line: 57
-# File: raw/man1/md5sum.1, line: 57
 #. type: Plain text
 #: raw/coreutils/man1/md5sum.1:57
 msgid ""
@@ -408,6 +397,8 @@ msgid ""
 "purposes.  Instead, better use an SHA-2 algorithm, implemented in the "
 "programs sha224sum(1), sha256sum(1), sha384sum(1), sha512sum(1)"
 msgstr ""
+"MD5 算法不应再被用于和安全相关的目的。作为替代，使用 SHA-2 算法更好，它实现在了"
+" sha224sum(1)、sha256sum(1)、sha384sum(1) 和 sha512sum(1) 这些程序中"
 
 #
 # File: raw/man1/md5sum.1, line: 57
@@ -450,8 +441,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/md5sum.1:61
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/md5sum.1, line: 63

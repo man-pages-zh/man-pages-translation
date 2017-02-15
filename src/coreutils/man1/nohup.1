@@ -22,10 +22,9 @@ nohup \- 使程序运行时不挂起，不向 tty 输出信息
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-If standard input is a terminal, redirect it from an unreadable file.  If
-standard output is a terminal, append output to 'nohup.out' if possible,
-\&'$HOME/nohup.out' otherwise.  If standard error is a terminal, redirect it
-to standard output.  To save output to FILE, use 'nohup COMMAND > FILE'.
+如果标准输入来自终端，则将标准输入重定向为一个不可读文件；如果标准输出定向至终端，则在可能的情况下将输出附加在 'nohup.out'
+文件后，否则附加到 \&'$HOME/nohup.out'。如果标准错误定向至终端，则重定向至标准输出。使用“nohup 命令 >
+文件”可将输出保存到指定文件。
 .PP
 注意：您的 shell 可能内置了自己的 nohup 程序版本，它通常会覆盖这里所提及的相应版本。请查阅您的 shell 文档获知它所支持的选项。
 .SH 作者

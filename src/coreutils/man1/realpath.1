@@ -18,7 +18,7 @@ realpath \- 输出经过解析的文件路径
 路径中的所有组成部分必须存在
 .TP 
 \fB\-m\fP, \fB\-\-canonicalize\-missing\fP
-no path components need exist or be a directory
+路径的各个部分不必须存在，不存在者将被视为目录
 .TP 
 \fB\-L\fP, \fB\-\-logical\fP
 在符号链接钱解析“..”部分
@@ -29,11 +29,11 @@ no path components need exist or be a directory
 \fB\-q\fP, \fB\-\-quiet\fP
 隐藏大多数错误信息
 .TP 
-\fB\-\-relative\-to\fP=\fI\,FILE\/\fP
-print the resolved path relative to FILE
+\fB\-\-relative\-to\fP=\fI\,文件\/\fP
+输出相对于给定文件所解析的路径
 .TP 
 \fB\-\-relative\-base\fP=\fI\,FILE\/\fP
-print absolute paths unless paths below FILE
+路径在给定文件之下则输出相对它的路径，否则输出绝对路径
 .TP 
 \fB\-s\fP, \fB\-\-strip\fP, \fB\-\-no\-symlinks\fP
 不要扩展符号链接
