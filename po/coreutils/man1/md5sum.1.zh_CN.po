@@ -55,7 +55,7 @@ msgstr "GNU coreutils 8.26"
 #: raw/coreutils/man1/md5sum.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "User Commands"
+msgstr "用户命令"
 
 #
 # File: raw/man1/md5sum.1, line: 3
