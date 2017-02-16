@@ -146,7 +146,7 @@ msgstr "B<-L>, B<--logical>"
 #. type: Plain text
 #: raw/coreutils/man1/realpath.1:22
 msgid "resolve '..' components before symlinks"
-msgstr "在符号链接钱解析“..”部分"
+msgstr "在符号链接前解析“..”部分"
 
 #
 # File: raw/man1/realpath.1, line: 22
