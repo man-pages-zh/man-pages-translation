@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:25+0800\n"
-"PO-Revision-Date: 2017-02-12 22:14+0800\n"
+"PO-Revision-Date: 2017-02-19 14:43+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -65,12 +65,12 @@ msgstr "概述"
 msgid ""
 "B<chroot> [I<\\,OPTION\\/>] I<\\,NEWROOT \\/>[I<\\,COMMAND \\/>[I<\\,ARG\\/"
 ">]...]"
-msgstr ""
+msgstr "B<chroot> [I<\\,选项\\/>] I<\\,新根 \\/>[I<\\,命令 \\/>[I<\\,参数\\/>]...]"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:11
 msgid "B<chroot> I<\\,OPTION\\/>"
-msgstr ""
+msgstr "B<chroot> I<\\,选项\\/>"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:11
@@ -81,29 +81,29 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:15
 msgid "Run COMMAND with root directory set to NEWROOT."
-msgstr ""
+msgstr "以指定的新根为运行指定命令时的的根目录。"
 
 #. type: TP
 #: raw/coreutils/man8/chroot.8:15
 #, no-wrap
 msgid "B<--groups>=I<\\,G_LIST\\/>"
-msgstr ""
+msgstr "B<--groups>=I<\\,G_LIST\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:18
 msgid "specify supplementary groups as g1,g2,..,gN"
-msgstr ""
+msgstr "以 g1,g2,...,gN 的形式指定附加用户组"
 
 #. type: TP
 #: raw/coreutils/man8/chroot.8:18
 #, no-wrap
 msgid "B<--userspec>=I<\\,USER\\/>:GROUP"
-msgstr ""
+msgstr "B<--userspec>=I<\\,USER\\/>:GROUP"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:21
 msgid "specify user and group (ID or name) to use"
-msgstr ""
+msgstr "指定要使用的用户和用户组（ID 或者名称）"
 
 #. type: TP
 #: raw/coreutils/man8/chroot.8:21
@@ -114,7 +114,7 @@ msgstr "B<--skip-chdir>"
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:24
 msgid "do not change working directory to '/'"
-msgstr ""
+msgstr "不要将工作目录切换为“/”"
 
 #. type: TP
 #: raw/coreutils/man8/chroot.8:24
@@ -142,7 +142,7 @@ msgstr "显示版本信息并退出"
 #: raw/coreutils/man8/chroot.8:32
 msgid ""
 "If no command is given, run '${SHELL} B<-i>' (default: '/bin/sh B<-i>')."
-msgstr ""
+msgstr "如果没有给定命令，则运行“${SHELL} B<-i>”（默认为：“/bin/sh B<-i>”）。"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:32

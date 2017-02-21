@@ -21,33 +21,32 @@ tee \- 从标准输入读入并写往标准输出和文件
 忽略中断信号
 .TP 
 \fB\-p\fP
-diagnose errors writing to non pipes
+对写入非管道的行为排查错误
 .TP 
 \fB\-\-output\-error\fP[=\fI\,模式\/\fP]
-set behavior on write error.  See MODE below
+设置写入出错时的行为。见下面“模式”部分
 .TP 
 \fB\-\-help\fP
 显示此帮助信息并退出
 .TP 
 \fB\-\-version\fP
 显示版本信息并退出
-.SS "MODE determines behavior with write errors on the outputs:"
+.SS 模式确定向输出写入出错时的行为：
 .TP 
 \&'warn'
-diagnose errors writing to any output
+对向任何文件输出出错的情况进行诊断
 .TP 
 \&'warn\-nopipe'
-diagnose errors writing to any output not a pipe
+对向除了管道以外的任何文件输出出错的情况进行诊断
 .TP 
 \&'exit'
-exit on error writing to any output
+一旦输出出错，则退出程序
 .TP 
 \&'exit\-nopipe'
-exit on error writing to any output not a pipe
+一旦输出出错且非管道，则退出程序
 .PP
-The default MODE for the \fB\-p\fP option is 'warn\-nopipe'.  The default
-operation when \fB\-\-output\-error\fP is not specified, is to exit immediately on
-error writing to a pipe, and diagnose errors writing to non pipe outputs.
+\fB\-p\fP 选项的默认模式是“warn\-nopipe”。当 \fB\-\-output\-error\fP
+没有给出时，默认的操作是在向管道写入出错时立刻退出，且在向非管道写入出错时对问题进行诊断。
 .SH 作者
 由 Mike Parker, Richard M. Stallman 和 David MacKenzie 编写。
 .SH 报告错误

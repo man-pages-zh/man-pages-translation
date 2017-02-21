@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:41+0800\n"
-"PO-Revision-Date: 2017-02-12 22:15+0800\n"
+"PO-Revision-Date: 2017-02-21 20:29+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -168,7 +168,7 @@ msgstr "B<-p>"
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:21
 msgid "diagnose errors writing to non pipes"
-msgstr ""
+msgstr "对写入非管道的行为排查错误"
 
 #
 # File: raw/man1/tee.1, line: 21
@@ -187,7 +187,7 @@ msgstr "B<--output-error>[=I<\\,模式\\/>]"
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:24
 msgid "set behavior on write error.  See MODE below"
-msgstr ""
+msgstr "设置写入出错时的行为。见下面“模式”部分"
 
 #
 # File: raw/man1/tee.1, line: 24
@@ -235,7 +235,7 @@ msgstr "显示版本信息并退出"
 #: raw/coreutils/man1/tee.1:30
 #, no-wrap
 msgid "MODE determines behavior with write errors on the outputs:"
-msgstr ""
+msgstr "模式确定向输出写入出错时的行为："
 
 #
 # File: raw/man1/tee.1, line: 31
@@ -248,13 +248,10 @@ msgid "\\&'warn'"
 msgstr "\\&'warn'"
 
 #
-# File: raw/man1/tee.1, line: 34
-# File: raw/man1/tee.1, line: 34
-# File: raw/man1/tee.1, line: 34
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:34
 msgid "diagnose errors writing to any output"
-msgstr ""
+msgstr "对向任何文件输出出错的情况进行诊断"
 
 #
 # File: raw/man1/tee.1, line: 34
@@ -267,13 +264,10 @@ msgid "\\&'warn-nopipe'"
 msgstr "\\&'warn-nopipe'"
 
 #
-# File: raw/man1/tee.1, line: 37
-# File: raw/man1/tee.1, line: 37
-# File: raw/man1/tee.1, line: 37
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:37
 msgid "diagnose errors writing to any output not a pipe"
-msgstr ""
+msgstr "对向除了管道以外的任何文件输出出错的情况进行诊断"
 
 #
 # File: raw/man1/tee.1, line: 37
@@ -286,13 +280,10 @@ msgid "\\&'exit'"
 msgstr "\\&'exit'"
 
 #
-# File: raw/man1/tee.1, line: 40
-# File: raw/man1/tee.1, line: 40
-# File: raw/man1/tee.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:40
 msgid "exit on error writing to any output"
-msgstr ""
+msgstr "一旦输出出错，则退出程序"
 
 #
 # File: raw/man1/tee.1, line: 40
@@ -305,18 +296,12 @@ msgid "\\&'exit-nopipe'"
 msgstr "\\&'exit-nopipe'"
 
 #
-# File: raw/man1/tee.1, line: 43
-# File: raw/man1/tee.1, line: 43
-# File: raw/man1/tee.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:43
 msgid "exit on error writing to any output not a pipe"
-msgstr ""
+msgstr "一旦输出出错且非管道，则退出程序"
 
 #
-# File: raw/man1/tee.1, line: 48
-# File: raw/man1/tee.1, line: 48
-# File: raw/man1/tee.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:48
 msgid ""
@@ -324,6 +309,8 @@ msgid ""
 "operation when B<--output-error> is not specified, is to exit immediately on "
 "error writing to a pipe, and diagnose errors writing to non pipe outputs."
 msgstr ""
+"B<-p> 选项的默认模式是“warn-nopipe”。当 B<--output-error>"
+" 没有给出时，默认的操作是在向管道写入出错时立刻退出，且在向非管道写入出错时对问题进行诊断。"
 
 #
 # File: raw/man1/tee.1, line: 48
