@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-12 22:04+0800\n"
+"PO-Revision-Date: 2017-02-22 01:55+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -19,36 +19,24 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/numfmt.1:2
 #, no-wrap
 msgid "NUMFMT"
-msgstr ""
+msgstr "NUMFMT"
 
 #
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/numfmt.1:2
 #, no-wrap
 msgid "December 2016"
-msgstr ""
+msgstr "2016年12月"
 
-#
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
-# File: raw/man1/numfmt.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/numfmt.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GNU coreutils 8.26"
-msgstr "GNU coreutils 8.23"
+msgstr "GNU coreutils 8.26"
 
 #
 #. type: TH
@@ -69,14 +57,10 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/numfmt.1, line: 5
-# File: raw/man1/numfmt.1, line: 5
-# File: raw/man1/numfmt.1, line: 5
-# File: raw/man1/numfmt.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:5
 msgid "numfmt - Convert numbers from/to human-readable strings"
-msgstr ""
+msgstr "numfmt - 在数字和可读字符串之间进行转换"
 
 #
 # File: raw/man1/numfmt.1, line: 5
@@ -1026,19 +1010,13 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
-# File: raw/man1/numfmt.1, line: 179
-# File: raw/man1/numfmt.1, line: 179
-# File: raw/man1/numfmt.1, line: 179
-# File: raw/man1/numfmt.1, line: 179
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:179
-#, fuzzy
 msgid ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
