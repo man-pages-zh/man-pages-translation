@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-12 22:05+0800\n"
+"PO-Revision-Date: 2017-02-26 01:51+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -19,36 +19,24 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/fold.1:2
 #, no-wrap
 msgid "FOLD"
-msgstr ""
+msgstr "FOLD"
 
 #
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/fold.1:2
 #, no-wrap
 msgid "December 2016"
-msgstr ""
+msgstr "2016年12月"
 
-#
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
-# File: raw/man1/fold.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/fold.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GNU coreutils 8.26"
-msgstr "GNU coreutils 8.23"
+msgstr "GNU coreutils 8.26"
 
 #
 #. type: TH
@@ -311,19 +299,13 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
-# File: raw/man1/fold.1, line: 40
-# File: raw/man1/fold.1, line: 40
-# File: raw/man1/fold.1, line: 40
-# File: raw/man1/fold.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:40
-#, fuzzy
 msgid ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
@@ -341,10 +323,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/fold.1, line: 43
-# File: raw/man1/fold.1, line: 43
-# File: raw/man1/fold.1, line: 43
-# File: raw/man1/fold.1, line: 43
 #. type: SH
 #: raw/coreutils/man1/fold.1:43
 #, no-wrap
@@ -352,15 +330,11 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/fold.1, line: 45
-# File: raw/man1/fold.1, line: 45
-# File: raw/man1/fold.1, line: 45
-# File: raw/man1/fold.1, line: 45
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:45
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/foldE<gt>"
-msgstr ""
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/foldE<gt>"
 
 #
 # File: raw/man1/fold.1, line: 46
@@ -370,7 +344,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:46
 msgid "or available locally via: info \\(aq(coreutils) fold invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) fold invocation\\(aq"
 
 #
 #

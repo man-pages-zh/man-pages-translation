@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-21 20:30+0800\n"
+"PO-Revision-Date: 2017-02-26 01:49+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -116,35 +116,23 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/dd.1, line: 15
-# File: raw/man1/dd.1, line: 15
-# File: raw/man1/dd.1, line: 15
-# File: raw/man1/dd.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:15
 msgid "Copy a file, converting and formatting according to the operands."
-msgstr ""
+msgstr "复制一个文件，并根据操作符进行转换和格式化。"
 
 #
-# File: raw/man1/dd.1, line: 15
-# File: raw/man1/dd.1, line: 15
-# File: raw/man1/dd.1, line: 15
-# File: raw/man1/dd.1, line: 15
 #. type: TP
 #: raw/coreutils/man1/dd.1:15
 #, no-wrap
 msgid "bs=BYTES"
-msgstr ""
+msgstr "bs=字节数"
 
 #
-# File: raw/man1/dd.1, line: 18
-# File: raw/man1/dd.1, line: 18
-# File: raw/man1/dd.1, line: 18
-# File: raw/man1/dd.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:18
 msgid "read and write up to BYTES bytes at a time"
-msgstr ""
+msgstr "每一次读取并写入最多指定字节数的数据"
 
 #
 # File: raw/man1/dd.1, line: 18
@@ -155,17 +143,13 @@ msgstr ""
 #: raw/coreutils/man1/dd.1:18
 #, no-wrap
 msgid "cbs=BYTES"
-msgstr ""
+msgstr "cbs=字节数"
 
 #
-# File: raw/man1/dd.1, line: 21
-# File: raw/man1/dd.1, line: 21
-# File: raw/man1/dd.1, line: 21
-# File: raw/man1/dd.1, line: 21
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:21
 msgid "convert BYTES bytes at a time"
-msgstr ""
+msgstr "每次转换指定字节数的数据"
 
 #
 # File: raw/man1/dd.1, line: 21

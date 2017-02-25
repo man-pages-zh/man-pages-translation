@@ -6,15 +6,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:59+0800\n"
-"PO-Revision-Date: 2017-02-12 00:59+0800\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2017-02-26 01:44+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. type: TH
 #: raw/procps/man1/free.1:5
@@ -91,7 +92,7 @@ msgstr ""
 #: raw/procps/man1/free.1:20
 #, no-wrap
 msgid "B<used>"
-msgstr ""
+msgstr "B<used>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:23
@@ -102,29 +103,29 @@ msgstr ""
 #: raw/procps/man1/free.1:23
 #, no-wrap
 msgid "B<free>"
-msgstr ""
+msgstr "B<free>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:26
 msgid "Unused memory (MemFree and SwapFree in /proc/meminfo)"
-msgstr ""
+msgstr "未使用的内存（/proc/meminfo 中的 MemFree 和 SwapFree）"
 
 #. type: TP
 #: raw/procps/man1/free.1:26
 #, no-wrap
 msgid "B<shared>"
-msgstr ""
+msgstr "B<shared>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:29
 msgid "Memory used (mostly) by tmpfs (Shmem in /proc/meminfo)"
-msgstr ""
+msgstr "（大多数情况下）由 tmpfs 使用的内存（/proc/meminfo 中的 Shmem）"
 
 #. type: TP
 #: raw/procps/man1/free.1:29
 #, no-wrap
 msgid "B<buffers>"
-msgstr ""
+msgstr "B<buffers>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:32
@@ -159,7 +160,7 @@ msgstr ""
 #: raw/procps/man1/free.1:38
 #, no-wrap
 msgid "B<available>"
-msgstr ""
+msgstr "B<available>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:47
@@ -176,13 +177,13 @@ msgstr ""
 #: raw/procps/man1/free.1:47
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "选项"
 
 #. type: TP
 #: raw/procps/man1/free.1:48
 #, no-wrap
 msgid "B<-b>, B<--bytes>"
-msgstr ""
+msgstr "B<-b>, B<--bytes>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:51
@@ -360,7 +361,7 @@ msgstr ""
 #: raw/procps/man1/free.1:109
 #, no-wrap
 msgid "B<-l>, B<--lohi>"
-msgstr ""
+msgstr "B<-l>, B<--lohi>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:112
@@ -371,7 +372,7 @@ msgstr ""
 #: raw/procps/man1/free.1:112
 #, no-wrap
 msgid "B<-s>, B<--seconds> I<delay>"
-msgstr ""
+msgstr "B<-s>, B<--seconds> I<delay>"
 
 #. type: Plain text
 #: raw/procps/man1/free.1:119
