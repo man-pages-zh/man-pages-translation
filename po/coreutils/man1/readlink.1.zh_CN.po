@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-21 20:30+0800\n"
+"PO-Revision-Date: 2017-02-26 10:18+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -24,9 +24,8 @@ msgstr ""
 #: raw/coreutils/man1/readlink.1:2
 #, no-wrap
 msgid "READLINK"
-msgstr "READLINK"
+msgstr " READLINK"
 
-# File: raw/man1/readlink.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/readlink.1:2
@@ -65,7 +64,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:5
 msgid "readlink - print resolved symbolic links or canonical file names"
-msgstr ""
+msgstr "readlink - 输出经过解析的符号链接或权威文件名"
 
 #
 # File: raw/man1/readlink.1, line: 5
@@ -97,13 +96,10 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/readlink.1, line: 12
-# File: raw/man1/readlink.1, line: 12
-# File: raw/man1/readlink.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:12
 msgid "Print value of a symbolic link or canonical file name"
-msgstr ""
+msgstr "输出符号链接值或权威文件名"
 
 # File: raw/man1/readlink.1, line: 12
 #
@@ -114,15 +110,12 @@ msgid "B<-f>, B<--canonicalize>"
 msgstr "B<-f>, B<--canonicalize>"
 
 #
-# File: raw/man1/readlink.1, line: 17
-# File: raw/man1/readlink.1, line: 17
-# File: raw/man1/readlink.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:17
 msgid ""
 "canonicalize by following every symlink in every component of the given name "
 "recursively; all but the last component must exist"
-msgstr ""
+msgstr "递归跟随给出文件名的所有符号链接以标准化；所有组件都必须存在"
 
 #
 # File: raw/man1/readlink.1, line: 17
@@ -135,15 +128,12 @@ msgid "B<-e>, B<--canonicalize-existing>"
 msgstr "B<-e>, B<--canonicalize-existing>"
 
 #
-# File: raw/man1/readlink.1, line: 22
-# File: raw/man1/readlink.1, line: 22
-# File: raw/man1/readlink.1, line: 22
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:22
 msgid ""
 "canonicalize by following every symlink in every component of the given name "
 "recursively, all components must exist"
-msgstr ""
+msgstr "递归跟随给出文件名的所有符号链接以标准化，除最后一个外所有组件必须存在"
 
 #
 # File: raw/man1/readlink.1, line: 22
@@ -156,15 +146,12 @@ msgid "B<-m>, B<--canonicalize-missing>"
 msgstr "B<-m>, B<--canonicalize-missing>"
 
 #
-# File: raw/man1/readlink.1, line: 27
-# File: raw/man1/readlink.1, line: 27
-# File: raw/man1/readlink.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:27
 msgid ""
 "canonicalize by following every symlink in every component of the given name "
 "recursively, without requirements on components existence"
-msgstr ""
+msgstr "递归跟随给出文件名的所有符号链接以标准化；各个组件没有必须存在的要求"
 
 #
 # File: raw/man1/readlink.1, line: 27
@@ -177,13 +164,10 @@ msgid "B<-n>, B<--no-newline>"
 msgstr "B<-n>, B<--no-newline>"
 
 #
-# File: raw/man1/readlink.1, line: 30
-# File: raw/man1/readlink.1, line: 30
-# File: raw/man1/readlink.1, line: 30
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:30
 msgid "do not output the trailing delimiter"
-msgstr ""
+msgstr "不要输出末尾定界符"
 
 #
 # File: raw/man1/readlink.1, line: 32
@@ -220,13 +204,10 @@ msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
 #
-# File: raw/man1/readlink.1, line: 38
-# File: raw/man1/readlink.1, line: 38
-# File: raw/man1/readlink.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:38
 msgid "report error messages"
-msgstr ""
+msgstr "报告错误信息"
 
 #
 # File: raw/man1/readlink.1, line: 38
@@ -378,7 +359,6 @@ msgstr ""
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/readlink.1, line: 61
 #
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:61

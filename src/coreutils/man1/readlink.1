@@ -4,30 +4,27 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH READLINK 1 2016年12月 "GNU coreutils 8.26" 用户命令
+.TH " READLINK" 1 2016年12月 "GNU coreutils 8.26" 用户命令
 .SH 名称
-readlink \- print resolved symbolic links or canonical file names
+readlink \- 输出经过解析的符号链接或权威文件名
 .SH 概述
 \fBreadlink\fP [\fI\,选项\/\fP]... [\fI\,文件列表\/\fP]...
 .SH 描述
 .\" Add any additional description here
 .PP
-Print value of a symbolic link or canonical file name
+输出符号链接值或权威文件名
 .TP 
 \fB\-f\fP, \fB\-\-canonicalize\fP
-canonicalize by following every symlink in every component of the given name
-recursively; all but the last component must exist
+递归跟随给出文件名的所有符号链接以标准化；所有组件都必须存在
 .TP 
 \fB\-e\fP, \fB\-\-canonicalize\-existing\fP
-canonicalize by following every symlink in every component of the given name
-recursively, all components must exist
+递归跟随给出文件名的所有符号链接以标准化，除最后一个外所有组件必须存在
 .TP 
 \fB\-m\fP, \fB\-\-canonicalize\-missing\fP
-canonicalize by following every symlink in every component of the given name
-recursively, without requirements on components existence
+递归跟随给出文件名的所有符号链接以标准化；各个组件没有必须存在的要求
 .TP 
 \fB\-n\fP, \fB\-\-no\-newline\fP
-do not output the trailing delimiter
+不要输出末尾定界符
 .HP
 \fB\-q\fP, \fB\-\-quiet\fP,
 .TP 
@@ -35,7 +32,7 @@ do not output the trailing delimiter
 隐藏大多数错误信息（默认行为）
 .TP 
 \fB\-v\fP, \fB\-\-verbose\fP
-report error messages
+报告错误信息
 .TP 
 \fB\-z\fP, \fB\-\-zero\fP
 使每行输出以 NUL 字符结束，不添加换行符
