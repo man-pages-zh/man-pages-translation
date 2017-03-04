@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -87,11 +87,10 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:29
 msgid ""
-"Otherwise, if a file is unwritable, standard input is a terminal, and the "
-"I<-f> or I<--force> option is not given, or the I<-i> or "
-"I<--interactive\\=always> option is given, B<rm> prompts the user for "
-"whether to remove the file.  If the response is not affirmative, the file is "
-"skipped."
+"Otherwise, if a file is unwritable, standard input is a terminal, and the I<-"
+"f> or I<--force> option is not given, or the I<-i> or I<--interactive"
+"\\=always> option is given, B<rm> prompts the user for whether to remove the "
+"file.  If the response is not affirmative, the file is skipped."
 msgstr ""
 
 #. type: SH
@@ -298,12 +297,14 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:92
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:94
-msgid "Report rm translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report rm translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -339,7 +340,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:105
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/rmE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/rmE<gt>"
 msgstr ""
 
 #. type: Plain text

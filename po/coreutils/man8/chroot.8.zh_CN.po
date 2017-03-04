@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
-"PO-Revision-Date: 2017-02-19 14:43+0800\n"
+"POT-Creation-Date: 2017-03-04 18:22+0800\n"
+"PO-Revision-Date: 2017-03-04 18:22+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -28,8 +28,8 @@ msgstr "CHROOT"
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
@@ -173,7 +173,8 @@ msgid ""
 "Report chroot translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 chroot 的翻译错误。"
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 chroot 的翻"
+"译错误。"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:38
@@ -221,4 +222,5 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chrootE
 msgid "or available locally via: info \\(aq(coreutils) chroot invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chroot invocation\\(aq"
 
-
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"

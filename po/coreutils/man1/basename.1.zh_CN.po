@@ -5,13 +5,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-15 20:48+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:42+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -22,25 +22,17 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/basename.1:2
 #, no-wrap
 msgid "BASENAME"
 msgstr "BASENAME"
 
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/basename.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/basename.1, line: 2
 # File: raw/man1/basename.1, line: 2
@@ -53,10 +45,6 @@ msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
-# File: raw/man1/basename.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/basename.1:2
 #, no-wrap
@@ -386,8 +374,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/basename.1:50
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/basename.1, line: 52
@@ -473,8 +460,7 @@ msgstr "dirname(1), readlink(1)"
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
 "basenameE<gt>"
-msgstr ""
-"完整文档请见： E<lt>http://www.gnu.org/software/coreutils/basenameE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/basenameE<gt>"
 
 #
 # File: raw/man1/basename.1, line: 64
@@ -486,6 +472,13 @@ msgstr ""
 msgid ""
 "or available locally via: info \\(aq(coreutils) basename invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) basename invocation\\(aq"
+
+# File: raw/man1/basename.1, line: 2
+# File: raw/man1/basename.1, line: 2
+# File: raw/man1/basename.1, line: 2
+# File: raw/man1/basename.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

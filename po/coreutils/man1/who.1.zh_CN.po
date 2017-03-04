@@ -6,12 +6,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:41+0800\n"
-"PO-Revision-Date: 2016-12-15 19:58+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:28+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -31,14 +31,11 @@ msgstr ""
 msgid "WHO"
 msgstr "WHO"
 
-# File: raw/man1/who.1, line: 2
-# File: raw/man1/who.1, line: 2
-# File: raw/man1/who.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/who.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/who.1, line: 2
 # File: raw/man1/who.1, line: 2
@@ -398,13 +395,10 @@ msgid "B<-u>, B<--users>"
 msgstr "B<-u>, B<--users>"
 
 #
-# File: raw/man1/who.1, line: 59
-# File: raw/man1/who.1, line: 59
-# File: raw/man1/who.1, line: 59
 #. type: Plain text
 #: raw/coreutils/man1/who.1:59
 msgid "list users logged in"
-msgstr "列出已登陆用户"
+msgstr "w列出已登陆用户"
 
 #
 # File: raw/man1/who.1, line: 59
@@ -528,13 +522,9 @@ msgstr "报告错误"
 #: raw/coreutils/man1/who.1:78
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/who.1, line: 80
-# File: raw/man1/who.1, line: 80
-# File: raw/man1/who.1, line: 80
 #. type: Plain text
 #: raw/coreutils/man1/who.1:80
 msgid ""
@@ -580,9 +570,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/who.1, line: 86
-# File: raw/man1/who.1, line: 86
-# File: raw/man1/who.1, line: 86
 #. type: SH
 #: raw/coreutils/man1/who.1:86
 #, no-wrap
@@ -600,13 +587,16 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/whoE<gt>"
 
 #
-# File: raw/man1/who.1, line: 89
-# File: raw/man1/who.1, line: 89
-# File: raw/man1/who.1, line: 89
 #. type: Plain text
 #: raw/coreutils/man1/who.1:89
 msgid "or available locally via: info \\(aq(coreutils) who invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) who invocation\\(aq"
+
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+# File: raw/man1/who.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

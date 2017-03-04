@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/du.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -80,7 +80,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:17
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -423,8 +424,8 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/du.1:124
 msgid ""
-"Display values are in units of the first available SIZE from "
-"B<--block-size>, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
+"Display values are in units of the first available SIZE from B<--block-"
+"size>, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment "
 "variables.  Otherwise, units default to 1024 bytes (or 512 if "
 "POSIXLY_CORRECT is set)."
 msgstr ""
@@ -473,8 +474,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/du.1:149
 msgid ""
-"Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim "
-"Meyering."
+"Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim Meyering."
 msgstr ""
 
 #. type: SH
@@ -485,12 +485,14 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:151
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:153
-msgid "Report du translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report du translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -521,7 +523,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:161
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/duE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/duE<gt>"
 msgstr ""
 
 #. type: Plain text

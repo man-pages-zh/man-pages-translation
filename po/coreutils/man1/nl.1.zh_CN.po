@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-01-22 19:12+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:58+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -29,12 +29,11 @@ msgstr ""
 msgid "NL"
 msgstr "NL"
 
-# File: raw/man1/nl.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/nl.1, line: 2
 # File: raw/man1/nl.1, line: 2
@@ -47,10 +46,6 @@ msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/nl.1, line: 2
-# File: raw/man1/nl.1, line: 2
-# File: raw/man1/nl.1, line: 2
-# File: raw/man1/nl.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
 #, no-wrap
@@ -79,10 +74,6 @@ msgid "nl - number lines of files"
 msgstr "nl - 给文件编行号"
 
 #
-# File: raw/man1/nl.1, line: 5
-# File: raw/man1/nl.1, line: 5
-# File: raw/man1/nl.1, line: 5
-# File: raw/man1/nl.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/nl.1:5
 #, no-wrap
@@ -629,8 +620,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/nl.1:87
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/nl.1, line: 89
@@ -715,6 +705,10 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/nlE<gt>
 #: raw/coreutils/man1/nl.1:98
 msgid "or available locally via: info \\(aq(coreutils) nl invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) nl invocation\\(aq"
+
+# File: raw/man1/nl.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

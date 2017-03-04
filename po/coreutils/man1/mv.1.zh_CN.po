@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-01-22 19:13+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:25+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -19,7 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/mv.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
@@ -27,13 +26,11 @@ msgstr ""
 msgid "MV"
 msgstr "MV"
 
-# File: raw/man1/mv.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/mv.1, line: 2
 #. type: TH
@@ -592,8 +589,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mv.1:88
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/mv.1, line: 90
@@ -617,7 +613,6 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/mv.1, line: 93
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:93
 msgid ""
@@ -653,14 +648,10 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/mv.1, line: 98
-# File: raw/man1/mv.1, line: 98
-# File: raw/man1/mv.1, line: 98
-# File: raw/man1/mv.1, line: 98
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:98
 msgid "rename(2)"
-msgstr ""
+msgstr "rename(2)"
 
 #
 # File: raw/man1/mv.1, line: 101
@@ -674,14 +665,15 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 102
-# File: raw/man1/mv.1, line: 102
-# File: raw/man1/mv.1, line: 102
-# File: raw/man1/mv.1, line: 102
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:102
 msgid "or available locally via: info \\(aq(coreutils) mv invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) mv invocation\\(aq"
+
+# File: raw/man1/mv.1, line: 2
+#
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

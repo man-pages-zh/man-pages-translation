@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/shred.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -82,7 +82,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:17
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -215,12 +216,12 @@ msgstr ""
 #: raw/coreutils/man1/shred.1:61
 msgid ""
 "Delete FILE(s) if B<--remove> (B<-u>) is specified.  The default is not to "
-"remove the files because it is common to operate on device files like "
-"I<\\,/dev/hda\\/>, and those files usually should not be removed.  The "
-"optional HOW parameter indicates how to remove a directory entry: "
-"\\&'unlink' =E<gt> use a standard unlink call.  \\&'wipe' =E<gt> also first "
-"obfuscate bytes in the name.  \\&'wipesync' =E<gt> also sync each obfuscated "
-"byte to disk.  The default mode is 'wipesync', but note it can be expensive."
+"remove the files because it is common to operate on device files like I<\\,/"
+"dev/hda\\/>, and those files usually should not be removed.  The optional "
+"HOW parameter indicates how to remove a directory entry: \\&'unlink' =E<gt> "
+"use a standard unlink call.  \\&'wipe' =E<gt> also first obfuscate bytes in "
+"the name.  \\&'wipesync' =E<gt> also sync each obfuscated byte to disk.  The "
+"default mode is 'wipesync', but note it can be expensive."
 msgstr ""
 
 #. type: Plain text
@@ -249,7 +250,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:75
-msgid "* file systems that make snapshots, such as Network Appliance's NFS server"
+msgid ""
+"* file systems that make snapshots, such as Network Appliance's NFS server"
 msgstr ""
 
 #. type: Plain text
@@ -303,14 +305,15 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:96
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:98
 msgid ""
-"Report shred translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report shred translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
 msgstr ""
 
 #. type: SH
@@ -341,7 +344,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:106
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/shredE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/shredE<gt>"
 msgstr ""
 
 #. type: Plain text

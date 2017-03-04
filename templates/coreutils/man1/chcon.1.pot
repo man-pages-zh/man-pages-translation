@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/chcon.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -83,13 +83,14 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:19
 msgid ""
-"Change the SELinux security context of each FILE to CONTEXT.  With "
-"B<--reference>, change the security context of each FILE to that of RFILE."
+"Change the SELinux security context of each FILE to CONTEXT.  With B<--"
+"reference>, change the security context of each FILE to that of RFILE."
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:21
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -231,7 +232,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:64
-msgid "if a command line argument is a symbolic link to a directory, traverse it"
+msgid ""
+"if a command line argument is a symbolic link to a directory, traverse it"
 msgstr ""
 
 #. type: TP
@@ -297,14 +299,15 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:81
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:83
 msgid ""
-"Report chcon translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report chcon translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
 msgstr ""
 
 #. type: SH
@@ -335,7 +338,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:91
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chconE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chconE<gt>"
 msgstr ""
 
 #. type: Plain text

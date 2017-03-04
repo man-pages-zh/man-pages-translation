@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/runcon.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -65,8 +65,8 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/runcon.1:11
 msgid ""
-"B<runcon> [ I<\\,-c \\/>] [I<\\,-u USER\\/>] [I<\\,-r ROLE\\/>] [I<\\,-t "
-"TYPE\\/>] [I<\\,-l RANGE\\/>] I<\\,COMMAND \\/>[I<\\,args\\/>]"
+"B<runcon> [ I<\\,-c \\/>] [I<\\,-u USER\\/>] [I<\\,-r ROLE\\/>] [I<\\,-t TYPE"
+"\\/>] [I<\\,-l RANGE\\/>] I<\\,COMMAND \\/>[I<\\,args\\/>]"
 msgstr ""
 
 #. type: SH
@@ -93,7 +93,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/runcon.1:23
-msgid "Note that only carefully-chosen contexts are likely to successfully run."
+msgid ""
+"Note that only carefully-chosen contexts are likely to successfully run."
 msgstr ""
 
 #. type: Plain text
@@ -105,7 +106,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/runcon.1:28
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -215,14 +217,15 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/runcon.1:56
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/runcon.1:58
 msgid ""
-"Report runcon translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report runcon translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
 msgstr ""
 
 #. type: SH
@@ -254,8 +257,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/runcon.1:66
 msgid ""
-"Full documentation at: "
-"E<lt>http://www.gnu.org/software/coreutils/runconE<gt>"
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/runconE<gt>"
 msgstr ""
 
 #. type: Plain text

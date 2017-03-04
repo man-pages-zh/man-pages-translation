@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/ln.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -60,8 +60,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:8
 msgid ""
-"B<ln> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,TARGET LINK_NAME (1st "
-"form)\\/>"
+"B<ln> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,TARGET LINK_NAME (1st form)\\/>"
 msgstr ""
 
 #. type: Plain text
@@ -71,7 +70,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:14
-msgid "B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET\\/>... I<\\,DIRECTORY (3rd form)\\/>"
+msgid ""
+"B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET\\/>... I<\\,DIRECTORY (3rd form)\\/>"
 msgstr ""
 
 #. type: Plain text
@@ -96,13 +96,13 @@ msgid ""
 "default, symbolic links with B<--symbolic>.  By default, each destination "
 "(name of new link) should not already exist.  When creating hard links, each "
 "TARGET must exist.  Symbolic links can hold arbitrary text; if later "
-"resolved, a relative link is interpreted in relation to its parent "
-"directory."
+"resolved, a relative link is interpreted in relation to its parent directory."
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:30
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -181,7 +181,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:54
-msgid "treat LINK_NAME as a normal file if it is a symbolic link to a directory"
+msgid ""
+"treat LINK_NAME as a normal file if it is a symbolic link to a directory"
 msgstr ""
 
 #. type: TP
@@ -362,12 +363,14 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:105
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:107
-msgid "Report ln translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report ln translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -403,7 +406,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:118
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/lnE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/lnE<gt>"
 msgstr ""
 
 #. type: Plain text

@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-15 23:03+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:47+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -28,13 +28,11 @@ msgstr ""
 msgid "MD5SUM"
 msgstr "MD5SUM"
 
-# File: raw/man1/md5sum.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/md5sum.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/md5sum.1, line: 2
 # File: raw/man1/md5sum.1, line: 2
@@ -76,10 +74,6 @@ msgid "md5sum - compute and check MD5 message digest"
 msgstr "md5sum - 计算并校验 MD5 信息摘要"
 
 #
-# File: raw/man1/md5sum.1, line: 5
-# File: raw/man1/md5sum.1, line: 5
-# File: raw/man1/md5sum.1, line: 5
-# File: raw/man1/md5sum.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/md5sum.1:5
 #, no-wrap
@@ -375,8 +369,9 @@ msgid ""
 "binary, \\&' ' for text or where binary is insignificant), and name for each "
 "FILE."
 msgstr ""
-"校验和按照 RFC 1321 描述的方式进行计算。在校验过程中，其输入内容应当为该程序先前的输出内容。默认模式是输出一行文字，包含校验和、一个空格、一个指示"
-"输入模式的字符（'*' 表示二进制输入，空格表示字符输入）以及每个文件的名称。"
+"校验和按照 RFC 1321 描述的方式进行计算。在校验过程中，其输入内容应当为该程序"
+"先前的输出内容。默认模式是输出一行文字，包含校验和、一个空格、一个指示输入模"
+"式的字符（'*' 表示二进制输入，空格表示字符输入）以及每个文件的名称。"
 
 #
 # File: raw/man1/md5sum.1, line: 53
@@ -397,8 +392,8 @@ msgid ""
 "purposes.  Instead, better use an SHA-2 algorithm, implemented in the "
 "programs sha224sum(1), sha256sum(1), sha384sum(1), sha512sum(1)"
 msgstr ""
-"MD5 算法不应再被用于和安全相关的目的。作为替代，使用 SHA-2 算法更好，它实现在了"
-" sha224sum(1)、sha256sum(1)、sha384sum(1) 和 sha512sum(1) 这些程序中"
+"MD5 算法不应再被用于和安全相关的目的。作为替代，使用 SHA-2 算法更好，它实现在"
+"了 sha224sum(1)、sha256sum(1)、sha384sum(1) 和 sha512sum(1) 这些程序中"
 
 #
 # File: raw/man1/md5sum.1, line: 57
@@ -526,6 +521,11 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/md5sumE
 #: raw/coreutils/man1/md5sum.1:72
 msgid "or available locally via: info \\(aq(coreutils) md5sum invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) md5sum invocation\\(aq"
+
+# File: raw/man1/md5sum.1, line: 2
+#
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: 2017-02-12 22:14+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -28,8 +28,8 @@ msgstr "DATE"
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/date.1:2
@@ -1657,7 +1657,8 @@ msgstr "报告错误"
 #: raw/coreutils/man1/date.1:247
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/date.1, line: 242
@@ -1742,6 +1743,9 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/dateE<g
 #: raw/coreutils/man1/date.1:258
 msgid "or available locally via: info \\(aq(coreutils) date invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) date invocation\\(aq"
+
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

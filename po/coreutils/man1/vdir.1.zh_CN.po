@@ -4,12 +4,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:41+0800\n"
-"PO-Revision-Date: 2016-12-24 20:44+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:41+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -27,13 +27,11 @@ msgstr ""
 msgid "VDIR"
 msgstr "VDIR"
 
-# File: raw/man1/vdir.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/vdir.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/vdir.1, line: 2
 #. type: TH
@@ -1040,9 +1038,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/vdir.1, line: 185
-# File: raw/man1/vdir.1, line: 184
-# File: raw/man1/vdir.1, line: 184
 #. type: TP
 #: raw/coreutils/man1/vdir.1:184
 #, no-wrap
@@ -1396,8 +1391,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/vdir.1:244
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 # File: raw/man1/vdir.1, line: 246
 #
@@ -1466,6 +1460,11 @@ msgstr "完整文档请见：E<lt>http://www.gnu.org/software/coreutils/vdirE<gt
 #: raw/coreutils/man1/vdir.1:255
 msgid "or available locally via: info \\(aq(coreutils) vdir invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) vdir invocation\\(aq"
+
+# File: raw/man1/vdir.1, line: 2
+#
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

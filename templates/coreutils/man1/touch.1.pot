@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -70,7 +70,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:12
-msgid "Update the access and modification times of each FILE to the current time."
+msgid ""
+"Update the access and modification times of each FILE to the current time."
 msgstr ""
 
 #. type: Plain text
@@ -89,7 +90,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:20
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -191,8 +193,8 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:51
 msgid ""
-"change the specified time: WORD is access, atime, or use: equivalent to "
-"B<-a> WORD is modify or mtime: equivalent to B<-m>"
+"change the specified time: WORD is access, atime, or use: equivalent to B<-"
+"a> WORD is modify or mtime: equivalent to B<-m>"
 msgstr ""
 
 #. type: TP
@@ -219,7 +221,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:59
-msgid "Note that the B<-d> and B<-t> options accept different time-date formats."
+msgid ""
+"Note that the B<-d> and B<-t> options accept different time-date formats."
 msgstr ""
 
 #. type: SH
@@ -262,14 +265,15 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:73
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:75
 msgid ""
-"Report touch translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report touch translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
 msgstr ""
 
 #. type: SH
@@ -300,7 +304,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:83
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/touchE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/touchE<gt>"
 msgstr ""
 
 #. type: Plain text

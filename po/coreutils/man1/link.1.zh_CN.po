@@ -5,12 +5,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-15 21:09+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:48+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -31,15 +31,11 @@ msgstr ""
 msgid "LINK"
 msgstr "LINK"
 
-#
-# File: raw/man1/link.1, line: 2
-# File: raw/man1/link.1, line: 2
-# File: raw/man1/link.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/link.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/link.1, line: 2
 # File: raw/man1/link.1, line: 2
@@ -60,7 +56,7 @@ msgstr "GNU coreutils 8.26"
 #: raw/coreutils/man1/link.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "User Commands"
+msgstr "用户命令"
 
 #
 # File: raw/man1/link.1, line: 3
@@ -217,8 +213,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/link.1:25
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/link.1, line: 27
@@ -312,6 +307,13 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/linkE<g
 #: raw/coreutils/man1/link.1:39
 msgid "or available locally via: info \\(aq(coreutils) link invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) link invocation\\(aq"
+
+#
+# File: raw/man1/link.1, line: 2
+# File: raw/man1/link.1, line: 2
+# File: raw/man1/link.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

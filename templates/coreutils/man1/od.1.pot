@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/od.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -65,16 +65,16 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:11
 msgid ""
-"B<od> [I<\\,-abcdfilosx\\/>]... [I<\\,FILE\\/>] "
-"[[I<\\,+\\/>]I<\\,OFFSET\\/>[I<\\,.\\/>][I<\\,b\\/>]]"
+"B<od> [I<\\,-abcdfilosx\\/>]... [I<\\,FILE\\/>] [[I<\\,+\\/>]I<\\,OFFSET\\/"
+">[I<\\,.\\/>][I<\\,b\\/>]]"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/od.1:14
 msgid ""
-"B<od> I<\\,--traditional \\/>[I<\\,OPTION\\/>]... [I<\\,FILE\\/>] "
-"[[I<\\,+\\/>]I<\\,OFFSET\\/>[I<\\,.\\/>][I<\\,b\\/>] "
-"[I<\\,+\\/>][I<\\,LABEL\\/>][I<\\,.\\/>][I<\\,b\\/>]]"
+"B<od> I<\\,--traditional \\/>[I<\\,OPTION\\/>]... [I<\\,FILE\\/>] [[I<\\,+\\/"
+">]I<\\,OFFSET\\/>[I<\\,.\\/>][I<\\,b\\/>] [I<\\,+\\/>][I<\\,LABEL\\/>][I<\\,."
+"\\/>][I<\\,b\\/>]]"
 msgstr ""
 
 #. type: SH
@@ -109,7 +109,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/od.1:31
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -202,8 +203,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:58
 msgid ""
-"output BYTES bytes per output line; 32 is implied when BYTES is not "
-"specified"
+"output BYTES bytes per output line; 32 is implied when BYTES is not specified"
 msgstr ""
 
 #. type: TP
@@ -567,12 +567,14 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/od.1:157
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/od.1:159
-msgid "Report od translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report od translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -603,7 +605,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/od.1:167
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/odE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/odE<gt>"
 msgstr ""
 
 #. type: Plain text

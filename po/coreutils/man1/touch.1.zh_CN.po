@@ -5,13 +5,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:41+0800\n"
-"PO-Revision-Date: 2016-12-15 20:32+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:23+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -31,14 +31,11 @@ msgstr ""
 msgid "TOUCH"
 msgstr "TOUCH"
 
-# File: raw/man1/touch.1, line: 2
-# File: raw/man1/touch.1, line: 2
-# File: raw/man1/touch.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/touch.1, line: 2
 # File: raw/man1/touch.1, line: 2
@@ -126,8 +123,7 @@ msgstr "将每个文件的访问时间和修改时间更新为当前时间。"
 msgid ""
 "A FILE argument that does not exist is created empty, unless B<-c> or B<-h> "
 "is supplied."
-msgstr ""
-"除非提供了 B<-c> 或 B<-h> 参数，否则程序会在文件不存在时创建一个空文件。"
+msgstr "除非提供了 B<-c> 或 B<-h> 参数，否则程序会在文件不存在时创建一个空文件。"
 
 #
 # File: raw/man1/touch.1, line: 18
@@ -247,8 +243,7 @@ msgstr "B<-h>, B<--no-dereference>"
 msgid ""
 "affect each symbolic link instead of any referenced file (useful only on "
 "systems that can change the timestamps of a symlink)"
-msgstr ""
-"影响所有符号链接而非被引用的文件（仅在能够更改符号链接的时间戳的系统上有用）"
+msgstr "影响所有符号链接而非被引用的文件（仅在能够更改符号链接的时间戳的系统上有用）"
 
 #
 # File: raw/man1/touch.1, line: 37
@@ -452,8 +447,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/touch.1:73
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/touch.1, line: 75
@@ -532,6 +526,12 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/touchE<
 #: raw/coreutils/man1/touch.1:84
 msgid "or available locally via: info \\(aq(coreutils) touch invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) touch invocation\\(aq"
+
+# File: raw/man1/touch.1, line: 2
+# File: raw/man1/touch.1, line: 2
+# File: raw/man1/touch.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

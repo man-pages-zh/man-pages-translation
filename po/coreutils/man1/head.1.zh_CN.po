@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-12 22:17+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:31+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -31,8 +31,8 @@ msgstr "HEAD"
 #. type: TH
 #: raw/coreutils/man1/head.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 #. type: TH
 #: raw/coreutils/man1/head.1:2
@@ -317,10 +317,6 @@ msgstr ""
 "错误。"
 
 #
-# File: raw/man1/head.1, line: 52
-# File: raw/man1/head.1, line: 52
-# File: raw/man1/head.1, line: 52
-# File: raw/man1/head.1, line: 52
 #. type: SH
 #: raw/coreutils/man1/head.1:52
 #, no-wrap
@@ -328,10 +324,6 @@ msgid "COPYRIGHT"
 msgstr "版权"
 
 #
-# File: raw/man1/head.1, line: 55
-# File: raw/man1/head.1, line: 55
-# File: raw/man1/head.1, line: 55
-# File: raw/man1/head.1, line: 55
 #. type: Plain text
 #: raw/coreutils/man1/head.1:55
 msgid ""
@@ -380,14 +372,13 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/headE<gt>"
 
 #
-# File: raw/man1/head.1, line: 64
-# File: raw/man1/head.1, line: 64
-# File: raw/man1/head.1, line: 64
-# File: raw/man1/head.1, line: 64
 #. type: Plain text
 #: raw/coreutils/man1/head.1:64
 msgid "or available locally via: info \\(aq(coreutils) head invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) head invocation\\(aq"
+
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

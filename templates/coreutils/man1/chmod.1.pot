@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -60,8 +60,8 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:8
 msgid ""
-"B<chmod> "
-"[I<\\,OPTION\\/>]... I<\\,MODE\\/>[I<\\,,MODE\\/>]... I<\\,FILE\\/>..."
+"B<chmod> [I<\\,OPTION\\/>]... I<\\,MODE\\/>[I<\\,,MODE\\/>]... I<\\,FILE\\/"
+">..."
 msgstr ""
 
 #. type: Plain text
@@ -92,10 +92,10 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:32
 msgid ""
-"The format of a symbolic mode is "
-"[B<ugoa>.\\|.\\|.][[B<-+=>][I<perms>.\\|.\\|.].\\|.\\|.], where I<perms> is "
-"either zero or more letters from the set B<rwxXst>, or a single letter from "
-"the set B<ugo>.  Multiple symbolic modes can be given, separated by commas."
+"The format of a symbolic mode is [B<ugoa>.\\|.\\|.][[B<-+=>][I<perms>.\\|."
+"\\|.].\\|.\\|.], where I<perms> is either zero or more letters from the set "
+"B<rwxXst>, or a single letter from the set B<ugo>.  Multiple symbolic modes "
+"can be given, separated by commas."
 msgstr ""
 
 #. type: Plain text
@@ -122,15 +122,14 @@ msgstr ""
 #: raw/coreutils/man1/chmod.1:57
 msgid ""
 "The letters B<rwxXst> select file mode bits for the affected users: read "
-"(B<r>), write (B<w>), execute (or search for directories)  (B<x>), "
-"execute/search only if the file is a directory or already has execute "
-"permission for some user (B<X>), set user or group ID on execution (B<s>), "
-"restricted deletion flag or sticky bit (B<t>).  Instead of one or more of "
-"these letters, you can specify exactly one of the letters B<ugo>: the "
-"permissions granted to the user who owns the file (B<u>), the permissions "
-"granted to other users who are members of the file's group (B<g>), and the "
-"permissions granted to users that are in neither of the two preceding "
-"categories (B<o>)."
+"(B<r>), write (B<w>), execute (or search for directories)  (B<x>), execute/"
+"search only if the file is a directory or already has execute permission for "
+"some user (B<X>), set user or group ID on execution (B<s>), restricted "
+"deletion flag or sticky bit (B<t>).  Instead of one or more of these "
+"letters, you can specify exactly one of the letters B<ugo>: the permissions "
+"granted to the user who owns the file (B<u>), the permissions granted to "
+"other users who are members of the file's group (B<g>), and the permissions "
+"granted to users that are in neither of the two preceding categories (B<o>)."
 msgstr ""
 
 #. type: Plain text
@@ -317,7 +316,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:148
-msgid "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
+msgid ""
+"Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
 msgstr ""
 
 #. type: SH
@@ -339,14 +339,15 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:152
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:154
 msgid ""
-"Report chmod translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report chmod translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
 msgstr ""
 
 #. type: SH
@@ -382,7 +383,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:165
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chmodE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chmodE<gt>"
 msgstr ""
 
 #. type: Plain text

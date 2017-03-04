@@ -6,12 +6,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-15 20:32+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:56+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -22,30 +22,18 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/chgrp.1:2
 #, no-wrap
 msgid "CHGRP"
 msgstr "CHGRP"
 
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/chgrp.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/chgrp.1:2
 #, no-wrap
@@ -53,10 +41,6 @@ msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
-# File: raw/man1/chgrp.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/chgrp.1:2
 #, no-wrap
@@ -64,10 +48,6 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/chgrp.1, line: 3
-# File: raw/man1/chgrp.1, line: 3
-# File: raw/man1/chgrp.1, line: 3
-# File: raw/man1/chgrp.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/chgrp.1:3
 #, no-wrap
@@ -247,8 +227,7 @@ msgstr "B<-h>, B<--no-dereference>"
 msgid ""
 "affect symbolic links instead of any referenced file (useful only on systems "
 "that can change the ownership of a symlink)"
-msgstr ""
-"影响符号链接本身而不是其引用的文件 （只在可以修改符号链接所有权的系统上有效）"
+msgstr "影响符号链接本身而不是其引用的文件 （只在可以修改符号链接所有权的系统上有效）"
 
 #
 # File: raw/man1/chgrp.1, line: 34
@@ -549,8 +528,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/chgrp.1:79
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/chgrp.1, line: 81
@@ -562,8 +540,7 @@ msgstr ""
 msgid ""
 "Report chgrp translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
-msgstr ""
-"请向 E<lt>http://translationproject.org/team/E<gt> 报告 chgrp 的翻译错误。"
+msgstr "请向 E<lt>http://translationproject.org/team/E<gt> 报告 chgrp 的翻译错误。"
 
 #
 # File: raw/man1/chgrp.1, line: 81
@@ -645,6 +622,13 @@ msgstr "完整文档请见：  E<lt>http://www.gnu.org/software/coreutils/chgrpE
 #: raw/coreutils/man1/chgrp.1:93
 msgid "or available locally via: info \\(aq(coreutils) chgrp invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chgrp invocation\\(aq"
+
+# File: raw/man1/chgrp.1, line: 2
+# File: raw/man1/chgrp.1, line: 2
+# File: raw/man1/chgrp.1, line: 2
+# File: raw/man1/chgrp.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-15 22:57+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:49+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -31,8 +31,8 @@ msgstr "NOHUP"
 #. type: TH
 #: raw/coreutils/man1/nohup.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 #. type: TH
 #: raw/coreutils/man1/nohup.1:2
@@ -55,10 +55,6 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/nohup.1, line: 5
-# File: raw/man1/nohup.1, line: 5
-# File: raw/man1/nohup.1, line: 5
-# File: raw/man1/nohup.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:5
 msgid "nohup - run a command immune to hangups, with output to a non-tty"
@@ -167,8 +163,10 @@ msgid ""
 "it to standard output.  To save output to FILE, use 'nohup COMMAND E<gt> "
 "FILE'."
 msgstr ""
-"如果标准输入来自终端，则将标准输入重定向为一个不可读文件；如果标准输出定向至终端，则在可能的情况下将输出附加在 'nohup.out' 文件后，否则附加到"
-" \\&'$HOME/nohup.out'。如果标准错误定向至终端，则重定向至标准输出。使用“nohup 命令 E<gt> 文件”可将输出保存到指定文件。"
+"如果标准输入来自终端，则将标准输入重定向为一个不可读文件；如果标准输出定向至"
+"终端，则在可能的情况下将输出附加在 'nohup.out' 文件后，否则附加到 \\&'$HOME/"
+"nohup.out'。如果标准错误定向至终端，则重定向至标准输出。使用“nohup 命令 "
+"E<gt> 文件”可将输出保存到指定文件。"
 
 #
 # File: raw/man1/nohup.1, line: 31
@@ -304,14 +302,13 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/nohupE<gt>"
 
 #
-# File: raw/man1/nohup.1, line: 46
-# File: raw/man1/nohup.1, line: 46
-# File: raw/man1/nohup.1, line: 46
-# File: raw/man1/nohup.1, line: 46
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:46
 msgid "or available locally via: info \\(aq(coreutils) nohup invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) nohup invocation\\(aq"
+
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-01-08 17:40+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:47+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/fmt.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/fmt.1:2
@@ -28,12 +27,11 @@ msgstr ""
 msgid "FMT"
 msgstr "FMT"
 
-# File: raw/man1/fmt.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/fmt.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/fmt.1, line: 2
 #. type: TH
@@ -51,10 +49,6 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/fmt.1, line: 3
-# File: raw/man1/fmt.1, line: 3
-# File: raw/man1/fmt.1, line: 3
-# File: raw/man1/fmt.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/fmt.1:3
 #, no-wrap
@@ -62,10 +56,6 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/fmt.1, line: 5
-# File: raw/man1/fmt.1, line: 5
-# File: raw/man1/fmt.1, line: 5
-# File: raw/man1/fmt.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:5
 msgid "fmt - simple optimal text formatter"
@@ -368,8 +358,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/fmt.1:49
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/fmt.1, line: 51
@@ -424,10 +413,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/fmt.1, line: 57
-# File: raw/man1/fmt.1, line: 57
-# File: raw/man1/fmt.1, line: 57
-# File: raw/man1/fmt.1, line: 57
 #. type: SH
 #: raw/coreutils/man1/fmt.1:57
 #, no-wrap
@@ -446,14 +431,14 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/fmtE<gt>"
 
 #
-# File: raw/man1/fmt.1, line: 60
-# File: raw/man1/fmt.1, line: 60
-# File: raw/man1/fmt.1, line: 60
-# File: raw/man1/fmt.1, line: 60
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:60
 msgid "or available locally via: info \\(aq(coreutils) fmt invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) fmt invocation\\(aq"
+
+# File: raw/man1/fmt.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

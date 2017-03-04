@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-15 22:53+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:22+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -28,13 +28,11 @@ msgstr ""
 msgid "INSTALL"
 msgstr "INSTALL"
 
-# File: raw/man1/install.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/install.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/install.1, line: 2
 #. type: TH
@@ -554,7 +552,9 @@ msgstr "B<--context>[=I<\\,CTX\\/>]"
 msgid ""
 "like B<-Z>, or if CTX is specified then set the SELinux or SMACK security "
 "context to CTX"
-msgstr "类似 B<-Z>，或者如果指定了上下文，则将 SELinux 或者 SMACK 安全上下文设置为指定类型"
+msgstr ""
+"类似 B<-Z>，或者如果指定了上下文，则将 SELinux 或者 SMACK 安全上下文设置为指"
+"定类型"
 
 #
 # File: raw/man1/install.1, line: 94
@@ -811,6 +811,11 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/install
 #: raw/coreutils/man1/install.1:131
 msgid "or available locally via: info \\(aq(coreutils) install invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) install invocation\\(aq"
+
+# File: raw/man1/install.1, line: 2
+#
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

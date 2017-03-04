@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/stty.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -85,7 +85,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:20
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -1403,9 +1404,9 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:382
 msgid ""
-"same as B<-ignbrk> B<-brkint> B<-ignpar> B<-parmrk> B<-inpck> B<-istrip> "
-"B<-inlcr> B<-igncr> B<-icrnl> B<-ixon> B<-ixoff> B<-icanon> B<-opost> "
-"B<-isig> B<-iuclc> B<-ixany> B<-imaxbel> B<-xcase> min 1 time 0"
+"same as B<-ignbrk> B<-brkint> B<-ignpar> B<-parmrk> B<-inpck> B<-istrip> B<-"
+"inlcr> B<-igncr> B<-icrnl> B<-ixon> B<-ixoff> B<-icanon> B<-opost> B<-isig> "
+"B<-iuclc> B<-ixany> B<-imaxbel> B<-xcase> min 1 time 0"
 msgstr ""
 
 #. type: TP
@@ -1430,8 +1431,8 @@ msgstr ""
 msgid ""
 "same as cread B<-ignbrk> brkint B<-inlcr> B<-igncr> icrnl icanon iexten echo "
 "echoe echok B<-echonl> B<-noflsh> B<-ixoff> B<-iutf8> B<-iuclc> B<-ixany> "
-"imaxbel B<-xcase> B<-olcuc> B<-ocrnl> opost B<-ofill> onlcr B<-onocr> "
-"B<-onlret> nl0 cr0 tab0 bs0 vt0 ff0 isig B<-tostop> B<-ofdel> B<-echoprt> "
+"imaxbel B<-xcase> B<-olcuc> B<-ocrnl> opost B<-ofill> onlcr B<-onocr> B<-"
+"onlret> nl0 cr0 tab0 bs0 vt0 ff0 isig B<-tostop> B<-ofdel> B<-echoprt> "
 "echoctl echoke B<-extproc> B<-flusho>, all special characters to their "
 "default values"
 msgstr ""
@@ -1464,14 +1465,14 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:402
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:404
 msgid ""
-"Report stty translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report stty translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -1502,7 +1503,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:412
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/sttyE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/sttyE<gt>"
 msgstr ""
 
 #. type: Plain text

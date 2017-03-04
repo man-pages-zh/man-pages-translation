@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: 2016-12-22 15:55+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,11 @@ msgstr ""
 msgid "CHCON"
 msgstr "CHCON"
 
-# File: raw/man1/chcon.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/chcon.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr ""
 
 # File: raw/man1/chcon.1, line: 2
 #. type: TH
@@ -609,6 +607,11 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chconE<
 #: raw/coreutils/man1/chcon.1:92
 msgid "or available locally via: info \\(aq(coreutils) chcon invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chcon invocation\\(aq"
+
+# File: raw/man1/chcon.1, line: 2
+#
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

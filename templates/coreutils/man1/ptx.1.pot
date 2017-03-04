@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/ptx.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -64,7 +64,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ptx.1:11
-msgid "B<ptx> I<\\,-G \\/>[I<\\,OPTION\\/>]... [I<\\,INPUT \\/>[I<\\,OUTPUT\\/>]]"
+msgid ""
+"B<ptx> I<\\,-G \\/>[I<\\,OPTION\\/>]... [I<\\,INPUT \\/>[I<\\,OUTPUT\\/>]]"
 msgstr ""
 
 #. type: SH
@@ -75,7 +76,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ptx.1:15
-msgid "Output a permuted index, including context, of the words in the input files."
+msgid ""
+"Output a permuted index, including context, of the words in the input files."
 msgstr ""
 
 #. type: Plain text
@@ -85,7 +87,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ptx.1:19
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -310,12 +313,14 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ptx.1:80
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ptx.1:82
-msgid "Report ptx translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+msgid ""
+"Report ptx translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -346,7 +351,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ptx.1:90
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/ptxE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/ptxE<gt>"
 msgstr ""
 
 #. type: Plain text

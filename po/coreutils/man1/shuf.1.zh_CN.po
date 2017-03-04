@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-12 22:10+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:24+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,33 +20,23 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/shuf.1, line: 2
-# File: raw/man1/shuf.1, line: 2
-# File: raw/man1/shuf.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/shuf.1:2
 #, no-wrap
 msgid "SHUF"
-msgstr ""
+msgstr "SHUF"
 
-#
-# File: raw/man1/shuf.1, line: 2
-# File: raw/man1/shuf.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/shuf.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr ""
+msgid "January 2017"
+msgstr "2017年1月"
 
-#
-# File: raw/man1/shuf.1, line: 2
-# File: raw/man1/shuf.1, line: 2
-# File: raw/man1/shuf.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/shuf.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GNU coreutils 8.26"
-msgstr "GNU coreutils 8.23"
+msgstr "GNU coreutils 8.26"
 
 #
 #. type: TH
@@ -56,9 +46,6 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/shuf.1, line: 3
-# File: raw/man1/shuf.1, line: 3
-# File: raw/man1/shuf.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/shuf.1:3
 #, no-wrap
@@ -379,18 +366,16 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
 # File: raw/man1/shuf.1, line: 58
 # File: raw/man1/shuf.1, line: 58
 # File: raw/man1/shuf.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/shuf.1:58
-#, fuzzy
 msgid ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
@@ -417,9 +402,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/shuf.1, line: 63
-# File: raw/man1/shuf.1, line: 63
-# File: raw/man1/shuf.1, line: 63
 #. type: Plain text
 #: raw/coreutils/man1/shuf.1:63
 msgid ""
@@ -427,13 +409,10 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/shuf.1, line: 64
-# File: raw/man1/shuf.1, line: 64
-# File: raw/man1/shuf.1, line: 64
 #. type: Plain text
 #: raw/coreutils/man1/shuf.1:64
 msgid "or available locally via: info \\(aq(coreutils) shuf invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) shuf invocation\\(aq"
 
 #
 #

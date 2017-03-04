@@ -4,12 +4,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-16 14:27+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:44+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,27 +20,18 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/sha1sum.1, line: 2
-# File: raw/man1/sha1sum.1, line: 2
-# File: raw/man1/sha1sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha1sum.1:2
 #, no-wrap
 msgid "SHA1SUM"
 msgstr "SHA1SUM"
 
-#
-# File: raw/man1/sha1sum.1, line: 2
-# File: raw/man1/sha1sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha1sum.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "十二月 2016"
+msgid "January 2017"
+msgstr "2017年1月"
 
-# File: raw/man1/sha1sum.1, line: 2
-# File: raw/man1/sha1sum.1, line: 2
-# File: raw/man1/sha1sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha1sum.1:2
 #, no-wrap
@@ -48,14 +39,11 @@ msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/sha1sum.1, line: 2
-# File: raw/man1/sha1sum.1, line: 2
-# File: raw/man1/sha1sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha1sum.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "User Commands"
+msgstr "用户命令"
 
 #
 # File: raw/man1/sha1sum.1, line: 3
@@ -393,8 +381,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/sha1sum.1:57
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/sha1sum.1, line: 59
@@ -419,9 +406,6 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/sha1sum.1, line: 62
-# File: raw/man1/sha1sum.1, line: 62
-# File: raw/man1/sha1sum.1, line: 62
 #. type: Plain text
 #: raw/coreutils/man1/sha1sum.1:62
 msgid ""
@@ -455,9 +439,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/sha1sum.1, line: 67
-# File: raw/man1/sha1sum.1, line: 67
-# File: raw/man1/sha1sum.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/sha1sum.1:67
 msgid ""
@@ -466,13 +447,16 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/sha1sumE<gt>"
 
 #
-# File: raw/man1/sha1sum.1, line: 68
-# File: raw/man1/sha1sum.1, line: 68
-# File: raw/man1/sha1sum.1, line: 68
 #. type: Plain text
 #: raw/coreutils/man1/sha1sum.1:68
 msgid "or available locally via: info \\(aq(coreutils) sha1sum invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) rm invocation\\(aq"
+
+#
+# File: raw/man1/sha1sum.1, line: 2
+# File: raw/man1/sha1sum.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "十二月 2016"
 
 #
 #

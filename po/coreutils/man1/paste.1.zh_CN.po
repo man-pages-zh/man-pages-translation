@@ -5,12 +5,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-22 16:24+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:27+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -28,13 +28,11 @@ msgstr ""
 msgid "PASTE"
 msgstr "PASTE"
 
-# File: raw/man1/paste.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/paste.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "December 2016"
+msgid "January 2017"
+msgstr "1"
 
 # File: raw/man1/paste.1, line: 2
 #. type: TH
@@ -263,8 +261,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/paste.1:36
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/paste.1, line: 38
@@ -291,7 +288,6 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/paste.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/paste.1:41
 msgid ""
@@ -331,3 +327,8 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/pasteE<
 #: raw/coreutils/man1/paste.1:47
 msgid "or available locally via: info \\(aq(coreutils) paste invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) paste invocation\\(aq"
+
+# File: raw/man1/paste.1, line: 2
+#
+#~ msgid "December 2016"
+#~ msgstr "December 2016"

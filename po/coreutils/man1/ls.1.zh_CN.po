@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2017-02-26 10:18+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:45+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -28,12 +28,11 @@ msgstr ""
 msgid "LS"
 msgstr "LS"
 
-# File: raw/man1/ls.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/ls.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr ""
 
 # File: raw/man1/ls.1, line: 2
 #. type: TH
@@ -908,15 +907,11 @@ msgid "print ? instead of nongraphic characters"
 msgstr ""
 
 #
-# File: raw/man1/ls.1, line: 142
-# File: raw/man1/ls.1, line: 141
-# File: raw/man1/ls.1, line: 141
-# File: raw/man1/ls.1, line: 141
 #. type: TP
 #: raw/coreutils/man1/ls.1:141
 #, no-wrap
 msgid "B<--show-control-chars>"
-msgstr ""
+msgstr "B<--show-control-chars>"
 
 #
 # File: raw/man1/ls.1, line: 146
@@ -1609,6 +1604,10 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/lsE<gt>
 #: raw/coreutils/man1/ls.1:255
 msgid "or available locally via: info \\(aq(coreutils) ls invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) ls invocation\\(aq"
+
+# File: raw/man1/ls.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

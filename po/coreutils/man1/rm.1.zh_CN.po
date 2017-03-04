@@ -6,12 +6,12 @@
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-15 20:32+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:49+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -31,14 +31,11 @@ msgstr ""
 msgid "RM"
 msgstr "RM"
 
-# File: raw/man1/rm.1, line: 2
-# File: raw/man1/rm.1, line: 2
-# File: raw/man1/rm.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/rm.1, line: 2
 # File: raw/man1/rm.1, line: 2
@@ -435,8 +432,7 @@ msgstr ""
 msgid ""
 "To remove a file whose name starts with a '-', for example '-foo', use one "
 "of these commands:"
-msgstr ""
-"如果需要删除一个文件名以连字符 “-”起始的文件，例如 '-foo'，请使用下列命令："
+msgstr "如果需要删除一个文件名以连字符 “-”起始的文件，例如 '-foo'，请使用下列命令："
 
 #
 # File: raw/man1/rm.1, line: 81
@@ -490,8 +486,7 @@ msgstr "作者"
 msgid ""
 "Written by Paul Rubin, David MacKenzie, Richard M. Stallman, and Jim "
 "Meyering."
-msgstr ""
-"由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。"
+msgstr "由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。"
 
 #
 # File: raw/man1/rm.1, line: 90
@@ -511,8 +506,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/rm.1:92
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/rm.1, line: 94
@@ -599,6 +593,12 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/rmE<gt>
 #: raw/coreutils/man1/rm.1:106
 msgid "or available locally via: info \\(aq(coreutils) rm invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) rm invocation\\(aq"
+
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+# File: raw/man1/rm.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

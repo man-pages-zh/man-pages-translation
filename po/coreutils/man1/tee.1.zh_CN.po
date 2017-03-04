@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:41+0800\n"
-"PO-Revision-Date: 2017-02-21 20:29+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:42+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -28,14 +28,11 @@ msgstr ""
 msgid "TEE"
 msgstr "TEE"
 
-# File: raw/man1/tee.1, line: 2
-# File: raw/man1/tee.1, line: 2
-# File: raw/man1/tee.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/tee.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/tee.1, line: 2
 # File: raw/man1/tee.1, line: 2
@@ -309,8 +306,8 @@ msgid ""
 "operation when B<--output-error> is not specified, is to exit immediately on "
 "error writing to a pipe, and diagnose errors writing to non pipe outputs."
 msgstr ""
-"B<-p> 选项的默认模式是“warn-nopipe”。当 B<--output-error>"
-" 没有给出时，默认的操作是在向管道写入出错时立刻退出，且在向非管道写入出错时对问题进行诊断。"
+"B<-p> 选项的默认模式是“warn-nopipe”。当 B<--output-error> 没有给出时，默认的"
+"操作是在向管道写入出错时立刻退出，且在向非管道写入出错时对问题进行诊断。"
 
 #
 # File: raw/man1/tee.1, line: 48
@@ -410,9 +407,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/tee.1, line: 62
-# File: raw/man1/tee.1, line: 62
-# File: raw/man1/tee.1, line: 62
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:62
 msgid ""
@@ -427,6 +421,12 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/teeE<gt
 #: raw/coreutils/man1/tee.1:63
 msgid "or available locally via: info \\(aq(coreutils) tee invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) tee invocation\\(aq"
+
+# File: raw/man1/tee.1, line: 2
+# File: raw/man1/tee.1, line: 2
+# File: raw/man1/tee.1, line: 2
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -220,8 +220,8 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:58
 msgid ""
-"sort according to WORD: general-numeric B<-g>, human-numeric B<-h>, month "
-"B<-M>, numeric B<-n>, random B<-R>, version B<-V>"
+"sort according to WORD: general-numeric B<-g>, human-numeric B<-h>, month B<-"
+"M>, numeric B<-n>, random B<-R>, version B<-V>"
 msgstr ""
 
 #. type: TP
@@ -451,12 +451,12 @@ msgstr ""
 msgid ""
 "KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is "
 "a field number and C a character position in the field; both are origin 1, "
-"and the stop position defaults to the line's end.  If neither B<-t> nor "
-"B<-b> is in effect, characters in a field are counted from the beginning of "
-"the preceding whitespace.  OPTS is one or more single-letter ordering "
-"options [bdfgiMhnRrV], which override global ordering options for that key.  "
-"If no key is given, use the entire line as the key.  Use B<--debug> to "
-"diagnose incorrect key usage."
+"and the stop position defaults to the line's end.  If neither B<-t> nor B<-"
+"b> is in effect, characters in a field are counted from the beginning of the "
+"preceding whitespace.  OPTS is one or more single-letter ordering options "
+"[bdfgiMhnRrV], which override global ordering options for that key.  If no "
+"key is given, use the entire line as the key.  Use B<--debug> to diagnose "
+"incorrect key usage."
 msgstr ""
 
 #. type: Plain text
@@ -492,14 +492,14 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:144
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:146
 msgid ""
-"Report sort translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report sort translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -535,7 +535,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:157
-msgid "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/sortE<gt>"
+msgid ""
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/sortE<gt>"
 msgstr ""
 
 #. type: Plain text

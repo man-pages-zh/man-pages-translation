@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH UNIQ 1 2016年12月 "GNU coreutils 8.26" 用户命令
+.TH UNIQ 1 2017年1月 "GNU coreutils 8.26" 用户命令
 .SH 名称
 uniq \- 报告或省略重复行
 .SH 概述
@@ -28,15 +28,13 @@ uniq \- 报告或省略重复行
 显示所有重复的行
 .TP 
 \fB\-D\fP, \fB\-\-all\-repeated\fP[=\fI\,METHOD\/\fP]
-like \fB\-D\fP, but allow separating groups with an empty line;
-METHOD={none(default),prepend,separate}
+类似 \fB\-D\fP，但是允许使用空行对各个组进行分隔；METHOD={none(default),prepend,separate}
 .TP 
 \fB\-f\fP, \fB\-\-skip\-fields\fP=\fI\,N\/\fP
 比较时跳过前 N 个域
 .TP 
 \fB\-\-group\fP[=\fI\,METHOD\/\fP]
-show all items, separating groups with an empty line;
-METHOD={separate(default),prepend,append,both}
+显示所有行，用一个空行分隔每一组 METHOD={separate(default), prepend, append, both}
 .TP 
 \fB\-i\fP, \fB\-\-ignore\-case\fP
 比较时忽略大小写

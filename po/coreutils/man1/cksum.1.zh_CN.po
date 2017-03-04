@@ -4,12 +4,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-12 00:40+0800\n"
-"PO-Revision-Date: 2016-12-22 16:00+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"PO-Revision-Date: 2017-03-04 18:45+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -27,13 +27,11 @@ msgstr ""
 msgid "CKSUM"
 msgstr "CKSUM"
 
-# File: raw/man1/cksum.1, line: 2
-#
 #. type: TH
 #: raw/coreutils/man1/cksum.1:2
 #, no-wrap
-msgid "December 2016"
-msgstr "2016年12月"
+msgid "January 2017"
+msgstr "2017年1月"
 
 # File: raw/man1/cksum.1, line: 2
 #. type: TH
@@ -161,8 +159,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/cksum.1:25
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 # File: raw/man1/cksum.1, line: 27
 #
@@ -220,12 +217,16 @@ msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/cksumE<gt>"
 msgstr "完整文档请见：E<lt>http://www.gnu.org/software/coreutils/cksumE<gt>"
 
-# File: raw/man1/cksum.1, line: 36
 #
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:36
 msgid "or available locally via: info \\(aq(coreutils) cksum invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) cksum invocation\\(aq"
+
+# File: raw/man1/cksum.1, line: 2
+#
+#~ msgid "December 2016"
+#~ msgstr "2016年12月"
 
 #
 #

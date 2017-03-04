@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:25+0800\n"
+"POT-Creation-Date: 2017-03-04 18:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/numfmt.1:2
 #, no-wrap
-msgid "December 2016"
+msgid "January 2017"
 msgstr ""
 
 #. type: TH
@@ -71,13 +71,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:12
 msgid ""
-"Reformat NUMBER(s), or the numbers from standard input if none are "
-"specified."
+"Reformat NUMBER(s), or the numbers from standard input if none are specified."
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:14
-msgid "Mandatory arguments to long options are mandatory for short options too."
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
@@ -220,7 +220,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:62
-msgid "add SUFFIX to output numbers, and accept optional SUFFIX in input numbers"
+msgid ""
+"add SUFFIX to output numbers, and accept optional SUFFIX in input numbers"
 msgstr ""
 
 #. type: TP
@@ -537,14 +538,15 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:174
-msgid "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgid ""
+"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:176
 msgid ""
-"Report numfmt translation bugs to "
-"E<lt>http://translationproject.org/team/E<gt>"
+"Report numfmt translation bugs to E<lt>http://translationproject.org/team/"
+"E<gt>"
 msgstr ""
 
 #. type: SH
@@ -576,8 +578,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:184
 msgid ""
-"Full documentation at: "
-"E<lt>http://www.gnu.org/software/coreutils/numfmtE<gt>"
+"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/numfmtE<gt>"
 msgstr ""
 
 #. type: Plain text
