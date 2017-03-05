@@ -1,0 +1,56 @@
+.\" Copyright (c) 1993 Michael Haardt (michael@moria.de),
+.\"     Thu May 20 20:45:48 MET DST 1993
+.\"
+.\" %%%LICENSE_START(GPLv2+_DOC_FULL)
+.\" This is free documentation; you can redistribute it and/or
+.\" modify it under the terms of the GNU General Public License as
+.\" published by the Free Software Foundation; either version 2 of
+.\" the License, or (at your option) any later version.
+.\"
+.\" The GNU General Public License's references to "object code"
+.\" and "executables" are to be interpreted as the output of any
+.\" document formatting or typesetting system, including
+.\" intermediate and printed output.
+.\"
+.\" This manual is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public
+.\" License along with this manual; if not, see
+.\" <http://www.gnu.org/licenses/>.
+.\" %%%LICENSE_END
+.\"
+.\" Modified Sat Jul 24 17:11:07 1993 by Rik Faith (faith@cs.unc.edu)
+.\" Modified Sun Nov 21 10:49:38 1993 by Michael Haardt
+.\" Modified Sun Feb 26 15:09:15 1995 by Rik Faith (faith@cs.unc.edu)
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH SHELLS 5 2012\-12\-31 "" "Linux 程序员手册"
+.SH 名称
+shells \- 有效登录 shell 的路径名
+.SH 描述
+\fI/etc/shells\fP 是一个包含有效登录 shell 完整路径名的文件。该文件供 \fBchsh\fP(1) 查询所用，同时可供其它程序进行查询。
+.PP
+请注意有某些程序会检查该文件以判断用户是否为一个正常用户；例如，FTP 客户端传统上会禁止那些所使用 shell 没有在该文件中列出的那些用户的访问。
+.SH 文件
+\fI/etc/shells\fP
+.SH 示例
+\fI/etc/shells\fP 可能包括下列路径：
+.sp
+.RS
+\fI/bin/sh\fP
+.br
+\fI/bin/bash\fP
+.br
+\fI/bin/csh\fP
+.RE
+.SH 参见
+\fBchsh\fP(1), \fBgetusershell\fP(3)
+.SH 跋
+本页面是 Linux \fIman\-pages\fP 项目 4.09 版的一部分。该项目的描述、有关报告错误的信息以及本页面的最新版本可以在
+\%https://www.kernel.org/doc/pan\-pages/ 上找到。
