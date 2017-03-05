@@ -1,0 +1,1944 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man2/open.2:51
+#, no-wrap
+msgid "OPEN"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/open.2:51
+#, no-wrap
+msgid "2016-12-12"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/open.2:51
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/open.2:51
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:52
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:54
+msgid "open, openat, creat - open and possibly create a file"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:54
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:59
+#, no-wrap
+msgid ""
+"B<#include E<lt>sys/types.hE<gt>>\n"
+"B<#include E<lt>sys/stat.hE<gt>>\n"
+"B<#include E<lt>fcntl.hE<gt>>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:62
+#, no-wrap
+msgid ""
+"B<int open(const char *>I<pathname>B<, int >I<flags>B<);>\n"
+"B<int open(const char *>I<pathname>B<, int >I<flags>B<, mode_t "
+">I<mode>B<);>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:64
+#, no-wrap
+msgid "B<int creat(const char *>I<pathname>B<, mode_t >I<mode>B<);>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:68
+#, no-wrap
+msgid ""
+"B<int openat(int >I<dirfd>B<, const char *>I<pathname>B<, int "
+">I<flags>B<);>\n"
+"B<int openat(int >I<dirfd>B<, const char *>I<pathname>B<, int >I<flags>B<, "
+"mode_t >I<mode>B<);>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:73
+msgid "Feature Test Macro Requirements for glibc (see B<feature_test_macros>(7)):"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:76
+msgid "B<openat>():"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:79
+#, no-wrap
+msgid "Since glibc 2.10:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:82
+msgid "_POSIX_C_SOURCE\\ E<gt>=\\ 200809L"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:82
+#, no-wrap
+msgid "Before glibc 2.10:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:85
+msgid "_ATFILE_SOURCE"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:88
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:98
+msgid ""
+"Given a I<pathname> for a file, B<open>()  returns a file descriptor, a "
+"small, nonnegative integer for use in subsequent system calls (B<read>(2), "
+"B<write>(2), B<lseek>(2), B<fcntl>(2), etc.).  The file descriptor returned "
+"by a successful call will be the lowest-numbered file descriptor not "
+"currently open for the process."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:110
+msgid ""
+"By default, the new file descriptor is set to remain open across an "
+"B<execve>(2)  (i.e., the B<FD_CLOEXEC> file descriptor flag described in "
+"B<fcntl>(2)  is initially disabled); the B<O_CLOEXEC> flag, described below, "
+"can be used to change this default.  The file offset is set to the beginning "
+"of the file (see B<lseek>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:123
+msgid ""
+"A call to B<open>()  creates a new I<open file description>, an entry in the "
+"system-wide table of open files.  The open file description records the file "
+"offset and the file status flags (see below).  A file descriptor is a "
+"reference to an open file description; this reference is unaffected if "
+"I<pathname> is subsequently removed or modified to refer to a different "
+"file.  For further details on open file descriptions, see NOTES."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:131
+msgid ""
+"The argument I<flags> must include one of the following I<access modes>: "
+"B<O_RDONLY>, B<O_WRONLY>, or B<O_RDWR>.  These request opening the file "
+"read-only, write-only, or read/write, respectively."
+msgstr ""
+
+#.  SUSv4 divides the flags into:
+#.  * Access mode
+#.  * File creation
+#.  * File status
+#.  * Other (O_CLOEXEC, O_DIRECTORY, O_NOFOLLOW)
+#.  though it's not clear what the difference between "other" and
+#.  "File creation" flags is.  I raised an Aardvark to see if this
+#.  can be clarified in SUSv4; 10 Oct 2008.
+#.  http://thread.gmane.org/gmane.comp.standards.posix.austin.general/64/focus=67
+#.  TC1 (balloted in 2013), resolved this, so that those three constants
+#.  are also categorized" as file status flags.
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:169
+msgid ""
+"In addition, zero or more file creation flags and file status flags can be "
+"bitwise-I<or>'d in I<flags>.  The I<file creation flags> are B<O_CLOEXEC>, "
+"B<O_CREAT>, B<O_DIRECTORY>, B<O_EXCL>, B<O_NOCTTY>, B<O_NOFOLLOW>, "
+"B<O_TMPFILE>, and B<O_TRUNC>.  The I<file status flags> are all of the "
+"remaining flags listed below.  The distinction between these two groups of "
+"flags is that the file status flags can be retrieved and (in some cases)  "
+"modified; see B<fcntl>(2)  for details."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:171
+msgid "The full list of file creation flags and file status flags is as follows:"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:171
+#, no-wrap
+msgid "B<O_APPEND>"
+msgstr ""
+
+#.  For more background, see
+#.  http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=453946
+#.  http://nfs.sourceforge.net/
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:188
+msgid ""
+"The file is opened in append mode.  Before each B<write>(2), the file offset "
+"is positioned at the end of the file, as if with B<lseek>(2).  B<O_APPEND> "
+"may lead to corrupted files on NFS filesystems if more than one process "
+"appends data to a file at once.  This is because NFS does not support "
+"appending to a file, so the client kernel has to simulate it, which can't be "
+"done without a race condition."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:188
+#, no-wrap
+msgid "B<O_ASYNC>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:202
+msgid ""
+"Enable signal-driven I/O: generate a signal (B<SIGIO> by default, but this "
+"can be changed via B<fcntl>(2))  when input or output becomes possible on "
+"this file descriptor.  This feature is available only for terminals, "
+"pseudoterminals, sockets, and (since Linux 2.6) pipes and FIFOs.  See "
+"B<fcntl>(2)  for further details.  See also BUGS, below."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:202
+#, no-wrap
+msgid "B<O_CLOEXEC> (since Linux 2.6.23)"
+msgstr ""
+
+#.  NOTE! several other man pages refer to this text
+#.  FIXME . for later review when Issue 8 is one day released...
+#.  POSIX proposes to fix many APIs that provide hidden FDs
+#.  http://austingroupbugs.net/tag_view_page.php?tag_id=8
+#.  http://austingroupbugs.net/view.php?id=368
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:216
+msgid ""
+"Enable the close-on-exec flag for the new file descriptor.  Specifying this "
+"flag permits a program to avoid additional B<fcntl>(2)  B<F_SETFD> "
+"operations to set the B<FD_CLOEXEC> flag."
+msgstr ""
+
+#.  This flag fixes only one form of the race condition;
+#.  The race can also occur with, for example, file descriptors
+#.  returned by accept(), pipe(), etc.
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:245
+msgid ""
+"Note that the use of this flag is essential in some multithreaded programs, "
+"because using a separate B<fcntl>(2)  B<F_SETFD> operation to set the "
+"B<FD_CLOEXEC> flag does not suffice to avoid race conditions where one "
+"thread opens a file descriptor and attempts to set its close-on-exec flag "
+"using B<fcntl>(2)  at the same time as another thread does a B<fork>(2)  "
+"plus B<execve>(2).  Depending on the order of execution, the race may lead "
+"to the file descriptor returned by B<open>()  being unintentionally leaked "
+"to the program executed by the child process created by B<fork>(2).  (This "
+"kind of race is in principle possible for any system call that creates a "
+"file descriptor whose close-on-exec flag should be set, and various other "
+"Linux system calls provide an equivalent of the B<O_CLOEXEC> flag to deal "
+"with this problem.)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:245
+#, no-wrap
+msgid "B<O_CREAT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:248
+msgid "If the file does not exist, it will be created."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:251
+msgid ""
+"The owner (user ID) of the new file is set to the effective user ID of the "
+"process."
+msgstr ""
+
+#.  As at 2.6.25, bsdgroups is supported by ext2, ext3, ext4, and
+#.  XFS (since 2.6.14).
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:267
+msgid ""
+"The group ownership (group ID) of the new file is set either to the "
+"effective group ID of the process (System V semantics)  or to the group ID "
+"of the parent directory (BSD semantics).  On Linux, the behavior depends on "
+"whether the set-group-ID mode bit is set on the parent directory: if that "
+"bit is set, then BSD semantics apply; otherwise, System V semantics apply.  "
+"For some filesystems, the behavior also depends on the I<bsdgroups> and "
+"I<sysvgroups> mount options described in B<mount>(8))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:295
+msgid ""
+"The I<mode> argument specifies the file mode bits be applied when a new file "
+"is created.  This argument must be supplied when B<O_CREAT> or B<O_TMPFILE> "
+"is specified in I<flags>; if neither B<O_CREAT> nor B<O_TMPFILE> is "
+"specified, then I<mode> is ignored.  The effective mode is modified by the "
+"process's I<umask> in the usual way: in the absence of a default ACL, the "
+"mode of the created file is I<(mode\\ &\\ ~umask)>.  Note that this mode "
+"applies only to future accesses of the newly created file; the B<open>()  "
+"call that creates a read-only file may well return a read/write file "
+"descriptor."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:298
+msgid "The following symbolic constants are provided for I<mode>:"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:298
+#, no-wrap
+msgid "B<S_IRWXU>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:301
+msgid "00700 user (file owner) has read, write, and execute permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:301
+#, no-wrap
+msgid "B<S_IRUSR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:304
+msgid "00400 user has read permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:304
+#, no-wrap
+msgid "B<S_IWUSR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:307
+msgid "00200 user has write permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:307
+#, no-wrap
+msgid "B<S_IXUSR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:310
+msgid "00100 user has execute permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:310
+#, no-wrap
+msgid "B<S_IRWXG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:313
+msgid "00070 group has read, write, and execute permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:313
+#, no-wrap
+msgid "B<S_IRGRP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:316
+msgid "00040 group has read permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:316
+#, no-wrap
+msgid "B<S_IWGRP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:319
+msgid "00020 group has write permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:319
+#, no-wrap
+msgid "B<S_IXGRP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:322
+msgid "00010 group has execute permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:322
+#, no-wrap
+msgid "B<S_IRWXO>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:325
+msgid "00007 others have read, write, and execute permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:325
+#, no-wrap
+msgid "B<S_IROTH>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:328
+msgid "00004 others have read permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:328
+#, no-wrap
+msgid "B<S_IWOTH>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:331
+msgid "00002 others have write permission"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:331
+#, no-wrap
+msgid "B<S_IXOTH>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:334
+msgid "00001 others have execute permission"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:341
+msgid ""
+"According to POSIX, the effect when other bits are set in I<mode> is "
+"unspecified.  On Linux, the following bits are also honored in I<mode>:"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:342
+#, no-wrap
+msgid "B<S_ISUID>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:345
+msgid "0004000 set-user-ID bit"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:345
+#, no-wrap
+msgid "B<S_ISGID>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:349
+msgid "0002000 set-group-ID bit (see B<stat>(2))"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:349
+#, no-wrap
+msgid "B<S_ISVTX>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:353
+msgid "0001000 sticky bit (see B<stat>(2))"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:354
+#, no-wrap
+msgid "B<O_DIRECT> (since Linux 2.4.10)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:371
+msgid ""
+"Try to minimize cache effects of the I/O to and from this file.  In general "
+"this will degrade performance, but it is useful in special situations, such "
+"as when applications do their own caching.  File I/O is done directly "
+"to/from user-space buffers.  The B<O_DIRECT> flag on its own makes an effort "
+"to transfer data synchronously, but does not give the guarantees of the "
+"B<O_SYNC> flag that data and necessary metadata are transferred.  To "
+"guarantee synchronous I/O, B<O_SYNC> must be used in addition to "
+"B<O_DIRECT>.  See NOTES below for further discussion."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:375
+msgid ""
+"A semantically similar (but deprecated) interface for block devices is "
+"described in B<raw>(8)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:375
+#, no-wrap
+msgid "B<O_DIRECTORY>"
+msgstr ""
+
+#.  But see the following and its replies:
+#.  http://marc.theaimsgroup.com/?t=112748702800001&r=1&w=2
+#.  [PATCH] open: O_DIRECTORY and O_CREAT together should fail
+#.  O_DIRECTORY | O_CREAT causes O_DIRECTORY to be ignored.
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:387
+msgid ""
+"If I<pathname> is not a directory, cause the open to fail.  This flag was "
+"added in kernel version 2.1.126, to avoid denial-of-service problems if "
+"B<opendir>(3)  is called on a FIFO or tape device."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:387
+#, no-wrap
+msgid "B<O_DSYNC>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:393
+msgid ""
+"Write operations on the file will complete according to the requirements of "
+"synchronized I/O I<data> integrity completion."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:405
+msgid ""
+"By the time B<write>(2)  (and similar)  return, the output data has been "
+"transferred to the underlying hardware, along with any file metadata that "
+"would be required to retrieve that data (i.e., as though each B<write>(2)  "
+"was followed by a call to B<fdatasync>(2)).  I<See NOTES below>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:405
+#, no-wrap
+msgid "B<O_EXCL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:415
+msgid ""
+"Ensure that this call creates the file: if this flag is specified in "
+"conjunction with B<O_CREAT>, and I<pathname> already exists, then B<open>()  "
+"will fail."
+msgstr ""
+
+#.  POSIX.1-2001 explicitly requires this behavior.
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:423
+msgid ""
+"When these two flags are specified, symbolic links are not followed: if "
+"I<pathname> is a symbolic link, then B<open>()  fails regardless of where "
+"the symbolic link points to."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:439
+msgid ""
+"In general, the behavior of B<O_EXCL> is undefined if it is used without "
+"B<O_CREAT>.  There is one exception: on Linux 2.6 and later, B<O_EXCL> can "
+"be used without B<O_CREAT> if I<pathname> refers to a block device.  If the "
+"block device is in use by the system (e.g., mounted), B<open>()  fails with "
+"the error B<EBUSY>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:461
+msgid ""
+"On NFS, B<O_EXCL> is supported only when using NFSv3 or later on kernel 2.6 "
+"or later.  In NFS environments where B<O_EXCL> support is not provided, "
+"programs that rely on it for performing locking tasks will contain a race "
+"condition.  Portable programs that want to perform atomic file locking using "
+"a lockfile, and need to avoid reliance on NFS support for B<O_EXCL>, can "
+"create a unique file on the same filesystem (e.g., incorporating hostname "
+"and PID), and use B<link>(2)  to make a link to the lockfile.  If B<link>(2)  "
+"returns 0, the lock is successful.  Otherwise, use B<stat>(2)  on the unique "
+"file to check if its link count has increased to 2, in which case the lock "
+"is also successful."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:461
+#, no-wrap
+msgid "B<O_LARGEFILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:483
+msgid ""
+"(LFS)  Allow files whose sizes cannot be represented in an I<off_t> (but can "
+"be represented in an I<off64_t>)  to be opened.  The B<_LARGEFILE64_SOURCE> "
+"macro must be defined (before including I<any> header files)  in order to "
+"obtain this definition.  Setting the B<_FILE_OFFSET_BITS> feature test macro "
+"to 64 (rather than using B<O_LARGEFILE>)  is the preferred method of "
+"accessing large files on 32-bit systems (see B<feature_test_macros>(7))."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:483
+#, no-wrap
+msgid "B<O_NOATIME> (since Linux 2.6.8)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:490
+msgid ""
+"Do not update the file last access time (I<st_atime> in the inode)  when the "
+"file is B<read>(2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:492
+msgid "This flag can be employed only if one of the following conditions is true:"
+msgstr ""
+
+#. type: IP
+#: raw/manpages-dev/man2/open.2:493 raw/manpages-dev/man2/open.2:497 raw/manpages-dev/man2/open.2:582 raw/manpages-dev/man2/open.2:590 raw/manpages-dev/man2/open.2:596 raw/manpages-dev/man2/open.2:602 raw/manpages-dev/man2/open.2:608 raw/manpages-dev/man2/open.2:621 raw/manpages-dev/man2/open.2:742 raw/manpages-dev/man2/open.2:750
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#.  Strictly speaking: the filesystem UID
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:497
+msgid "The effective UID of the process matches the owner UID of the file."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:502
+msgid ""
+"The calling process has the B<CAP_FOWNER> capability in its user namespace "
+"and the owner UID of the file has a mapping in the namespace."
+msgstr ""
+
+#.  The O_NOATIME flag also affects the treatment of st_atime
+#.  by mmap() and readdir(2), MTK, Dec 04.
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:510
+msgid ""
+"This flag is intended for use by indexing or backup programs, where its use "
+"can significantly reduce the amount of disk activity.  This flag may not be "
+"effective on all filesystems.  One example is NFS, where the server "
+"maintains the access time."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:510
+#, no-wrap
+msgid "B<O_NOCTTY>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:518
+msgid ""
+"If I<pathname> refers to a terminal device\\(emsee B<tty>(4)\\(emit will not "
+"become the process's controlling terminal even if the process does not have "
+"one."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:518
+#, no-wrap
+msgid "B<O_NOFOLLOW>"
+msgstr ""
+
+#.  The headers from glibc 2.0.100 and later include a
+#.  definition of this flag; \fIkernels before 2.1.126 will ignore it if
+#.  used\fP.
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:530
+msgid ""
+"If I<pathname> is a symbolic link, then the open fails.  This is a FreeBSD "
+"extension, which was added to Linux in version 2.1.126.  Symbolic links in "
+"earlier components of the pathname will still be followed.  See also "
+"B<O_PATH> below."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:530
+#, no-wrap
+msgid "B<O_NONBLOCK> or B<O_NDELAY>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:537
+msgid ""
+"When possible, the file is opened in nonblocking mode.  Neither the "
+"B<open>()  nor any subsequent operations on the file descriptor which is "
+"returned will cause the calling process to wait."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:548
+msgid ""
+"Note that this flag has no effect for regular files and block devices; that "
+"is, I/O operations will (briefly) block when device activity is required, "
+"regardless of whether B<O_NONBLOCK> is set.  Since B<O_NONBLOCK> semantics "
+"might eventually be implemented, applications should not depend upon "
+"blocking behavior when specifying this flag for regular files and block "
+"devices."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:555
+msgid ""
+"For the handling of FIFOs (named pipes), see also B<fifo>(7).  For a "
+"discussion of the effect of B<O_NONBLOCK> in conjunction with mandatory file "
+"locks and with file leases, see B<fcntl>(2)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:555
+#, no-wrap
+msgid "B<O_PATH> (since Linux 2.6.39)"
+msgstr ""
+
+#.  commit 1abf0c718f15a56a0a435588d1b104c7a37dc9bd
+#.  commit 326be7b484843988afe57566b627fb7a70beac56
+#.  commit 65cfc6722361570bfe255698d9cd4dccaf47570d
+#
+#.  http://thread.gmane.org/gmane.linux.man/2790/focus=3496
+#. 	Subject: Re: [PATCH] open(2): document O_PATH
+#. 	Newsgroups: gmane.linux.man, gmane.linux.kernel
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:577
+msgid ""
+"Obtain a file descriptor that can be used for two purposes: to indicate a "
+"location in the filesystem tree and to perform operations that act purely at "
+"the file descriptor level.  The file itself is not opened, and other file "
+"operations (e.g., B<read>(2), B<write>(2), B<fchmod>(2), B<fchown>(2), "
+"B<fgetxattr>(2), B<mmap>(2))  fail with the error B<EBADF>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:581
+msgid ""
+"The following operations I<can> be performed on the resulting file "
+"descriptor:"
+msgstr ""
+
+#.  commit 332a2e1244bd08b9e3ecd378028513396a004a24
+#.  fstat(): commit 55815f70147dcfa3ead5738fd56d3574e2e3c1c2
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:590
+msgid ""
+"B<close>(2); B<fchdir>(2)  (since Linux 3.5); B<fstat>(2)  (since Linux "
+"3.6)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:596
+msgid "Duplicating the file descriptor (B<dup>(2), B<fcntl>(2)  B<F_DUPFD>, etc.)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:602
+msgid ""
+"Getting and setting file descriptor flags (B<fcntl>(2)  B<F_GETFD> and "
+"B<F_SETFD>)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:608
+msgid ""
+"Retrieving open file status flags using the B<fcntl>(2)  B<F_GETFL> "
+"operation: the returned flags will include the bit B<O_PATH>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:621
+msgid ""
+"Passing the file descriptor as the I<dirfd> argument of B<openat>(2)  and "
+"the other \"*at()\" system calls.  This includes B<linkat>(2)  with "
+"B<AT_EMPTY_PATH> (or via procfs using B<AT_SYMLINK_FOLLOW>)  even if the "
+"file is not a directory."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:627
+msgid ""
+"Passing the file descriptor to another process via a UNIX domain socket (see "
+"B<SCM_RIGHTS> in B<unix>(7))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:639
+msgid ""
+"When B<O_PATH> is specified in I<flags>, flag bits other than B<O_CLOEXEC>, "
+"B<O_DIRECTORY>, and B<O_NOFOLLOW> are ignored."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:655
+msgid ""
+"If I<pathname> is a symbolic link and the B<O_NOFOLLOW> flag is also "
+"specified, then the call returns a file descriptor referring to the symbolic "
+"link.  This file descriptor can be used as the I<dirfd> argument in calls to "
+"B<fchownat>(2), B<fstatat>(2), B<linkat>(2), and B<readlinkat>(2)  with an "
+"empty pathname to have the calls operate on the symbolic link."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:655
+#, no-wrap
+msgid "B<O_SYNC>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:667
+msgid ""
+"Write operations on the file will complete according to the requirements of "
+"synchronized I/O I<file> integrity completion (by contrast with the "
+"synchronized I/O I<data> integrity completion provided by B<O_DSYNC>.)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:678
+msgid ""
+"By the time B<write>(2)  (and similar)  return, the output data and "
+"associated file metadata have been transferred to the underlying hardware "
+"(i.e., as though each B<write>(2)  was followed by a call to B<fsync>(2)).  "
+"I<See NOTES below>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:678
+#, no-wrap
+msgid "B<O_TMPFILE> (since Linux 3.11)"
+msgstr ""
+
+#.  commit 60545d0d4610b02e55f65d141c95b18ccf855b6e
+#.  commit f4e0c30c191f87851c4a53454abb55ee276f4a7e
+#.  commit bb458c644a59dbba3a1fe59b27106c5e68e1c4bd
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:690
+msgid ""
+"Create an unnamed temporary file.  The I<pathname> argument specifies a "
+"directory; an unnamed inode will be created in that directory's filesystem.  "
+"Anything written to the resulting file will be lost when the last file "
+"descriptor is closed, unless the file is given a name."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:704
+msgid ""
+"B<O_TMPFILE> must be specified with one of B<O_RDWR> or B<O_WRONLY> and, "
+"optionally, B<O_EXCL>.  If B<O_EXCL> is not specified, then B<linkat>(2)  "
+"can be used to link the temporary file into the filesystem, making it "
+"permanent, using code like the following:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:710
+#, no-wrap
+msgid ""
+"char path[PATH_MAX];\n"
+"fd = open(\"/path/to/dir\", O_TMPFILE | O_RDWR,\n"
+"                        S_IRUSR | S_IWUSR);\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:712
+#, no-wrap
+msgid "/* File I/O on 'fd'... */\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:716
+#, no-wrap
+msgid ""
+"snprintf(path, PATH_MAX,  \"/proc/self/fd/%d\", fd);\n"
+"linkat(AT_FDCWD, path, AT_FDCWD, \"/path/for/file\",\n"
+"                        AT_SYMLINK_FOLLOW);\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:725
+msgid ""
+"In this case, the B<open>()  I<mode> argument determines the file permission "
+"mode, as with B<O_CREAT>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:737
+msgid ""
+"Specifying B<O_EXCL> in conjunction with B<O_TMPFILE> prevents a temporary "
+"file from being linked into the filesystem in the above manner.  (Note that "
+"the meaning of B<O_EXCL> in this case is different from the meaning of "
+"B<O_EXCL> otherwise.)"
+msgstr ""
+
+#.  Inspired by http://lwn.net/Articles/559147/
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:741
+msgid "There are two main use cases for B<O_TMPFILE>:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:750
+msgid ""
+"Improved B<tmpfile>(3)  functionality: race-free creation of temporary files "
+"that (1) are automatically deleted when closed; (2) can never be reached via "
+"any pathname; (3) are not subject to symlink attacks; and (4) do not require "
+"the caller to devise unique names."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:761
+msgid ""
+"Creating a file that is initially invisible, which is then populated with "
+"data and adjusted to have appropriate filesystem attributes (B<fchown>(2), "
+"B<fchmod>(2), B<fsetxattr>(2), etc.)  before being atomically linked into "
+"the filesystem in a fully formed state (using B<linkat>(2)  as described "
+"above)."
+msgstr ""
+
+#.  To check for support, grep for "tmpfile" in kernel sources
+#.  commit 99b6436bc29e4f10e4388c27a3e4810191cc4788
+#.  commit ab29743117f9f4c22ac44c13c1647fb24fb2bafe
+#.  commit ef3b9af50bfa6a1f02cd7b3f5124b712b1ba3e3c
+#.  commit 50732df02eefb39ab414ef655979c2c9b64ad21c
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:778
+msgid ""
+"B<O_TMPFILE> requires support by the underlying filesystem; only a subset of "
+"Linux filesystems provide that support.  In the initial implementation, "
+"support was provided in the ext2, ext3, ext4, UDF, Minix, and shmem "
+"filesystems.  Support for other filesystems has subsequently been added as "
+"follows: XFS (Linux 3.15); Btrfs (Linux 3.16); F2FS (Linux 3.16); and ubifs "
+"(Linux 4.9)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:778
+#, no-wrap
+msgid "B<O_TRUNC>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:792
+msgid ""
+"If the file already exists and is a regular file and the access mode allows "
+"writing (i.e., is B<O_RDWR> or B<O_WRONLY>)  it will be truncated to length "
+"0.  If the file is a FIFO or terminal device file, the B<O_TRUNC> flag is "
+"ignored.  Otherwise, the effect of B<O_TRUNC> is unspecified."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:792
+#, no-wrap
+msgid "creat()"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:801
+msgid ""
+"A call to B<creat>()  is equivalent to calling B<open>()  with I<flags> "
+"equal to B<O_CREAT|O_WRONLY|O_TRUNC>."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:801
+#, no-wrap
+msgid "openat()"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:807
+msgid ""
+"The B<openat>()  system call operates in exactly the same way as B<open>(), "
+"except for the differences described here."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:817
+msgid ""
+"If the pathname given in I<pathname> is relative, then it is interpreted "
+"relative to the directory referred to by the file descriptor I<dirfd> "
+"(rather than relative to the current working directory of the calling "
+"process, as is done by B<open>()  for a relative pathname)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:829
+msgid ""
+"If I<pathname> is relative and I<dirfd> is the special value B<AT_FDCWD>, "
+"then I<pathname> is interpreted relative to the current working directory of "
+"the calling process (like B<open>())."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:835
+msgid "If I<pathname> is absolute, then I<dirfd> is ignored."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:835
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:844
+msgid ""
+"B<open>(), B<openat>(), and B<creat>()  return the new file descriptor, or "
+"-1 if an error occurred (in which case, I<errno> is set appropriately)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:844
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:850
+msgid "B<open>(), B<openat>(), and B<creat>()  can fail with the following errors:"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:850
+#, no-wrap
+msgid "B<EACCES>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:859
+msgid ""
+"The requested access to the file is not allowed, or search permission is "
+"denied for one of the directories in the path prefix of I<pathname>, or the "
+"file did not exist yet and write access to the parent directory is not "
+"allowed.  (See also B<path_resolution>(7).)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:859
+#, no-wrap
+msgid "B<EDQUOT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:865
+msgid ""
+"Where B<O_CREAT> is specified, the file does not exist, and the user's quota "
+"of disk blocks or inodes on the filesystem has been exhausted."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:865
+#, no-wrap
+msgid "B<EEXIST>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:871
+msgid "I<pathname> already exists and B<O_CREAT> and B<O_EXCL> were used."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:871
+#, no-wrap
+msgid "B<EFAULT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:875
+msgid "I<pathname> points outside your accessible address space."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:875
+#, no-wrap
+msgid "B<EFBIG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:879
+msgid "See B<EOVERFLOW>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:879
+#, no-wrap
+msgid "B<EINTR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:886
+msgid ""
+"While blocked waiting to complete an open of a slow device (e.g., a FIFO; "
+"see B<fifo>(7)), the call was interrupted by a signal handler; see "
+"B<signal>(7)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:886 raw/manpages-dev/man2/open.2:894 raw/manpages-dev/man2/open.2:899
+#, no-wrap
+msgid "B<EINVAL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:894
+msgid ""
+"The filesystem does not support the B<O_DIRECT> flag.  See B<NOTES> for more "
+"information."
+msgstr ""
+
+#.  In particular, __O_TMPFILE instead of O_TMPFILE
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:899
+msgid "Invalid value in I<flags>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:909
+msgid ""
+"B<O_TMPFILE> was specified in I<flags>, but neither B<O_WRONLY> nor "
+"B<O_RDWR> was specified."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:909 raw/manpages-dev/man2/open.2:918
+#, no-wrap
+msgid "B<EISDIR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:918
+msgid ""
+"I<pathname> refers to a directory and the access requested involved writing "
+"(that is, B<O_WRONLY> or B<O_RDWR> is set)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:932
+msgid ""
+"I<pathname> refers to an existing directory, B<O_TMPFILE> and one of "
+"B<O_WRONLY> or B<O_RDWR> were specified in I<flags>, but this kernel version "
+"does not provide the B<O_TMPFILE> functionality."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:932 raw/manpages-dev/man2/open.2:936
+#, no-wrap
+msgid "B<ELOOP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:936
+msgid "Too many symbolic links were encountered in resolving I<pathname>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:945
+msgid ""
+"I<pathname> was a symbolic link, and I<flags> specified B<O_NOFOLLOW> but "
+"not B<O_PATH>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:945
+#, no-wrap
+msgid "B<EMFILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:952
+msgid ""
+"The per-process limit on the number of open file descriptors has been "
+"reached (see the description of B<RLIMIT_NOFILE> in B<getrlimit>(2))."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:952
+#, no-wrap
+msgid "B<ENAMETOOLONG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:956
+msgid "I<pathname> was too long."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:956
+#, no-wrap
+msgid "B<ENFILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:959
+msgid "The system-wide limit on the total number of open files has been reached."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:959
+#, no-wrap
+msgid "B<ENODEV>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:966
+msgid ""
+"I<pathname> refers to a device special file and no corresponding device "
+"exists.  (This is a Linux kernel bug; in this situation B<ENXIO> must be "
+"returned.)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:966 raw/manpages-dev/man2/open.2:973
+#, no-wrap
+msgid "B<ENOENT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:973
+msgid ""
+"B<O_CREAT> is not set and the named file does not exist.  Or, a directory "
+"component in I<pathname> does not exist or is a dangling symbolic link."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:987
+msgid ""
+"I<pathname> refers to a nonexistent directory, B<O_TMPFILE> and one of "
+"B<O_WRONLY> or B<O_RDWR> were specified in I<flags>, but this kernel version "
+"does not provide the B<O_TMPFILE> functionality."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:987 raw/manpages-dev/man2/open.2:994
+#, no-wrap
+msgid "B<ENOMEM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:994
+msgid ""
+"The named file is a FIFO, but memory for the FIFO buffer can't be allocated "
+"because the per-user hard limit on memory allocation for pipes has been "
+"reached and the caller is not privileged; see B<pipe>(7)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:997
+msgid "Insufficient kernel memory was available."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:997
+#, no-wrap
+msgid "B<ENOSPC>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1003
+msgid ""
+"I<pathname> was to be created but the device containing I<pathname> has no "
+"room for the new file."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1003 raw/manpages-dev/man2/open.2:1079
+#, no-wrap
+msgid "B<ENOTDIR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1010
+msgid ""
+"A component used as a directory in I<pathname> is not, in fact, a directory, "
+"or B<O_DIRECTORY> was specified and I<pathname> was not a directory."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1010 raw/manpages-dev/man2/open.2:1015
+#, no-wrap
+msgid "B<ENXIO>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1015
+msgid ""
+"B<O_NONBLOCK> | B<O_WRONLY> is set, the named file is a FIFO, and no process "
+"has the FIFO open for reading."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1018
+msgid "The file is a device special file and no corresponding device exists."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1018
+#, no-wrap
+msgid "B<EOPNOTSUPP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1024
+msgid "The filesystem containing I<pathname> does not support B<O_TMPFILE>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1024
+#, no-wrap
+msgid "B<EOVERFLOW>"
+msgstr ""
+
+#.  See http://bugzilla.kernel.org/show_bug.cgi?id=7253
+#.  "Open of a large file on 32-bit fails with EFBIG, should be EOVERFLOW"
+#.  Reported 2006-10-03
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1044
+msgid ""
+"I<pathname> refers to a regular file that is too large to be opened.  The "
+"usual scenario here is that an application compiled on a 32-bit platform "
+"without I<-D_FILE_OFFSET_BITS=64> tried to open a file whose size exceeds "
+"I<(1E<lt>E<lt>31)-1> bytes; see also B<O_LARGEFILE> above.  This is the "
+"error specified by POSIX.1; in kernels before 2.6.24, Linux gave the error "
+"B<EFBIG> for this case."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1044 raw/manpages-dev/man2/open.2:1051
+#, no-wrap
+msgid "B<EPERM>"
+msgstr ""
+
+#.  Strictly speaking, it's the filesystem UID... (MTK)
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1051
+msgid ""
+"The B<O_NOATIME> flag was specified, but the effective user ID of the caller "
+"did not match the owner of the file and the caller was not privileged."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1055
+msgid "The operation was prevented by a file seal; see B<fcntl>(2)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1055
+#, no-wrap
+msgid "B<EROFS>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1060
+msgid ""
+"I<pathname> refers to a file on a read-only filesystem and write access was "
+"requested."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1060
+#, no-wrap
+msgid "B<ETXTBSY>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1065
+msgid ""
+"I<pathname> refers to an executable image which is currently being executed "
+"and write access was requested."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1065
+#, no-wrap
+msgid "B<EWOULDBLOCK>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1072
+msgid ""
+"The B<O_NONBLOCK> flag was specified, and an incompatible lease was held on "
+"the file (see B<fcntl>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1075
+msgid "The following additional errors can occur for B<openat>():"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/open.2:1075
+#, no-wrap
+msgid "B<EBADF>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1079
+msgid "I<dirfd> is not a valid file descriptor."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1085
+msgid ""
+"I<pathname> is a relative pathname and I<dirfd> is a file descriptor "
+"referring to a file other than a directory."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:1085
+#, no-wrap
+msgid "VERSIONS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1089
+msgid ""
+"B<openat>()  was added to Linux in kernel 2.6.16; library support was added "
+"to glibc in version 2.4."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:1089
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1093
+msgid "B<open>(), B<creat>()  SVr4, 4.3BSD, POSIX.1-2001, POSIX.1-2008."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1096
+msgid "B<openat>(): POSIX.1-2008."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1107
+msgid ""
+"The B<O_DIRECT>, B<O_NOATIME>, B<O_PATH>, and B<O_TMPFILE> flags are "
+"Linux-specific.  One must define B<_GNU_SOURCE> to obtain their definitions."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1122
+msgid ""
+"The B<O_CLOEXEC>, B<O_DIRECTORY>, and B<O_NOFOLLOW> flags are not specified "
+"in POSIX.1-2001, but are specified in POSIX.1-2008.  Since glibc 2.12, one "
+"can obtain their definitions by defining either B<_POSIX_C_SOURCE> with a "
+"value greater than or equal to 200809L or B<_XOPEN_SOURCE> with a value "
+"greater than or equal to 700.  In glibc 2.11 and earlier, one obtains the "
+"definitions by defining B<_GNU_SOURCE>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1133
+msgid ""
+"As noted in B<feature_test_macros>(7), feature test macros such as "
+"B<_POSIX_C_SOURCE>, B<_XOPEN_SOURCE>, and B<_GNU_SOURCE> must be defined "
+"before including I<any> header files."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:1133
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1141
+msgid ""
+"Under Linux, the B<O_NONBLOCK> flag indicates that one wants to open but "
+"does not necessarily have the intention to read or write.  This is typically "
+"used to open devices in order to get a file descriptor for use with "
+"B<ioctl>(2)."
+msgstr ""
+
+#.  Linux 2.0, 2.5: truncate
+#.  Solaris 5.7, 5.8: truncate
+#.  Irix 6.5: truncate
+#.  Tru64 5.1B: truncate
+#.  HP-UX 11.22: truncate
+#.  FreeBSD 4.7: truncate
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1152
+msgid ""
+"The (undefined) effect of B<O_RDONLY | O_TRUNC> varies among "
+"implementations.  On many systems the file is actually truncated."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1160
+msgid ""
+"Note that B<open>()  can open device special files, but B<creat>()  cannot "
+"create them; use B<mknod>(2)  instead."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1183
+msgid ""
+"If the file is newly created, its I<st_atime>, I<st_ctime>, I<st_mtime> "
+"fields (respectively, time of last access, time of last status change, and "
+"time of last modification; see B<stat>(2))  are set to the current time, and "
+"so are the I<st_ctime> and I<st_mtime> fields of the parent directory.  "
+"Otherwise, if the file is modified because of the B<O_TRUNC> flag, its "
+"I<st_ctime> and I<st_mtime> fields are set to the current time."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1196
+msgid ""
+"The files in the I</proc/[pid]/fd> directory show the open file descriptors "
+"of the process with the PID I<pid>.  The files in the I</proc/[pid]/fdinfo> "
+"directory show even more information about these files descriptors.  See "
+"B<proc>(5)  for further details of both of these directories."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:1196
+#, no-wrap
+msgid "Open file descriptions"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1204
+msgid ""
+"The term open file description is the one used by POSIX to refer to the "
+"entries in the system-wide table of open files.  In other contexts, this "
+"object is variously also called an \"open file object\", a \"file handle\", "
+"an \"open file table entry\", or\\(emin kernel-developer parlance\\(ema "
+"I<struct file>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1217
+msgid ""
+"When a file descriptor is duplicated (using B<dup>(2)  or similar), the "
+"duplicate refers to the same open file description as the original file "
+"descriptor, and the two file descriptors consequently share the file offset "
+"and file status flags.  Such sharing can also occur between processes: a "
+"child process created via B<fork>(2)  inherits duplicates of its parent's "
+"file descriptors, and those duplicates refer to the same open file "
+"descriptions."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1223
+msgid ""
+"Each B<open>()  of a file creates a new open file description; thus, there "
+"may be multiple open file descriptions corresponding to a file inode."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1232
+msgid ""
+"On Linux, one can use the B<kcmp>(2)  B<KCMP_FILE> operation to test whether "
+"two file descriptors (in the same process or in two different processes)  "
+"refer to the same open file description."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:1232
+#, no-wrap
+msgid "Synchronized I/O"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1247
+msgid ""
+"The POSIX.1-2008 \"synchronized I/O\" option specifies different variants of "
+"synchronized I/O, and specifies the B<open>()  flags B<O_SYNC>, B<O_DSYNC>, "
+"and B<O_RSYNC> for controlling the behavior.  Regardless of whether an "
+"implementation supports this option, it must at least support the use of "
+"B<O_SYNC> for regular files."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1258
+msgid ""
+"Linux implements B<O_SYNC> and B<O_DSYNC>, but not B<O_RSYNC>.  (Somewhat "
+"incorrectly, glibc defines B<O_RSYNC> to have the same value as B<O_SYNC>.)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1276
+msgid ""
+"B<O_SYNC> provides synchronized I/O I<file> integrity completion, meaning "
+"write operations will flush data and all associated metadata to the "
+"underlying hardware.  B<O_DSYNC> provides synchronized I/O I<data> integrity "
+"completion, meaning write operations will flush data to the underlying "
+"hardware, but will only flush metadata updates that are required to allow a "
+"subsequent read operation to complete successfully.  Data integrity "
+"completion can reduce the number of disk operations that are required for "
+"applications that don't need the guarantees of file integrity completion."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1293
+msgid ""
+"To understand the difference between the two types of completion, consider "
+"two pieces of file metadata: the file last modification timestamp "
+"(I<st_mtime>)  and the file length.  All write operations will update the "
+"last file modification timestamp, but only writes that add data to the end "
+"of the file will change the file length.  The last modification timestamp is "
+"not needed to ensure that a read completes successfully, but the file length "
+"is.  Thus, B<O_DSYNC> would only guarantee to flush updates to the file "
+"length metadata (whereas B<O_SYNC> would also always flush the last "
+"modification timestamp metadata)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1305
+msgid ""
+"Before Linux 2.6.33, Linux implemented only the B<O_SYNC> flag for "
+"B<open>().  However, when that flag was specified, most filesystems actually "
+"provided the equivalent of synchronized I/O I<data> integrity completion "
+"(i.e., B<O_SYNC> was actually implemented as the equivalent of B<O_DSYNC>)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1324
+msgid ""
+"Since Linux 2.6.33, proper B<O_SYNC> support is provided.  However, to "
+"ensure backward binary compatibility, B<O_DSYNC> was defined with the same "
+"value as the historical B<O_SYNC>, and B<O_SYNC> was defined as a new "
+"(two-bit) flag value that includes the B<O_DSYNC> flag value.  This ensures "
+"that applications compiled against new headers get at least B<O_DSYNC> "
+"semantics on pre-2.6.33 kernels."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:1324
+#, no-wrap
+msgid "NFS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1328
+msgid ""
+"There are many infelicities in the protocol underlying NFS, affecting "
+"amongst others B<O_SYNC> and B<O_NDELAY>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1343
+msgid ""
+"On NFS filesystems with UID mapping enabled, B<open>()  may return a file "
+"descriptor but, for example, B<read>(2)  requests are denied with "
+"B<EACCES>.  This is because the client performs B<open>()  by checking the "
+"permissions, but UID mapping is performed by the server upon read and write "
+"requests."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:1343
+#, no-wrap
+msgid "FIFOs"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1351
+msgid ""
+"Opening the read or write end of a FIFO blocks until the other end is also "
+"opened (by another process or thread).  See B<fifo>(7)  for further details."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:1351
+#, no-wrap
+msgid "File access mode"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1366
+msgid ""
+"Unlike the other values that can be specified in I<flags>, the I<access "
+"mode> values B<O_RDONLY>, B<O_WRONLY>, and B<O_RDWR> do not specify "
+"individual bits.  Rather, they define the low order two bits of I<flags>, "
+"and are defined respectively as 0, 1, and 2.  In other words, the "
+"combination B<O_RDONLY | O_WRONLY> is a logical error, and certainly does "
+"not have the same meaning as B<O_RDWR>."
+msgstr ""
+
+#.  See for example util-linux's disk-utils/setfdprm.c
+#.  For some background on access mode 3, see
+#.  http://thread.gmane.org/gmane.linux.kernel/653123
+#.  "[RFC] correct flags to f_mode conversion in __dentry_open"
+#.  LKML, 12 Mar 2008
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1383
+msgid ""
+"Linux reserves the special, nonstandard access mode 3 (binary 11) in "
+"I<flags> to mean: check for read and write permission on the file and return "
+"a file descriptor that can't be used for reading or writing.  This "
+"nonstandard access mode is used by some Linux drivers to return a file "
+"descriptor that is to be used only for device-specific B<ioctl>(2)  "
+"operations."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:1383
+#, no-wrap
+msgid "Rationale for openat() and other directory file descriptor APIs"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1412
+msgid ""
+"B<openat>()  and the other system calls and library functions that take a "
+"directory file descriptor argument (i.e., B<execveat>(2), B<faccessat>(2), "
+"B<fanotify_mark>(2), B<fchmodat>(2), B<fchownat>(2), B<fstatat>(2), "
+"B<futimesat>(2), B<linkat>(2), B<mkdirat>(2), B<mknodat>(2), "
+"B<name_to_handle_at>(2), B<readlinkat>(2), B<renameat>(2), B<symlinkat>(2), "
+"B<unlinkat>(2), B<utimensat>(2), B<mkfifoat>(3), and B<scandirat>(3))  are "
+"supported for two reasons.  Here, the explanation is in terms of the "
+"B<openat>()  call, but the rationale is analogous for the other interfaces."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1443
+msgid ""
+"First, B<openat>()  allows an application to avoid race conditions that "
+"could occur when using B<open>()  to open files in directories other than "
+"the current working directory.  These race conditions result from the fact "
+"that some component of the directory prefix given to B<open>()  could be "
+"changed in parallel with the call to B<open>().  Suppose, for example, that "
+"we wish to create the file I<path/to/xxx.dep> if the file I<path/to/xxx> "
+"exists.  The problem is that between the existence check and the file "
+"creation step, I<path> or I<to> (which might be symbolic links)  could be "
+"modified to point to a different location.  Such races can be avoided by "
+"opening a file descriptor for the target directory, and then specifying that "
+"file descriptor as the I<dirfd> argument of (say)  B<fstatat>(2)  and "
+"B<openat>()."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1454
+msgid ""
+"Second, B<openat>()  allows the implementation of a per-thread \"current "
+"working directory\", via file descriptor(s) maintained by the application.  "
+"(This functionality can also be obtained by tricks based on the use of "
+"I</proc/self/fd/>dirfd, but less efficiently.)"
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/open.2:1454
+#, no-wrap
+msgid "O_DIRECT"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1471
+msgid ""
+"The B<O_DIRECT> flag may impose alignment restrictions on the length and "
+"address of user-space buffers and the file offset of I/Os.  In Linux "
+"alignment restrictions vary by filesystem and kernel version and might be "
+"absent entirely.  However there is currently no filesystem-independent "
+"interface for an application to discover these restrictions for a given file "
+"or filesystem.  Some filesystems provide their own interfaces for doing so, "
+"for example the B<XFS_IOC_DIOINFO> operation in B<xfsctl>(3)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1481
+msgid ""
+"Under Linux 2.4, transfer sizes, and the alignment of the user buffer and "
+"the file offset must all be multiples of the logical block size of the "
+"filesystem.  Since Linux 2.6.0, alignment to the logical block size of the "
+"underlying storage (typically 512 bytes) suffices.  The logical block size "
+"can be determined using the B<ioctl>(2)  B<BLKSSZGET> operation or from the "
+"shell using the command:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1483
+#, no-wrap
+msgid "    blockdev --getss\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1517
+msgid ""
+"B<O_DIRECT> I/Os should never be run concurrently with the B<fork>(2)  "
+"system call, if the memory buffer is a private mapping (i.e., any mapping "
+"created with the B<mmap>(2)  B<MAP_PRIVATE> flag; this includes memory "
+"allocated on the heap and statically allocated buffers).  Any such I/Os, "
+"whether submitted via an asynchronous I/O interface or from another thread "
+"in the process, should be completed before B<fork>(2)  is called.  Failure "
+"to do so can result in data corruption and undefined behavior in parent and "
+"child processes.  This restriction does not apply when the memory buffer for "
+"the B<O_DIRECT> I/Os was created using B<shmat>(2)  or B<mmap>(2)  with the "
+"B<MAP_SHARED> flag.  Nor does this restriction apply when the memory buffer "
+"has been advised as B<MADV_DONTFORK> with B<madvise>(2), ensuring that it "
+"will not be available to the child after B<fork>(2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1527
+msgid ""
+"The B<O_DIRECT> flag was introduced in SGI IRIX, where it has alignment "
+"restrictions similar to those of Linux 2.4.  IRIX has also a B<fcntl>(2)  "
+"call to query appropriate alignments, and sizes.  FreeBSD 4.x introduced a "
+"flag of the same name, but without alignment restrictions."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1536
+msgid ""
+"B<O_DIRECT> support was added under Linux in kernel version 2.4.10.  Older "
+"Linux kernels simply ignore this flag.  Some filesystems may not implement "
+"the flag and B<open>()  will fail with B<EINVAL> if it is used."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1547
+msgid ""
+"Applications should avoid mixing B<O_DIRECT> and normal I/O to the same "
+"file, and especially to overlapping byte regions in the same file.  Even "
+"when the filesystem correctly handles the coherency issues in this "
+"situation, overall I/O throughput is likely to be slower than using either "
+"mode alone.  Likewise, applications should avoid mixing B<mmap>(2)  of files "
+"with direct I/O to the same files."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1569
+msgid ""
+"The behavior of B<O_DIRECT> with NFS will differ from local filesystems.  "
+"Older kernels, or kernels configured in certain ways, may not support this "
+"combination.  The NFS protocol does not support passing the flag to the "
+"server, so B<O_DIRECT> I/O will bypass the page cache only on the client; "
+"the server may still cache the I/O.  The client asks the server to make the "
+"I/O synchronous to preserve the synchronous semantics of B<O_DIRECT>.  Some "
+"servers will perform poorly under these circumstances, especially if the I/O "
+"size is small.  Some servers may also be configured to lie to clients about "
+"the I/O having reached stable storage; this will avoid the performance "
+"penalty at some risk to data integrity in the event of server power "
+"failure.  The Linux NFS client places no alignment restrictions on "
+"B<O_DIRECT> I/O."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1576
+msgid ""
+"In summary, B<O_DIRECT> is a potentially powerful tool that should be used "
+"with caution.  It is recommended that applications treat use of B<O_DIRECT> "
+"as a performance option which is disabled by default."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1581
+msgid ""
+"\"The thing that has always disturbed me about O_DIRECT is that the whole "
+"interface is just stupid, and was probably designed by a deranged monkey on "
+"some serious mind-controlling substances.\"\\(emLinus"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:1582
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#.  FIXME . Check bugzilla report on open(O_ASYNC)
+#.  See http://bugzilla.kernel.org/show_bug.cgi?id=5993
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1593
+msgid ""
+"Currently, it is not possible to enable signal-driven I/O by specifying "
+"B<O_ASYNC> when calling B<open>(); use B<fcntl>(2)  to enable this flag."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1601
+msgid ""
+"One must check for two different error codes, B<EISDIR> and B<ENOENT>, when "
+"trying to determine whether the kernel supports B<O_TMPFILE> functionality."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1615
+msgid ""
+"When both B<O_CREAT> and B<O_DIRECTORY> are specified in I<flags> and the "
+"file specified by I<pathname> does not exist, B<open>()  will create a "
+"regular file (i.e., B<O_DIRECTORY> is ignored)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:1615
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1638
+msgid ""
+"B<chmod>(2), B<chown>(2), B<close>(2), B<dup>(2), B<fcntl>(2), B<link>(2), "
+"B<lseek>(2), B<mknod>(2), B<mmap>(2), B<mount>(2), B<open_by_handle_at>(2), "
+"B<read>(2), B<socket>(2), B<stat>(2), B<umask>(2), B<unlink>(2), "
+"B<write>(2), B<fopen>(3), B<acl>(5), B<fifo>(7), B<path_resolution>(7), "
+"B<symlink>(7)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/open.2:1638
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/open.2:1646
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at "
+"\\%https://www.kernel.org/doc/man-pages/."
+msgstr ""

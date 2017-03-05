@@ -1,0 +1,381 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: 2017-03-05 23:51+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man2/read.2:35
+#, no-wrap
+msgid "READ"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/read.2:35
+#, no-wrap
+msgid "2016-03-15"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/read.2:35
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/read.2:35
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:36
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:38
+msgid "read - read from a file descriptor"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:38
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:41
+#, no-wrap
+msgid "B<#include E<lt>unistd.hE<gt>>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:43
+#, no-wrap
+msgid "B<ssize_t read(int >I<fd>B<, void *>I<buf>B<, size_t >I<count>B<);>\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:44
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:52
+msgid ""
+"B<read>()  attempts to read up to I<count> bytes from file descriptor I<fd> "
+"into the buffer starting at I<buf>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:60
+msgid ""
+"On files that support seeking, the read operation commences at the file "
+"offset, and the file offset is incremented by the number of bytes read.  If "
+"the file offset is at or past the end of file, no bytes are read, and "
+"B<read>()  returns zero."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:75
+msgid ""
+"If I<count> is zero, B<read>()  I<may> detect the errors described below.  "
+"In the absence of any errors, or if B<read>()  does not check for errors, a "
+"B<read>()  with a I<count> of 0 returns zero and has no other effects."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:81
+msgid "If I<count> is greater than B<SSIZE_MAX>, the result is unspecified."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:81
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:91
+msgid ""
+"On success, the number of bytes read is returned (zero indicates end of "
+"file), and the file position is advanced by this number.  It is not an error "
+"if this number is smaller than the number of bytes requested; this may "
+"happen for example because fewer bytes are actually available right now "
+"(maybe because we were close to end-of-file, or because we are reading from "
+"a pipe, or from a terminal), or because B<read>()  was interrupted by a "
+"signal.  See also NOTES."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:97
+msgid ""
+"On error, -1 is returned, and I<errno> is set appropriately.  In this case, "
+"it is left unspecified whether the file position (if any) changes."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:97
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:98
+#, no-wrap
+msgid "B<EAGAIN>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:110
+msgid ""
+"The file descriptor I<fd> refers to a file other than a socket and has been "
+"marked nonblocking (B<O_NONBLOCK>), and the read would block.  See "
+"B<open>(2)  for further details on the B<O_NONBLOCK> flag."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:110
+#, no-wrap
+msgid "B<EAGAIN> or B<EWOULDBLOCK>"
+msgstr ""
+
+#.  Actually EAGAIN on Linux
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:121
+msgid ""
+"The file descriptor I<fd> refers to a socket and has been marked nonblocking "
+"(B<O_NONBLOCK>), and the read would block.  POSIX.1-2001 allows either error "
+"to be returned for this case, and does not require these constants to have "
+"the same value, so a portable application should check for both "
+"possibilities."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:121
+#, no-wrap
+msgid "B<EBADF>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:125
+msgid "I<fd> is not a valid file descriptor or is not open for reading."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:125
+#, no-wrap
+msgid "B<EFAULT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:129
+msgid "I<buf> is outside your accessible address space."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:129
+#, no-wrap
+msgid "B<EINTR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:133
+msgid ""
+"The call was interrupted by a signal before any data was read; see "
+"B<signal>(7)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:133 raw/manpages-dev/man2/read.2:144
+#, no-wrap
+msgid "B<EINVAL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:144
+msgid ""
+"I<fd> is attached to an object which is unsuitable for reading; or the file "
+"was opened with the B<O_DIRECT> flag, and either the address specified in "
+"I<buf>, the value specified in I<count>, or the file offset is not suitably "
+"aligned."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:154
+msgid ""
+"I<fd> was created via a call to B<timerfd_create>(2)  and the wrong size "
+"buffer was given to B<read>(); see B<timerfd_create>(2)  for further "
+"information."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:154
+#, no-wrap
+msgid "B<EIO>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:165
+msgid ""
+"I/O error.  This will happen for example when the process is in a background "
+"process group, tries to read from its controlling terminal, and either it is "
+"ignoring or blocking B<SIGTTIN> or its process group is orphaned.  It may "
+"also occur when there is a low-level I/O error while reading from a disk or "
+"tape."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/read.2:165
+#, no-wrap
+msgid "B<EISDIR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:169
+msgid "I<fd> refers to a directory."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:180
+msgid ""
+"Other errors may occur, depending on the object connected to I<fd>.  POSIX "
+"allows a B<read>()  that is interrupted after reading some data to return -1 "
+"(with I<errno> set to B<EINTR>)  or to return the number of bytes already "
+"read."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:180
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:182
+msgid "SVr4, 4.3BSD, POSIX.1-2001."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:182
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:189
+msgid ""
+"The types I<size_t> and I<ssize_t> are, respectively, unsigned and signed "
+"integer data types specified by POSIX.1."
+msgstr ""
+
+#.  commit e28cc71572da38a5a12c1cfe4d7032017adccf69
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:197
+msgid ""
+"On Linux, B<read>()  (and similar system calls) will transfer at most "
+"0x7ffff000 (2,147,479,552) bytes, returning the number of bytes actually "
+"transferred.  (This is true on both 32-bit and 64-bit systems.)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:213
+msgid ""
+"On NFS filesystems, reading small amounts of data will update the timestamp "
+"only the first time, subsequent calls may not do so.  This is caused by "
+"client side attribute caching, because most if not all NFS clients leave "
+"I<st_atime> (last file access time)  updates to the server, and client side "
+"reads satisfied from the client's cache will not cause I<st_atime> updates "
+"on the server as there are no server-side reads.  UNIX semantics can be "
+"obtained by disabling client-side attribute caching, but in most situations "
+"this will substantially increase server load and decrease performance."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:213
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:216
+msgid ""
+"According to POSIX.1-2008/SUSv4 Section XSI 2.9.7 (\"Thread Interactions "
+"with Regular File Operations\"):"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:221
+msgid ""
+"All of the following functions shall be atomic with respect to each other in "
+"the effects specified in POSIX.1-2008 when they operate on regular files or "
+"symbolic links: ..."
+msgstr ""
+
+#
+#.  http://thread.gmane.org/gmane.linux.kernel/1649458
+#.     From: Michael Kerrisk (man-pages <mtk.manpages <at> gmail.com>
+#.     Subject: Update of file offset on write() etc. is non-atomic with I/O
+#.     Date: 2014-02-17 15:41:37 GMT
+#.     Newsgroups: gmane.linux.kernel, gmane.linux.file-systems
+#.  commit 9c225f2655e36a470c4f58dbbc99244c5fc7f2d4
+#.     Author: Linus Torvalds <torvalds@linux-foundation.org>
+#.     Date:   Mon Mar 3 09:36:58 2014 -0800
+#.         vfs: atomic f_pos accesses as per POSIX
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:252
+msgid ""
+"Among the APIs subsequently listed are B<read>()  and B<readv>(2).  And "
+"among the effects that should be atomic across threads (and processes)  are "
+"updates of the file offset.  However, on Linux before version 3.14, this was "
+"not the case: if two processes that share an open file description (see "
+"B<open>(2))  perform a B<read>()  (or B<readv>(2))  at the same time, then "
+"the I/O operations were not atomic with respect updating the file offset, "
+"with the result that the reads in the two processes might (incorrectly) "
+"overlap in the blocks of data that they obtained.  This problem was fixed in "
+"Linux 3.14."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:252
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:265
+msgid ""
+"B<close>(2), B<fcntl>(2), B<ioctl>(2), B<lseek>(2), B<open>(2), B<pread>(2), "
+"B<readdir>(2), B<readlink>(2), B<readv>(2), B<select>(2), B<write>(2), "
+"B<fread>(3)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/read.2:265
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/read.2:273
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
+msgstr ""

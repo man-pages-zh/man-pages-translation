@@ -6,13 +6,14 @@
 
 _MAN_LANG="zh_CN"
 
-set -e
+#set -e
 
+printf "%s\n" "# UPDATE-PO #######################"
 for potitem in templates/*/man*/*.pot; do
     i="$(printf "%s" "$(basename "${potitem}")" | sed 's/....$//')" # "....$" -> ".pot$"
     echo "i is ${i}."
-    poitem="po/$(dirname "${potitem}" | cut -d\/ -f2- )/${i}.${_MAN_LANG}.po"
-    rawitem="raw/$(dirname "${potitem}" | cut -d\/ -f2- )/${i}"
+    poitem="po/$(dirname "${potitem}" | cut -d/ -f2- )/${i}.${_MAN_LANG}.po"
+    rawitem="raw/$(dirname "${potitem}" | cut -d/ -f2- )/${i}"
     printf "%s\n" "now poitem is ${poitem}."
     mkdir -p "$(dirname "${poitem}")"
     if [ -e "${poitem}" ]; then
@@ -28,3 +29,4 @@ for potitem in templates/*/man*/*.pot; do
         msginit --no-translator -i "${potitem}" -o "${poitem}" -l "${_MAN_LANG}.UTF-8"
     fi
 done
+printf "%s\n" "# UPDATE-PO ### END ###############"

@@ -1,0 +1,543 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: 2017-03-05 23:51+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man2/bind.2:68
+#, no-wrap
+msgid "BIND"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/bind.2:68
+#, no-wrap
+msgid "2016-12-12"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/bind.2:68
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/bind.2:68
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:69
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:71
+msgid "bind - bind a name to a socket"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:71
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:75
+#, no-wrap
+msgid ""
+"B<#include E<lt>sys/types.hE<gt>>          /* See NOTES */\n"
+"B<#include E<lt>sys/socket.hE<gt>>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:78
+#, no-wrap
+msgid ""
+"B<int bind(int >I<sockfd>B<, const struct sockaddr *>I<addr>B<,>\n"
+"B<         socklen_t >I<addrlen>B<);>\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:79
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:92
+msgid ""
+"When a socket is created with B<socket>(2), it exists in a name space "
+"(address family) but has no address assigned to it.  B<bind>()  assigns the "
+"address specified by I<addr> to the socket referred to by the file "
+"descriptor I<sockfd>.  I<addrlen> specifies the size, in bytes, of the "
+"address structure pointed to by I<addr>.  Traditionally, this operation is "
+"called \\(lqassigning a name to a socket\\(rq."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:99
+msgid ""
+"It is normally necessary to assign a local address using B<bind>()  before a "
+"B<SOCK_STREAM> socket may receive connections (see B<accept>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:130
+msgid ""
+"The rules used in name binding vary between address families.  Consult the "
+"manual entries in Section 7 for detailed information.  For B<AF_INET>, see "
+"B<ip>(7); for B<AF_INET6>, see B<ipv6>(7); for B<AF_UNIX>, see B<unix>(7); "
+"for B<AF_APPLETALK>, see B<ddp>(7); for B<AF_PACKET>, see B<packet>(7); for "
+"B<AF_X25>, see B<x25>(7); and for B<AF_NETLINK>, see B<netlink>(7)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:137
+msgid ""
+"The actual structure passed for the I<addr> argument will depend on the "
+"address family.  The I<sockaddr> structure is defined as something like:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:144
+#, no-wrap
+msgid ""
+"struct sockaddr {\n"
+"    sa_family_t sa_family;\n"
+"    char        sa_data[14];\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:152
+msgid ""
+"The only purpose of this structure is to cast the structure pointer passed "
+"in I<addr> in order to avoid compiler warnings.  See EXAMPLE below."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:152
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:157
+msgid ""
+"On success, zero is returned.  On error, -1 is returned, and I<errno> is set "
+"appropriately."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:157
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:158 raw/manpages-dev/man2/bind.2:199
+#, no-wrap
+msgid "B<EACCES>"
+msgstr ""
+
+#.  e.g., privileged port in AF_INET domain
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:162
+msgid "The address is protected, and the user is not the superuser."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:162 raw/manpages-dev/man2/bind.2:165
+#, no-wrap
+msgid "B<EADDRINUSE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:165
+msgid "The given address is already in use."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:175
+msgid ""
+"(Internet domain sockets)  The port number was specified as zero in the "
+"socket address structure, but, upon attempting to bind to an ephemeral port, "
+"it was determined that all port numbers in the ephemeral port range are "
+"currently in use.  See the discussion of I</proc/sys/net/ipv4/"
+"ip_local_port_range> B<ip>(7)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:175
+#, no-wrap
+msgid "B<EBADF>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:179
+msgid "I<sockfd> is not a valid file descriptor."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:179 raw/manpages-dev/man2/bind.2:184
+#, no-wrap
+msgid "B<EINVAL>"
+msgstr ""
+
+#.  This may change in the future: see
+#.  .I linux/unix/sock.c for details.
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:184
+msgid "The socket is already bound to an address."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:190
+msgid ""
+"I<addrlen> is wrong, or I<addr> is not a valid address for this socket's "
+"domain."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:190
+#, no-wrap
+msgid "B<ENOTSOCK>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:195
+msgid "The file descriptor I<sockfd> does not refer to a socket."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:199
+msgid "The following errors are specific to UNIX domain (B<AF_UNIX>)  sockets:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:204
+msgid ""
+"Search permission is denied on a component of the path prefix.  (See also "
+"B<path_resolution>(7).)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:204
+#, no-wrap
+msgid "B<EADDRNOTAVAIL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:208
+msgid ""
+"A nonexistent interface was requested or the requested address was not local."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:208
+#, no-wrap
+msgid "B<EFAULT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:212
+msgid "I<addr> points outside the user's accessible address space."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:212
+#, no-wrap
+msgid "B<ELOOP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:216
+msgid "Too many symbolic links were encountered in resolving I<addr>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:216
+#, no-wrap
+msgid "B<ENAMETOOLONG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:220
+msgid "I<addr> is too long."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:220
+#, no-wrap
+msgid "B<ENOENT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:223
+msgid ""
+"A component in the directory prefix of the socket pathname does not exist."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:223
+#, no-wrap
+msgid "B<ENOMEM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:226
+msgid "Insufficient kernel memory was available."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:226
+#, no-wrap
+msgid "B<ENOTDIR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:229
+msgid "A component of the path prefix is not a directory."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/bind.2:229
+#, no-wrap
+msgid "B<EROFS>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:232
+msgid "The socket inode would reside on a read-only filesystem."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:232
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#.  SVr4 documents an additional
+#.  .B ENOSR
+#.  general error condition, and
+#.  additional
+#.  .B EIO
+#.  and
+#.  .B EISDIR
+#.  UNIX-domain error conditions.
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:244
+msgid ""
+"POSIX.1-2001, POSIX.1-2008, SVr4, 4.4BSD (B<bind>()  first appeared in "
+"4.2BSD)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:244
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:250
+msgid ""
+"POSIX.1 does not require the inclusion of I<E<lt>sys/types.hE<gt>>, and this "
+"header file is not required on Linux.  However, some historical (BSD) "
+"implementations required this header file, and portable applications are "
+"probably wise to include it."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:255
+msgid "For background on the I<socklen_t> type, see B<accept>(2)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:255
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#.  FIXME Document transparent proxy options
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:258
+msgid "The transparent proxy options are not described."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:258
+#, no-wrap
+msgid "EXAMPLE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:263
+msgid ""
+"An example of the use of B<bind>()  with Internet domain sockets can be "
+"found in B<getaddrinfo>(3)."
+msgstr ""
+
+#.  listen.7 refers to this example.
+#.  accept.7 refers to this example.
+#.  unix.7 refers to this example.
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:270
+msgid ""
+"The following example shows how to bind a stream socket in the UNIX "
+"(B<AF_UNIX>)  domain, and accept connections:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:277
+#, no-wrap
+msgid ""
+"#include E<lt>sys/socket.hE<gt>\n"
+"#include E<lt>sys/un.hE<gt>\n"
+"#include E<lt>stdlib.hE<gt>\n"
+"#include E<lt>stdio.hE<gt>\n"
+"#include E<lt>string.hE<gt>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:280
+#, no-wrap
+msgid ""
+"#define MY_SOCK_PATH \"/somepath\"\n"
+"#define LISTEN_BACKLOG 50\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:283
+#, no-wrap
+msgid ""
+"#define handle_error(msg) \\e\n"
+"    do { perror(msg); exit(EXIT_FAILURE); } while (0)\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:290
+#, no-wrap
+msgid ""
+"int\n"
+"main(int argc, char *argv[])\n"
+"{\n"
+"    int sfd, cfd;\n"
+"    struct sockaddr_un my_addr, peer_addr;\n"
+"    socklen_t peer_addr_size;\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:294
+#, no-wrap
+msgid ""
+"    sfd = socket(AF_UNIX, SOCK_STREAM, 0);\n"
+"    if (sfd == -1)\n"
+"        handle_error(\"socket\");\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:300
+#, no-wrap
+msgid ""
+"    memset(&my_addr, 0, sizeof(struct sockaddr_un));\n"
+"                        /* Clear structure */\n"
+"    my_addr.sun_family = AF_UNIX;\n"
+"    strncpy(my_addr.sun_path, MY_SOCK_PATH,\n"
+"            sizeof(my_addr.sun_path) - 1);\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:304
+#, no-wrap
+msgid ""
+"    if (bind(sfd, (struct sockaddr *) &my_addr,\n"
+"            sizeof(struct sockaddr_un)) == -1)\n"
+"        handle_error(\"bind\");\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:307
+#, no-wrap
+msgid ""
+"    if (listen(sfd, LISTEN_BACKLOG) == -1)\n"
+"        handle_error(\"listen\");\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:310
+#, no-wrap
+msgid ""
+"    /* Now we can accept incoming connections one\n"
+"       at a time using accept(2) */\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:316
+#, no-wrap
+msgid ""
+"    peer_addr_size = sizeof(struct sockaddr_un);\n"
+"    cfd = accept(sfd, (struct sockaddr *) &peer_addr,\n"
+"                 &peer_addr_size);\n"
+"    if (cfd == -1)\n"
+"        handle_error(\"accept\");\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:318
+#, no-wrap
+msgid "    /* Code to deal with incoming connection(s)... */\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:322
+#, no-wrap
+msgid ""
+"    /* When no longer required, the socket pathname, MY_SOCK_PATH\n"
+"       should be deleted using unlink(2) or remove(3) */\n"
+"}\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:323
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:336
+msgid ""
+"B<accept>(2), B<connect>(2), B<getsockname>(2), B<listen>(2), B<socket>(2), "
+"B<getaddrinfo>(3), B<getifaddrs>(3), B<ip>(7), B<ipv6>(7), "
+"B<path_resolution>(7), B<socket>(7), B<unix>(7)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/bind.2:336
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/bind.2:344
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
+msgstr ""

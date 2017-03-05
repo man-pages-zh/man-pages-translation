@@ -1,0 +1,720 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man2/send.2:40
+#, no-wrap
+msgid "SEND"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/send.2:40
+#, no-wrap
+msgid "2016-03-15"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/send.2:40
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/send.2:40
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:41
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:43
+msgid "send, sendto, sendmsg - send a message on a socket"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:43
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:47
+#, no-wrap
+msgid ""
+"B<#include E<lt>sys/types.hE<gt>>\n"
+"B<#include E<lt>sys/socket.hE<gt>>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:50
+#, no-wrap
+msgid ""
+"B<ssize_t send(int >I<sockfd>B<, const void *>I<buf>B<, size_t >I<len>B<, "
+"int >I<flags>B<);>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:54
+#, no-wrap
+msgid ""
+"B<ssize_t sendto(int >I<sockfd>B<, const void *>I<buf>B<, size_t >I<len>B<, "
+"int >I<flags>B<,>\n"
+"B<               const struct sockaddr *>I<dest_addr>B<, socklen_t "
+">I<addrlen>B<);>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:57
+#, no-wrap
+msgid ""
+"B<ssize_t sendmsg(int >I<sockfd>B<, const struct msghdr *>I<msg>B<, int "
+">I<flags>B<);>\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:58
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:65
+msgid ""
+"The system calls B<send>(), B<sendto>(), and B<sendmsg>()  are used to "
+"transmit a message to another socket."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:84
+msgid ""
+"The B<send>()  call may be used only when the socket is in a I<connected> "
+"state (so that the intended recipient is known).  The only difference "
+"between B<send>()  and B<write>(2)  is the presence of I<flags>.  With a "
+"zero I<flags> argument, B<send>()  is equivalent to B<write>(2).  Also, the "
+"following call"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:86
+#, no-wrap
+msgid "    send(sockfd, buf, len, flags);\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:88
+msgid "is equivalent to"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:90
+#, no-wrap
+msgid "    sendto(sockfd, buf, len, flags, NULL, 0);\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:94
+msgid "The argument I<sockfd> is the file descriptor of the sending socket."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:122
+msgid ""
+"If B<sendto>()  is used on a connection-mode (B<SOCK_STREAM>, "
+"B<SOCK_SEQPACKET>)  socket, the arguments I<dest_addr> and I<addrlen> are "
+"ignored (and the error B<EISCONN> may be returned when they are not NULL and "
+"0), and the error B<ENOTCONN> is returned when the socket was not actually "
+"connected.  Otherwise, the address of the target is given by I<dest_addr> "
+"with I<addrlen> specifying its size.  For B<sendmsg>(), the address of the "
+"target is given by I<msg.msg_name>, with I<msg.msg_namelen> specifying its "
+"size."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:138
+msgid ""
+"For B<send>()  and B<sendto>(), the message is found in I<buf> and has "
+"length I<len>.  For B<sendmsg>(), the message is pointed to by the elements "
+"of the array I<msg.msg_iov>.  The B<sendmsg>()  call also allows sending "
+"ancillary data (also known as control information)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:143
+msgid ""
+"If the message is too long to pass atomically through the underlying "
+"protocol, the error B<EMSGSIZE> is returned, and the message is not "
+"transmitted."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:147
+msgid ""
+"No indication of failure to deliver is implicit in a B<send>().  Locally "
+"detected errors are indicated by a return value of -1."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:160
+msgid ""
+"When the message does not fit into the send buffer of the socket, B<send>()  "
+"normally blocks, unless the socket has been placed in nonblocking I/O mode.  "
+"In nonblocking mode it would fail with the error B<EAGAIN> or B<EWOULDBLOCK> "
+"in this case.  The B<select>(2)  call may be used to determine when it is "
+"possible to send more data."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/send.2:160
+#, no-wrap
+msgid "The flags argument"
+msgstr ""
+
+#.  FIXME . ? document MSG_PROXY (which went away in 2.3.15)
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:166
+msgid ""
+"The I<flags> argument is the bitwise OR of zero or more of the following "
+"flags."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:166
+#, no-wrap
+msgid "B<MSG_CONFIRM> (since Linux 2.3.15)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:180
+msgid ""
+"Tell the link layer that forward progress happened: you got a successful "
+"reply from the other side.  If the link layer doesn't get this it will "
+"regularly reprobe the neighbor (e.g., via a unicast ARP).  Valid only on "
+"B<SOCK_DGRAM> and B<SOCK_RAW> sockets and currently implemented only for "
+"IPv4 and IPv6.  See B<arp>(7)  for details."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:180
+#, no-wrap
+msgid "B<MSG_DONTROUTE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:188
+msgid ""
+"Don't use a gateway to send out the packet, send to hosts only on directly "
+"connected networks.  This is usually used only by diagnostic or routing "
+"programs.  This is defined only for protocol families that route; packet "
+"sockets don't."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:188
+#, no-wrap
+msgid "B<MSG_DONTWAIT> (since Linux 2.2)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:209
+msgid ""
+"Enables nonblocking operation; if the operation would block, B<EAGAIN> or "
+"B<EWOULDBLOCK> is returned.  This provides similar behavior to setting the "
+"B<O_NONBLOCK> flag (via the B<fcntl>(2)  B<F_SETFL> operation), but differs "
+"in that B<MSG_DONTWAIT> is a per-call option, whereas B<O_NONBLOCK> is a "
+"setting on the open file description (see B<open>(2)), which will affect all "
+"threads in the calling process and as well as other processes that hold file "
+"descriptors referring to the same open file description."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:209
+#, no-wrap
+msgid "B<MSG_EOR> (since Linux 2.2)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:213
+msgid ""
+"Terminates a record (when this notion is supported, as for sockets of type "
+"B<SOCK_SEQPACKET>)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:213
+#, no-wrap
+msgid "B<MSG_MORE> (since Linux 2.4.4)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:222
+msgid ""
+"The caller has more data to send.  This flag is used with TCP sockets to "
+"obtain the same effect as the B<TCP_CORK> socket option (see B<tcp>(7)), "
+"with the difference that this flag can be set on a per-call basis."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:231
+msgid ""
+"Since Linux 2.6, this flag is also supported for UDP sockets, and informs "
+"the kernel to package all of the data sent in calls with this flag set into "
+"a single datagram which is transmitted only when a call is performed that "
+"does not specify this flag.  (See also the B<UDP_CORK> socket option "
+"described in B<udp>(7).)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:231
+#, no-wrap
+msgid "B<MSG_NOSIGNAL> (since Linux 2.2)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:249
+msgid ""
+"Don't generate a B<SIGPIPE> signal if the peer on a stream-oriented socket "
+"has closed the connection.  The B<EPIPE> error is still returned.  This "
+"provides similar behavior to using B<sigaction>(2)  to ignore B<SIGPIPE>, "
+"but, whereas B<MSG_NOSIGNAL> is a per-call feature, ignoring B<SIGPIPE> sets "
+"a process attribute that affects all threads in the process."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:249
+#, no-wrap
+msgid "B<MSG_OOB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:258
+msgid ""
+"Sends I<out-of-band> data on sockets that support this notion (e.g., of type "
+"B<SOCK_STREAM>); the underlying protocol must also support I<out-of-band> "
+"data."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/send.2:258
+#, no-wrap
+msgid "sendmsg()"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:264
+msgid ""
+"The definition of the I<msghdr> structure employed by B<sendmsg>()  is as "
+"follows:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:276
+#, no-wrap
+msgid ""
+"struct msghdr {\n"
+"    void         *msg_name;       /* optional address */\n"
+"    socklen_t     msg_namelen;    /* size of address */\n"
+"    struct iovec *msg_iov;        /* scatter/gather array */\n"
+"    size_t        msg_iovlen;     /* # elements in msg_iov */\n"
+"    void         *msg_control;    /* ancillary data, see below */\n"
+"    size_t        msg_controllen; /* ancillary data buffer len */\n"
+"    int           msg_flags;      /* flags (unused) */\n"
+"};\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:288
+msgid ""
+"The I<msg_name> field is used on an unconnected socket to specify the target "
+"address for a datagram.  It points to a buffer containing the address; the "
+"I<msg_namelen> field should be set to the size of the address.  For a "
+"connected socket, these fields should be specified as NULL and 0, "
+"respectively."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:295
+msgid ""
+"The I<msg_iov> and I<msg_iovlen> fields specify scatter-gather locations, as "
+"for B<writev>(2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:306
+msgid ""
+"You may send control information using the I<msg_control> and "
+"I<msg_controllen> members.  The maximum control buffer length the kernel can "
+"process is limited per socket by the value in "
+"I</proc/sys/net/core/optmem_max>; see B<socket>(7)."
+msgstr ""
+
+#.  Still to be documented:
+#.   Send file descriptors and user credentials using the
+#.   msg_control* fields.
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:313
+msgid "The I<msg_flags> field is ignored."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:313
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:318
+msgid ""
+"On success, these calls return the number of bytes sent.  On error, -1 is "
+"returned, and I<errno> is set appropriately."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:318
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:323
+msgid ""
+"These are some standard errors generated by the socket layer.  Additional "
+"errors may be generated and returned from the underlying protocol modules; "
+"see their respective manual pages."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:323
+#, no-wrap
+msgid "B<EACCES>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:331
+msgid ""
+"(For UNIX domain sockets, which are identified by pathname)  Write "
+"permission is denied on the destination socket file, or search permission is "
+"denied for one of the directories the path prefix.  (See "
+"B<path_resolution>(7).)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:334
+msgid ""
+"(For UDP sockets) An attempt was made to send to a network/broadcast address "
+"as though it was a unicast address."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:334
+#, no-wrap
+msgid "B<EAGAIN> or B<EWOULDBLOCK>"
+msgstr ""
+
+#.  Actually EAGAIN on Linux
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:342
+msgid ""
+"The socket is marked nonblocking and the requested operation would block.  "
+"POSIX.1-2001 allows either error to be returned for this case, and does not "
+"require these constants to have the same value, so a portable application "
+"should check for both possibilities."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:342
+#, no-wrap
+msgid "B<EAGAIN>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:355
+msgid ""
+"(Internet domain datagram sockets)  The socket referred to by I<sockfd> had "
+"not previously been bound to an address and, upon attempting to bind it to "
+"an ephemeral port, it was determined that all port numbers in the ephemeral "
+"port range are currently in use.  See the discussion of "
+"I</proc/sys/net/ipv4/ip_local_port_range> in B<ip>(7)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:355
+#, no-wrap
+msgid "B<EBADF>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:359
+msgid "I<sockfd> is not a valid open file descriptor."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:359
+#, no-wrap
+msgid "B<ECONNRESET>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:362
+msgid "Connection reset by peer."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:362
+#, no-wrap
+msgid "B<EDESTADDRREQ>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:365
+msgid "The socket is not connection-mode, and no peer address is set."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:365
+#, no-wrap
+msgid "B<EFAULT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:368
+msgid "An invalid user space address was specified for an argument."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:368
+#, no-wrap
+msgid "B<EINTR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:372
+msgid "A signal occurred before any data was transmitted; see B<signal>(7)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:372
+#, no-wrap
+msgid "B<EINVAL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:375
+msgid "Invalid argument passed."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:375
+#, no-wrap
+msgid "B<EISCONN>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:381
+msgid ""
+"The connection-mode socket was connected already but a recipient was "
+"specified.  (Now either this error is returned, or the recipient "
+"specification is ignored.)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:381
+#, no-wrap
+msgid "B<EMSGSIZE>"
+msgstr ""
+
+#.  (e.g., SOCK_DGRAM )
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:387
+msgid ""
+"The socket type requires that message be sent atomically, and the size of "
+"the message to be sent made this impossible."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:387
+#, no-wrap
+msgid "B<ENOBUFS>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:395
+msgid ""
+"The output queue for a network interface was full.  This generally indicates "
+"that the interface has stopped sending, but may be caused by transient "
+"congestion.  (Normally, this does not occur in Linux.  Packets are just "
+"silently dropped when a device queue overflows.)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:395
+#, no-wrap
+msgid "B<ENOMEM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:398
+msgid "No memory available."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:398
+#, no-wrap
+msgid "B<ENOTCONN>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:401
+msgid "The socket is not connected, and no target has been given."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:401
+#, no-wrap
+msgid "B<ENOTSOCK>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:406
+msgid "The file descriptor I<sockfd> does not refer to a socket."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:406
+#, no-wrap
+msgid "B<EOPNOTSUPP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:411
+msgid "Some bit in the I<flags> argument is inappropriate for the socket type."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/send.2:411
+#, no-wrap
+msgid "B<EPIPE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:420
+msgid ""
+"The local end has been shut down on a connection oriented socket.  In this "
+"case, the process will also receive a B<SIGPIPE> unless B<MSG_NOSIGNAL> is "
+"set."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:420
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:423
+msgid "4.4BSD, SVr4, POSIX.1-2001.  These interfaces first appeared in 4.2BSD."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:434
+msgid ""
+"POSIX.1-2001 describes only the B<MSG_OOB> and B<MSG_EOR> flags.  "
+"POSIX.1-2008 adds a specification of B<MSG_NOSIGNAL>.  The B<MSG_CONFIRM> "
+"flag is a Linux extension."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:434
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#.  glibc bug raised 12 Mar 2006
+#.  http://sourceware.org/bugzilla/show_bug.cgi?id=2448
+#.  The problem is an underlying kernel issue: the size of the
+#.  __kernel_size_t type used to type this field varies
+#.  across architectures, but socklen_t is always 32 bits.
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:448
+msgid ""
+"According to POSIX.1-2001, the I<msg_controllen> field of the I<msghdr> "
+"structure should be typed as I<socklen_t>, but glibc currently types it as "
+"I<size_t>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:453
+msgid ""
+"See B<sendmmsg>(2)  for information about a Linux-specific system call that "
+"can be used to transmit multiple datagrams in a single call."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:453
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:458
+msgid "Linux may return B<EPIPE> instead of B<ENOTCONN>."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:458
+#, no-wrap
+msgid "EXAMPLE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:463
+msgid "An example of the use of B<sendto>()  is shown in B<getaddrinfo>(3)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:463
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:478
+msgid ""
+"B<fcntl>(2), B<getsockopt>(2), B<recv>(2), B<select>(2), B<sendfile>(2), "
+"B<sendmmsg>(2), B<shutdown>(2), B<socket>(2), B<write>(2), B<cmsg>(3), "
+"B<ip>(7), B<socket>(7), B<tcp>(7), B<udp>(7)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/send.2:478
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/send.2:486
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at "
+"\\%https://www.kernel.org/doc/man-pages/."
+msgstr ""

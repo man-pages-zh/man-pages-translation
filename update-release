@@ -5,12 +5,14 @@
 
 _MAN_LANG=zh_CN
 
+printf "%s\n" "# UPDATE-RELEASE #############################"
 for manfile in raw/*/man*/*; do
-    pofile="po/$(dirname "${manfile}" | cut -d\/ -f2-)/$(basename "${manfile}").${_MAN_LANG}.po"
+    pofile="po/$(dirname "${manfile}" | cut -d/ -f2-)/$(basename "${manfile}").${_MAN_LANG}.po"
     if ! [ -f "${pofile}" ]; then
         continue
     fi
-    releasefile="src/$(dirname "${manfile}" | cut -d\/ -f2-)/$(basename "${manfile}")"
+    releasefile="src/$(dirname "${manfile}" | cut -d/ -f2-)/$(basename "${manfile}")"
     po4a-translate -M "UTF-8" -L "UTF-8" -f man -m "${manfile}" -p "${pofile}" -l "${releasefile}"
     printf "%s\n" "Generating ${releasefile}..."
 done
+printf "%s\n" "# UPDATE-RELEASE ### END #####################"

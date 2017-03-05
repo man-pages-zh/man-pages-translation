@@ -1,0 +1,1163 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: 2017-03-05 23:51+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man2/execve.2:37
+#, no-wrap
+msgid "EXECVE"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/execve.2:37
+#, no-wrap
+msgid "2016-10-08"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/execve.2:37
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/execve.2:37
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:38
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:40
+msgid "execve - execute program"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:40
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:42
+msgid "B<#include E<lt>unistd.hE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:44
+msgid "B<int execve(const char *>I<filename>B<, char *const >I<argv>B<[], >"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:46
+msgid "B< char *const >I<envp>B<[]);>"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:46
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:51
+msgid ""
+"B<execve>()  executes the program pointed to by I<filename>.  I<filename> "
+"must be either a binary executable, or a script starting with a line of the "
+"form:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:55 raw/manpages-dev/man2/execve.2:284
+#, no-wrap
+msgid "B<#!> I<interpreter >[optional-arg]\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:59
+msgid "For details of the latter case, see \"Interpreter scripts\" below."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:68
+msgid ""
+"I<argv> is an array of argument strings passed to the new program.  By "
+"convention, the first of these strings (i.e., I<argv[0]>)  should contain "
+"the filename associated with the file being executed.  I<envp> is an array "
+"of strings, conventionally of the form B<key=value>, which are passed as "
+"environment to the new program.  The I<argv> and I<envp> arrays must each "
+"include a null pointer at the end of the array."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:71
+msgid ""
+"The argument vector and environment can be accessed by the called program's "
+"main function, when it is defined as:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:75
+#, no-wrap
+msgid "int main(int argc, char *argv[], char *envp[])\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:83
+msgid ""
+"Note, however, that the use of a third argument to the main function is not "
+"specified in POSIX.1; according to POSIX.1, the environment should be "
+"accessed via the external variable B<environ>(7)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:88
+msgid ""
+"B<execve>()  does not return on success, and the text, initialized data, "
+"uninitialized data (bss), and stack of the calling process are overwritten "
+"according to the contents of the newly loaded program."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:92
+msgid ""
+"If the current program is being ptraced, a B<SIGTRAP> signal is sent to it "
+"after a successful B<execve>()."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:107
+msgid ""
+"If the set-user-ID bit is set on the program file pointed to by I<filename>, "
+"and the underlying filesystem is not mounted I<nosuid> (the B<MS_NOSUID> "
+"flag for B<mount>(2)), and the calling process is not being ptraced, then "
+"the effective user ID of the calling process is changed to that of the owner "
+"of the program file.  Similarly, when the set-group-ID bit of the program "
+"file is set the effective group ID of the calling process is set to the "
+"group of the program file."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:112
+msgid ""
+"The effective user ID of the process is copied to the saved set-user-ID; "
+"similarly, the effective group ID is copied to the saved set-group-ID.  This "
+"copying takes place after any effective ID changes that occur because of the "
+"set-user-ID and set-group-ID mode bits."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:116
+msgid ""
+"The process's read UID and real GID, as well its supplementary group IDs, "
+"are unchanged by a call to B<execve>(2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:124
+msgid ""
+"If the executable is an a.out dynamically linked binary executable "
+"containing shared-library stubs, the Linux dynamic linker B<ld.so>(8)  is "
+"called at the start of execution to bring needed shared objects into memory "
+"and link the executable with them."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:132
+msgid ""
+"If the executable is a dynamically linked ELF executable, the interpreter "
+"named in the PT_INTERP segment is used to load the needed shared objects.  "
+"This interpreter is typically I</lib/ld-linux.so.2> for binaries linked with "
+"glibc (see B<ld-linux.so>(8))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:136
+msgid ""
+"All process attributes are preserved during an B<execve>(), except the "
+"following:"
+msgstr ""
+
+#. type: IP
+#: raw/manpages-dev/man2/execve.2:136 raw/manpages-dev/man2/execve.2:140
+#: raw/manpages-dev/man2/execve.2:143 raw/manpages-dev/man2/execve.2:146
+#: raw/manpages-dev/man2/execve.2:149 raw/manpages-dev/man2/execve.2:152
+#: raw/manpages-dev/man2/execve.2:155 raw/manpages-dev/man2/execve.2:158
+#: raw/manpages-dev/man2/execve.2:161 raw/manpages-dev/man2/execve.2:164
+#: raw/manpages-dev/man2/execve.2:168 raw/manpages-dev/man2/execve.2:172
+#: raw/manpages-dev/man2/execve.2:181 raw/manpages-dev/man2/execve.2:188
+#: raw/manpages-dev/man2/execve.2:193 raw/manpages-dev/man2/execve.2:200
+#: raw/manpages-dev/man2/execve.2:207 raw/manpages-dev/man2/execve.2:214
+#: raw/manpages-dev/man2/execve.2:219 raw/manpages-dev/man2/execve.2:226
+#: raw/manpages-dev/man2/execve.2:230 raw/manpages-dev/man2/execve.2:233
+#: raw/manpages-dev/man2/execve.2:241 raw/manpages-dev/man2/execve.2:245
+#: raw/manpages-dev/man2/execve.2:250
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:140
+msgid ""
+"The dispositions of any signals that are being caught are reset to the "
+"default (B<signal>(7))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:143
+msgid "Any alternate signal stack is not preserved (B<sigaltstack>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:146
+msgid "Memory mappings are not preserved (B<mmap>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:149
+msgid "Attached System\\ V shared memory segments are detached (B<shmat>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:152
+msgid "POSIX shared memory regions are unmapped (B<shm_open>(3))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:155
+msgid "Open POSIX message queue descriptors are closed (B<mq_overview>(7))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:158
+msgid "Any open POSIX named semaphores are closed (B<sem_overview>(7))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:161
+msgid "POSIX timers are not preserved (B<timer_create>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:164
+msgid "Any open directory streams are closed (B<opendir>(3))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:168
+msgid "Memory locks are not preserved (B<mlock>(2), B<mlockall>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:172
+msgid "Exit handlers are not preserved (B<atexit>(3), B<on_exit>(3))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:175
+msgid ""
+"The floating-point environment is reset to the default (see B<fenv>(3))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:181
+msgid ""
+"The process attributes in the preceding list are all specified in POSIX.1.  "
+"The following Linux-specific process attributes are also not preserved "
+"during an B<execve>():"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:188
+msgid ""
+"The B<prctl>(2)  B<PR_SET_DUMPABLE> flag is set, unless a set-user-ID or set-"
+"group ID program is being executed, in which case it is cleared."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:193
+msgid "The B<prctl>(2)  B<PR_SET_KEEPCAPS> flag is cleared."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:200
+msgid ""
+"(Since Linux 2.4.36 / 2.6.23)  If a set-user-ID or set-group-ID program is "
+"being executed, then the parent death signal set by B<prctl>(2)  "
+"B<PR_SET_PDEATHSIG> flag is cleared."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:207
+msgid ""
+"The process name, as set by B<prctl>(2)  B<PR_SET_NAME> (and displayed by "
+"I<ps\\ -o comm>), is reset to the name of the new executable file."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:214
+msgid ""
+"The B<SECBIT_KEEP_CAPS> I<securebits> flag is cleared.  See "
+"B<capabilities>(7)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:219
+msgid "The termination signal is reset to B<SIGCHLD> (see B<clone>(2))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:224
+msgid ""
+"The file descriptor table is unshared, undoing the effect of the "
+"B<CLONE_FILES> flag of B<clone>(2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:226
+msgid "Note the following further points:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:230
+msgid ""
+"All threads other than the calling thread are destroyed during an "
+"B<execve>().  Mutexes, condition variables, and other pthreads objects are "
+"not preserved."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:233
+msgid ""
+"The equivalent of I<setlocale(LC_ALL, \"C\")> is executed at program start-"
+"up."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:241
+msgid ""
+"POSIX.1 specifies that the dispositions of any signals that are ignored or "
+"set to the default are left unchanged.  POSIX.1 specifies one exception: if "
+"B<SIGCHLD> is being ignored, then an implementation may leave the "
+"disposition unchanged or reset it to the default; Linux does the former."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:245
+msgid ""
+"Any outstanding asynchronous I/O operations are canceled (B<aio_read>(3), "
+"B<aio_write>(3))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:250
+msgid ""
+"For the handling of capabilities during B<execve>(), see B<capabilities>(7)."
+msgstr ""
+
+#.  On Linux it appears that these file descriptors are
+#.  always open after an execve(), and it looks like
+#.  Solaris 8 and FreeBSD 6.1 are the same. -- mtk, 30 Apr 2007
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:277
+msgid ""
+"By default, file descriptors remain open across an B<execve>().  File "
+"descriptors that are marked close-on-exec are closed; see the description of "
+"B<FD_CLOEXEC> in B<fcntl>(2).  (If a file descriptor is closed, this will "
+"cause the release of all record locks obtained on the underlying file by "
+"this process.  See B<fcntl>(2)  for details.)  POSIX.1 says that if file "
+"descriptors 0, 1, and 2 would otherwise be closed after a successful "
+"B<execve>(), and the process would gain privilege because the set-user-ID or "
+"set-group_ID mode bit was set on the executed file, then the system may open "
+"an unspecified file for each of these file descriptors.  As a general "
+"principle, no portable program, whether privileged or not, can assume that "
+"these three file descriptors will remain closed across an B<execve>()."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/execve.2:277 raw/manpages-dev/man2/execve.2:574
+#, no-wrap
+msgid "Interpreter scripts"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:280
+msgid ""
+"An interpreter script is a text file that has execute permission enabled and "
+"whose first line is of the form:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:297
+msgid ""
+"The I<interpreter> must be a valid pathname for an executable file.  If the "
+"I<filename> argument of B<execve>()  specifies an interpreter script, then "
+"I<interpreter> will be invoked with the following arguments:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:301
+#, no-wrap
+msgid "I<interpreter> [optional-arg] I<filename> arg...\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:312
+msgid ""
+"where I<arg...> is the series of words pointed to by the I<argv> argument of "
+"B<execve>(), starting at I<argv>[1]."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:317
+msgid ""
+"For portable use, I<optional-arg> should either be absent, or be specified "
+"as a single word (i.e., it should not contain white space); see NOTES below."
+msgstr ""
+
+#.  commit bf2a9a39639b8b51377905397a5005f444e9a892
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:324
+msgid ""
+"Since Linux 2.6.28, the kernel permits the interpreter of a script to itself "
+"be a script.  This permission is recursive, up to a limit of four "
+"recursions, so that the interpreter may be a script which is interpreted by "
+"a script, and so on."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/execve.2:324
+#, no-wrap
+msgid "Limits on size of arguments and environment"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:337
+msgid ""
+"Most UNIX implementations impose some limit on the total size of the command-"
+"line argument (I<argv>)  and environment (I<envp>)  strings that may be "
+"passed to a new program.  POSIX.1 allows an implementation to advertise this "
+"limit using the B<ARG_MAX> constant (either defined in I<E<lt>limits.hE<gt>> "
+"or available at run time using the call I<sysconf(_SC_ARG_MAX)>)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:344
+msgid ""
+"On Linux prior to kernel 2.6.23, the memory used to store the environment "
+"and argument strings was limited to 32 pages (defined by the kernel constant "
+"B<MAX_ARG_PAGES>).  On architectures with a 4-kB page size, this yields a "
+"maximum size of 128 kB."
+msgstr ""
+
+#.  For some background on the changes to ARG_MAX in kernels 2.6.23 and
+#.  2.6.25, see:
+#.      http://sourceware.org/bugzilla/show_bug.cgi?id=5786
+#.      http://bugzilla.kernel.org/show_bug.cgi?id=10095
+#.      http://thread.gmane.org/gmane.linux.kernel/646709/focus=648101,
+#.      checked into 2.6.25 as commit a64e715fc74b1a7dcc5944f848acc38b2c4d4ee2.
+#.  Ollie: That doesn't include the lists of pointers, though,
+#.  so the actual usage is a bit higher (1 pointer per argument).
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:380
+msgid ""
+"On kernel 2.6.23 and later, most architectures support a size limit derived "
+"from the soft B<RLIMIT_STACK> resource limit (see B<getrlimit>(2))  that is "
+"in force at the time of the B<execve>()  call.  (Architectures with no "
+"memory management unit are excepted: they maintain the limit that was in "
+"effect before kernel 2.6.23.)  This change allows programs to have a much "
+"larger argument and/or environment list.  For these architectures, the total "
+"size is limited to 1/4 of the allowed stack size.  (Imposing the 1/4-limit "
+"ensures that the new program always has some stack space.)  Since Linux "
+"2.6.25, the kernel places a floor of 32 pages on this size limit, so that, "
+"even when B<RLIMIT_STACK> is set very low, applications are guaranteed to "
+"have at least as much argument and environment space as was provided by "
+"Linux 2.6.23 and earlier.  (This guarantee was not provided in Linux 2.6.23 "
+"and 2.6.24.)  Additionally, the limit per string is 32 pages (the kernel "
+"constant B<MAX_ARG_STRLEN>), and the maximum number of strings is 0x7FFFFFFF."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:380
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:386
+msgid ""
+"On success, B<execve>()  does not return, on error -1 is returned, and "
+"I<errno> is set appropriately."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:386
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:387
+#, no-wrap
+msgid "B<E2BIG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:394
+msgid ""
+"The total number of bytes in the environment (I<envp>)  and argument list "
+"(I<argv>)  is too large."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:394 raw/manpages-dev/man2/execve.2:401
+#: raw/manpages-dev/man2/execve.2:404 raw/manpages-dev/man2/execve.2:407
+#, no-wrap
+msgid "B<EACCES>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:401
+msgid ""
+"Search permission is denied on a component of the path prefix of I<filename> "
+"or the name of a script interpreter.  (See also B<path_resolution>(7).)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:404
+msgid "The file or a script interpreter is not a regular file."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:407
+msgid ""
+"Execute permission is denied for the file or a script or ELF interpreter."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:411
+msgid "The filesystem is mounted I<noexec>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:411
+#, no-wrap
+msgid "B<EAGAIN> (since Linux 3.1)"
+msgstr ""
+
+#.  commit 72fa59970f8698023045ab0713d66f3f4f96945c
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:421
+msgid ""
+"Having changed its real UID using one of the B<set*uid>()  calls, the caller "
+"was\\(emand is now still\\(emabove its B<RLIMIT_NPROC> resource limit (see "
+"B<setrlimit>(2)).  For a more detailed explanation of this error, see NOTES."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:421
+#, no-wrap
+msgid "B<EFAULT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:429
+msgid ""
+"I<filename> or one of the pointers in the vectors I<argv> or I<envp> points "
+"outside your accessible address space."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:429
+#, no-wrap
+msgid "B<EINVAL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:433
+msgid ""
+"An ELF executable had more than one PT_INTERP segment (i.e., tried to name "
+"more than one interpreter)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:433
+#, no-wrap
+msgid "B<EIO>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:436
+msgid "An I/O error occurred."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:436
+#, no-wrap
+msgid "B<EISDIR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:439
+msgid "An ELF interpreter was a directory."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:439
+#, no-wrap
+msgid "B<ELIBBAD>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:442
+msgid "An ELF interpreter was not in a recognized format."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:442 raw/manpages-dev/man2/execve.2:447
+#, no-wrap
+msgid "B<ELOOP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:447
+msgid ""
+"Too many symbolic links were encountered in resolving I<filename> or the "
+"name of a script or ELF interpreter."
+msgstr ""
+
+#.  commit d740269867021faf4ce38a449353d2b986c34a67
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:455
+msgid ""
+"The maximum recursion limit was reached during recursive script "
+"interpretation (see \"Interpreter scripts\", above).  Before Linux 3.8, the "
+"error produced for this case was B<ENOEXEC>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:455
+#, no-wrap
+msgid "B<EMFILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:458
+msgid ""
+"The per-process limit on the number of open file descriptors has been "
+"reached."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:458
+#, no-wrap
+msgid "B<ENAMETOOLONG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:462
+msgid "I<filename> is too long."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:462
+#, no-wrap
+msgid "B<ENFILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:465
+msgid ""
+"The system-wide limit on the total number of open files has been reached."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:465
+#, no-wrap
+msgid "B<ENOENT>"
+msgstr ""
+
+#.  FIXME but see http://sourceware.org/bugzilla/show_bug.cgi?id=12241
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:472
+msgid ""
+"The file I<filename> or a script or ELF interpreter does not exist, or a "
+"shared library needed for the file or interpreter cannot be found."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:472
+#, no-wrap
+msgid "B<ENOEXEC>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:477
+msgid ""
+"An executable is not in a recognized format, is for the wrong architecture, "
+"or has some other format error that means it cannot be executed."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:477
+#, no-wrap
+msgid "B<ENOMEM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:480
+msgid "Insufficient kernel memory was available."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:480
+#, no-wrap
+msgid "B<ENOTDIR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:485
+msgid ""
+"A component of the path prefix of I<filename> or a script or ELF interpreter "
+"is not a directory."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:485 raw/manpages-dev/man2/execve.2:491
+#: raw/manpages-dev/man2/execve.2:495
+#, no-wrap
+msgid "B<EPERM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:491
+msgid ""
+"The filesystem is mounted I<nosuid>, the user is not the superuser, and the "
+"file has the set-user-ID or set-group-ID bit set."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:495
+msgid ""
+"The process is being traced, the user is not the superuser and the file has "
+"the set-user-ID or set-group-ID bit set."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:501
+msgid ""
+"A \"capability-dumb\" applications would not obtain the full set of "
+"permitted capabilities granted by the executable file.  See "
+"B<capabilities>(7)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/execve.2:501
+#, no-wrap
+msgid "B<ETXTBSY>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:504
+msgid "The specified executable was open for writing by one or more processes."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:504
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#.  SVr4 documents additional error
+#.  conditions EAGAIN, EINTR, ELIBACC, ENOLINK, EMULTIHOP; POSIX does not
+#.  document ETXTBSY, EPERM, EFAULT, ELOOP, EIO, ENFILE, EMFILE, EINVAL,
+#.  EISDIR or ELIBBAD error conditions.
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:512
+msgid ""
+"POSIX.1-2001, POSIX.1-2008, SVr4, 4.3BSD.  POSIX does not document the #! "
+"behavior, but it exists (with some variations) on other UNIX systems."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:512
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:515
+msgid "Set-user-ID and set-group-ID processes can not be B<ptrace>(2)d."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:526
+msgid ""
+"The result of mounting a filesystem I<nosuid> varies across Linux kernel "
+"versions: some will refuse execution of set-user-ID and set-group-ID "
+"executables when this would give the user powers she did not have already "
+"(and return B<EPERM>), some will just ignore the set-user-ID and set-group-"
+"ID bits and B<exec>()  successfully."
+msgstr ""
+
+#.  e.g., EFAULT on Solaris 8 and FreeBSD 6.1; but
+#.  HP-UX 11 is like Linux -- mtk, Apr 2007
+#.  Bug filed 30 Apr 2007: http://bugzilla.kernel.org/show_bug.cgi?id=8408
+#.  Bug rejected (because fix would constitute an ABI change).
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:548
+msgid ""
+"On Linux, I<argv> and I<envp> can be specified as NULL.  In both cases, this "
+"has the same effect as specifying the argument as a pointer to a list "
+"containing a single null pointer.  B<Do not take advantage of this "
+"nonstandard and nonportable misfeature!> On many other UNIX systems, "
+"specifying I<argv> as NULL will result in an error (B<EFAULT>).  I<Some> "
+"other UNIX systems treat the I<envp==NULL> case the same as Linux."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:559
+msgid ""
+"POSIX.1 says that values returned by B<sysconf>(3)  should be invariant over "
+"the lifetime of a process.  However, since Linux 2.6.23, if the "
+"B<RLIMIT_STACK> resource limit changes, then the value reported by "
+"B<_SC_ARG_MAX> will also change, to reflect the fact that the limit on space "
+"for holding command-line arguments and environment variables has changed."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:574
+msgid ""
+"In most cases where B<execve>()  fails, control returns to the original "
+"executable image, and the caller of B<execve>()  can then handle the error.  "
+"However, in (rare) cases (typically caused by resource exhaustion), failure "
+"may occur past the point of no return: the original executable image has "
+"been torn down, but the new image could not be completely built.  In such "
+"cases, the kernel kills the process with a B<SIGKILL> signal."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:577
+msgid ""
+"A maximum line length of 127 characters is allowed for the first line in an "
+"interpreter scripts."
+msgstr ""
+
+#.  e.g., Solaris 8
+#.  e.g., FreeBSD before 6.0, but not FreeBSD 6.0 onward
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:596
+msgid ""
+"The semantics of the I<optional-arg> argument of an interpreter script vary "
+"across implementations.  On Linux, the entire string following the "
+"I<interpreter> name is passed as a single argument to the interpreter, and "
+"this string can include white space.  However, behavior differs on some "
+"other systems.  Some systems use the first white space to terminate "
+"I<optional-arg>.  On some systems, an interpreter script can have multiple "
+"arguments, and white spaces in I<optional-arg> are used to delimit the "
+"arguments."
+msgstr ""
+
+#
+#.  .SH BUGS
+#.  Some Linux versions have failed to check permissions on ELF
+#.  interpreters.  This is a security hole, because it allows users to
+#.  open any file, such as a rewinding tape device, for reading.  Some
+#.  Linux versions have also had other security holes in
+#.  .BR execve ()
+#.  that could be exploited for denial of service by a suitably crafted
+#.  ELF binary. There are no known problems with 2.0.34 or 2.2.15.
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:607
+msgid "Linux ignores the set-user-ID and set-group-ID bits on scripts."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/execve.2:607
+#, no-wrap
+msgid "execve() and EAGAIN"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:613
+msgid ""
+"A more detailed explanation of the B<EAGAIN> error that can occur (since "
+"Linux 3.1) when calling B<execve>()  is as follows."
+msgstr ""
+
+#.  commit 909cc4ae86f3380152a18e2a3c44523893ee11c4
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:635
+msgid ""
+"The B<EAGAIN> error can occur when a I<preceding> call to B<setuid>(2), "
+"B<setreuid>(2), or B<setresuid>(2)  caused the real user ID of the process "
+"to change, and that change caused the process to exceed its B<RLIMIT_NPROC> "
+"resource limit (i.e., the number of processes belonging to the new real UID "
+"exceeds the resource limit).  From Linux 2.6.0 to 3.0, this caused the "
+"B<set*uid>()  call to fail.  (Prior to 2.6, the resource limit was not "
+"imposed on processes that changed their user IDs.)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:666
+msgid ""
+"Since Linux 3.1, the scenario just described no longer causes the "
+"B<set*uid>()  call to fail, because it too often led to security holes where "
+"buggy applications didn't check the return status and assumed that\\(emif "
+"the caller had root privileges\\(emthe call would always succeed.  Instead, "
+"the B<set*uid>()  calls now successfully change the real UID, but the kernel "
+"sets an internal flag, named B<PF_NPROC_EXCEEDED>, to note that the "
+"B<RLIMIT_NPROC> resource limit has been exceeded.  If the "
+"B<PF_NPROC_EXCEEDED> flag is set and the resource limit is still exceeded at "
+"the time of a subsequent B<execve>()  call, that call fails with the error "
+"B<EAGAIN>.  This kernel logic ensures that the B<RLIMIT_NPROC> resource "
+"limit is still enforced for the common privileged daemon workflow"
+"\\(emnamely, B<fork>(2)  + B<set*uid>()  + B<execve>()."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:682
+msgid ""
+"If the resource limit was not still exceeded at the time of the B<execve>()  "
+"call (because other processes belonging to this real UID terminated between "
+"the B<set*uid>()  call and the B<execve>()  call), then the B<execve>()  "
+"call succeeds and the kernel clears the B<PF_NPROC_EXCEEDED> process flag.  "
+"The flag is also cleared if a subsequent call to B<fork>(2)  by this process "
+"succeeds."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/execve.2:682
+#, no-wrap
+msgid "Historical"
+msgstr ""
+
+#
+#.  .SH BUGS
+#.  Some Linux versions have failed to check permissions on ELF
+#.  interpreters.  This is a security hole, because it allows users to
+#.  open any file, such as a rewinding tape device, for reading.  Some
+#.  Linux versions have also had other security holes in
+#.  .BR execve ()
+#.  that could be exploited for denial of service by a suitably crafted
+#.  ELF binary. There are no known problems with 2.0.34 or 2.2.15.
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:702
+msgid ""
+"With UNIX\\ V6, the argument list of an B<exec>()  call was ended by 0, "
+"while the argument list of I<main> was ended by -1.  Thus, this argument "
+"list was not directly usable in a further B<exec>()  call.  Since UNIX\\ V7, "
+"both are NULL."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:702
+#, no-wrap
+msgid "EXAMPLE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:705
+msgid ""
+"The following program is designed to be execed by the second program below.  "
+"It just echoes its command-line arguments, one per line."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:709
+#, no-wrap
+msgid "/* myecho.c */\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:712
+#, no-wrap
+msgid ""
+"#include E<lt>stdio.hE<gt>\n"
+"#include E<lt>stdlib.hE<gt>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:717
+#, no-wrap
+msgid ""
+"int\n"
+"main(int argc, char *argv[])\n"
+"{\n"
+"    int j;\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:720
+#, no-wrap
+msgid ""
+"    for (j = 0; j E<lt> argc; j++)\n"
+"        printf(\"argv[%d]: %s\\en\", j, argv[j]);\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:723
+#, no-wrap
+msgid ""
+"    exit(EXIT_SUCCESS);\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:728
+msgid ""
+"This program can be used to exec the program named in its command-line "
+"argument:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:732
+#, no-wrap
+msgid "/* execve.c */\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:736
+#, no-wrap
+msgid ""
+"#include E<lt>stdio.hE<gt>\n"
+"#include E<lt>stdlib.hE<gt>\n"
+"#include E<lt>unistd.hE<gt>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:742
+#, no-wrap
+msgid ""
+"int\n"
+"main(int argc, char *argv[])\n"
+"{\n"
+"    char *newargv[] = { NULL, \"hello\", \"world\", NULL };\n"
+"    char *newenviron[] = { NULL };\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:747
+#, no-wrap
+msgid ""
+"    if (argc != 2) {\n"
+"        fprintf(stderr, \"Usage: %s E<lt>file-to-execE<gt>\\en\", argv[0]);\n"
+"        exit(EXIT_FAILURE);\n"
+"    }\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:749
+#, no-wrap
+msgid "    newargv[0] = argv[1];\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:754
+#, no-wrap
+msgid ""
+"    execve(argv[1], newargv, newenviron);\n"
+"    perror(\"execve\");   /* execve() returns only on error */\n"
+"    exit(EXIT_FAILURE);\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:758
+msgid "We can use the second program to exec the first as follows:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:767
+#, no-wrap
+msgid ""
+"$B< cc myecho.c -o myecho>\n"
+"$B< cc execve.c -o execve>\n"
+"$B< ./execve ./myecho>\n"
+"argv[0]: ./myecho\n"
+"argv[1]: hello\n"
+"argv[2]: world\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:775
+msgid ""
+"We can also use these programs to demonstrate the use of a script "
+"interpreter.  To do this we create a script whose \"interpreter\" is our "
+"I<myecho> program:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:782
+#, no-wrap
+msgid ""
+"$B< cat E<gt> script>\n"
+"B<#!./myecho script-arg>\n"
+"B<^D>\n"
+"$B< chmod +x script>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:786
+msgid "We can then use our program to exec the script:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:795
+#, no-wrap
+msgid ""
+"$B< ./execve ./script>\n"
+"argv[0]: ./myecho\n"
+"argv[1]: script-arg\n"
+"argv[2]: ./script\n"
+"argv[3]: hello\n"
+"argv[4]: world\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:797
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:810
+msgid ""
+"B<chmod>(2), B<execveat>(2), B<fork>(2), B<ptrace>(2), B<execl>(3), "
+"B<fexecve>(3), B<getopt>(3), B<system>(3), B<credentials>(7), B<environ>(7), "
+"B<path_resolution>(7), B<ld.so>(8)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/execve.2:810
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/execve.2:818
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
+msgstr ""

@@ -1,0 +1,720 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: 2017-03-05 23:51+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man2/socket.2:43
+#, no-wrap
+msgid "SOCKET"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/socket.2:43
+#, no-wrap
+msgid "2015-12-28"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/socket.2:43
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/socket.2:43
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:44
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:46
+msgid "socket - create an endpoint for communication"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:46
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:48
+msgid "B<#include E<lt>sys/types.hE<gt>> /* See NOTES */"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:50
+msgid "B<#include E<lt>sys/socket.hE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:52
+msgid "B<int socket(int >I<domain>B<, int >I<type>B<, int >I<protocol>B<);>"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:52
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:56
+msgid ""
+"B<socket>()  creates an endpoint for communication and returns a file "
+"descriptor that refers to that endpoint."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:64
+msgid ""
+"The I<domain> argument specifies a communication domain; this selects the "
+"protocol family which will be used for communication.  These families are "
+"defined in I<E<lt>sys/socket.hE<gt>>.  The currently understood formats "
+"include:"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:67
+#, no-wrap
+msgid "Name:Purpose:Man page"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:70
+#, no-wrap
+msgid "B<AF_UNIX>, B<AF_LOCAL>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:70 raw/manpages-dev/man2/socket.2:72
+#: raw/manpages-dev/man2/socket.2:90 raw/manpages-dev/man2/socket.2:92
+#: raw/manpages-dev/man2/socket.2:102 raw/manpages-dev/man2/socket.2:104
+#: raw/manpages-dev/man2/socket.2:115 raw/manpages-dev/man2/socket.2:117
+#: raw/manpages-dev/man2/socket.2:122
+#, no-wrap
+msgid ":"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:72
+#, no-wrap
+msgid "Local communication\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:74
+#, no-wrap
+msgid "B<unix>(7)\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:77
+#, no-wrap
+msgid "B<AF_INET>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:77
+#, no-wrap
+msgid ":IPv4 Internet protocols:"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:79
+#, no-wrap
+msgid "B<ip>(7)\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:82
+#, no-wrap
+msgid "B<AF_INET6>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:82
+#, no-wrap
+msgid ":IPv6 Internet protocols:"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:84
+#, no-wrap
+msgid "B<ipv6>(7)\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:87
+#, no-wrap
+msgid "B<AF_IPX>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:87
+#, no-wrap
+msgid ":IPX - Novell protocols:"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:90
+#, no-wrap
+msgid "B<AF_NETLINK>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:92
+#, no-wrap
+msgid "Kernel user interface device\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:94
+#, no-wrap
+msgid "B<netlink>(7)\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:97
+#, no-wrap
+msgid "B<AF_X25>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:97
+#, no-wrap
+msgid ":ITU-T X.25 / ISO-8208 protocol:"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:99
+#, no-wrap
+msgid "B<x25>(7)\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:102
+#, no-wrap
+msgid "B<AF_AX25>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:104
+#, no-wrap
+msgid "Amateur radio AX.25 protocol\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:107
+#, no-wrap
+msgid "B<AF_ATMPVC>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:107
+#, no-wrap
+msgid ":Access to raw ATM PVCs:"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:110
+#, no-wrap
+msgid "B<AF_APPLETALK>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:110
+#, no-wrap
+msgid ":AppleTalk:"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:112
+#, no-wrap
+msgid "B<ddp>(7)\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:115
+#, no-wrap
+msgid "B<AF_PACKET>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:117
+#, no-wrap
+msgid "Low level packet interface\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:119
+#, no-wrap
+msgid "B<packet>(7)\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:122
+#, no-wrap
+msgid "B<AF_ALG>\n"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:124
+#, no-wrap
+msgid "Interface to kernel crypto API\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:132
+msgid ""
+"The socket has the indicated I<type>, which specifies the communication "
+"semantics.  Currently defined types are:"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:132
+#, no-wrap
+msgid "B<SOCK_STREAM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:136
+msgid ""
+"Provides sequenced, reliable, two-way, connection-based byte streams.  An "
+"out-of-band data transmission mechanism may be supported."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:136
+#, no-wrap
+msgid "B<SOCK_DGRAM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:140
+msgid ""
+"Supports datagrams (connectionless, unreliable messages of a fixed maximum "
+"length)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:140
+#, no-wrap
+msgid "B<SOCK_SEQPACKET>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:145
+msgid ""
+"Provides a sequenced, reliable, two-way connection-based data transmission "
+"path for datagrams of fixed maximum length; a consumer is required to read "
+"an entire packet with each input system call."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:145
+#, no-wrap
+msgid "B<SOCK_RAW>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:148
+msgid "Provides raw network protocol access."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:148
+#, no-wrap
+msgid "B<SOCK_RDM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:151
+msgid "Provides a reliable datagram layer that does not guarantee ordering."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:151
+#, no-wrap
+msgid "B<SOCK_PACKET>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:156
+msgid "Obsolete and should not be used in new programs; see B<packet>(7)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:158
+msgid "Some socket types may not be implemented by all protocol families."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:166
+msgid ""
+"Since Linux 2.6.27, the I<type> argument serves a second purpose: in "
+"addition to specifying a socket type, it may include the bitwise OR of any "
+"of the following values, to modify the behavior of B<socket>():"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:166
+#, no-wrap
+msgid "B<SOCK_NONBLOCK>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:174
+msgid ""
+"Set the B<O_NONBLOCK> file status flag on the new open file description.  "
+"Using this flag saves extra calls to B<fcntl>(2)  to achieve the same result."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:174
+#, no-wrap
+msgid "B<SOCK_CLOEXEC>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:184
+msgid ""
+"Set the close-on-exec (B<FD_CLOEXEC>)  flag on the new file descriptor.  See "
+"the description of the B<O_CLOEXEC> flag in B<open>(2)  for reasons why this "
+"may be useful."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:200
+msgid ""
+"The I<protocol> specifies a particular protocol to be used with the socket.  "
+"Normally only a single protocol exists to support a particular socket type "
+"within a given protocol family, in which case I<protocol> can be specified "
+"as 0.  However, it is possible that many protocols may exist, in which case "
+"a particular protocol must be specified in this manner.  The protocol number "
+"to use is specific to the ``communication domain'' in which communication is "
+"to take place; see B<protocols>(5).  See B<getprotoent>(3)  on how to map "
+"protocol name strings to protocol numbers."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:230
+msgid ""
+"Sockets of type B<SOCK_STREAM> are full-duplex byte streams.  They do not "
+"preserve record boundaries.  A stream socket must be in a I<connected> state "
+"before any data may be sent or received on it.  A connection to another "
+"socket is created with a B<connect>(2)  call.  Once connected, data may be "
+"transferred using B<read>(2)  and B<write>(2)  calls or some variant of the "
+"B<send>(2)  and B<recv>(2)  calls.  When a session has been completed a "
+"B<close>(2)  may be performed.  Out-of-band data may also be transmitted as "
+"described in B<send>(2)  and received as described in B<recv>(2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:256
+msgid ""
+"The communications protocols which implement a B<SOCK_STREAM> ensure that "
+"data is not lost or duplicated.  If a piece of data for which the peer "
+"protocol has buffer space cannot be successfully transmitted within a "
+"reasonable length of time, then the connection is considered to be dead.  "
+"When B<SO_KEEPALIVE> is enabled on the socket the protocol checks in a "
+"protocol-specific manner if the other end is still alive.  A B<SIGPIPE> "
+"signal is raised if a process sends or receives on a broken stream; this "
+"causes naive processes, which do not handle the signal, to exit.  "
+"B<SOCK_SEQPACKET> sockets employ the same system calls as B<SOCK_STREAM> "
+"sockets.  The only difference is that B<read>(2)  calls will return only the "
+"amount of data requested, and any data remaining in the arriving packet will "
+"be discarded.  Also all message boundaries in incoming datagrams are "
+"preserved."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:266
+msgid ""
+"B<SOCK_DGRAM> and B<SOCK_RAW> sockets allow sending of datagrams to "
+"correspondents named in B<sendto>(2)  calls.  Datagrams are generally "
+"received with B<recvfrom>(2), which returns the next datagram along with the "
+"address of its sender."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:273
+msgid ""
+"B<SOCK_PACKET> is an obsolete socket type to receive raw packets directly "
+"from the device driver.  Use B<packet>(7)  instead."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:296
+msgid ""
+"An B<fcntl>(2)  B<F_SETOWN> operation can be used to specify a process or "
+"process group to receive a B<SIGURG> signal when the out-of-band data "
+"arrives or B<SIGPIPE> signal when a B<SOCK_STREAM> connection breaks "
+"unexpectedly.  This operation may also be used to set the process or process "
+"group that receives the I/O and asynchronous notification of I/O events via "
+"B<SIGIO>.  Using B<F_SETOWN> is equivalent to an B<ioctl>(2)  call with the "
+"B<FIOSETOWN> or B<SIOCSPGRP> argument."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:306
+msgid ""
+"When the network signals an error condition to the protocol module (e.g., "
+"using a ICMP message for IP) the pending error flag is set for the socket.  "
+"The next operation on this socket will return the error code of the pending "
+"error.  For some protocols it is possible to enable a per-socket error queue "
+"to retrieve detailed information about the error; see B<IP_RECVERR> in "
+"B<ip>(7)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:316
+msgid ""
+"The operation of sockets is controlled by socket level I<options>.  These "
+"options are defined in I<E<lt>sys/socket.hE<gt>>.  The functions "
+"B<setsockopt>(2)  and B<getsockopt>(2)  are used to set and get options, "
+"respectively."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:316
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:321
+msgid ""
+"On success, a file descriptor for the new socket is returned.  On error, -1 "
+"is returned, and I<errno> is set appropriately."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:321
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:322
+#, no-wrap
+msgid "B<EACCES>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:326
+msgid ""
+"Permission to create a socket of the specified type and/or protocol is "
+"denied."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:326
+#, no-wrap
+msgid "B<EAFNOSUPPORT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:329
+msgid "The implementation does not support the specified address family."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:329 raw/manpages-dev/man2/socket.2:332
+#, no-wrap
+msgid "B<EINVAL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:332
+msgid "Unknown protocol, or protocol family not available."
+msgstr ""
+
+#.  Since Linux 2.6.27
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:337
+msgid "Invalid flags in I<type>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:337
+#, no-wrap
+msgid "B<EMFILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:340
+msgid ""
+"The per-process limit on the number of open file descriptors has been "
+"reached."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:340
+#, no-wrap
+msgid "B<ENFILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:343
+msgid ""
+"The system-wide limit on the total number of open files has been reached."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:343
+#, no-wrap
+msgid "B<ENOBUFS> or B<ENOMEM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:348
+msgid ""
+"Insufficient memory is available.  The socket cannot be created until "
+"sufficient resources are freed."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/socket.2:348
+#, no-wrap
+msgid "B<EPROTONOSUPPORT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:352
+msgid ""
+"The protocol type or the specified protocol is not supported within this "
+"domain."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:354
+msgid "Other errors may be generated by the underlying protocol modules."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:354
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:356
+msgid "POSIX.1-2001, POSIX.1-2008, 4.4BSD."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:362
+msgid "The B<SOCK_NONBLOCK> and B<SOCK_CLOEXEC> flags are Linux-specific."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:368
+msgid ""
+"B<socket>()  appeared in 4.2BSD.  It is generally portable to/from non-BSD "
+"systems supporting clones of the BSD socket layer (including System\\ V "
+"variants)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:368
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:374
+msgid ""
+"POSIX.1 does not require the inclusion of I<E<lt>sys/types.hE<gt>>, and this "
+"header file is not required on Linux.  However, some historical (BSD) "
+"implementations required this header file, and portable applications are "
+"probably wise to include it."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:387
+msgid ""
+"The manifest constants used under 4.x BSD for protocol families are "
+"B<PF_UNIX>, B<PF_INET>, and so on, while B<AF_UNIX>, B<AF_INET>, and so on "
+"are used for address families.  However, already the BSD man page promises: "
+"\"The protocol family generally is the same as the address family\", and "
+"subsequent standards use AF_* everywhere."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:394
+msgid ""
+"The B<AF_ALG> protocol type was added in Linux 2.6.38.  More information on "
+"this interface is provided with the kernel HTML documentation at I<https://"
+"www.kernel.org/doc/htmldocs/crypto-API/User.html>."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:394
+#, no-wrap
+msgid "EXAMPLE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:399
+msgid "An example of the use of B<socket>()  is shown in B<getaddrinfo>(3)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:399
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:423
+msgid ""
+"B<accept>(2), B<bind>(2), B<close>(2), B<connect>(2), B<fcntl>(2), "
+"B<getpeername>(2), B<getsockname>(2), B<getsockopt>(2), B<ioctl>(2), "
+"B<listen>(2), B<read>(2), B<recv>(2), B<select>(2), B<send>(2), "
+"B<shutdown>(2), B<socketpair>(2), B<write>(2), B<getprotoent>(3), B<ip>(7), "
+"B<socket>(7), B<tcp>(7), B<udp>(7), B<unix>(7)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:429
+msgid ""
+"\\(lqAn Introductory 4.3BSD Interprocess Communication Tutorial\\(rq and "
+"\\(lqBSD Interprocess Communication Tutorial\\(rq, reprinted in I<UNIX "
+"Programmer's Supplementary Documents Volume 1.>"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/socket.2:429
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/socket.2:437
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
+msgstr ""

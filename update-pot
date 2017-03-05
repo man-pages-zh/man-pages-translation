@@ -18,12 +18,13 @@
 
 POT_DIR="templates"
 
-set -e
+#set -e
 
 logv() {
     printf "%s\n" "$1"
 }
 
+printf "%s\n" "# UPDATE-POT ###############################"
 for pkgdir in raw/*; do
     if ! [ -d "${pkgdir}" ]; then
         logv "${pkgdir} not a dir, skipping..."
@@ -55,27 +56,12 @@ for pkgdir in raw/*; do
             #else
             #fi
             po4a-updatepo -f man -m "${manfile}" -M utf8 -p "${_potfile}"
+            if [ "x$?" != "x0" ]; then
+                logv "W: po4a exited with status code ${?}."
+            fi
             logv "Processed ${_potfile}..."
 
         done
     done
 done
-
-exit 0
-
-for i in 1 2 3 4 5 6 7 8; do
-    if ! [ -e "raw/man${i}" ]; then
-        (>&2 printf "%s does not exist, skipping..." "raw/man${i}")
-        continue
-    fi
-    for manfile in raw/man${i}/*; do
-        printf "processing %s...\n" "${manfile}"
-        if [ -h "${manfile}" ]; then
-            (>&2 printf "WARN: %s is a symlink." "${manfile}")
-            continue
-        fi
-        po4a-updatepo -f man -m "${manfile}" -M utf8 -p "template/$(basename "${manfile}").pot"
-        printf "%s\n" "${manfile}" 2> /dev/null
-    done
-done
-
+printf "%s\n" "# UPDATE-POT ### END ##########################"

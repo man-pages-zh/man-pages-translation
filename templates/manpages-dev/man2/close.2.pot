@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man2/close.2:36
+#, no-wrap
+msgid "CLOSE"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/close.2:36
+#, no-wrap
+msgid "2016-10-08"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/close.2:36
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man2/close.2:36
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:37
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:39
+msgid "close - close a file descriptor"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:39
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:42
+#, no-wrap
+msgid "B<#include E<lt>unistd.hE<gt>>\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:44
+#, no-wrap
+msgid "B<int close(int >I<fd>B<);>\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:45
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:54
+msgid ""
+"B<close>()  closes a file descriptor, so that it no longer refers to any "
+"file and may be reused.  Any record locks (see B<fcntl>(2))  held on the "
+"file it was associated with, and owned by the process, are removed "
+"(regardless of the file descriptor that was used to obtain the lock)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:65
+msgid ""
+"If I<fd> is the last file descriptor referring to the underlying open file "
+"description (see B<open>(2)), the resources associated with the open file "
+"description are freed; if the file descriptor was the last reference to a "
+"file which has been removed using B<unlink>(2), the file is deleted."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:65
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:71
+msgid ""
+"B<close>()  returns zero on success.  On error, -1 is returned, and I<errno> "
+"is set appropriately."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:71
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/close.2:72
+#, no-wrap
+msgid "B<EBADF>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:76
+msgid "I<fd> isn't a valid open file descriptor."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/close.2:76
+#, no-wrap
+msgid "B<EINTR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:82
+msgid "The B<close>()  call was interrupted by a signal; see B<signal>(7)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man2/close.2:82
+#, no-wrap
+msgid "B<EIO>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:85
+msgid "An I/O error occurred."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:89
+msgid ""
+"See NOTES for a discussion of why B<close>()  should not be retried after an "
+"error."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:89
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#.  SVr4 documents an additional ENOLINK error condition.
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:92
+msgid "POSIX.1-2001, POSIX.1-2008, SVr4, 4.3BSD."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:92
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:100
+msgid ""
+"A successful close does not guarantee that the data has been successfully "
+"saved to disk, as the kernel uses the buffer cache to defer writes.  "
+"Typically, filesystems do not flush buffers when a file is closed.  If you "
+"need to be sure that the data is physically stored on the underlying disk, "
+"use B<fsync>(2).  (It will depend on the disk hardware at this point.)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:107
+msgid ""
+"The close-on-exec file descriptor flag can be used to ensure that a file "
+"descriptor is automatically closed upon a successful B<execve>(2); see "
+"B<fcntl>(2)  for details."
+msgstr ""
+
+#.  Date: Tue, 4 Sep 2007 13:57:35 +0200
+#.  From: Fredrik Noring <noring@nocrew.org>
+#.  One such race involves signals and ERESTARTSYS. If a file descriptor
+#.  in use by a system call is closed and then reused by e.g. an
+#.  independent open() in some unrelated thread, before the original system
+#.  call has restarted after ERESTARTSYS, the original system call will
+#.  later restart with the reused file descriptor. This is most likely a
+#.  serious programming error.
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:123
+msgid ""
+"It is probably unwise to close file descriptors while they may be in use by "
+"system calls in other threads in the same process.  Since a file descriptor "
+"may be reused, there are some obscure race conditions that may cause "
+"unintended side effects."
+msgstr ""
+
+#. type: SS
+#: raw/manpages-dev/man2/close.2:123
+#, no-wrap
+msgid "Dealing with error returns from close()"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:135
+msgid ""
+"A careful programmer will check the return value of B<close>(), since it is "
+"quite possible that errors on a previous B<write>(2)  operation are reported "
+"only on the final B<close>()  that releases the open file description.  "
+"Failing to check the return value when closing a file may lead to I<silent> "
+"loss of data.  This can especially be observed with NFS and with disk quota."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:141
+msgid ""
+"Note, however, that a failure return should be used only for diagnostic "
+"purposes (i.e., a warning to the application that there may still be I/O "
+"pending or there may have been failed I/O)  or remedial purposes (e.g., "
+"writing the file once more or creating a backup)."
+msgstr ""
+
+#.  The file descriptor is released early in close();
+#.  close() ==> __close_fd():
+#. 			__put_unused_fd() ==> __clear_open_fd()
+#. 			return filp_close(file, files);
+#
+#.  The errors are returned by filp_close() after the FD has been
+#.  cleared for re-use.
+#.  filp_close()
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:162
+msgid ""
+"Retrying the B<close>()  after a failure return is the wrong thing to do, "
+"since this may cause a reused file descriptor from another thread to be "
+"closed.  This can occur because the Linux kernel I<always> releases the file "
+"descriptor early in the close operation, freeing it for reuse; the steps "
+"that may return an error, such as flushing data to the filesystem or device, "
+"occur only later in the close operation."
+msgstr ""
+
+#.  FreeBSD documents this explicitly. From the look of the source code
+#.  SVR4, ancient SunOS, later Solaris, and AIX all do this.
+#.  Issue 8
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:175
+msgid ""
+"Many other implementations similarly always close the file descriptor "
+"(except in the case of B<EBADF>, meaning that the file descriptor was "
+"invalid)  even if they subsequently report an error on return from "
+"B<close>().  POSIX.1 is currently silent on this point, but there are plans "
+"to mandate this behavior in the next major release of the standard"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:180
+msgid ""
+"A careful programmer who wants to know about I/O errors may precede "
+"B<close>()  with a call to B<fsync>(2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:187
+msgid ""
+"The B<EINTR> error is a somewhat special case.  Regarding the B<EINTR> "
+"error, POSIX.1-2013 says:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:198
+msgid ""
+"If B<close>()  is interrupted by a signal that is to be caught, it shall "
+"return -1 with I<errno> set to B<EINTR> and the state of I<fildes> is "
+"unspecified."
+msgstr ""
+
+#.  FIXME . for later review when Issue 8 is one day released...
+#.  POSIX proposes further changes for EINTR
+#.  http://austingroupbugs.net/tag_view_page.php?tag_id=8
+#.  http://austingroupbugs.net/view.php?id=529
+#
+#.  FIXME .
+#.  Review the following glibc bug later
+#.  https://sourceware.org/bugzilla/show_bug.cgi?id=14627
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:233
+msgid ""
+"This permits the behavior that occurs on Linux and many other "
+"implementations, where, as with other errors that may be reported by "
+"B<close>(), the file descriptor is guaranteed to be closed.  However, it "
+"also permits another possibility: that the implementation returns an "
+"B<EINTR> error and keeps the file descriptor open.  (According to its "
+"documentation, HP-UX's B<close>()  does this.)  The caller must then once "
+"more use B<close>()  to close the file descriptor, to avoid file descriptor "
+"leaks.  This divergence in implementation behaviors provides a difficult "
+"hurdle for portable applications, since on many implementations, B<close>()  "
+"must not be called again after an B<EINTR> error, and on at least one, "
+"B<close>()  must be called again.  There are plans to address this conundrum "
+"for the next major release of the POSIX.1 standard."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:234
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:241
+msgid ""
+"B<fcntl>(2), B<fsync>(2), B<open>(2), B<shutdown>(2), B<unlink>(2), "
+"B<fclose>(3)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man2/close.2:241
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man2/close.2:249
+msgid ""
+"This page is part of release 4.09 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at "
+"\\%https://www.kernel.org/doc/man-pages/."
+msgstr ""

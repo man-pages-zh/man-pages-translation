@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/util-linux/man1/more.1:37
+#, no-wrap
+msgid "MORE"
+msgstr ""
+
+#. type: TH
+#: raw/util-linux/man1/more.1:37
+#, no-wrap
+msgid "February 2014"
+msgstr ""
+
+#. type: TH
+#: raw/util-linux/man1/more.1:37
+#, no-wrap
+msgid "util-linux"
+msgstr ""
+
+#. type: TH
+#: raw/util-linux/man1/more.1:37
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:38
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:40
+msgid "more - file perusal filter for crt viewing"
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:40
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:44
+msgid "B<more> [options] I<file>..."
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:44
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:52
+msgid ""
+"B<more> is a filter for paging through text one screenful at a time.  This "
+"version is especially primitive.  Users should realize that B<less>(1)  "
+"provides B<more>(1)  emulation plus extensive enhancements."
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:52
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:58
+msgid ""
+"Options are also taken from the environment variable B<MORE> (make sure to "
+"precede them with a dash (B<->))  but command-line options will override "
+"those."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:58
+#, no-wrap
+msgid "B<-d>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:63
+msgid ""
+"Prompt with \"[Press space to continue, 'q' to quit.]\", and display "
+"\"[Press 'h' for instructions.]\" instead of ringing the bell when an "
+"illegal key is pressed."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:63
+#, no-wrap
+msgid "B<-l>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:68
+msgid "Do not pause after any line containing a B<\\&^L> (form feed)."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:68
+#, no-wrap
+msgid "B<-f>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:71
+msgid ""
+"Count logical lines, rather than screen lines (i.e., long lines are not "
+"folded)."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:71
+#, no-wrap
+msgid "B<-p>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:77
+msgid ""
+"Do not scroll.  Instead, clear the whole screen and then display the text.  "
+"Notice that this option is switched on automatically if the executable is "
+"named B<page>."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:77
+#, no-wrap
+msgid "B<-c>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:81
+msgid ""
+"Do not scroll.  Instead, paint each screen from the top, clearing the "
+"remainder of each line as it is displayed."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:81
+#, no-wrap
+msgid "B<-s>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:84
+msgid "Squeeze multiple blank lines into one."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:84
+#, no-wrap
+msgid "B<-u>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:87
+msgid "Suppress underlining."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:87
+#, no-wrap
+msgid "B<->I<number>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:92
+msgid "The screen size to use, in I<number> of lines."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:92
+#, no-wrap
+msgid "B<+>I<number>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:96
+msgid "Start displaying each file at line I<number>."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:96
+#, no-wrap
+msgid "B<+/>I<string>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:101
+msgid "The I<string> to be searched in each file before starting to display it."
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:101
+#, no-wrap
+msgid "COMMANDS"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:111
+msgid ""
+"Interactive commands for B<more> are based on B<vi>(1).  Some commands may "
+"be preceded by a decimal number, called k in the descriptions below.  In the "
+"following descriptions, B<^X> means B<control-X>."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:114
+#, no-wrap
+msgid "B<h>\\ orB<\\ ?>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:118
+msgid ""
+"Help; display a summary of these commands.  If you forget all other "
+"commands, remember this one."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:118
+#, no-wrap
+msgid "B<SPACE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:121
+msgid "Display next k lines of text.  Defaults to current screen size."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:121
+#, no-wrap
+msgid "B<z>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:125
+msgid ""
+"Display next k lines of text.  Defaults to current screen size.  Argument "
+"becomes new default."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:125
+#, no-wrap
+msgid "B<RETURN>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:128
+msgid "Display next k lines of text.  Defaults to 1.  Argument becomes new default."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:128
+#, no-wrap
+msgid "B<d>\\ orB<\\ \\&^D>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:132
+msgid ""
+"Scroll k lines.  Default is current scroll size, initially 11.  Argument "
+"becomes new default."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:132
+#, no-wrap
+msgid "B<q>\\ orB<\\ Q>\\ orB<\\ INTERRUPT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:135
+msgid "Exit."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:135
+#, no-wrap
+msgid "B<s>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:138
+msgid "Skip forward k lines of text.  Defaults to 1."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:138
+#, no-wrap
+msgid "B<f>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:141
+msgid "Skip forward k screenfuls of text.  Defaults to 1."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:141
+#, no-wrap
+msgid "B<b>\\ orB<\\ \\&^B>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:145
+msgid ""
+"Skip backwards k screenfuls of text.  Defaults to 1.  Only works with files, "
+"not pipes."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:145
+#, no-wrap
+msgid "B<'>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:148
+msgid "Go to the place where the last search started."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:148
+#, no-wrap
+msgid "B<=>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:151
+msgid "Display current line number."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:151
+#, no-wrap
+msgid "B<\\&/pattern>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:154
+msgid "Search for kth occurrence of regular expression.  Defaults to 1."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:154
+#, no-wrap
+msgid "B<n>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:157
+msgid "Search for kth occurrence of last regular expression.  Defaults to 1."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:157
+#, no-wrap
+msgid "B<!command>\\ orB<\\ :!command>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:162
+msgid "Execute I<command> in a subshell."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:162
+#, no-wrap
+msgid "B<v>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:179
+msgid ""
+"Start up an editor at current line.  The editor is taken from the "
+"environment variable B<VISUAL> if defined, or B<EDITOR> if B<VISUAL> is not "
+"defined, or defaults to B<vi> if neither B<VISUAL> nor B<EDITOR> is defined."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:179
+#, no-wrap
+msgid "B<\\&^L>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:182
+msgid "Redraw screen."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:182
+#, no-wrap
+msgid "B<:n>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:185
+msgid "Go to kth next file.  Defaults to 1."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:185
+#, no-wrap
+msgid "B<:p>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:188
+msgid "Go to kth previous file.  Defaults to 1."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:188
+#, no-wrap
+msgid "B<:f>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:191
+msgid "Display current file name and line number."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:191
+#, no-wrap
+msgid "B<\\&.>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:194
+msgid "Repeat previous command."
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:194
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:198
+msgid ""
+"The B<more> command respects the following environment variables, if they "
+"exist:"
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:198
+#, no-wrap
+msgid "B<MORE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:202
+msgid "This variable may be set with favored options to B<more>."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:202
+#, no-wrap
+msgid "B<SHELL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:205
+msgid "Current shell in use (normally set by the shell at login time)."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:205
+#, no-wrap
+msgid "B<TERM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:209
+msgid ""
+"The terminal type used by B<more> to get the terminal characteristics "
+"necessary to manipulate the screen."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:209
+#, no-wrap
+msgid "B<VISUAL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:214
+msgid "The editor the user prefers.  Invoked when command key I<v> is pressed."
+msgstr ""
+
+#. type: TP
+#: raw/util-linux/man1/more.1:214
+#, no-wrap
+msgid "B<EDITOR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:219
+msgid "The editor of choice when B<VISUAL> is not specified."
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:219
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:222
+msgid "B<less>(1), B<vi>(1)"
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:222
+#, no-wrap
+msgid "AUTHORS"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:224
+msgid "Eric Shienbrood, UC Berkeley"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:226
+msgid "Modified by Geoff Peck, UCB to add underlining, single spacing"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:228
+msgid "Modified by John Foderaro, UCB to add -c and MORE environment variable"
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:228
+#, no-wrap
+msgid "HISTORY"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:236
+msgid ""
+"The B<more> command appeared in 3.0BSD.  This man page documents B<more> "
+"version 5.19 (Berkeley 6/29/88), which is currently in use in the Linux "
+"community.  Documentation was produced using several other versions of the "
+"man page, and extensive inspection of the source code."
+msgstr ""
+
+#. type: SH
+#: raw/util-linux/man1/more.1:236
+#, no-wrap
+msgid "AVAILABILITY"
+msgstr ""
+
+#. type: Plain text
+#: raw/util-linux/man1/more.1:240
+msgid ""
+"The more command is part of the util-linux package and is available from "
+"E<.UR ftp://\\:ftp.kernel.org\\:/pub\\:/linux\\:/utils\\:/util-linux/> Linux "
+"Kernel Archive E<.UE .>"
+msgstr ""
