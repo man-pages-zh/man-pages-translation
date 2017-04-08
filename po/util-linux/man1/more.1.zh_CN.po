@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-03-05 23:51+0800\n"
-"PO-Revision-Date: 2017-04-04 12:57+0800\n"
+"PO-Revision-Date: 2017-04-09 00:36+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
@@ -299,7 +299,7 @@ msgstr "B<d>\\ 或 B<\\ \\&^D>"
 msgid ""
 "Scroll k lines.  Default is current scroll size, initially 11.  Argument "
 "becomes new default."
-msgstr ""
+msgstr "卷屏 k 行。默认使用当前卷屏大小，初始值为 11。参数将变为新的默认值。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:132
@@ -316,97 +316,97 @@ msgstr "退出。"
 #: raw/util-linux/man1/more.1:135
 #, no-wrap
 msgid "B<s>"
-msgstr ""
+msgstr "B<s>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:138
 msgid "Skip forward k lines of text.  Defaults to 1."
-msgstr ""
+msgstr "向前跳过 k 行文本。默认值为 1。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:138
 #, no-wrap
 msgid "B<f>"
-msgstr ""
+msgstr "B<f>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:141
 msgid "Skip forward k screenfuls of text.  Defaults to 1."
-msgstr ""
+msgstr "向前跳过 k 屏文本。默认值为 1。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:141
 #, no-wrap
 msgid "B<b>\\ orB<\\ \\&^B>"
-msgstr ""
+msgstr "B<b>\\ 或B<\\ \\&^B>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:145
 msgid ""
 "Skip backwards k screenfuls of text.  Defaults to 1.  Only works with files, "
 "not pipes."
-msgstr ""
+msgstr "向前跳过 k 屏文本。默认值为 1。只对文件有效，对管道不可用。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:145
 #, no-wrap
 msgid "B<'>"
-msgstr ""
+msgstr "B<'>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:148
 msgid "Go to the place where the last search started."
-msgstr ""
+msgstr "前往上一个搜索起始的地方。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:148
 #, no-wrap
 msgid "B<=>"
-msgstr ""
+msgstr "B<=>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:151
 msgid "Display current line number."
-msgstr ""
+msgstr "显示当前行号。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:151
 #, no-wrap
 msgid "B<\\&/pattern>"
-msgstr ""
+msgstr "B<\\&/模式字符串>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:154
 msgid "Search for kth occurrence of regular expression.  Defaults to 1."
-msgstr ""
+msgstr "搜索第 k 个匹配给定正则表达式的字符串。默认值为 1。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:154
 #, no-wrap
 msgid "B<n>"
-msgstr ""
+msgstr "B<n>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:157
 msgid "Search for kth occurrence of last regular expression.  Defaults to 1."
-msgstr ""
+msgstr "搜索第 k 个匹配先前给定的正则表达式的字符串。默认值为 1。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:157
 #, no-wrap
 msgid "B<!command>\\ orB<\\ :!command>"
-msgstr ""
+msgstr "B<!命令>\\ 或B<\\ :!命令>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:162
 msgid "Execute I<command> in a subshell."
-msgstr ""
+msgstr "在子 shell 中运行给定 I<命令>。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:162
 #, no-wrap
 msgid "B<v>"
-msgstr ""
+msgstr "B<v>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:179
@@ -415,17 +415,19 @@ msgid ""
 "environment variable B<VISUAL> if defined, or B<EDITOR> if B<VISUAL> is not "
 "defined, or defaults to B<vi> if neither B<VISUAL> nor B<EDITOR> is defined."
 msgstr ""
+"在当前行启动一个编辑器。为选定一个具体的编辑器，如果 B<VISUAL> 环境变量被设定"
+"则使用其值，否则检查 B<EDITOR> 的值；若两者均未定义，则默认使用 B<vi>。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:179
 #, no-wrap
 msgid "B<\\&^L>"
-msgstr ""
+msgstr "B<\\&^L>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:182
 msgid "Redraw screen."
-msgstr ""
+msgstr "重绘屏幕。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:182
@@ -464,12 +466,12 @@ msgstr "显示当前文件名和行号。"
 #: raw/util-linux/man1/more.1:191
 #, no-wrap
 msgid "B<\\&.>"
-msgstr ""
+msgstr "B<\\&.>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:194
 msgid "Repeat previous command."
-msgstr ""
+msgstr "重复上一个命令"
 
 #. type: SH
 #: raw/util-linux/man1/more.1:194
@@ -493,7 +495,7 @@ msgstr "B<MORE>"
 #. type: Plain text
 #: raw/util-linux/man1/more.1:202
 msgid "This variable may be set with favored options to B<more>."
-msgstr ""
+msgstr "该变量可以提供 B<more> 使用的参数。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:202
@@ -510,14 +512,14 @@ msgstr "当前使用的 shell（通常由 shell 在登录时设置）。"
 #: raw/util-linux/man1/more.1:205
 #, no-wrap
 msgid "B<TERM>"
-msgstr ""
+msgstr "B<TERM>"
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:209
 msgid ""
 "The terminal type used by B<more> to get the terminal characteristics "
 "necessary to manipulate the screen."
-msgstr ""
+msgstr "终端类型，该值由 B<more> 使用以确定操作屏幕所需的终端特征信息。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:209
@@ -528,7 +530,7 @@ msgstr "B<VISUAL>"
 #. type: Plain text
 #: raw/util-linux/man1/more.1:214
 msgid "The editor the user prefers.  Invoked when command key I<v> is pressed."
-msgstr ""
+msgstr "用户偏好的编辑器。它将在用户按下 I<v> 键时被调用。"
 
 #. type: TP
 #: raw/util-linux/man1/more.1:214
@@ -539,7 +541,7 @@ msgstr "B<EDITOR>"
 #. type: Plain text
 #: raw/util-linux/man1/more.1:219
 msgid "The editor of choice when B<VISUAL> is not specified."
-msgstr ""
+msgstr "B<VISUAL> 未定义时所选择的编辑器。"
 
 #. type: SH
 #: raw/util-linux/man1/more.1:219
