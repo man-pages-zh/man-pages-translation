@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-04 18:22+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: 2017-03-04 18:22+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,14 +27,16 @@ msgstr "CHROOT"
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
-#, no-wrap
-msgid "January 2017"
-msgstr "2017年1月"
+#, fuzzy, no-wrap
+#| msgid "December 2016"
+msgid "October 2017"
+msgstr "2016年12月"
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
-#, no-wrap
-msgid "GNU coreutils 8.26"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #. type: TH
@@ -65,7 +67,8 @@ msgstr "概述"
 msgid ""
 "B<chroot> [I<\\,OPTION\\/>] I<\\,NEWROOT \\/>[I<\\,COMMAND \\/>[I<\\,ARG\\/"
 ">]...]"
-msgstr "B<chroot> [I<\\,选项\\/>] I<\\,新根 \\/>[I<\\,命令 \\/>[I<\\,参数\\/>]...]"
+msgstr ""
+"B<chroot> [I<\\,选项\\/>] I<\\,新根 \\/>[I<\\,命令 \\/>[I<\\,参数\\/>]...]"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:11
@@ -140,8 +143,11 @@ msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:32
+#, fuzzy
+#| msgid ""
+#| "If no command is given, run '${SHELL} B<-i>' (default: '/bin/sh B<-i>')."
 msgid ""
-"If no command is given, run '${SHELL} B<-i>' (default: '/bin/sh B<-i>')."
+"If no command is given, run '\"$SHELL\" B<-i>' (default: '/bin/sh B<-i>')."
 msgstr "如果没有给定命令，则运行“${SHELL} B<-i>”（默认为：“/bin/sh B<-i>”）。"
 
 #. type: SH
@@ -165,7 +171,8 @@ msgstr "报告错误"
 #: raw/coreutils/man8/chroot.8:36
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:38
@@ -184,8 +191,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:41
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -222,5 +233,5 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chrootE
 msgid "or available locally via: info \\(aq(coreutils) chroot invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chroot invocation\\(aq"
 
-#~ msgid "December 2016"
-#~ msgstr "2016年12月"
+#~ msgid "January 2017"
+#~ msgstr "2017年1月"

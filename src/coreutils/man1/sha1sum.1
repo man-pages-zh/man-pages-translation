@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH SHA1SUM 1 2017年1月 "GNU coreutils 8.26" 用户命令
+.TH SHA1SUM 1 "October 2017" "GNU coreutils 8.28" 用户命令
 .SH 名称
 sha1sum \- 计算并校验 SHA1 信息摘要
 .SH 概述
@@ -53,6 +53,10 @@ sha1sum \- 计算并校验 SHA1 信息摘要
 校验和按照 FIPS\-180\-1
 描述的方式进行计算。在校验过程中，其输入内容应当为该程序先前的输出内容。默认模式是输出一行文字，包含校验和、一个指示输入模式的字符（'*'
 指示二进制输入，\&' ' 指示二进制特性不明显的文本输入）以及每个文件的名称。
+.SH BUGS
+Do not use the SHA\-1 algorithm for security related purposes.  Instead, use
+an SHA\-2 algorithm, implemented in the programs sha224sum(1), sha256sum(1),
+sha384sum(1), sha512sum(1), or the BLAKE2 algorithm, implemented in b2sum(1)
 .SH 作者
 由 Ulrich Drepper, Scott Miller 和 David Madore 编写。
 .SH 报告错误
@@ -60,7 +64,7 @@ GNU coreutils 的在线帮助： <http://www.gnu.org/software/coreutils/>
 .br
 请向 <http://translationproject.org/team/zh_CN.html> 报告 sha1sum 的翻译错误。
 .SH 版权
-Copyright \(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
+Copyright \(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
 version 3 or later <http://gnu.org/licenses/gpl.html>.
 .br
 This is free software: you are free to change and redistribute it.  There is

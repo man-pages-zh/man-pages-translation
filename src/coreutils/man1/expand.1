@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH EXPAND 1 2017年1月 "GNU coreutils 8.26" "User Commands"
+.TH EXPAND 1 "October 2017" "GNU coreutils 8.28" "User Commands"
 .SH 名称
 expand \- 将制表符转换为空格
 .SH 概述
@@ -21,11 +21,14 @@ expand \- 将制表符转换为空格
 \fB\-i\fP, \fB\-\-initial\fP
 不转换非空白符后的制表符
 .TP 
-\fB\-t\fP, \fB\-\-tabs\fP=\fI\,数值\/\fP
-设置每个制表符为指定数值的宽度，而不是默认的 8
+\fB\-t\fP, \fB\-\-tabs\fP=\fI\,N\/\fP
+have tabs N characters apart, not 8
 .TP 
 \fB\-t\fP, \fB\-\-tabs\fP=\fI\,列表\/\fP
-使用明确的制表位置列表，用逗号分隔
+use comma separated list of tab positions The last specified position can be
+prefixed with '/' to specify a tab size to use after the last explicitly
+specified tab stop.  Also a prefix of '+' can be used to align remaining tab
+stops relative to the last specified tab stop instead of the first column
 .TP 
 \fB\-\-help\fP
 显示此帮助信息并退出
@@ -39,7 +42,7 @@ GNU coreutils 的在线帮助： <http://www.gnu.org/software/coreutils/>
 .br
 请向 <http://translationproject.org/team/zh_CN.html> 报告 expand 的翻译错误。
 .SH 版权
-Copyright \(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
+Copyright \(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
 version 3 or later <http://gnu.org/licenses/gpl.html>.
 .br
 This is free software: you are free to change and redistribute it.  There is

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
 #, no-wrap
-msgid "January 2017"
+msgid "October 2017"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
 #, no-wrap
-msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr ""
 
 #. type: TH
@@ -98,12 +98,12 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/expand.1:19
 #, no-wrap
-msgid "B<-t>, B<--tabs>=I<\\,NUMBER\\/>"
+msgid "B<-t>, B<--tabs>=I<\\,N\\/>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:22
-msgid "have tabs NUMBER characters apart, not 8"
+msgid "have tabs N characters apart, not 8"
 msgstr ""
 
 #. type: TP
@@ -113,100 +113,104 @@ msgid "B<-t>, B<--tabs>=I<\\,LIST\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:25
-msgid "use comma separated list of explicit tab positions"
+#: raw/coreutils/man1/expand.1:30
+msgid ""
+"use comma separated list of tab positions The last specified position can be "
+"prefixed with '/' to specify a tab size to use after the last explicitly "
+"specified tab stop.  Also a prefix of '+' can be used to align remaining tab "
+"stops relative to the last specified tab stop instead of the first column"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/expand.1:25
+#: raw/coreutils/man1/expand.1:30
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:28
+#: raw/coreutils/man1/expand.1:33
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/expand.1:28
+#: raw/coreutils/man1/expand.1:33
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:31
+#: raw/coreutils/man1/expand.1:36
 msgid "output version information and exit"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/expand.1:31
+#: raw/coreutils/man1/expand.1:36
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:33
+#: raw/coreutils/man1/expand.1:38
 msgid "Written by David MacKenzie."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/expand.1:33
+#: raw/coreutils/man1/expand.1:38
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:35
+#: raw/coreutils/man1/expand.1:40
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:37
+#: raw/coreutils/man1/expand.1:42
 msgid ""
 "Report expand translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/expand.1:37
+#: raw/coreutils/man1/expand.1:42
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:40
+#: raw/coreutils/man1/expand.1:45
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:43
+#: raw/coreutils/man1/expand.1:48
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/expand.1:43
+#: raw/coreutils/man1/expand.1:48
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:45
+#: raw/coreutils/man1/expand.1:50
 msgid "unexpand(1)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:48
+#: raw/coreutils/man1/expand.1:53
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/expandE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:49
+#: raw/coreutils/man1/expand.1:54
 msgid "or available locally via: info \\(aq(coreutils) expand invocation\\(aq"
 msgstr ""

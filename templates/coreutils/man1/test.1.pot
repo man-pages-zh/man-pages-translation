@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/test.1:2
 #, no-wrap
-msgid "January 2017"
+msgid "October 2017"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/test.1:2
 #, no-wrap
-msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr ""
 
 #. type: TH
@@ -598,7 +598,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/test.1:167
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 

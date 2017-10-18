@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,187 +97,193 @@ msgstr ""
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:67
 #, no-wrap
-msgid "Name:Purpose:Man page"
+msgid "Name"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:67
+#, no-wrap
+msgid "Purpose"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man2/socket.2:67
+#, no-wrap
+msgid "Man page"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:70
 #, no-wrap
-msgid "B<AF_UNIX>, B<AF_LOCAL>\n"
-msgstr ""
-
-#. type: tbl table
-#: raw/manpages-dev/man2/socket.2:70 raw/manpages-dev/man2/socket.2:72 raw/manpages-dev/man2/socket.2:90 raw/manpages-dev/man2/socket.2:92 raw/manpages-dev/man2/socket.2:102 raw/manpages-dev/man2/socket.2:104 raw/manpages-dev/man2/socket.2:115 raw/manpages-dev/man2/socket.2:117 raw/manpages-dev/man2/socket.2:122
-#, no-wrap
-msgid ":"
+msgid "B<AF_UNIX>, B<AF_LOCAL>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:72
 #, no-wrap
-msgid "Local communication\n"
+msgid "Local communication"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:74
 #, no-wrap
-msgid "B<unix>(7)\n"
+msgid "B<unix>(7)"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:77
 #, no-wrap
-msgid "B<AF_INET>\n"
+msgid "B<AF_INET>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:77
 #, no-wrap
-msgid ":IPv4 Internet protocols:"
+msgid "IPv4 Internet protocols"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:79
 #, no-wrap
-msgid "B<ip>(7)\n"
+msgid "B<ip>(7)"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:82
 #, no-wrap
-msgid "B<AF_INET6>\n"
+msgid "B<AF_INET6>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:82
 #, no-wrap
-msgid ":IPv6 Internet protocols:"
+msgid "IPv6 Internet protocols"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:84
 #, no-wrap
-msgid "B<ipv6>(7)\n"
+msgid "B<ipv6>(7)"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:87
 #, no-wrap
-msgid "B<AF_IPX>\n"
+msgid "B<AF_IPX>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:87
 #, no-wrap
-msgid ":IPX - Novell protocols:"
+msgid "IPX - Novell protocols"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:90
 #, no-wrap
-msgid "B<AF_NETLINK>\n"
+msgid "B<AF_NETLINK>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:92
 #, no-wrap
-msgid "Kernel user interface device\n"
+msgid "Kernel user interface device"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:94
 #, no-wrap
-msgid "B<netlink>(7)\n"
+msgid "B<netlink>(7)"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:97
 #, no-wrap
-msgid "B<AF_X25>\n"
+msgid "B<AF_X25>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:97
 #, no-wrap
-msgid ":ITU-T X.25 / ISO-8208 protocol:"
+msgid "ITU-T X.25 / ISO-8208 protocol"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:99
 #, no-wrap
-msgid "B<x25>(7)\n"
+msgid "B<x25>(7)"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:102
 #, no-wrap
-msgid "B<AF_AX25>\n"
+msgid "B<AF_AX25>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:104
 #, no-wrap
-msgid "Amateur radio AX.25 protocol\n"
+msgid "Amateur radio AX.25 protocol"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:107
 #, no-wrap
-msgid "B<AF_ATMPVC>\n"
+msgid "B<AF_ATMPVC>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:107
 #, no-wrap
-msgid ":Access to raw ATM PVCs:"
+msgid "Access to raw ATM PVCs"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:110
 #, no-wrap
-msgid "B<AF_APPLETALK>\n"
+msgid "B<AF_APPLETALK>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:110
 #, no-wrap
-msgid ":AppleTalk:"
+msgid "AppleTalk"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:112
 #, no-wrap
-msgid "B<ddp>(7)\n"
+msgid "B<ddp>(7)"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:115
 #, no-wrap
-msgid "B<AF_PACKET>\n"
+msgid "B<AF_PACKET>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:117
 #, no-wrap
-msgid "Low level packet interface\n"
+msgid "Low level packet interface"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:119
 #, no-wrap
-msgid "B<packet>(7)\n"
+msgid "B<packet>(7)"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:122
 #, no-wrap
-msgid "B<AF_ALG>\n"
+msgid "B<AF_ALG>"
 msgstr ""
 
 #. type: tbl table
 #: raw/manpages-dev/man2/socket.2:124
 #, no-wrap
-msgid "Interface to kernel crypto API\n"
+msgid "Interface to kernel crypto API"
 msgstr ""
 
 #. type: Plain text
@@ -383,8 +389,7 @@ msgstr ""
 #: raw/manpages-dev/man2/socket.2:174
 msgid ""
 "Set the B<O_NONBLOCK> file status flag on the new open file description.  "
-"Using this flag saves extra calls to B<fcntl>(2)  to achieve the same "
-"result."
+"Using this flag saves extra calls to B<fcntl>(2)  to achieve the same result."
 msgstr ""
 
 #. type: TP
@@ -574,7 +579,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/socket.2:343
-msgid "The system-wide limit on the total number of open files has been reached."
+msgid ""
+"The system-wide limit on the total number of open files has been reached."
 msgstr ""
 
 #. type: TP
@@ -661,8 +667,8 @@ msgstr ""
 #: raw/manpages-dev/man2/socket.2:394
 msgid ""
 "The B<AF_ALG> protocol type was added in Linux 2.6.38.  More information on "
-"this interface is provided with the kernel HTML documentation at "
-"I<https://www.kernel.org/doc/htmldocs/crypto-API/User.html>."
+"this interface is provided with the kernel HTML documentation at I<https://"
+"www.kernel.org/doc/htmldocs/crypto-API/User.html>."
 msgstr ""
 
 #. type: SH
@@ -711,6 +717,6 @@ msgstr ""
 msgid ""
 "This page is part of release 4.09 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""

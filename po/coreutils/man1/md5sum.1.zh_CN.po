@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: 2017-03-04 18:47+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -28,11 +28,14 @@ msgstr ""
 msgid "MD5SUM"
 msgstr "MD5SUM"
 
+# File: raw/man1/md5sum.1, line: 2
+#
 #. type: TH
 #: raw/coreutils/man1/md5sum.1:2
-#, no-wrap
-msgid "January 2017"
-msgstr "2017年1月"
+#, fuzzy, no-wrap
+#| msgid "December 2016"
+msgid "October 2017"
+msgstr "2016年12月"
 
 # File: raw/man1/md5sum.1, line: 2
 # File: raw/man1/md5sum.1, line: 2
@@ -40,8 +43,9 @@ msgstr "2017年1月"
 # File: raw/man1/md5sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/md5sum.1:2
-#, no-wrap
-msgid "GNU coreutils 8.26"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
@@ -386,11 +390,16 @@ msgstr "BUGS"
 
 #
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:57
+#: raw/coreutils/man1/md5sum.1:58
+#, fuzzy
+#| msgid ""
+#| "The MD5 algorithm should not be used any more for security related "
+#| "purposes.  Instead, better use an SHA-2 algorithm, implemented in the "
+#| "programs sha224sum(1), sha256sum(1), sha384sum(1), sha512sum(1)"
 msgid ""
-"The MD5 algorithm should not be used any more for security related "
-"purposes.  Instead, better use an SHA-2 algorithm, implemented in the "
-"programs sha224sum(1), sha256sum(1), sha384sum(1), sha512sum(1)"
+"Do not use the MD5 algorithm for security related purposes.  Instead, use an "
+"SHA-2 algorithm, implemented in the programs sha224sum(1), sha256sum(1), "
+"sha384sum(1), sha512sum(1), or the BLAKE2 algorithm, implemented in b2sum(1)"
 msgstr ""
 "MD5 算法不应再被用于和安全相关的目的。作为替代，使用 SHA-2 算法更好，它实现在"
 "了 sha224sum(1)、sha256sum(1)、sha384sum(1) 和 sha512sum(1) 这些程序中"
@@ -401,7 +410,7 @@ msgstr ""
 # File: raw/man1/md5sum.1, line: 57
 # File: raw/man1/md5sum.1, line: 57
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:57
+#: raw/coreutils/man1/md5sum.1:58
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
@@ -412,7 +421,7 @@ msgstr "作者"
 # File: raw/man1/md5sum.1, line: 59
 # File: raw/man1/md5sum.1, line: 59
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:59
+#: raw/coreutils/man1/md5sum.1:60
 msgid "Written by Ulrich Drepper, Scott Miller, and David Madore."
 msgstr "由 Ulrich Drepper, Scott Miller 和 David Madore 编写。"
 
@@ -422,7 +431,7 @@ msgstr "由 Ulrich Drepper, Scott Miller 和 David Madore 编写。"
 # File: raw/man1/md5sum.1, line: 59
 # File: raw/man1/md5sum.1, line: 59
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:59
+#: raw/coreutils/man1/md5sum.1:60
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
@@ -433,10 +442,11 @@ msgstr "报告错误"
 # File: raw/man1/md5sum.1, line: 61
 # File: raw/man1/md5sum.1, line: 61
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:61
+#: raw/coreutils/man1/md5sum.1:62
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/md5sum.1, line: 63
@@ -444,7 +454,7 @@ msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreut
 # File: raw/man1/md5sum.1, line: 63
 # File: raw/man1/md5sum.1, line: 63
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:63
+#: raw/coreutils/man1/md5sum.1:64
 msgid ""
 "Report md5sum translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
@@ -458,7 +468,7 @@ msgstr ""
 # File: raw/man1/md5sum.1, line: 63
 # File: raw/man1/md5sum.1, line: 63
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:63
+#: raw/coreutils/man1/md5sum.1:64
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
@@ -468,9 +478,13 @@ msgstr "版权"
 # File: raw/man1/md5sum.1, line: 66
 # File: raw/man1/md5sum.1, line: 66
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:66
+#: raw/coreutils/man1/md5sum.1:67
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -482,7 +496,7 @@ msgstr ""
 # File: raw/man1/md5sum.1, line: 69
 # File: raw/man1/md5sum.1, line: 69
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:69
+#: raw/coreutils/man1/md5sum.1:70
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -496,7 +510,7 @@ msgstr ""
 # File: raw/man1/md5sum.1, line: 69
 # File: raw/man1/md5sum.1, line: 69
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:69
+#: raw/coreutils/man1/md5sum.1:70
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
@@ -507,7 +521,7 @@ msgstr "参见"
 # File: raw/man1/md5sum.1, line: 71
 # File: raw/man1/md5sum.1, line: 71
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:71
+#: raw/coreutils/man1/md5sum.1:72
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/md5sumE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/md5sumE<gt>"
@@ -518,14 +532,12 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/md5sumE
 # File: raw/man1/md5sum.1, line: 72
 # File: raw/man1/md5sum.1, line: 72
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:72
+#: raw/coreutils/man1/md5sum.1:73
 msgid "or available locally via: info \\(aq(coreutils) md5sum invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) md5sum invocation\\(aq"
 
-# File: raw/man1/md5sum.1, line: 2
-#
-#~ msgid "December 2016"
-#~ msgstr "2016年12月"
+#~ msgid "January 2017"
+#~ msgstr "2017年1月"
 
 #
 #

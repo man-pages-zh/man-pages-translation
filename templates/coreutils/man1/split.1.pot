@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/split.1:2
 #, no-wrap
-msgid "January 2017"
+msgid "October 2017"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/split.1:2
 #, no-wrap
-msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr ""
 
 #. type: TH
@@ -155,106 +155,128 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/split.1:35
 #, no-wrap
-msgid "B<-e>, B<--elide-empty-files>"
+msgid "B<-x>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/split.1:38
-msgid "do not generate empty output files with '-n'"
+msgid "use hex suffixes starting at 0, not alphabetic"
 msgstr ""
 
 #. type: TP
 #: raw/coreutils/man1/split.1:38
+#, no-wrap
+msgid "B<--hex-suffixes>[=I<\\,FROM\\/>]"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/split.1:41
+msgid "same as B<-x>, but allow setting the start value"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/split.1:41
+#, no-wrap
+msgid "B<-e>, B<--elide-empty-files>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/split.1:44
+msgid "do not generate empty output files with '-n'"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/split.1:44
 #, no-wrap
 msgid "B<--filter>=I<\\,COMMAND\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:41
+#: raw/coreutils/man1/split.1:47
 msgid "write to shell COMMAND; file name is $FILE"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:41
+#: raw/coreutils/man1/split.1:47
 #, no-wrap
 msgid "B<-l>, B<--lines>=I<\\,NUMBER\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:44
+#: raw/coreutils/man1/split.1:50
 msgid "put NUMBER lines/records per output file"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:44
+#: raw/coreutils/man1/split.1:50
 #, no-wrap
 msgid "B<-n>, B<--number>=I<\\,CHUNKS\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:47
+#: raw/coreutils/man1/split.1:53
 msgid "generate CHUNKS output files; see explanation below"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:47
+#: raw/coreutils/man1/split.1:53
 #, no-wrap
 msgid "B<-t>, B<--separator>=I<\\,SEP\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:51
+#: raw/coreutils/man1/split.1:57
 msgid ""
 "use SEP instead of newline as the record separator; \\&'\\e0' (zero) "
 "specifies the NUL character"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:51
+#: raw/coreutils/man1/split.1:57
 #, no-wrap
 msgid "B<-u>, B<--unbuffered>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:54
+#: raw/coreutils/man1/split.1:60
 msgid "immediately copy input to output with '-n r/...'"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:54
+#: raw/coreutils/man1/split.1:60
 #, no-wrap
 msgid "B<--verbose>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:58
+#: raw/coreutils/man1/split.1:64
 msgid "print a diagnostic just before each output file is opened"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:58
+#: raw/coreutils/man1/split.1:64
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:61
+#: raw/coreutils/man1/split.1:67
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:61
+#: raw/coreutils/man1/split.1:67
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:64
+#: raw/coreutils/man1/split.1:70
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:67
+#: raw/coreutils/man1/split.1:73
 msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
@@ -262,140 +284,140 @@ msgid ""
 msgstr ""
 
 #. type: SS
-#: raw/coreutils/man1/split.1:67
+#: raw/coreutils/man1/split.1:73
 #, no-wrap
 msgid "CHUNKS may be:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:68
+#: raw/coreutils/man1/split.1:74
 #, no-wrap
 msgid "N"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:71
+#: raw/coreutils/man1/split.1:77
 msgid "split into N files based on size of input"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:71
+#: raw/coreutils/man1/split.1:77
 #, no-wrap
 msgid "K/N"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:74
+#: raw/coreutils/man1/split.1:80
 msgid "output Kth of N to stdout"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:74
+#: raw/coreutils/man1/split.1:80
 #, no-wrap
 msgid "l/N"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:77
+#: raw/coreutils/man1/split.1:83
 msgid "split into N files without splitting lines/records"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:77
+#: raw/coreutils/man1/split.1:83
 #, no-wrap
 msgid "l/K/N"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:80
+#: raw/coreutils/man1/split.1:86
 msgid "output Kth of N to stdout without splitting lines/records"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:80
+#: raw/coreutils/man1/split.1:86
 #, no-wrap
 msgid "r/N"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:83
+#: raw/coreutils/man1/split.1:89
 msgid "like 'l' but use round robin distribution"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/split.1:83
+#: raw/coreutils/man1/split.1:89
 #, no-wrap
 msgid "r/K/N"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:86
+#: raw/coreutils/man1/split.1:92
 msgid "likewise but only output Kth of N to stdout"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/split.1:86
+#: raw/coreutils/man1/split.1:92
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:88
+#: raw/coreutils/man1/split.1:94
 msgid "Written by Torbjorn Granlund and Richard M. Stallman."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/split.1:88
+#: raw/coreutils/man1/split.1:94
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:90
+#: raw/coreutils/man1/split.1:96
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:92
+#: raw/coreutils/man1/split.1:98
 msgid ""
 "Report split translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/split.1:92
+#: raw/coreutils/man1/split.1:98
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:95
+#: raw/coreutils/man1/split.1:101
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:98
+#: raw/coreutils/man1/split.1:104
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/split.1:98
+#: raw/coreutils/man1/split.1:104
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:100
+#: raw/coreutils/man1/split.1:106
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/splitE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/split.1:101
+#: raw/coreutils/man1/split.1:107
 msgid "or available locally via: info \\(aq(coreutils) split invocation\\(aq"
 msgstr ""

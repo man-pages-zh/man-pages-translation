@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: 2017-01-22 19:18+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,11 +27,14 @@ msgstr ""
 msgid "SHRED"
 msgstr "SHRED"
 
+# File: raw/man1/shred.1, line: 2
+#
 #. type: TH
 #: raw/coreutils/man1/shred.1:2
-#, no-wrap
-msgid "January 2017"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "December 2016"
+msgid "October 2017"
+msgstr "2016年12月"
 
 #
 # File: raw/man1/shred.1, line: 2
@@ -40,7 +43,7 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/shred.1:2
 #, fuzzy, no-wrap
-msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.23"
 
 #
@@ -526,7 +529,7 @@ msgstr "版权"
 #: raw/coreutils/man1/shred.1:101
 #, fuzzy
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -573,11 +576,6 @@ msgstr "完整文档请见：E<lt>http://www.gnu.org/software/coreutils/shredE<g
 #: raw/coreutils/man1/shred.1:107
 msgid "or available locally via: info \\(aq(coreutils) shred invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) shred invocation\\(aq"
-
-# File: raw/man1/shred.1, line: 2
-#
-#~ msgid "December 2016"
-#~ msgstr "2016年12月"
 
 #
 #

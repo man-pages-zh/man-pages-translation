@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: 2017-03-04 18:41+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,11 +27,16 @@ msgstr ""
 msgid "EXPAND"
 msgstr "EXPAND"
 
+#
+# File: raw/man1/expand.1, line: 2
+# File: raw/man1/expand.1, line: 2
+# File: raw/man1/expand.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
-#, no-wrap
-msgid "January 2017"
-msgstr "2017年1月"
+#, fuzzy, no-wrap
+#| msgid "December 2016"
+msgid "October 2017"
+msgstr "2016年12月"
 
 # File: raw/man1/expand.1, line: 2
 # File: raw/man1/expand.1, line: 2
@@ -39,8 +44,9 @@ msgstr "2017年1月"
 # File: raw/man1/expand.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
-#, no-wrap
-msgid "GNU coreutils 8.26"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
@@ -158,8 +164,9 @@ msgstr "不转换非空白符后的制表符"
 # File: raw/man1/expand.1, line: 19
 #. type: TP
 #: raw/coreutils/man1/expand.1:19
-#, no-wrap
-msgid "B<-t>, B<--tabs>=I<\\,NUMBER\\/>"
+#, fuzzy, no-wrap
+#| msgid "B<-t>, B<--tabs>=I<\\,NUMBER\\/>"
+msgid "B<-t>, B<--tabs>=I<\\,N\\/>"
 msgstr "B<-t>, B<--tabs>=I<\\,数值\\/>"
 
 #
@@ -169,7 +176,9 @@ msgstr "B<-t>, B<--tabs>=I<\\,数值\\/>"
 # File: raw/man1/expand.1, line: 22
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:22
-msgid "have tabs NUMBER characters apart, not 8"
+#, fuzzy
+#| msgid "have tabs NUMBER characters apart, not 8"
+msgid "have tabs N characters apart, not 8"
 msgstr "设置每个制表符为指定数值的宽度，而不是默认的 8"
 
 # File: raw/man1/expand.1, line: 22
@@ -182,15 +191,14 @@ msgstr "设置每个制表符为指定数值的宽度，而不是默认的 8"
 msgid "B<-t>, B<--tabs>=I<\\,LIST\\/>"
 msgstr "B<-t>, B<--tabs>=I<\\,列表\\/>"
 
-#
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:25
-msgid "use comma separated list of explicit tab positions"
-msgstr "使用明确的制表位置列表，用逗号分隔"
+#: raw/coreutils/man1/expand.1:30
+msgid ""
+"use comma separated list of tab positions The last specified position can be "
+"prefixed with '/' to specify a tab size to use after the last explicitly "
+"specified tab stop.  Also a prefix of '+' can be used to align remaining tab "
+"stops relative to the last specified tab stop instead of the first column"
+msgstr ""
 
 #
 # File: raw/man1/expand.1, line: 25
@@ -198,7 +206,7 @@ msgstr "使用明确的制表位置列表，用逗号分隔"
 # File: raw/man1/expand.1, line: 25
 # File: raw/man1/expand.1, line: 25
 #. type: TP
-#: raw/coreutils/man1/expand.1:25
+#: raw/coreutils/man1/expand.1:30
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
@@ -209,7 +217,7 @@ msgstr "B<--help>"
 # File: raw/man1/expand.1, line: 28
 # File: raw/man1/expand.1, line: 28
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:28
+#: raw/coreutils/man1/expand.1:33
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
@@ -219,7 +227,7 @@ msgstr "显示此帮助信息并退出"
 # File: raw/man1/expand.1, line: 28
 # File: raw/man1/expand.1, line: 28
 #. type: TP
-#: raw/coreutils/man1/expand.1:28
+#: raw/coreutils/man1/expand.1:33
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
@@ -230,7 +238,7 @@ msgstr "B<--version>"
 # File: raw/man1/expand.1, line: 31
 # File: raw/man1/expand.1, line: 31
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:31
+#: raw/coreutils/man1/expand.1:36
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
@@ -240,7 +248,7 @@ msgstr "显示版本信息并退出"
 # File: raw/man1/expand.1, line: 31
 # File: raw/man1/expand.1, line: 31
 #. type: SH
-#: raw/coreutils/man1/expand.1:31
+#: raw/coreutils/man1/expand.1:36
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
@@ -251,7 +259,7 @@ msgstr "作者"
 # File: raw/man1/expand.1, line: 33
 # File: raw/man1/expand.1, line: 33
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:33
+#: raw/coreutils/man1/expand.1:38
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
@@ -261,7 +269,7 @@ msgstr "由 David MacKenzie 编写。"
 # File: raw/man1/expand.1, line: 33
 # File: raw/man1/expand.1, line: 33
 #. type: SH
-#: raw/coreutils/man1/expand.1:33
+#: raw/coreutils/man1/expand.1:38
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
@@ -272,10 +280,11 @@ msgstr "报告错误"
 # File: raw/man1/expand.1, line: 35
 # File: raw/man1/expand.1, line: 35
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:35
+#: raw/coreutils/man1/expand.1:40
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/expand.1, line: 37
@@ -283,7 +292,7 @@ msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreut
 # File: raw/man1/expand.1, line: 37
 # File: raw/man1/expand.1, line: 37
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:37
+#: raw/coreutils/man1/expand.1:42
 msgid ""
 "Report expand translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
@@ -297,7 +306,7 @@ msgstr ""
 # File: raw/man1/expand.1, line: 37
 # File: raw/man1/expand.1, line: 37
 #. type: SH
-#: raw/coreutils/man1/expand.1:37
+#: raw/coreutils/man1/expand.1:42
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
@@ -307,9 +316,13 @@ msgstr "版权"
 # File: raw/man1/expand.1, line: 40
 # File: raw/man1/expand.1, line: 40
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:40
+#: raw/coreutils/man1/expand.1:45
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -321,7 +334,7 @@ msgstr ""
 # File: raw/man1/expand.1, line: 43
 # File: raw/man1/expand.1, line: 43
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:43
+#: raw/coreutils/man1/expand.1:48
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -335,7 +348,7 @@ msgstr ""
 # File: raw/man1/expand.1, line: 43
 # File: raw/man1/expand.1, line: 43
 #. type: SH
-#: raw/coreutils/man1/expand.1:43
+#: raw/coreutils/man1/expand.1:48
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
@@ -346,7 +359,7 @@ msgstr "参见"
 # File: raw/man1/expand.1, line: 45
 # File: raw/man1/expand.1, line: 45
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:45
+#: raw/coreutils/man1/expand.1:50
 msgid "unexpand(1)"
 msgstr "unexpand(1)"
 
@@ -356,7 +369,7 @@ msgstr "unexpand(1)"
 # File: raw/man1/expand.1, line: 48
 # File: raw/man1/expand.1, line: 48
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:48
+#: raw/coreutils/man1/expand.1:53
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/expandE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/expandE<gt>"
@@ -367,16 +380,20 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/expandE
 # File: raw/man1/expand.1, line: 49
 # File: raw/man1/expand.1, line: 49
 #. type: Plain text
-#: raw/coreutils/man1/expand.1:49
+#: raw/coreutils/man1/expand.1:54
 msgid "or available locally via: info \\(aq(coreutils) expand invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) expand invocation\\(aq"
 
+#~ msgid "January 2017"
+#~ msgstr "2017年1月"
+
 #
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
-#~ msgid "December 2016"
-#~ msgstr "2016年12月"
+# File: raw/man1/expand.1, line: 25
+# File: raw/man1/expand.1, line: 25
+# File: raw/man1/expand.1, line: 25
+# File: raw/man1/expand.1, line: 25
+#~ msgid "use comma separated list of explicit tab positions"
+#~ msgstr "使用明确的制表位置列表，用逗号分隔"
 
 #
 #

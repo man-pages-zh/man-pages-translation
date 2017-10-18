@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: 2017-03-04 18:38+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,11 +27,16 @@ msgstr ""
 msgid "GROUPS"
 msgstr "GROUPS"
 
+#
+# File: raw/man1/groups.1, line: 2
+# File: raw/man1/groups.1, line: 2
+# File: raw/man1/groups.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/groups.1:2
-#, no-wrap
-msgid "January 2017"
-msgstr "2017年1月"
+#, fuzzy, no-wrap
+#| msgid "December 2016"
+msgid "October 2017"
+msgstr "2016年12月"
 
 # File: raw/man1/groups.1, line: 2
 # File: raw/man1/groups.1, line: 2
@@ -39,8 +44,9 @@ msgstr "2017年1月"
 # File: raw/man1/groups.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/groups.1:2
-#, no-wrap
-msgid "GNU coreutils 8.26"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
@@ -204,7 +210,8 @@ msgstr "报告错误"
 #: raw/coreutils/man1/groups.1:23
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/groups.1, line: 25
@@ -237,8 +244,12 @@ msgstr "版权"
 # File: raw/man1/groups.1, line: 28
 #. type: Plain text
 #: raw/coreutils/man1/groups.1:28
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -296,12 +307,8 @@ msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/groupsE
 msgid "or available locally via: info \\(aq(coreutils) groups invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) groups invocation\\(aq"
 
-#
-# File: raw/man1/groups.1, line: 2
-# File: raw/man1/groups.1, line: 2
-# File: raw/man1/groups.1, line: 2
-#~ msgid "December 2016"
-#~ msgstr "2016年12月"
+#~ msgid "January 2017"
+#~ msgstr "2017年1月"
 
 #
 #

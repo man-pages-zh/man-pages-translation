@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: 2017-03-06 00:06+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <debian-l10n-chinese@lists.debian.org>\n"
@@ -174,17 +174,17 @@ msgid ""
 "only, write-only, or read/write, respectively."
 msgstr ""
 
-#. SUSv4 divides the flags into:
-#. * Access mode
-#. * File creation
-#. * File status
-#. * Other (O_CLOEXEC, O_DIRECTORY, O_NOFOLLOW)
-#. though it's not clear what the difference between "other" and
-#. "File creation" flags is.  I raised an Aardvark to see if this
-#. can be clarified in SUSv4; 10 Oct 2008.
-#. http://thread.gmane.org/gmane.comp.standards.posix.austin.general/64/focus=67
-#. TC1 (balloted in 2013), resolved this, so that those three constants
-#. are also categorized" as file status flags.
+#.  SUSv4 divides the flags into:
+#.  * Access mode
+#.  * File creation
+#.  * File status
+#.  * Other (O_CLOEXEC, O_DIRECTORY, O_NOFOLLOW)
+#.  though it's not clear what the difference between "other" and
+#.  "File creation" flags is.  I raised an Aardvark to see if this
+#.  can be clarified in SUSv4; 10 Oct 2008.
+#.  http://thread.gmane.org/gmane.comp.standards.posix.austin.general/64/focus=67
+#.  TC1 (balloted in 2013), resolved this, so that those three constants
+#.  are also categorized" as file status flags.
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:169
 msgid ""
@@ -209,9 +209,9 @@ msgstr ""
 msgid "B<O_APPEND>"
 msgstr ""
 
-#. For more background, see
-#. http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=453946
-#. http://nfs.sourceforge.net/
+#.  For more background, see
+#.  http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=453946
+#.  http://nfs.sourceforge.net/
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:188
 msgid ""
@@ -245,11 +245,11 @@ msgstr ""
 msgid "B<O_CLOEXEC> (since Linux 2.6.23)"
 msgstr ""
 
-#. NOTE! several other man pages refer to this text
-#. FIXME . for later review when Issue 8 is one day released...
-#. POSIX proposes to fix many APIs that provide hidden FDs
-#. http://austingroupbugs.net/tag_view_page.php?tag_id=8
-#. http://austingroupbugs.net/view.php?id=368
+#.  NOTE! several other man pages refer to this text
+#.  FIXME . for later review when Issue 8 is one day released...
+#.  POSIX proposes to fix many APIs that provide hidden FDs
+#.  http://austingroupbugs.net/tag_view_page.php?tag_id=8
+#.  http://austingroupbugs.net/view.php?id=368
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:216
 msgid ""
@@ -258,9 +258,9 @@ msgid ""
 "operations to set the B<FD_CLOEXEC> flag."
 msgstr ""
 
-#. This flag fixes only one form of the race condition;
-#. The race can also occur with, for example, file descriptors
-#. returned by accept(), pipe(), etc.
+#.  This flag fixes only one form of the race condition;
+#.  The race can also occur with, for example, file descriptors
+#.  returned by accept(), pipe(), etc.
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:245
 msgid ""
@@ -296,8 +296,8 @@ msgid ""
 "process."
 msgstr ""
 
-#. As at 2.6.25, bsdgroups is supported by ext2, ext3, ext4, and
-#. XFS (since 2.6.14).
+#.  As at 2.6.25, bsdgroups is supported by ext2, ext3, ext4, and
+#.  XFS (since 2.6.14).
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:267
 msgid ""
@@ -533,10 +533,10 @@ msgstr ""
 msgid "B<O_DIRECTORY>"
 msgstr ""
 
-#. But see the following and its replies:
-#. http://marc.theaimsgroup.com/?t=112748702800001&r=1&w=2
-#. [PATCH] open: O_DIRECTORY and O_CREAT together should fail
-#. O_DIRECTORY | O_CREAT causes O_DIRECTORY to be ignored.
+#.  But see the following and its replies:
+#.  http://marc.theaimsgroup.com/?t=112748702800001&r=1&w=2
+#.  [PATCH] open: O_DIRECTORY and O_CREAT together should fail
+#.  O_DIRECTORY | O_CREAT causes O_DIRECTORY to be ignored.
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:387
 msgid ""
@@ -581,7 +581,7 @@ msgid ""
 "will fail."
 msgstr ""
 
-#. POSIX.1-2001 explicitly requires this behavior.
+#.  POSIX.1-2001 explicitly requires this behavior.
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:423
 msgid ""
@@ -661,7 +661,7 @@ msgstr ""
 msgid "*"
 msgstr ""
 
-#. Strictly speaking: the filesystem UID
+#.  Strictly speaking: the filesystem UID
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:497
 msgid "The effective UID of the process matches the owner UID of the file."
@@ -674,8 +674,8 @@ msgid ""
 "and the owner UID of the file has a mapping in the namespace."
 msgstr ""
 
-#. The O_NOATIME flag also affects the treatment of st_atime
-#. by mmap() and readdir(2), MTK, Dec 04.
+#.  The O_NOATIME flag also affects the treatment of st_atime
+#.  by mmap() and readdir(2), MTK, Dec 04.
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:510
 msgid ""
@@ -705,9 +705,9 @@ msgstr ""
 msgid "B<O_NOFOLLOW>"
 msgstr ""
 
-#. The headers from glibc 2.0.100 and later include a
-#. definition of this flag; \fIkernels before 2.1.126 will ignore it if
-#. used\fP.
+#.  The headers from glibc 2.0.100 and later include a
+#.  definition of this flag; \fIkernels before 2.1.126 will ignore it if
+#.  used\fP.
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:530
 msgid ""
@@ -757,12 +757,12 @@ msgid "B<O_PATH> (since Linux 2.6.39)"
 msgstr ""
 
 #
-#. commit 1abf0c718f15a56a0a435588d1b104c7a37dc9bd
-#. commit 326be7b484843988afe57566b627fb7a70beac56
-#. commit 65cfc6722361570bfe255698d9cd4dccaf47570d
-#. http://thread.gmane.org/gmane.linux.man/2790/focus=3496
-#. Subject: Re: [PATCH] open(2): document O_PATH
-#. Newsgroups: gmane.linux.man, gmane.linux.kernel
+#.  commit 1abf0c718f15a56a0a435588d1b104c7a37dc9bd
+#.  commit 326be7b484843988afe57566b627fb7a70beac56
+#.  commit 65cfc6722361570bfe255698d9cd4dccaf47570d
+#.  http://thread.gmane.org/gmane.linux.man/2790/focus=3496
+#. 	Subject: Re: [PATCH] open(2): document O_PATH
+#. 	Newsgroups: gmane.linux.man, gmane.linux.kernel
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:577
 msgid ""
@@ -780,8 +780,8 @@ msgid ""
 "descriptor:"
 msgstr ""
 
-#. commit 332a2e1244bd08b9e3ecd378028513396a004a24
-#. fstat(): commit 55815f70147dcfa3ead5738fd56d3574e2e3c1c2
+#.  commit 332a2e1244bd08b9e3ecd378028513396a004a24
+#.  fstat(): commit 55815f70147dcfa3ead5738fd56d3574e2e3c1c2
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:590
 msgid ""
@@ -870,9 +870,9 @@ msgstr ""
 msgid "B<O_TMPFILE> (since Linux 3.11)"
 msgstr ""
 
-#. commit 60545d0d4610b02e55f65d141c95b18ccf855b6e
-#. commit f4e0c30c191f87851c4a53454abb55ee276f4a7e
-#. commit bb458c644a59dbba3a1fe59b27106c5e68e1c4bd
+#.  commit 60545d0d4610b02e55f65d141c95b18ccf855b6e
+#.  commit f4e0c30c191f87851c4a53454abb55ee276f4a7e
+#.  commit bb458c644a59dbba3a1fe59b27106c5e68e1c4bd
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:690
 msgid ""
@@ -931,7 +931,7 @@ msgid ""
 "B<O_EXCL> otherwise.)"
 msgstr ""
 
-#. Inspired by http://lwn.net/Articles/559147/
+#.  Inspired by http://lwn.net/Articles/559147/
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:741
 msgid "There are two main use cases for B<O_TMPFILE>:"
@@ -956,11 +956,11 @@ msgid ""
 "above)."
 msgstr ""
 
-#. To check for support, grep for "tmpfile" in kernel sources
-#. commit 99b6436bc29e4f10e4388c27a3e4810191cc4788
-#. commit ab29743117f9f4c22ac44c13c1647fb24fb2bafe
-#. commit ef3b9af50bfa6a1f02cd7b3f5124b712b1ba3e3c
-#. commit 50732df02eefb39ab414ef655979c2c9b64ad21c
+#.  To check for support, grep for "tmpfile" in kernel sources
+#.  commit 99b6436bc29e4f10e4388c27a3e4810191cc4788
+#.  commit ab29743117f9f4c22ac44c13c1647fb24fb2bafe
+#.  commit ef3b9af50bfa6a1f02cd7b3f5124b712b1ba3e3c
+#.  commit 50732df02eefb39ab414ef655979c2c9b64ad21c
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:778
 msgid ""
@@ -1149,7 +1149,7 @@ msgid ""
 "information."
 msgstr ""
 
-#. In particular, __O_TMPFILE instead of O_TMPFILE
+#.  In particular, __O_TMPFILE instead of O_TMPFILE
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:899
 msgid "Invalid value in I<flags>."
@@ -1352,9 +1352,9 @@ msgstr ""
 msgid "B<EOVERFLOW>"
 msgstr ""
 
-#. See http://bugzilla.kernel.org/show_bug.cgi?id=7253
-#. "Open of a large file on 32-bit fails with EFBIG, should be EOVERFLOW"
-#. Reported 2006-10-03
+#.  See http://bugzilla.kernel.org/show_bug.cgi?id=7253
+#.  "Open of a large file on 32-bit fails with EFBIG, should be EOVERFLOW"
+#.  Reported 2006-10-03
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:1044
 msgid ""
@@ -1372,7 +1372,7 @@ msgstr ""
 msgid "B<EPERM>"
 msgstr ""
 
-#. Strictly speaking, it's the filesystem UID... (MTK)
+#.  Strictly speaking, it's the filesystem UID... (MTK)
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:1051
 msgid ""
@@ -1517,12 +1517,12 @@ msgid ""
 "B<ioctl>(2)."
 msgstr ""
 
-#. Linux 2.0, 2.5: truncate
-#. Solaris 5.7, 5.8: truncate
-#. Irix 6.5: truncate
-#. Tru64 5.1B: truncate
-#. HP-UX 11.22: truncate
-#. FreeBSD 4.7: truncate
+#.  Linux 2.0, 2.5: truncate
+#.  Solaris 5.7, 5.8: truncate
+#.  Irix 6.5: truncate
+#.  Tru64 5.1B: truncate
+#.  HP-UX 11.22: truncate
+#.  FreeBSD 4.7: truncate
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:1152
 msgid ""
@@ -1723,11 +1723,11 @@ msgid ""
 "not have the same meaning as B<O_RDWR>."
 msgstr ""
 
-#. See for example util-linux's disk-utils/setfdprm.c
-#. For some background on access mode 3, see
-#. http://thread.gmane.org/gmane.linux.kernel/653123
-#. "[RFC] correct flags to f_mode conversion in __dentry_open"
-#. LKML, 12 Mar 2008
+#.  See for example util-linux's disk-utils/setfdprm.c
+#.  For some background on access mode 3, see
+#.  http://thread.gmane.org/gmane.linux.kernel/653123
+#.  "[RFC] correct flags to f_mode conversion in __dentry_open"
+#.  LKML, 12 Mar 2008
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:1383
 msgid ""
@@ -1903,8 +1903,8 @@ msgstr ""
 msgid "BUGS"
 msgstr "缺陷"
 
-#. FIXME . Check bugzilla report on open(O_ASYNC)
-#. See http://bugzilla.kernel.org/show_bug.cgi?id=5993
+#.  FIXME . Check bugzilla report on open(O_ASYNC)
+#.  See http://bugzilla.kernel.org/show_bug.cgi?id=5993
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:1593
 msgid ""

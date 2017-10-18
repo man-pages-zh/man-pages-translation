@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/readlink.1:2
 #, no-wrap
-msgid "January 2017"
+msgid "October 2017"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/readlink.1:2
 #, no-wrap
-msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr ""
 
 #. type: TH
@@ -68,191 +68,199 @@ msgstr ""
 msgid "DESCRIPTION"
 msgstr ""
 
+#.  Add any additional description here
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:12
+msgid ""
+"Note realpath(1) is the preferred command to use for canonicalization "
+"functionality."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/readlink.1:14
 msgid "Print value of a symbolic link or canonical file name"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:12
+#: raw/coreutils/man1/readlink.1:14
 #, no-wrap
 msgid "B<-f>, B<--canonicalize>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:17
+#: raw/coreutils/man1/readlink.1:19
 msgid ""
 "canonicalize by following every symlink in every component of the given name "
 "recursively; all but the last component must exist"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:17
+#: raw/coreutils/man1/readlink.1:19
 #, no-wrap
 msgid "B<-e>, B<--canonicalize-existing>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:22
+#: raw/coreutils/man1/readlink.1:24
 msgid ""
 "canonicalize by following every symlink in every component of the given name "
 "recursively, all components must exist"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:22
+#: raw/coreutils/man1/readlink.1:24
 #, no-wrap
 msgid "B<-m>, B<--canonicalize-missing>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:27
+#: raw/coreutils/man1/readlink.1:29
 msgid ""
 "canonicalize by following every symlink in every component of the given name "
 "recursively, without requirements on components existence"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:27
+#: raw/coreutils/man1/readlink.1:29
 #, no-wrap
 msgid "B<-n>, B<--no-newline>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:30
+#: raw/coreutils/man1/readlink.1:32
 msgid "do not output the trailing delimiter"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:32
+#: raw/coreutils/man1/readlink.1:34
 msgid "B<-q>, B<--quiet>,"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:32
+#: raw/coreutils/man1/readlink.1:34
 #, no-wrap
 msgid "B<-s>, B<--silent>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:35
+#: raw/coreutils/man1/readlink.1:37
 msgid "suppress most error messages (on by default)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:35
+#: raw/coreutils/man1/readlink.1:37
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:38
+#: raw/coreutils/man1/readlink.1:40
 msgid "report error messages"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:38
+#: raw/coreutils/man1/readlink.1:40
 #, no-wrap
 msgid "B<-z>, B<--zero>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:41
+#: raw/coreutils/man1/readlink.1:43
 msgid "end each output line with NUL, not newline"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:41
+#: raw/coreutils/man1/readlink.1:43
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:44
+#: raw/coreutils/man1/readlink.1:46
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/readlink.1:44
+#: raw/coreutils/man1/readlink.1:46
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:47
+#: raw/coreutils/man1/readlink.1:49
 msgid "output version information and exit"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/readlink.1:47
+#: raw/coreutils/man1/readlink.1:49
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:49
+#: raw/coreutils/man1/readlink.1:51
 msgid "Written by Dmitry V. Levin."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/readlink.1:49
+#: raw/coreutils/man1/readlink.1:51
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:51
+#: raw/coreutils/man1/readlink.1:53
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:53
+#: raw/coreutils/man1/readlink.1:55
 msgid ""
 "Report readlink translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/readlink.1:53
+#: raw/coreutils/man1/readlink.1:55
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:56
+#: raw/coreutils/man1/readlink.1:58
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:59
+#: raw/coreutils/man1/readlink.1:61
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/readlink.1:59
+#: raw/coreutils/man1/readlink.1:61
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:61
+#: raw/coreutils/man1/readlink.1:63
 msgid "readlink(2), realpath(1), realpath(3)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:64
+#: raw/coreutils/man1/readlink.1:66
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
 "readlinkE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/readlink.1:65
+#: raw/coreutils/man1/readlink.1:67
 msgid ""
 "or available locally via: info \\(aq(coreutils) readlink invocation\\(aq"
 msgstr ""

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
+"POT-Creation-Date: 2017-10-18 22:23+0800\n"
 "PO-Revision-Date: 2017-03-04 18:24+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -29,13 +29,14 @@ msgstr "SHUF"
 #. type: TH
 #: raw/coreutils/man1/shuf.1:2
 #, no-wrap
-msgid "January 2017"
-msgstr "2017年1月"
+msgid "October 2017"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/shuf.1:2
-#, no-wrap
-msgid "GNU coreutils 8.26"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.26"
+msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
@@ -344,7 +345,8 @@ msgstr "报告错误"
 #: raw/coreutils/man1/shuf.1:53
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 # File: raw/man1/shuf.1, line: 55
@@ -371,8 +373,12 @@ msgstr "版权"
 # File: raw/man1/shuf.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/shuf.1:58
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -413,6 +419,9 @@ msgstr ""
 #: raw/coreutils/man1/shuf.1:64
 msgid "or available locally via: info \\(aq(coreutils) shuf invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) shuf invocation\\(aq"
+
+#~ msgid "January 2017"
+#~ msgstr "2017年1月"
 
 #
 #
