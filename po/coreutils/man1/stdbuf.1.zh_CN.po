@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-10-18 22:23+0800\n"
-"PO-Revision-Date: 2017-02-12 22:08+0800\n"
+"PO-Revision-Date: 2017-10-18 23:13+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -23,20 +23,19 @@ msgstr ""
 #: raw/coreutils/man1/stdbuf.1:2
 #, no-wrap
 msgid "STDBUF"
-msgstr ""
+msgstr "STDBUF"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
 #, no-wrap
 msgid "October 2017"
-msgstr ""
+msgstr "2017年10月"
 
-#
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GNU coreutils 8.28"
-msgstr "GNU coreutils 8.23"
+msgstr "GNU coreutils 8.28"
 
 #
 #. type: TH
@@ -252,8 +251,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/stdbuf.1:56
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text
@@ -270,15 +268,13 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:61
-#, fuzzy
 msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
@@ -303,13 +299,13 @@ msgstr "参见"
 #: raw/coreutils/man1/stdbuf.1:66
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/stdbufE<gt>"
-msgstr ""
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/stdbufE<gt>"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:67
 msgid "or available locally via: info \\(aq(coreutils) stdbuf invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) stdbuf invocation\\(aq"
 
 #
 #

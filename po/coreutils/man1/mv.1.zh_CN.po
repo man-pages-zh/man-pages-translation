@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-10-18 22:23+0800\n"
-"PO-Revision-Date: 2017-05-13 22:25+0800\n"
+"PO-Revision-Date: 2017-10-18 23:03+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -26,20 +26,19 @@ msgstr ""
 msgid "MV"
 msgstr "MV"
 
-#
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "December 2016"
 msgid "October 2017"
-msgstr "2016年12月"
+msgstr "2017年10月"
 
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.26"
 msgid "GNU coreutils 8.28"
-msgstr "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.28"
 
 #
 #. type: TH
@@ -372,7 +371,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:86
 msgid "Written by Mike Parker, David MacKenzie, and Jim Meyering."
-msgstr ""
+msgstr "由 Mike Parker、David MacKenzie 和 Jim Meyering 编写。"
 
 #
 #. type: SH
@@ -386,8 +385,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mv.1:88
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text
@@ -395,6 +393,7 @@ msgstr ""
 msgid ""
 "Report mv translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 mv 的翻译错误。"
 
 #
 #. type: SH
@@ -405,7 +404,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:93
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
@@ -413,7 +411,7 @@ msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
@@ -444,7 +442,7 @@ msgstr "rename(2)"
 #: raw/coreutils/man1/mv.1:101
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/mvE<gt>"
-msgstr ""
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/mvE<gt>"
 
 #
 #. type: Plain text
