@@ -4,6 +4,7 @@ main() {
     ./update-pot
     ./update-po
     ./update-release
+    cd ./po; find . -name "*.po" -exec sed -i -e '/^# File:/d' {} \;
 }
 
 main

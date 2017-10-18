@@ -20,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/chmod.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
@@ -28,7 +27,6 @@ msgstr ""
 msgid "CHMOD"
 msgstr "CHMOD"
 
-# File: raw/man1/chmod.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
@@ -59,10 +57,6 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/chmod.1, line: 5
-# File: raw/man1/chmod.1, line: 5
-# File: raw/man1/chmod.1, line: 5
-# File: raw/man1/chmod.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:5
 msgid "chmod - change file mode bits"
@@ -75,7 +69,6 @@ msgstr "chmod - 改变文件模式比特位"
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/chmod.1, line: 8
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:8
@@ -92,7 +85,6 @@ msgstr ""
 msgid "B<chmod> [I<\\,OPTION\\/>]... I<\\,OCTAL-MODE FILE\\/>..."
 msgstr "B<chmod> [I<\\,选项\\/>]... I<\\,八进制模式字符串 文件列表\\/>..."
 
-# File: raw/man1/chmod.1, line: 14
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:14
@@ -100,17 +92,12 @@ msgid "B<chmod> [I<\\,OPTION\\/>]... I<\\,--reference=RFILE FILE\\/>..."
 msgstr "B<chmod> [I<\\,选项\\/>]... I<\\,--reference=参考文件 文件列表\\/>..."
 
 #
-# File: raw/man1/chmod.1, line: 14
-# File: raw/man1/chmod.1, line: 14
-# File: raw/man1/chmod.1, line: 14
-# File: raw/man1/chmod.1, line: 14
 #. type: SH
 #: raw/coreutils/man1/chmod.1:14
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-# File: raw/man1/chmod.1, line: 23
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:23
@@ -125,10 +112,6 @@ msgstr ""
 "字来代表新的模式比特位形式。"
 
 #
-# File: raw/man1/chmod.1, line: 32
-# File: raw/man1/chmod.1, line: 32
-# File: raw/man1/chmod.1, line: 32
-# File: raw/man1/chmod.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:32
 msgid ""
@@ -139,10 +122,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 39
-# File: raw/man1/chmod.1, line: 39
-# File: raw/man1/chmod.1, line: 39
-# File: raw/man1/chmod.1, line: 39
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:39
 msgid ""
@@ -154,10 +133,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 45
-# File: raw/man1/chmod.1, line: 45
-# File: raw/man1/chmod.1, line: 45
-# File: raw/man1/chmod.1, line: 45
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:45
 msgid ""
@@ -169,10 +144,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 57
-# File: raw/man1/chmod.1, line: 57
-# File: raw/man1/chmod.1, line: 57
-# File: raw/man1/chmod.1, line: 57
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:57
 msgid ""
@@ -188,10 +159,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 67
-# File: raw/man1/chmod.1, line: 67
-# File: raw/man1/chmod.1, line: 67
-# File: raw/man1/chmod.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:67
 msgid ""
@@ -206,10 +173,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 80
-# File: raw/man1/chmod.1, line: 80
-# File: raw/man1/chmod.1, line: 80
-# File: raw/man1/chmod.1, line: 80
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:80
 msgid ""
@@ -222,10 +185,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 80
-# File: raw/man1/chmod.1, line: 80
-# File: raw/man1/chmod.1, line: 80
-# File: raw/man1/chmod.1, line: 80
 #. type: SH
 #: raw/coreutils/man1/chmod.1:80
 #, no-wrap
@@ -233,10 +192,6 @@ msgid "SETUID AND SETGID BITS"
 msgstr "SETUID 和 SETGID 比特位"
 
 #
-# File: raw/man1/chmod.1, line: 95
-# File: raw/man1/chmod.1, line: 95
-# File: raw/man1/chmod.1, line: 95
-# File: raw/man1/chmod.1, line: 95
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:95
 msgid ""
@@ -250,10 +205,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 104
-# File: raw/man1/chmod.1, line: 104
-# File: raw/man1/chmod.1, line: 104
-# File: raw/man1/chmod.1, line: 104
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:104
 msgid ""
@@ -264,10 +215,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 104
-# File: raw/man1/chmod.1, line: 104
-# File: raw/man1/chmod.1, line: 104
-# File: raw/man1/chmod.1, line: 104
 #. type: SH
 #: raw/coreutils/man1/chmod.1:104
 #, no-wrap
@@ -275,10 +222,6 @@ msgid "RESTRICTED DELETION FLAG OR STICKY BIT"
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 115
-# File: raw/man1/chmod.1, line: 115
-# File: raw/man1/chmod.1, line: 115
-# File: raw/man1/chmod.1, line: 115
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:115
 msgid ""
@@ -293,10 +236,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 115
-# File: raw/man1/chmod.1, line: 115
-# File: raw/man1/chmod.1, line: 115
-# File: raw/man1/chmod.1, line: 115
 #. type: SH
 #: raw/coreutils/man1/chmod.1:115
 #, no-wrap
@@ -304,10 +243,6 @@ msgid "OPTIONS"
 msgstr "选项"
 
 #
-# File: raw/man1/chmod.1, line: 119
-# File: raw/man1/chmod.1, line: 119
-# File: raw/man1/chmod.1, line: 119
-# File: raw/man1/chmod.1, line: 119
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:119
 msgid ""
@@ -316,17 +251,12 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 119
-# File: raw/man1/chmod.1, line: 119
-# File: raw/man1/chmod.1, line: 119
-# File: raw/man1/chmod.1, line: 119
 #. type: TP
 #: raw/coreutils/man1/chmod.1:119
 #, no-wrap
 msgid "B<-c>, B<--changes>"
 msgstr "B<-c>, B<--changes>"
 
-# File: raw/man1/chmod.1, line: 122
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:122
@@ -334,10 +264,6 @@ msgid "like verbose but report only when a change is made"
 msgstr "类似 verbose 选项，但只在做出修改时进行报告"
 
 #
-# File: raw/man1/chmod.1, line: 122
-# File: raw/man1/chmod.1, line: 122
-# File: raw/man1/chmod.1, line: 122
-# File: raw/man1/chmod.1, line: 122
 #. type: TP
 #: raw/coreutils/man1/chmod.1:122
 #, no-wrap
@@ -345,27 +271,18 @@ msgid "B<-f>, B<--silent>, B<--quiet>"
 msgstr "B<-f>, B<--silent>, B<--quiet>"
 
 #
-# File: raw/man1/chmod.1, line: 125
-# File: raw/man1/chmod.1, line: 125
-# File: raw/man1/chmod.1, line: 125
-# File: raw/man1/chmod.1, line: 125
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:125
 msgid "suppress most error messages"
 msgstr "隐藏大多数错误信息"
 
 #
-# File: raw/man1/chmod.1, line: 125
-# File: raw/man1/chmod.1, line: 125
-# File: raw/man1/chmod.1, line: 125
-# File: raw/man1/chmod.1, line: 125
 #. type: TP
 #: raw/coreutils/man1/chmod.1:125
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-# File: raw/man1/chmod.1, line: 128
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:128
@@ -373,17 +290,12 @@ msgid "output a diagnostic for every file processed"
 msgstr "对每一个处理的文件输出诊断信息"
 
 #
-# File: raw/man1/chmod.1, line: 128
-# File: raw/man1/chmod.1, line: 128
-# File: raw/man1/chmod.1, line: 128
-# File: raw/man1/chmod.1, line: 128
 #. type: TP
 #: raw/coreutils/man1/chmod.1:128
 #, no-wrap
 msgid "B<--no-preserve-root>"
 msgstr "B<--no-preserve-root>"
 
-# File: raw/man1/chmod.1, line: 131
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:131
@@ -391,24 +303,18 @@ msgid "do not treat '/' specially (the default)"
 msgstr "不要对“/”特别对待（默认）"
 
 #
-# File: raw/man1/chmod.1, line: 131
-# File: raw/man1/chmod.1, line: 131
-# File: raw/man1/chmod.1, line: 131
-# File: raw/man1/chmod.1, line: 131
 #. type: TP
 #: raw/coreutils/man1/chmod.1:131
 #, no-wrap
 msgid "B<--preserve-root>"
 msgstr "B<--preserve-root>"
 
-# File: raw/man1/chmod.1, line: 134
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:134
 msgid "fail to operate recursively on '/'"
 msgstr "不要在“/”下进行递归操作"
 
-# File: raw/man1/chmod.1, line: 134
 #
 #. type: TP
 #: raw/coreutils/man1/chmod.1:134
@@ -416,7 +322,6 @@ msgstr "不要在“/”下进行递归操作"
 msgid "B<--reference>=I<\\,RFILE\\/>"
 msgstr "B<--reference>=I<\\,参考文件\\/>"
 
-# File: raw/man1/chmod.1, line: 137
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:137
@@ -424,17 +329,12 @@ msgid "use RFILE's mode instead of MODE values"
 msgstr "使用参考文件的模式作为具体模式值"
 
 #
-# File: raw/man1/chmod.1, line: 137
-# File: raw/man1/chmod.1, line: 137
-# File: raw/man1/chmod.1, line: 137
-# File: raw/man1/chmod.1, line: 137
 #. type: TP
 #: raw/coreutils/man1/chmod.1:137
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
 msgstr "B<-R>, B<--recursive>"
 
-# File: raw/man1/chmod.1, line: 140
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:140
@@ -442,10 +342,6 @@ msgid "change files and directories recursively"
 msgstr "递归修改文件和目录"
 
 #
-# File: raw/man1/chmod.1, line: 140
-# File: raw/man1/chmod.1, line: 140
-# File: raw/man1/chmod.1, line: 140
-# File: raw/man1/chmod.1, line: 140
 #. type: TP
 #: raw/coreutils/man1/chmod.1:140
 #, no-wrap
@@ -453,20 +349,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/chmod.1, line: 143
-# File: raw/man1/chmod.1, line: 143
-# File: raw/man1/chmod.1, line: 143
-# File: raw/man1/chmod.1, line: 143
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:143
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/chmod.1, line: 143
-# File: raw/man1/chmod.1, line: 143
-# File: raw/man1/chmod.1, line: 143
-# File: raw/man1/chmod.1, line: 143
 #. type: TP
 #: raw/coreutils/man1/chmod.1:143
 #, no-wrap
@@ -474,20 +362,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/chmod.1, line: 146
-# File: raw/man1/chmod.1, line: 146
-# File: raw/man1/chmod.1, line: 146
-# File: raw/man1/chmod.1, line: 146
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:146
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/chmod.1, line: 148
-# File: raw/man1/chmod.1, line: 148
-# File: raw/man1/chmod.1, line: 148
-# File: raw/man1/chmod.1, line: 148
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:148
 msgid ""
@@ -495,10 +375,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/chmod.1, line: 148
-# File: raw/man1/chmod.1, line: 148
-# File: raw/man1/chmod.1, line: 148
-# File: raw/man1/chmod.1, line: 148
 #. type: SH
 #: raw/coreutils/man1/chmod.1:148
 #, no-wrap
@@ -506,27 +382,18 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/chmod.1, line: 150
-# File: raw/man1/chmod.1, line: 150
-# File: raw/man1/chmod.1, line: 150
-# File: raw/man1/chmod.1, line: 150
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:150
 msgid "Written by David MacKenzie and Jim Meyering."
 msgstr "由 David MacKenzie 和 Jim Meyering 编写。"
 
 #
-# File: raw/man1/chmod.1, line: 150
-# File: raw/man1/chmod.1, line: 150
-# File: raw/man1/chmod.1, line: 150
-# File: raw/man1/chmod.1, line: 150
 #. type: SH
 #: raw/coreutils/man1/chmod.1:150
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-# File: raw/man1/chmod.1, line: 152
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:152
@@ -546,20 +413,12 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/chmod.1, line: 154
-# File: raw/man1/chmod.1, line: 154
-# File: raw/man1/chmod.1, line: 154
-# File: raw/man1/chmod.1, line: 154
 #. type: SH
 #: raw/coreutils/man1/chmod.1:154
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/chmod.1, line: 157
-# File: raw/man1/chmod.1, line: 157
-# File: raw/man1/chmod.1, line: 157
-# File: raw/man1/chmod.1, line: 157
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:157
 #, fuzzy
@@ -573,7 +432,6 @@ msgstr ""
 "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-# File: raw/man1/chmod.1, line: 160
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:160
@@ -584,7 +442,6 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-# File: raw/man1/chmod.1, line: 160
 #
 #. type: SH
 #: raw/coreutils/man1/chmod.1:160
@@ -592,14 +449,12 @@ msgstr ""
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/chmod.1, line: 162
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:162
 msgid "chmod(2)"
 msgstr "chmod(2)"
 
-# File: raw/man1/chmod.1, line: 165
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:165
@@ -607,7 +462,6 @@ msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chmodE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chmodE<gt>"
 
-# File: raw/man1/chmod.1, line: 166
 #
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:166

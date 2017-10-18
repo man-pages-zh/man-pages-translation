@@ -116,20 +116,12 @@ msgid "B<--author>"
 msgstr "B<--author>"
 
 #
-# File: raw/man1/dir.1, line: 24
-# File: raw/man1/dir.1, line: 24
-# File: raw/man1/dir.1, line: 24
-# File: raw/man1/dir.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:24
 msgid "with B<-l>, print the author of each file"
 msgstr "与 B<-l> 同时使用时，输出每个文件的作者。"
 
 #
-# File: raw/man1/dir.1, line: 24
-# File: raw/man1/dir.1, line: 24
-# File: raw/man1/dir.1, line: 24
-# File: raw/man1/dir.1, line: 24
 #. type: TP
 #: raw/coreutils/man1/dir.1:24
 #, no-wrap
@@ -137,20 +129,12 @@ msgid "B<-b>, B<--escape>"
 msgstr "B<-b>, B<--escape>"
 
 #
-# File: raw/man1/dir.1, line: 27
-# File: raw/man1/dir.1, line: 27
-# File: raw/man1/dir.1, line: 27
-# File: raw/man1/dir.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:27
 msgid "print C-style escapes for nongraphic characters"
 msgstr "将无法显示的字符显示为C风格的转义形式"
 
 #
-# File: raw/man1/dir.1, line: 27
-# File: raw/man1/dir.1, line: 27
-# File: raw/man1/dir.1, line: 27
-# File: raw/man1/dir.1, line: 27
 #. type: TP
 #: raw/coreutils/man1/dir.1:27
 #, no-wrap
@@ -158,10 +142,6 @@ msgid "B<--block-size>=I<\\,SIZE\\/>"
 msgstr "B<--block-size>=I<\\,大小\\/>"
 
 #
-# File: raw/man1/dir.1, line: 32
-# File: raw/man1/dir.1, line: 32
-# File: raw/man1/dir.1, line: 32
-# File: raw/man1/dir.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:32
 msgid ""
@@ -170,10 +150,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 32
-# File: raw/man1/dir.1, line: 32
-# File: raw/man1/dir.1, line: 32
-# File: raw/man1/dir.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/dir.1:32
 #, no-wrap
@@ -181,20 +157,12 @@ msgid "B<-B>, B<--ignore-backups>"
 msgstr "B<-B>, B<--ignore-backups>"
 
 #
-# File: raw/man1/dir.1, line: 35
-# File: raw/man1/dir.1, line: 35
-# File: raw/man1/dir.1, line: 35
-# File: raw/man1/dir.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:35
 msgid "do not list implied entries ending with ~"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 35
-# File: raw/man1/dir.1, line: 35
-# File: raw/man1/dir.1, line: 35
-# File: raw/man1/dir.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/dir.1:35
 #, no-wrap
@@ -202,10 +170,6 @@ msgid "B<-c>"
 msgstr "B<-c>"
 
 #
-# File: raw/man1/dir.1, line: 41
-# File: raw/man1/dir.1, line: 41
-# File: raw/man1/dir.1, line: 41
-# File: raw/man1/dir.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:41
 msgid ""
@@ -215,10 +179,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 41
-# File: raw/man1/dir.1, line: 41
-# File: raw/man1/dir.1, line: 41
-# File: raw/man1/dir.1, line: 41
 #. type: TP
 #: raw/coreutils/man1/dir.1:41
 #, no-wrap
@@ -226,20 +186,12 @@ msgid "B<-C>"
 msgstr "B<-C>"
 
 #
-# File: raw/man1/dir.1, line: 44
-# File: raw/man1/dir.1, line: 44
-# File: raw/man1/dir.1, line: 44
-# File: raw/man1/dir.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:44
 msgid "list entries by columns"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 44
-# File: raw/man1/dir.1, line: 44
-# File: raw/man1/dir.1, line: 44
-# File: raw/man1/dir.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/dir.1:44
 #, no-wrap
@@ -247,10 +199,6 @@ msgid "B<--color>[=I<\\,WHEN\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 48
-# File: raw/man1/dir.1, line: 48
-# File: raw/man1/dir.1, line: 48
-# File: raw/man1/dir.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:48
 msgid ""
@@ -259,10 +207,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 48
-# File: raw/man1/dir.1, line: 48
-# File: raw/man1/dir.1, line: 48
-# File: raw/man1/dir.1, line: 48
 #. type: TP
 #: raw/coreutils/man1/dir.1:48
 #, no-wrap
@@ -270,20 +214,12 @@ msgid "B<-d>, B<--directory>"
 msgstr "B<-d>, B<--directory>"
 
 #
-# File: raw/man1/dir.1, line: 51
-# File: raw/man1/dir.1, line: 51
-# File: raw/man1/dir.1, line: 51
-# File: raw/man1/dir.1, line: 51
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:51
 msgid "list directories themselves, not their contents"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 51
-# File: raw/man1/dir.1, line: 51
-# File: raw/man1/dir.1, line: 51
-# File: raw/man1/dir.1, line: 51
 #. type: TP
 #: raw/coreutils/man1/dir.1:51
 #, no-wrap
@@ -291,20 +227,12 @@ msgid "B<-D>, B<--dired>"
 msgstr "B<-D>, B<--dired>"
 
 #
-# File: raw/man1/dir.1, line: 54
-# File: raw/man1/dir.1, line: 54
-# File: raw/man1/dir.1, line: 54
-# File: raw/man1/dir.1, line: 54
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:54
 msgid "generate output designed for Emacs' dired mode"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 54
-# File: raw/man1/dir.1, line: 54
-# File: raw/man1/dir.1, line: 54
-# File: raw/man1/dir.1, line: 54
 #. type: TP
 #: raw/coreutils/man1/dir.1:54
 #, no-wrap
@@ -312,20 +240,12 @@ msgid "B<-f>"
 msgstr "B<-f>"
 
 #
-# File: raw/man1/dir.1, line: 57
-# File: raw/man1/dir.1, line: 57
-# File: raw/man1/dir.1, line: 57
-# File: raw/man1/dir.1, line: 57
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:57
 msgid "do not sort, enable B<-aU>, disable B<-ls> B<--color>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 57
-# File: raw/man1/dir.1, line: 57
-# File: raw/man1/dir.1, line: 57
-# File: raw/man1/dir.1, line: 57
 #. type: TP
 #: raw/coreutils/man1/dir.1:57
 #, no-wrap
@@ -333,20 +253,12 @@ msgid "B<-F>, B<--classify>"
 msgstr "B<-F>, B<--classify>"
 
 #
-# File: raw/man1/dir.1, line: 60
-# File: raw/man1/dir.1, line: 60
-# File: raw/man1/dir.1, line: 60
-# File: raw/man1/dir.1, line: 60
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:60
 msgid "append indicator (one of */=E<gt>@|) to entries"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 60
-# File: raw/man1/dir.1, line: 60
-# File: raw/man1/dir.1, line: 60
-# File: raw/man1/dir.1, line: 60
 #. type: TP
 #: raw/coreutils/man1/dir.1:60
 #, no-wrap
@@ -354,19 +266,11 @@ msgid "B<--file-type>"
 msgstr "B<--file-type>"
 
 #
-# File: raw/man1/dir.1, line: 63
-# File: raw/man1/dir.1, line: 63
-# File: raw/man1/dir.1, line: 63
-# File: raw/man1/dir.1, line: 63
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:63
 msgid "likewise, except do not append '*'"
 msgstr ""
 
-# File: raw/man1/dir.1, line: 63
-# File: raw/man1/dir.1, line: 63
-# File: raw/man1/dir.1, line: 63
-# File: raw/man1/dir.1, line: 63
 #. type: TP
 #: raw/coreutils/man1/dir.1:63
 #, no-wrap
@@ -374,10 +278,6 @@ msgid "B<--format>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
 #
-# File: raw/man1/dir.1, line: 67
-# File: raw/man1/dir.1, line: 67
-# File: raw/man1/dir.1, line: 67
-# File: raw/man1/dir.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:67
 msgid ""
@@ -386,10 +286,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 67
-# File: raw/man1/dir.1, line: 67
-# File: raw/man1/dir.1, line: 67
-# File: raw/man1/dir.1, line: 67
 #. type: TP
 #: raw/coreutils/man1/dir.1:67
 #, no-wrap
@@ -397,20 +293,12 @@ msgid "B<--full-time>"
 msgstr "B<--full-time>"
 
 #
-# File: raw/man1/dir.1, line: 70
-# File: raw/man1/dir.1, line: 70
-# File: raw/man1/dir.1, line: 70
-# File: raw/man1/dir.1, line: 70
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:70
 msgid "like B<-l> B<--time-style>=I<\\,full-iso\\/>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 70
-# File: raw/man1/dir.1, line: 70
-# File: raw/man1/dir.1, line: 70
-# File: raw/man1/dir.1, line: 70
 #. type: TP
 #: raw/coreutils/man1/dir.1:70
 #, no-wrap
@@ -418,20 +306,12 @@ msgid "B<-g>"
 msgstr "B<-g>"
 
 #
-# File: raw/man1/dir.1, line: 73
-# File: raw/man1/dir.1, line: 73
-# File: raw/man1/dir.1, line: 73
-# File: raw/man1/dir.1, line: 73
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:73
 msgid "like B<-l>, but do not list owner"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 73
-# File: raw/man1/dir.1, line: 73
-# File: raw/man1/dir.1, line: 73
-# File: raw/man1/dir.1, line: 73
 #. type: TP
 #: raw/coreutils/man1/dir.1:73
 #, no-wrap
@@ -439,20 +319,12 @@ msgid "B<--group-directories-first>"
 msgstr "B<--group-directories-first>"
 
 #
-# File: raw/man1/dir.1, line: 76
-# File: raw/man1/dir.1, line: 76
-# File: raw/man1/dir.1, line: 76
-# File: raw/man1/dir.1, line: 76
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:76
 msgid "group directories before files;"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 79
-# File: raw/man1/dir.1, line: 79
-# File: raw/man1/dir.1, line: 79
-# File: raw/man1/dir.1, line: 79
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:79
 msgid ""
@@ -461,10 +333,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 79
-# File: raw/man1/dir.1, line: 79
-# File: raw/man1/dir.1, line: 79
-# File: raw/man1/dir.1, line: 79
 #. type: TP
 #: raw/coreutils/man1/dir.1:79
 #, no-wrap
@@ -472,20 +340,12 @@ msgid "B<-G>, B<--no-group>"
 msgstr "B<-G>, B<--no-group>"
 
 #
-# File: raw/man1/dir.1, line: 82
-# File: raw/man1/dir.1, line: 82
-# File: raw/man1/dir.1, line: 82
-# File: raw/man1/dir.1, line: 82
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:82
 msgid "in a long listing, don't print group names"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 82
-# File: raw/man1/dir.1, line: 82
-# File: raw/man1/dir.1, line: 82
-# File: raw/man1/dir.1, line: 82
 #. type: TP
 #: raw/coreutils/man1/dir.1:82
 #, no-wrap
@@ -493,20 +353,12 @@ msgid "B<-h>, B<--human-readable>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 86
-# File: raw/man1/dir.1, line: 86
-# File: raw/man1/dir.1, line: 86
-# File: raw/man1/dir.1, line: 86
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:86
 msgid "with B<-l> and/or B<-s>, print human readable sizes (e.g., 1K 234M 2G)"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 86
-# File: raw/man1/dir.1, line: 86
-# File: raw/man1/dir.1, line: 86
-# File: raw/man1/dir.1, line: 86
 #. type: TP
 #: raw/coreutils/man1/dir.1:86
 #, no-wrap
@@ -514,20 +366,12 @@ msgid "B<--si>"
 msgstr "B<--si>"
 
 #
-# File: raw/man1/dir.1, line: 89
-# File: raw/man1/dir.1, line: 89
-# File: raw/man1/dir.1, line: 89
-# File: raw/man1/dir.1, line: 89
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:89
 msgid "likewise, but use powers of 1000 not 1024"
 msgstr "类似，但是使用1000的乘方，不使用1024"
 
 #
-# File: raw/man1/dir.1, line: 89
-# File: raw/man1/dir.1, line: 89
-# File: raw/man1/dir.1, line: 89
-# File: raw/man1/dir.1, line: 89
 #. type: TP
 #: raw/coreutils/man1/dir.1:89
 #, no-wrap
@@ -535,20 +379,12 @@ msgid "B<-H>, B<--dereference-command-line>"
 msgstr "B<-H>, B<--dereference-command-line>"
 
 #
-# File: raw/man1/dir.1, line: 92
-# File: raw/man1/dir.1, line: 92
-# File: raw/man1/dir.1, line: 92
-# File: raw/man1/dir.1, line: 92
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:92
 msgid "follow symbolic links listed on the command line"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 92
-# File: raw/man1/dir.1, line: 92
-# File: raw/man1/dir.1, line: 92
-# File: raw/man1/dir.1, line: 92
 #. type: TP
 #: raw/coreutils/man1/dir.1:92
 #, no-wrap
@@ -556,30 +392,18 @@ msgid "B<--dereference-command-line-symlink-to-dir>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 95
-# File: raw/man1/dir.1, line: 95
-# File: raw/man1/dir.1, line: 95
-# File: raw/man1/dir.1, line: 95
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:95
 msgid "follow each command line symbolic link"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 97
-# File: raw/man1/dir.1, line: 97
-# File: raw/man1/dir.1, line: 97
-# File: raw/man1/dir.1, line: 97
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:97
 msgid "that points to a directory"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 97
-# File: raw/man1/dir.1, line: 97
-# File: raw/man1/dir.1, line: 97
-# File: raw/man1/dir.1, line: 97
 #. type: TP
 #: raw/coreutils/man1/dir.1:97
 #, no-wrap
@@ -587,10 +411,6 @@ msgid "B<--hide>=I<\\,PATTERN\\/>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 101
-# File: raw/man1/dir.1, line: 101
-# File: raw/man1/dir.1, line: 101
-# File: raw/man1/dir.1, line: 101
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:101
 msgid ""
@@ -598,10 +418,6 @@ msgid ""
 "B<-A>)"
 msgstr ""
 
-# File: raw/man1/dir.1, line: 166
-# File: raw/man1/dir.1, line: 165
-# File: raw/man1/dir.1, line: 165
-# File: raw/man1/dir.1, line: 165
 #. type: TP
 #: raw/coreutils/man1/dir.1:101
 #, fuzzy, no-wrap
@@ -616,10 +432,6 @@ msgid ""
 "'never'"
 msgstr ""
 
-# File: raw/man1/dir.1, line: 101
-# File: raw/man1/dir.1, line: 101
-# File: raw/man1/dir.1, line: 101
-# File: raw/man1/dir.1, line: 101
 #. type: TP
 #: raw/coreutils/man1/dir.1:105
 #, no-wrap
@@ -627,10 +439,6 @@ msgid "B<--indicator-style>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
 #
-# File: raw/man1/dir.1, line: 106
-# File: raw/man1/dir.1, line: 106
-# File: raw/man1/dir.1, line: 106
-# File: raw/man1/dir.1, line: 106
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:110
 msgid ""
@@ -639,10 +447,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 106
-# File: raw/man1/dir.1, line: 106
-# File: raw/man1/dir.1, line: 106
-# File: raw/man1/dir.1, line: 106
 #. type: TP
 #: raw/coreutils/man1/dir.1:110
 #, no-wrap
@@ -650,19 +454,11 @@ msgid "B<-i>, B<--inode>"
 msgstr "B<-i>, B<--inode>"
 
 #
-# File: raw/man1/dir.1, line: 109
-# File: raw/man1/dir.1, line: 109
-# File: raw/man1/dir.1, line: 109
-# File: raw/man1/dir.1, line: 109
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:113
 msgid "print the index number of each file"
 msgstr ""
 
-# File: raw/man1/dir.1, line: 109
-# File: raw/man1/dir.1, line: 109
-# File: raw/man1/dir.1, line: 109
-# File: raw/man1/dir.1, line: 109
 #. type: TP
 #: raw/coreutils/man1/dir.1:113
 #, no-wrap
@@ -670,20 +466,12 @@ msgid "B<-I>, B<--ignore>=I<\\,PATTERN\\/>"
 msgstr "B<-I>, B<--ignore>=I<\\,模式字符串\\/>"
 
 #
-# File: raw/man1/dir.1, line: 112
-# File: raw/man1/dir.1, line: 112
-# File: raw/man1/dir.1, line: 112
-# File: raw/man1/dir.1, line: 112
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:116
 msgid "do not list implied entries matching shell PATTERN"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 112
-# File: raw/man1/dir.1, line: 112
-# File: raw/man1/dir.1, line: 112
-# File: raw/man1/dir.1, line: 112
 #. type: TP
 #: raw/coreutils/man1/dir.1:116
 #, no-wrap
@@ -691,20 +479,12 @@ msgid "B<-k>, B<--kibibytes>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 115
-# File: raw/man1/dir.1, line: 115
-# File: raw/man1/dir.1, line: 115
-# File: raw/man1/dir.1, line: 115
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:119
 msgid "default to 1024-byte blocks for disk usage"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 115
-# File: raw/man1/dir.1, line: 115
-# File: raw/man1/dir.1, line: 115
-# File: raw/man1/dir.1, line: 115
 #. type: TP
 #: raw/coreutils/man1/dir.1:119
 #, no-wrap
@@ -712,20 +492,12 @@ msgid "B<-l>"
 msgstr "B<-l>"
 
 #
-# File: raw/man1/dir.1, line: 118
-# File: raw/man1/dir.1, line: 118
-# File: raw/man1/dir.1, line: 118
-# File: raw/man1/dir.1, line: 118
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:122
 msgid "use a long listing format"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 118
-# File: raw/man1/dir.1, line: 118
-# File: raw/man1/dir.1, line: 118
-# File: raw/man1/dir.1, line: 118
 #. type: TP
 #: raw/coreutils/man1/dir.1:122
 #, no-wrap
@@ -733,10 +505,6 @@ msgid "B<-L>, B<--dereference>"
 msgstr "B<-L>, B<--dereference>"
 
 #
-# File: raw/man1/dir.1, line: 123
-# File: raw/man1/dir.1, line: 123
-# File: raw/man1/dir.1, line: 123
-# File: raw/man1/dir.1, line: 123
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:127
 msgid ""
@@ -745,10 +513,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 123
-# File: raw/man1/dir.1, line: 123
-# File: raw/man1/dir.1, line: 123
-# File: raw/man1/dir.1, line: 123
 #. type: TP
 #: raw/coreutils/man1/dir.1:127
 #, no-wrap
@@ -756,20 +520,12 @@ msgid "B<-m>"
 msgstr "B<-m>"
 
 #
-# File: raw/man1/dir.1, line: 126
-# File: raw/man1/dir.1, line: 126
-# File: raw/man1/dir.1, line: 126
-# File: raw/man1/dir.1, line: 126
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:130
 msgid "fill width with a comma separated list of entries"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 126
-# File: raw/man1/dir.1, line: 126
-# File: raw/man1/dir.1, line: 126
-# File: raw/man1/dir.1, line: 126
 #. type: TP
 #: raw/coreutils/man1/dir.1:130
 #, no-wrap
@@ -777,20 +533,12 @@ msgid "B<-n>, B<--numeric-uid-gid>"
 msgstr "B<-n>, B<--numeric-uid-gid>"
 
 #
-# File: raw/man1/dir.1, line: 129
-# File: raw/man1/dir.1, line: 129
-# File: raw/man1/dir.1, line: 129
-# File: raw/man1/dir.1, line: 129
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:133
 msgid "like B<-l>, but list numeric user and group IDs"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 129
-# File: raw/man1/dir.1, line: 129
-# File: raw/man1/dir.1, line: 129
-# File: raw/man1/dir.1, line: 129
 #. type: TP
 #: raw/coreutils/man1/dir.1:133
 #, no-wrap
@@ -798,19 +546,12 @@ msgid "B<-N>, B<--literal>"
 msgstr "B<-N>, B<--literal>"
 
 #
-# File: raw/man1/dir.1, line: 132
-# File: raw/man1/dir.1, line: 132
-# File: raw/man1/dir.1, line: 132
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:136
 msgid "print entry names without quoting"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 133
-# File: raw/man1/dir.1, line: 132
-# File: raw/man1/dir.1, line: 132
-# File: raw/man1/dir.1, line: 132
 #. type: TP
 #: raw/coreutils/man1/dir.1:136
 #, no-wrap
@@ -818,20 +559,12 @@ msgid "B<-o>"
 msgstr "B<-o>"
 
 #
-# File: raw/man1/dir.1, line: 136
-# File: raw/man1/dir.1, line: 135
-# File: raw/man1/dir.1, line: 135
-# File: raw/man1/dir.1, line: 135
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:139
 msgid "like B<-l>, but do not list group information"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 136
-# File: raw/man1/dir.1, line: 135
-# File: raw/man1/dir.1, line: 135
-# File: raw/man1/dir.1, line: 135
 #. type: TP
 #: raw/coreutils/man1/dir.1:139
 #, no-wrap
@@ -839,20 +572,12 @@ msgid "B<-p>, B<--indicator-style>=I<\\,slash\\/>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 139
-# File: raw/man1/dir.1, line: 138
-# File: raw/man1/dir.1, line: 138
-# File: raw/man1/dir.1, line: 138
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:142
 msgid "append / indicator to directories"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 139
-# File: raw/man1/dir.1, line: 138
-# File: raw/man1/dir.1, line: 138
-# File: raw/man1/dir.1, line: 138
 #. type: TP
 #: raw/coreutils/man1/dir.1:142
 #, no-wrap
@@ -860,20 +585,12 @@ msgid "B<-q>, B<--hide-control-chars>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 142
-# File: raw/man1/dir.1, line: 141
-# File: raw/man1/dir.1, line: 141
-# File: raw/man1/dir.1, line: 141
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:145
 msgid "print ? instead of nongraphic characters"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 142
-# File: raw/man1/dir.1, line: 141
-# File: raw/man1/dir.1, line: 141
-# File: raw/man1/dir.1, line: 141
 #. type: TP
 #: raw/coreutils/man1/dir.1:145
 #, no-wrap
@@ -881,10 +598,6 @@ msgid "B<--show-control-chars>"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 146
-# File: raw/man1/dir.1, line: 145
-# File: raw/man1/dir.1, line: 145
-# File: raw/man1/dir.1, line: 145
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:149
 msgid ""
@@ -893,10 +606,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 146
-# File: raw/man1/dir.1, line: 145
-# File: raw/man1/dir.1, line: 145
-# File: raw/man1/dir.1, line: 145
 #. type: TP
 #: raw/coreutils/man1/dir.1:149
 #, no-wrap
@@ -915,10 +624,6 @@ msgid "B<--quoting-style>=I<\\,WORD\\/>"
 msgstr "B<--quoting-style>=I<\\,关键字\\/>"
 
 #
-# File: raw/man1/dir.1, line: 154
-# File: raw/man1/dir.1, line: 153
-# File: raw/man1/dir.1, line: 153
-# File: raw/man1/dir.1, line: 153
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:157
 msgid ""
@@ -927,10 +632,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 154
-# File: raw/man1/dir.1, line: 153
-# File: raw/man1/dir.1, line: 153
-# File: raw/man1/dir.1, line: 153
 #. type: TP
 #: raw/coreutils/man1/dir.1:157
 #, no-wrap
@@ -938,20 +639,12 @@ msgid "B<-r>, B<--reverse>"
 msgstr "B<-r>, B<--reverse>"
 
 #
-# File: raw/man1/dir.1, line: 157
-# File: raw/man1/dir.1, line: 156
-# File: raw/man1/dir.1, line: 156
-# File: raw/man1/dir.1, line: 156
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:160
 msgid "reverse order while sorting"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 157
-# File: raw/man1/dir.1, line: 156
-# File: raw/man1/dir.1, line: 156
-# File: raw/man1/dir.1, line: 156
 #. type: TP
 #: raw/coreutils/man1/dir.1:160
 #, no-wrap
@@ -959,20 +652,12 @@ msgid "B<-R>, B<--recursive>"
 msgstr "B<-R>, B<--recursive>"
 
 #
-# File: raw/man1/dir.1, line: 160
-# File: raw/man1/dir.1, line: 159
-# File: raw/man1/dir.1, line: 159
-# File: raw/man1/dir.1, line: 159
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:163
 msgid "list subdirectories recursively"
 msgstr "递归列出子目录内容"
 
 #
-# File: raw/man1/dir.1, line: 160
-# File: raw/man1/dir.1, line: 159
-# File: raw/man1/dir.1, line: 159
-# File: raw/man1/dir.1, line: 159
 #. type: TP
 #: raw/coreutils/man1/dir.1:163
 #, no-wrap
@@ -980,20 +665,12 @@ msgid "B<-s>, B<--size>"
 msgstr "B<-s>, B<--size>"
 
 #
-# File: raw/man1/dir.1, line: 163
-# File: raw/man1/dir.1, line: 162
-# File: raw/man1/dir.1, line: 162
-# File: raw/man1/dir.1, line: 162
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:166
 msgid "print the allocated size of each file, in blocks"
 msgstr ""
 
 #
-# File: raw/man1/dir.1, line: 163
-# File: raw/man1/dir.1, line: 162
-# File: raw/man1/dir.1, line: 162
-# File: raw/man1/dir.1, line: 162
 #. type: TP
 #: raw/coreutils/man1/dir.1:166
 #, no-wrap
@@ -1001,19 +678,11 @@ msgid "B<-S>"
 msgstr "B<-S>"
 
 #
-# File: raw/man1/dir.1, line: 166
-# File: raw/man1/dir.1, line: 165
-# File: raw/man1/dir.1, line: 165
-# File: raw/man1/dir.1, line: 165
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:169
 msgid "sort by file size, largest first"
 msgstr ""
 
-# File: raw/man1/dir.1, line: 166
-# File: raw/man1/dir.1, line: 165
-# File: raw/man1/dir.1, line: 165
-# File: raw/man1/dir.1, line: 165
 #. type: TP
 #: raw/coreutils/man1/dir.1:169
 #, no-wrap
@@ -1021,10 +690,6 @@ msgid "B<--sort>=I<\\,WORD\\/>"
 msgstr "B<--sort>=I<\\,关键字\\/>"
 
 #
-# File: raw/man1/dir.1, line: 170
-# File: raw/man1/dir.1, line: 169
-# File: raw/man1/dir.1, line: 169
-# File: raw/man1/dir.1, line: 169
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:173
 msgid ""
@@ -1032,10 +697,6 @@ msgid ""
 "version (B<-v>), extension (B<-X>)"
 msgstr ""
 
-# File: raw/man1/dir.1, line: 170
-# File: raw/man1/dir.1, line: 169
-# File: raw/man1/dir.1, line: 169
-# File: raw/man1/dir.1, line: 169
 #. type: TP
 #: raw/coreutils/man1/dir.1:173
 #, no-wrap

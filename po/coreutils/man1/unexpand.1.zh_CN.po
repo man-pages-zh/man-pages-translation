@@ -28,8 +28,6 @@ msgid "UNEXPAND"
 msgstr "UNEXPAND"
 
 #
-# File: raw/man1/unexpand.1, line: 2
-# File: raw/man1/unexpand.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/unexpand.1:2
 #, fuzzy, no-wrap
@@ -45,9 +43,6 @@ msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/unexpand.1, line: 2
-# File: raw/man1/unexpand.1, line: 2
-# File: raw/man1/unexpand.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/unexpand.1:2
 #, no-wrap
@@ -55,9 +50,6 @@ msgid "User Commands"
 msgstr "User Commands"
 
 #
-# File: raw/man1/unexpand.1, line: 3
-# File: raw/man1/unexpand.1, line: 3
-# File: raw/man1/unexpand.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/unexpand.1:3
 #, no-wrap
@@ -65,62 +57,41 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/unexpand.1, line: 5
-# File: raw/man1/unexpand.1, line: 5
-# File: raw/man1/unexpand.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:5
 msgid "unexpand - convert spaces to tabs"
 msgstr "unexpand - 将空格转换为制表符"
 
 #
-# File: raw/man1/unexpand.1, line: 5
-# File: raw/man1/unexpand.1, line: 5
-# File: raw/man1/unexpand.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/unexpand.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/unexpand.1, line: 8
-# File: raw/man1/unexpand.1, line: 8
-# File: raw/man1/unexpand.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:8
 msgid "B<unexpand> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<unexpand> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
 
 #
-# File: raw/man1/unexpand.1, line: 8
-# File: raw/man1/unexpand.1, line: 8
-# File: raw/man1/unexpand.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/unexpand.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-# File: raw/man1/unexpand.1, line: 12
-# File: raw/man1/unexpand.1, line: 12
-# File: raw/man1/unexpand.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:12
 msgid "Convert blanks in each FILE to tabs, writing to standard output."
 msgstr "将所列文件中的空格转换为制表符，并输出到标准输出。"
 
-# File: raw/man1/unexpand.1, line: 14
-# File: raw/man1/unexpand.1, line: 14
-# File: raw/man1/unexpand.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为\"-\"，则从标准输入读取。"
 
 #
-# File: raw/man1/unexpand.1, line: 16
-# File: raw/man1/unexpand.1, line: 16
-# File: raw/man1/unexpand.1, line: 16
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:16
 msgid ""
@@ -128,9 +99,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/unexpand.1, line: 16
-# File: raw/man1/unexpand.1, line: 16
-# File: raw/man1/unexpand.1, line: 16
 #. type: TP
 #: raw/coreutils/man1/unexpand.1:16
 #, no-wrap
@@ -138,18 +106,12 @@ msgid "B<-a>, B<--all>"
 msgstr "B<-a>, B<--all>"
 
 #
-# File: raw/man1/unexpand.1, line: 19
-# File: raw/man1/unexpand.1, line: 19
-# File: raw/man1/unexpand.1, line: 19
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:19
 msgid "convert all blanks, instead of just initial blanks"
 msgstr "转换所有的空格，而不仅仅是行首空格"
 
 #
-# File: raw/man1/unexpand.1, line: 19
-# File: raw/man1/unexpand.1, line: 19
-# File: raw/man1/unexpand.1, line: 19
 #. type: TP
 #: raw/coreutils/man1/unexpand.1:19
 #, no-wrap
@@ -157,17 +119,11 @@ msgid "B<--first-only>"
 msgstr "B<--first-only>"
 
 #
-# File: raw/man1/unexpand.1, line: 22
-# File: raw/man1/unexpand.1, line: 22
-# File: raw/man1/unexpand.1, line: 22
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:22
 msgid "convert only leading sequences of blanks (overrides B<-a>)"
 msgstr "只转换行首空格（覆盖 B<-a> 选项）"
 
-# File: raw/man1/unexpand.1, line: 22
-# File: raw/man1/unexpand.1, line: 22
-# File: raw/man1/unexpand.1, line: 22
 #. type: TP
 #: raw/coreutils/man1/unexpand.1:22
 #, no-wrap
@@ -175,17 +131,11 @@ msgid "B<-t>, B<--tabs>=I<\\,N\\/>"
 msgstr "B<-t>, B<--tabs>=I<\\,N\\/>"
 
 #
-# File: raw/man1/unexpand.1, line: 25
-# File: raw/man1/unexpand.1, line: 25
-# File: raw/man1/unexpand.1, line: 25
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:25
 msgid "have tabs N characters apart instead of 8 (enables B<-a>)"
 msgstr "每 N 个字符作为一个制表符而不是默认的 8 （启用 B<-a> 选项）"
 
-# File: raw/man1/unexpand.1, line: 25
-# File: raw/man1/unexpand.1, line: 25
-# File: raw/man1/unexpand.1, line: 25
 #. type: TP
 #: raw/coreutils/man1/unexpand.1:25
 #, no-wrap
@@ -202,9 +152,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/unexpand.1, line: 28
-# File: raw/man1/unexpand.1, line: 28
-# File: raw/man1/unexpand.1, line: 28
 #. type: TP
 #: raw/coreutils/man1/unexpand.1:33
 #, no-wrap
@@ -212,18 +159,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/unexpand.1, line: 31
-# File: raw/man1/unexpand.1, line: 31
-# File: raw/man1/unexpand.1, line: 31
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:36
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/unexpand.1, line: 31
-# File: raw/man1/unexpand.1, line: 31
-# File: raw/man1/unexpand.1, line: 31
 #. type: TP
 #: raw/coreutils/man1/unexpand.1:36
 #, no-wrap
@@ -231,18 +172,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/unexpand.1, line: 34
-# File: raw/man1/unexpand.1, line: 34
-# File: raw/man1/unexpand.1, line: 34
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:39
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/unexpand.1, line: 34
-# File: raw/man1/unexpand.1, line: 34
-# File: raw/man1/unexpand.1, line: 34
 #. type: SH
 #: raw/coreutils/man1/unexpand.1:39
 #, no-wrap
@@ -250,18 +185,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/unexpand.1, line: 36
-# File: raw/man1/unexpand.1, line: 36
-# File: raw/man1/unexpand.1, line: 36
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:41
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/unexpand.1, line: 36
-# File: raw/man1/unexpand.1, line: 36
-# File: raw/man1/unexpand.1, line: 36
 #. type: SH
 #: raw/coreutils/man1/unexpand.1:41
 #, no-wrap
@@ -269,9 +198,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/unexpand.1, line: 38
-# File: raw/man1/unexpand.1, line: 38
-# File: raw/man1/unexpand.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:43
 msgid ""
@@ -280,9 +206,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/unexpand.1, line: 40
-# File: raw/man1/unexpand.1, line: 40
-# File: raw/man1/unexpand.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:45
 msgid ""
@@ -293,18 +216,12 @@ msgstr ""
 "翻译错误。"
 
 #
-# File: raw/man1/unexpand.1, line: 40
-# File: raw/man1/unexpand.1, line: 40
-# File: raw/man1/unexpand.1, line: 40
 #. type: SH
 #: raw/coreutils/man1/unexpand.1:45
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/unexpand.1, line: 43
-# File: raw/man1/unexpand.1, line: 43
-# File: raw/man1/unexpand.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:48
 #, fuzzy
@@ -319,9 +236,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/unexpand.1, line: 46
-# File: raw/man1/unexpand.1, line: 46
-# File: raw/man1/unexpand.1, line: 46
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:51
 msgid ""
@@ -332,9 +246,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/unexpand.1, line: 46
-# File: raw/man1/unexpand.1, line: 46
-# File: raw/man1/unexpand.1, line: 46
 #. type: SH
 #: raw/coreutils/man1/unexpand.1:51
 #, no-wrap
@@ -342,18 +253,12 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/unexpand.1, line: 48
-# File: raw/man1/unexpand.1, line: 48
-# File: raw/man1/unexpand.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:53
 msgid "expand(1)"
 msgstr "expand(1)"
 
 #
-# File: raw/man1/unexpand.1, line: 51
-# File: raw/man1/unexpand.1, line: 51
-# File: raw/man1/unexpand.1, line: 51
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:56
 msgid ""
@@ -363,9 +268,6 @@ msgstr ""
 "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/unexpandE<gt>"
 
 #
-# File: raw/man1/unexpand.1, line: 52
-# File: raw/man1/unexpand.1, line: 52
-# File: raw/man1/unexpand.1, line: 52
 #. type: Plain text
 #: raw/coreutils/man1/unexpand.1:57
 msgid ""
@@ -376,9 +278,6 @@ msgstr "或者在本地使用： info \\(aq(coreutils) unexpand invocation\\(aq"
 #~ msgstr "2017年1月"
 
 #
-# File: raw/man1/unexpand.1, line: 28
-# File: raw/man1/unexpand.1, line: 28
-# File: raw/man1/unexpand.1, line: 28
 #~ msgid "use comma separated LIST of tab positions (enables B<-a>)"
 #~ msgstr "指定制表符位置列表，以逗号分隔（启用 B<-a> 选项）"
 

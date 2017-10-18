@@ -20,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/df.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/df.1:2
@@ -28,7 +27,6 @@ msgstr ""
 msgid "DF"
 msgstr "DF"
 
-# File: raw/man1/df.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/df.1:2
@@ -37,7 +35,6 @@ msgstr "DF"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/df.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/df.1:2
 #, fuzzy, no-wrap
@@ -45,7 +42,6 @@ msgstr "2016年12月"
 msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
-# File: raw/man1/df.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/df.1:2
@@ -53,7 +49,6 @@ msgstr "GNU coreutils 8.26"
 msgid "User Commands"
 msgstr "用户命令"
 
-# File: raw/man1/df.1, line: 3
 #
 #. type: SH
 #: raw/coreutils/man1/df.1:3
@@ -61,37 +56,24 @@ msgstr "用户命令"
 msgid "NAME"
 msgstr "名称"
 
-# File: raw/man1/df.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/df.1:5
 msgid "df - report file system disk space usage"
 msgstr "df - 报告文件系统磁盘空间使用情况"
 
 #
-# File: raw/man1/df.1, line: 5
-# File: raw/man1/df.1, line: 5
-# File: raw/man1/df.1, line: 5
-# File: raw/man1/df.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/df.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/df.1, line: 8
-# File: raw/man1/df.1, line: 8
-# File: raw/man1/df.1, line: 8
-# File: raw/man1/df.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/df.1:8
 msgid "B<df> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<df> [I<\\,选项列表\\/>]... [I<\\,文件列表\\/>]..."
 
 #
-# File: raw/man1/df.1, line: 8
-# File: raw/man1/df.1, line: 8
-# File: raw/man1/df.1, line: 8
-# File: raw/man1/df.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/df.1:8
 #, no-wrap
@@ -99,10 +81,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/df.1, line: 19
-# File: raw/man1/df.1, line: 19
-# File: raw/man1/df.1, line: 19
-# File: raw/man1/df.1, line: 19
 #. type: Plain text
 #: raw/coreutils/man1/df.1:19
 #, fuzzy
@@ -120,10 +98,6 @@ msgstr ""
 "字节作为一块显示。"
 
 #
-# File: raw/man1/df.1, line: 29
-# File: raw/man1/df.1, line: 29
-# File: raw/man1/df.1, line: 29
-# File: raw/man1/df.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/df.1:29
 #, fuzzy
@@ -141,10 +115,6 @@ msgstr ""
 "特定文件系统结构上不可移植且紧耦合的知识。"
 
 #
-# File: raw/man1/df.1, line: 29
-# File: raw/man1/df.1, line: 29
-# File: raw/man1/df.1, line: 29
-# File: raw/man1/df.1, line: 29
 #. type: SH
 #: raw/coreutils/man1/df.1:29
 #, no-wrap
@@ -152,10 +122,6 @@ msgid "OPTIONS"
 msgstr "选项"
 
 #
-# File: raw/man1/df.1, line: 33
-# File: raw/man1/df.1, line: 33
-# File: raw/man1/df.1, line: 33
-# File: raw/man1/df.1, line: 33
 #. type: Plain text
 #: raw/coreutils/man1/df.1:33
 #, fuzzy
@@ -167,10 +133,6 @@ msgstr ""
 "统"
 
 #
-# File: raw/man1/df.1, line: 35
-# File: raw/man1/df.1, line: 35
-# File: raw/man1/df.1, line: 35
-# File: raw/man1/df.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/df.1:35
 msgid ""
@@ -178,10 +140,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/df.1, line: 35
-# File: raw/man1/df.1, line: 35
-# File: raw/man1/df.1, line: 35
-# File: raw/man1/df.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/df.1:35
 #, no-wrap
@@ -189,20 +147,12 @@ msgid "B<-a>, B<--all>"
 msgstr "B<-a>, B<--all>"
 
 #
-# File: raw/man1/df.1, line: 38
-# File: raw/man1/df.1, line: 38
-# File: raw/man1/df.1, line: 38
-# File: raw/man1/df.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/df.1:38
 msgid "include pseudo, duplicate, inaccessible file systems"
 msgstr ""
 
 #
-# File: raw/man1/df.1, line: 38
-# File: raw/man1/df.1, line: 38
-# File: raw/man1/df.1, line: 38
-# File: raw/man1/df.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/df.1:38
 #, fuzzy, no-wrap
@@ -210,10 +160,6 @@ msgid "B<-B>, B<--block-size>=I<\\,SIZE\\/>"
 msgstr "B<-B>, B<--block-size>=I<大小>"
 
 #
-# File: raw/man1/df.1, line: 43
-# File: raw/man1/df.1, line: 43
-# File: raw/man1/df.1, line: 43
-# File: raw/man1/df.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/df.1:43
 #, fuzzy
@@ -225,10 +171,6 @@ msgstr ""
 "参考下文对I<大小>的格式说明"
 
 #
-# File: raw/man1/df.1, line: 43
-# File: raw/man1/df.1, line: 43
-# File: raw/man1/df.1, line: 43
-# File: raw/man1/df.1, line: 43
 #. type: TP
 #: raw/coreutils/man1/df.1:43
 #, no-wrap
@@ -236,10 +178,6 @@ msgid "B<-h>, B<--human-readable>"
 msgstr "B<-h>, B<--human-readable>"
 
 #
-# File: raw/man1/df.1, line: 46
-# File: raw/man1/df.1, line: 46
-# File: raw/man1/df.1, line: 46
-# File: raw/man1/df.1, line: 46
 #. type: Plain text
 #: raw/coreutils/man1/df.1:46
 #, fuzzy
@@ -247,10 +185,6 @@ msgid "print sizes in powers of 1024 (e.g., 1023M)"
 msgstr "以 1024 为幂显示大小（例如，1023M）"
 
 #
-# File: raw/man1/df.1, line: 46
-# File: raw/man1/df.1, line: 46
-# File: raw/man1/df.1, line: 46
-# File: raw/man1/df.1, line: 46
 #. type: TP
 #: raw/coreutils/man1/df.1:46
 #, no-wrap
@@ -258,10 +192,6 @@ msgid "B<-H>, B<--si>"
 msgstr "B<-H>, B<--si>"
 
 #
-# File: raw/man1/df.1, line: 49
-# File: raw/man1/df.1, line: 49
-# File: raw/man1/df.1, line: 49
-# File: raw/man1/df.1, line: 49
 #. type: Plain text
 #: raw/coreutils/man1/df.1:49
 #, fuzzy
@@ -269,10 +199,6 @@ msgid "print sizes in powers of 1000 (e.g., 1.1G)"
 msgstr "以 1000 为幂输出大小（例，1.1G）"
 
 #
-# File: raw/man1/df.1, line: 49
-# File: raw/man1/df.1, line: 49
-# File: raw/man1/df.1, line: 49
-# File: raw/man1/df.1, line: 49
 #. type: TP
 #: raw/coreutils/man1/df.1:49
 #, no-wrap
@@ -280,10 +206,6 @@ msgid "B<-i>, B<--inodes>"
 msgstr "B<-i>, B<--inodes>"
 
 #
-# File: raw/man1/df.1, line: 52
-# File: raw/man1/df.1, line: 52
-# File: raw/man1/df.1, line: 52
-# File: raw/man1/df.1, line: 52
 #. type: Plain text
 #: raw/coreutils/man1/df.1:52
 #, fuzzy
@@ -291,10 +213,6 @@ msgid "list inode information instead of block usage"
 msgstr "显示 inode 信息而非块使用量"
 
 #
-# File: raw/man1/df.1, line: 52
-# File: raw/man1/df.1, line: 52
-# File: raw/man1/df.1, line: 52
-# File: raw/man1/df.1, line: 52
 #. type: TP
 #: raw/coreutils/man1/df.1:52
 #, no-wrap
@@ -302,10 +220,6 @@ msgid "B<-k>"
 msgstr "B<-k>"
 
 #
-# File: raw/man1/df.1, line: 55
-# File: raw/man1/df.1, line: 55
-# File: raw/man1/df.1, line: 55
-# File: raw/man1/df.1, line: 55
 #. type: Plain text
 #: raw/coreutils/man1/df.1:55
 #, fuzzy
@@ -313,10 +227,6 @@ msgid "like B<--block-size>=I<\\,1K\\/>"
 msgstr "类似于 B<--block-size>=I<1K>"
 
 #
-# File: raw/man1/df.1, line: 55
-# File: raw/man1/df.1, line: 55
-# File: raw/man1/df.1, line: 55
-# File: raw/man1/df.1, line: 55
 #. type: TP
 #: raw/coreutils/man1/df.1:55
 #, no-wrap
@@ -324,10 +234,6 @@ msgid "B<-l>, B<--local>"
 msgstr "B<-l>, B<--local>"
 
 #
-# File: raw/man1/df.1, line: 58
-# File: raw/man1/df.1, line: 58
-# File: raw/man1/df.1, line: 58
-# File: raw/man1/df.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/df.1:58
 #, fuzzy
@@ -335,10 +241,6 @@ msgid "limit listing to local file systems"
 msgstr "仅列出本地的文件系统"
 
 #
-# File: raw/man1/df.1, line: 58
-# File: raw/man1/df.1, line: 58
-# File: raw/man1/df.1, line: 58
-# File: raw/man1/df.1, line: 58
 #. type: TP
 #: raw/coreutils/man1/df.1:58
 #, no-wrap
@@ -346,10 +248,6 @@ msgid "B<--no-sync>"
 msgstr "B<--no-sync>"
 
 #
-# File: raw/man1/df.1, line: 61
-# File: raw/man1/df.1, line: 61
-# File: raw/man1/df.1, line: 61
-# File: raw/man1/df.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/df.1:61
 #, fuzzy
@@ -357,10 +255,6 @@ msgid "do not invoke sync before getting usage info (default)"
 msgstr "取得使用量数据前不进行同步动作（默认）"
 
 #
-# File: raw/man1/df.1, line: 61
-# File: raw/man1/df.1, line: 61
-# File: raw/man1/df.1, line: 61
-# File: raw/man1/df.1, line: 61
 #. type: TP
 #: raw/coreutils/man1/df.1:61
 #, fuzzy, no-wrap
@@ -368,10 +262,6 @@ msgid "B<--output>[=I<\\,FIELD_LIST\\/>]"
 msgstr "B<--output>[=I<域列表>]"
 
 #
-# File: raw/man1/df.1, line: 65
-# File: raw/man1/df.1, line: 65
-# File: raw/man1/df.1, line: 65
-# File: raw/man1/df.1, line: 65
 #. type: Plain text
 #: raw/coreutils/man1/df.1:65
 #, fuzzy
@@ -381,10 +271,6 @@ msgid ""
 msgstr "使用域列表定义的输出格式，如果不指定域列表，则输出所有域"
 
 #
-# File: raw/man1/df.1, line: 65
-# File: raw/man1/df.1, line: 65
-# File: raw/man1/df.1, line: 65
-# File: raw/man1/df.1, line: 65
 #. type: TP
 #: raw/coreutils/man1/df.1:65
 #, no-wrap
@@ -392,10 +278,6 @@ msgid "B<-P>, B<--portability>"
 msgstr "B<-P>, B<--portability>"
 
 #
-# File: raw/man1/df.1, line: 68
-# File: raw/man1/df.1, line: 68
-# File: raw/man1/df.1, line: 68
-# File: raw/man1/df.1, line: 68
 #. type: Plain text
 #: raw/coreutils/man1/df.1:68
 #, fuzzy
@@ -403,10 +285,6 @@ msgid "use the POSIX output format"
 msgstr "使用 POSIX 格式输出"
 
 #
-# File: raw/man1/df.1, line: 68
-# File: raw/man1/df.1, line: 68
-# File: raw/man1/df.1, line: 68
-# File: raw/man1/df.1, line: 68
 #. type: TP
 #: raw/coreutils/man1/df.1:68
 #, no-wrap
@@ -414,10 +292,6 @@ msgid "B<--sync>"
 msgstr "B<--sync>"
 
 #
-# File: raw/man1/df.1, line: 71
-# File: raw/man1/df.1, line: 71
-# File: raw/man1/df.1, line: 71
-# File: raw/man1/df.1, line: 71
 #. type: Plain text
 #: raw/coreutils/man1/df.1:71
 #, fuzzy
@@ -425,10 +299,6 @@ msgid "invoke sync before getting usage info"
 msgstr "获取使用量数据前进行同步操作"
 
 #
-# File: raw/man1/df.1, line: 71
-# File: raw/man1/df.1, line: 71
-# File: raw/man1/df.1, line: 71
-# File: raw/man1/df.1, line: 71
 #. type: TP
 #: raw/coreutils/man1/df.1:71
 #, no-wrap
@@ -436,10 +306,6 @@ msgid "B<--total>"
 msgstr "B<--total>"
 
 #
-# File: raw/man1/df.1, line: 75
-# File: raw/man1/df.1, line: 75
-# File: raw/man1/df.1, line: 75
-# File: raw/man1/df.1, line: 75
 #. type: Plain text
 #: raw/coreutils/man1/df.1:75
 msgid ""
@@ -447,10 +313,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/df.1, line: 75
-# File: raw/man1/df.1, line: 75
-# File: raw/man1/df.1, line: 75
-# File: raw/man1/df.1, line: 75
 #. type: TP
 #: raw/coreutils/man1/df.1:75
 #, fuzzy, no-wrap
@@ -458,10 +320,6 @@ msgid "B<-t>, B<--type>=I<\\,TYPE\\/>"
 msgstr "B<-t>, B<--type>=I<类型>"
 
 #
-# File: raw/man1/df.1, line: 78
-# File: raw/man1/df.1, line: 78
-# File: raw/man1/df.1, line: 78
-# File: raw/man1/df.1, line: 78
 #. type: Plain text
 #: raw/coreutils/man1/df.1:78
 #, fuzzy
@@ -469,10 +327,6 @@ msgid "limit listing to file systems of type TYPE"
 msgstr "仅列出指定类型的文件系统"
 
 #
-# File: raw/man1/df.1, line: 78
-# File: raw/man1/df.1, line: 78
-# File: raw/man1/df.1, line: 78
-# File: raw/man1/df.1, line: 78
 #. type: TP
 #: raw/coreutils/man1/df.1:78
 #, no-wrap
@@ -480,10 +334,6 @@ msgid "B<-T>, B<--print-type>"
 msgstr "B<-T>, B<--print-type>"
 
 #
-# File: raw/man1/df.1, line: 81
-# File: raw/man1/df.1, line: 81
-# File: raw/man1/df.1, line: 81
-# File: raw/man1/df.1, line: 81
 #. type: Plain text
 #: raw/coreutils/man1/df.1:81
 #, fuzzy
@@ -491,10 +341,6 @@ msgid "print file system type"
 msgstr "显示文件系统类型"
 
 #
-# File: raw/man1/df.1, line: 81
-# File: raw/man1/df.1, line: 81
-# File: raw/man1/df.1, line: 81
-# File: raw/man1/df.1, line: 81
 #. type: TP
 #: raw/coreutils/man1/df.1:81
 #, fuzzy, no-wrap
@@ -502,10 +348,6 @@ msgid "B<-x>, B<--exclude-type>=I<\\,TYPE\\/>"
 msgstr "B<-x>, B<--exclude-type>=I<类型>"
 
 #
-# File: raw/man1/df.1, line: 84
-# File: raw/man1/df.1, line: 84
-# File: raw/man1/df.1, line: 84
-# File: raw/man1/df.1, line: 84
 #. type: Plain text
 #: raw/coreutils/man1/df.1:84
 #, fuzzy
@@ -513,10 +355,6 @@ msgid "limit listing to file systems not of type TYPE"
 msgstr "仅列出非指定类型的文件系统"
 
 #
-# File: raw/man1/df.1, line: 84
-# File: raw/man1/df.1, line: 84
-# File: raw/man1/df.1, line: 84
-# File: raw/man1/df.1, line: 84
 #. type: TP
 #: raw/coreutils/man1/df.1:84
 #, no-wrap
@@ -524,20 +362,12 @@ msgid "B<-v>"
 msgstr "B<-v>"
 
 #
-# File: raw/man1/df.1, line: 87
-# File: raw/man1/df.1, line: 87
-# File: raw/man1/df.1, line: 87
-# File: raw/man1/df.1, line: 87
 #. type: Plain text
 #: raw/coreutils/man1/df.1:87
 msgid "(ignored)"
 msgstr "（被忽略的选项）"
 
 #
-# File: raw/man1/df.1, line: 87
-# File: raw/man1/df.1, line: 87
-# File: raw/man1/df.1, line: 87
-# File: raw/man1/df.1, line: 87
 #. type: TP
 #: raw/coreutils/man1/df.1:87
 #, no-wrap
@@ -545,20 +375,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/df.1, line: 90
-# File: raw/man1/df.1, line: 90
-# File: raw/man1/df.1, line: 90
-# File: raw/man1/df.1, line: 90
 #. type: Plain text
 #: raw/coreutils/man1/df.1:90
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/df.1, line: 90
-# File: raw/man1/df.1, line: 90
-# File: raw/man1/df.1, line: 90
-# File: raw/man1/df.1, line: 90
 #. type: TP
 #: raw/coreutils/man1/df.1:90
 #, no-wrap
@@ -566,20 +388,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/df.1, line: 93
-# File: raw/man1/df.1, line: 93
-# File: raw/man1/df.1, line: 93
-# File: raw/man1/df.1, line: 93
 #. type: Plain text
 #: raw/coreutils/man1/df.1:93
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/df.1, line: 97
-# File: raw/man1/df.1, line: 97
-# File: raw/man1/df.1, line: 97
-# File: raw/man1/df.1, line: 97
 #. type: Plain text
 #: raw/coreutils/man1/df.1:97
 #, fuzzy
@@ -594,10 +408,6 @@ msgstr ""
 "1024 字节（如果设置了POSIXLY_CORRECT，则为 512 字节）。"
 
 #
-# File: raw/man1/df.1, line: 100
-# File: raw/man1/df.1, line: 100
-# File: raw/man1/df.1, line: 100
-# File: raw/man1/df.1, line: 100
 #. type: Plain text
 #: raw/coreutils/man1/df.1:100
 #, fuzzy
@@ -610,10 +420,6 @@ msgstr ""
 "是 K, M, G, T, P, E, Z, Y （1024的幂）或者 KM, MB,... （1000的幂）。"
 
 #
-# File: raw/man1/df.1, line: 104
-# File: raw/man1/df.1, line: 104
-# File: raw/man1/df.1, line: 104
-# File: raw/man1/df.1, line: 104
 #. type: Plain text
 #: raw/coreutils/man1/df.1:104
 #, fuzzy
@@ -627,27 +433,18 @@ msgstr ""
 "'pcent', 'file' 和 'target'（详见对应的 info 页面）。"
 
 #
-# File: raw/man1/df.1, line: 104
-# File: raw/man1/df.1, line: 104
-# File: raw/man1/df.1, line: 104
-# File: raw/man1/df.1, line: 104
 #. type: SH
 #: raw/coreutils/man1/df.1:104
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-# File: raw/man1/df.1, line: 106
 #. type: Plain text
 #: raw/coreutils/man1/df.1:106
 msgid "Written by Torbjorn Granlund, David MacKenzie, and Paul Eggert."
 msgstr "由 Torbjorn Granlund、David MacKenzie 和 Paul Eggert 编写。"
 
 #
-# File: raw/man1/df.1, line: 106
-# File: raw/man1/df.1, line: 106
-# File: raw/man1/df.1, line: 106
-# File: raw/man1/df.1, line: 106
 #. type: SH
 #: raw/coreutils/man1/df.1:106
 #, no-wrap
@@ -655,10 +452,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/df.1, line: 108
-# File: raw/man1/df.1, line: 108
-# File: raw/man1/df.1, line: 108
-# File: raw/man1/df.1, line: 108
 #. type: Plain text
 #: raw/coreutils/man1/df.1:108
 msgid ""
@@ -667,10 +460,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/df.1, line: 110
-# File: raw/man1/df.1, line: 110
-# File: raw/man1/df.1, line: 110
-# File: raw/man1/df.1, line: 110
 #. type: Plain text
 #: raw/coreutils/man1/df.1:110
 msgid ""
@@ -680,17 +469,12 @@ msgstr ""
 "误。"
 
 #
-# File: raw/man1/df.1, line: 110
-# File: raw/man1/df.1, line: 110
-# File: raw/man1/df.1, line: 110
-# File: raw/man1/df.1, line: 110
 #. type: SH
 #: raw/coreutils/man1/df.1:110
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/df.1, line: 113
 #. type: Plain text
 #: raw/coreutils/man1/df.1:113
 #, fuzzy
@@ -705,10 +489,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/df.1, line: 116
-# File: raw/man1/df.1, line: 116
-# File: raw/man1/df.1, line: 116
-# File: raw/man1/df.1, line: 116
 #. type: Plain text
 #: raw/coreutils/man1/df.1:116
 msgid ""
@@ -719,10 +499,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/df.1, line: 116
-# File: raw/man1/df.1, line: 116
-# File: raw/man1/df.1, line: 116
-# File: raw/man1/df.1, line: 116
 #. type: SH
 #: raw/coreutils/man1/df.1:116
 #, no-wrap
@@ -730,10 +506,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/df.1, line: 118
-# File: raw/man1/df.1, line: 118
-# File: raw/man1/df.1, line: 118
-# File: raw/man1/df.1, line: 118
 #. type: Plain text
 #: raw/coreutils/man1/df.1:118
 msgid ""
@@ -741,10 +513,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/dfE<gt>"
 
 #
-# File: raw/man1/df.1, line: 119
-# File: raw/man1/df.1, line: 119
-# File: raw/man1/df.1, line: 119
-# File: raw/man1/df.1, line: 119
 #. type: Plain text
 #: raw/coreutils/man1/df.1:119
 msgid "or available locally via: info \\(aq(coreutils) df invocation\\(aq"

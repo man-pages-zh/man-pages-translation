@@ -26,7 +26,6 @@ msgstr ""
 msgid "MKNOD"
 msgstr "MKNOD"
 
-# File: raw/man1/mknod.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/mknod.1:2
@@ -63,10 +62,6 @@ msgid "mknod - make block or character special files"
 msgstr "mknod - 创建块或者字符特殊文件"
 
 #
-# File: raw/man1/mknod.1, line: 5
-# File: raw/man1/mknod.1, line: 5
-# File: raw/man1/mknod.1, line: 5
-# File: raw/man1/mknod.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/mknod.1:5
 #, no-wrap
@@ -81,10 +76,6 @@ msgstr ""
 "B<mknod> [I<\\,选项\\/>]... I<\\,名称 类型 \\/>[I<\\,主设备号 从设备号\\/>]"
 
 #
-# File: raw/man1/mknod.1, line: 8
-# File: raw/man1/mknod.1, line: 8
-# File: raw/man1/mknod.1, line: 8
-# File: raw/man1/mknod.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/mknod.1:8
 #, no-wrap
@@ -98,10 +89,6 @@ msgid "Create the special file NAME of the given TYPE."
 msgstr "使用指定文件名称和给定类型创建特殊文件。"
 
 #
-# File: raw/man1/mknod.1, line: 14
-# File: raw/man1/mknod.1, line: 14
-# File: raw/man1/mknod.1, line: 14
-# File: raw/man1/mknod.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:14
 msgid ""
@@ -150,10 +137,6 @@ msgstr ""
 "定类型"
 
 #
-# File: raw/man1/mknod.1, line: 24
-# File: raw/man1/mknod.1, line: 24
-# File: raw/man1/mknod.1, line: 24
-# File: raw/man1/mknod.1, line: 24
 #. type: TP
 #: raw/coreutils/man1/mknod.1:24
 #, no-wrap
@@ -161,20 +144,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/mknod.1, line: 27
-# File: raw/man1/mknod.1, line: 27
-# File: raw/man1/mknod.1, line: 27
-# File: raw/man1/mknod.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:27
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/mknod.1, line: 27
-# File: raw/man1/mknod.1, line: 27
-# File: raw/man1/mknod.1, line: 27
-# File: raw/man1/mknod.1, line: 27
 #. type: TP
 #: raw/coreutils/man1/mknod.1:27
 #, no-wrap
@@ -182,10 +157,6 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/mknod.1, line: 30
-# File: raw/man1/mknod.1, line: 30
-# File: raw/man1/mknod.1, line: 30
-# File: raw/man1/mknod.1, line: 30
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:30
 msgid "output version information and exit"
@@ -204,7 +175,6 @@ msgstr ""
 "须同时被省略。如果主设备号和从设备号以 0x 或者 0X 起始，它将被解释为十六进制"
 "数据；否则，如果它以 0 起始，则看作八进制；否则看作十进制。所指定类型可以为："
 
-# File: raw/man1/mknod.1, line: 35
 #
 #. type: TP
 #: raw/coreutils/man1/mknod.1:35
@@ -256,10 +226,6 @@ msgstr ""
 "本。请参考您所用 shell 的文档以了解它们所支持选项的细节。"
 
 #
-# File: raw/man1/mknod.1, line: 48
-# File: raw/man1/mknod.1, line: 48
-# File: raw/man1/mknod.1, line: 48
-# File: raw/man1/mknod.1, line: 48
 #. type: SH
 #: raw/coreutils/man1/mknod.1:48
 #, no-wrap
@@ -267,20 +233,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/mknod.1, line: 50
-# File: raw/man1/mknod.1, line: 50
-# File: raw/man1/mknod.1, line: 50
-# File: raw/man1/mknod.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:50
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/mknod.1, line: 50
-# File: raw/man1/mknod.1, line: 50
-# File: raw/man1/mknod.1, line: 50
-# File: raw/man1/mknod.1, line: 50
 #. type: SH
 #: raw/coreutils/man1/mknod.1:50
 #, no-wrap
@@ -288,10 +246,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/mknod.1, line: 52
-# File: raw/man1/mknod.1, line: 52
-# File: raw/man1/mknod.1, line: 52
-# File: raw/man1/mknod.1, line: 52
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:52
 msgid ""
@@ -299,7 +253,6 @@ msgid ""
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-# File: raw/man1/mknod.1, line: 54
 #
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:54
@@ -311,10 +264,6 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/mknod.1, line: 54
-# File: raw/man1/mknod.1, line: 54
-# File: raw/man1/mknod.1, line: 54
-# File: raw/man1/mknod.1, line: 54
 #. type: SH
 #: raw/coreutils/man1/mknod.1:54
 #, no-wrap
@@ -345,17 +294,12 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/mknod.1, line: 60
-# File: raw/man1/mknod.1, line: 60
-# File: raw/man1/mknod.1, line: 60
-# File: raw/man1/mknod.1, line: 60
 #. type: SH
 #: raw/coreutils/man1/mknod.1:60
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/mknod.1, line: 62
 #
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:62

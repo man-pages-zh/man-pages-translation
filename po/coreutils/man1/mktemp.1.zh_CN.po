@@ -53,20 +53,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/mktemp.1, line: 5
-# File: raw/man1/mktemp.1, line: 5
-# File: raw/man1/mktemp.1, line: 5
-# File: raw/man1/mktemp.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:5
 msgid "mktemp - create a temporary file or directory"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 5
-# File: raw/man1/mktemp.1, line: 5
-# File: raw/man1/mktemp.1, line: 5
-# File: raw/man1/mktemp.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/mktemp.1:5
 #, no-wrap
@@ -74,20 +66,12 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/mktemp.1, line: 8
-# File: raw/man1/mktemp.1, line: 8
-# File: raw/man1/mktemp.1, line: 8
-# File: raw/man1/mktemp.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:8
 msgid "B<mktemp> [I<\\,OPTION\\/>]... [I<\\,TEMPLATE\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 8
-# File: raw/man1/mktemp.1, line: 8
-# File: raw/man1/mktemp.1, line: 8
-# File: raw/man1/mktemp.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/mktemp.1:8
 #, no-wrap
@@ -95,10 +79,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/mktemp.1, line: 15
-# File: raw/man1/mktemp.1, line: 15
-# File: raw/man1/mktemp.1, line: 15
-# File: raw/man1/mktemp.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:15
 msgid ""
@@ -109,10 +89,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 15
-# File: raw/man1/mktemp.1, line: 15
-# File: raw/man1/mktemp.1, line: 15
-# File: raw/man1/mktemp.1, line: 15
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:15
 #, no-wrap
@@ -120,20 +96,12 @@ msgid "B<-d>, B<--directory>"
 msgstr "B<-d>, B<--directory>"
 
 #
-# File: raw/man1/mktemp.1, line: 18
-# File: raw/man1/mktemp.1, line: 18
-# File: raw/man1/mktemp.1, line: 18
-# File: raw/man1/mktemp.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:18
 msgid "create a directory, not a file"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 18
-# File: raw/man1/mktemp.1, line: 18
-# File: raw/man1/mktemp.1, line: 18
-# File: raw/man1/mktemp.1, line: 18
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:18
 #, no-wrap
@@ -141,20 +109,12 @@ msgid "B<-u>, B<--dry-run>"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 21
-# File: raw/man1/mktemp.1, line: 21
-# File: raw/man1/mktemp.1, line: 21
-# File: raw/man1/mktemp.1, line: 21
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:21
 msgid "do not create anything; merely print a name (unsafe)"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 21
-# File: raw/man1/mktemp.1, line: 21
-# File: raw/man1/mktemp.1, line: 21
-# File: raw/man1/mktemp.1, line: 21
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:21
 #, no-wrap
@@ -162,20 +122,12 @@ msgid "B<-q>, B<--quiet>"
 msgstr "B<-q>, B<--quiet>"
 
 #
-# File: raw/man1/mktemp.1, line: 24
-# File: raw/man1/mktemp.1, line: 24
-# File: raw/man1/mktemp.1, line: 24
-# File: raw/man1/mktemp.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:24
 msgid "suppress diagnostics about file/dir-creation failure"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 24
-# File: raw/man1/mktemp.1, line: 24
-# File: raw/man1/mktemp.1, line: 24
-# File: raw/man1/mktemp.1, line: 24
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:24
 #, no-wrap
@@ -183,10 +135,6 @@ msgid "B<--suffix>=I<\\,SUFF\\/>"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 28
-# File: raw/man1/mktemp.1, line: 28
-# File: raw/man1/mktemp.1, line: 28
-# File: raw/man1/mktemp.1, line: 28
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:28
 msgid ""
@@ -195,10 +143,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 28
-# File: raw/man1/mktemp.1, line: 28
-# File: raw/man1/mktemp.1, line: 28
-# File: raw/man1/mktemp.1, line: 28
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:28
 #, no-wrap
@@ -206,10 +150,6 @@ msgid "B<-p> DIR, B<--tmpdir>[=I<\\,DIR\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 35
-# File: raw/man1/mktemp.1, line: 35
-# File: raw/man1/mktemp.1, line: 35
-# File: raw/man1/mktemp.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:35
 msgid ""
@@ -220,10 +160,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 35
-# File: raw/man1/mktemp.1, line: 35
-# File: raw/man1/mktemp.1, line: 35
-# File: raw/man1/mktemp.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:35
 #, no-wrap
@@ -231,10 +167,6 @@ msgid "B<-t>"
 msgstr "B<-t>"
 
 #
-# File: raw/man1/mktemp.1, line: 40
-# File: raw/man1/mktemp.1, line: 40
-# File: raw/man1/mktemp.1, line: 40
-# File: raw/man1/mktemp.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:40
 msgid ""
@@ -244,10 +176,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 40
-# File: raw/man1/mktemp.1, line: 40
-# File: raw/man1/mktemp.1, line: 40
-# File: raw/man1/mktemp.1, line: 40
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:40
 #, no-wrap
@@ -255,10 +183,6 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/mktemp.1, line: 43
-# File: raw/man1/mktemp.1, line: 43
-# File: raw/man1/mktemp.1, line: 43
-# File: raw/man1/mktemp.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:43
 msgid "display this help and exit"
@@ -272,20 +196,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/mktemp.1, line: 46
-# File: raw/man1/mktemp.1, line: 46
-# File: raw/man1/mktemp.1, line: 46
-# File: raw/man1/mktemp.1, line: 46
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:46
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/mktemp.1, line: 46
-# File: raw/man1/mktemp.1, line: 46
-# File: raw/man1/mktemp.1, line: 46
-# File: raw/man1/mktemp.1, line: 46
 #. type: SH
 #: raw/coreutils/man1/mktemp.1:46
 #, no-wrap
@@ -293,20 +209,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/mktemp.1, line: 48
-# File: raw/man1/mktemp.1, line: 48
-# File: raw/man1/mktemp.1, line: 48
-# File: raw/man1/mktemp.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:48
 msgid "Written by Jim Meyering and Eric Blake."
 msgstr ""
 
 #
-# File: raw/man1/mktemp.1, line: 48
-# File: raw/man1/mktemp.1, line: 48
-# File: raw/man1/mktemp.1, line: 48
-# File: raw/man1/mktemp.1, line: 48
 #. type: SH
 #: raw/coreutils/man1/mktemp.1:48
 #, no-wrap
@@ -314,10 +222,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/mktemp.1, line: 50
-# File: raw/man1/mktemp.1, line: 50
-# File: raw/man1/mktemp.1, line: 50
-# File: raw/man1/mktemp.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:50
 msgid ""
@@ -336,10 +240,6 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/mktemp.1, line: 52
-# File: raw/man1/mktemp.1, line: 52
-# File: raw/man1/mktemp.1, line: 52
-# File: raw/man1/mktemp.1, line: 52
 #. type: SH
 #: raw/coreutils/man1/mktemp.1:52
 #, no-wrap
@@ -360,10 +260,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/mktemp.1, line: 58
-# File: raw/man1/mktemp.1, line: 58
-# File: raw/man1/mktemp.1, line: 58
-# File: raw/man1/mktemp.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:58
 msgid ""
@@ -374,10 +270,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/mktemp.1, line: 58
-# File: raw/man1/mktemp.1, line: 58
-# File: raw/man1/mktemp.1, line: 58
-# File: raw/man1/mktemp.1, line: 58
 #. type: SH
 #: raw/coreutils/man1/mktemp.1:58
 #, no-wrap

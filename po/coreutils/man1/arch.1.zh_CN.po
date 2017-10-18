@@ -28,12 +28,6 @@ msgstr ""
 msgid "ARCH"
 msgstr "ARCH"
 
-# File: raw/man1/arch.1, line: 2
-# File: raw/man1/arch.1, line: 2
-# File: raw/man1/arch.1, line: 2
-# File: raw/man1/arch.1, line: 2
-# File: raw/man1/arch.1, line: 2
-# File: raw/man1/arch.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/arch.1:2
 #, fuzzy, no-wrap
@@ -76,24 +70,12 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:8
 msgid "B<arch> [I<\\,OPTION\\/>]..."
 msgstr "B<arch> [I<\\,选项\\/>]..."
 
 #
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
-# File: raw/man1/arch.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/arch.1:8
 #, no-wrap
@@ -101,24 +83,12 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:12
 msgid "Print machine architecture."
 msgstr "显示机器的体系结构。"
 
 #
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
-# File: raw/man1/arch.1, line: 12
 #. type: TP
 #: raw/coreutils/man1/arch.1:12
 #, no-wrap
@@ -126,24 +96,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:15
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
-# File: raw/man1/arch.1, line: 15
 #. type: TP
 #: raw/coreutils/man1/arch.1:15
 #, no-wrap
@@ -151,24 +109,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:18
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
-# File: raw/man1/arch.1, line: 18
 #. type: SH
 #: raw/coreutils/man1/arch.1:18
 #, no-wrap
@@ -176,24 +122,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:20
 msgid "Written by David MacKenzie and Karel Zak."
 msgstr "由 David MacKenzie 和 Karel Zak 编写。"
 
 #
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
-# File: raw/man1/arch.1, line: 20
 #. type: SH
 #: raw/coreutils/man1/arch.1:20
 #, no-wrap
@@ -201,12 +135,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/arch.1, line: 22
-# File: raw/man1/arch.1, line: 22
-# File: raw/man1/arch.1, line: 22
-# File: raw/man1/arch.1, line: 22
-# File: raw/man1/arch.1, line: 22
-# File: raw/man1/arch.1, line: 22
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:22
 msgid ""
@@ -215,12 +143,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:24
 msgid ""
@@ -230,12 +152,6 @@ msgstr ""
 "错误。"
 
 #
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
-# File: raw/man1/arch.1, line: 24
 #. type: SH
 #: raw/coreutils/man1/arch.1:24
 #, no-wrap
@@ -243,12 +159,6 @@ msgid "COPYRIGHT"
 msgstr "版权"
 
 #
-# File: raw/man1/arch.1, line: 27
-# File: raw/man1/arch.1, line: 27
-# File: raw/man1/arch.1, line: 27
-# File: raw/man1/arch.1, line: 27
-# File: raw/man1/arch.1, line: 27
-# File: raw/man1/arch.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:27
 #, fuzzy
@@ -263,12 +173,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:30
 msgid ""
@@ -279,12 +183,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
-# File: raw/man1/arch.1, line: 30
 #. type: SH
 #: raw/coreutils/man1/arch.1:30
 #, no-wrap
@@ -298,12 +196,6 @@ msgid "uname(1), uname(2)"
 msgstr "uname(1), uname(2)"
 
 #
-# File: raw/man1/arch.1, line: 35
-# File: raw/man1/arch.1, line: 35
-# File: raw/man1/arch.1, line: 35
-# File: raw/man1/arch.1, line: 35
-# File: raw/man1/arch.1, line: 35
-# File: raw/man1/arch.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/arch.1:35
 msgid ""

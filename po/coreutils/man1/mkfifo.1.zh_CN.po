@@ -61,10 +61,6 @@ msgid "mkfifo - make FIFOs (named pipes)"
 msgstr "mkfifo - 创建 FIFO（命名管道）"
 
 #
-# File: raw/man1/mkfifo.1, line: 5
-# File: raw/man1/mkfifo.1, line: 5
-# File: raw/man1/mkfifo.1, line: 5
-# File: raw/man1/mkfifo.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:5
 #, no-wrap
@@ -78,10 +74,6 @@ msgid "B<mkfifo> [I<\\,OPTION\\/>]... I<\\,NAME\\/>..."
 msgstr "B<mkfifo> [I<\\,选项\\/>]... I<\\,名称\\/>..."
 
 #
-# File: raw/man1/mkfifo.1, line: 8
-# File: raw/man1/mkfifo.1, line: 8
-# File: raw/man1/mkfifo.1, line: 8
-# File: raw/man1/mkfifo.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:8
 #, no-wrap
@@ -95,10 +87,6 @@ msgid "Create named pipes (FIFOs) with the given NAMEs."
 msgstr "使用给定的名称创建命名管道（FIFO）。"
 
 #
-# File: raw/man1/mkfifo.1, line: 14
-# File: raw/man1/mkfifo.1, line: 14
-# File: raw/man1/mkfifo.1, line: 14
-# File: raw/man1/mkfifo.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:14
 msgid ""
@@ -147,10 +135,6 @@ msgstr ""
 "定类型"
 
 #
-# File: raw/man1/mkfifo.1, line: 24
-# File: raw/man1/mkfifo.1, line: 24
-# File: raw/man1/mkfifo.1, line: 24
-# File: raw/man1/mkfifo.1, line: 24
 #. type: TP
 #: raw/coreutils/man1/mkfifo.1:24
 #, no-wrap
@@ -158,20 +142,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/mkfifo.1, line: 27
-# File: raw/man1/mkfifo.1, line: 27
-# File: raw/man1/mkfifo.1, line: 27
-# File: raw/man1/mkfifo.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:27
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/mkfifo.1, line: 27
-# File: raw/man1/mkfifo.1, line: 27
-# File: raw/man1/mkfifo.1, line: 27
-# File: raw/man1/mkfifo.1, line: 27
 #. type: TP
 #: raw/coreutils/man1/mkfifo.1:27
 #, no-wrap
@@ -179,20 +155,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/mkfifo.1, line: 30
-# File: raw/man1/mkfifo.1, line: 30
-# File: raw/man1/mkfifo.1, line: 30
-# File: raw/man1/mkfifo.1, line: 30
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:30
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/mkfifo.1, line: 30
-# File: raw/man1/mkfifo.1, line: 30
-# File: raw/man1/mkfifo.1, line: 30
-# File: raw/man1/mkfifo.1, line: 30
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:30
 #, no-wrap
@@ -200,20 +168,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/mkfifo.1, line: 32
-# File: raw/man1/mkfifo.1, line: 32
-# File: raw/man1/mkfifo.1, line: 32
-# File: raw/man1/mkfifo.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:32
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/mkfifo.1, line: 32
-# File: raw/man1/mkfifo.1, line: 32
-# File: raw/man1/mkfifo.1, line: 32
-# File: raw/man1/mkfifo.1, line: 32
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:32
 #, no-wrap
@@ -221,10 +181,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/mkfifo.1, line: 34
-# File: raw/man1/mkfifo.1, line: 34
-# File: raw/man1/mkfifo.1, line: 34
-# File: raw/man1/mkfifo.1, line: 34
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:34
 msgid ""
@@ -243,10 +199,6 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/mkfifo.1, line: 36
-# File: raw/man1/mkfifo.1, line: 36
-# File: raw/man1/mkfifo.1, line: 36
-# File: raw/man1/mkfifo.1, line: 36
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:36
 #, no-wrap
@@ -267,10 +219,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/mkfifo.1, line: 42
-# File: raw/man1/mkfifo.1, line: 42
-# File: raw/man1/mkfifo.1, line: 42
-# File: raw/man1/mkfifo.1, line: 42
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:42
 msgid ""
@@ -281,10 +229,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/mkfifo.1, line: 42
-# File: raw/man1/mkfifo.1, line: 42
-# File: raw/man1/mkfifo.1, line: 42
-# File: raw/man1/mkfifo.1, line: 42
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:42
 #, no-wrap

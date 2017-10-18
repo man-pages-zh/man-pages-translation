@@ -63,10 +63,6 @@ msgid "nohup - run a command immune to hangups, with output to a non-tty"
 msgstr "nohup - 使程序运行时不挂起，不向 tty 输出信息"
 
 #
-# File: raw/man1/nohup.1, line: 5
-# File: raw/man1/nohup.1, line: 5
-# File: raw/man1/nohup.1, line: 5
-# File: raw/man1/nohup.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/nohup.1:5
 #, no-wrap
@@ -74,30 +70,18 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/nohup.1, line: 8
-# File: raw/man1/nohup.1, line: 8
-# File: raw/man1/nohup.1, line: 8
-# File: raw/man1/nohup.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:8
 msgid "B<nohup> I<\\,COMMAND \\/>[I<\\,ARG\\/>]..."
 msgstr "B<nohup> I<\\,命令 \\/>[I<\\,参数列表\\/>]..."
 
 #
-# File: raw/man1/nohup.1, line: 11
-# File: raw/man1/nohup.1, line: 11
-# File: raw/man1/nohup.1, line: 11
-# File: raw/man1/nohup.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:11
 msgid "B<nohup> I<\\,OPTION\\/>"
 msgstr "B<nohup> I<\\,选项\\/>"
 
 #
-# File: raw/man1/nohup.1, line: 11
-# File: raw/man1/nohup.1, line: 11
-# File: raw/man1/nohup.1, line: 11
-# File: raw/man1/nohup.1, line: 11
 #. type: SH
 #: raw/coreutils/man1/nohup.1:11
 #, no-wrap
@@ -105,20 +89,12 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/nohup.1, line: 15
-# File: raw/man1/nohup.1, line: 15
-# File: raw/man1/nohup.1, line: 15
-# File: raw/man1/nohup.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:15
 msgid "Run COMMAND, ignoring hangup signals."
 msgstr "运行命令，并忽略挂起信号。"
 
 #
-# File: raw/man1/nohup.1, line: 15
-# File: raw/man1/nohup.1, line: 15
-# File: raw/man1/nohup.1, line: 15
-# File: raw/man1/nohup.1, line: 15
 #. type: TP
 #: raw/coreutils/man1/nohup.1:15
 #, no-wrap
@@ -126,20 +102,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/nohup.1, line: 18
-# File: raw/man1/nohup.1, line: 18
-# File: raw/man1/nohup.1, line: 18
-# File: raw/man1/nohup.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:18
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/nohup.1, line: 18
-# File: raw/man1/nohup.1, line: 18
-# File: raw/man1/nohup.1, line: 18
-# File: raw/man1/nohup.1, line: 18
 #. type: TP
 #: raw/coreutils/man1/nohup.1:18
 #, no-wrap
@@ -147,10 +115,6 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/nohup.1, line: 21
-# File: raw/man1/nohup.1, line: 21
-# File: raw/man1/nohup.1, line: 21
-# File: raw/man1/nohup.1, line: 21
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:21
 msgid "output version information and exit"
@@ -171,10 +135,6 @@ msgstr ""
 "E<gt> 文件”可将输出保存到指定文件。"
 
 #
-# File: raw/man1/nohup.1, line: 31
-# File: raw/man1/nohup.1, line: 31
-# File: raw/man1/nohup.1, line: 31
-# File: raw/man1/nohup.1, line: 31
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:31
 msgid ""
@@ -186,10 +146,6 @@ msgstr ""
 "应版本。请查阅您的 shell 文档获知它所支持的选项。"
 
 #
-# File: raw/man1/nohup.1, line: 31
-# File: raw/man1/nohup.1, line: 31
-# File: raw/man1/nohup.1, line: 31
-# File: raw/man1/nohup.1, line: 31
 #. type: SH
 #: raw/coreutils/man1/nohup.1:31
 #, no-wrap
@@ -197,20 +153,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/nohup.1, line: 33
-# File: raw/man1/nohup.1, line: 33
-# File: raw/man1/nohup.1, line: 33
-# File: raw/man1/nohup.1, line: 33
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:33
 msgid "Written by Jim Meyering."
 msgstr "由 Jim Meyering 编写。"
 
 #
-# File: raw/man1/nohup.1, line: 33
-# File: raw/man1/nohup.1, line: 33
-# File: raw/man1/nohup.1, line: 33
-# File: raw/man1/nohup.1, line: 33
 #. type: SH
 #: raw/coreutils/man1/nohup.1:33
 #, no-wrap
@@ -218,10 +166,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/nohup.1, line: 35
-# File: raw/man1/nohup.1, line: 35
-# File: raw/man1/nohup.1, line: 35
-# File: raw/man1/nohup.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:35
 msgid ""
@@ -230,10 +174,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/nohup.1, line: 37
-# File: raw/man1/nohup.1, line: 37
-# File: raw/man1/nohup.1, line: 37
-# File: raw/man1/nohup.1, line: 37
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:37
 msgid ""
@@ -244,10 +184,6 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/nohup.1, line: 37
-# File: raw/man1/nohup.1, line: 37
-# File: raw/man1/nohup.1, line: 37
-# File: raw/man1/nohup.1, line: 37
 #. type: SH
 #: raw/coreutils/man1/nohup.1:37
 #, no-wrap
@@ -255,10 +191,6 @@ msgid "COPYRIGHT"
 msgstr "版权"
 
 #
-# File: raw/man1/nohup.1, line: 40
-# File: raw/man1/nohup.1, line: 40
-# File: raw/man1/nohup.1, line: 40
-# File: raw/man1/nohup.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:40
 #, fuzzy
@@ -273,10 +205,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/nohup.1, line: 43
-# File: raw/man1/nohup.1, line: 43
-# File: raw/man1/nohup.1, line: 43
-# File: raw/man1/nohup.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:43
 msgid ""
@@ -287,10 +215,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/nohup.1, line: 43
-# File: raw/man1/nohup.1, line: 43
-# File: raw/man1/nohup.1, line: 43
-# File: raw/man1/nohup.1, line: 43
 #. type: SH
 #: raw/coreutils/man1/nohup.1:43
 #, no-wrap
@@ -298,10 +222,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/nohup.1, line: 45
-# File: raw/man1/nohup.1, line: 45
-# File: raw/man1/nohup.1, line: 45
-# File: raw/man1/nohup.1, line: 45
 #. type: Plain text
 #: raw/coreutils/man1/nohup.1:45
 msgid ""

@@ -98,10 +98,6 @@ msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #
-# File: raw/man1/head.1, line: 17
-# File: raw/man1/head.1, line: 17
-# File: raw/man1/head.1, line: 17
-# File: raw/man1/head.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/head.1:17
 msgid ""
@@ -114,7 +110,6 @@ msgstr "必选参数对长短选项同时适用。"
 msgid "B<-c>, B<--bytes>=I<\\,[-]NUM\\/>"
 msgstr "B<-c>, B<--bytes>=I<\\,[-]NUM\\/>"
 
-# File: raw/man1/head.1, line: 22
 #. type: Plain text
 #: raw/coreutils/man1/head.1:22
 msgid ""
@@ -124,17 +119,12 @@ msgstr ""
 "显示每个文件的前 NUM 个字节；以 '-' 起始，则显示每个文件中不包含最后 NUM 个字"
 "节的全部内容"
 
-# File: raw/man1/head.1, line: 22
-# File: raw/man1/head.1, line: 22
-# File: raw/man1/head.1, line: 22
-# File: raw/man1/head.1, line: 22
 #. type: TP
 #: raw/coreutils/man1/head.1:22
 #, no-wrap
 msgid "B<-n>, B<--lines>=I<\\,[-]NUM\\/>"
 msgstr "B<-n>, B<--lines>=I<\\,[-]NUM\\/>"
 
-# File: raw/man1/head.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/head.1:27
 msgid ""
@@ -145,10 +135,6 @@ msgstr ""
 "部内容"
 
 #
-# File: raw/man1/head.1, line: 27
-# File: raw/man1/head.1, line: 27
-# File: raw/man1/head.1, line: 27
-# File: raw/man1/head.1, line: 27
 #. type: TP
 #: raw/coreutils/man1/head.1:27
 #, no-wrap
@@ -156,20 +142,12 @@ msgid "B<-q>, B<--quiet>, B<--silent>"
 msgstr "B<-q>, B<--quiet>, B<--silent>"
 
 #
-# File: raw/man1/head.1, line: 30
-# File: raw/man1/head.1, line: 30
-# File: raw/man1/head.1, line: 30
-# File: raw/man1/head.1, line: 30
 #. type: Plain text
 #: raw/coreutils/man1/head.1:30
 msgid "never print headers giving file names"
 msgstr "不显示给出文件名的首部"
 
 #
-# File: raw/man1/head.1, line: 30
-# File: raw/man1/head.1, line: 30
-# File: raw/man1/head.1, line: 30
-# File: raw/man1/head.1, line: 30
 #. type: TP
 #: raw/coreutils/man1/head.1:30
 #, no-wrap
@@ -177,20 +155,12 @@ msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
 #
-# File: raw/man1/head.1, line: 33
-# File: raw/man1/head.1, line: 33
-# File: raw/man1/head.1, line: 33
-# File: raw/man1/head.1, line: 33
 #. type: Plain text
 #: raw/coreutils/man1/head.1:33
 msgid "always print headers giving file names"
 msgstr "显示给出文件名的首部"
 
 #
-# File: raw/man1/head.1, line: 33
-# File: raw/man1/head.1, line: 33
-# File: raw/man1/head.1, line: 33
-# File: raw/man1/head.1, line: 33
 #. type: TP
 #: raw/coreutils/man1/head.1:33
 #, no-wrap
@@ -198,20 +168,12 @@ msgid "B<-z>, B<--zero-terminated>"
 msgstr "B<-z>, B<--zero-terminated>"
 
 #
-# File: raw/man1/head.1, line: 36
-# File: raw/man1/head.1, line: 36
-# File: raw/man1/head.1, line: 36
-# File: raw/man1/head.1, line: 36
 #. type: Plain text
 #: raw/coreutils/man1/head.1:36
 msgid "line delimiter is NUL, not newline"
 msgstr "以 NUL 作为行的分隔符，而非换行符"
 
 #
-# File: raw/man1/head.1, line: 36
-# File: raw/man1/head.1, line: 36
-# File: raw/man1/head.1, line: 36
-# File: raw/man1/head.1, line: 36
 #. type: TP
 #: raw/coreutils/man1/head.1:36
 #, no-wrap
@@ -219,20 +181,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/head.1, line: 39
-# File: raw/man1/head.1, line: 39
-# File: raw/man1/head.1, line: 39
-# File: raw/man1/head.1, line: 39
 #. type: Plain text
 #: raw/coreutils/man1/head.1:39
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/head.1, line: 39
-# File: raw/man1/head.1, line: 39
-# File: raw/man1/head.1, line: 39
-# File: raw/man1/head.1, line: 39
 #. type: TP
 #: raw/coreutils/man1/head.1:39
 #, no-wrap
@@ -240,19 +194,11 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/head.1, line: 42
-# File: raw/man1/head.1, line: 42
-# File: raw/man1/head.1, line: 42
-# File: raw/man1/head.1, line: 42
 #. type: Plain text
 #: raw/coreutils/man1/head.1:42
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-# File: raw/man1/head.1, line: 46
-# File: raw/man1/head.1, line: 46
-# File: raw/man1/head.1, line: 46
-# File: raw/man1/head.1, line: 46
 #. type: Plain text
 #: raw/coreutils/man1/head.1:46
 msgid ""
@@ -263,10 +209,6 @@ msgstr ""
 "1000*1000*1000, G 1024*1024*1024, 对于 T, P, E, Z, Y 同样适用。"
 
 #
-# File: raw/man1/head.1, line: 46
-# File: raw/man1/head.1, line: 46
-# File: raw/man1/head.1, line: 46
-# File: raw/man1/head.1, line: 46
 #. type: SH
 #: raw/coreutils/man1/head.1:46
 #, no-wrap
@@ -274,20 +216,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/head.1, line: 48
-# File: raw/man1/head.1, line: 48
-# File: raw/man1/head.1, line: 48
-# File: raw/man1/head.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/head.1:48
 msgid "Written by David MacKenzie and Jim Meyering."
 msgstr "由 David MacKenzie 和 Jim Meyering 编写。"
 
 #
-# File: raw/man1/head.1, line: 48
-# File: raw/man1/head.1, line: 48
-# File: raw/man1/head.1, line: 48
-# File: raw/man1/head.1, line: 48
 #. type: SH
 #: raw/coreutils/man1/head.1:48
 #, no-wrap
@@ -295,10 +229,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/head.1, line: 50
-# File: raw/man1/head.1, line: 50
-# File: raw/man1/head.1, line: 50
-# File: raw/man1/head.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/head.1:50
 msgid ""
@@ -307,10 +237,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/head.1, line: 52
-# File: raw/man1/head.1, line: 52
-# File: raw/man1/head.1, line: 52
-# File: raw/man1/head.1, line: 52
 #. type: Plain text
 #: raw/coreutils/man1/head.1:52
 msgid ""
@@ -341,10 +267,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/head.1, line: 58
-# File: raw/man1/head.1, line: 58
-# File: raw/man1/head.1, line: 58
-# File: raw/man1/head.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/head.1:58
 msgid ""
@@ -368,10 +290,6 @@ msgid "tail(1)"
 msgstr "tail(1)"
 
 #
-# File: raw/man1/head.1, line: 63
-# File: raw/man1/head.1, line: 63
-# File: raw/man1/head.1, line: 63
-# File: raw/man1/head.1, line: 63
 #. type: Plain text
 #: raw/coreutils/man1/head.1:63
 msgid ""

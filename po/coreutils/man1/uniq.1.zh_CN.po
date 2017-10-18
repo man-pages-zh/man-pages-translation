@@ -28,8 +28,6 @@ msgid "UNIQ"
 msgstr "UNIQ"
 
 #
-# File: raw/man1/uniq.1, line: 2
-# File: raw/man1/uniq.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/uniq.1:2
 #, fuzzy, no-wrap
@@ -37,7 +35,6 @@ msgstr "UNIQ"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/uniq.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/uniq.1:2
 #, fuzzy, no-wrap
@@ -45,7 +42,6 @@ msgstr "2016年12月"
 msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
-# File: raw/man1/uniq.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/uniq.1:2
@@ -61,18 +57,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/uniq.1, line: 5
-# File: raw/man1/uniq.1, line: 5
-# File: raw/man1/uniq.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:5
 msgid "uniq - report or omit repeated lines"
 msgstr "uniq - 报告或省略重复行"
 
 #
-# File: raw/man1/uniq.1, line: 5
-# File: raw/man1/uniq.1, line: 5
-# File: raw/man1/uniq.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/uniq.1:5
 #, no-wrap
@@ -85,9 +75,6 @@ msgid "B<uniq> [I<\\,OPTION\\/>]... [I<\\,INPUT \\/>[I<\\,OUTPUT\\/>]]"
 msgstr "B<uniq> [I<\\,选项\\/>]... [I<\\,输入 \\/>[I<\\,输出\\/>]]"
 
 #
-# File: raw/man1/uniq.1, line: 8
-# File: raw/man1/uniq.1, line: 8
-# File: raw/man1/uniq.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/uniq.1:8
 #, no-wrap
@@ -95,9 +82,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/uniq.1, line: 13
-# File: raw/man1/uniq.1, line: 13
-# File: raw/man1/uniq.1, line: 13
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:13
 msgid ""
@@ -107,18 +91,12 @@ msgstr ""
 "从输入文件（或标准输入）筛选一组相邻的匹配行，写入到输出文件（或标准输出）。"
 
 #
-# File: raw/man1/uniq.1, line: 15
-# File: raw/man1/uniq.1, line: 15
-# File: raw/man1/uniq.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:15
 msgid "With no options, matching lines are merged to the first occurrence."
 msgstr "如没有指定选项，则只保留一组匹配行中的第一行。"
 
 #
-# File: raw/man1/uniq.1, line: 17
-# File: raw/man1/uniq.1, line: 17
-# File: raw/man1/uniq.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:17
 msgid ""
@@ -126,9 +104,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/uniq.1, line: 17
-# File: raw/man1/uniq.1, line: 17
-# File: raw/man1/uniq.1, line: 17
 #. type: TP
 #: raw/coreutils/man1/uniq.1:17
 #, no-wrap
@@ -136,18 +111,12 @@ msgid "B<-c>, B<--count>"
 msgstr "B<-c>, B<--count>"
 
 #
-# File: raw/man1/uniq.1, line: 20
-# File: raw/man1/uniq.1, line: 20
-# File: raw/man1/uniq.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:20
 msgid "prefix lines by the number of occurrences"
 msgstr "每行前附上重复出现的次数作为前缀"
 
 #
-# File: raw/man1/uniq.1, line: 20
-# File: raw/man1/uniq.1, line: 20
-# File: raw/man1/uniq.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/uniq.1:20
 #, no-wrap
@@ -167,9 +136,6 @@ msgstr "仅显示重复行，每组一个"
 msgid "B<-D>"
 msgstr "B<-D>"
 
-# File: raw/man1/uniq.1, line: 26
-# File: raw/man1/uniq.1, line: 26
-# File: raw/man1/uniq.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:26
 msgid "print all duplicate lines"
@@ -197,9 +163,6 @@ msgid "B<-f>, B<--skip-fields>=I<\\,N\\/>"
 msgstr "B<-f>, B<--skip-fields>=I<\\,N\\/>"
 
 #
-# File: raw/man1/uniq.1, line: 34
-# File: raw/man1/uniq.1, line: 34
-# File: raw/man1/uniq.1, line: 34
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:34
 msgid "avoid comparing the first N fields"
@@ -221,9 +184,6 @@ msgstr ""
 "both}"
 
 #
-# File: raw/man1/uniq.1, line: 38
-# File: raw/man1/uniq.1, line: 38
-# File: raw/man1/uniq.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/uniq.1:38
 #, no-wrap
@@ -231,9 +191,6 @@ msgid "B<-i>, B<--ignore-case>"
 msgstr "B<-i>, B<--ignore-case>"
 
 #
-# File: raw/man1/uniq.1, line: 41
-# File: raw/man1/uniq.1, line: 41
-# File: raw/man1/uniq.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:41
 msgid "ignore differences in case when comparing"
@@ -246,18 +203,12 @@ msgid "B<-s>, B<--skip-chars>=I<\\,N\\/>"
 msgstr "B<-s>, B<--skip-chars>=I<\\,N\\/>"
 
 #
-# File: raw/man1/uniq.1, line: 44
-# File: raw/man1/uniq.1, line: 44
-# File: raw/man1/uniq.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:44
 msgid "avoid comparing the first N characters"
 msgstr "比较时跳过前 N 个字符"
 
 #
-# File: raw/man1/uniq.1, line: 44
-# File: raw/man1/uniq.1, line: 44
-# File: raw/man1/uniq.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/uniq.1:44
 #, no-wrap
@@ -265,18 +216,12 @@ msgid "B<-u>, B<--unique>"
 msgstr "B<-u>, B<--unique>"
 
 #
-# File: raw/man1/uniq.1, line: 47
-# File: raw/man1/uniq.1, line: 47
-# File: raw/man1/uniq.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:47
 msgid "only print unique lines"
 msgstr "只显示不重复的行"
 
 #
-# File: raw/man1/uniq.1, line: 47
-# File: raw/man1/uniq.1, line: 47
-# File: raw/man1/uniq.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/uniq.1:47
 #, no-wrap
@@ -284,9 +229,6 @@ msgid "B<-z>, B<--zero-terminated>"
 msgstr "B<-z>, B<--zero-terminated>"
 
 #
-# File: raw/man1/uniq.1, line: 50
-# File: raw/man1/uniq.1, line: 50
-# File: raw/man1/uniq.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:50
 msgid "line delimiter is NUL, not newline"
@@ -299,18 +241,12 @@ msgid "B<-w>, B<--check-chars>=I<\\,N\\/>"
 msgstr "B<-w>, B<--check-chars>=I<\\,N\\/>"
 
 #
-# File: raw/man1/uniq.1, line: 53
-# File: raw/man1/uniq.1, line: 53
-# File: raw/man1/uniq.1, line: 53
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:53
 msgid "compare no more than N characters in lines"
 msgstr "对每行第 N 个字符以后的内容不作比较"
 
 #
-# File: raw/man1/uniq.1, line: 53
-# File: raw/man1/uniq.1, line: 53
-# File: raw/man1/uniq.1, line: 53
 #. type: TP
 #: raw/coreutils/man1/uniq.1:53
 #, no-wrap
@@ -318,18 +254,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/uniq.1, line: 56
-# File: raw/man1/uniq.1, line: 56
-# File: raw/man1/uniq.1, line: 56
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:56
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/uniq.1, line: 56
-# File: raw/man1/uniq.1, line: 56
-# File: raw/man1/uniq.1, line: 56
 #. type: TP
 #: raw/coreutils/man1/uniq.1:56
 #, no-wrap
@@ -337,18 +267,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/uniq.1, line: 59
-# File: raw/man1/uniq.1, line: 59
-# File: raw/man1/uniq.1, line: 59
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:59
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/uniq.1, line: 62
-# File: raw/man1/uniq.1, line: 62
-# File: raw/man1/uniq.1, line: 62
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:62
 msgid ""
@@ -359,9 +283,6 @@ msgstr ""
 "跳过域和跳过字符选项时，先跳过域再跳过字符。"
 
 #
-# File: raw/man1/uniq.1, line: 66
-# File: raw/man1/uniq.1, line: 66
-# File: raw/man1/uniq.1, line: 66
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:66
 msgid ""
@@ -373,9 +294,6 @@ msgstr ""
 "u>”而非“uniq”。另外，比较的细则会依据“LC_COLLATE”所指定的规则。"
 
 #
-# File: raw/man1/uniq.1, line: 66
-# File: raw/man1/uniq.1, line: 66
-# File: raw/man1/uniq.1, line: 66
 #. type: SH
 #: raw/coreutils/man1/uniq.1:66
 #, no-wrap
@@ -383,18 +301,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/uniq.1, line: 68
-# File: raw/man1/uniq.1, line: 68
-# File: raw/man1/uniq.1, line: 68
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:68
 msgid "Written by Richard M. Stallman and David MacKenzie."
 msgstr "由 Richard M. Stallman 和 David MacKenzie 编写。"
 
 #
-# File: raw/man1/uniq.1, line: 68
-# File: raw/man1/uniq.1, line: 68
-# File: raw/man1/uniq.1, line: 68
 #. type: SH
 #: raw/coreutils/man1/uniq.1:68
 #, no-wrap
@@ -402,9 +314,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/uniq.1, line: 70
-# File: raw/man1/uniq.1, line: 70
-# File: raw/man1/uniq.1, line: 70
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:70
 msgid ""
@@ -413,9 +322,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/uniq.1, line: 72
-# File: raw/man1/uniq.1, line: 72
-# File: raw/man1/uniq.1, line: 72
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:72
 msgid ""
@@ -425,18 +331,12 @@ msgstr ""
 "错误。"
 
 #
-# File: raw/man1/uniq.1, line: 72
-# File: raw/man1/uniq.1, line: 72
-# File: raw/man1/uniq.1, line: 72
 #. type: SH
 #: raw/coreutils/man1/uniq.1:72
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/uniq.1, line: 75
-# File: raw/man1/uniq.1, line: 75
-# File: raw/man1/uniq.1, line: 75
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:75
 #, fuzzy
@@ -451,9 +351,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/uniq.1, line: 78
-# File: raw/man1/uniq.1, line: 78
-# File: raw/man1/uniq.1, line: 78
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:78
 msgid ""
@@ -464,9 +361,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/uniq.1, line: 78
-# File: raw/man1/uniq.1, line: 78
-# File: raw/man1/uniq.1, line: 78
 #. type: SH
 #: raw/coreutils/man1/uniq.1:78
 #, no-wrap
@@ -474,18 +368,12 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/uniq.1, line: 80
-# File: raw/man1/uniq.1, line: 80
-# File: raw/man1/uniq.1, line: 80
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:80
 msgid "comm(1), join(1), sort(1)"
 msgstr "comm(1), join(1), sort(1)"
 
 #
-# File: raw/man1/uniq.1, line: 83
-# File: raw/man1/uniq.1, line: 83
-# File: raw/man1/uniq.1, line: 83
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:83
 msgid ""
@@ -493,9 +381,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/uniqE<gt>"
 
 #
-# File: raw/man1/uniq.1, line: 84
-# File: raw/man1/uniq.1, line: 84
-# File: raw/man1/uniq.1, line: 84
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:84
 msgid "or available locally via: info \\(aq(coreutils) uniq invocation\\(aq"

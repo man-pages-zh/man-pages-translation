@@ -28,9 +28,6 @@ msgid "EXPAND"
 msgstr "EXPAND"
 
 #
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
 #, fuzzy, no-wrap
@@ -38,10 +35,6 @@ msgstr "EXPAND"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
 #, fuzzy, no-wrap
@@ -50,10 +43,6 @@ msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
-# File: raw/man1/expand.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
 #, no-wrap
@@ -61,10 +50,6 @@ msgid "User Commands"
 msgstr "User Commands"
 
 #
-# File: raw/man1/expand.1, line: 3
-# File: raw/man1/expand.1, line: 3
-# File: raw/man1/expand.1, line: 3
-# File: raw/man1/expand.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/expand.1:3
 #, no-wrap
@@ -78,59 +63,35 @@ msgid "expand - convert tabs to spaces"
 msgstr "expand - 将制表符转换为空格"
 
 #
-# File: raw/man1/expand.1, line: 5
-# File: raw/man1/expand.1, line: 5
-# File: raw/man1/expand.1, line: 5
-# File: raw/man1/expand.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/expand.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/expand.1, line: 8
-# File: raw/man1/expand.1, line: 8
-# File: raw/man1/expand.1, line: 8
-# File: raw/man1/expand.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:8
 msgid "B<expand> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<expand> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
 
 #
-# File: raw/man1/expand.1, line: 8
-# File: raw/man1/expand.1, line: 8
-# File: raw/man1/expand.1, line: 8
-# File: raw/man1/expand.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/expand.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-# File: raw/man1/expand.1, line: 12
-# File: raw/man1/expand.1, line: 12
-# File: raw/man1/expand.1, line: 12
-# File: raw/man1/expand.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:12
 msgid "Convert tabs in each FILE to spaces, writing to standard output."
 msgstr "将所列文件中的制表符转换为空格，且输出到标准输出。"
 
-# File: raw/man1/expand.1, line: 14
-# File: raw/man1/expand.1, line: 14
-# File: raw/man1/expand.1, line: 14
-# File: raw/man1/expand.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #
-# File: raw/man1/expand.1, line: 16
-# File: raw/man1/expand.1, line: 16
-# File: raw/man1/expand.1, line: 16
-# File: raw/man1/expand.1, line: 16
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:16
 msgid ""
@@ -138,10 +99,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/expand.1, line: 16
-# File: raw/man1/expand.1, line: 16
-# File: raw/man1/expand.1, line: 16
-# File: raw/man1/expand.1, line: 16
 #. type: TP
 #: raw/coreutils/man1/expand.1:16
 #, no-wrap
@@ -149,19 +106,11 @@ msgid "B<-i>, B<--initial>"
 msgstr "B<-i>, B<--initial>"
 
 #
-# File: raw/man1/expand.1, line: 19
-# File: raw/man1/expand.1, line: 19
-# File: raw/man1/expand.1, line: 19
-# File: raw/man1/expand.1, line: 19
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:19
 msgid "do not convert tabs after non blanks"
 msgstr "不转换非空白符后的制表符"
 
-# File: raw/man1/expand.1, line: 19
-# File: raw/man1/expand.1, line: 19
-# File: raw/man1/expand.1, line: 19
-# File: raw/man1/expand.1, line: 19
 #. type: TP
 #: raw/coreutils/man1/expand.1:19
 #, fuzzy, no-wrap
@@ -170,10 +119,6 @@ msgid "B<-t>, B<--tabs>=I<\\,N\\/>"
 msgstr "B<-t>, B<--tabs>=I<\\,数值\\/>"
 
 #
-# File: raw/man1/expand.1, line: 22
-# File: raw/man1/expand.1, line: 22
-# File: raw/man1/expand.1, line: 22
-# File: raw/man1/expand.1, line: 22
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:22
 #, fuzzy
@@ -181,10 +126,6 @@ msgstr "B<-t>, B<--tabs>=I<\\,数值\\/>"
 msgid "have tabs N characters apart, not 8"
 msgstr "设置每个制表符为指定数值的宽度，而不是默认的 8"
 
-# File: raw/man1/expand.1, line: 22
-# File: raw/man1/expand.1, line: 22
-# File: raw/man1/expand.1, line: 22
-# File: raw/man1/expand.1, line: 22
 #. type: TP
 #: raw/coreutils/man1/expand.1:22
 #, no-wrap
@@ -201,10 +142,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
 #. type: TP
 #: raw/coreutils/man1/expand.1:30
 #, no-wrap
@@ -212,20 +149,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/expand.1, line: 28
-# File: raw/man1/expand.1, line: 28
-# File: raw/man1/expand.1, line: 28
-# File: raw/man1/expand.1, line: 28
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:33
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/expand.1, line: 28
-# File: raw/man1/expand.1, line: 28
-# File: raw/man1/expand.1, line: 28
-# File: raw/man1/expand.1, line: 28
 #. type: TP
 #: raw/coreutils/man1/expand.1:33
 #, no-wrap
@@ -233,20 +162,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/expand.1, line: 31
-# File: raw/man1/expand.1, line: 31
-# File: raw/man1/expand.1, line: 31
-# File: raw/man1/expand.1, line: 31
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:36
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/expand.1, line: 31
-# File: raw/man1/expand.1, line: 31
-# File: raw/man1/expand.1, line: 31
-# File: raw/man1/expand.1, line: 31
 #. type: SH
 #: raw/coreutils/man1/expand.1:36
 #, no-wrap
@@ -254,20 +175,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/expand.1, line: 33
-# File: raw/man1/expand.1, line: 33
-# File: raw/man1/expand.1, line: 33
-# File: raw/man1/expand.1, line: 33
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:38
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/expand.1, line: 33
-# File: raw/man1/expand.1, line: 33
-# File: raw/man1/expand.1, line: 33
-# File: raw/man1/expand.1, line: 33
 #. type: SH
 #: raw/coreutils/man1/expand.1:38
 #, no-wrap
@@ -275,10 +188,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/expand.1, line: 35
-# File: raw/man1/expand.1, line: 35
-# File: raw/man1/expand.1, line: 35
-# File: raw/man1/expand.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:40
 msgid ""
@@ -287,10 +196,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/expand.1, line: 37
-# File: raw/man1/expand.1, line: 37
-# File: raw/man1/expand.1, line: 37
-# File: raw/man1/expand.1, line: 37
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:42
 msgid ""
@@ -301,20 +206,12 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/expand.1, line: 37
-# File: raw/man1/expand.1, line: 37
-# File: raw/man1/expand.1, line: 37
-# File: raw/man1/expand.1, line: 37
 #. type: SH
 #: raw/coreutils/man1/expand.1:42
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/expand.1, line: 40
-# File: raw/man1/expand.1, line: 40
-# File: raw/man1/expand.1, line: 40
-# File: raw/man1/expand.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:45
 #, fuzzy
@@ -329,10 +226,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/expand.1, line: 43
-# File: raw/man1/expand.1, line: 43
-# File: raw/man1/expand.1, line: 43
-# File: raw/man1/expand.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:48
 msgid ""
@@ -343,10 +236,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/expand.1, line: 43
-# File: raw/man1/expand.1, line: 43
-# File: raw/man1/expand.1, line: 43
-# File: raw/man1/expand.1, line: 43
 #. type: SH
 #: raw/coreutils/man1/expand.1:48
 #, no-wrap
@@ -354,20 +243,12 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/expand.1, line: 45
-# File: raw/man1/expand.1, line: 45
-# File: raw/man1/expand.1, line: 45
-# File: raw/man1/expand.1, line: 45
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:50
 msgid "unexpand(1)"
 msgstr "unexpand(1)"
 
 #
-# File: raw/man1/expand.1, line: 48
-# File: raw/man1/expand.1, line: 48
-# File: raw/man1/expand.1, line: 48
-# File: raw/man1/expand.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:53
 msgid ""
@@ -375,10 +256,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/expandE<gt>"
 
 #
-# File: raw/man1/expand.1, line: 49
-# File: raw/man1/expand.1, line: 49
-# File: raw/man1/expand.1, line: 49
-# File: raw/man1/expand.1, line: 49
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:54
 msgid "or available locally via: info \\(aq(coreutils) expand invocation\\(aq"
@@ -388,10 +265,6 @@ msgstr "或者在本地使用： info \\(aq(coreutils) expand invocation\\(aq"
 #~ msgstr "2017年1月"
 
 #
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
-# File: raw/man1/expand.1, line: 25
 #~ msgid "use comma separated list of explicit tab positions"
 #~ msgstr "使用明确的制表位置列表，用逗号分隔"
 

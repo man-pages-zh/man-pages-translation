@@ -19,7 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/pathchk.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/pathchk.1:2
@@ -27,7 +26,6 @@ msgstr ""
 msgid "PATHCHK"
 msgstr "PATHCHK"
 
-# File: raw/man1/pathchk.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/pathchk.1:2
@@ -36,7 +34,6 @@ msgstr "PATHCHK"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/pathchk.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/pathchk.1:2
 #, fuzzy, no-wrap
@@ -52,17 +49,12 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/pathchk.1, line: 3
-# File: raw/man1/pathchk.1, line: 3
-# File: raw/man1/pathchk.1, line: 3
-# File: raw/man1/pathchk.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/pathchk.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-# File: raw/man1/pathchk.1, line: 5
 #
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:5
@@ -70,10 +62,6 @@ msgid "pathchk - check whether file names are valid or portable"
 msgstr "pathchk - 检查文件名是否合法或可移植"
 
 #
-# File: raw/man1/pathchk.1, line: 5
-# File: raw/man1/pathchk.1, line: 5
-# File: raw/man1/pathchk.1, line: 5
-# File: raw/man1/pathchk.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/pathchk.1:5
 #, no-wrap
@@ -81,20 +69,12 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/pathchk.1, line: 8
-# File: raw/man1/pathchk.1, line: 8
-# File: raw/man1/pathchk.1, line: 8
-# File: raw/man1/pathchk.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:8
 msgid "B<pathchk> [I<\\,OPTION\\/>]... I<\\,NAME\\/>..."
 msgstr "B<pathchk> [I<\\,选项\\/>]... I<\\,文件名\\/>..."
 
 #
-# File: raw/man1/pathchk.1, line: 8
-# File: raw/man1/pathchk.1, line: 8
-# File: raw/man1/pathchk.1, line: 8
-# File: raw/man1/pathchk.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/pathchk.1:8
 #, no-wrap
@@ -102,16 +82,11 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/pathchk.1, line: 12
-# File: raw/man1/pathchk.1, line: 12
-# File: raw/man1/pathchk.1, line: 12
-# File: raw/man1/pathchk.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:12
 msgid "Diagnose invalid or unportable file names."
 msgstr "诊断不合法或没有移植性的文件名。"
 
-# File: raw/man1/pathchk.1, line: 12
 #
 #. type: TP
 #: raw/coreutils/man1/pathchk.1:12
@@ -120,20 +95,12 @@ msgid "B<-p>"
 msgstr "B<-p>"
 
 #
-# File: raw/man1/pathchk.1, line: 15
-# File: raw/man1/pathchk.1, line: 15
-# File: raw/man1/pathchk.1, line: 15
-# File: raw/man1/pathchk.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:15
 msgid "check for most POSIX systems"
 msgstr "针对大多数 POSIX 系统进行检查"
 
 #
-# File: raw/man1/pathchk.1, line: 15
-# File: raw/man1/pathchk.1, line: 15
-# File: raw/man1/pathchk.1, line: 15
-# File: raw/man1/pathchk.1, line: 15
 #. type: TP
 #: raw/coreutils/man1/pathchk.1:15
 #, no-wrap
@@ -141,16 +108,11 @@ msgid "B<-P>"
 msgstr "B<-P>"
 
 #
-# File: raw/man1/pathchk.1, line: 18
-# File: raw/man1/pathchk.1, line: 18
-# File: raw/man1/pathchk.1, line: 18
-# File: raw/man1/pathchk.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:18
 msgid "check for empty names and leading \"-\""
 msgstr "检查空文件名和起始的“-”"
 
-# File: raw/man1/pathchk.1, line: 18
 #
 #. type: TP
 #: raw/coreutils/man1/pathchk.1:18
@@ -159,20 +121,12 @@ msgid "B<--portability>"
 msgstr "B<--portability>"
 
 #
-# File: raw/man1/pathchk.1, line: 21
-# File: raw/man1/pathchk.1, line: 21
-# File: raw/man1/pathchk.1, line: 21
-# File: raw/man1/pathchk.1, line: 21
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:21
 msgid "check for all POSIX systems (equivalent to B<-p> B<-P>)"
 msgstr "针对所有 POSIX 系统进行检查（等价于 B<-p> B<-P>）"
 
 #
-# File: raw/man1/pathchk.1, line: 21
-# File: raw/man1/pathchk.1, line: 21
-# File: raw/man1/pathchk.1, line: 21
-# File: raw/man1/pathchk.1, line: 21
 #. type: TP
 #: raw/coreutils/man1/pathchk.1:21
 #, no-wrap
@@ -180,20 +134,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/pathchk.1, line: 24
-# File: raw/man1/pathchk.1, line: 24
-# File: raw/man1/pathchk.1, line: 24
-# File: raw/man1/pathchk.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:24
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/pathchk.1, line: 24
-# File: raw/man1/pathchk.1, line: 24
-# File: raw/man1/pathchk.1, line: 24
-# File: raw/man1/pathchk.1, line: 24
 #. type: TP
 #: raw/coreutils/man1/pathchk.1:24
 #, no-wrap
@@ -201,27 +147,18 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/pathchk.1, line: 27
-# File: raw/man1/pathchk.1, line: 27
-# File: raw/man1/pathchk.1, line: 27
-# File: raw/man1/pathchk.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:27
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/pathchk.1, line: 27
-# File: raw/man1/pathchk.1, line: 27
-# File: raw/man1/pathchk.1, line: 27
-# File: raw/man1/pathchk.1, line: 27
 #. type: SH
 #: raw/coreutils/man1/pathchk.1:27
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-# File: raw/man1/pathchk.1, line: 29
 #
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:29
@@ -229,17 +166,12 @@ msgid "Written by Paul Eggert, David MacKenzie, and Jim Meyering."
 msgstr "由 Paul Eggert、David MacKenzie 和 Jim Meyering 编写。"
 
 #
-# File: raw/man1/pathchk.1, line: 29
-# File: raw/man1/pathchk.1, line: 29
-# File: raw/man1/pathchk.1, line: 29
-# File: raw/man1/pathchk.1, line: 29
 #. type: SH
 #: raw/coreutils/man1/pathchk.1:29
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-# File: raw/man1/pathchk.1, line: 31
 #
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:31
@@ -248,7 +180,6 @@ msgid ""
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-# File: raw/man1/pathchk.1, line: 33
 #
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:33
@@ -260,20 +191,12 @@ msgstr ""
 "翻译错误。"
 
 #
-# File: raw/man1/pathchk.1, line: 33
-# File: raw/man1/pathchk.1, line: 33
-# File: raw/man1/pathchk.1, line: 33
-# File: raw/man1/pathchk.1, line: 33
 #. type: SH
 #: raw/coreutils/man1/pathchk.1:33
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/pathchk.1, line: 36
-# File: raw/man1/pathchk.1, line: 36
-# File: raw/man1/pathchk.1, line: 36
-# File: raw/man1/pathchk.1, line: 36
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:36
 #, fuzzy
@@ -288,10 +211,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/pathchk.1, line: 39
-# File: raw/man1/pathchk.1, line: 39
-# File: raw/man1/pathchk.1, line: 39
-# File: raw/man1/pathchk.1, line: 39
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:39
 msgid ""
@@ -302,17 +221,12 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/pathchk.1, line: 39
-# File: raw/man1/pathchk.1, line: 39
-# File: raw/man1/pathchk.1, line: 39
-# File: raw/man1/pathchk.1, line: 39
 #. type: SH
 #: raw/coreutils/man1/pathchk.1:39
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/pathchk.1, line: 41
 #
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:41
@@ -321,7 +235,6 @@ msgid ""
 "pathchkE<gt>"
 msgstr "完整文档请见：E<lt>http://www.gnu.org/software/coreutils/pathchkE<gt>"
 
-# File: raw/man1/pathchk.1, line: 42
 #
 #. type: Plain text
 #: raw/coreutils/man1/pathchk.1:42

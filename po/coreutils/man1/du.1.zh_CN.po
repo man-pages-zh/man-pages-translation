@@ -68,30 +68,18 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/du.1, line: 8
-# File: raw/man1/du.1, line: 8
-# File: raw/man1/du.1, line: 8
-# File: raw/man1/du.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/du.1:8
 msgid "B<du> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<du> [I<\\,选项\\/>]... [I<\\,文件\\/>]..."
 
 #
-# File: raw/man1/du.1, line: 11
-# File: raw/man1/du.1, line: 11
-# File: raw/man1/du.1, line: 11
-# File: raw/man1/du.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/du.1:11
 msgid "B<du> [I<\\,OPTION\\/>]... I<\\,--files0-from=F\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 11
-# File: raw/man1/du.1, line: 11
-# File: raw/man1/du.1, line: 11
-# File: raw/man1/du.1, line: 11
 #. type: SH
 #: raw/coreutils/man1/du.1:11
 #, no-wrap
@@ -99,20 +87,12 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/du.1, line: 15
-# File: raw/man1/du.1, line: 15
-# File: raw/man1/du.1, line: 15
-# File: raw/man1/du.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/du.1:15
 msgid "Summarize disk usage of the set of FILEs, recursively for directories."
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 17
-# File: raw/man1/du.1, line: 17
-# File: raw/man1/du.1, line: 17
-# File: raw/man1/du.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/du.1:17
 msgid ""
@@ -120,10 +100,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/du.1, line: 17
-# File: raw/man1/du.1, line: 17
-# File: raw/man1/du.1, line: 17
-# File: raw/man1/du.1, line: 17
 #. type: TP
 #: raw/coreutils/man1/du.1:17
 #, no-wrap
@@ -131,10 +107,6 @@ msgid "B<-0>, B<--null>"
 msgstr "B<-0>, B<--null>"
 
 #
-# File: raw/man1/du.1, line: 20
-# File: raw/man1/du.1, line: 20
-# File: raw/man1/du.1, line: 20
-# File: raw/man1/du.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/du.1:20
 msgid "end each output line with NUL, not newline"
@@ -148,20 +120,12 @@ msgid "B<-a>, B<--all>"
 msgstr "B<-a>, B<--all>"
 
 #
-# File: raw/man1/du.1, line: 23
-# File: raw/man1/du.1, line: 23
-# File: raw/man1/du.1, line: 23
-# File: raw/man1/du.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/du.1:23
 msgid "write counts for all files, not just directories"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 23
-# File: raw/man1/du.1, line: 23
-# File: raw/man1/du.1, line: 23
-# File: raw/man1/du.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/du.1:23
 #, no-wrap
@@ -169,10 +133,6 @@ msgid "B<--apparent-size>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 29
-# File: raw/man1/du.1, line: 29
-# File: raw/man1/du.1, line: 29
-# File: raw/man1/du.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/du.1:29
 msgid ""
@@ -182,10 +142,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 29
-# File: raw/man1/du.1, line: 29
-# File: raw/man1/du.1, line: 29
-# File: raw/man1/du.1, line: 29
 #. type: TP
 #: raw/coreutils/man1/du.1:29
 #, no-wrap
@@ -193,10 +149,6 @@ msgid "B<-B>, B<--block-size>=I<\\,SIZE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 34
-# File: raw/man1/du.1, line: 34
-# File: raw/man1/du.1, line: 34
-# File: raw/man1/du.1, line: 34
 #. type: Plain text
 #: raw/coreutils/man1/du.1:34
 msgid ""
@@ -205,10 +157,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 34
-# File: raw/man1/du.1, line: 34
-# File: raw/man1/du.1, line: 34
-# File: raw/man1/du.1, line: 34
 #. type: TP
 #: raw/coreutils/man1/du.1:34
 #, no-wrap
@@ -216,20 +164,12 @@ msgid "B<-b>, B<--bytes>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 37
-# File: raw/man1/du.1, line: 37
-# File: raw/man1/du.1, line: 37
-# File: raw/man1/du.1, line: 37
 #. type: Plain text
 #: raw/coreutils/man1/du.1:37
 msgid "equivalent to '--apparent-size B<--block-size>=I<\\,1\\/>'"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 37
-# File: raw/man1/du.1, line: 37
-# File: raw/man1/du.1, line: 37
-# File: raw/man1/du.1, line: 37
 #. type: TP
 #: raw/coreutils/man1/du.1:37
 #, no-wrap
@@ -237,20 +177,12 @@ msgid "B<-c>, B<--total>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 40
-# File: raw/man1/du.1, line: 40
-# File: raw/man1/du.1, line: 40
-# File: raw/man1/du.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/du.1:40
 msgid "produce a grand total"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 40
-# File: raw/man1/du.1, line: 40
-# File: raw/man1/du.1, line: 40
-# File: raw/man1/du.1, line: 40
 #. type: TP
 #: raw/coreutils/man1/du.1:40
 #, no-wrap
@@ -258,20 +190,12 @@ msgid "B<-D>, B<--dereference-args>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 44
-# File: raw/man1/du.1, line: 44
-# File: raw/man1/du.1, line: 44
-# File: raw/man1/du.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/du.1:44
 msgid "dereference only symlinks that are listed on the command line"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 44
-# File: raw/man1/du.1, line: 44
-# File: raw/man1/du.1, line: 44
-# File: raw/man1/du.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/du.1:44
 #, no-wrap
@@ -279,10 +203,6 @@ msgid "B<-d>, B<--max-depth>=I<\\,N\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 50
-# File: raw/man1/du.1, line: 50
-# File: raw/man1/du.1, line: 50
-# File: raw/man1/du.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/du.1:50
 msgid ""
@@ -298,10 +218,6 @@ msgid "B<--files0-from>=I<\\,F\\/>"
 msgstr "B<--files0-from>=I<\\,F\\/>"
 
 #
-# File: raw/man1/du.1, line: 55
-# File: raw/man1/du.1, line: 55
-# File: raw/man1/du.1, line: 55
-# File: raw/man1/du.1, line: 55
 #. type: Plain text
 #: raw/coreutils/man1/du.1:55
 msgid ""
@@ -323,10 +239,6 @@ msgid "equivalent to B<--dereference-args> (B<-D>)"
 msgstr "和 B<--dereference-args>（B<-D>）等效"
 
 #
-# File: raw/man1/du.1, line: 58
-# File: raw/man1/du.1, line: 58
-# File: raw/man1/du.1, line: 58
-# File: raw/man1/du.1, line: 58
 #. type: TP
 #: raw/coreutils/man1/du.1:58
 #, no-wrap
@@ -334,20 +246,12 @@ msgid "B<-h>, B<--human-readable>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 61
-# File: raw/man1/du.1, line: 61
-# File: raw/man1/du.1, line: 61
-# File: raw/man1/du.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/du.1:61
 msgid "print sizes in human readable format (e.g., 1K 234M 2G)"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 61
-# File: raw/man1/du.1, line: 61
-# File: raw/man1/du.1, line: 61
-# File: raw/man1/du.1, line: 61
 #. type: TP
 #: raw/coreutils/man1/du.1:61
 #, no-wrap
@@ -355,20 +259,12 @@ msgid "B<--inodes>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 64
-# File: raw/man1/du.1, line: 64
-# File: raw/man1/du.1, line: 64
-# File: raw/man1/du.1, line: 64
 #. type: Plain text
 #: raw/coreutils/man1/du.1:64
 msgid "list inode usage information instead of block usage"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 64
-# File: raw/man1/du.1, line: 64
-# File: raw/man1/du.1, line: 64
-# File: raw/man1/du.1, line: 64
 #. type: TP
 #: raw/coreutils/man1/du.1:64
 #, no-wrap
@@ -376,20 +272,12 @@ msgid "B<-k>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 67
-# File: raw/man1/du.1, line: 67
-# File: raw/man1/du.1, line: 67
-# File: raw/man1/du.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/du.1:67
 msgid "like B<--block-size>=I<\\,1K\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 67
-# File: raw/man1/du.1, line: 67
-# File: raw/man1/du.1, line: 67
-# File: raw/man1/du.1, line: 67
 #. type: TP
 #: raw/coreutils/man1/du.1:67
 #, no-wrap
@@ -397,20 +285,12 @@ msgid "B<-L>, B<--dereference>"
 msgstr "B<-L>, B<--dereference>"
 
 #
-# File: raw/man1/du.1, line: 70
-# File: raw/man1/du.1, line: 70
-# File: raw/man1/du.1, line: 70
-# File: raw/man1/du.1, line: 70
 #. type: Plain text
 #: raw/coreutils/man1/du.1:70
 msgid "dereference all symbolic links"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 70
-# File: raw/man1/du.1, line: 70
-# File: raw/man1/du.1, line: 70
-# File: raw/man1/du.1, line: 70
 #. type: TP
 #: raw/coreutils/man1/du.1:70
 #, no-wrap
@@ -418,20 +298,12 @@ msgid "B<-l>, B<--count-links>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 73
-# File: raw/man1/du.1, line: 73
-# File: raw/man1/du.1, line: 73
-# File: raw/man1/du.1, line: 73
 #. type: Plain text
 #: raw/coreutils/man1/du.1:73
 msgid "count sizes many times if hard linked"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 73
-# File: raw/man1/du.1, line: 73
-# File: raw/man1/du.1, line: 73
-# File: raw/man1/du.1, line: 73
 #. type: TP
 #: raw/coreutils/man1/du.1:73
 #, no-wrap
@@ -439,20 +311,12 @@ msgid "B<-m>"
 msgstr "B<-m>"
 
 #
-# File: raw/man1/du.1, line: 76
-# File: raw/man1/du.1, line: 76
-# File: raw/man1/du.1, line: 76
-# File: raw/man1/du.1, line: 76
 #. type: Plain text
 #: raw/coreutils/man1/du.1:76
 msgid "like B<--block-size>=I<\\,1M\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 76
-# File: raw/man1/du.1, line: 76
-# File: raw/man1/du.1, line: 76
-# File: raw/man1/du.1, line: 76
 #. type: TP
 #: raw/coreutils/man1/du.1:76
 #, no-wrap
@@ -460,20 +324,12 @@ msgid "B<-P>, B<--no-dereference>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 79
-# File: raw/man1/du.1, line: 79
-# File: raw/man1/du.1, line: 79
-# File: raw/man1/du.1, line: 79
 #. type: Plain text
 #: raw/coreutils/man1/du.1:79
 msgid "don't follow any symbolic links (this is the default)"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 79
-# File: raw/man1/du.1, line: 79
-# File: raw/man1/du.1, line: 79
-# File: raw/man1/du.1, line: 79
 #. type: TP
 #: raw/coreutils/man1/du.1:79
 #, no-wrap
@@ -481,20 +337,12 @@ msgid "B<-S>, B<--separate-dirs>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 82
-# File: raw/man1/du.1, line: 82
-# File: raw/man1/du.1, line: 82
-# File: raw/man1/du.1, line: 82
 #. type: Plain text
 #: raw/coreutils/man1/du.1:82
 msgid "for directories do not include size of subdirectories"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 82
-# File: raw/man1/du.1, line: 82
-# File: raw/man1/du.1, line: 82
-# File: raw/man1/du.1, line: 82
 #. type: TP
 #: raw/coreutils/man1/du.1:82
 #, no-wrap
@@ -502,20 +350,12 @@ msgid "B<--si>"
 msgstr "B<--si>"
 
 #
-# File: raw/man1/du.1, line: 85
-# File: raw/man1/du.1, line: 85
-# File: raw/man1/du.1, line: 85
-# File: raw/man1/du.1, line: 85
 #. type: Plain text
 #: raw/coreutils/man1/du.1:85
 msgid "like B<-h>, but use powers of 1000 not 1024"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 85
-# File: raw/man1/du.1, line: 85
-# File: raw/man1/du.1, line: 85
-# File: raw/man1/du.1, line: 85
 #. type: TP
 #: raw/coreutils/man1/du.1:85
 #, no-wrap
@@ -523,20 +363,12 @@ msgid "B<-s>, B<--summarize>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 88
-# File: raw/man1/du.1, line: 88
-# File: raw/man1/du.1, line: 88
-# File: raw/man1/du.1, line: 88
 #. type: Plain text
 #: raw/coreutils/man1/du.1:88
 msgid "display only a total for each argument"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 88
-# File: raw/man1/du.1, line: 88
-# File: raw/man1/du.1, line: 88
-# File: raw/man1/du.1, line: 88
 #. type: TP
 #: raw/coreutils/man1/du.1:88
 #, no-wrap
@@ -544,10 +376,6 @@ msgid "B<-t>, B<--threshold>=I<\\,SIZE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 92
-# File: raw/man1/du.1, line: 92
-# File: raw/man1/du.1, line: 92
-# File: raw/man1/du.1, line: 92
 #. type: Plain text
 #: raw/coreutils/man1/du.1:92
 msgid ""
@@ -556,10 +384,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 92
-# File: raw/man1/du.1, line: 92
-# File: raw/man1/du.1, line: 92
-# File: raw/man1/du.1, line: 92
 #. type: TP
 #: raw/coreutils/man1/du.1:92
 #, no-wrap
@@ -567,10 +391,6 @@ msgid "B<--time>"
 msgstr "B<--time>"
 
 #
-# File: raw/man1/du.1, line: 96
-# File: raw/man1/du.1, line: 96
-# File: raw/man1/du.1, line: 96
-# File: raw/man1/du.1, line: 96
 #. type: Plain text
 #: raw/coreutils/man1/du.1:96
 msgid ""
@@ -586,10 +406,6 @@ msgid "B<--time>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
 #
-# File: raw/man1/du.1, line: 100
-# File: raw/man1/du.1, line: 100
-# File: raw/man1/du.1, line: 100
-# File: raw/man1/du.1, line: 100
 #. type: Plain text
 #: raw/coreutils/man1/du.1:100
 msgid ""
@@ -598,10 +414,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 100
-# File: raw/man1/du.1, line: 100
-# File: raw/man1/du.1, line: 100
-# File: raw/man1/du.1, line: 100
 #. type: TP
 #: raw/coreutils/man1/du.1:100
 #, no-wrap
@@ -609,10 +421,6 @@ msgid "B<--time-style>=I<\\,STYLE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 105
-# File: raw/man1/du.1, line: 105
-# File: raw/man1/du.1, line: 105
-# File: raw/man1/du.1, line: 105
 #. type: Plain text
 #: raw/coreutils/man1/du.1:105
 msgid ""
@@ -621,10 +429,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 105
-# File: raw/man1/du.1, line: 105
-# File: raw/man1/du.1, line: 105
-# File: raw/man1/du.1, line: 105
 #. type: TP
 #: raw/coreutils/man1/du.1:105
 #, no-wrap
@@ -632,20 +436,12 @@ msgid "B<-X>, B<--exclude-from>=I<\\,FILE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 108
-# File: raw/man1/du.1, line: 108
-# File: raw/man1/du.1, line: 108
-# File: raw/man1/du.1, line: 108
 #. type: Plain text
 #: raw/coreutils/man1/du.1:108
 msgid "exclude files that match any pattern in FILE"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 108
-# File: raw/man1/du.1, line: 108
-# File: raw/man1/du.1, line: 108
-# File: raw/man1/du.1, line: 108
 #. type: TP
 #: raw/coreutils/man1/du.1:108
 #, no-wrap
@@ -653,20 +449,12 @@ msgid "B<--exclude>=I<\\,PATTERN\\/>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 111
-# File: raw/man1/du.1, line: 111
-# File: raw/man1/du.1, line: 111
-# File: raw/man1/du.1, line: 111
 #. type: Plain text
 #: raw/coreutils/man1/du.1:111
 msgid "exclude files that match PATTERN"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 111
-# File: raw/man1/du.1, line: 111
-# File: raw/man1/du.1, line: 111
-# File: raw/man1/du.1, line: 111
 #. type: TP
 #: raw/coreutils/man1/du.1:111
 #, no-wrap
@@ -674,20 +462,12 @@ msgid "B<-x>, B<--one-file-system>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 114
-# File: raw/man1/du.1, line: 114
-# File: raw/man1/du.1, line: 114
-# File: raw/man1/du.1, line: 114
 #. type: Plain text
 #: raw/coreutils/man1/du.1:114
 msgid "skip directories on different file systems"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 114
-# File: raw/man1/du.1, line: 114
-# File: raw/man1/du.1, line: 114
-# File: raw/man1/du.1, line: 114
 #. type: TP
 #: raw/coreutils/man1/du.1:114
 #, no-wrap
@@ -695,20 +475,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/du.1, line: 117
-# File: raw/man1/du.1, line: 117
-# File: raw/man1/du.1, line: 117
-# File: raw/man1/du.1, line: 117
 #. type: Plain text
 #: raw/coreutils/man1/du.1:117
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/du.1, line: 117
-# File: raw/man1/du.1, line: 117
-# File: raw/man1/du.1, line: 117
-# File: raw/man1/du.1, line: 117
 #. type: TP
 #: raw/coreutils/man1/du.1:117
 #, no-wrap
@@ -716,20 +488,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/du.1, line: 120
-# File: raw/man1/du.1, line: 120
-# File: raw/man1/du.1, line: 120
-# File: raw/man1/du.1, line: 120
 #. type: Plain text
 #: raw/coreutils/man1/du.1:120
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/du.1, line: 124
-# File: raw/man1/du.1, line: 124
-# File: raw/man1/du.1, line: 124
-# File: raw/man1/du.1, line: 124
 #. type: Plain text
 #: raw/coreutils/man1/du.1:124
 msgid ""
@@ -740,10 +504,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 127
-# File: raw/man1/du.1, line: 127
-# File: raw/man1/du.1, line: 127
-# File: raw/man1/du.1, line: 127
 #. type: Plain text
 #: raw/coreutils/man1/du.1:127
 msgid ""
@@ -753,10 +513,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 127
-# File: raw/man1/du.1, line: 127
-# File: raw/man1/du.1, line: 127
-# File: raw/man1/du.1, line: 127
 #. type: SH
 #: raw/coreutils/man1/du.1:127
 #, no-wrap
@@ -764,10 +520,6 @@ msgid "PATTERNS"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 138
-# File: raw/man1/du.1, line: 138
-# File: raw/man1/du.1, line: 138
-# File: raw/man1/du.1, line: 138
 #. type: Plain text
 #: raw/coreutils/man1/du.1:138
 msgid ""
@@ -778,20 +530,12 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 140
-# File: raw/man1/du.1, line: 140
-# File: raw/man1/du.1, line: 140
-# File: raw/man1/du.1, line: 140
 #. type: Plain text
 #: raw/coreutils/man1/du.1:140
 msgid "B<du --exclude=\\(aq*.o\\(aq>"
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 146
-# File: raw/man1/du.1, line: 146
-# File: raw/man1/du.1, line: 146
-# File: raw/man1/du.1, line: 146
 #. type: Plain text
 #: raw/coreutils/man1/du.1:146
 msgid ""
@@ -800,10 +544,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/du.1, line: 146
-# File: raw/man1/du.1, line: 146
-# File: raw/man1/du.1, line: 146
-# File: raw/man1/du.1, line: 146
 #. type: SH
 #: raw/coreutils/man1/du.1:146
 #, no-wrap
@@ -811,10 +551,6 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/du.1, line: 149
-# File: raw/man1/du.1, line: 149
-# File: raw/man1/du.1, line: 149
-# File: raw/man1/du.1, line: 149
 #. type: Plain text
 #: raw/coreutils/man1/du.1:149
 msgid ""
@@ -822,10 +558,6 @@ msgid ""
 msgstr "由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。"
 
 #
-# File: raw/man1/du.1, line: 149
-# File: raw/man1/du.1, line: 149
-# File: raw/man1/du.1, line: 149
-# File: raw/man1/du.1, line: 149
 #. type: SH
 #: raw/coreutils/man1/du.1:149
 #, no-wrap
@@ -840,10 +572,6 @@ msgid ""
 msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/du.1, line: 153
-# File: raw/man1/du.1, line: 153
-# File: raw/man1/du.1, line: 153
-# File: raw/man1/du.1, line: 153
 #. type: Plain text
 #: raw/coreutils/man1/du.1:153
 msgid ""

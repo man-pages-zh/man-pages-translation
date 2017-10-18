@@ -43,10 +43,6 @@ msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.28"
 
 #
-# File: raw/man1/printf.1, line: 2
-# File: raw/man1/printf.1, line: 2
-# File: raw/man1/printf.1, line: 2
-# File: raw/man1/printf.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/printf.1:2
 #, no-wrap
@@ -61,20 +57,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/printf.1, line: 5
-# File: raw/man1/printf.1, line: 5
-# File: raw/man1/printf.1, line: 5
-# File: raw/man1/printf.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:5
 msgid "printf - format and print data"
 msgstr "printf - 格式化并显示数据"
 
 #
-# File: raw/man1/printf.1, line: 5
-# File: raw/man1/printf.1, line: 5
-# File: raw/man1/printf.1, line: 5
-# File: raw/man1/printf.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/printf.1:5
 #, no-wrap
@@ -82,30 +70,18 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/printf.1, line: 8
-# File: raw/man1/printf.1, line: 8
-# File: raw/man1/printf.1, line: 8
-# File: raw/man1/printf.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:8
 msgid "B<printf> I<\\,FORMAT \\/>[I<\\,ARGUMENT\\/>]..."
 msgstr "B<printf> I<\\,格式\\/>[I<\\,参数列表\\/>]..."
 
 #
-# File: raw/man1/printf.1, line: 11
-# File: raw/man1/printf.1, line: 11
-# File: raw/man1/printf.1, line: 11
-# File: raw/man1/printf.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:11
 msgid "B<printf> I<\\,OPTION\\/>"
 msgstr "B<printf> I<\\,选项\\/>"
 
 #
-# File: raw/man1/printf.1, line: 11
-# File: raw/man1/printf.1, line: 11
-# File: raw/man1/printf.1, line: 11
-# File: raw/man1/printf.1, line: 11
 #. type: SH
 #: raw/coreutils/man1/printf.1:11
 #, no-wrap
@@ -113,20 +89,12 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/printf.1, line: 15
-# File: raw/man1/printf.1, line: 15
-# File: raw/man1/printf.1, line: 15
-# File: raw/man1/printf.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:15
 msgid "Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:"
 msgstr "按照指定格式打印参数列表中的参数或按照选项执行："
 
 #
-# File: raw/man1/printf.1, line: 15
-# File: raw/man1/printf.1, line: 15
-# File: raw/man1/printf.1, line: 15
-# File: raw/man1/printf.1, line: 15
 #. type: TP
 #: raw/coreutils/man1/printf.1:15
 #, no-wrap
@@ -134,20 +102,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/printf.1, line: 18
-# File: raw/man1/printf.1, line: 18
-# File: raw/man1/printf.1, line: 18
-# File: raw/man1/printf.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:18
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/printf.1, line: 18
-# File: raw/man1/printf.1, line: 18
-# File: raw/man1/printf.1, line: 18
-# File: raw/man1/printf.1, line: 18
 #. type: TP
 #: raw/coreutils/man1/printf.1:18
 #, no-wrap
@@ -155,30 +115,18 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/printf.1, line: 21
-# File: raw/man1/printf.1, line: 21
-# File: raw/man1/printf.1, line: 21
-# File: raw/man1/printf.1, line: 21
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:21
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/printf.1, line: 23
-# File: raw/man1/printf.1, line: 23
-# File: raw/man1/printf.1, line: 23
-# File: raw/man1/printf.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:23
 msgid "FORMAT controls the output as in C printf.  Interpreted sequences are:"
 msgstr "I<格式>以 C printf 的方式控制输出。转义序列如下："
 
 #
-# File: raw/man1/printf.1, line: 23
-# File: raw/man1/printf.1, line: 23
-# File: raw/man1/printf.1, line: 23
-# File: raw/man1/printf.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/printf.1:23
 #, no-wrap
@@ -186,20 +134,12 @@ msgid "\\e\""
 msgstr "\\e\""
 
 #
-# File: raw/man1/printf.1, line: 26
-# File: raw/man1/printf.1, line: 26
-# File: raw/man1/printf.1, line: 26
-# File: raw/man1/printf.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:26
 msgid "double quote"
 msgstr "双引号"
 
 #
-# File: raw/man1/printf.1, line: 26
-# File: raw/man1/printf.1, line: 26
-# File: raw/man1/printf.1, line: 26
-# File: raw/man1/printf.1, line: 26
 #. type: TP
 #: raw/coreutils/man1/printf.1:26
 #, no-wrap
@@ -207,20 +147,12 @@ msgid "\\e\\e"
 msgstr "\\e\\e"
 
 #
-# File: raw/man1/printf.1, line: 29
-# File: raw/man1/printf.1, line: 29
-# File: raw/man1/printf.1, line: 29
-# File: raw/man1/printf.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:29
 msgid "backslash"
 msgstr "反斜线"
 
 #
-# File: raw/man1/printf.1, line: 29
-# File: raw/man1/printf.1, line: 29
-# File: raw/man1/printf.1, line: 29
-# File: raw/man1/printf.1, line: 29
 #. type: TP
 #: raw/coreutils/man1/printf.1:29
 #, no-wrap
@@ -228,20 +160,12 @@ msgid "\\ea"
 msgstr "\\ea"
 
 #
-# File: raw/man1/printf.1, line: 32
-# File: raw/man1/printf.1, line: 32
-# File: raw/man1/printf.1, line: 32
-# File: raw/man1/printf.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:32
 msgid "alert (BEL)"
 msgstr "报警符(BEL)"
 
 #
-# File: raw/man1/printf.1, line: 32
-# File: raw/man1/printf.1, line: 32
-# File: raw/man1/printf.1, line: 32
-# File: raw/man1/printf.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/printf.1:32
 #, no-wrap
@@ -249,20 +173,12 @@ msgid "\\eb"
 msgstr "\\eb"
 
 #
-# File: raw/man1/printf.1, line: 35
-# File: raw/man1/printf.1, line: 35
-# File: raw/man1/printf.1, line: 35
-# File: raw/man1/printf.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:35
 msgid "backspace"
 msgstr "退格符"
 
 #
-# File: raw/man1/printf.1, line: 35
-# File: raw/man1/printf.1, line: 35
-# File: raw/man1/printf.1, line: 35
-# File: raw/man1/printf.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/printf.1:35
 #, no-wrap
@@ -270,20 +186,12 @@ msgid "\\ec"
 msgstr "\\ec"
 
 #
-# File: raw/man1/printf.1, line: 38
-# File: raw/man1/printf.1, line: 38
-# File: raw/man1/printf.1, line: 38
-# File: raw/man1/printf.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:38
 msgid "produce no further output"
 msgstr "禁止尾随的换行符"
 
 #
-# File: raw/man1/printf.1, line: 38
-# File: raw/man1/printf.1, line: 38
-# File: raw/man1/printf.1, line: 38
-# File: raw/man1/printf.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/printf.1:38
 #, no-wrap
@@ -291,20 +199,12 @@ msgid "\\ee"
 msgstr "\\ee"
 
 #
-# File: raw/man1/printf.1, line: 41
-# File: raw/man1/printf.1, line: 41
-# File: raw/man1/printf.1, line: 41
-# File: raw/man1/printf.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:41
 msgid "escape"
 msgstr "escape 字符"
 
 #
-# File: raw/man1/printf.1, line: 41
-# File: raw/man1/printf.1, line: 41
-# File: raw/man1/printf.1, line: 41
-# File: raw/man1/printf.1, line: 41
 #. type: TP
 #: raw/coreutils/man1/printf.1:41
 #, no-wrap
@@ -312,20 +212,12 @@ msgid "\\ef"
 msgstr "\\ef"
 
 #
-# File: raw/man1/printf.1, line: 44
-# File: raw/man1/printf.1, line: 44
-# File: raw/man1/printf.1, line: 44
-# File: raw/man1/printf.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:44
 msgid "form feed"
 msgstr "换页符"
 
 #
-# File: raw/man1/printf.1, line: 44
-# File: raw/man1/printf.1, line: 44
-# File: raw/man1/printf.1, line: 44
-# File: raw/man1/printf.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/printf.1:44
 #, no-wrap
@@ -333,20 +225,12 @@ msgid "\\en"
 msgstr "\\en"
 
 #
-# File: raw/man1/printf.1, line: 47
-# File: raw/man1/printf.1, line: 47
-# File: raw/man1/printf.1, line: 47
-# File: raw/man1/printf.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:47
 msgid "new line"
 msgstr "另起一行"
 
 #
-# File: raw/man1/printf.1, line: 47
-# File: raw/man1/printf.1, line: 47
-# File: raw/man1/printf.1, line: 47
-# File: raw/man1/printf.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/printf.1:47
 #, no-wrap
@@ -354,20 +238,12 @@ msgid "\\er"
 msgstr "\\er"
 
 #
-# File: raw/man1/printf.1, line: 50
-# File: raw/man1/printf.1, line: 50
-# File: raw/man1/printf.1, line: 50
-# File: raw/man1/printf.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:50
 msgid "carriage return"
 msgstr "回到行首"
 
 #
-# File: raw/man1/printf.1, line: 50
-# File: raw/man1/printf.1, line: 50
-# File: raw/man1/printf.1, line: 50
-# File: raw/man1/printf.1, line: 50
 #. type: TP
 #: raw/coreutils/man1/printf.1:50
 #, no-wrap
@@ -375,20 +251,12 @@ msgid "\\et"
 msgstr "\\et"
 
 #
-# File: raw/man1/printf.1, line: 53
-# File: raw/man1/printf.1, line: 53
-# File: raw/man1/printf.1, line: 53
-# File: raw/man1/printf.1, line: 53
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:53
 msgid "horizontal tab"
 msgstr "水平制表符"
 
 #
-# File: raw/man1/printf.1, line: 53
-# File: raw/man1/printf.1, line: 53
-# File: raw/man1/printf.1, line: 53
-# File: raw/man1/printf.1, line: 53
 #. type: TP
 #: raw/coreutils/man1/printf.1:53
 #, no-wrap
@@ -396,20 +264,12 @@ msgid "\\ev"
 msgstr "\\ev"
 
 #
-# File: raw/man1/printf.1, line: 56
-# File: raw/man1/printf.1, line: 56
-# File: raw/man1/printf.1, line: 56
-# File: raw/man1/printf.1, line: 56
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:56
 msgid "vertical tab"
 msgstr "垂直制表符"
 
 #
-# File: raw/man1/printf.1, line: 56
-# File: raw/man1/printf.1, line: 56
-# File: raw/man1/printf.1, line: 56
-# File: raw/man1/printf.1, line: 56
 #. type: TP
 #: raw/coreutils/man1/printf.1:56
 #, no-wrap
@@ -417,20 +277,12 @@ msgid "\\eNNN"
 msgstr "\\eNNN"
 
 #
-# File: raw/man1/printf.1, line: 59
-# File: raw/man1/printf.1, line: 59
-# File: raw/man1/printf.1, line: 59
-# File: raw/man1/printf.1, line: 59
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:59
 msgid "byte with octal value NNN (1 to 3 digits)"
 msgstr "字节数以八进制数 NNN (1至3位)表示"
 
 #
-# File: raw/man1/printf.1, line: 59
-# File: raw/man1/printf.1, line: 59
-# File: raw/man1/printf.1, line: 59
-# File: raw/man1/printf.1, line: 59
 #. type: TP
 #: raw/coreutils/man1/printf.1:59
 #, no-wrap
@@ -438,20 +290,12 @@ msgid "\\exHH"
 msgstr "\\exHH"
 
 #
-# File: raw/man1/printf.1, line: 62
-# File: raw/man1/printf.1, line: 62
-# File: raw/man1/printf.1, line: 62
-# File: raw/man1/printf.1, line: 62
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:62
 msgid "byte with hexadecimal value HH (1 to 2 digits)"
 msgstr "字节数以十六进制数 HH (1至2位)表示"
 
 #
-# File: raw/man1/printf.1, line: 62
-# File: raw/man1/printf.1, line: 62
-# File: raw/man1/printf.1, line: 62
-# File: raw/man1/printf.1, line: 62
 #. type: TP
 #: raw/coreutils/man1/printf.1:62
 #, no-wrap
@@ -459,20 +303,12 @@ msgid "\\euHHHH"
 msgstr "\\euHHHH"
 
 #
-# File: raw/man1/printf.1, line: 65
-# File: raw/man1/printf.1, line: 65
-# File: raw/man1/printf.1, line: 65
-# File: raw/man1/printf.1, line: 65
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:65
 msgid "Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)"
 msgstr "Unicode (ISO/IEC 10646) 字符，是 16进制值 HHHH（4位）"
 
 #
-# File: raw/man1/printf.1, line: 65
-# File: raw/man1/printf.1, line: 65
-# File: raw/man1/printf.1, line: 65
-# File: raw/man1/printf.1, line: 65
 #. type: TP
 #: raw/coreutils/man1/printf.1:65
 #, no-wrap
@@ -480,20 +316,12 @@ msgid "\\eUHHHHHHHH"
 msgstr "\\eUHHHHHHHH"
 
 #
-# File: raw/man1/printf.1, line: 68
-# File: raw/man1/printf.1, line: 68
-# File: raw/man1/printf.1, line: 68
-# File: raw/man1/printf.1, line: 68
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:68
 msgid "Unicode character with hex value HHHHHHHH (8 digits)"
 msgstr "Unicode 字符，是 16进制值 HHHHHHHH（8位）"
 
 #
-# File: raw/man1/printf.1, line: 68
-# File: raw/man1/printf.1, line: 68
-# File: raw/man1/printf.1, line: 68
-# File: raw/man1/printf.1, line: 68
 #. type: TP
 #: raw/coreutils/man1/printf.1:68
 #, no-wrap
@@ -501,20 +329,12 @@ msgid "%%"
 msgstr "%%"
 
 #
-# File: raw/man1/printf.1, line: 71
-# File: raw/man1/printf.1, line: 71
-# File: raw/man1/printf.1, line: 71
-# File: raw/man1/printf.1, line: 71
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:71
 msgid "a single %"
 msgstr "单个 %"
 
 #
-# File: raw/man1/printf.1, line: 71
-# File: raw/man1/printf.1, line: 71
-# File: raw/man1/printf.1, line: 71
-# File: raw/man1/printf.1, line: 71
 #. type: TP
 #: raw/coreutils/man1/printf.1:71
 #, no-wrap
@@ -522,10 +342,6 @@ msgid "%b"
 msgstr "%b"
 
 #
-# File: raw/man1/printf.1, line: 75
-# File: raw/man1/printf.1, line: 75
-# File: raw/man1/printf.1, line: 75
-# File: raw/man1/printf.1, line: 75
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:75
 msgid ""
@@ -536,10 +352,6 @@ msgstr ""
 "\\e0NNN"
 
 #
-# File: raw/man1/printf.1, line: 75
-# File: raw/man1/printf.1, line: 75
-# File: raw/man1/printf.1, line: 75
-# File: raw/man1/printf.1, line: 75
 #. type: TP
 #: raw/coreutils/man1/printf.1:75
 #, no-wrap
@@ -547,10 +359,6 @@ msgid "%q"
 msgstr "%q"
 
 #
-# File: raw/man1/printf.1, line: 79
-# File: raw/man1/printf.1, line: 79
-# File: raw/man1/printf.1, line: 79
-# File: raw/man1/printf.1, line: 79
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:79
 msgid ""
@@ -560,7 +368,6 @@ msgstr ""
 "参数列表以一种可被 shell 输出重新读取的格式进行输出，并使用 POSIX 建议的  "
 "$'' 语法对不可打印字符进行转义。"
 
-# File: raw/man1/printf.1, line: 82
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:82
 msgid ""
@@ -571,10 +378,6 @@ msgstr ""
 "表”将被首先转换为适当的格式。变量宽度声明也会被处理。"
 
 #
-# File: raw/man1/printf.1, line: 86
-# File: raw/man1/printf.1, line: 86
-# File: raw/man1/printf.1, line: 86
-# File: raw/man1/printf.1, line: 86
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:86
 msgid ""
@@ -586,10 +389,6 @@ msgstr ""
 "应版本。请查阅您的 shell 文档获知它所支持的选项。"
 
 #
-# File: raw/man1/printf.1, line: 86
-# File: raw/man1/printf.1, line: 86
-# File: raw/man1/printf.1, line: 86
-# File: raw/man1/printf.1, line: 86
 #. type: SH
 #: raw/coreutils/man1/printf.1:86
 #, no-wrap
@@ -597,20 +396,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/printf.1, line: 88
-# File: raw/man1/printf.1, line: 88
-# File: raw/man1/printf.1, line: 88
-# File: raw/man1/printf.1, line: 88
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:88
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/printf.1, line: 88
-# File: raw/man1/printf.1, line: 88
-# File: raw/man1/printf.1, line: 88
-# File: raw/man1/printf.1, line: 88
 #. type: SH
 #: raw/coreutils/man1/printf.1:88
 #, no-wrap
@@ -618,10 +409,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/printf.1, line: 90
-# File: raw/man1/printf.1, line: 90
-# File: raw/man1/printf.1, line: 90
-# File: raw/man1/printf.1, line: 90
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:90
 msgid ""
@@ -629,10 +416,6 @@ msgid ""
 msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/printf.1, line: 92
-# File: raw/man1/printf.1, line: 92
-# File: raw/man1/printf.1, line: 92
-# File: raw/man1/printf.1, line: 92
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:92
 msgid ""
@@ -643,10 +426,6 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/printf.1, line: 92
-# File: raw/man1/printf.1, line: 92
-# File: raw/man1/printf.1, line: 92
-# File: raw/man1/printf.1, line: 92
 #. type: SH
 #: raw/coreutils/man1/printf.1:92
 #, no-wrap
@@ -676,10 +455,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/printf.1, line: 98
-# File: raw/man1/printf.1, line: 98
-# File: raw/man1/printf.1, line: 98
-# File: raw/man1/printf.1, line: 98
 #. type: SH
 #: raw/coreutils/man1/printf.1:98
 #, no-wrap

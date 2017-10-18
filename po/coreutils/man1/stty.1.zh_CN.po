@@ -21,16 +21,12 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/stty.1, line: 2
-# File: raw/man1/stty.1, line: 2
-# File: raw/man1/stty.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/stty.1:2
 #, no-wrap
 msgid "STTY"
 msgstr "STTY"
 
-# File: raw/man1/stty.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/stty.1:2
 #, fuzzy, no-wrap
@@ -38,7 +34,6 @@ msgstr "STTY"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/stty.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/stty.1:2
 #, fuzzy, no-wrap
@@ -47,9 +42,6 @@ msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/stty.1, line: 2
-# File: raw/man1/stty.1, line: 2
-# File: raw/man1/stty.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/stty.1:2
 #, no-wrap
@@ -57,16 +49,12 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/stty.1, line: 3
-# File: raw/man1/stty.1, line: 3
-# File: raw/man1/stty.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/stty.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-# File: raw/man1/stty.1, line: 5
 #
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:5
@@ -74,9 +62,6 @@ msgid "stty - change and print terminal line settings"
 msgstr "stty - 更改并输出终端行设置"
 
 #
-# File: raw/man1/stty.1, line: 5
-# File: raw/man1/stty.1, line: 5
-# File: raw/man1/stty.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/stty.1:5
 #, no-wrap
@@ -84,36 +69,24 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/stty.1, line: 8
-# File: raw/man1/stty.1, line: 8
-# File: raw/man1/stty.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:8
 msgid "B<stty> [I<\\,-F DEVICE | --file=DEVICE\\/>] [I<\\,SETTING\\/>]..."
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 11
-# File: raw/man1/stty.1, line: 11
-# File: raw/man1/stty.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:11
 msgid "B<stty> [I<\\,-F DEVICE | --file=DEVICE\\/>] [I<\\,-a|--all\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 14
-# File: raw/man1/stty.1, line: 14
-# File: raw/man1/stty.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:14
 msgid "B<stty> [I<\\,-F DEVICE | --file=DEVICE\\/>] [I<\\,-g|--save\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 14
-# File: raw/man1/stty.1, line: 14
-# File: raw/man1/stty.1, line: 14
 #. type: SH
 #: raw/coreutils/man1/stty.1:14
 #, no-wrap
@@ -121,18 +94,12 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/stty.1, line: 18
-# File: raw/man1/stty.1, line: 18
-# File: raw/man1/stty.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:18
 msgid "Print or change terminal characteristics."
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 20
-# File: raw/man1/stty.1, line: 20
-# File: raw/man1/stty.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:20
 msgid ""
@@ -140,9 +107,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/stty.1, line: 20
-# File: raw/man1/stty.1, line: 20
-# File: raw/man1/stty.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/stty.1:20
 #, no-wrap
@@ -150,18 +114,12 @@ msgid "B<-a>, B<--all>"
 msgstr "B<-a>, B<--all>"
 
 #
-# File: raw/man1/stty.1, line: 23
-# File: raw/man1/stty.1, line: 23
-# File: raw/man1/stty.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:23
 msgid "print all current settings in human-readable form"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 23
-# File: raw/man1/stty.1, line: 23
-# File: raw/man1/stty.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/stty.1:23
 #, no-wrap
@@ -169,18 +127,12 @@ msgid "B<-g>, B<--save>"
 msgstr "B<-g>, B<--save>"
 
 #
-# File: raw/man1/stty.1, line: 26
-# File: raw/man1/stty.1, line: 26
-# File: raw/man1/stty.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:26
 msgid "print all current settings in a stty-readable form"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 26
-# File: raw/man1/stty.1, line: 26
-# File: raw/man1/stty.1, line: 26
 #. type: TP
 #: raw/coreutils/man1/stty.1:26
 #, no-wrap
@@ -188,18 +140,12 @@ msgid "B<-F>, B<--file>=I<\\,DEVICE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 29
-# File: raw/man1/stty.1, line: 29
-# File: raw/man1/stty.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:29
 msgid "open and use the specified DEVICE instead of stdin"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 29
-# File: raw/man1/stty.1, line: 29
-# File: raw/man1/stty.1, line: 29
 #. type: TP
 #: raw/coreutils/man1/stty.1:29
 #, no-wrap
@@ -207,18 +153,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/stty.1, line: 32
-# File: raw/man1/stty.1, line: 32
-# File: raw/man1/stty.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:32
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/stty.1, line: 32
-# File: raw/man1/stty.1, line: 32
-# File: raw/man1/stty.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/stty.1:32
 #, no-wrap
@@ -226,18 +166,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/stty.1, line: 35
-# File: raw/man1/stty.1, line: 35
-# File: raw/man1/stty.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:35
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/stty.1, line: 38
-# File: raw/man1/stty.1, line: 38
-# File: raw/man1/stty.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:38
 msgid ""
@@ -245,7 +179,6 @@ msgid ""
 "settings.  The underlying system defines which settings are available."
 msgstr ""
 
-# File: raw/man1/stty.1, line: 38
 #
 #. type: SS
 #: raw/coreutils/man1/stty.1:38
@@ -254,9 +187,6 @@ msgid "Special characters:"
 msgstr "特殊字符："
 
 #
-# File: raw/man1/stty.1, line: 39
-# File: raw/man1/stty.1, line: 39
-# File: raw/man1/stty.1, line: 39
 #. type: TP
 #: raw/coreutils/man1/stty.1:39
 #, no-wrap
@@ -264,18 +194,12 @@ msgid "* discard CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 42
-# File: raw/man1/stty.1, line: 42
-# File: raw/man1/stty.1, line: 42
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:42
 msgid "CHAR will toggle discarding of output"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 42
-# File: raw/man1/stty.1, line: 42
-# File: raw/man1/stty.1, line: 42
 #. type: TP
 #: raw/coreutils/man1/stty.1:42
 #, no-wrap
@@ -283,18 +207,12 @@ msgid "eof CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 45
-# File: raw/man1/stty.1, line: 45
-# File: raw/man1/stty.1, line: 45
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:45
 msgid "CHAR will send an end of file (terminate the input)"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 45
-# File: raw/man1/stty.1, line: 45
-# File: raw/man1/stty.1, line: 45
 #. type: TP
 #: raw/coreutils/man1/stty.1:45
 #, no-wrap
@@ -302,18 +220,12 @@ msgid "eol CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 48
-# File: raw/man1/stty.1, line: 48
-# File: raw/man1/stty.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:48
 msgid "CHAR will end the line"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 48
-# File: raw/man1/stty.1, line: 48
-# File: raw/man1/stty.1, line: 48
 #. type: TP
 #: raw/coreutils/man1/stty.1:48
 #, no-wrap
@@ -321,18 +233,12 @@ msgid "* eol2 CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 51
-# File: raw/man1/stty.1, line: 51
-# File: raw/man1/stty.1, line: 51
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:51
 msgid "alternate CHAR for ending the line"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 51
-# File: raw/man1/stty.1, line: 51
-# File: raw/man1/stty.1, line: 51
 #. type: TP
 #: raw/coreutils/man1/stty.1:51
 #, no-wrap
@@ -340,18 +246,12 @@ msgid "erase CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 54
-# File: raw/man1/stty.1, line: 54
-# File: raw/man1/stty.1, line: 54
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:54
 msgid "CHAR will erase the last character typed"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 54
-# File: raw/man1/stty.1, line: 54
-# File: raw/man1/stty.1, line: 54
 #. type: TP
 #: raw/coreutils/man1/stty.1:54
 #, no-wrap
@@ -359,18 +259,12 @@ msgid "intr CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 57
-# File: raw/man1/stty.1, line: 57
-# File: raw/man1/stty.1, line: 57
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:57
 msgid "CHAR will send an interrupt signal"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 57
-# File: raw/man1/stty.1, line: 57
-# File: raw/man1/stty.1, line: 57
 #. type: TP
 #: raw/coreutils/man1/stty.1:57
 #, no-wrap
@@ -378,18 +272,12 @@ msgid "kill CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 60
-# File: raw/man1/stty.1, line: 60
-# File: raw/man1/stty.1, line: 60
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:60
 msgid "CHAR will erase the current line"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 60
-# File: raw/man1/stty.1, line: 60
-# File: raw/man1/stty.1, line: 60
 #. type: TP
 #: raw/coreutils/man1/stty.1:60
 #, no-wrap
@@ -397,18 +285,12 @@ msgid "* lnext CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 63
-# File: raw/man1/stty.1, line: 63
-# File: raw/man1/stty.1, line: 63
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:63
 msgid "CHAR will enter the next character quoted"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 63
-# File: raw/man1/stty.1, line: 63
-# File: raw/man1/stty.1, line: 63
 #. type: TP
 #: raw/coreutils/man1/stty.1:63
 #, no-wrap
@@ -416,18 +298,12 @@ msgid "quit CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 66
-# File: raw/man1/stty.1, line: 66
-# File: raw/man1/stty.1, line: 66
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:66
 msgid "CHAR will send a quit signal"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 66
-# File: raw/man1/stty.1, line: 66
-# File: raw/man1/stty.1, line: 66
 #. type: TP
 #: raw/coreutils/man1/stty.1:66
 #, no-wrap
@@ -435,18 +311,12 @@ msgid "* rprnt CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 69
-# File: raw/man1/stty.1, line: 69
-# File: raw/man1/stty.1, line: 69
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:69
 msgid "CHAR will redraw the current line"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 69
-# File: raw/man1/stty.1, line: 69
-# File: raw/man1/stty.1, line: 69
 #. type: TP
 #: raw/coreutils/man1/stty.1:69
 #, no-wrap
@@ -454,18 +324,12 @@ msgid "start CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 72
-# File: raw/man1/stty.1, line: 72
-# File: raw/man1/stty.1, line: 72
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:72
 msgid "CHAR will restart the output after stopping it"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 72
-# File: raw/man1/stty.1, line: 72
-# File: raw/man1/stty.1, line: 72
 #. type: TP
 #: raw/coreutils/man1/stty.1:72
 #, no-wrap
@@ -473,18 +337,12 @@ msgid "stop CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 75
-# File: raw/man1/stty.1, line: 75
-# File: raw/man1/stty.1, line: 75
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:75
 msgid "CHAR will stop the output"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 75
-# File: raw/man1/stty.1, line: 75
-# File: raw/man1/stty.1, line: 75
 #. type: TP
 #: raw/coreutils/man1/stty.1:75
 #, no-wrap
@@ -492,18 +350,12 @@ msgid "susp CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 78
-# File: raw/man1/stty.1, line: 78
-# File: raw/man1/stty.1, line: 78
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:78
 msgid "CHAR will send a terminal stop signal"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 78
-# File: raw/man1/stty.1, line: 78
-# File: raw/man1/stty.1, line: 78
 #. type: TP
 #: raw/coreutils/man1/stty.1:78
 #, no-wrap
@@ -511,18 +363,12 @@ msgid "* swtch CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 81
-# File: raw/man1/stty.1, line: 81
-# File: raw/man1/stty.1, line: 81
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:81
 msgid "CHAR will switch to a different shell layer"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 81
-# File: raw/man1/stty.1, line: 81
-# File: raw/man1/stty.1, line: 81
 #. type: TP
 #: raw/coreutils/man1/stty.1:81
 #, no-wrap
@@ -530,18 +376,12 @@ msgid "* werase CHAR"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 84
-# File: raw/man1/stty.1, line: 84
-# File: raw/man1/stty.1, line: 84
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:84
 msgid "CHAR will erase the last word typed"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 84
-# File: raw/man1/stty.1, line: 84
-# File: raw/man1/stty.1, line: 84
 #. type: SS
 #: raw/coreutils/man1/stty.1:84
 #, no-wrap
@@ -549,9 +389,6 @@ msgid "Special settings:"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 85
-# File: raw/man1/stty.1, line: 85
-# File: raw/man1/stty.1, line: 85
 #. type: TP
 #: raw/coreutils/man1/stty.1:85
 #, no-wrap
@@ -559,18 +396,12 @@ msgid "N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 88
-# File: raw/man1/stty.1, line: 88
-# File: raw/man1/stty.1, line: 88
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:88
 msgid "set the input and output speeds to N bauds"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 88
-# File: raw/man1/stty.1, line: 88
-# File: raw/man1/stty.1, line: 88
 #. type: TP
 #: raw/coreutils/man1/stty.1:88
 #, no-wrap
@@ -578,18 +409,12 @@ msgid "* cols N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 91
-# File: raw/man1/stty.1, line: 91
-# File: raw/man1/stty.1, line: 91
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:91
 msgid "tell the kernel that the terminal has N columns"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 91
-# File: raw/man1/stty.1, line: 91
-# File: raw/man1/stty.1, line: 91
 #. type: TP
 #: raw/coreutils/man1/stty.1:91
 #, no-wrap
@@ -597,18 +422,12 @@ msgid "* columns N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 94
-# File: raw/man1/stty.1, line: 94
-# File: raw/man1/stty.1, line: 94
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:94
 msgid "same as cols N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 94
-# File: raw/man1/stty.1, line: 94
-# File: raw/man1/stty.1, line: 94
 #. type: TP
 #: raw/coreutils/man1/stty.1:94
 #, no-wrap
@@ -616,18 +435,12 @@ msgid "* [-]drain"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 97
-# File: raw/man1/stty.1, line: 97
-# File: raw/man1/stty.1, line: 97
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:97
 msgid "wait for transmission before applying settings (on by default)"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 97
-# File: raw/man1/stty.1, line: 97
-# File: raw/man1/stty.1, line: 97
 #. type: TP
 #: raw/coreutils/man1/stty.1:97
 #, no-wrap
@@ -635,18 +448,12 @@ msgid "ispeed N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 100
-# File: raw/man1/stty.1, line: 100
-# File: raw/man1/stty.1, line: 100
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:100
 msgid "set the input speed to N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 100
-# File: raw/man1/stty.1, line: 100
-# File: raw/man1/stty.1, line: 100
 #. type: TP
 #: raw/coreutils/man1/stty.1:100
 #, no-wrap
@@ -654,18 +461,12 @@ msgid "* line N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 103
-# File: raw/man1/stty.1, line: 103
-# File: raw/man1/stty.1, line: 103
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:103
 msgid "use line discipline N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 103
-# File: raw/man1/stty.1, line: 103
-# File: raw/man1/stty.1, line: 103
 #. type: TP
 #: raw/coreutils/man1/stty.1:103
 #, no-wrap
@@ -673,18 +474,12 @@ msgid "min N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 106
-# File: raw/man1/stty.1, line: 106
-# File: raw/man1/stty.1, line: 106
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:106
 msgid "with B<-icanon>, set N characters minimum for a completed read"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 106
-# File: raw/man1/stty.1, line: 106
-# File: raw/man1/stty.1, line: 106
 #. type: TP
 #: raw/coreutils/man1/stty.1:106
 #, no-wrap
@@ -692,18 +487,12 @@ msgid "ospeed N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 109
-# File: raw/man1/stty.1, line: 109
-# File: raw/man1/stty.1, line: 109
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:109
 msgid "set the output speed to N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 109
-# File: raw/man1/stty.1, line: 109
-# File: raw/man1/stty.1, line: 109
 #. type: TP
 #: raw/coreutils/man1/stty.1:109
 #, no-wrap
@@ -711,18 +500,12 @@ msgid "* rows N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 112
-# File: raw/man1/stty.1, line: 112
-# File: raw/man1/stty.1, line: 112
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:112
 msgid "tell the kernel that the terminal has N rows"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 112
-# File: raw/man1/stty.1, line: 112
-# File: raw/man1/stty.1, line: 112
 #. type: TP
 #: raw/coreutils/man1/stty.1:112
 #, no-wrap
@@ -730,18 +513,12 @@ msgid "* size"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 115
-# File: raw/man1/stty.1, line: 115
-# File: raw/man1/stty.1, line: 115
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:115
 msgid "print the number of rows and columns according to the kernel"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 115
-# File: raw/man1/stty.1, line: 115
-# File: raw/man1/stty.1, line: 115
 #. type: TP
 #: raw/coreutils/man1/stty.1:115
 #, no-wrap
@@ -749,18 +526,12 @@ msgid "speed"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 118
-# File: raw/man1/stty.1, line: 118
-# File: raw/man1/stty.1, line: 118
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:118
 msgid "print the terminal speed"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 118
-# File: raw/man1/stty.1, line: 118
-# File: raw/man1/stty.1, line: 118
 #. type: TP
 #: raw/coreutils/man1/stty.1:118
 #, no-wrap
@@ -768,18 +539,12 @@ msgid "time N"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 121
-# File: raw/man1/stty.1, line: 121
-# File: raw/man1/stty.1, line: 121
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:121
 msgid "with B<-icanon>, set read timeout of N tenths of a second"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 121
-# File: raw/man1/stty.1, line: 121
-# File: raw/man1/stty.1, line: 121
 #. type: SS
 #: raw/coreutils/man1/stty.1:121
 #, no-wrap
@@ -787,9 +552,6 @@ msgid "Control settings:"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 122
-# File: raw/man1/stty.1, line: 122
-# File: raw/man1/stty.1, line: 122
 #. type: TP
 #: raw/coreutils/man1/stty.1:122
 #, no-wrap
@@ -797,18 +559,12 @@ msgid "[-]clocal"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 125
-# File: raw/man1/stty.1, line: 125
-# File: raw/man1/stty.1, line: 125
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:125
 msgid "disable modem control signals"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 125
-# File: raw/man1/stty.1, line: 125
-# File: raw/man1/stty.1, line: 125
 #. type: TP
 #: raw/coreutils/man1/stty.1:125
 #, no-wrap
@@ -816,18 +572,12 @@ msgid "[-]cread"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 128
-# File: raw/man1/stty.1, line: 128
-# File: raw/man1/stty.1, line: 128
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:128
 msgid "allow input to be received"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 128
-# File: raw/man1/stty.1, line: 128
-# File: raw/man1/stty.1, line: 128
 #. type: TP
 #: raw/coreutils/man1/stty.1:128
 #, no-wrap
@@ -835,18 +585,12 @@ msgid "* [-]crtscts"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 131
-# File: raw/man1/stty.1, line: 131
-# File: raw/man1/stty.1, line: 131
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:131
 msgid "enable RTS/CTS handshaking"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 131
-# File: raw/man1/stty.1, line: 131
-# File: raw/man1/stty.1, line: 131
 #. type: TP
 #: raw/coreutils/man1/stty.1:131
 #, no-wrap
@@ -854,18 +598,12 @@ msgid "csN"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 134
-# File: raw/man1/stty.1, line: 134
-# File: raw/man1/stty.1, line: 134
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:134
 msgid "set character size to N bits, N in [5..8]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 134
-# File: raw/man1/stty.1, line: 134
-# File: raw/man1/stty.1, line: 134
 #. type: TP
 #: raw/coreutils/man1/stty.1:134
 #, no-wrap
@@ -873,18 +611,12 @@ msgid "[-]cstopb"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 137
-# File: raw/man1/stty.1, line: 137
-# File: raw/man1/stty.1, line: 137
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:137
 msgid "use two stop bits per character (one with '-')"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 137
-# File: raw/man1/stty.1, line: 137
-# File: raw/man1/stty.1, line: 137
 #. type: TP
 #: raw/coreutils/man1/stty.1:137
 #, no-wrap
@@ -892,18 +624,12 @@ msgid "[-]hup"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 140
-# File: raw/man1/stty.1, line: 140
-# File: raw/man1/stty.1, line: 140
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:140
 msgid "send a hangup signal when the last process closes the tty"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 140
-# File: raw/man1/stty.1, line: 140
-# File: raw/man1/stty.1, line: 140
 #. type: TP
 #: raw/coreutils/man1/stty.1:140
 #, no-wrap
@@ -911,18 +637,12 @@ msgid "[-]hupcl"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 143
-# File: raw/man1/stty.1, line: 143
-# File: raw/man1/stty.1, line: 143
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:143
 msgid "same as [-]hup"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 143
-# File: raw/man1/stty.1, line: 143
-# File: raw/man1/stty.1, line: 143
 #. type: TP
 #: raw/coreutils/man1/stty.1:143
 #, no-wrap
@@ -930,18 +650,12 @@ msgid "[-]parenb"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 146
-# File: raw/man1/stty.1, line: 146
-# File: raw/man1/stty.1, line: 146
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:146
 msgid "generate parity bit in output and expect parity bit in input"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 146
-# File: raw/man1/stty.1, line: 146
-# File: raw/man1/stty.1, line: 146
 #. type: TP
 #: raw/coreutils/man1/stty.1:146
 #, no-wrap
@@ -949,18 +663,12 @@ msgid "[-]parodd"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 149
-# File: raw/man1/stty.1, line: 149
-# File: raw/man1/stty.1, line: 149
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:149
 msgid "set odd parity (or even parity with '-')"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 149
-# File: raw/man1/stty.1, line: 149
-# File: raw/man1/stty.1, line: 149
 #. type: TP
 #: raw/coreutils/man1/stty.1:149
 #, no-wrap
@@ -968,18 +676,12 @@ msgid "* [-]cmspar"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 152
-# File: raw/man1/stty.1, line: 152
-# File: raw/man1/stty.1, line: 152
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:152
 msgid "use \"stick\" (mark/space) parity"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 152
-# File: raw/man1/stty.1, line: 152
-# File: raw/man1/stty.1, line: 152
 #. type: SS
 #: raw/coreutils/man1/stty.1:152
 #, no-wrap
@@ -987,9 +689,6 @@ msgid "Input settings:"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 153
-# File: raw/man1/stty.1, line: 153
-# File: raw/man1/stty.1, line: 153
 #. type: TP
 #: raw/coreutils/man1/stty.1:153
 #, no-wrap
@@ -997,18 +696,12 @@ msgid "[-]brkint"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 156
-# File: raw/man1/stty.1, line: 156
-# File: raw/man1/stty.1, line: 156
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:156
 msgid "breaks cause an interrupt signal"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 156
-# File: raw/man1/stty.1, line: 156
-# File: raw/man1/stty.1, line: 156
 #. type: TP
 #: raw/coreutils/man1/stty.1:156
 #, no-wrap
@@ -1016,21 +709,12 @@ msgid "[-]icrnl"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 159
-# File: raw/man1/stty.1, line: 217
-# File: raw/man1/stty.1, line: 159
-# File: raw/man1/stty.1, line: 217
-# File: raw/man1/stty.1, line: 159
-# File: raw/man1/stty.1, line: 217
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:159 raw/coreutils/man1/stty.1:217
 msgid "translate carriage return to newline"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 159
-# File: raw/man1/stty.1, line: 159
-# File: raw/man1/stty.1, line: 159
 #. type: TP
 #: raw/coreutils/man1/stty.1:159
 #, no-wrap
@@ -1038,18 +722,12 @@ msgid "[-]ignbrk"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 162
-# File: raw/man1/stty.1, line: 162
-# File: raw/man1/stty.1, line: 162
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:162
 msgid "ignore break characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 162
-# File: raw/man1/stty.1, line: 162
-# File: raw/man1/stty.1, line: 162
 #. type: TP
 #: raw/coreutils/man1/stty.1:162
 #, no-wrap
@@ -1057,18 +735,12 @@ msgid "[-]igncr"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 165
-# File: raw/man1/stty.1, line: 165
-# File: raw/man1/stty.1, line: 165
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:165
 msgid "ignore carriage return"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 165
-# File: raw/man1/stty.1, line: 165
-# File: raw/man1/stty.1, line: 165
 #. type: TP
 #: raw/coreutils/man1/stty.1:165
 #, no-wrap
@@ -1076,18 +748,12 @@ msgid "[-]ignpar"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 168
-# File: raw/man1/stty.1, line: 168
-# File: raw/man1/stty.1, line: 168
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:168
 msgid "ignore characters with parity errors"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 168
-# File: raw/man1/stty.1, line: 168
-# File: raw/man1/stty.1, line: 168
 #. type: TP
 #: raw/coreutils/man1/stty.1:168
 #, no-wrap
@@ -1095,18 +761,12 @@ msgid "* [-]imaxbel"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 171
-# File: raw/man1/stty.1, line: 171
-# File: raw/man1/stty.1, line: 171
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:171
 msgid "beep and do not flush a full input buffer on a character"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 171
-# File: raw/man1/stty.1, line: 171
-# File: raw/man1/stty.1, line: 171
 #. type: TP
 #: raw/coreutils/man1/stty.1:171
 #, no-wrap
@@ -1114,18 +774,12 @@ msgid "[-]inlcr"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 174
-# File: raw/man1/stty.1, line: 174
-# File: raw/man1/stty.1, line: 174
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:174
 msgid "translate newline to carriage return"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 174
-# File: raw/man1/stty.1, line: 174
-# File: raw/man1/stty.1, line: 174
 #. type: TP
 #: raw/coreutils/man1/stty.1:174
 #, no-wrap
@@ -1133,18 +787,12 @@ msgid "[-]inpck"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 177
-# File: raw/man1/stty.1, line: 177
-# File: raw/man1/stty.1, line: 177
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:177
 msgid "enable input parity checking"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 177
-# File: raw/man1/stty.1, line: 177
-# File: raw/man1/stty.1, line: 177
 #. type: TP
 #: raw/coreutils/man1/stty.1:177
 #, no-wrap
@@ -1152,18 +800,12 @@ msgid "[-]istrip"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 180
-# File: raw/man1/stty.1, line: 180
-# File: raw/man1/stty.1, line: 180
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:180
 msgid "clear high (8th) bit of input characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 180
-# File: raw/man1/stty.1, line: 180
-# File: raw/man1/stty.1, line: 180
 #. type: TP
 #: raw/coreutils/man1/stty.1:180
 #, no-wrap
@@ -1171,18 +813,12 @@ msgid "* [-]iutf8"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 183
-# File: raw/man1/stty.1, line: 183
-# File: raw/man1/stty.1, line: 183
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:183
 msgid "assume input characters are UTF-8 encoded"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 183
-# File: raw/man1/stty.1, line: 183
-# File: raw/man1/stty.1, line: 183
 #. type: TP
 #: raw/coreutils/man1/stty.1:183
 #, no-wrap
@@ -1190,18 +826,12 @@ msgid "* [-]iuclc"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 186
-# File: raw/man1/stty.1, line: 186
-# File: raw/man1/stty.1, line: 186
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:186
 msgid "translate uppercase characters to lowercase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 186
-# File: raw/man1/stty.1, line: 186
-# File: raw/man1/stty.1, line: 186
 #. type: TP
 #: raw/coreutils/man1/stty.1:186
 #, no-wrap
@@ -1209,18 +839,12 @@ msgid "* [-]ixany"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 189
-# File: raw/man1/stty.1, line: 189
-# File: raw/man1/stty.1, line: 189
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:189
 msgid "let any character restart output, not only start character"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 189
-# File: raw/man1/stty.1, line: 189
-# File: raw/man1/stty.1, line: 189
 #. type: TP
 #: raw/coreutils/man1/stty.1:189
 #, no-wrap
@@ -1228,18 +852,12 @@ msgid "[-]ixoff"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 192
-# File: raw/man1/stty.1, line: 192
-# File: raw/man1/stty.1, line: 192
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:192
 msgid "enable sending of start/stop characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 192
-# File: raw/man1/stty.1, line: 192
-# File: raw/man1/stty.1, line: 192
 #. type: TP
 #: raw/coreutils/man1/stty.1:192
 #, no-wrap
@@ -1247,18 +865,12 @@ msgid "[-]ixon"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 195
-# File: raw/man1/stty.1, line: 195
-# File: raw/man1/stty.1, line: 195
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:195
 msgid "enable XON/XOFF flow control"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 195
-# File: raw/man1/stty.1, line: 195
-# File: raw/man1/stty.1, line: 195
 #. type: TP
 #: raw/coreutils/man1/stty.1:195
 #, no-wrap
@@ -1266,18 +878,12 @@ msgid "[-]parmrk"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 198
-# File: raw/man1/stty.1, line: 198
-# File: raw/man1/stty.1, line: 198
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:198
 msgid "mark parity errors (with a 255-0-character sequence)"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 198
-# File: raw/man1/stty.1, line: 198
-# File: raw/man1/stty.1, line: 198
 #. type: TP
 #: raw/coreutils/man1/stty.1:198
 #, no-wrap
@@ -1285,18 +891,12 @@ msgid "[-]tandem"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 201
-# File: raw/man1/stty.1, line: 201
-# File: raw/man1/stty.1, line: 201
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:201
 msgid "same as [-]ixoff"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 201
-# File: raw/man1/stty.1, line: 201
-# File: raw/man1/stty.1, line: 201
 #. type: SS
 #: raw/coreutils/man1/stty.1:201
 #, no-wrap
@@ -1304,9 +904,6 @@ msgid "Output settings:"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 202
-# File: raw/man1/stty.1, line: 202
-# File: raw/man1/stty.1, line: 202
 #. type: TP
 #: raw/coreutils/man1/stty.1:202
 #, no-wrap
@@ -1314,18 +911,12 @@ msgid "* bsN"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 205
-# File: raw/man1/stty.1, line: 205
-# File: raw/man1/stty.1, line: 205
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:205
 msgid "backspace delay style, N in [0..1]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 205
-# File: raw/man1/stty.1, line: 205
-# File: raw/man1/stty.1, line: 205
 #. type: TP
 #: raw/coreutils/man1/stty.1:205
 #, no-wrap
@@ -1333,18 +924,12 @@ msgid "* crN"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 208
-# File: raw/man1/stty.1, line: 208
-# File: raw/man1/stty.1, line: 208
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:208
 msgid "carriage return delay style, N in [0..3]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 208
-# File: raw/man1/stty.1, line: 208
-# File: raw/man1/stty.1, line: 208
 #. type: TP
 #: raw/coreutils/man1/stty.1:208
 #, no-wrap
@@ -1352,18 +937,12 @@ msgid "* ffN"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 211
-# File: raw/man1/stty.1, line: 211
-# File: raw/man1/stty.1, line: 211
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:211
 msgid "form feed delay style, N in [0..1]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 211
-# File: raw/man1/stty.1, line: 211
-# File: raw/man1/stty.1, line: 211
 #. type: TP
 #: raw/coreutils/man1/stty.1:211
 #, no-wrap
@@ -1371,18 +950,12 @@ msgid "* nlN"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 214
-# File: raw/man1/stty.1, line: 214
-# File: raw/man1/stty.1, line: 214
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:214
 msgid "newline delay style, N in [0..1]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 214
-# File: raw/man1/stty.1, line: 214
-# File: raw/man1/stty.1, line: 214
 #. type: TP
 #: raw/coreutils/man1/stty.1:214
 #, no-wrap
@@ -1390,9 +963,6 @@ msgid "* [-]ocrnl"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 217
-# File: raw/man1/stty.1, line: 217
-# File: raw/man1/stty.1, line: 217
 #. type: TP
 #: raw/coreutils/man1/stty.1:217
 #, no-wrap
@@ -1400,18 +970,12 @@ msgid "* [-]ofdel"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 220
-# File: raw/man1/stty.1, line: 220
-# File: raw/man1/stty.1, line: 220
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:220
 msgid "use delete characters for fill instead of NUL characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 220
-# File: raw/man1/stty.1, line: 220
-# File: raw/man1/stty.1, line: 220
 #. type: TP
 #: raw/coreutils/man1/stty.1:220
 #, no-wrap
@@ -1419,18 +983,12 @@ msgid "* [-]ofill"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 223
-# File: raw/man1/stty.1, line: 223
-# File: raw/man1/stty.1, line: 223
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:223
 msgid "use fill (padding) characters instead of timing for delays"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 223
-# File: raw/man1/stty.1, line: 223
-# File: raw/man1/stty.1, line: 223
 #. type: TP
 #: raw/coreutils/man1/stty.1:223
 #, no-wrap
@@ -1438,18 +996,12 @@ msgid "* [-]olcuc"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 226
-# File: raw/man1/stty.1, line: 226
-# File: raw/man1/stty.1, line: 226
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:226
 msgid "translate lowercase characters to uppercase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 226
-# File: raw/man1/stty.1, line: 226
-# File: raw/man1/stty.1, line: 226
 #. type: TP
 #: raw/coreutils/man1/stty.1:226
 #, no-wrap
@@ -1457,18 +1009,12 @@ msgid "* [-]onlcr"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 229
-# File: raw/man1/stty.1, line: 229
-# File: raw/man1/stty.1, line: 229
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:229
 msgid "translate newline to carriage return-newline"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 229
-# File: raw/man1/stty.1, line: 229
-# File: raw/man1/stty.1, line: 229
 #. type: TP
 #: raw/coreutils/man1/stty.1:229
 #, no-wrap
@@ -1476,18 +1022,12 @@ msgid "* [-]onlret"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 232
-# File: raw/man1/stty.1, line: 232
-# File: raw/man1/stty.1, line: 232
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:232
 msgid "newline performs a carriage return"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 232
-# File: raw/man1/stty.1, line: 232
-# File: raw/man1/stty.1, line: 232
 #. type: TP
 #: raw/coreutils/man1/stty.1:232
 #, no-wrap
@@ -1495,18 +1035,12 @@ msgid "* [-]onocr"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 235
-# File: raw/man1/stty.1, line: 235
-# File: raw/man1/stty.1, line: 235
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:235
 msgid "do not print carriage returns in the first column"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 235
-# File: raw/man1/stty.1, line: 235
-# File: raw/man1/stty.1, line: 235
 #. type: TP
 #: raw/coreutils/man1/stty.1:235
 #, no-wrap
@@ -1514,18 +1048,12 @@ msgid "[-]opost"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 238
-# File: raw/man1/stty.1, line: 238
-# File: raw/man1/stty.1, line: 238
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:238
 msgid "postprocess output"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 238
-# File: raw/man1/stty.1, line: 238
-# File: raw/man1/stty.1, line: 238
 #. type: TP
 #: raw/coreutils/man1/stty.1:238
 #, no-wrap
@@ -1533,18 +1061,12 @@ msgid "* tabN"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 241
-# File: raw/man1/stty.1, line: 241
-# File: raw/man1/stty.1, line: 241
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:241
 msgid "horizontal tab delay style, N in [0..3]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 241
-# File: raw/man1/stty.1, line: 241
-# File: raw/man1/stty.1, line: 241
 #. type: TP
 #: raw/coreutils/man1/stty.1:241
 #, no-wrap
@@ -1552,18 +1074,12 @@ msgid "* tabs"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 244
-# File: raw/man1/stty.1, line: 244
-# File: raw/man1/stty.1, line: 244
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:244
 msgid "same as tab0"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 244
-# File: raw/man1/stty.1, line: 244
-# File: raw/man1/stty.1, line: 244
 #. type: TP
 #: raw/coreutils/man1/stty.1:244
 #, no-wrap
@@ -1571,18 +1087,12 @@ msgid "* B<-tabs>"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 247
-# File: raw/man1/stty.1, line: 247
-# File: raw/man1/stty.1, line: 247
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:247
 msgid "same as tab3"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 247
-# File: raw/man1/stty.1, line: 247
-# File: raw/man1/stty.1, line: 247
 #. type: TP
 #: raw/coreutils/man1/stty.1:247
 #, no-wrap
@@ -1590,18 +1100,12 @@ msgid "* vtN"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 250
-# File: raw/man1/stty.1, line: 250
-# File: raw/man1/stty.1, line: 250
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:250
 msgid "vertical tab delay style, N in [0..1]"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 250
-# File: raw/man1/stty.1, line: 250
-# File: raw/man1/stty.1, line: 250
 #. type: SS
 #: raw/coreutils/man1/stty.1:250
 #, no-wrap
@@ -1609,9 +1113,6 @@ msgid "Local settings:"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 251
-# File: raw/man1/stty.1, line: 251
-# File: raw/man1/stty.1, line: 251
 #. type: TP
 #: raw/coreutils/man1/stty.1:251
 #, no-wrap
@@ -1619,18 +1120,12 @@ msgid "[-]crterase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 254
-# File: raw/man1/stty.1, line: 254
-# File: raw/man1/stty.1, line: 254
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:254
 msgid "echo erase characters as backspace-space-backspace"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 254
-# File: raw/man1/stty.1, line: 254
-# File: raw/man1/stty.1, line: 254
 #. type: TP
 #: raw/coreutils/man1/stty.1:254
 #, no-wrap
@@ -1638,18 +1133,12 @@ msgid "* crtkill"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 257
-# File: raw/man1/stty.1, line: 257
-# File: raw/man1/stty.1, line: 257
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:257
 msgid "kill all line by obeying the echoprt and echoe settings"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 257
-# File: raw/man1/stty.1, line: 257
-# File: raw/man1/stty.1, line: 257
 #. type: TP
 #: raw/coreutils/man1/stty.1:257
 #, no-wrap
@@ -1657,18 +1146,12 @@ msgid "* B<-crtkill>"
 msgstr "* B<-crtkill>"
 
 #
-# File: raw/man1/stty.1, line: 260
-# File: raw/man1/stty.1, line: 260
-# File: raw/man1/stty.1, line: 260
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:260
 msgid "kill all line by obeying the echoctl and echok settings"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 260
-# File: raw/man1/stty.1, line: 260
-# File: raw/man1/stty.1, line: 260
 #. type: TP
 #: raw/coreutils/man1/stty.1:260
 #, no-wrap
@@ -1676,18 +1159,12 @@ msgid "* [-]ctlecho"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 263
-# File: raw/man1/stty.1, line: 263
-# File: raw/man1/stty.1, line: 263
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:263
 msgid "echo control characters in hat notation ('^c')"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 263
-# File: raw/man1/stty.1, line: 263
-# File: raw/man1/stty.1, line: 263
 #. type: TP
 #: raw/coreutils/man1/stty.1:263
 #, no-wrap
@@ -1695,18 +1172,12 @@ msgid "[-]echo"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 266
-# File: raw/man1/stty.1, line: 266
-# File: raw/man1/stty.1, line: 266
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:266
 msgid "echo input characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 266
-# File: raw/man1/stty.1, line: 266
-# File: raw/man1/stty.1, line: 266
 #. type: TP
 #: raw/coreutils/man1/stty.1:266
 #, no-wrap
@@ -1714,18 +1185,12 @@ msgid "* [-]echoctl"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 269
-# File: raw/man1/stty.1, line: 269
-# File: raw/man1/stty.1, line: 269
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:269
 msgid "same as [-]ctlecho"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 269
-# File: raw/man1/stty.1, line: 269
-# File: raw/man1/stty.1, line: 269
 #. type: TP
 #: raw/coreutils/man1/stty.1:269
 #, no-wrap
@@ -1733,18 +1198,12 @@ msgid "[-]echoe"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 272
-# File: raw/man1/stty.1, line: 272
-# File: raw/man1/stty.1, line: 272
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:272
 msgid "same as [-]crterase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 272
-# File: raw/man1/stty.1, line: 272
-# File: raw/man1/stty.1, line: 272
 #. type: TP
 #: raw/coreutils/man1/stty.1:272
 #, no-wrap
@@ -1752,18 +1211,12 @@ msgid "[-]echok"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 275
-# File: raw/man1/stty.1, line: 275
-# File: raw/man1/stty.1, line: 275
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:275
 msgid "echo a newline after a kill character"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 275
-# File: raw/man1/stty.1, line: 275
-# File: raw/man1/stty.1, line: 275
 #. type: TP
 #: raw/coreutils/man1/stty.1:275
 #, no-wrap
@@ -1771,18 +1224,12 @@ msgid "* [-]echoke"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 278
-# File: raw/man1/stty.1, line: 278
-# File: raw/man1/stty.1, line: 278
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:278
 msgid "same as [-]crtkill"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 278
-# File: raw/man1/stty.1, line: 278
-# File: raw/man1/stty.1, line: 278
 #. type: TP
 #: raw/coreutils/man1/stty.1:278
 #, no-wrap
@@ -1790,18 +1237,12 @@ msgid "[-]echonl"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 281
-# File: raw/man1/stty.1, line: 281
-# File: raw/man1/stty.1, line: 281
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:281
 msgid "echo newline even if not echoing other characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 281
-# File: raw/man1/stty.1, line: 281
-# File: raw/man1/stty.1, line: 281
 #. type: TP
 #: raw/coreutils/man1/stty.1:281
 #, no-wrap
@@ -1809,18 +1250,12 @@ msgid "* [-]echoprt"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 284
-# File: raw/man1/stty.1, line: 284
-# File: raw/man1/stty.1, line: 284
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:284
 msgid "echo erased characters backward, between '\\e' and '/'"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 284
-# File: raw/man1/stty.1, line: 284
-# File: raw/man1/stty.1, line: 284
 #. type: TP
 #: raw/coreutils/man1/stty.1:284
 #, no-wrap
@@ -1828,18 +1263,12 @@ msgid "* [-]extproc"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 287
-# File: raw/man1/stty.1, line: 287
-# File: raw/man1/stty.1, line: 287
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:287
 msgid "enable \"LINEMODE\"; useful with high latency links"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 287
-# File: raw/man1/stty.1, line: 287
-# File: raw/man1/stty.1, line: 287
 #. type: TP
 #: raw/coreutils/man1/stty.1:287
 #, no-wrap
@@ -1847,18 +1276,12 @@ msgid "* [-]flusho"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 290
-# File: raw/man1/stty.1, line: 290
-# File: raw/man1/stty.1, line: 290
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:290
 msgid "discard output"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 290
-# File: raw/man1/stty.1, line: 290
-# File: raw/man1/stty.1, line: 290
 #. type: TP
 #: raw/coreutils/man1/stty.1:290
 #, no-wrap
@@ -1866,18 +1289,12 @@ msgid "[-]icanon"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 293
-# File: raw/man1/stty.1, line: 293
-# File: raw/man1/stty.1, line: 293
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:293
 msgid "enable special characters: erase, kill, werase, rprnt"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 293
-# File: raw/man1/stty.1, line: 293
-# File: raw/man1/stty.1, line: 293
 #. type: TP
 #: raw/coreutils/man1/stty.1:293
 #, no-wrap
@@ -1885,18 +1302,12 @@ msgid "[-]iexten"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 296
-# File: raw/man1/stty.1, line: 296
-# File: raw/man1/stty.1, line: 296
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:296
 msgid "enable non-POSIX special characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 296
-# File: raw/man1/stty.1, line: 296
-# File: raw/man1/stty.1, line: 296
 #. type: TP
 #: raw/coreutils/man1/stty.1:296
 #, no-wrap
@@ -1904,18 +1315,12 @@ msgid "[-]isig"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 299
-# File: raw/man1/stty.1, line: 299
-# File: raw/man1/stty.1, line: 299
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:299
 msgid "enable interrupt, quit, and suspend special characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 299
-# File: raw/man1/stty.1, line: 299
-# File: raw/man1/stty.1, line: 299
 #. type: TP
 #: raw/coreutils/man1/stty.1:299
 #, no-wrap
@@ -1923,18 +1328,12 @@ msgid "[-]noflsh"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 302
-# File: raw/man1/stty.1, line: 302
-# File: raw/man1/stty.1, line: 302
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:302
 msgid "disable flushing after interrupt and quit special characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 302
-# File: raw/man1/stty.1, line: 302
-# File: raw/man1/stty.1, line: 302
 #. type: TP
 #: raw/coreutils/man1/stty.1:302
 #, no-wrap
@@ -1942,18 +1341,12 @@ msgid "* [-]prterase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 305
-# File: raw/man1/stty.1, line: 305
-# File: raw/man1/stty.1, line: 305
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:305
 msgid "same as [-]echoprt"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 305
-# File: raw/man1/stty.1, line: 305
-# File: raw/man1/stty.1, line: 305
 #. type: TP
 #: raw/coreutils/man1/stty.1:305
 #, no-wrap
@@ -1961,18 +1354,12 @@ msgid "* [-]tostop"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 308
-# File: raw/man1/stty.1, line: 308
-# File: raw/man1/stty.1, line: 308
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:308
 msgid "stop background jobs that try to write to the terminal"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 308
-# File: raw/man1/stty.1, line: 308
-# File: raw/man1/stty.1, line: 308
 #. type: TP
 #: raw/coreutils/man1/stty.1:308
 #, no-wrap
@@ -1980,18 +1367,12 @@ msgid "* [-]xcase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 311
-# File: raw/man1/stty.1, line: 311
-# File: raw/man1/stty.1, line: 311
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:311
 msgid "with icanon, escape with '\\e' for uppercase characters"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 311
-# File: raw/man1/stty.1, line: 311
-# File: raw/man1/stty.1, line: 311
 #. type: SS
 #: raw/coreutils/man1/stty.1:311
 #, no-wrap
@@ -1999,9 +1380,6 @@ msgid "Combination settings:"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 312
-# File: raw/man1/stty.1, line: 312
-# File: raw/man1/stty.1, line: 312
 #. type: TP
 #: raw/coreutils/man1/stty.1:312
 #, no-wrap
@@ -2009,18 +1387,12 @@ msgid "* [-]LCASE"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 315
-# File: raw/man1/stty.1, line: 315
-# File: raw/man1/stty.1, line: 315
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:315
 msgid "same as [-]lcase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 315
-# File: raw/man1/stty.1, line: 315
-# File: raw/man1/stty.1, line: 315
 #. type: TP
 #: raw/coreutils/man1/stty.1:315
 #, no-wrap
@@ -2028,18 +1400,12 @@ msgid "cbreak"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 318
-# File: raw/man1/stty.1, line: 318
-# File: raw/man1/stty.1, line: 318
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:318
 msgid "same as B<-icanon>"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 318
-# File: raw/man1/stty.1, line: 318
-# File: raw/man1/stty.1, line: 318
 #. type: TP
 #: raw/coreutils/man1/stty.1:318
 #, no-wrap
@@ -2047,18 +1413,12 @@ msgid "B<-cbreak>"
 msgstr "B<-cbreak>"
 
 #
-# File: raw/man1/stty.1, line: 321
-# File: raw/man1/stty.1, line: 321
-# File: raw/man1/stty.1, line: 321
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:321
 msgid "same as icanon"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 321
-# File: raw/man1/stty.1, line: 321
-# File: raw/man1/stty.1, line: 321
 #. type: TP
 #: raw/coreutils/man1/stty.1:321
 #, no-wrap
@@ -2066,9 +1426,6 @@ msgid "cooked"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 325
-# File: raw/man1/stty.1, line: 325
-# File: raw/man1/stty.1, line: 325
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:325
 msgid ""
@@ -2077,9 +1434,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 325
-# File: raw/man1/stty.1, line: 325
-# File: raw/man1/stty.1, line: 325
 #. type: TP
 #: raw/coreutils/man1/stty.1:325
 #, no-wrap
@@ -2087,18 +1441,12 @@ msgid "B<-cooked>"
 msgstr "B<-cooked>"
 
 #
-# File: raw/man1/stty.1, line: 328
-# File: raw/man1/stty.1, line: 328
-# File: raw/man1/stty.1, line: 328
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:328
 msgid "same as raw"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 328
-# File: raw/man1/stty.1, line: 328
-# File: raw/man1/stty.1, line: 328
 #. type: TP
 #: raw/coreutils/man1/stty.1:328
 #, no-wrap
@@ -2106,18 +1454,12 @@ msgid "crt"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 331
-# File: raw/man1/stty.1, line: 331
-# File: raw/man1/stty.1, line: 331
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:331
 msgid "same as echoe echoctl echoke"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 331
-# File: raw/man1/stty.1, line: 331
-# File: raw/man1/stty.1, line: 331
 #. type: TP
 #: raw/coreutils/man1/stty.1:331
 #, no-wrap
@@ -2125,18 +1467,12 @@ msgid "dec"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 335
-# File: raw/man1/stty.1, line: 335
-# File: raw/man1/stty.1, line: 335
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:335
 msgid "same as echoe echoctl echoke B<-ixany> intr ^c erase 0177 kill ^u"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 335
-# File: raw/man1/stty.1, line: 335
-# File: raw/man1/stty.1, line: 335
 #. type: TP
 #: raw/coreutils/man1/stty.1:335
 #, no-wrap
@@ -2144,18 +1480,12 @@ msgid "* [-]decctlq"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 338
-# File: raw/man1/stty.1, line: 338
-# File: raw/man1/stty.1, line: 338
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:338
 msgid "same as [-]ixany"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 338
-# File: raw/man1/stty.1, line: 338
-# File: raw/man1/stty.1, line: 338
 #. type: TP
 #: raw/coreutils/man1/stty.1:338
 #, no-wrap
@@ -2163,18 +1493,12 @@ msgid "ek"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 341
-# File: raw/man1/stty.1, line: 341
-# File: raw/man1/stty.1, line: 341
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:341
 msgid "erase and kill characters to their default values"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 341
-# File: raw/man1/stty.1, line: 341
-# File: raw/man1/stty.1, line: 341
 #. type: TP
 #: raw/coreutils/man1/stty.1:341
 #, no-wrap
@@ -2182,18 +1506,12 @@ msgid "evenp"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 344
-# File: raw/man1/stty.1, line: 344
-# File: raw/man1/stty.1, line: 344
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:344
 msgid "same as parenb B<-parodd> cs7"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 344
-# File: raw/man1/stty.1, line: 344
-# File: raw/man1/stty.1, line: 344
 #. type: TP
 #: raw/coreutils/man1/stty.1:344
 #, no-wrap
@@ -2201,21 +1519,12 @@ msgid "B<-evenp>"
 msgstr "B<-evenp>"
 
 #
-# File: raw/man1/stty.1, line: 347
-# File: raw/man1/stty.1, line: 368
-# File: raw/man1/stty.1, line: 347
-# File: raw/man1/stty.1, line: 368
-# File: raw/man1/stty.1, line: 347
-# File: raw/man1/stty.1, line: 368
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:347 raw/coreutils/man1/stty.1:368
 msgid "same as B<-parenb> cs8"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 347
-# File: raw/man1/stty.1, line: 347
-# File: raw/man1/stty.1, line: 347
 #. type: TP
 #: raw/coreutils/man1/stty.1:347
 #, no-wrap
@@ -2223,18 +1532,12 @@ msgid "* [-]lcase"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 350
-# File: raw/man1/stty.1, line: 350
-# File: raw/man1/stty.1, line: 350
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:350
 msgid "same as xcase iuclc olcuc"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 350
-# File: raw/man1/stty.1, line: 350
-# File: raw/man1/stty.1, line: 350
 #. type: TP
 #: raw/coreutils/man1/stty.1:350
 #, no-wrap
@@ -2242,18 +1545,12 @@ msgid "litout"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 353
-# File: raw/man1/stty.1, line: 353
-# File: raw/man1/stty.1, line: 353
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:353
 msgid "same as B<-parenb> B<-istrip> B<-opost> cs8"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 353
-# File: raw/man1/stty.1, line: 353
-# File: raw/man1/stty.1, line: 353
 #. type: TP
 #: raw/coreutils/man1/stty.1:353
 #, no-wrap
@@ -2261,18 +1558,12 @@ msgid "B<-litout>"
 msgstr "B<-litout>"
 
 #
-# File: raw/man1/stty.1, line: 356
-# File: raw/man1/stty.1, line: 356
-# File: raw/man1/stty.1, line: 356
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:356
 msgid "same as parenb istrip opost cs7"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 356
-# File: raw/man1/stty.1, line: 356
-# File: raw/man1/stty.1, line: 356
 #. type: TP
 #: raw/coreutils/man1/stty.1:356
 #, no-wrap
@@ -2280,18 +1571,12 @@ msgid "nl"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 359
-# File: raw/man1/stty.1, line: 359
-# File: raw/man1/stty.1, line: 359
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:359
 msgid "same as B<-icrnl> B<-onlcr>"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 359
-# File: raw/man1/stty.1, line: 359
-# File: raw/man1/stty.1, line: 359
 #. type: TP
 #: raw/coreutils/man1/stty.1:359
 #, no-wrap
@@ -2299,18 +1584,12 @@ msgid "B<-nl>"
 msgstr "B<-nl>"
 
 #
-# File: raw/man1/stty.1, line: 362
-# File: raw/man1/stty.1, line: 362
-# File: raw/man1/stty.1, line: 362
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:362
 msgid "same as icrnl B<-inlcr> B<-igncr> onlcr B<-ocrnl> B<-onlret>"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 362
-# File: raw/man1/stty.1, line: 362
-# File: raw/man1/stty.1, line: 362
 #. type: TP
 #: raw/coreutils/man1/stty.1:362
 #, no-wrap
@@ -2318,18 +1597,12 @@ msgid "oddp"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 365
-# File: raw/man1/stty.1, line: 365
-# File: raw/man1/stty.1, line: 365
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:365
 msgid "same as parenb parodd cs7"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 365
-# File: raw/man1/stty.1, line: 365
-# File: raw/man1/stty.1, line: 365
 #. type: TP
 #: raw/coreutils/man1/stty.1:365
 #, no-wrap
@@ -2337,9 +1610,6 @@ msgid "B<-oddp>"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 368
-# File: raw/man1/stty.1, line: 368
-# File: raw/man1/stty.1, line: 368
 #. type: TP
 #: raw/coreutils/man1/stty.1:368
 #, no-wrap
@@ -2347,18 +1617,12 @@ msgid "[-]parity"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 371
-# File: raw/man1/stty.1, line: 371
-# File: raw/man1/stty.1, line: 371
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:371
 msgid "same as [-]evenp"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 371
-# File: raw/man1/stty.1, line: 371
-# File: raw/man1/stty.1, line: 371
 #. type: TP
 #: raw/coreutils/man1/stty.1:371
 #, no-wrap
@@ -2366,18 +1630,12 @@ msgid "pass8"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 374
-# File: raw/man1/stty.1, line: 374
-# File: raw/man1/stty.1, line: 374
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:374
 msgid "same as B<-parenb> B<-istrip> cs8"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 374
-# File: raw/man1/stty.1, line: 374
-# File: raw/man1/stty.1, line: 374
 #. type: TP
 #: raw/coreutils/man1/stty.1:374
 #, no-wrap
@@ -2385,18 +1643,12 @@ msgid "B<-pass8>"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 377
-# File: raw/man1/stty.1, line: 377
-# File: raw/man1/stty.1, line: 377
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:377
 msgid "same as parenb istrip cs7"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 377
-# File: raw/man1/stty.1, line: 377
-# File: raw/man1/stty.1, line: 377
 #. type: TP
 #: raw/coreutils/man1/stty.1:377
 #, no-wrap
@@ -2404,9 +1656,6 @@ msgid "raw"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 382
-# File: raw/man1/stty.1, line: 382
-# File: raw/man1/stty.1, line: 382
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:382
 msgid ""
@@ -2416,9 +1665,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 382
-# File: raw/man1/stty.1, line: 382
-# File: raw/man1/stty.1, line: 382
 #. type: TP
 #: raw/coreutils/man1/stty.1:382
 #, no-wrap
@@ -2426,18 +1672,12 @@ msgid "B<-raw>"
 msgstr "B<-raw>"
 
 #
-# File: raw/man1/stty.1, line: 385
-# File: raw/man1/stty.1, line: 385
-# File: raw/man1/stty.1, line: 385
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:385
 msgid "same as cooked"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 385
-# File: raw/man1/stty.1, line: 385
-# File: raw/man1/stty.1, line: 385
 #. type: TP
 #: raw/coreutils/man1/stty.1:385
 #, no-wrap
@@ -2445,9 +1685,6 @@ msgid "sane"
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 393
-# File: raw/man1/stty.1, line: 393
-# File: raw/man1/stty.1, line: 393
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:393
 msgid ""
@@ -2460,9 +1697,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 398
-# File: raw/man1/stty.1, line: 398
-# File: raw/man1/stty.1, line: 398
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:398
 msgid ""
@@ -2473,9 +1707,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/stty.1, line: 398
-# File: raw/man1/stty.1, line: 398
-# File: raw/man1/stty.1, line: 398
 #. type: SH
 #: raw/coreutils/man1/stty.1:398
 #, no-wrap
@@ -2483,18 +1714,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/stty.1, line: 400
-# File: raw/man1/stty.1, line: 400
-# File: raw/man1/stty.1, line: 400
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:400
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/stty.1, line: 400
-# File: raw/man1/stty.1, line: 400
-# File: raw/man1/stty.1, line: 400
 #. type: SH
 #: raw/coreutils/man1/stty.1:400
 #, no-wrap
@@ -2502,9 +1727,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/stty.1, line: 402
-# File: raw/man1/stty.1, line: 402
-# File: raw/man1/stty.1, line: 402
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:402
 msgid ""
@@ -2513,9 +1735,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/stty.1, line: 404
-# File: raw/man1/stty.1, line: 404
-# File: raw/man1/stty.1, line: 404
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:404
 msgid ""
@@ -2525,9 +1744,6 @@ msgstr ""
 "错误。"
 
 #
-# File: raw/man1/stty.1, line: 404
-# File: raw/man1/stty.1, line: 404
-# File: raw/man1/stty.1, line: 404
 #. type: SH
 #: raw/coreutils/man1/stty.1:404
 #, no-wrap
@@ -2535,9 +1751,6 @@ msgid "COPYRIGHT"
 msgstr "版权"
 
 #
-# File: raw/man1/stty.1, line: 407
-# File: raw/man1/stty.1, line: 407
-# File: raw/man1/stty.1, line: 407
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:407
 #, fuzzy
@@ -2552,9 +1765,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/stty.1, line: 410
-# File: raw/man1/stty.1, line: 410
-# File: raw/man1/stty.1, line: 410
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:410
 msgid ""
@@ -2572,9 +1782,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/stty.1, line: 412
-# File: raw/man1/stty.1, line: 412
-# File: raw/man1/stty.1, line: 412
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:412
 msgid ""
@@ -2582,9 +1789,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/sttyE<gt>"
 
 #
-# File: raw/man1/stty.1, line: 413
-# File: raw/man1/stty.1, line: 413
-# File: raw/man1/stty.1, line: 413
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:413
 msgid "or available locally via: info \\(aq(coreutils) stty invocation\\(aq"

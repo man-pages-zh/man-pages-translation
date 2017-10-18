@@ -76,10 +76,6 @@ msgid ""
 msgstr "B<date> [I<-u|--utc|--universal>] [I<MMDDhhmm>[[I<CC>]I<YY>][I<.ss>]]"
 
 #
-# File: raw/man1/date.1, line: 11
-# File: raw/man1/date.1, line: 11
-# File: raw/man1/date.1, line: 11
-# File: raw/man1/date.1, line: 11
 #. type: SH
 #: raw/coreutils/man1/date.1:11
 #, no-wrap
@@ -87,30 +83,18 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/date.1, line: 15
-# File: raw/man1/date.1, line: 15
-# File: raw/man1/date.1, line: 15
-# File: raw/man1/date.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/date.1:15
 msgid "Display the current time in the given FORMAT, or set the system date."
 msgstr "按照给定格式显示当前时间，或设置系统日期。"
 
 #
-# File: raw/man1/date.1, line: 17
-# File: raw/man1/date.1, line: 17
-# File: raw/man1/date.1, line: 17
-# File: raw/man1/date.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/date.1:17
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-# File: raw/man1/date.1, line: 17
-# File: raw/man1/date.1, line: 17
-# File: raw/man1/date.1, line: 17
-# File: raw/man1/date.1, line: 17
 #. type: TP
 #: raw/coreutils/man1/date.1:17
 #, no-wrap
@@ -118,19 +102,11 @@ msgid "B<-d>, B<--date>=I<\\,STRING\\/>"
 msgstr "B<-d>, B<--date>=I<\\,字符串\\/>"
 
 #
-# File: raw/man1/date.1, line: 20
-# File: raw/man1/date.1, line: 20
-# File: raw/man1/date.1, line: 20
-# File: raw/man1/date.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/date.1:20
 msgid "display time described by STRING, not 'now'"
 msgstr "显示由字符串指定的时间，而不是当前时间"
 
-# File: raw/man1/date.1, line: 49
-# File: raw/man1/date.1, line: 20
-# File: raw/man1/date.1, line: 20
-# File: raw/man1/date.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/date.1:20
 #, no-wrap
@@ -138,19 +114,12 @@ msgid "B<--debug>"
 msgstr "B<--debug>"
 
 #
-# File: raw/man1/date.1, line: 24
-# File: raw/man1/date.1, line: 24
-# File: raw/man1/date.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/date.1:24
 msgid "annotate the parsed date, and warn about questionable usage to stderr"
 msgstr ""
 
 #
-# File: raw/man1/date.1, line: 20
-# File: raw/man1/date.1, line: 24
-# File: raw/man1/date.1, line: 24
-# File: raw/man1/date.1, line: 24
 #. type: TP
 #: raw/coreutils/man1/date.1:24
 #, fuzzy, no-wrap
@@ -158,10 +127,6 @@ msgid "B<-f>, B<--file>=I<\\,DATEFILE\\/>"
 msgstr "B<-f>, B<--file>=I<日期文件>"
 
 #
-# File: raw/man1/date.1, line: 23
-# File: raw/man1/date.1, line: 27
-# File: raw/man1/date.1, line: 27
-# File: raw/man1/date.1, line: 27
 #. type: Plain text
 #: raw/coreutils/man1/date.1:27
 #, fuzzy
@@ -169,10 +134,6 @@ msgid "like B<--date>; once for each line of DATEFILE"
 msgstr "如同将日期文件中的每行作为 B<--date> 的参数"
 
 #
-# File: raw/man1/date.1, line: 23
-# File: raw/man1/date.1, line: 27
-# File: raw/man1/date.1, line: 27
-# File: raw/man1/date.1, line: 27
 #. type: TP
 #: raw/coreutils/man1/date.1:27
 #, fuzzy, no-wrap
@@ -180,10 +141,6 @@ msgid "B<-I[FMT]>, B<--iso-8601>[=I<\\,FMT\\/>]"
 msgstr "B<-I[TIMESPEC]>, B<--iso-8601>[=I<TIMESPEC>]"
 
 #
-# File: raw/man1/date.1, line: 30
-# File: raw/man1/date.1, line: 34
-# File: raw/man1/date.1, line: 34
-# File: raw/man1/date.1, line: 34
 #. type: Plain text
 #: raw/coreutils/man1/date.1:34
 #, fuzzy
@@ -196,10 +153,6 @@ msgstr ""
 "\\&'hours', 'minutes', 'seconds' 或 'ns' 可以指定显示日期和时间的精确度。"
 
 #
-# File: raw/man1/date.1, line: 30
-# File: raw/man1/date.1, line: 34
-# File: raw/man1/date.1, line: 34
-# File: raw/man1/date.1, line: 34
 #. type: TP
 #: raw/coreutils/man1/date.1:34
 #, fuzzy, no-wrap
@@ -208,10 +161,6 @@ msgid "B<-R>, B<--rfc-email>"
 msgstr "B<-R>, B<--rfc-2822>"
 
 #
-# File: raw/man1/date.1, line: 34
-# File: raw/man1/date.1, line: 38
-# File: raw/man1/date.1, line: 38
-# File: raw/man1/date.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/date.1:38
 #, fuzzy
@@ -221,10 +170,6 @@ msgid ""
 msgstr "以 RFC 2822 格式输出日期与时间。例：Mon, 07 Aug 2006 12:34:56 B<-0600>"
 
 #
-# File: raw/man1/date.1, line: 34
-# File: raw/man1/date.1, line: 38
-# File: raw/man1/date.1, line: 38
-# File: raw/man1/date.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/date.1:38
 #, fuzzy, no-wrap
@@ -232,10 +177,6 @@ msgid "B<--rfc-3339>=I<\\,FMT\\/>"
 msgstr "B<--rfc-3339>=I<TIMESPEC>"
 
 #
-# File: raw/man1/date.1, line: 40
-# File: raw/man1/date.1, line: 44
-# File: raw/man1/date.1, line: 44
-# File: raw/man1/date.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/date.1:44
 #, fuzzy
@@ -247,10 +188,6 @@ msgstr ""
 "期和时间的精确度。日期和时间两部分由一个空格分隔：2006-08-07 12:34:56-06:00"
 
 #
-# File: raw/man1/date.1, line: 40
-# File: raw/man1/date.1, line: 44
-# File: raw/man1/date.1, line: 44
-# File: raw/man1/date.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/date.1:44
 #, fuzzy, no-wrap
@@ -258,20 +195,12 @@ msgid "B<-r>, B<--reference>=I<\\,FILE\\/>"
 msgstr "B<-r>, B<--reference>=I<文件>"
 
 #
-# File: raw/man1/date.1, line: 43
-# File: raw/man1/date.1, line: 47
-# File: raw/man1/date.1, line: 47
-# File: raw/man1/date.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/date.1:47
 msgid "display the last modification time of FILE"
 msgstr "显示指定文件的最后修改时间"
 
 #
-# File: raw/man1/date.1, line: 43
-# File: raw/man1/date.1, line: 47
-# File: raw/man1/date.1, line: 47
-# File: raw/man1/date.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/date.1:47
 #, fuzzy, no-wrap
@@ -279,10 +208,6 @@ msgid "B<-s>, B<--set>=I<\\,STRING\\/>"
 msgstr "B<-s>, B<--set>=I<字符串>"
 
 #
-# File: raw/man1/date.1, line: 46
-# File: raw/man1/date.1, line: 50
-# File: raw/man1/date.1, line: 50
-# File: raw/man1/date.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/date.1:50
 #, fuzzy
@@ -290,10 +215,6 @@ msgid "set time described by STRING"
 msgstr "将时间设置为字符串描述的时间"
 
 #
-# File: raw/man1/date.1, line: 46
-# File: raw/man1/date.1, line: 50
-# File: raw/man1/date.1, line: 50
-# File: raw/man1/date.1, line: 50
 #. type: TP
 #: raw/coreutils/man1/date.1:50
 #, no-wrap
@@ -301,10 +222,6 @@ msgid "B<-u>, B<--utc>, B<--universal>"
 msgstr "B<-u>, B<--utc>, B<--universal>"
 
 #
-# File: raw/man1/date.1, line: 49
-# File: raw/man1/date.1, line: 53
-# File: raw/man1/date.1, line: 53
-# File: raw/man1/date.1, line: 53
 #. type: Plain text
 #: raw/coreutils/man1/date.1:53
 #, fuzzy
@@ -312,10 +229,6 @@ msgid "print or set Coordinated Universal Time (UTC)"
 msgstr "输出或设置协调世界时 (UTC)"
 
 #
-# File: raw/man1/date.1, line: 49
-# File: raw/man1/date.1, line: 53
-# File: raw/man1/date.1, line: 53
-# File: raw/man1/date.1, line: 53
 #. type: TP
 #: raw/coreutils/man1/date.1:53
 #, no-wrap
@@ -323,20 +236,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/date.1, line: 52
-# File: raw/man1/date.1, line: 56
-# File: raw/man1/date.1, line: 56
-# File: raw/man1/date.1, line: 56
 #. type: Plain text
 #: raw/coreutils/man1/date.1:56
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/date.1, line: 52
-# File: raw/man1/date.1, line: 56
-# File: raw/man1/date.1, line: 56
-# File: raw/man1/date.1, line: 56
 #. type: TP
 #: raw/coreutils/man1/date.1:56
 #, no-wrap
@@ -344,20 +249,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/date.1, line: 55
-# File: raw/man1/date.1, line: 59
-# File: raw/man1/date.1, line: 59
-# File: raw/man1/date.1, line: 59
 #. type: Plain text
 #: raw/coreutils/man1/date.1:59
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/date.1, line: 57
-# File: raw/man1/date.1, line: 61
-# File: raw/man1/date.1, line: 61
-# File: raw/man1/date.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/date.1:61
 #, fuzzy
@@ -365,10 +262,6 @@ msgid "FORMAT controls the output.  Interpreted sequences are:"
 msgstr "格式字符串控制输出。转义序列如下所示："
 
 #
-# File: raw/man1/date.1, line: 57
-# File: raw/man1/date.1, line: 61
-# File: raw/man1/date.1, line: 61
-# File: raw/man1/date.1, line: 61
 #. type: TP
 #: raw/coreutils/man1/date.1:61
 #, no-wrap
@@ -376,20 +269,12 @@ msgid "%%"
 msgstr "%%"
 
 #
-# File: raw/man1/date.1, line: 60
-# File: raw/man1/date.1, line: 64
-# File: raw/man1/date.1, line: 64
-# File: raw/man1/date.1, line: 64
 #. type: Plain text
 #: raw/coreutils/man1/date.1:64
 msgid "a literal %"
 msgstr "一个 % 字符"
 
 #
-# File: raw/man1/date.1, line: 60
-# File: raw/man1/date.1, line: 64
-# File: raw/man1/date.1, line: 64
-# File: raw/man1/date.1, line: 64
 #. type: TP
 #: raw/coreutils/man1/date.1:64
 #, no-wrap
@@ -397,10 +282,6 @@ msgid "%a"
 msgstr "%a"
 
 #
-# File: raw/man1/date.1, line: 63
-# File: raw/man1/date.1, line: 67
-# File: raw/man1/date.1, line: 67
-# File: raw/man1/date.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/date.1:67
 #, fuzzy
@@ -408,10 +289,6 @@ msgid "locale's abbreviated weekday name (e.g., Sun)"
 msgstr "星期日期名称的缩略本地表示（例，'日'）"
 
 #
-# File: raw/man1/date.1, line: 63
-# File: raw/man1/date.1, line: 67
-# File: raw/man1/date.1, line: 67
-# File: raw/man1/date.1, line: 67
 #. type: TP
 #: raw/coreutils/man1/date.1:67
 #, no-wrap
@@ -419,10 +296,6 @@ msgid "%A"
 msgstr "%A"
 
 #
-# File: raw/man1/date.1, line: 66
-# File: raw/man1/date.1, line: 70
-# File: raw/man1/date.1, line: 70
-# File: raw/man1/date.1, line: 70
 #. type: Plain text
 #: raw/coreutils/man1/date.1:70
 #, fuzzy
@@ -430,10 +303,6 @@ msgid "locale's full weekday name (e.g., Sunday)"
 msgstr "星期日期的本地全称（例，'星期日'）"
 
 #
-# File: raw/man1/date.1, line: 66
-# File: raw/man1/date.1, line: 70
-# File: raw/man1/date.1, line: 70
-# File: raw/man1/date.1, line: 70
 #. type: TP
 #: raw/coreutils/man1/date.1:70
 #, no-wrap
@@ -441,10 +310,6 @@ msgid "%b"
 msgstr "%b"
 
 #
-# File: raw/man1/date.1, line: 69
-# File: raw/man1/date.1, line: 73
-# File: raw/man1/date.1, line: 73
-# File: raw/man1/date.1, line: 73
 #. type: Plain text
 #: raw/coreutils/man1/date.1:73
 #, fuzzy
@@ -452,10 +317,6 @@ msgid "locale's abbreviated month name (e.g., Jan)"
 msgstr "月份名称的缩略本地表示（例，' 1月'，'12月'）"
 
 #
-# File: raw/man1/date.1, line: 69
-# File: raw/man1/date.1, line: 73
-# File: raw/man1/date.1, line: 73
-# File: raw/man1/date.1, line: 73
 #. type: TP
 #: raw/coreutils/man1/date.1:73
 #, no-wrap
@@ -463,10 +324,6 @@ msgid "%B"
 msgstr "%B"
 
 #
-# File: raw/man1/date.1, line: 72
-# File: raw/man1/date.1, line: 76
-# File: raw/man1/date.1, line: 76
-# File: raw/man1/date.1, line: 76
 #. type: Plain text
 #: raw/coreutils/man1/date.1:76
 #, fuzzy
@@ -474,10 +331,6 @@ msgid "locale's full month name (e.g., January)"
 msgstr "月份的本地全称（例，'一月'）"
 
 #
-# File: raw/man1/date.1, line: 72
-# File: raw/man1/date.1, line: 76
-# File: raw/man1/date.1, line: 76
-# File: raw/man1/date.1, line: 76
 #. type: TP
 #: raw/coreutils/man1/date.1:76
 #, no-wrap
@@ -485,10 +338,6 @@ msgid "%c"
 msgstr "%c"
 
 #
-# File: raw/man1/date.1, line: 75
-# File: raw/man1/date.1, line: 79
-# File: raw/man1/date.1, line: 79
-# File: raw/man1/date.1, line: 79
 #. type: Plain text
 #: raw/coreutils/man1/date.1:79
 #, fuzzy
@@ -496,10 +345,6 @@ msgid "locale's date and time (e.g., Thu Mar 3 23:05:25 2005)"
 msgstr "日期和时间的本地表示（例，'2005年03月03日"
 
 #
-# File: raw/man1/date.1, line: 75
-# File: raw/man1/date.1, line: 79
-# File: raw/man1/date.1, line: 79
-# File: raw/man1/date.1, line: 79
 #. type: TP
 #: raw/coreutils/man1/date.1:79
 #, no-wrap
@@ -507,10 +352,6 @@ msgid "%C"
 msgstr "%C"
 
 #
-# File: raw/man1/date.1, line: 78
-# File: raw/man1/date.1, line: 82
-# File: raw/man1/date.1, line: 82
-# File: raw/man1/date.1, line: 82
 #. type: Plain text
 #: raw/coreutils/man1/date.1:82
 #, fuzzy
@@ -518,10 +359,6 @@ msgid "century; like %Y, except omit last two digits (e.g., 20)"
 msgstr "世纪；类似 %Y，但是省略最后两位数字（例，'20'）"
 
 #
-# File: raw/man1/date.1, line: 78
-# File: raw/man1/date.1, line: 82
-# File: raw/man1/date.1, line: 82
-# File: raw/man1/date.1, line: 82
 #. type: TP
 #: raw/coreutils/man1/date.1:82
 #, no-wrap
@@ -529,10 +366,6 @@ msgid "%d"
 msgstr "%d"
 
 #
-# File: raw/man1/date.1, line: 81
-# File: raw/man1/date.1, line: 85
-# File: raw/man1/date.1, line: 85
-# File: raw/man1/date.1, line: 85
 #. type: Plain text
 #: raw/coreutils/man1/date.1:85
 #, fuzzy
@@ -540,10 +373,6 @@ msgid "day of month (e.g., 01)"
 msgstr "月份中的天数（例，'01'）"
 
 #
-# File: raw/man1/date.1, line: 81
-# File: raw/man1/date.1, line: 85
-# File: raw/man1/date.1, line: 85
-# File: raw/man1/date.1, line: 85
 #. type: TP
 #: raw/coreutils/man1/date.1:85
 #, no-wrap
@@ -551,10 +380,6 @@ msgid "%D"
 msgstr "%D"
 
 #
-# File: raw/man1/date.1, line: 84
-# File: raw/man1/date.1, line: 88
-# File: raw/man1/date.1, line: 88
-# File: raw/man1/date.1, line: 88
 #. type: Plain text
 #: raw/coreutils/man1/date.1:88
 #, fuzzy
@@ -562,10 +387,6 @@ msgid "date; same as %m/%d/%y"
 msgstr "日期；与 %m/%d/%y 相同"
 
 #
-# File: raw/man1/date.1, line: 84
-# File: raw/man1/date.1, line: 88
-# File: raw/man1/date.1, line: 88
-# File: raw/man1/date.1, line: 88
 #. type: TP
 #: raw/coreutils/man1/date.1:88
 #, no-wrap
@@ -573,10 +394,6 @@ msgid "%e"
 msgstr "%e"
 
 #
-# File: raw/man1/date.1, line: 87
-# File: raw/man1/date.1, line: 91
-# File: raw/man1/date.1, line: 91
-# File: raw/man1/date.1, line: 91
 #. type: Plain text
 #: raw/coreutils/man1/date.1:91
 #, fuzzy
@@ -584,10 +401,6 @@ msgid "day of month, space padded; same as %_d"
 msgstr "月份中的天数，不够两位数时左侧添加空格；与 %_d 相同"
 
 #
-# File: raw/man1/date.1, line: 87
-# File: raw/man1/date.1, line: 91
-# File: raw/man1/date.1, line: 91
-# File: raw/man1/date.1, line: 91
 #. type: TP
 #: raw/coreutils/man1/date.1:91
 #, no-wrap
@@ -595,10 +408,6 @@ msgid "%F"
 msgstr "%F"
 
 #
-# File: raw/man1/date.1, line: 90
-# File: raw/man1/date.1, line: 94
-# File: raw/man1/date.1, line: 94
-# File: raw/man1/date.1, line: 94
 #. type: Plain text
 #: raw/coreutils/man1/date.1:94
 #, fuzzy
@@ -606,10 +415,6 @@ msgid "full date; same as %Y-%m-%d"
 msgstr "完整日期；与 %Y-%m-%d 相同"
 
 #
-# File: raw/man1/date.1, line: 90
-# File: raw/man1/date.1, line: 94
-# File: raw/man1/date.1, line: 94
-# File: raw/man1/date.1, line: 94
 #. type: TP
 #: raw/coreutils/man1/date.1:94
 #, no-wrap
@@ -617,10 +422,6 @@ msgid "%g"
 msgstr "%g"
 
 #
-# File: raw/man1/date.1, line: 93
-# File: raw/man1/date.1, line: 97
-# File: raw/man1/date.1, line: 97
-# File: raw/man1/date.1, line: 97
 #. type: Plain text
 #: raw/coreutils/man1/date.1:97
 #, fuzzy
@@ -628,10 +429,6 @@ msgid "last two digits of year of ISO week number (see %G)"
 msgstr "ISO 星期数的后两位（见 %G）"
 
 #
-# File: raw/man1/date.1, line: 93
-# File: raw/man1/date.1, line: 97
-# File: raw/man1/date.1, line: 97
-# File: raw/man1/date.1, line: 97
 #. type: TP
 #: raw/coreutils/man1/date.1:97
 #, no-wrap
@@ -639,10 +436,6 @@ msgid "%G"
 msgstr "%G"
 
 #
-# File: raw/man1/date.1, line: 96
-# File: raw/man1/date.1, line: 100
-# File: raw/man1/date.1, line: 100
-# File: raw/man1/date.1, line: 100
 #. type: Plain text
 #: raw/coreutils/man1/date.1:100
 #, fuzzy
@@ -650,10 +443,6 @@ msgid "year of ISO week number (see %V); normally useful only with %V"
 msgstr "ISO 星期数对应的年份（见 %V）；通常只在与 %V 共用时有意义"
 
 #
-# File: raw/man1/date.1, line: 96
-# File: raw/man1/date.1, line: 100
-# File: raw/man1/date.1, line: 100
-# File: raw/man1/date.1, line: 100
 #. type: TP
 #: raw/coreutils/man1/date.1:100
 #, no-wrap
@@ -661,10 +450,6 @@ msgid "%h"
 msgstr "%h"
 
 #
-# File: raw/man1/date.1, line: 99
-# File: raw/man1/date.1, line: 103
-# File: raw/man1/date.1, line: 103
-# File: raw/man1/date.1, line: 103
 #. type: Plain text
 #: raw/coreutils/man1/date.1:103
 #, fuzzy
@@ -672,10 +457,6 @@ msgid "same as %b"
 msgstr "和 %b 相同"
 
 #
-# File: raw/man1/date.1, line: 99
-# File: raw/man1/date.1, line: 103
-# File: raw/man1/date.1, line: 103
-# File: raw/man1/date.1, line: 103
 #. type: TP
 #: raw/coreutils/man1/date.1:103
 #, no-wrap
@@ -683,10 +464,6 @@ msgid "%H"
 msgstr "%H"
 
 #
-# File: raw/man1/date.1, line: 102
-# File: raw/man1/date.1, line: 106
-# File: raw/man1/date.1, line: 106
-# File: raw/man1/date.1, line: 106
 #. type: Plain text
 #: raw/coreutils/man1/date.1:106
 #, fuzzy
@@ -694,10 +471,6 @@ msgid "hour (00..23)"
 msgstr "小时 (00..23)"
 
 #
-# File: raw/man1/date.1, line: 102
-# File: raw/man1/date.1, line: 106
-# File: raw/man1/date.1, line: 106
-# File: raw/man1/date.1, line: 106
 #. type: TP
 #: raw/coreutils/man1/date.1:106
 #, no-wrap
@@ -705,10 +478,6 @@ msgid "%I"
 msgstr "%I"
 
 #
-# File: raw/man1/date.1, line: 105
-# File: raw/man1/date.1, line: 109
-# File: raw/man1/date.1, line: 109
-# File: raw/man1/date.1, line: 109
 #. type: Plain text
 #: raw/coreutils/man1/date.1:109
 #, fuzzy
@@ -716,10 +485,6 @@ msgid "hour (01..12)"
 msgstr "小时 (01..12)"
 
 #
-# File: raw/man1/date.1, line: 105
-# File: raw/man1/date.1, line: 109
-# File: raw/man1/date.1, line: 109
-# File: raw/man1/date.1, line: 109
 #. type: TP
 #: raw/coreutils/man1/date.1:109
 #, no-wrap
@@ -727,10 +492,6 @@ msgid "%j"
 msgstr "%j"
 
 #
-# File: raw/man1/date.1, line: 108
-# File: raw/man1/date.1, line: 112
-# File: raw/man1/date.1, line: 112
-# File: raw/man1/date.1, line: 112
 #. type: Plain text
 #: raw/coreutils/man1/date.1:112
 #, fuzzy
@@ -738,10 +499,6 @@ msgid "day of year (001..366)"
 msgstr "一年中的天数 (001..366)"
 
 #
-# File: raw/man1/date.1, line: 108
-# File: raw/man1/date.1, line: 112
-# File: raw/man1/date.1, line: 112
-# File: raw/man1/date.1, line: 112
 #. type: TP
 #: raw/coreutils/man1/date.1:112
 #, no-wrap
@@ -749,10 +506,6 @@ msgid "%k"
 msgstr "%k"
 
 #
-# File: raw/man1/date.1, line: 111
-# File: raw/man1/date.1, line: 115
-# File: raw/man1/date.1, line: 115
-# File: raw/man1/date.1, line: 115
 #. type: Plain text
 #: raw/coreutils/man1/date.1:115
 #, fuzzy
@@ -760,10 +513,6 @@ msgid "hour, space padded ( 0..23); same as %_H"
 msgstr "小时 ( 0..23)，不够两位数时左侧添加空格；与 %_H 相同"
 
 #
-# File: raw/man1/date.1, line: 111
-# File: raw/man1/date.1, line: 115
-# File: raw/man1/date.1, line: 115
-# File: raw/man1/date.1, line: 115
 #. type: TP
 #: raw/coreutils/man1/date.1:115
 #, no-wrap
@@ -771,10 +520,6 @@ msgid "%l"
 msgstr "%l"
 
 #
-# File: raw/man1/date.1, line: 114
-# File: raw/man1/date.1, line: 118
-# File: raw/man1/date.1, line: 118
-# File: raw/man1/date.1, line: 118
 #. type: Plain text
 #: raw/coreutils/man1/date.1:118
 #, fuzzy
@@ -782,10 +527,6 @@ msgid "hour, space padded ( 1..12); same as %_I"
 msgstr "小时 ( 1..12)，不够两位数时左侧添加空格；与 %_H 相同"
 
 #
-# File: raw/man1/date.1, line: 114
-# File: raw/man1/date.1, line: 118
-# File: raw/man1/date.1, line: 118
-# File: raw/man1/date.1, line: 118
 #. type: TP
 #: raw/coreutils/man1/date.1:118
 #, no-wrap
@@ -793,10 +534,6 @@ msgid "%m"
 msgstr "%m"
 
 #
-# File: raw/man1/date.1, line: 117
-# File: raw/man1/date.1, line: 121
-# File: raw/man1/date.1, line: 121
-# File: raw/man1/date.1, line: 121
 #. type: Plain text
 #: raw/coreutils/man1/date.1:121
 #, fuzzy
@@ -804,10 +541,6 @@ msgid "month (01..12)"
 msgstr "月份 (01..12)"
 
 #
-# File: raw/man1/date.1, line: 117
-# File: raw/man1/date.1, line: 121
-# File: raw/man1/date.1, line: 121
-# File: raw/man1/date.1, line: 121
 #. type: TP
 #: raw/coreutils/man1/date.1:121
 #, no-wrap
@@ -815,10 +548,6 @@ msgid "%M"
 msgstr "%M"
 
 #
-# File: raw/man1/date.1, line: 120
-# File: raw/man1/date.1, line: 124
-# File: raw/man1/date.1, line: 124
-# File: raw/man1/date.1, line: 124
 #. type: Plain text
 #: raw/coreutils/man1/date.1:124
 #, fuzzy
@@ -826,10 +555,6 @@ msgid "minute (00..59)"
 msgstr "分钟 (00..59)"
 
 #
-# File: raw/man1/date.1, line: 120
-# File: raw/man1/date.1, line: 124
-# File: raw/man1/date.1, line: 124
-# File: raw/man1/date.1, line: 124
 #. type: TP
 #: raw/coreutils/man1/date.1:124
 #, no-wrap
@@ -837,10 +562,6 @@ msgid "%n"
 msgstr "%n"
 
 #
-# File: raw/man1/date.1, line: 123
-# File: raw/man1/date.1, line: 127
-# File: raw/man1/date.1, line: 127
-# File: raw/man1/date.1, line: 127
 #. type: Plain text
 #: raw/coreutils/man1/date.1:127
 #, fuzzy
@@ -848,10 +569,6 @@ msgid "a newline"
 msgstr "一个换行符"
 
 #
-# File: raw/man1/date.1, line: 123
-# File: raw/man1/date.1, line: 127
-# File: raw/man1/date.1, line: 127
-# File: raw/man1/date.1, line: 127
 #. type: TP
 #: raw/coreutils/man1/date.1:127
 #, no-wrap
@@ -859,10 +576,6 @@ msgid "%N"
 msgstr "%N"
 
 #
-# File: raw/man1/date.1, line: 126
-# File: raw/man1/date.1, line: 130
-# File: raw/man1/date.1, line: 130
-# File: raw/man1/date.1, line: 130
 #. type: Plain text
 #: raw/coreutils/man1/date.1:130
 #, fuzzy
@@ -870,10 +583,6 @@ msgid "nanoseconds (000000000..999999999)"
 msgstr "纳秒 (000000000..999999999)"
 
 #
-# File: raw/man1/date.1, line: 126
-# File: raw/man1/date.1, line: 130
-# File: raw/man1/date.1, line: 130
-# File: raw/man1/date.1, line: 130
 #. type: TP
 #: raw/coreutils/man1/date.1:130
 #, no-wrap
@@ -881,10 +590,6 @@ msgid "%p"
 msgstr "%p"
 
 #
-# File: raw/man1/date.1, line: 129
-# File: raw/man1/date.1, line: 133
-# File: raw/man1/date.1, line: 133
-# File: raw/man1/date.1, line: 133
 #. type: Plain text
 #: raw/coreutils/man1/date.1:133
 #, fuzzy
@@ -892,10 +597,6 @@ msgid "locale's equivalent of either AM or PM; blank if not known"
 msgstr "与 AM 或 PM 等价的本地表示；如果未知则为空"
 
 #
-# File: raw/man1/date.1, line: 129
-# File: raw/man1/date.1, line: 133
-# File: raw/man1/date.1, line: 133
-# File: raw/man1/date.1, line: 133
 #. type: TP
 #: raw/coreutils/man1/date.1:133
 #, no-wrap
@@ -903,10 +604,6 @@ msgid "%P"
 msgstr "%P"
 
 #
-# File: raw/man1/date.1, line: 132
-# File: raw/man1/date.1, line: 136
-# File: raw/man1/date.1, line: 136
-# File: raw/man1/date.1, line: 136
 #. type: Plain text
 #: raw/coreutils/man1/date.1:136
 #, fuzzy
@@ -921,10 +618,6 @@ msgid "%q"
 msgstr "%q"
 
 #
-# File: raw/man1/date.1, line: 108
-# File: raw/man1/date.1, line: 139
-# File: raw/man1/date.1, line: 139
-# File: raw/man1/date.1, line: 139
 #. type: Plain text
 #: raw/coreutils/man1/date.1:139
 #, fuzzy
@@ -932,10 +625,6 @@ msgid "quarter of year (1..4)"
 msgstr "一年中的天数 (001..366)"
 
 #
-# File: raw/man1/date.1, line: 132
-# File: raw/man1/date.1, line: 139
-# File: raw/man1/date.1, line: 139
-# File: raw/man1/date.1, line: 139
 #. type: TP
 #: raw/coreutils/man1/date.1:139
 #, no-wrap
@@ -943,10 +632,6 @@ msgid "%r"
 msgstr "%r"
 
 #
-# File: raw/man1/date.1, line: 135
-# File: raw/man1/date.1, line: 142
-# File: raw/man1/date.1, line: 142
-# File: raw/man1/date.1, line: 142
 #. type: Plain text
 #: raw/coreutils/man1/date.1:142
 #, fuzzy
@@ -954,10 +639,6 @@ msgid "locale's 12-hour clock time (e.g., 11:11:04 PM)"
 msgstr "12小时制钟表时间的本地表示（例，'下午 11时11分04秒'）"
 
 #
-# File: raw/man1/date.1, line: 135
-# File: raw/man1/date.1, line: 142
-# File: raw/man1/date.1, line: 142
-# File: raw/man1/date.1, line: 142
 #. type: TP
 #: raw/coreutils/man1/date.1:142
 #, no-wrap
@@ -965,10 +646,6 @@ msgid "%R"
 msgstr "%R"
 
 #
-# File: raw/man1/date.1, line: 138
-# File: raw/man1/date.1, line: 145
-# File: raw/man1/date.1, line: 145
-# File: raw/man1/date.1, line: 145
 #. type: Plain text
 #: raw/coreutils/man1/date.1:145
 #, fuzzy
@@ -976,10 +653,6 @@ msgid "24-hour hour and minute; same as %H:%M"
 msgstr "24小时制的小时与分钟；与 %H:%M 相同"
 
 #
-# File: raw/man1/date.1, line: 138
-# File: raw/man1/date.1, line: 145
-# File: raw/man1/date.1, line: 145
-# File: raw/man1/date.1, line: 145
 #. type: TP
 #: raw/coreutils/man1/date.1:145
 #, no-wrap
@@ -987,10 +660,6 @@ msgid "%s"
 msgstr "%s"
 
 #
-# File: raw/man1/date.1, line: 141
-# File: raw/man1/date.1, line: 148
-# File: raw/man1/date.1, line: 148
-# File: raw/man1/date.1, line: 148
 #. type: Plain text
 #: raw/coreutils/man1/date.1:148
 #, fuzzy
@@ -998,10 +667,6 @@ msgid "seconds since 1970-01-01 00:00:00 UTC"
 msgstr "自 1970-01-01 00:00:00 UTC 以来的秒数"
 
 #
-# File: raw/man1/date.1, line: 141
-# File: raw/man1/date.1, line: 148
-# File: raw/man1/date.1, line: 148
-# File: raw/man1/date.1, line: 148
 #. type: TP
 #: raw/coreutils/man1/date.1:148
 #, no-wrap
@@ -1009,10 +674,6 @@ msgid "%S"
 msgstr "%S"
 
 #
-# File: raw/man1/date.1, line: 144
-# File: raw/man1/date.1, line: 151
-# File: raw/man1/date.1, line: 151
-# File: raw/man1/date.1, line: 151
 #. type: Plain text
 #: raw/coreutils/man1/date.1:151
 #, fuzzy
@@ -1020,10 +681,6 @@ msgid "second (00..60)"
 msgstr "秒 (00..60)"
 
 #
-# File: raw/man1/date.1, line: 144
-# File: raw/man1/date.1, line: 151
-# File: raw/man1/date.1, line: 151
-# File: raw/man1/date.1, line: 151
 #. type: TP
 #: raw/coreutils/man1/date.1:151
 #, no-wrap
@@ -1031,10 +688,6 @@ msgid "%t"
 msgstr "%t"
 
 #
-# File: raw/man1/date.1, line: 147
-# File: raw/man1/date.1, line: 154
-# File: raw/man1/date.1, line: 154
-# File: raw/man1/date.1, line: 154
 #. type: Plain text
 #: raw/coreutils/man1/date.1:154
 #, fuzzy
@@ -1042,10 +695,6 @@ msgid "a tab"
 msgstr "一个制表符"
 
 #
-# File: raw/man1/date.1, line: 147
-# File: raw/man1/date.1, line: 154
-# File: raw/man1/date.1, line: 154
-# File: raw/man1/date.1, line: 154
 #. type: TP
 #: raw/coreutils/man1/date.1:154
 #, no-wrap
@@ -1053,10 +702,6 @@ msgid "%T"
 msgstr "%T"
 
 #
-# File: raw/man1/date.1, line: 150
-# File: raw/man1/date.1, line: 157
-# File: raw/man1/date.1, line: 157
-# File: raw/man1/date.1, line: 157
 #. type: Plain text
 #: raw/coreutils/man1/date.1:157
 #, fuzzy
@@ -1064,10 +709,6 @@ msgid "time; same as %H:%M:%S"
 msgstr "时间；与 %H:%M:%S 相同"
 
 #
-# File: raw/man1/date.1, line: 150
-# File: raw/man1/date.1, line: 157
-# File: raw/man1/date.1, line: 157
-# File: raw/man1/date.1, line: 157
 #. type: TP
 #: raw/coreutils/man1/date.1:157
 #, no-wrap
@@ -1075,10 +716,6 @@ msgid "%u"
 msgstr "%u"
 
 #
-# File: raw/man1/date.1, line: 153
-# File: raw/man1/date.1, line: 160
-# File: raw/man1/date.1, line: 160
-# File: raw/man1/date.1, line: 160
 #. type: Plain text
 #: raw/coreutils/man1/date.1:160
 #, fuzzy
@@ -1086,10 +723,6 @@ msgid "day of week (1..7); 1 is Monday"
 msgstr "一周中的天数 (1..7)；1 是周一"
 
 #
-# File: raw/man1/date.1, line: 153
-# File: raw/man1/date.1, line: 160
-# File: raw/man1/date.1, line: 160
-# File: raw/man1/date.1, line: 160
 #. type: TP
 #: raw/coreutils/man1/date.1:160
 #, no-wrap
@@ -1097,10 +730,6 @@ msgid "%U"
 msgstr "%U"
 
 #
-# File: raw/man1/date.1, line: 156
-# File: raw/man1/date.1, line: 163
-# File: raw/man1/date.1, line: 163
-# File: raw/man1/date.1, line: 163
 #. type: Plain text
 #: raw/coreutils/man1/date.1:163
 #, fuzzy
@@ -1108,10 +737,6 @@ msgid "week number of year, with Sunday as first day of week (00..53)"
 msgstr "一年中的星期数；周日作为一周的第一天 (00..53)"
 
 #
-# File: raw/man1/date.1, line: 156
-# File: raw/man1/date.1, line: 163
-# File: raw/man1/date.1, line: 163
-# File: raw/man1/date.1, line: 163
 #. type: TP
 #: raw/coreutils/man1/date.1:163
 #, no-wrap
@@ -1119,10 +744,6 @@ msgid "%V"
 msgstr "%V"
 
 #
-# File: raw/man1/date.1, line: 159
-# File: raw/man1/date.1, line: 166
-# File: raw/man1/date.1, line: 166
-# File: raw/man1/date.1, line: 166
 #. type: Plain text
 #: raw/coreutils/man1/date.1:166
 #, fuzzy
@@ -1130,10 +751,6 @@ msgid "ISO week number, with Monday as first day of week (01..53)"
 msgstr "ISO 星期数，周一作为一周的第一天 (01..53)"
 
 #
-# File: raw/man1/date.1, line: 159
-# File: raw/man1/date.1, line: 166
-# File: raw/man1/date.1, line: 166
-# File: raw/man1/date.1, line: 166
 #. type: TP
 #: raw/coreutils/man1/date.1:166
 #, no-wrap
@@ -1141,10 +758,6 @@ msgid "%w"
 msgstr "%w"
 
 #
-# File: raw/man1/date.1, line: 162
-# File: raw/man1/date.1, line: 169
-# File: raw/man1/date.1, line: 169
-# File: raw/man1/date.1, line: 169
 #. type: Plain text
 #: raw/coreutils/man1/date.1:169
 #, fuzzy
@@ -1152,10 +765,6 @@ msgid "day of week (0..6); 0 is Sunday"
 msgstr "一周中的天数 (0..6)；0 是周日"
 
 #
-# File: raw/man1/date.1, line: 162
-# File: raw/man1/date.1, line: 169
-# File: raw/man1/date.1, line: 169
-# File: raw/man1/date.1, line: 169
 #. type: TP
 #: raw/coreutils/man1/date.1:169
 #, no-wrap
@@ -1163,10 +772,6 @@ msgid "%W"
 msgstr "%W"
 
 #
-# File: raw/man1/date.1, line: 165
-# File: raw/man1/date.1, line: 172
-# File: raw/man1/date.1, line: 172
-# File: raw/man1/date.1, line: 172
 #. type: Plain text
 #: raw/coreutils/man1/date.1:172
 #, fuzzy
@@ -1174,10 +779,6 @@ msgid "week number of year, with Monday as first day of week (00..53)"
 msgstr "一年中的星期数；周一作为一周的第一天 (00..53)"
 
 #
-# File: raw/man1/date.1, line: 165
-# File: raw/man1/date.1, line: 172
-# File: raw/man1/date.1, line: 172
-# File: raw/man1/date.1, line: 172
 #. type: TP
 #: raw/coreutils/man1/date.1:172
 #, no-wrap
@@ -1185,10 +786,6 @@ msgid "%x"
 msgstr "%x"
 
 #
-# File: raw/man1/date.1, line: 168
-# File: raw/man1/date.1, line: 175
-# File: raw/man1/date.1, line: 175
-# File: raw/man1/date.1, line: 175
 #. type: Plain text
 #: raw/coreutils/man1/date.1:175
 #, fuzzy
@@ -1196,10 +793,6 @@ msgid "locale's date representation (e.g., 12/31/99)"
 msgstr "本地的日期表示（例如，'12/31/99', '1999年12月31日')"
 
 #
-# File: raw/man1/date.1, line: 168
-# File: raw/man1/date.1, line: 175
-# File: raw/man1/date.1, line: 175
-# File: raw/man1/date.1, line: 175
 #. type: TP
 #: raw/coreutils/man1/date.1:175
 #, no-wrap
@@ -1207,10 +800,6 @@ msgid "%X"
 msgstr "%X"
 
 #
-# File: raw/man1/date.1, line: 171
-# File: raw/man1/date.1, line: 178
-# File: raw/man1/date.1, line: 178
-# File: raw/man1/date.1, line: 178
 #. type: Plain text
 #: raw/coreutils/man1/date.1:178
 #, fuzzy
@@ -1218,10 +807,6 @@ msgid "locale's time representation (e.g., 23:13:48)"
 msgstr "本地的时间表示（例如，'23:13:48', '23时13分48秒')"
 
 #
-# File: raw/man1/date.1, line: 171
-# File: raw/man1/date.1, line: 178
-# File: raw/man1/date.1, line: 178
-# File: raw/man1/date.1, line: 178
 #. type: TP
 #: raw/coreutils/man1/date.1:178
 #, no-wrap
@@ -1229,10 +814,6 @@ msgid "%y"
 msgstr "%y"
 
 #
-# File: raw/man1/date.1, line: 174
-# File: raw/man1/date.1, line: 181
-# File: raw/man1/date.1, line: 181
-# File: raw/man1/date.1, line: 181
 #. type: Plain text
 #: raw/coreutils/man1/date.1:181
 #, fuzzy
@@ -1240,10 +821,6 @@ msgid "last two digits of year (00..99)"
 msgstr "年份的后两位数字 (00..99)"
 
 #
-# File: raw/man1/date.1, line: 174
-# File: raw/man1/date.1, line: 181
-# File: raw/man1/date.1, line: 181
-# File: raw/man1/date.1, line: 181
 #. type: TP
 #: raw/coreutils/man1/date.1:181
 #, no-wrap
@@ -1251,10 +828,6 @@ msgid "%Y"
 msgstr "%Y"
 
 #
-# File: raw/man1/date.1, line: 177
-# File: raw/man1/date.1, line: 184
-# File: raw/man1/date.1, line: 184
-# File: raw/man1/date.1, line: 184
 #. type: Plain text
 #: raw/coreutils/man1/date.1:184
 #, fuzzy
@@ -1262,10 +835,6 @@ msgid "year"
 msgstr "年份"
 
 #
-# File: raw/man1/date.1, line: 177
-# File: raw/man1/date.1, line: 184
-# File: raw/man1/date.1, line: 184
-# File: raw/man1/date.1, line: 184
 #. type: TP
 #: raw/coreutils/man1/date.1:184
 #, no-wrap
@@ -1273,10 +842,6 @@ msgid "%z"
 msgstr "%z"
 
 #
-# File: raw/man1/date.1, line: 180
-# File: raw/man1/date.1, line: 187
-# File: raw/man1/date.1, line: 187
-# File: raw/man1/date.1, line: 187
 #. type: Plain text
 #: raw/coreutils/man1/date.1:187
 #, fuzzy
@@ -1284,10 +849,6 @@ msgid "+hhmm numeric time zone (e.g., B<-0400>)"
 msgstr "+hhmm 数字时区表示（例，'B<-0400>'）"
 
 #
-# File: raw/man1/date.1, line: 180
-# File: raw/man1/date.1, line: 187
-# File: raw/man1/date.1, line: 187
-# File: raw/man1/date.1, line: 187
 #. type: TP
 #: raw/coreutils/man1/date.1:187
 #, no-wrap
@@ -1295,10 +856,6 @@ msgid "%:z"
 msgstr "%:z"
 
 #
-# File: raw/man1/date.1, line: 183
-# File: raw/man1/date.1, line: 190
-# File: raw/man1/date.1, line: 190
-# File: raw/man1/date.1, line: 190
 #. type: Plain text
 #: raw/coreutils/man1/date.1:190
 #, fuzzy
@@ -1306,10 +863,6 @@ msgid "+hh:mm numeric time zone (e.g., B<-04>:00)"
 msgstr "+hh:mm 数字时区表示（例，'B<-04>:00'）"
 
 #
-# File: raw/man1/date.1, line: 183
-# File: raw/man1/date.1, line: 190
-# File: raw/man1/date.1, line: 190
-# File: raw/man1/date.1, line: 190
 #. type: TP
 #: raw/coreutils/man1/date.1:190
 #, no-wrap
@@ -1317,10 +870,6 @@ msgid "%::z"
 msgstr "%::z"
 
 #
-# File: raw/man1/date.1, line: 186
-# File: raw/man1/date.1, line: 193
-# File: raw/man1/date.1, line: 193
-# File: raw/man1/date.1, line: 193
 #. type: Plain text
 #: raw/coreutils/man1/date.1:193
 #, fuzzy
@@ -1328,10 +877,6 @@ msgid "+hh:mm:ss numeric time zone (e.g., B<-04>:00:00)"
 msgstr "+hh:mm:ss 数字时区表示（例，'B<-04>:00:00'）"
 
 #
-# File: raw/man1/date.1, line: 186
-# File: raw/man1/date.1, line: 193
-# File: raw/man1/date.1, line: 193
-# File: raw/man1/date.1, line: 193
 #. type: TP
 #: raw/coreutils/man1/date.1:193
 #, no-wrap
@@ -1339,10 +884,6 @@ msgid "%:::z"
 msgstr "%:::z"
 
 #
-# File: raw/man1/date.1, line: 189
-# File: raw/man1/date.1, line: 196
-# File: raw/man1/date.1, line: 196
-# File: raw/man1/date.1, line: 196
 #. type: Plain text
 #: raw/coreutils/man1/date.1:196
 #, fuzzy
@@ -1350,10 +891,6 @@ msgid "numeric time zone with : to necessary precision (e.g., B<-04>, +05:30)"
 msgstr "数字时区表示，':' 在精确度需要的时候添加（例，'B<-04>, +05:30'）"
 
 #
-# File: raw/man1/date.1, line: 189
-# File: raw/man1/date.1, line: 196
-# File: raw/man1/date.1, line: 196
-# File: raw/man1/date.1, line: 196
 #. type: TP
 #: raw/coreutils/man1/date.1:196
 #, no-wrap
@@ -1361,10 +898,6 @@ msgid "%Z"
 msgstr "%Z"
 
 #
-# File: raw/man1/date.1, line: 192
-# File: raw/man1/date.1, line: 199
-# File: raw/man1/date.1, line: 199
-# File: raw/man1/date.1, line: 199
 #. type: Plain text
 #: raw/coreutils/man1/date.1:199
 #, fuzzy
@@ -1372,10 +905,6 @@ msgid "alphabetic time zone abbreviation (e.g., EDT)"
 msgstr "拉丁字母表示的时区缩写（例，'EDT'）"
 
 #
-# File: raw/man1/date.1, line: 195
-# File: raw/man1/date.1, line: 202
-# File: raw/man1/date.1, line: 202
-# File: raw/man1/date.1, line: 202
 #. type: Plain text
 #: raw/coreutils/man1/date.1:202
 #, fuzzy
@@ -1385,10 +914,6 @@ msgid ""
 msgstr "默认情况下，date 使用 0 填充空白位。下列可选标志可以跟随在 '%' 之后："
 
 #
-# File: raw/man1/date.1, line: 195
-# File: raw/man1/date.1, line: 202
-# File: raw/man1/date.1, line: 202
-# File: raw/man1/date.1, line: 202
 #. type: TP
 #: raw/coreutils/man1/date.1:202
 #, no-wrap
@@ -1396,10 +921,6 @@ msgid "-"
 msgstr "-"
 
 #
-# File: raw/man1/date.1, line: 198
-# File: raw/man1/date.1, line: 205
-# File: raw/man1/date.1, line: 205
-# File: raw/man1/date.1, line: 205
 #. type: Plain text
 #: raw/coreutils/man1/date.1:205
 #, fuzzy
@@ -1407,10 +928,6 @@ msgid "(hyphen) do not pad the field"
 msgstr "（连字符）不要填充空白位"
 
 #
-# File: raw/man1/date.1, line: 198
-# File: raw/man1/date.1, line: 205
-# File: raw/man1/date.1, line: 205
-# File: raw/man1/date.1, line: 205
 #. type: TP
 #: raw/coreutils/man1/date.1:205
 #, no-wrap
@@ -1418,10 +935,6 @@ msgid "_"
 msgstr "_"
 
 #
-# File: raw/man1/date.1, line: 201
-# File: raw/man1/date.1, line: 208
-# File: raw/man1/date.1, line: 208
-# File: raw/man1/date.1, line: 208
 #. type: Plain text
 #: raw/coreutils/man1/date.1:208
 #, fuzzy
@@ -1429,10 +942,6 @@ msgid "(underscore) pad with spaces"
 msgstr "（下划线）使用空格填充空白位"
 
 #
-# File: raw/man1/date.1, line: 201
-# File: raw/man1/date.1, line: 208
-# File: raw/man1/date.1, line: 208
-# File: raw/man1/date.1, line: 208
 #. type: TP
 #: raw/coreutils/man1/date.1:208
 #, no-wrap
@@ -1440,20 +949,12 @@ msgid "0"
 msgstr "0"
 
 #
-# File: raw/man1/date.1, line: 204
-# File: raw/man1/date.1, line: 211
-# File: raw/man1/date.1, line: 211
-# File: raw/man1/date.1, line: 211
 #. type: Plain text
 #: raw/coreutils/man1/date.1:211
 msgid "(zero) pad with zeros"
 msgstr "（零）使用数字 0 填充空白位"
 
 #
-# File: raw/man1/date.1, line: 204
-# File: raw/man1/date.1, line: 211
-# File: raw/man1/date.1, line: 211
-# File: raw/man1/date.1, line: 211
 #. type: TP
 #: raw/coreutils/man1/date.1:211
 #, no-wrap
@@ -1461,20 +962,12 @@ msgid "^"
 msgstr "^"
 
 #
-# File: raw/man1/date.1, line: 207
-# File: raw/man1/date.1, line: 214
-# File: raw/man1/date.1, line: 214
-# File: raw/man1/date.1, line: 214
 #. type: Plain text
 #: raw/coreutils/man1/date.1:214
 msgid "use upper case if possible"
 msgstr "如果可能，使用大写形式"
 
 #
-# File: raw/man1/date.1, line: 207
-# File: raw/man1/date.1, line: 214
-# File: raw/man1/date.1, line: 214
-# File: raw/man1/date.1, line: 214
 #. type: TP
 #: raw/coreutils/man1/date.1:214
 #, no-wrap
@@ -1482,10 +975,6 @@ msgid "#"
 msgstr "#"
 
 #
-# File: raw/man1/date.1, line: 210
-# File: raw/man1/date.1, line: 217
-# File: raw/man1/date.1, line: 217
-# File: raw/man1/date.1, line: 217
 #. type: Plain text
 #: raw/coreutils/man1/date.1:217
 #, fuzzy
@@ -1493,10 +982,6 @@ msgid "use opposite case if possible"
 msgstr "如果可能，使用大小写的相反格式"
 
 #
-# File: raw/man1/date.1, line: 215
-# File: raw/man1/date.1, line: 222
-# File: raw/man1/date.1, line: 222
-# File: raw/man1/date.1, line: 222
 #. type: Plain text
 #: raw/coreutils/man1/date.1:222
 #, fuzzy
@@ -1511,10 +996,6 @@ msgstr ""
 "'O'，表示在可用的情况下使用本地的数字符号表示方式。"
 
 #
-# File: raw/man1/date.1, line: 215
-# File: raw/man1/date.1, line: 222
-# File: raw/man1/date.1, line: 222
-# File: raw/man1/date.1, line: 222
 #. type: SH
 #: raw/coreutils/man1/date.1:222
 #, no-wrap
@@ -1522,10 +1003,6 @@ msgid "EXAMPLES"
 msgstr "范例"
 
 #
-# File: raw/man1/date.1, line: 217
-# File: raw/man1/date.1, line: 224
-# File: raw/man1/date.1, line: 224
-# File: raw/man1/date.1, line: 224
 #. type: Plain text
 #: raw/coreutils/man1/date.1:224
 #, fuzzy
@@ -1533,20 +1010,12 @@ msgid "Convert seconds since the epoch (1970-01-01 UTC) to a date"
 msgstr "将自 epoch (1970-01-01 UTC) 以来的秒数转换为一个日期"
 
 #
-# File: raw/man1/date.1, line: 219
-# File: raw/man1/date.1, line: 226
-# File: raw/man1/date.1, line: 226
-# File: raw/man1/date.1, line: 226
 #. type: Plain text
 #: raw/coreutils/man1/date.1:226
 msgid "CW<$ date --date='@2147483647'>"
 msgstr "CW<$ date --date='@2147483647'>"
 
 #
-# File: raw/man1/date.1, line: 221
-# File: raw/man1/date.1, line: 228
-# File: raw/man1/date.1, line: 228
-# File: raw/man1/date.1, line: 228
 #. type: Plain text
 #: raw/coreutils/man1/date.1:228
 #, fuzzy
@@ -1554,20 +1023,12 @@ msgid "Show the time on the west coast of the US (use tzselect(1) to find TZ)"
 msgstr "显示美国西海岸的当前时间（使用 tzselect(1) 来寻找 TZ）"
 
 #
-# File: raw/man1/date.1, line: 223
-# File: raw/man1/date.1, line: 230
-# File: raw/man1/date.1, line: 230
-# File: raw/man1/date.1, line: 230
 #. type: Plain text
 #: raw/coreutils/man1/date.1:230
 msgid "CW<$ TZ='America/Los_Angeles' date>"
 msgstr "CW<$ TZ='America/Los_Angeles' date>"
 
 #
-# File: raw/man1/date.1, line: 225
-# File: raw/man1/date.1, line: 232
-# File: raw/man1/date.1, line: 232
-# File: raw/man1/date.1, line: 232
 #. type: Plain text
 #: raw/coreutils/man1/date.1:232
 #, fuzzy
@@ -1575,20 +1036,12 @@ msgid "Show the local time for 9AM next Friday on the west coast of the US"
 msgstr "显示美国西海岸下周五上午 9 时的当地时间"
 
 #
-# File: raw/man1/date.1, line: 227
-# File: raw/man1/date.1, line: 234
-# File: raw/man1/date.1, line: 234
-# File: raw/man1/date.1, line: 234
 #. type: Plain text
 #: raw/coreutils/man1/date.1:234
 msgid "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
 msgstr "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
 
 #
-# File: raw/man1/date.1, line: 227
-# File: raw/man1/date.1, line: 234
-# File: raw/man1/date.1, line: 234
-# File: raw/man1/date.1, line: 234
 #. type: SH
 #: raw/coreutils/man1/date.1:234
 #, no-wrap
@@ -1596,10 +1049,6 @@ msgid "DATE STRING"
 msgstr "日期字符串"
 
 #
-# File: raw/man1/date.1, line: 236
-# File: raw/man1/date.1, line: 243
-# File: raw/man1/date.1, line: 243
-# File: raw/man1/date.1, line: 243
 #.  NOTE: keep this paragraph in sync with the one in touch.x
 #. type: Plain text
 #: raw/coreutils/man1/date.1:243
@@ -1620,10 +1069,6 @@ msgstr ""
 "找到完整内容。"
 
 #
-# File: raw/man1/date.1, line: 236
-# File: raw/man1/date.1, line: 243
-# File: raw/man1/date.1, line: 243
-# File: raw/man1/date.1, line: 243
 #. type: SH
 #: raw/coreutils/man1/date.1:243
 #, no-wrap
@@ -1631,20 +1076,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/date.1, line: 238
-# File: raw/man1/date.1, line: 245
-# File: raw/man1/date.1, line: 245
-# File: raw/man1/date.1, line: 245
 #. type: Plain text
 #: raw/coreutils/man1/date.1:245
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/date.1, line: 238
-# File: raw/man1/date.1, line: 245
-# File: raw/man1/date.1, line: 245
-# File: raw/man1/date.1, line: 245
 #. type: SH
 #: raw/coreutils/man1/date.1:245
 #, no-wrap
@@ -1652,10 +1089,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/date.1, line: 240
-# File: raw/man1/date.1, line: 247
-# File: raw/man1/date.1, line: 247
-# File: raw/man1/date.1, line: 247
 #. type: Plain text
 #: raw/coreutils/man1/date.1:247
 msgid ""
@@ -1664,10 +1097,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/date.1, line: 242
-# File: raw/man1/date.1, line: 249
-# File: raw/man1/date.1, line: 249
-# File: raw/man1/date.1, line: 249
 #. type: Plain text
 #: raw/coreutils/man1/date.1:249
 msgid ""
@@ -1677,10 +1106,6 @@ msgstr ""
 "错误。"
 
 #
-# File: raw/man1/date.1, line: 242
-# File: raw/man1/date.1, line: 249
-# File: raw/man1/date.1, line: 249
-# File: raw/man1/date.1, line: 249
 #. type: SH
 #: raw/coreutils/man1/date.1:249
 #, no-wrap
@@ -1688,10 +1113,6 @@ msgid "COPYRIGHT"
 msgstr "版权"
 
 #
-# File: raw/man1/date.1, line: 245
-# File: raw/man1/date.1, line: 252
-# File: raw/man1/date.1, line: 252
-# File: raw/man1/date.1, line: 252
 #. type: Plain text
 #: raw/coreutils/man1/date.1:252
 #, fuzzy
@@ -1706,10 +1127,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/date.1, line: 248
-# File: raw/man1/date.1, line: 255
-# File: raw/man1/date.1, line: 255
-# File: raw/man1/date.1, line: 255
 #. type: Plain text
 #: raw/coreutils/man1/date.1:255
 msgid ""
@@ -1720,10 +1137,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/date.1, line: 248
-# File: raw/man1/date.1, line: 255
-# File: raw/man1/date.1, line: 255
-# File: raw/man1/date.1, line: 255
 #. type: SH
 #: raw/coreutils/man1/date.1:255
 #, no-wrap
@@ -1731,10 +1144,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/date.1, line: 250
-# File: raw/man1/date.1, line: 257
-# File: raw/man1/date.1, line: 257
-# File: raw/man1/date.1, line: 257
 #. type: Plain text
 #: raw/coreutils/man1/date.1:257
 msgid ""
@@ -1742,10 +1151,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/dateE<gt>"
 
 #
-# File: raw/man1/date.1, line: 251
-# File: raw/man1/date.1, line: 258
-# File: raw/man1/date.1, line: 258
-# File: raw/man1/date.1, line: 258
 #. type: Plain text
 #: raw/coreutils/man1/date.1:258
 msgid "or available locally via: info \\(aq(coreutils) date invocation\\(aq"

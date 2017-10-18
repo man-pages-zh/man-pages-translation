@@ -20,9 +20,6 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #
-# File: raw/man1/sha256sum.1, line: 2
-# File: raw/man1/sha256sum.1, line: 2
-# File: raw/man1/sha256sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha256sum.1:2
 #, no-wrap
@@ -30,8 +27,6 @@ msgid "SHA256SUM"
 msgstr "SHA256SUM"
 
 #
-# File: raw/man1/sha256sum.1, line: 2
-# File: raw/man1/sha256sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha256sum.1:2
 #, fuzzy, no-wrap
@@ -39,7 +34,6 @@ msgstr "SHA256SUM"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/sha256sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha256sum.1:2
 #, fuzzy, no-wrap
@@ -48,9 +42,6 @@ msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/sha256sum.1, line: 2
-# File: raw/man1/sha256sum.1, line: 2
-# File: raw/man1/sha256sum.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sha256sum.1:2
 #, no-wrap
@@ -58,9 +49,6 @@ msgid "User Commands"
 msgstr "User Commands"
 
 #
-# File: raw/man1/sha256sum.1, line: 3
-# File: raw/man1/sha256sum.1, line: 3
-# File: raw/man1/sha256sum.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:3
 #, no-wrap
@@ -68,60 +56,41 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/sha256sum.1, line: 5
-# File: raw/man1/sha256sum.1, line: 5
-# File: raw/man1/sha256sum.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:5
 msgid "sha256sum - compute and check SHA256 message digest"
 msgstr "sha256sum - 计算并校验 SHA256 信息摘要"
 
 #
-# File: raw/man1/sha256sum.1, line: 5
-# File: raw/man1/sha256sum.1, line: 5
-# File: raw/man1/sha256sum.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/sha256sum.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:8
 msgid "B<sha256sum> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<sha256sum> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
 
 #
-# File: raw/man1/sha256sum.1, line: 8
-# File: raw/man1/sha256sum.1, line: 8
-# File: raw/man1/sha256sum.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-# File: raw/man1/sha256sum.1, line: 12
-# File: raw/man1/sha256sum.1, line: 12
-# File: raw/man1/sha256sum.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:12
 msgid "Print or check SHA256 (256-bit) checksums."
 msgstr "输出或检查 SHA256 (256位) 校验和。"
 
-# File: raw/man1/sha256sum.1, line: 14
-# File: raw/man1/sha256sum.1, line: 14
-# File: raw/man1/sha256sum.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #
-# File: raw/man1/sha256sum.1, line: 14
-# File: raw/man1/sha256sum.1, line: 14
-# File: raw/man1/sha256sum.1, line: 14
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:14
 #, no-wrap
@@ -129,18 +98,12 @@ msgid "B<-b>, B<--binary>"
 msgstr "B<-b>, B<--binary>"
 
 #
-# File: raw/man1/sha256sum.1, line: 17
-# File: raw/man1/sha256sum.1, line: 17
-# File: raw/man1/sha256sum.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:17
 msgid "read in binary mode"
 msgstr "以二进制模式读入"
 
 #
-# File: raw/man1/sha256sum.1, line: 17
-# File: raw/man1/sha256sum.1, line: 17
-# File: raw/man1/sha256sum.1, line: 17
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:17
 #, no-wrap
@@ -148,18 +111,12 @@ msgid "B<-c>, B<--check>"
 msgstr "B<-c>, B<--check>"
 
 #
-# File: raw/man1/sha256sum.1, line: 20
-# File: raw/man1/sha256sum.1, line: 20
-# File: raw/man1/sha256sum.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:20
 msgid "read SHA256 sums from the FILEs and check them"
 msgstr "从指定文件中读取 SHA256 文件校验和信息并对它们进行检查"
 
 #
-# File: raw/man1/sha256sum.1, line: 20
-# File: raw/man1/sha256sum.1, line: 20
-# File: raw/man1/sha256sum.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:20
 #, no-wrap
@@ -167,18 +124,12 @@ msgid "B<--tag>"
 msgstr "B<--tag>"
 
 #
-# File: raw/man1/sha256sum.1, line: 23
-# File: raw/man1/sha256sum.1, line: 23
-# File: raw/man1/sha256sum.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:23
 msgid "create a BSD-style checksum"
 msgstr "创建一个 BSD 风格的校验和"
 
 #
-# File: raw/man1/sha256sum.1, line: 23
-# File: raw/man1/sha256sum.1, line: 23
-# File: raw/man1/sha256sum.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:23
 #, no-wrap
@@ -186,17 +137,11 @@ msgid "B<-t>, B<--text>"
 msgstr "B<-t>, B<--text>"
 
 #
-# File: raw/man1/sha256sum.1, line: 26
-# File: raw/man1/sha256sum.1, line: 26
-# File: raw/man1/sha256sum.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:26
 msgid "read in text mode (default)"
 msgstr "以文本模式读入（默认）"
 
-# File: raw/man1/sha256sum.1, line: 26
-# File: raw/man1/sha256sum.1, line: 26
-# File: raw/man1/sha256sum.1, line: 26
 #. type: SS
 #: raw/coreutils/man1/sha256sum.1:26
 #, no-wrap
@@ -204,16 +149,12 @@ msgid "The following five options are useful only when verifying checksums:"
 msgstr "下面五个选项仅在验证校验和时有用："
 
 #
-# File: raw/man1/sha256sum.1, line: 27
-# File: raw/man1/sha256sum.1, line: 27
-# File: raw/man1/sha256sum.1, line: 27
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:27
 #, no-wrap
 msgid "B<--ignore-missing>"
 msgstr "B<--ignore-missing>"
 
-# File: raw/man1/sha256sum.1, line: 30
 #
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:30
@@ -221,9 +162,6 @@ msgid "don't fail or report status for missing files"
 msgstr "遇到缺失的文件时不报告错误，保持静默"
 
 #
-# File: raw/man1/sha256sum.1, line: 30
-# File: raw/man1/sha256sum.1, line: 30
-# File: raw/man1/sha256sum.1, line: 30
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:30
 #, no-wrap
@@ -231,18 +169,12 @@ msgid "B<--quiet>"
 msgstr "B<--quiet>"
 
 #
-# File: raw/man1/sha256sum.1, line: 33
-# File: raw/man1/sha256sum.1, line: 33
-# File: raw/man1/sha256sum.1, line: 33
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:33
 msgid "don't print OK for each successfully verified file"
 msgstr "不要为每个成功验证的文件显示成功信息"
 
 #
-# File: raw/man1/sha256sum.1, line: 33
-# File: raw/man1/sha256sum.1, line: 33
-# File: raw/man1/sha256sum.1, line: 33
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:33
 #, no-wrap
@@ -250,18 +182,12 @@ msgid "B<--status>"
 msgstr "B<--status>"
 
 #
-# File: raw/man1/sha256sum.1, line: 36
-# File: raw/man1/sha256sum.1, line: 36
-# File: raw/man1/sha256sum.1, line: 36
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:36
 msgid "don't output anything, status code shows success"
 msgstr "不要输出任何信息，由返回值判断成功与否"
 
 #
-# File: raw/man1/sha256sum.1, line: 36
-# File: raw/man1/sha256sum.1, line: 36
-# File: raw/man1/sha256sum.1, line: 36
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:36
 #, no-wrap
@@ -269,18 +195,12 @@ msgid "B<--strict>"
 msgstr "B<--strict>"
 
 #
-# File: raw/man1/sha256sum.1, line: 39
-# File: raw/man1/sha256sum.1, line: 39
-# File: raw/man1/sha256sum.1, line: 39
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:39
 msgid "exit non-zero for improperly formatted checksum lines"
 msgstr "为没有正确格式化的校验和文字行给出非零返回值"
 
 #
-# File: raw/man1/sha256sum.1, line: 39
-# File: raw/man1/sha256sum.1, line: 39
-# File: raw/man1/sha256sum.1, line: 39
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:39
 #, no-wrap
@@ -288,18 +208,12 @@ msgid "B<-w>, B<--warn>"
 msgstr "B<-w>, B<--warn>"
 
 #
-# File: raw/man1/sha256sum.1, line: 42
-# File: raw/man1/sha256sum.1, line: 42
-# File: raw/man1/sha256sum.1, line: 42
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:42
 msgid "warn about improperly formatted checksum lines"
 msgstr "为没有正确格式化的校验和文字行给出警告信息"
 
 #
-# File: raw/man1/sha256sum.1, line: 42
-# File: raw/man1/sha256sum.1, line: 42
-# File: raw/man1/sha256sum.1, line: 42
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:42
 #, no-wrap
@@ -307,18 +221,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/sha256sum.1, line: 45
-# File: raw/man1/sha256sum.1, line: 45
-# File: raw/man1/sha256sum.1, line: 45
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:45
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/sha256sum.1, line: 45
-# File: raw/man1/sha256sum.1, line: 45
-# File: raw/man1/sha256sum.1, line: 45
 #. type: TP
 #: raw/coreutils/man1/sha256sum.1:45
 #, no-wrap
@@ -326,17 +234,11 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/sha256sum.1, line: 48
-# File: raw/man1/sha256sum.1, line: 48
-# File: raw/man1/sha256sum.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:48
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-# File: raw/man1/sha256sum.1, line: 53
-# File: raw/man1/sha256sum.1, line: 53
-# File: raw/man1/sha256sum.1, line: 53
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:53
 msgid ""
@@ -352,9 +254,6 @@ msgstr ""
 "称。"
 
 #
-# File: raw/man1/sha256sum.1, line: 53
-# File: raw/man1/sha256sum.1, line: 53
-# File: raw/man1/sha256sum.1, line: 53
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:53
 #, no-wrap
@@ -362,18 +261,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/sha256sum.1, line: 55
-# File: raw/man1/sha256sum.1, line: 55
-# File: raw/man1/sha256sum.1, line: 55
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:55
 msgid "Written by Ulrich Drepper, Scott Miller, and David Madore."
 msgstr "由 Ulrich Drepper, Scott Miller 和 David Madore 编写。"
 
 #
-# File: raw/man1/sha256sum.1, line: 55
-# File: raw/man1/sha256sum.1, line: 55
-# File: raw/man1/sha256sum.1, line: 55
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:55
 #, no-wrap
@@ -381,9 +274,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/sha256sum.1, line: 57
-# File: raw/man1/sha256sum.1, line: 57
-# File: raw/man1/sha256sum.1, line: 57
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:57
 msgid ""
@@ -392,9 +282,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/sha256sum.1, line: 59
-# File: raw/man1/sha256sum.1, line: 59
-# File: raw/man1/sha256sum.1, line: 59
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:59
 msgid ""
@@ -405,18 +292,12 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/sha256sum.1, line: 59
-# File: raw/man1/sha256sum.1, line: 59
-# File: raw/man1/sha256sum.1, line: 59
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:59
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/sha256sum.1, line: 62
-# File: raw/man1/sha256sum.1, line: 62
-# File: raw/man1/sha256sum.1, line: 62
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:62
 #, fuzzy
@@ -431,9 +312,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/sha256sum.1, line: 65
-# File: raw/man1/sha256sum.1, line: 65
-# File: raw/man1/sha256sum.1, line: 65
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:65
 msgid ""
@@ -444,9 +322,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/sha256sum.1, line: 65
-# File: raw/man1/sha256sum.1, line: 65
-# File: raw/man1/sha256sum.1, line: 65
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:65
 #, no-wrap
@@ -454,9 +329,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/sha256sum.1, line: 67
-# File: raw/man1/sha256sum.1, line: 67
-# File: raw/man1/sha256sum.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:67
 msgid ""

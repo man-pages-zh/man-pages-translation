@@ -48,10 +48,6 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/pr.1, line: 3
-# File: raw/man1/pr.1, line: 3
-# File: raw/man1/pr.1, line: 3
-# File: raw/man1/pr.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/pr.1:3
 #, no-wrap
@@ -59,20 +55,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/pr.1, line: 5
-# File: raw/man1/pr.1, line: 5
-# File: raw/man1/pr.1, line: 5
-# File: raw/man1/pr.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:5
 msgid "pr - convert text files for printing"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 5
-# File: raw/man1/pr.1, line: 5
-# File: raw/man1/pr.1, line: 5
-# File: raw/man1/pr.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/pr.1:5
 #, no-wrap
@@ -80,20 +68,12 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/pr.1, line: 8
-# File: raw/man1/pr.1, line: 8
-# File: raw/man1/pr.1, line: 8
-# File: raw/man1/pr.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:8
 msgid "B<pr> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 8
-# File: raw/man1/pr.1, line: 8
-# File: raw/man1/pr.1, line: 8
-# File: raw/man1/pr.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/pr.1:8
 #, no-wrap
@@ -101,30 +81,18 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/pr.1, line: 12
-# File: raw/man1/pr.1, line: 12
-# File: raw/man1/pr.1, line: 12
-# File: raw/man1/pr.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:12
 msgid "Paginate or columnate FILE(s) for printing."
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 14
-# File: raw/man1/pr.1, line: 14
-# File: raw/man1/pr.1, line: 14
-# File: raw/man1/pr.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 16
-# File: raw/man1/pr.1, line: 16
-# File: raw/man1/pr.1, line: 16
-# File: raw/man1/pr.1, line: 16
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:16
 msgid ""
@@ -132,10 +100,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/pr.1, line: 16
-# File: raw/man1/pr.1, line: 16
-# File: raw/man1/pr.1, line: 16
-# File: raw/man1/pr.1, line: 16
 #. type: TP
 #: raw/coreutils/man1/pr.1:16
 #, no-wrap
@@ -143,20 +107,12 @@ msgid "+FIRST_PAGE[:LAST_PAGE], B<--pages>=I<\\,FIRST_PAGE[\\/>:LAST_PAGE]"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 19
-# File: raw/man1/pr.1, line: 19
-# File: raw/man1/pr.1, line: 19
-# File: raw/man1/pr.1, line: 19
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:19
 msgid "begin [stop] printing with page FIRST_[LAST_]PAGE"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 19
-# File: raw/man1/pr.1, line: 19
-# File: raw/man1/pr.1, line: 19
-# File: raw/man1/pr.1, line: 19
 #. type: TP
 #: raw/coreutils/man1/pr.1:19
 #, no-wrap
@@ -164,10 +120,6 @@ msgid "B<-COLUMN>, B<--columns>=I<\\,COLUMN\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 24
-# File: raw/man1/pr.1, line: 24
-# File: raw/man1/pr.1, line: 24
-# File: raw/man1/pr.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:24
 msgid ""
@@ -176,10 +128,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 24
-# File: raw/man1/pr.1, line: 24
-# File: raw/man1/pr.1, line: 24
-# File: raw/man1/pr.1, line: 24
 #. type: TP
 #: raw/coreutils/man1/pr.1:24
 #, no-wrap
@@ -187,20 +135,12 @@ msgid "B<-a>, B<--across>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 28
-# File: raw/man1/pr.1, line: 28
-# File: raw/man1/pr.1, line: 28
-# File: raw/man1/pr.1, line: 28
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:28
 msgid "print columns across rather than down, used together with B<-COLUMN>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 28
-# File: raw/man1/pr.1, line: 28
-# File: raw/man1/pr.1, line: 28
-# File: raw/man1/pr.1, line: 28
 #. type: TP
 #: raw/coreutils/man1/pr.1:28
 #, no-wrap
@@ -208,20 +148,12 @@ msgid "B<-c>, B<--show-control-chars>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 31
-# File: raw/man1/pr.1, line: 31
-# File: raw/man1/pr.1, line: 31
-# File: raw/man1/pr.1, line: 31
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:31
 msgid "use hat notation (^G) and octal backslash notation"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 31
-# File: raw/man1/pr.1, line: 31
-# File: raw/man1/pr.1, line: 31
-# File: raw/man1/pr.1, line: 31
 #. type: TP
 #: raw/coreutils/man1/pr.1:31
 #, no-wrap
@@ -229,20 +161,12 @@ msgid "B<-d>, B<--double-space>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 34
-# File: raw/man1/pr.1, line: 34
-# File: raw/man1/pr.1, line: 34
-# File: raw/man1/pr.1, line: 34
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:34
 msgid "double space the output"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 34
-# File: raw/man1/pr.1, line: 34
-# File: raw/man1/pr.1, line: 34
-# File: raw/man1/pr.1, line: 34
 #. type: TP
 #: raw/coreutils/man1/pr.1:34
 #, no-wrap
@@ -250,20 +174,12 @@ msgid "B<-D>, B<--date-format>=I<\\,FORMAT\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 37
-# File: raw/man1/pr.1, line: 37
-# File: raw/man1/pr.1, line: 37
-# File: raw/man1/pr.1, line: 37
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:37
 msgid "use FORMAT for the header date"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 37
-# File: raw/man1/pr.1, line: 37
-# File: raw/man1/pr.1, line: 37
-# File: raw/man1/pr.1, line: 37
 #. type: TP
 #: raw/coreutils/man1/pr.1:37
 #, no-wrap
@@ -271,20 +187,12 @@ msgid "B<-e[CHAR[WIDTH]]>, B<--expand-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 40
-# File: raw/man1/pr.1, line: 40
-# File: raw/man1/pr.1, line: 40
-# File: raw/man1/pr.1, line: 40
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:40
 msgid "expand input CHARs (TABs) to tab WIDTH (8)"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 40
-# File: raw/man1/pr.1, line: 40
-# File: raw/man1/pr.1, line: 40
-# File: raw/man1/pr.1, line: 40
 #. type: TP
 #: raw/coreutils/man1/pr.1:40
 #, no-wrap
@@ -292,10 +200,6 @@ msgid "B<-F>, B<-f>, B<--form-feed>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 45
-# File: raw/man1/pr.1, line: 45
-# File: raw/man1/pr.1, line: 45
-# File: raw/man1/pr.1, line: 45
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:45
 msgid ""
@@ -304,10 +208,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 45
-# File: raw/man1/pr.1, line: 45
-# File: raw/man1/pr.1, line: 45
-# File: raw/man1/pr.1, line: 45
 #. type: TP
 #: raw/coreutils/man1/pr.1:45
 #, no-wrap
@@ -315,10 +215,6 @@ msgid "B<-h>, B<--header>=I<\\,HEADER\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 49
-# File: raw/man1/pr.1, line: 49
-# File: raw/man1/pr.1, line: 49
-# File: raw/man1/pr.1, line: 49
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:49
 msgid ""
@@ -327,10 +223,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 49
-# File: raw/man1/pr.1, line: 49
-# File: raw/man1/pr.1, line: 49
-# File: raw/man1/pr.1, line: 49
 #. type: TP
 #: raw/coreutils/man1/pr.1:49
 #, no-wrap
@@ -338,20 +230,12 @@ msgid "B<-i[CHAR[WIDTH]]>, B<--output-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 52
-# File: raw/man1/pr.1, line: 52
-# File: raw/man1/pr.1, line: 52
-# File: raw/man1/pr.1, line: 52
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:52
 msgid "replace spaces with CHARs (TABs) to tab WIDTH (8)"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 52
-# File: raw/man1/pr.1, line: 52
-# File: raw/man1/pr.1, line: 52
-# File: raw/man1/pr.1, line: 52
 #. type: TP
 #: raw/coreutils/man1/pr.1:52
 #, no-wrap
@@ -359,10 +243,6 @@ msgid "B<-J>, B<--join-lines>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 56
-# File: raw/man1/pr.1, line: 56
-# File: raw/man1/pr.1, line: 56
-# File: raw/man1/pr.1, line: 56
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:56
 msgid ""
@@ -371,10 +251,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 56
-# File: raw/man1/pr.1, line: 56
-# File: raw/man1/pr.1, line: 56
-# File: raw/man1/pr.1, line: 56
 #. type: TP
 #: raw/coreutils/man1/pr.1:56
 #, no-wrap
@@ -382,10 +258,6 @@ msgid "B<-l>, B<--length>=I<\\,PAGE_LENGTH\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 61
-# File: raw/man1/pr.1, line: 61
-# File: raw/man1/pr.1, line: 61
-# File: raw/man1/pr.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:61
 msgid ""
@@ -394,10 +266,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 61
-# File: raw/man1/pr.1, line: 61
-# File: raw/man1/pr.1, line: 61
-# File: raw/man1/pr.1, line: 61
 #. type: TP
 #: raw/coreutils/man1/pr.1:61
 #, no-wrap
@@ -405,10 +273,6 @@ msgid "B<-m>, B<--merge>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 65
-# File: raw/man1/pr.1, line: 65
-# File: raw/man1/pr.1, line: 65
-# File: raw/man1/pr.1, line: 65
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:65
 msgid ""
@@ -417,10 +281,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 65
-# File: raw/man1/pr.1, line: 65
-# File: raw/man1/pr.1, line: 65
-# File: raw/man1/pr.1, line: 65
 #. type: TP
 #: raw/coreutils/man1/pr.1:65
 #, no-wrap
@@ -428,10 +288,6 @@ msgid "B<-n[SEP[DIGITS]]>, B<--number-lines>[=I<\\,SEP[DIGITS]\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 69
-# File: raw/man1/pr.1, line: 69
-# File: raw/man1/pr.1, line: 69
-# File: raw/man1/pr.1, line: 69
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:69
 msgid ""
@@ -440,10 +296,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 69
-# File: raw/man1/pr.1, line: 69
-# File: raw/man1/pr.1, line: 69
-# File: raw/man1/pr.1, line: 69
 #. type: TP
 #: raw/coreutils/man1/pr.1:69
 #, no-wrap
@@ -451,10 +303,6 @@ msgid "B<-N>, B<--first-line-number>=I<\\,NUMBER\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 73
-# File: raw/man1/pr.1, line: 73
-# File: raw/man1/pr.1, line: 73
-# File: raw/man1/pr.1, line: 73
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:73
 msgid ""
@@ -463,10 +311,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 73
-# File: raw/man1/pr.1, line: 73
-# File: raw/man1/pr.1, line: 73
-# File: raw/man1/pr.1, line: 73
 #. type: TP
 #: raw/coreutils/man1/pr.1:73
 #, no-wrap
@@ -474,10 +318,6 @@ msgid "B<-o>, B<--indent>=I<\\,MARGIN\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 77
-# File: raw/man1/pr.1, line: 77
-# File: raw/man1/pr.1, line: 77
-# File: raw/man1/pr.1, line: 77
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:77
 msgid ""
@@ -486,10 +326,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 77
-# File: raw/man1/pr.1, line: 77
-# File: raw/man1/pr.1, line: 77
-# File: raw/man1/pr.1, line: 77
 #. type: TP
 #: raw/coreutils/man1/pr.1:77
 #, no-wrap
@@ -497,20 +333,12 @@ msgid "B<-r>, B<--no-file-warnings>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 80
-# File: raw/man1/pr.1, line: 80
-# File: raw/man1/pr.1, line: 80
-# File: raw/man1/pr.1, line: 80
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:80
 msgid "omit warning when a file cannot be opened"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 80
-# File: raw/man1/pr.1, line: 80
-# File: raw/man1/pr.1, line: 80
-# File: raw/man1/pr.1, line: 80
 #. type: TP
 #: raw/coreutils/man1/pr.1:80
 #, no-wrap
@@ -518,10 +346,6 @@ msgid "B<-s[CHAR]>, B<--separator>[=I<\\,CHAR\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 86
-# File: raw/man1/pr.1, line: 86
-# File: raw/man1/pr.1, line: 86
-# File: raw/man1/pr.1, line: 86
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:86
 msgid ""
@@ -532,10 +356,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 86
-# File: raw/man1/pr.1, line: 86
-# File: raw/man1/pr.1, line: 86
-# File: raw/man1/pr.1, line: 86
 #. type: TP
 #: raw/coreutils/man1/pr.1:86
 #, no-wrap
@@ -543,10 +363,6 @@ msgid "B<-S[STRING]>, B<--sep-string>[=I<\\,STRING\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 91
-# File: raw/man1/pr.1, line: 91
-# File: raw/man1/pr.1, line: 91
-# File: raw/man1/pr.1, line: 91
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:91
 msgid ""
@@ -556,10 +372,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 91
-# File: raw/man1/pr.1, line: 91
-# File: raw/man1/pr.1, line: 91
-# File: raw/man1/pr.1, line: 91
 #. type: TP
 #: raw/coreutils/man1/pr.1:91
 #, no-wrap
@@ -567,20 +379,12 @@ msgid "B<-t>, B<--omit-header>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 95
-# File: raw/man1/pr.1, line: 95
-# File: raw/man1/pr.1, line: 95
-# File: raw/man1/pr.1, line: 95
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:95
 msgid "omit page headers and trailers; implied if PAGE_LENGTH E<lt>= 10"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 95
-# File: raw/man1/pr.1, line: 95
-# File: raw/man1/pr.1, line: 95
-# File: raw/man1/pr.1, line: 95
 #. type: TP
 #: raw/coreutils/man1/pr.1:95
 #, no-wrap
@@ -588,10 +392,6 @@ msgid "B<-T>, B<--omit-pagination>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 99
-# File: raw/man1/pr.1, line: 99
-# File: raw/man1/pr.1, line: 99
-# File: raw/man1/pr.1, line: 99
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:99
 msgid ""
@@ -600,10 +400,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 99
-# File: raw/man1/pr.1, line: 99
-# File: raw/man1/pr.1, line: 99
-# File: raw/man1/pr.1, line: 99
 #. type: TP
 #: raw/coreutils/man1/pr.1:99
 #, no-wrap
@@ -611,20 +407,12 @@ msgid "B<-v>, B<--show-nonprinting>"
 msgstr "B<-v>, B<--show-nonprinting>"
 
 #
-# File: raw/man1/pr.1, line: 102
-# File: raw/man1/pr.1, line: 102
-# File: raw/man1/pr.1, line: 102
-# File: raw/man1/pr.1, line: 102
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:102
 msgid "use octal backslash notation"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 102
-# File: raw/man1/pr.1, line: 102
-# File: raw/man1/pr.1, line: 102
-# File: raw/man1/pr.1, line: 102
 #. type: TP
 #: raw/coreutils/man1/pr.1:102
 #, no-wrap
@@ -632,10 +420,6 @@ msgid "B<-w>, B<--width>=I<\\,PAGE_WIDTH\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 106
-# File: raw/man1/pr.1, line: 106
-# File: raw/man1/pr.1, line: 106
-# File: raw/man1/pr.1, line: 106
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:106
 msgid ""
@@ -644,10 +428,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 106
-# File: raw/man1/pr.1, line: 106
-# File: raw/man1/pr.1, line: 106
-# File: raw/man1/pr.1, line: 106
 #. type: TP
 #: raw/coreutils/man1/pr.1:106
 #, no-wrap
@@ -655,10 +435,6 @@ msgid "B<-W>, B<--page-width>=I<\\,PAGE_WIDTH\\/>"
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 111
-# File: raw/man1/pr.1, line: 111
-# File: raw/man1/pr.1, line: 111
-# File: raw/man1/pr.1, line: 111
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:111
 msgid ""
@@ -667,10 +443,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 111
-# File: raw/man1/pr.1, line: 111
-# File: raw/man1/pr.1, line: 111
-# File: raw/man1/pr.1, line: 111
 #. type: TP
 #: raw/coreutils/man1/pr.1:111
 #, no-wrap
@@ -678,20 +450,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/pr.1, line: 114
-# File: raw/man1/pr.1, line: 114
-# File: raw/man1/pr.1, line: 114
-# File: raw/man1/pr.1, line: 114
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:114
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/pr.1, line: 114
-# File: raw/man1/pr.1, line: 114
-# File: raw/man1/pr.1, line: 114
-# File: raw/man1/pr.1, line: 114
 #. type: TP
 #: raw/coreutils/man1/pr.1:114
 #, no-wrap
@@ -699,20 +463,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/pr.1, line: 117
-# File: raw/man1/pr.1, line: 117
-# File: raw/man1/pr.1, line: 117
-# File: raw/man1/pr.1, line: 117
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:117
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/pr.1, line: 117
-# File: raw/man1/pr.1, line: 117
-# File: raw/man1/pr.1, line: 117
-# File: raw/man1/pr.1, line: 117
 #. type: SH
 #: raw/coreutils/man1/pr.1:117
 #, no-wrap
@@ -720,20 +476,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/pr.1, line: 119
-# File: raw/man1/pr.1, line: 119
-# File: raw/man1/pr.1, line: 119
-# File: raw/man1/pr.1, line: 119
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:119
 msgid "Written by Pete TerMaat and Roland Huebner."
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 119
-# File: raw/man1/pr.1, line: 119
-# File: raw/man1/pr.1, line: 119
-# File: raw/man1/pr.1, line: 119
 #. type: SH
 #: raw/coreutils/man1/pr.1:119
 #, no-wrap
@@ -741,10 +489,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/pr.1, line: 121
-# File: raw/man1/pr.1, line: 121
-# File: raw/man1/pr.1, line: 121
-# File: raw/man1/pr.1, line: 121
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:121
 msgid ""
@@ -753,10 +497,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/pr.1, line: 123
-# File: raw/man1/pr.1, line: 123
-# File: raw/man1/pr.1, line: 123
-# File: raw/man1/pr.1, line: 123
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:123
 msgid ""
@@ -764,10 +504,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/pr.1, line: 123
-# File: raw/man1/pr.1, line: 123
-# File: raw/man1/pr.1, line: 123
-# File: raw/man1/pr.1, line: 123
 #. type: SH
 #: raw/coreutils/man1/pr.1:123
 #, no-wrap
@@ -788,10 +524,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/pr.1, line: 129
-# File: raw/man1/pr.1, line: 129
-# File: raw/man1/pr.1, line: 129
-# File: raw/man1/pr.1, line: 129
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:129
 msgid ""
@@ -802,10 +534,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/pr.1, line: 129
-# File: raw/man1/pr.1, line: 129
-# File: raw/man1/pr.1, line: 129
-# File: raw/man1/pr.1, line: 129
 #. type: SH
 #: raw/coreutils/man1/pr.1:129
 #, no-wrap
@@ -813,10 +541,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/pr.1, line: 131
-# File: raw/man1/pr.1, line: 131
-# File: raw/man1/pr.1, line: 131
-# File: raw/man1/pr.1, line: 131
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:131
 msgid ""

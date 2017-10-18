@@ -20,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/users.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/users.1:2
@@ -28,7 +27,6 @@ msgstr ""
 msgid "USERS"
 msgstr "USERS"
 
-# File: raw/man1/users.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/users.1:2
@@ -44,7 +42,6 @@ msgstr "2016年12月"
 msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
-# File: raw/man1/users.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/users.1:2
@@ -60,9 +57,6 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/users.1, line: 5
-# File: raw/man1/users.1, line: 5
-# File: raw/man1/users.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/users.1:5
 msgid ""
@@ -70,25 +64,18 @@ msgid ""
 msgstr "users - 显示登录在当前主机上的用户名称"
 
 #
-# File: raw/man1/users.1, line: 5
-# File: raw/man1/users.1, line: 5
-# File: raw/man1/users.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/users.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/users.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/users.1:8
 msgid "B<users> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]"
 msgstr "B<users> [I<\\,选项\\/>]... [I<\\,文件\\/>]"
 
 #
-# File: raw/man1/users.1, line: 8
-# File: raw/man1/users.1, line: 8
-# File: raw/man1/users.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/users.1:8
 #, no-wrap
@@ -96,7 +83,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 # translated according to `users --help` output.
-# File: raw/man1/users.1, line: 13
 #. type: Plain text
 #: raw/coreutils/man1/users.1:13
 msgid ""
@@ -108,9 +94,6 @@ msgstr ""
 "run/utmp\\/>。I<\\,/var/log/wtmp\\/> 是常用的指定文件。"
 
 #
-# File: raw/man1/users.1, line: 13
-# File: raw/man1/users.1, line: 13
-# File: raw/man1/users.1, line: 13
 #. type: TP
 #: raw/coreutils/man1/users.1:13
 #, no-wrap
@@ -118,18 +101,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/users.1, line: 16
-# File: raw/man1/users.1, line: 16
-# File: raw/man1/users.1, line: 16
 #. type: Plain text
 #: raw/coreutils/man1/users.1:16
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/users.1, line: 16
-# File: raw/man1/users.1, line: 16
-# File: raw/man1/users.1, line: 16
 #. type: TP
 #: raw/coreutils/man1/users.1:16
 #, no-wrap
@@ -137,18 +114,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/users.1, line: 19
-# File: raw/man1/users.1, line: 19
-# File: raw/man1/users.1, line: 19
 #. type: Plain text
 #: raw/coreutils/man1/users.1:19
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/users.1, line: 19
-# File: raw/man1/users.1, line: 19
-# File: raw/man1/users.1, line: 19
 #. type: SH
 #: raw/coreutils/man1/users.1:19
 #, no-wrap
@@ -156,18 +127,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/users.1, line: 21
-# File: raw/man1/users.1, line: 21
-# File: raw/man1/users.1, line: 21
 #. type: Plain text
 #: raw/coreutils/man1/users.1:21
 msgid "Written by Joseph Arceneaux and David MacKenzie."
 msgstr "由 Joseph Arceneaux 和 David MacKenzie 编写。"
 
 #
-# File: raw/man1/users.1, line: 21
-# File: raw/man1/users.1, line: 21
-# File: raw/man1/users.1, line: 21
 #. type: SH
 #: raw/coreutils/man1/users.1:21
 #, no-wrap
@@ -175,9 +140,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/users.1, line: 23
-# File: raw/man1/users.1, line: 23
-# File: raw/man1/users.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/users.1:23
 msgid ""
@@ -186,9 +148,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/users.1, line: 25
-# File: raw/man1/users.1, line: 25
-# File: raw/man1/users.1, line: 25
 #. type: Plain text
 #: raw/coreutils/man1/users.1:25
 msgid ""
@@ -199,16 +158,12 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/users.1, line: 25
-# File: raw/man1/users.1, line: 25
-# File: raw/man1/users.1, line: 25
 #. type: SH
 #: raw/coreutils/man1/users.1:25
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/users.1, line: 28
 #. type: Plain text
 #: raw/coreutils/man1/users.1:28
 #, fuzzy
@@ -223,9 +178,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/users.1, line: 31
-# File: raw/man1/users.1, line: 31
-# File: raw/man1/users.1, line: 31
 #. type: Plain text
 #: raw/coreutils/man1/users.1:31
 msgid ""
@@ -236,16 +188,12 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/users.1, line: 31
-# File: raw/man1/users.1, line: 31
-# File: raw/man1/users.1, line: 31
 #. type: SH
 #: raw/coreutils/man1/users.1:31
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/users.1, line: 33
 #
 #. type: Plain text
 #: raw/coreutils/man1/users.1:33
@@ -253,9 +201,6 @@ msgid "getent(1), who(1)"
 msgstr "getent(1), who(1)"
 
 #
-# File: raw/man1/users.1, line: 36
-# File: raw/man1/users.1, line: 36
-# File: raw/man1/users.1, line: 36
 #. type: Plain text
 #: raw/coreutils/man1/users.1:36
 msgid ""

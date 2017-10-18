@@ -20,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/sort.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
@@ -28,7 +27,6 @@ msgstr ""
 msgid "SORT"
 msgstr "SORT"
 
-# File: raw/man1/sort.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
@@ -38,9 +36,6 @@ msgid "October 2017"
 msgstr "2016年12月"
 
 #
-# File: raw/man1/sort.1, line: 2
-# File: raw/man1/sort.1, line: 2
-# File: raw/man1/sort.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
 #, fuzzy, no-wrap
@@ -48,9 +43,6 @@ msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.23"
 
 #
-# File: raw/man1/sort.1, line: 2
-# File: raw/man1/sort.1, line: 2
-# File: raw/man1/sort.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
 #, no-wrap
@@ -58,16 +50,12 @@ msgid "User Commands"
 msgstr "User Commands"
 
 #
-# File: raw/man1/sort.1, line: 3
-# File: raw/man1/sort.1, line: 3
-# File: raw/man1/sort.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/sort.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-# File: raw/man1/sort.1, line: 5
 #
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:5
@@ -75,9 +63,6 @@ msgid "sort - sort lines of text files"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 5
-# File: raw/man1/sort.1, line: 5
-# File: raw/man1/sort.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/sort.1:5
 #, no-wrap
@@ -85,27 +70,18 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/sort.1, line: 8
-# File: raw/man1/sort.1, line: 8
-# File: raw/man1/sort.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:8
 msgid "B<sort> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 11
-# File: raw/man1/sort.1, line: 11
-# File: raw/man1/sort.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:11
 msgid "B<sort> [I<\\,OPTION\\/>]... I<\\,--files0-from=F\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 11
-# File: raw/man1/sort.1, line: 11
-# File: raw/man1/sort.1, line: 11
 #. type: SH
 #: raw/coreutils/man1/sort.1:11
 #, no-wrap
@@ -113,27 +89,18 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/sort.1, line: 15
-# File: raw/man1/sort.1, line: 15
-# File: raw/man1/sort.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:15
 msgid "Write sorted concatenation of all FILE(s) to standard output."
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 17
-# File: raw/man1/sort.1, line: 17
-# File: raw/man1/sort.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:17
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #
-# File: raw/man1/sort.1, line: 20
-# File: raw/man1/sort.1, line: 20
-# File: raw/man1/sort.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:20
 msgid ""
@@ -142,9 +109,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 20
-# File: raw/man1/sort.1, line: 20
-# File: raw/man1/sort.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/sort.1:20
 #, no-wrap
@@ -152,18 +116,12 @@ msgid "B<-b>, B<--ignore-leading-blanks>"
 msgstr "B<-b>, B<--ignore-leading-blanks>"
 
 #
-# File: raw/man1/sort.1, line: 23
-# File: raw/man1/sort.1, line: 23
-# File: raw/man1/sort.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:23
 msgid "ignore leading blanks"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 23
-# File: raw/man1/sort.1, line: 23
-# File: raw/man1/sort.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/sort.1:23
 #, no-wrap
@@ -171,18 +129,12 @@ msgid "B<-d>, B<--dictionary-order>"
 msgstr "B<-d>, B<--dictionary-order>"
 
 #
-# File: raw/man1/sort.1, line: 26
-# File: raw/man1/sort.1, line: 26
-# File: raw/man1/sort.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:26
 msgid "consider only blanks and alphanumeric characters"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 26
-# File: raw/man1/sort.1, line: 26
-# File: raw/man1/sort.1, line: 26
 #. type: TP
 #: raw/coreutils/man1/sort.1:26
 #, no-wrap
@@ -190,18 +142,12 @@ msgid "B<-f>, B<--ignore-case>"
 msgstr "B<-f>, B<--ignore-case>"
 
 #
-# File: raw/man1/sort.1, line: 29
-# File: raw/man1/sort.1, line: 29
-# File: raw/man1/sort.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:29
 msgid "fold lower case to upper case characters"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 29
-# File: raw/man1/sort.1, line: 29
-# File: raw/man1/sort.1, line: 29
 #. type: TP
 #: raw/coreutils/man1/sort.1:29
 #, no-wrap
@@ -209,18 +155,12 @@ msgid "B<-g>, B<--general-numeric-sort>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 32
-# File: raw/man1/sort.1, line: 32
-# File: raw/man1/sort.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:32
 msgid "compare according to general numerical value"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 32
-# File: raw/man1/sort.1, line: 32
-# File: raw/man1/sort.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/sort.1:32
 #, no-wrap
@@ -228,18 +168,12 @@ msgid "B<-i>, B<--ignore-nonprinting>"
 msgstr "B<-i>, B<--ignore-nonprinting>"
 
 #
-# File: raw/man1/sort.1, line: 35
-# File: raw/man1/sort.1, line: 35
-# File: raw/man1/sort.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:35
 msgid "consider only printable characters"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 35
-# File: raw/man1/sort.1, line: 35
-# File: raw/man1/sort.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/sort.1:35
 #, no-wrap
@@ -247,18 +181,12 @@ msgid "B<-M>, B<--month-sort>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 38
-# File: raw/man1/sort.1, line: 38
-# File: raw/man1/sort.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:38
 msgid "compare (unknown) E<lt> 'JAN' E<lt> ... E<lt> 'DEC'"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 38
-# File: raw/man1/sort.1, line: 38
-# File: raw/man1/sort.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/sort.1:38
 #, no-wrap
@@ -266,18 +194,12 @@ msgid "B<-h>, B<--human-numeric-sort>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 41
-# File: raw/man1/sort.1, line: 41
-# File: raw/man1/sort.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:41
 msgid "compare human readable numbers (e.g., 2K 1G)"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 41
-# File: raw/man1/sort.1, line: 41
-# File: raw/man1/sort.1, line: 41
 #. type: TP
 #: raw/coreutils/man1/sort.1:41
 #, no-wrap
@@ -285,18 +207,12 @@ msgid "B<-n>, B<--numeric-sort>"
 msgstr "B<-n>, B<--numeric-sort>"
 
 #
-# File: raw/man1/sort.1, line: 44
-# File: raw/man1/sort.1, line: 44
-# File: raw/man1/sort.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:44
 msgid "compare according to string numerical value"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 44
-# File: raw/man1/sort.1, line: 44
-# File: raw/man1/sort.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/sort.1:44
 #, no-wrap
@@ -304,18 +220,12 @@ msgid "B<-R>, B<--random-sort>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 47
-# File: raw/man1/sort.1, line: 47
-# File: raw/man1/sort.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:47
 msgid "shuffle, but group identical keys.  See shuf(1)"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 47
-# File: raw/man1/sort.1, line: 47
-# File: raw/man1/sort.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/sort.1:47
 #, fuzzy, no-wrap
@@ -323,18 +233,12 @@ msgid "B<--random-source>=I<\\,FILE\\/>"
 msgstr "B<--random-source>=I<文件>"
 
 #
-# File: raw/man1/sort.1, line: 50
-# File: raw/man1/sort.1, line: 50
-# File: raw/man1/sort.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:50
 msgid "get random bytes from FILE"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 50
-# File: raw/man1/sort.1, line: 50
-# File: raw/man1/sort.1, line: 50
 #. type: TP
 #: raw/coreutils/man1/sort.1:50
 #, no-wrap
@@ -342,18 +246,12 @@ msgid "B<-r>, B<--reverse>"
 msgstr "B<-r>, B<--reverse>"
 
 #
-# File: raw/man1/sort.1, line: 53
-# File: raw/man1/sort.1, line: 53
-# File: raw/man1/sort.1, line: 53
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:53
 msgid "reverse the result of comparisons"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 53
-# File: raw/man1/sort.1, line: 53
-# File: raw/man1/sort.1, line: 53
 #. type: TP
 #: raw/coreutils/man1/sort.1:53
 #, no-wrap
@@ -361,9 +259,6 @@ msgid "B<--sort>=I<\\,WORD\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 58
-# File: raw/man1/sort.1, line: 58
-# File: raw/man1/sort.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:58
 msgid ""
@@ -372,9 +267,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 58
-# File: raw/man1/sort.1, line: 58
-# File: raw/man1/sort.1, line: 58
 #. type: TP
 #: raw/coreutils/man1/sort.1:58
 #, no-wrap
@@ -382,27 +274,18 @@ msgid "B<-V>, B<--version-sort>"
 msgstr "B<-V>, B<--version-sort>"
 
 #
-# File: raw/man1/sort.1, line: 61
-# File: raw/man1/sort.1, line: 61
-# File: raw/man1/sort.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:61
 msgid "natural sort of (version) numbers within text"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 63
-# File: raw/man1/sort.1, line: 63
-# File: raw/man1/sort.1, line: 63
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:63
 msgid "Other options:"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 63
-# File: raw/man1/sort.1, line: 63
-# File: raw/man1/sort.1, line: 63
 #. type: TP
 #: raw/coreutils/man1/sort.1:63
 #, no-wrap
@@ -410,18 +293,12 @@ msgid "B<--batch-size>=I<\\,NMERGE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 67
-# File: raw/man1/sort.1, line: 67
-# File: raw/man1/sort.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:67
 msgid "merge at most NMERGE inputs at once; for more use temp files"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 67
-# File: raw/man1/sort.1, line: 67
-# File: raw/man1/sort.1, line: 67
 #. type: TP
 #: raw/coreutils/man1/sort.1:67
 #, no-wrap
@@ -429,18 +306,12 @@ msgid "B<-c>, B<--check>, B<--check>=I<\\,diagnose-first\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 70
-# File: raw/man1/sort.1, line: 70
-# File: raw/man1/sort.1, line: 70
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:70
 msgid "check for sorted input; do not sort"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 70
-# File: raw/man1/sort.1, line: 70
-# File: raw/man1/sort.1, line: 70
 #. type: TP
 #: raw/coreutils/man1/sort.1:70
 #, no-wrap
@@ -448,18 +319,12 @@ msgid "B<-C>, B<--check>=I<\\,quiet\\/>, B<--check>=I<\\,silent\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 73
-# File: raw/man1/sort.1, line: 73
-# File: raw/man1/sort.1, line: 73
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:73
 msgid "like B<-c>, but do not report first bad line"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 73
-# File: raw/man1/sort.1, line: 73
-# File: raw/man1/sort.1, line: 73
 #. type: TP
 #: raw/coreutils/man1/sort.1:73
 #, no-wrap
@@ -467,18 +332,12 @@ msgid "B<--compress-program>=I<\\,PROG\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 77
-# File: raw/man1/sort.1, line: 77
-# File: raw/man1/sort.1, line: 77
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:77
 msgid "compress temporaries with PROG; decompress them with PROG B<-d>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 77
-# File: raw/man1/sort.1, line: 77
-# File: raw/man1/sort.1, line: 77
 #. type: TP
 #: raw/coreutils/man1/sort.1:77
 #, no-wrap
@@ -486,9 +345,6 @@ msgid "B<--debug>"
 msgstr "B<--debug>"
 
 #
-# File: raw/man1/sort.1, line: 81
-# File: raw/man1/sort.1, line: 81
-# File: raw/man1/sort.1, line: 81
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:81
 msgid ""
@@ -497,9 +353,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 81
-# File: raw/man1/sort.1, line: 81
-# File: raw/man1/sort.1, line: 81
 #. type: TP
 #: raw/coreutils/man1/sort.1:81
 #, fuzzy, no-wrap
@@ -507,9 +360,6 @@ msgid "B<--files0-from>=I<\\,F\\/>"
 msgstr "B<--files0-from>=I<F>"
 
 #
-# File: raw/man1/sort.1, line: 86
-# File: raw/man1/sort.1, line: 86
-# File: raw/man1/sort.1, line: 86
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:86
 msgid ""
@@ -520,9 +370,6 @@ msgstr ""
 "从标准输入读取这些名字"
 
 #
-# File: raw/man1/sort.1, line: 86
-# File: raw/man1/sort.1, line: 86
-# File: raw/man1/sort.1, line: 86
 #. type: TP
 #: raw/coreutils/man1/sort.1:86
 #, no-wrap
@@ -530,18 +377,12 @@ msgid "B<-k>, B<--key>=I<\\,KEYDEF\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 89
-# File: raw/man1/sort.1, line: 89
-# File: raw/man1/sort.1, line: 89
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:89
 msgid "sort via a key; KEYDEF gives location and type"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 89
-# File: raw/man1/sort.1, line: 89
-# File: raw/man1/sort.1, line: 89
 #. type: TP
 #: raw/coreutils/man1/sort.1:89
 #, no-wrap
@@ -549,18 +390,12 @@ msgid "B<-m>, B<--merge>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 92
-# File: raw/man1/sort.1, line: 92
-# File: raw/man1/sort.1, line: 92
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:92
 msgid "merge already sorted files; do not sort"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 92
-# File: raw/man1/sort.1, line: 92
-# File: raw/man1/sort.1, line: 92
 #. type: TP
 #: raw/coreutils/man1/sort.1:92
 #, no-wrap
@@ -568,18 +403,12 @@ msgid "B<-o>, B<--output>=I<\\,FILE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 95
-# File: raw/man1/sort.1, line: 95
-# File: raw/man1/sort.1, line: 95
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:95
 msgid "write result to FILE instead of standard output"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 95
-# File: raw/man1/sort.1, line: 95
-# File: raw/man1/sort.1, line: 95
 #. type: TP
 #: raw/coreutils/man1/sort.1:95
 #, no-wrap
@@ -587,18 +416,12 @@ msgid "B<-s>, B<--stable>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 98
-# File: raw/man1/sort.1, line: 98
-# File: raw/man1/sort.1, line: 98
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:98
 msgid "stabilize sort by disabling last-resort comparison"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 98
-# File: raw/man1/sort.1, line: 98
-# File: raw/man1/sort.1, line: 98
 #. type: TP
 #: raw/coreutils/man1/sort.1:98
 #, no-wrap
@@ -606,18 +429,12 @@ msgid "B<-S>, B<--buffer-size>=I<\\,SIZE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 101
-# File: raw/man1/sort.1, line: 101
-# File: raw/man1/sort.1, line: 101
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:101
 msgid "use SIZE for main memory buffer"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 101
-# File: raw/man1/sort.1, line: 101
-# File: raw/man1/sort.1, line: 101
 #. type: TP
 #: raw/coreutils/man1/sort.1:101
 #, no-wrap
@@ -625,18 +442,12 @@ msgid "B<-t>, B<--field-separator>=I<\\,SEP\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 104
-# File: raw/man1/sort.1, line: 104
-# File: raw/man1/sort.1, line: 104
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:104
 msgid "use SEP instead of non-blank to blank transition"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 104
-# File: raw/man1/sort.1, line: 104
-# File: raw/man1/sort.1, line: 104
 #. type: TP
 #: raw/coreutils/man1/sort.1:104
 #, no-wrap
@@ -644,9 +455,6 @@ msgid "B<-T>, B<--temporary-directory>=I<\\,DIR\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 108
-# File: raw/man1/sort.1, line: 108
-# File: raw/man1/sort.1, line: 108
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:108
 msgid ""
@@ -655,9 +463,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 108
-# File: raw/man1/sort.1, line: 108
-# File: raw/man1/sort.1, line: 108
 #. type: TP
 #: raw/coreutils/man1/sort.1:108
 #, no-wrap
@@ -665,18 +470,12 @@ msgid "B<--parallel>=I<\\,N\\/>"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 111
-# File: raw/man1/sort.1, line: 111
-# File: raw/man1/sort.1, line: 111
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:111
 msgid "change the number of sorts run concurrently to N"
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 111
-# File: raw/man1/sort.1, line: 111
-# File: raw/man1/sort.1, line: 111
 #. type: TP
 #: raw/coreutils/man1/sort.1:111
 #, no-wrap
@@ -684,9 +483,6 @@ msgid "B<-u>, B<--unique>"
 msgstr "B<-u>, B<--unique>"
 
 #
-# File: raw/man1/sort.1, line: 115
-# File: raw/man1/sort.1, line: 115
-# File: raw/man1/sort.1, line: 115
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:115
 msgid ""
@@ -695,9 +491,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 115
-# File: raw/man1/sort.1, line: 115
-# File: raw/man1/sort.1, line: 115
 #. type: TP
 #: raw/coreutils/man1/sort.1:115
 #, no-wrap
@@ -705,18 +498,12 @@ msgid "B<-z>, B<--zero-terminated>"
 msgstr "B<-z>, B<--zero-terminated>"
 
 #
-# File: raw/man1/sort.1, line: 118
-# File: raw/man1/sort.1, line: 118
-# File: raw/man1/sort.1, line: 118
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:118
 msgid "line delimiter is NUL, not newline"
 msgstr "以 NUL 作为行的分隔符，而非换行符"
 
 #
-# File: raw/man1/sort.1, line: 118
-# File: raw/man1/sort.1, line: 118
-# File: raw/man1/sort.1, line: 118
 #. type: TP
 #: raw/coreutils/man1/sort.1:118
 #, no-wrap
@@ -724,18 +511,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/sort.1, line: 121
-# File: raw/man1/sort.1, line: 121
-# File: raw/man1/sort.1, line: 121
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:121
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/sort.1, line: 121
-# File: raw/man1/sort.1, line: 121
-# File: raw/man1/sort.1, line: 121
 #. type: TP
 #: raw/coreutils/man1/sort.1:121
 #, no-wrap
@@ -743,18 +524,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/sort.1, line: 124
-# File: raw/man1/sort.1, line: 124
-# File: raw/man1/sort.1, line: 124
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:124
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/sort.1, line: 132
-# File: raw/man1/sort.1, line: 132
-# File: raw/man1/sort.1, line: 132
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:132
 msgid ""
@@ -769,9 +544,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 135
-# File: raw/man1/sort.1, line: 135
-# File: raw/man1/sort.1, line: 135
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:135
 msgid ""
@@ -780,9 +552,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 140
-# File: raw/man1/sort.1, line: 140
-# File: raw/man1/sort.1, line: 140
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:140
 msgid ""
@@ -791,9 +560,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/sort.1, line: 140
-# File: raw/man1/sort.1, line: 140
-# File: raw/man1/sort.1, line: 140
 #. type: SH
 #: raw/coreutils/man1/sort.1:140
 #, no-wrap
@@ -801,18 +567,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/sort.1, line: 142
-# File: raw/man1/sort.1, line: 142
-# File: raw/man1/sort.1, line: 142
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:142
 msgid "Written by Mike Haertel and Paul Eggert."
 msgstr "由 Mike Haertel 和 Paul Eggert 编写。"
 
 #
-# File: raw/man1/sort.1, line: 142
-# File: raw/man1/sort.1, line: 142
-# File: raw/man1/sort.1, line: 142
 #. type: SH
 #: raw/coreutils/man1/sort.1:142
 #, no-wrap
@@ -820,9 +580,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/sort.1, line: 144
-# File: raw/man1/sort.1, line: 144
-# File: raw/man1/sort.1, line: 144
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:144
 msgid ""
@@ -831,9 +588,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/sort.1, line: 146
-# File: raw/man1/sort.1, line: 146
-# File: raw/man1/sort.1, line: 146
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:146
 msgid ""
@@ -843,9 +597,6 @@ msgstr ""
 "错误。"
 
 #
-# File: raw/man1/sort.1, line: 146
-# File: raw/man1/sort.1, line: 146
-# File: raw/man1/sort.1, line: 146
 #. type: SH
 #: raw/coreutils/man1/sort.1:146
 #, no-wrap
@@ -853,9 +604,6 @@ msgid "COPYRIGHT"
 msgstr "版权"
 
 #
-# File: raw/man1/sort.1, line: 149
-# File: raw/man1/sort.1, line: 149
-# File: raw/man1/sort.1, line: 149
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:149
 #, fuzzy
@@ -867,9 +615,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/sort.1, line: 152
-# File: raw/man1/sort.1, line: 152
-# File: raw/man1/sort.1, line: 152
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:152
 msgid ""
@@ -880,16 +625,12 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/sort.1, line: 152
-# File: raw/man1/sort.1, line: 152
-# File: raw/man1/sort.1, line: 152
 #. type: SH
 #: raw/coreutils/man1/sort.1:152
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/sort.1, line: 154
 #
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:154
@@ -897,9 +638,6 @@ msgid "shuf(1), uniq(1)"
 msgstr "shuf(1), uniq(1)"
 
 #
-# File: raw/man1/sort.1, line: 157
-# File: raw/man1/sort.1, line: 157
-# File: raw/man1/sort.1, line: 157
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:157
 msgid ""
@@ -907,9 +645,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/sortE<gt>"
 
 #
-# File: raw/man1/sort.1, line: 158
-# File: raw/man1/sort.1, line: 158
-# File: raw/man1/sort.1, line: 158
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:158
 msgid "or available locally via: info \\(aq(coreutils) sort invocation\\(aq"

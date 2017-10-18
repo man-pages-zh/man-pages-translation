@@ -27,7 +27,6 @@ msgstr ""
 msgid "OD"
 msgstr "OD"
 
-# File: raw/man1/od.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/od.1:2
 #, fuzzy, no-wrap
@@ -35,7 +34,6 @@ msgstr "OD"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/od.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/od.1:2
 #, fuzzy, no-wrap
@@ -44,10 +42,6 @@ msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
 #
-# File: raw/man1/od.1, line: 2
-# File: raw/man1/od.1, line: 2
-# File: raw/man1/od.1, line: 2
-# File: raw/man1/od.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/od.1:2
 #, no-wrap
@@ -55,10 +49,6 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/od.1, line: 3
-# File: raw/man1/od.1, line: 3
-# File: raw/man1/od.1, line: 3
-# File: raw/man1/od.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/od.1:3
 #, no-wrap
@@ -66,20 +56,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/od.1, line: 5
-# File: raw/man1/od.1, line: 5
-# File: raw/man1/od.1, line: 5
-# File: raw/man1/od.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/od.1:5
 msgid "od - dump files in octal and other formats"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 5
-# File: raw/man1/od.1, line: 5
-# File: raw/man1/od.1, line: 5
-# File: raw/man1/od.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/od.1:5
 #, no-wrap
@@ -87,20 +69,12 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/od.1, line: 8
-# File: raw/man1/od.1, line: 8
-# File: raw/man1/od.1, line: 8
-# File: raw/man1/od.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/od.1:8
 msgid "B<od> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 11
-# File: raw/man1/od.1, line: 11
-# File: raw/man1/od.1, line: 11
-# File: raw/man1/od.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/od.1:11
 msgid ""
@@ -109,10 +83,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 14
-# File: raw/man1/od.1, line: 14
-# File: raw/man1/od.1, line: 14
-# File: raw/man1/od.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/od.1:14
 msgid ""
@@ -122,10 +92,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 14
-# File: raw/man1/od.1, line: 14
-# File: raw/man1/od.1, line: 14
-# File: raw/man1/od.1, line: 14
 #. type: SH
 #: raw/coreutils/man1/od.1:14
 #, no-wrap
@@ -133,10 +99,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/od.1, line: 20
-# File: raw/man1/od.1, line: 20
-# File: raw/man1/od.1, line: 20
-# File: raw/man1/od.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/od.1:20
 msgid ""
@@ -146,20 +108,12 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 22
-# File: raw/man1/od.1, line: 22
-# File: raw/man1/od.1, line: 22
-# File: raw/man1/od.1, line: 22
 #. type: Plain text
 #: raw/coreutils/man1/od.1:22
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #
-# File: raw/man1/od.1, line: 29
-# File: raw/man1/od.1, line: 29
-# File: raw/man1/od.1, line: 29
-# File: raw/man1/od.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/od.1:29
 msgid ""
@@ -172,10 +126,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 31
-# File: raw/man1/od.1, line: 31
-# File: raw/man1/od.1, line: 31
-# File: raw/man1/od.1, line: 31
 #. type: Plain text
 #: raw/coreutils/man1/od.1:31
 msgid ""
@@ -183,10 +133,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/od.1, line: 31
-# File: raw/man1/od.1, line: 31
-# File: raw/man1/od.1, line: 31
-# File: raw/man1/od.1, line: 31
 #. type: TP
 #: raw/coreutils/man1/od.1:31
 #, no-wrap
@@ -194,10 +140,6 @@ msgid "B<-A>, B<--address-radix>=I<\\,RADIX\\/>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 35
-# File: raw/man1/od.1, line: 35
-# File: raw/man1/od.1, line: 35
-# File: raw/man1/od.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/od.1:35
 msgid ""
@@ -206,10 +148,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 35
-# File: raw/man1/od.1, line: 35
-# File: raw/man1/od.1, line: 35
-# File: raw/man1/od.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/od.1:35
 #, no-wrap
@@ -217,20 +155,12 @@ msgid "B<--endian=>{big|little}"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 38
-# File: raw/man1/od.1, line: 38
-# File: raw/man1/od.1, line: 38
-# File: raw/man1/od.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/od.1:38
 msgid "swap input bytes according the specified order"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 38
-# File: raw/man1/od.1, line: 38
-# File: raw/man1/od.1, line: 38
-# File: raw/man1/od.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/od.1:38
 #, no-wrap
@@ -238,20 +168,12 @@ msgid "B<-j>, B<--skip-bytes>=I<\\,BYTES\\/>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 41
-# File: raw/man1/od.1, line: 41
-# File: raw/man1/od.1, line: 41
-# File: raw/man1/od.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/od.1:41
 msgid "skip BYTES input bytes first"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 41
-# File: raw/man1/od.1, line: 41
-# File: raw/man1/od.1, line: 41
-# File: raw/man1/od.1, line: 41
 #. type: TP
 #: raw/coreutils/man1/od.1:41
 #, no-wrap
@@ -259,20 +181,12 @@ msgid "B<-N>, B<--read-bytes>=I<\\,BYTES\\/>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 44
-# File: raw/man1/od.1, line: 44
-# File: raw/man1/od.1, line: 44
-# File: raw/man1/od.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/od.1:44
 msgid "limit dump to BYTES input bytes"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 44
-# File: raw/man1/od.1, line: 44
-# File: raw/man1/od.1, line: 44
-# File: raw/man1/od.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/od.1:44
 #, no-wrap
@@ -280,10 +194,6 @@ msgid "B<-S> BYTES, B<--strings>[=I<\\,BYTES\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 48
-# File: raw/man1/od.1, line: 48
-# File: raw/man1/od.1, line: 48
-# File: raw/man1/od.1, line: 48
 #. type: Plain text
 #: raw/coreutils/man1/od.1:48
 msgid ""
@@ -292,10 +202,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 48
-# File: raw/man1/od.1, line: 48
-# File: raw/man1/od.1, line: 48
-# File: raw/man1/od.1, line: 48
 #. type: TP
 #: raw/coreutils/man1/od.1:48
 #, no-wrap
@@ -303,20 +209,12 @@ msgid "B<-t>, B<--format>=I<\\,TYPE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 51
-# File: raw/man1/od.1, line: 51
-# File: raw/man1/od.1, line: 51
-# File: raw/man1/od.1, line: 51
 #. type: Plain text
 #: raw/coreutils/man1/od.1:51
 msgid "select output format or formats"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 51
-# File: raw/man1/od.1, line: 51
-# File: raw/man1/od.1, line: 51
-# File: raw/man1/od.1, line: 51
 #. type: TP
 #: raw/coreutils/man1/od.1:51
 #, no-wrap
@@ -324,20 +222,12 @@ msgid "B<-v>, B<--output-duplicates>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 54
-# File: raw/man1/od.1, line: 54
-# File: raw/man1/od.1, line: 54
-# File: raw/man1/od.1, line: 54
 #. type: Plain text
 #: raw/coreutils/man1/od.1:54
 msgid "do not use * to mark line suppression"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 54
-# File: raw/man1/od.1, line: 54
-# File: raw/man1/od.1, line: 54
-# File: raw/man1/od.1, line: 54
 #. type: TP
 #: raw/coreutils/man1/od.1:54
 #, no-wrap
@@ -345,10 +235,6 @@ msgid "B<-w[BYTES]>, B<--width>[=I<\\,BYTES\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 58
-# File: raw/man1/od.1, line: 58
-# File: raw/man1/od.1, line: 58
-# File: raw/man1/od.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/od.1:58
 msgid ""
@@ -356,10 +242,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 58
-# File: raw/man1/od.1, line: 58
-# File: raw/man1/od.1, line: 58
-# File: raw/man1/od.1, line: 58
 #. type: TP
 #: raw/coreutils/man1/od.1:58
 #, no-wrap
@@ -367,20 +249,12 @@ msgid "B<--traditional>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 61
-# File: raw/man1/od.1, line: 61
-# File: raw/man1/od.1, line: 61
-# File: raw/man1/od.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/od.1:61
 msgid "accept arguments in third form above"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 61
-# File: raw/man1/od.1, line: 61
-# File: raw/man1/od.1, line: 61
-# File: raw/man1/od.1, line: 61
 #. type: TP
 #: raw/coreutils/man1/od.1:61
 #, no-wrap
@@ -388,20 +262,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/od.1, line: 64
-# File: raw/man1/od.1, line: 64
-# File: raw/man1/od.1, line: 64
-# File: raw/man1/od.1, line: 64
 #. type: Plain text
 #: raw/coreutils/man1/od.1:64
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/od.1, line: 64
-# File: raw/man1/od.1, line: 64
-# File: raw/man1/od.1, line: 64
-# File: raw/man1/od.1, line: 64
 #. type: TP
 #: raw/coreutils/man1/od.1:64
 #, no-wrap
@@ -409,20 +275,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/od.1, line: 67
-# File: raw/man1/od.1, line: 67
-# File: raw/man1/od.1, line: 67
-# File: raw/man1/od.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/od.1:67
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/od.1, line: 67
-# File: raw/man1/od.1, line: 67
-# File: raw/man1/od.1, line: 67
-# File: raw/man1/od.1, line: 67
 #. type: SS
 #: raw/coreutils/man1/od.1:67
 #, no-wrap
@@ -430,10 +288,6 @@ msgid "Traditional format specifications may be intermixed; they accumulate:"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 68
-# File: raw/man1/od.1, line: 68
-# File: raw/man1/od.1, line: 68
-# File: raw/man1/od.1, line: 68
 #. type: TP
 #: raw/coreutils/man1/od.1:68
 #, no-wrap
@@ -441,20 +295,12 @@ msgid "B<-a>"
 msgstr "B<-a>"
 
 #
-# File: raw/man1/od.1, line: 71
-# File: raw/man1/od.1, line: 71
-# File: raw/man1/od.1, line: 71
-# File: raw/man1/od.1, line: 71
 #. type: Plain text
 #: raw/coreutils/man1/od.1:71
 msgid "same as B<-t> a, select named characters, ignoring high-order bit"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 71
-# File: raw/man1/od.1, line: 71
-# File: raw/man1/od.1, line: 71
-# File: raw/man1/od.1, line: 71
 #. type: TP
 #: raw/coreutils/man1/od.1:71
 #, no-wrap
@@ -462,20 +308,12 @@ msgid "B<-b>"
 msgstr "B<-b>"
 
 #
-# File: raw/man1/od.1, line: 74
-# File: raw/man1/od.1, line: 74
-# File: raw/man1/od.1, line: 74
-# File: raw/man1/od.1, line: 74
 #. type: Plain text
 #: raw/coreutils/man1/od.1:74
 msgid "same as B<-t> o1, select octal bytes"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 74
-# File: raw/man1/od.1, line: 74
-# File: raw/man1/od.1, line: 74
-# File: raw/man1/od.1, line: 74
 #. type: TP
 #: raw/coreutils/man1/od.1:74
 #, no-wrap
@@ -483,20 +321,12 @@ msgid "B<-c>"
 msgstr "B<-c>"
 
 #
-# File: raw/man1/od.1, line: 77
-# File: raw/man1/od.1, line: 77
-# File: raw/man1/od.1, line: 77
-# File: raw/man1/od.1, line: 77
 #. type: Plain text
 #: raw/coreutils/man1/od.1:77
 msgid "same as B<-t> c, select printable characters or backslash escapes"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 77
-# File: raw/man1/od.1, line: 77
-# File: raw/man1/od.1, line: 77
-# File: raw/man1/od.1, line: 77
 #. type: TP
 #: raw/coreutils/man1/od.1:77
 #, no-wrap
@@ -504,20 +334,12 @@ msgid "B<-d>"
 msgstr "B<-d>"
 
 #
-# File: raw/man1/od.1, line: 80
-# File: raw/man1/od.1, line: 80
-# File: raw/man1/od.1, line: 80
-# File: raw/man1/od.1, line: 80
 #. type: Plain text
 #: raw/coreutils/man1/od.1:80
 msgid "same as B<-t> u2, select unsigned decimal 2-byte units"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 80
-# File: raw/man1/od.1, line: 80
-# File: raw/man1/od.1, line: 80
-# File: raw/man1/od.1, line: 80
 #. type: TP
 #: raw/coreutils/man1/od.1:80
 #, no-wrap
@@ -525,20 +347,12 @@ msgid "B<-f>"
 msgstr "B<-f>"
 
 #
-# File: raw/man1/od.1, line: 83
-# File: raw/man1/od.1, line: 83
-# File: raw/man1/od.1, line: 83
-# File: raw/man1/od.1, line: 83
 #. type: Plain text
 #: raw/coreutils/man1/od.1:83
 msgid "same as B<-t> fF, select floats"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 83
-# File: raw/man1/od.1, line: 83
-# File: raw/man1/od.1, line: 83
-# File: raw/man1/od.1, line: 83
 #. type: TP
 #: raw/coreutils/man1/od.1:83
 #, no-wrap
@@ -546,20 +360,12 @@ msgid "B<-i>"
 msgstr "B<-i>"
 
 #
-# File: raw/man1/od.1, line: 86
-# File: raw/man1/od.1, line: 86
-# File: raw/man1/od.1, line: 86
-# File: raw/man1/od.1, line: 86
 #. type: Plain text
 #: raw/coreutils/man1/od.1:86
 msgid "same as B<-t> dI, select decimal ints"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 86
-# File: raw/man1/od.1, line: 86
-# File: raw/man1/od.1, line: 86
-# File: raw/man1/od.1, line: 86
 #. type: TP
 #: raw/coreutils/man1/od.1:86
 #, no-wrap
@@ -567,20 +373,12 @@ msgid "B<-l>"
 msgstr "B<-l>"
 
 #
-# File: raw/man1/od.1, line: 89
-# File: raw/man1/od.1, line: 89
-# File: raw/man1/od.1, line: 89
-# File: raw/man1/od.1, line: 89
 #. type: Plain text
 #: raw/coreutils/man1/od.1:89
 msgid "same as B<-t> dL, select decimal longs"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 89
-# File: raw/man1/od.1, line: 89
-# File: raw/man1/od.1, line: 89
-# File: raw/man1/od.1, line: 89
 #. type: TP
 #: raw/coreutils/man1/od.1:89
 #, no-wrap
@@ -588,20 +386,12 @@ msgid "B<-o>"
 msgstr "B<-o>"
 
 #
-# File: raw/man1/od.1, line: 92
-# File: raw/man1/od.1, line: 92
-# File: raw/man1/od.1, line: 92
-# File: raw/man1/od.1, line: 92
 #. type: Plain text
 #: raw/coreutils/man1/od.1:92
 msgid "same as B<-t> o2, select octal 2-byte units"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 92
-# File: raw/man1/od.1, line: 92
-# File: raw/man1/od.1, line: 92
-# File: raw/man1/od.1, line: 92
 #. type: TP
 #: raw/coreutils/man1/od.1:92
 #, no-wrap
@@ -609,20 +399,12 @@ msgid "B<-s>"
 msgstr "B<-s>"
 
 #
-# File: raw/man1/od.1, line: 95
-# File: raw/man1/od.1, line: 95
-# File: raw/man1/od.1, line: 95
-# File: raw/man1/od.1, line: 95
 #. type: Plain text
 #: raw/coreutils/man1/od.1:95
 msgid "same as B<-t> d2, select decimal 2-byte units"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 95
-# File: raw/man1/od.1, line: 95
-# File: raw/man1/od.1, line: 95
-# File: raw/man1/od.1, line: 95
 #. type: TP
 #: raw/coreutils/man1/od.1:95
 #, no-wrap
@@ -630,20 +412,12 @@ msgid "B<-x>"
 msgstr "B<-x>"
 
 #
-# File: raw/man1/od.1, line: 98
-# File: raw/man1/od.1, line: 98
-# File: raw/man1/od.1, line: 98
-# File: raw/man1/od.1, line: 98
 #. type: Plain text
 #: raw/coreutils/man1/od.1:98
 msgid "same as B<-t> x2, select hexadecimal 2-byte units"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 98
-# File: raw/man1/od.1, line: 98
-# File: raw/man1/od.1, line: 98
-# File: raw/man1/od.1, line: 98
 #. type: SS
 #: raw/coreutils/man1/od.1:98
 #, no-wrap
@@ -651,10 +425,6 @@ msgid "TYPE is made up of one or more of these specifications:"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 99
-# File: raw/man1/od.1, line: 99
-# File: raw/man1/od.1, line: 99
-# File: raw/man1/od.1, line: 99
 #. type: TP
 #: raw/coreutils/man1/od.1:99
 #, no-wrap
@@ -662,20 +432,12 @@ msgid "a"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 102
-# File: raw/man1/od.1, line: 102
-# File: raw/man1/od.1, line: 102
-# File: raw/man1/od.1, line: 102
 #. type: Plain text
 #: raw/coreutils/man1/od.1:102
 msgid "named character, ignoring high-order bit"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 102
-# File: raw/man1/od.1, line: 102
-# File: raw/man1/od.1, line: 102
-# File: raw/man1/od.1, line: 102
 #. type: TP
 #: raw/coreutils/man1/od.1:102
 #, no-wrap
@@ -683,20 +445,12 @@ msgid "c"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 105
-# File: raw/man1/od.1, line: 105
-# File: raw/man1/od.1, line: 105
-# File: raw/man1/od.1, line: 105
 #. type: Plain text
 #: raw/coreutils/man1/od.1:105
 msgid "printable character or backslash escape"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 105
-# File: raw/man1/od.1, line: 105
-# File: raw/man1/od.1, line: 105
-# File: raw/man1/od.1, line: 105
 #. type: TP
 #: raw/coreutils/man1/od.1:105
 #, no-wrap
@@ -704,20 +458,12 @@ msgid "d[SIZE]"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 108
-# File: raw/man1/od.1, line: 108
-# File: raw/man1/od.1, line: 108
-# File: raw/man1/od.1, line: 108
 #. type: Plain text
 #: raw/coreutils/man1/od.1:108
 msgid "signed decimal, SIZE bytes per integer"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 108
-# File: raw/man1/od.1, line: 108
-# File: raw/man1/od.1, line: 108
-# File: raw/man1/od.1, line: 108
 #. type: TP
 #: raw/coreutils/man1/od.1:108
 #, no-wrap
@@ -730,10 +476,6 @@ msgid "floating point, SIZE bytes per float"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 111
-# File: raw/man1/od.1, line: 111
-# File: raw/man1/od.1, line: 111
-# File: raw/man1/od.1, line: 111
 #. type: TP
 #: raw/coreutils/man1/od.1:111
 #, no-wrap
@@ -741,20 +483,12 @@ msgid "o[SIZE]"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 114
-# File: raw/man1/od.1, line: 114
-# File: raw/man1/od.1, line: 114
-# File: raw/man1/od.1, line: 114
 #. type: Plain text
 #: raw/coreutils/man1/od.1:114
 msgid "octal, SIZE bytes per integer"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 114
-# File: raw/man1/od.1, line: 114
-# File: raw/man1/od.1, line: 114
-# File: raw/man1/od.1, line: 114
 #. type: TP
 #: raw/coreutils/man1/od.1:114
 #, no-wrap
@@ -762,20 +496,12 @@ msgid "u[SIZE]"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 117
-# File: raw/man1/od.1, line: 117
-# File: raw/man1/od.1, line: 117
-# File: raw/man1/od.1, line: 117
 #. type: Plain text
 #: raw/coreutils/man1/od.1:117
 msgid "unsigned decimal, SIZE bytes per integer"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 117
-# File: raw/man1/od.1, line: 117
-# File: raw/man1/od.1, line: 117
-# File: raw/man1/od.1, line: 117
 #. type: TP
 #: raw/coreutils/man1/od.1:117
 #, no-wrap
@@ -783,20 +509,12 @@ msgid "x[SIZE]"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 120
-# File: raw/man1/od.1, line: 120
-# File: raw/man1/od.1, line: 120
-# File: raw/man1/od.1, line: 120
 #. type: Plain text
 #: raw/coreutils/man1/od.1:120
 msgid "hexadecimal, SIZE bytes per integer"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 125
-# File: raw/man1/od.1, line: 125
-# File: raw/man1/od.1, line: 125
-# File: raw/man1/od.1, line: 125
 #. type: Plain text
 #: raw/coreutils/man1/od.1:125
 msgid ""
@@ -807,10 +525,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 128
-# File: raw/man1/od.1, line: 128
-# File: raw/man1/od.1, line: 128
-# File: raw/man1/od.1, line: 128
 #. type: Plain text
 #: raw/coreutils/man1/od.1:128
 msgid ""
@@ -819,10 +533,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 128
-# File: raw/man1/od.1, line: 128
-# File: raw/man1/od.1, line: 128
-# File: raw/man1/od.1, line: 128
 #. type: SS
 #: raw/coreutils/man1/od.1:128
 #, no-wrap
@@ -830,10 +540,6 @@ msgid "BYTES is hex with 0x or 0X prefix, and may have a multiplier suffix:"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 129
-# File: raw/man1/od.1, line: 129
-# File: raw/man1/od.1, line: 129
-# File: raw/man1/od.1, line: 129
 #. type: TP
 #: raw/coreutils/man1/od.1:129
 #, no-wrap
@@ -841,20 +547,12 @@ msgid "b"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 132
-# File: raw/man1/od.1, line: 132
-# File: raw/man1/od.1, line: 132
-# File: raw/man1/od.1, line: 132
 #. type: Plain text
 #: raw/coreutils/man1/od.1:132
 msgid "512"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 132
-# File: raw/man1/od.1, line: 132
-# File: raw/man1/od.1, line: 132
-# File: raw/man1/od.1, line: 132
 #. type: TP
 #: raw/coreutils/man1/od.1:132
 #, no-wrap
@@ -862,20 +560,12 @@ msgid "KB"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 135
-# File: raw/man1/od.1, line: 135
-# File: raw/man1/od.1, line: 135
-# File: raw/man1/od.1, line: 135
 #. type: Plain text
 #: raw/coreutils/man1/od.1:135
 msgid "1000"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 135
-# File: raw/man1/od.1, line: 135
-# File: raw/man1/od.1, line: 135
-# File: raw/man1/od.1, line: 135
 #. type: TP
 #: raw/coreutils/man1/od.1:135
 #, no-wrap
@@ -883,20 +573,12 @@ msgid "K"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 138
-# File: raw/man1/od.1, line: 138
-# File: raw/man1/od.1, line: 138
-# File: raw/man1/od.1, line: 138
 #. type: Plain text
 #: raw/coreutils/man1/od.1:138
 msgid "1024"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 138
-# File: raw/man1/od.1, line: 138
-# File: raw/man1/od.1, line: 138
-# File: raw/man1/od.1, line: 138
 #. type: TP
 #: raw/coreutils/man1/od.1:138
 #, no-wrap
@@ -904,20 +586,12 @@ msgid "MB"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 141
-# File: raw/man1/od.1, line: 141
-# File: raw/man1/od.1, line: 141
-# File: raw/man1/od.1, line: 141
 #. type: Plain text
 #: raw/coreutils/man1/od.1:141
 msgid "1000*1000"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 141
-# File: raw/man1/od.1, line: 141
-# File: raw/man1/od.1, line: 141
-# File: raw/man1/od.1, line: 141
 #. type: TP
 #: raw/coreutils/man1/od.1:141
 #, no-wrap
@@ -925,30 +599,18 @@ msgid "M"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 144
-# File: raw/man1/od.1, line: 144
-# File: raw/man1/od.1, line: 144
-# File: raw/man1/od.1, line: 144
 #. type: Plain text
 #: raw/coreutils/man1/od.1:144
 msgid "1024*1024"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 146
-# File: raw/man1/od.1, line: 146
-# File: raw/man1/od.1, line: 146
-# File: raw/man1/od.1, line: 146
 #. type: Plain text
 #: raw/coreutils/man1/od.1:146
 msgid "and so on for G, T, P, E, Z, Y."
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 146
-# File: raw/man1/od.1, line: 146
-# File: raw/man1/od.1, line: 146
-# File: raw/man1/od.1, line: 146
 #. type: SH
 #: raw/coreutils/man1/od.1:146
 #, no-wrap
@@ -956,10 +618,6 @@ msgid "EXAMPLES"
 msgstr "范例"
 
 #
-# File: raw/man1/od.1, line: 147
-# File: raw/man1/od.1, line: 147
-# File: raw/man1/od.1, line: 147
-# File: raw/man1/od.1, line: 147
 #. type: TP
 #: raw/coreutils/man1/od.1:147
 #, no-wrap
@@ -967,20 +625,12 @@ msgid "B<od -A x -t x1z -v>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 150
-# File: raw/man1/od.1, line: 150
-# File: raw/man1/od.1, line: 150
-# File: raw/man1/od.1, line: 150
 #. type: Plain text
 #: raw/coreutils/man1/od.1:150
 msgid "Display hexdump format output"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 150
-# File: raw/man1/od.1, line: 150
-# File: raw/man1/od.1, line: 150
-# File: raw/man1/od.1, line: 150
 #. type: TP
 #: raw/coreutils/man1/od.1:150
 #, no-wrap
@@ -988,20 +638,12 @@ msgid "B<od -A o -t oS -w16>"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 153
-# File: raw/man1/od.1, line: 153
-# File: raw/man1/od.1, line: 153
-# File: raw/man1/od.1, line: 153
 #. type: Plain text
 #: raw/coreutils/man1/od.1:153
 msgid "The default output format used by od"
 msgstr ""
 
 #
-# File: raw/man1/od.1, line: 153
-# File: raw/man1/od.1, line: 153
-# File: raw/man1/od.1, line: 153
-# File: raw/man1/od.1, line: 153
 #. type: SH
 #: raw/coreutils/man1/od.1:153
 #, no-wrap
@@ -1009,20 +651,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/od.1, line: 155
-# File: raw/man1/od.1, line: 155
-# File: raw/man1/od.1, line: 155
-# File: raw/man1/od.1, line: 155
 #. type: Plain text
 #: raw/coreutils/man1/od.1:155
 msgid "Written by Jim Meyering."
 msgstr "由 Jim Meyering 编写。"
 
 #
-# File: raw/man1/od.1, line: 155
-# File: raw/man1/od.1, line: 155
-# File: raw/man1/od.1, line: 155
-# File: raw/man1/od.1, line: 155
 #. type: SH
 #: raw/coreutils/man1/od.1:155
 #, no-wrap
@@ -1030,10 +664,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/od.1, line: 157
-# File: raw/man1/od.1, line: 157
-# File: raw/man1/od.1, line: 157
-# File: raw/man1/od.1, line: 157
 #. type: Plain text
 #: raw/coreutils/man1/od.1:157
 msgid ""
@@ -1042,10 +672,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/od.1, line: 159
-# File: raw/man1/od.1, line: 159
-# File: raw/man1/od.1, line: 159
-# File: raw/man1/od.1, line: 159
 #. type: Plain text
 #: raw/coreutils/man1/od.1:159
 msgid ""
@@ -1055,10 +681,6 @@ msgstr ""
 "误。"
 
 #
-# File: raw/man1/od.1, line: 159
-# File: raw/man1/od.1, line: 159
-# File: raw/man1/od.1, line: 159
-# File: raw/man1/od.1, line: 159
 #. type: SH
 #: raw/coreutils/man1/od.1:159
 #, no-wrap
@@ -1066,10 +688,6 @@ msgid "COPYRIGHT"
 msgstr "版权"
 
 #
-# File: raw/man1/od.1, line: 162
-# File: raw/man1/od.1, line: 162
-# File: raw/man1/od.1, line: 162
-# File: raw/man1/od.1, line: 162
 #. type: Plain text
 #: raw/coreutils/man1/od.1:162
 #, fuzzy
@@ -1084,10 +702,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/od.1, line: 165
-# File: raw/man1/od.1, line: 165
-# File: raw/man1/od.1, line: 165
-# File: raw/man1/od.1, line: 165
 #. type: Plain text
 #: raw/coreutils/man1/od.1:165
 msgid ""
@@ -1098,10 +712,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/od.1, line: 165
-# File: raw/man1/od.1, line: 165
-# File: raw/man1/od.1, line: 165
-# File: raw/man1/od.1, line: 165
 #. type: SH
 #: raw/coreutils/man1/od.1:165
 #, no-wrap
@@ -1109,10 +719,6 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/od.1, line: 167
-# File: raw/man1/od.1, line: 167
-# File: raw/man1/od.1, line: 167
-# File: raw/man1/od.1, line: 167
 #. type: Plain text
 #: raw/coreutils/man1/od.1:167
 msgid ""
@@ -1120,10 +726,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/odE<gt>"
 
 #
-# File: raw/man1/od.1, line: 168
-# File: raw/man1/od.1, line: 168
-# File: raw/man1/od.1, line: 168
-# File: raw/man1/od.1, line: 168
 #. type: Plain text
 #: raw/coreutils/man1/od.1:168
 msgid "or available locally via: info \\(aq(coreutils) od invocation\\(aq"

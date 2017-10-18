@@ -26,7 +26,6 @@ msgstr ""
 msgid "MV"
 msgstr "MV"
 
-# File: raw/man1/mv.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
@@ -101,10 +100,6 @@ msgid "Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY."
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 20
-# File: raw/man1/mv.1, line: 20
-# File: raw/man1/mv.1, line: 20
-# File: raw/man1/mv.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:20
 msgid ""
@@ -113,10 +108,6 @@ msgstr "必选参数对长短选项同时适用。"
 
 #
 # Words in texinfo document is also hard to understand. Please make sure that you understand what CONTROL/METHOD is.
-# File: raw/man1/mv.1, line: 20
-# File: raw/man1/mv.1, line: 20
-# File: raw/man1/mv.1, line: 20
-# File: raw/man1/mv.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/mv.1:20
 #, fuzzy, no-wrap
@@ -124,20 +115,12 @@ msgid "B<--backup>[=I<\\,CONTROL\\/>]"
 msgstr "B<--backup>[=I<控制参数>]"
 
 #
-# File: raw/man1/mv.1, line: 23
-# File: raw/man1/mv.1, line: 23
-# File: raw/man1/mv.1, line: 23
-# File: raw/man1/mv.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:23
 msgid "make a backup of each existing destination file"
 msgstr "为每个已存在的目标文件创建一个备份"
 
 #
-# File: raw/man1/mv.1, line: 23
-# File: raw/man1/mv.1, line: 23
-# File: raw/man1/mv.1, line: 23
-# File: raw/man1/mv.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/mv.1:23
 #, no-wrap
@@ -145,20 +128,12 @@ msgid "B<-b>"
 msgstr "B<-b>"
 
 #
-# File: raw/man1/mv.1, line: 26
-# File: raw/man1/mv.1, line: 26
-# File: raw/man1/mv.1, line: 26
-# File: raw/man1/mv.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:26
 msgid "like B<--backup> but does not accept an argument"
 msgstr "类似 B<--backup>，但是不接受参数"
 
 #
-# File: raw/man1/mv.1, line: 26
-# File: raw/man1/mv.1, line: 26
-# File: raw/man1/mv.1, line: 26
-# File: raw/man1/mv.1, line: 26
 #. type: TP
 #: raw/coreutils/man1/mv.1:26
 #, no-wrap
@@ -166,20 +141,12 @@ msgid "B<-f>, B<--force>"
 msgstr "B<-f>, B<--force>"
 
 #
-# File: raw/man1/mv.1, line: 29
-# File: raw/man1/mv.1, line: 29
-# File: raw/man1/mv.1, line: 29
-# File: raw/man1/mv.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:29
 msgid "do not prompt before overwriting"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 29
-# File: raw/man1/mv.1, line: 29
-# File: raw/man1/mv.1, line: 29
-# File: raw/man1/mv.1, line: 29
 #. type: TP
 #: raw/coreutils/man1/mv.1:29
 #, no-wrap
@@ -187,20 +154,12 @@ msgid "B<-i>, B<--interactive>"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 32
-# File: raw/man1/mv.1, line: 32
-# File: raw/man1/mv.1, line: 32
-# File: raw/man1/mv.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:32
 msgid "prompt before overwrite"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 32
-# File: raw/man1/mv.1, line: 32
-# File: raw/man1/mv.1, line: 32
-# File: raw/man1/mv.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/mv.1:32
 #, no-wrap
@@ -208,20 +167,12 @@ msgid "B<-n>, B<--no-clobber>"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 35
-# File: raw/man1/mv.1, line: 35
-# File: raw/man1/mv.1, line: 35
-# File: raw/man1/mv.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:35
 msgid "do not overwrite an existing file"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 37
-# File: raw/man1/mv.1, line: 37
-# File: raw/man1/mv.1, line: 37
-# File: raw/man1/mv.1, line: 37
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:37
 msgid ""
@@ -230,10 +181,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 37
-# File: raw/man1/mv.1, line: 37
-# File: raw/man1/mv.1, line: 37
-# File: raw/man1/mv.1, line: 37
 #. type: TP
 #: raw/coreutils/man1/mv.1:37
 #, no-wrap
@@ -241,20 +188,12 @@ msgid "B<--strip-trailing-slashes>"
 msgstr "B<--strip-trailing-slashes>"
 
 #
-# File: raw/man1/mv.1, line: 41
-# File: raw/man1/mv.1, line: 41
-# File: raw/man1/mv.1, line: 41
-# File: raw/man1/mv.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:41
 msgid "remove any trailing slashes from each SOURCE argument"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 41
-# File: raw/man1/mv.1, line: 41
-# File: raw/man1/mv.1, line: 41
-# File: raw/man1/mv.1, line: 41
 #. type: TP
 #: raw/coreutils/man1/mv.1:41
 #, no-wrap
@@ -262,20 +201,12 @@ msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 44
-# File: raw/man1/mv.1, line: 44
-# File: raw/man1/mv.1, line: 44
-# File: raw/man1/mv.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:44
 msgid "override the usual backup suffix"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 44
-# File: raw/man1/mv.1, line: 44
-# File: raw/man1/mv.1, line: 44
-# File: raw/man1/mv.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/mv.1:44
 #, fuzzy, no-wrap
@@ -283,20 +214,12 @@ msgid "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 msgstr "B<-T>, B<--no-target-directory>"
 
 #
-# File: raw/man1/mv.1, line: 47
-# File: raw/man1/mv.1, line: 47
-# File: raw/man1/mv.1, line: 47
-# File: raw/man1/mv.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:47
 msgid "move all SOURCE arguments into DIRECTORY"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 47
-# File: raw/man1/mv.1, line: 47
-# File: raw/man1/mv.1, line: 47
-# File: raw/man1/mv.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/mv.1:47
 #, no-wrap
@@ -304,20 +227,12 @@ msgid "B<-T>, B<--no-target-directory>"
 msgstr "B<-T>, B<--no-target-directory>"
 
 #
-# File: raw/man1/mv.1, line: 50
-# File: raw/man1/mv.1, line: 50
-# File: raw/man1/mv.1, line: 50
-# File: raw/man1/mv.1, line: 50
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:50
 msgid "treat DEST as a normal file"
 msgstr "将目标文件当作普通文件对待（而不是目录）"
 
 #
-# File: raw/man1/mv.1, line: 50
-# File: raw/man1/mv.1, line: 50
-# File: raw/man1/mv.1, line: 50
-# File: raw/man1/mv.1, line: 50
 #. type: TP
 #: raw/coreutils/man1/mv.1:50
 #, no-wrap
@@ -325,10 +240,6 @@ msgid "B<-u>, B<--update>"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 55
-# File: raw/man1/mv.1, line: 55
-# File: raw/man1/mv.1, line: 55
-# File: raw/man1/mv.1, line: 55
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:55
 msgid ""
@@ -337,10 +248,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 55
-# File: raw/man1/mv.1, line: 55
-# File: raw/man1/mv.1, line: 55
-# File: raw/man1/mv.1, line: 55
 #. type: TP
 #: raw/coreutils/man1/mv.1:55
 #, no-wrap
@@ -348,20 +255,12 @@ msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
 #
-# File: raw/man1/mv.1, line: 58
-# File: raw/man1/mv.1, line: 58
-# File: raw/man1/mv.1, line: 58
-# File: raw/man1/mv.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:58
 msgid "explain what is being done"
 msgstr "解释正在发生的情况"
 
 #
-# File: raw/man1/mv.1, line: 58
-# File: raw/man1/mv.1, line: 58
-# File: raw/man1/mv.1, line: 58
-# File: raw/man1/mv.1, line: 58
 #. type: TP
 #: raw/coreutils/man1/mv.1:58
 #, no-wrap
@@ -369,20 +268,12 @@ msgid "B<-Z>, B<--context>"
 msgstr "B<-Z>, B<--context>"
 
 #
-# File: raw/man1/mv.1, line: 62
-# File: raw/man1/mv.1, line: 62
-# File: raw/man1/mv.1, line: 62
-# File: raw/man1/mv.1, line: 62
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:62
 msgid "set SELinux security context of destination file to default type"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 62
-# File: raw/man1/mv.1, line: 62
-# File: raw/man1/mv.1, line: 62
-# File: raw/man1/mv.1, line: 62
 #. type: TP
 #: raw/coreutils/man1/mv.1:62
 #, no-wrap
@@ -390,20 +281,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/mv.1, line: 65
-# File: raw/man1/mv.1, line: 65
-# File: raw/man1/mv.1, line: 65
-# File: raw/man1/mv.1, line: 65
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:65
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/mv.1, line: 65
-# File: raw/man1/mv.1, line: 65
-# File: raw/man1/mv.1, line: 65
-# File: raw/man1/mv.1, line: 65
 #. type: TP
 #: raw/coreutils/man1/mv.1:65
 #, no-wrap
@@ -411,20 +294,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/mv.1, line: 68
-# File: raw/man1/mv.1, line: 68
-# File: raw/man1/mv.1, line: 68
-# File: raw/man1/mv.1, line: 68
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:68
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/mv.1, line: 72
-# File: raw/man1/mv.1, line: 72
-# File: raw/man1/mv.1, line: 72
-# File: raw/man1/mv.1, line: 72
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:72
 msgid ""
@@ -435,10 +310,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 72
-# File: raw/man1/mv.1, line: 72
-# File: raw/man1/mv.1, line: 72
-# File: raw/man1/mv.1, line: 72
 #. type: TP
 #: raw/coreutils/man1/mv.1:72
 #, no-wrap
@@ -446,20 +317,12 @@ msgid "none, off"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 75
-# File: raw/man1/mv.1, line: 75
-# File: raw/man1/mv.1, line: 75
-# File: raw/man1/mv.1, line: 75
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:75
 msgid "never make backups (even if B<--backup> is given)"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 75
-# File: raw/man1/mv.1, line: 75
-# File: raw/man1/mv.1, line: 75
-# File: raw/man1/mv.1, line: 75
 #. type: TP
 #: raw/coreutils/man1/mv.1:75
 #, no-wrap
@@ -467,20 +330,12 @@ msgid "numbered, t"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 78
-# File: raw/man1/mv.1, line: 78
-# File: raw/man1/mv.1, line: 78
-# File: raw/man1/mv.1, line: 78
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:78
 msgid "make numbered backups"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 78
-# File: raw/man1/mv.1, line: 78
-# File: raw/man1/mv.1, line: 78
-# File: raw/man1/mv.1, line: 78
 #. type: TP
 #: raw/coreutils/man1/mv.1:78
 #, no-wrap
@@ -488,20 +343,12 @@ msgid "existing, nil"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 81
-# File: raw/man1/mv.1, line: 81
-# File: raw/man1/mv.1, line: 81
-# File: raw/man1/mv.1, line: 81
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:81
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 81
-# File: raw/man1/mv.1, line: 81
-# File: raw/man1/mv.1, line: 81
-# File: raw/man1/mv.1, line: 81
 #. type: TP
 #: raw/coreutils/man1/mv.1:81
 #, no-wrap
@@ -509,20 +356,12 @@ msgid "simple, never"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 84
-# File: raw/man1/mv.1, line: 84
-# File: raw/man1/mv.1, line: 84
-# File: raw/man1/mv.1, line: 84
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:84
 msgid "always make simple backups"
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 84
-# File: raw/man1/mv.1, line: 84
-# File: raw/man1/mv.1, line: 84
-# File: raw/man1/mv.1, line: 84
 #. type: SH
 #: raw/coreutils/man1/mv.1:84
 #, no-wrap
@@ -530,20 +369,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/mv.1, line: 86
-# File: raw/man1/mv.1, line: 86
-# File: raw/man1/mv.1, line: 86
-# File: raw/man1/mv.1, line: 86
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:86
 msgid "Written by Mike Parker, David MacKenzie, and Jim Meyering."
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 86
-# File: raw/man1/mv.1, line: 86
-# File: raw/man1/mv.1, line: 86
-# File: raw/man1/mv.1, line: 86
 #. type: SH
 #: raw/coreutils/man1/mv.1:86
 #, no-wrap
@@ -551,10 +382,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/mv.1, line: 88
-# File: raw/man1/mv.1, line: 88
-# File: raw/man1/mv.1, line: 88
-# File: raw/man1/mv.1, line: 88
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:88
 msgid ""
@@ -563,10 +390,6 @@ msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/mv.1, line: 90
-# File: raw/man1/mv.1, line: 90
-# File: raw/man1/mv.1, line: 90
-# File: raw/man1/mv.1, line: 90
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:90
 msgid ""
@@ -574,10 +397,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/mv.1, line: 90
-# File: raw/man1/mv.1, line: 90
-# File: raw/man1/mv.1, line: 90
-# File: raw/man1/mv.1, line: 90
 #. type: SH
 #: raw/coreutils/man1/mv.1:90
 #, no-wrap
@@ -598,10 +417,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/mv.1, line: 96
-# File: raw/man1/mv.1, line: 96
-# File: raw/man1/mv.1, line: 96
-# File: raw/man1/mv.1, line: 96
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:96
 msgid ""
@@ -612,10 +427,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/mv.1, line: 96
-# File: raw/man1/mv.1, line: 96
-# File: raw/man1/mv.1, line: 96
-# File: raw/man1/mv.1, line: 96
 #. type: SH
 #: raw/coreutils/man1/mv.1:96
 #, no-wrap
@@ -629,10 +440,6 @@ msgid "rename(2)"
 msgstr "rename(2)"
 
 #
-# File: raw/man1/mv.1, line: 101
-# File: raw/man1/mv.1, line: 101
-# File: raw/man1/mv.1, line: 101
-# File: raw/man1/mv.1, line: 101
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:101
 msgid ""

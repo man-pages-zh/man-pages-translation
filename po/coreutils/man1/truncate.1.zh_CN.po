@@ -26,7 +26,6 @@ msgstr ""
 msgid "TRUNCATE"
 msgstr "TRUNCATE"
 
-# File: raw/man1/truncate.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
@@ -35,7 +34,6 @@ msgstr "TRUNCATE"
 msgid "October 2017"
 msgstr "2016年12月"
 
-# File: raw/man1/truncate.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
 #, fuzzy, no-wrap
@@ -43,7 +41,6 @@ msgstr "2016年12月"
 msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.26"
 
-# File: raw/man1/truncate.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
@@ -51,7 +48,6 @@ msgstr "GNU coreutils 8.26"
 msgid "User Commands"
 msgstr "用户命令"
 
-# File: raw/man1/truncate.1, line: 3
 #
 #. type: SH
 #: raw/coreutils/man1/truncate.1:3
@@ -59,14 +55,12 @@ msgstr "用户命令"
 msgid "NAME"
 msgstr "名称"
 
-# File: raw/man1/truncate.1, line: 5
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:5
 msgid "truncate - shrink or extend the size of a file to the specified size"
 msgstr "truncate - 缩减或扩展文件尺寸至指定大小"
 
-# File: raw/man1/truncate.1, line: 5
 #
 #. type: SH
 #: raw/coreutils/man1/truncate.1:5
@@ -74,7 +68,6 @@ msgstr "truncate - 缩减或扩展文件尺寸至指定大小"
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/truncate.1, line: 8
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:8
@@ -82,9 +75,6 @@ msgid "B<truncate> I<\\,OPTION\\/>... I<\\,FILE\\/>..."
 msgstr "B<truncate> I<\\,选项\\/>... I<\\,文件列表\\/>..."
 
 #
-# File: raw/man1/truncate.1, line: 8
-# File: raw/man1/truncate.1, line: 8
-# File: raw/man1/truncate.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/truncate.1:8
 #, no-wrap
@@ -92,22 +82,17 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/truncate.1, line: 12
-# File: raw/man1/truncate.1, line: 12
-# File: raw/man1/truncate.1, line: 12
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:12
 msgid "Shrink or extend the size of each FILE to the specified size"
 msgstr "缩减或扩展每个指定文件的尺寸到指定的大小"
 
-# File: raw/man1/truncate.1, line: 14
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:14
 msgid "A FILE argument that does not exist is created."
 msgstr "如果给定文件参数中有不存在的文件，则它将被创建。"
 
-# File: raw/man1/truncate.1, line: 18
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:18
@@ -120,9 +105,6 @@ msgstr ""
 "它将被扩展，扩展部分（空洞）将填充零字节。"
 
 #
-# File: raw/man1/truncate.1, line: 20
-# File: raw/man1/truncate.1, line: 20
-# File: raw/man1/truncate.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:20
 msgid ""
@@ -130,9 +112,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/truncate.1, line: 20
-# File: raw/man1/truncate.1, line: 20
-# File: raw/man1/truncate.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/truncate.1:20
 #, no-wrap
@@ -140,32 +119,24 @@ msgid "B<-c>, B<--no-create>"
 msgstr "B<-c>, B<--no-create>"
 
 #
-# File: raw/man1/truncate.1, line: 23
-# File: raw/man1/truncate.1, line: 23
-# File: raw/man1/truncate.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:23
 msgid "do not create any files"
 msgstr "不要创建任何文件"
 
 #
-# File: raw/man1/truncate.1, line: 23
-# File: raw/man1/truncate.1, line: 23
-# File: raw/man1/truncate.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/truncate.1:23
 #, no-wrap
 msgid "B<-o>, B<--io-blocks>"
 msgstr "B<-o>, B<--io-blocks>"
 
-# File: raw/man1/truncate.1, line: 26
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:26
 msgid "treat SIZE as number of IO blocks instead of bytes"
 msgstr "将给定大小的数字作为 IO 块数处理，而非作为字节数处理"
 
-# File: raw/man1/truncate.1, line: 26
 #
 #. type: TP
 #: raw/coreutils/man1/truncate.1:26
@@ -173,14 +144,12 @@ msgstr "将给定大小的数字作为 IO 块数处理，而非作为字节数�
 msgid "B<-r>, B<--reference>=I<\\,RFILE\\/>"
 msgstr "B<-r>, B<--reference>=I<\\,参考文件\\/>"
 
-# File: raw/man1/truncate.1, line: 29
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:29
 msgid "base size on RFILE"
 msgstr "以所指定的文件大小作为基准"
 
-# File: raw/man1/truncate.1, line: 29
 #
 #. type: TP
 #: raw/coreutils/man1/truncate.1:29
@@ -188,7 +157,6 @@ msgstr "以所指定的文件大小作为基准"
 msgid "B<-s>, B<--size>=I<\\,SIZE\\/>"
 msgstr "B<-s>, B<--size>=I<\\,尺寸值\\/>"
 
-# File: raw/man1/truncate.1, line: 32
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:32
@@ -196,16 +164,12 @@ msgid "set or adjust the file size by SIZE bytes"
 msgstr "使用给定尺寸值设定或调整文件大小"
 
 #
-# File: raw/man1/truncate.1, line: 32
-# File: raw/man1/truncate.1, line: 32
-# File: raw/man1/truncate.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/truncate.1:32
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-# File: raw/man1/truncate.1, line: 35
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:35
@@ -213,9 +177,6 @@ msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/truncate.1, line: 35
-# File: raw/man1/truncate.1, line: 35
-# File: raw/man1/truncate.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/truncate.1:35
 #, no-wrap
@@ -223,15 +184,11 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/truncate.1, line: 38
-# File: raw/man1/truncate.1, line: 38
-# File: raw/man1/truncate.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:38
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-# File: raw/man1/truncate.1, line: 41
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:41
@@ -244,7 +201,6 @@ msgstr ""
 "包括 K、M、G、T、P、E、Z、Y（以1024作为基准）或者 KB、MB、…（以1000作为基"
 "准））。"
 
-# File: raw/man1/truncate.1, line: 45
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:45
@@ -258,9 +214,6 @@ msgstr ""
 "数，向下舍入，'%' 修改大小为指定数值的倍数，向上舍入。"
 
 #
-# File: raw/man1/truncate.1, line: 45
-# File: raw/man1/truncate.1, line: 45
-# File: raw/man1/truncate.1, line: 45
 #. type: SH
 #: raw/coreutils/man1/truncate.1:45
 #, no-wrap
@@ -268,18 +221,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/truncate.1, line: 47
-# File: raw/man1/truncate.1, line: 47
-# File: raw/man1/truncate.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:47
 msgid "Written by Padraig Brady."
 msgstr "由 Padraig Brady 编写。"
 
 #
-# File: raw/man1/truncate.1, line: 47
-# File: raw/man1/truncate.1, line: 47
-# File: raw/man1/truncate.1, line: 47
 #. type: SH
 #: raw/coreutils/man1/truncate.1:47
 #, no-wrap
@@ -287,9 +234,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/truncate.1, line: 49
-# File: raw/man1/truncate.1, line: 49
-# File: raw/man1/truncate.1, line: 49
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:49
 msgid ""
@@ -297,7 +241,6 @@ msgid ""
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-# File: raw/man1/truncate.1, line: 51
 #
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:51
@@ -309,18 +252,12 @@ msgstr ""
 "翻译错误。"
 
 #
-# File: raw/man1/truncate.1, line: 51
-# File: raw/man1/truncate.1, line: 51
-# File: raw/man1/truncate.1, line: 51
 #. type: SH
 #: raw/coreutils/man1/truncate.1:51
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/truncate.1, line: 54
-# File: raw/man1/truncate.1, line: 54
-# File: raw/man1/truncate.1, line: 54
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:54
 #, fuzzy
@@ -335,9 +272,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/truncate.1, line: 57
-# File: raw/man1/truncate.1, line: 57
-# File: raw/man1/truncate.1, line: 57
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:57
 msgid ""
@@ -348,9 +282,6 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/truncate.1, line: 57
-# File: raw/man1/truncate.1, line: 57
-# File: raw/man1/truncate.1, line: 57
 #. type: SH
 #: raw/coreutils/man1/truncate.1:57
 #, no-wrap
@@ -358,18 +289,12 @@ msgid "SEE ALSO"
 msgstr "参见"
 
 #
-# File: raw/man1/truncate.1, line: 59
-# File: raw/man1/truncate.1, line: 59
-# File: raw/man1/truncate.1, line: 59
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:59
 msgid "dd(1), truncate(2), ftruncate(2)"
 msgstr "dd(1), truncate(2), ftruncate(2)"
 
 #
-# File: raw/man1/truncate.1, line: 62
-# File: raw/man1/truncate.1, line: 62
-# File: raw/man1/truncate.1, line: 62
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:62
 msgid ""

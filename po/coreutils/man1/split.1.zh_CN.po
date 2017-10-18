@@ -26,7 +26,6 @@ msgstr ""
 msgid "SPLIT"
 msgstr "SPLIT"
 
-# File: raw/man1/split.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/split.1:2
@@ -57,18 +56,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/split.1, line: 5
-# File: raw/man1/split.1, line: 5
-# File: raw/man1/split.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/split.1:5
 msgid "split - split a file into pieces"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 5
-# File: raw/man1/split.1, line: 5
-# File: raw/man1/split.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/split.1:5
 #, no-wrap
@@ -76,18 +69,12 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/split.1, line: 8
-# File: raw/man1/split.1, line: 8
-# File: raw/man1/split.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/split.1:8
 msgid "B<split> [I<\\,OPTION\\/>]... [I<\\,FILE \\/>[I<\\,PREFIX\\/>]]"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 8
-# File: raw/man1/split.1, line: 8
-# File: raw/man1/split.1, line: 8
 #. type: SH
 #: raw/coreutils/man1/split.1:8
 #, no-wrap
@@ -95,9 +82,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/split.1, line: 13
-# File: raw/man1/split.1, line: 13
-# File: raw/man1/split.1, line: 13
 #. type: Plain text
 #: raw/coreutils/man1/split.1:13
 msgid ""
@@ -106,18 +90,12 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 15
-# File: raw/man1/split.1, line: 15
-# File: raw/man1/split.1, line: 15
 #. type: Plain text
 #: raw/coreutils/man1/split.1:15
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 17
-# File: raw/man1/split.1, line: 17
-# File: raw/man1/split.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/split.1:17
 msgid ""
@@ -125,9 +103,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 #
-# File: raw/man1/split.1, line: 17
-# File: raw/man1/split.1, line: 17
-# File: raw/man1/split.1, line: 17
 #. type: TP
 #: raw/coreutils/man1/split.1:17
 #, no-wrap
@@ -135,18 +110,12 @@ msgid "B<-a>, B<--suffix-length>=I<\\,N\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 20
-# File: raw/man1/split.1, line: 20
-# File: raw/man1/split.1, line: 20
 #. type: Plain text
 #: raw/coreutils/man1/split.1:20
 msgid "generate suffixes of length N (default 2)"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 20
-# File: raw/man1/split.1, line: 20
-# File: raw/man1/split.1, line: 20
 #. type: TP
 #: raw/coreutils/man1/split.1:20
 #, no-wrap
@@ -154,18 +123,12 @@ msgid "B<--additional-suffix>=I<\\,SUFFIX\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 23
-# File: raw/man1/split.1, line: 23
-# File: raw/man1/split.1, line: 23
 #. type: Plain text
 #: raw/coreutils/man1/split.1:23
 msgid "append an additional SUFFIX to file names"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 23
-# File: raw/man1/split.1, line: 23
-# File: raw/man1/split.1, line: 23
 #. type: TP
 #: raw/coreutils/man1/split.1:23
 #, no-wrap
@@ -173,18 +136,12 @@ msgid "B<-b>, B<--bytes>=I<\\,SIZE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 26
-# File: raw/man1/split.1, line: 26
-# File: raw/man1/split.1, line: 26
 #. type: Plain text
 #: raw/coreutils/man1/split.1:26
 msgid "put SIZE bytes per output file"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 26
-# File: raw/man1/split.1, line: 26
-# File: raw/man1/split.1, line: 26
 #. type: TP
 #: raw/coreutils/man1/split.1:26
 #, no-wrap
@@ -192,18 +149,12 @@ msgid "B<-C>, B<--line-bytes>=I<\\,SIZE\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 29
-# File: raw/man1/split.1, line: 29
-# File: raw/man1/split.1, line: 29
 #. type: Plain text
 #: raw/coreutils/man1/split.1:29
 msgid "put at most SIZE bytes of records per output file"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 29
-# File: raw/man1/split.1, line: 29
-# File: raw/man1/split.1, line: 29
 #. type: TP
 #: raw/coreutils/man1/split.1:29
 #, no-wrap
@@ -211,18 +162,12 @@ msgid "B<-d>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 32
-# File: raw/man1/split.1, line: 32
-# File: raw/man1/split.1, line: 32
 #. type: Plain text
 #: raw/coreutils/man1/split.1:32
 msgid "use numeric suffixes starting at 0, not alphabetic"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 32
-# File: raw/man1/split.1, line: 32
-# File: raw/man1/split.1, line: 32
 #. type: TP
 #: raw/coreutils/man1/split.1:32
 #, no-wrap
@@ -230,9 +175,6 @@ msgid "B<--numeric-suffixes>[=I<\\,FROM\\/>]"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 35
-# File: raw/man1/split.1, line: 35
-# File: raw/man1/split.1, line: 35
 #. type: Plain text
 #: raw/coreutils/man1/split.1:35
 msgid "same as B<-d>, but allow setting the start value"
@@ -261,9 +203,6 @@ msgid "same as B<-x>, but allow setting the start value"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 35
-# File: raw/man1/split.1, line: 35
-# File: raw/man1/split.1, line: 35
 #. type: TP
 #: raw/coreutils/man1/split.1:41
 #, no-wrap
@@ -271,18 +210,12 @@ msgid "B<-e>, B<--elide-empty-files>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 38
-# File: raw/man1/split.1, line: 38
-# File: raw/man1/split.1, line: 38
 #. type: Plain text
 #: raw/coreutils/man1/split.1:44
 msgid "do not generate empty output files with '-n'"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 38
-# File: raw/man1/split.1, line: 38
-# File: raw/man1/split.1, line: 38
 #. type: TP
 #: raw/coreutils/man1/split.1:44
 #, no-wrap
@@ -290,18 +223,12 @@ msgid "B<--filter>=I<\\,COMMAND\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 41
-# File: raw/man1/split.1, line: 41
-# File: raw/man1/split.1, line: 41
 #. type: Plain text
 #: raw/coreutils/man1/split.1:47
 msgid "write to shell COMMAND; file name is $FILE"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 41
-# File: raw/man1/split.1, line: 41
-# File: raw/man1/split.1, line: 41
 #. type: TP
 #: raw/coreutils/man1/split.1:47
 #, no-wrap
@@ -309,18 +236,12 @@ msgid "B<-l>, B<--lines>=I<\\,NUMBER\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 44
-# File: raw/man1/split.1, line: 44
-# File: raw/man1/split.1, line: 44
 #. type: Plain text
 #: raw/coreutils/man1/split.1:50
 msgid "put NUMBER lines/records per output file"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 44
-# File: raw/man1/split.1, line: 44
-# File: raw/man1/split.1, line: 44
 #. type: TP
 #: raw/coreutils/man1/split.1:50
 #, no-wrap
@@ -328,18 +249,12 @@ msgid "B<-n>, B<--number>=I<\\,CHUNKS\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 47
-# File: raw/man1/split.1, line: 47
-# File: raw/man1/split.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/split.1:53
 msgid "generate CHUNKS output files; see explanation below"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 47
-# File: raw/man1/split.1, line: 47
-# File: raw/man1/split.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/split.1:53
 #, no-wrap
@@ -347,9 +262,6 @@ msgid "B<-t>, B<--separator>=I<\\,SEP\\/>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 51
-# File: raw/man1/split.1, line: 51
-# File: raw/man1/split.1, line: 51
 #. type: Plain text
 #: raw/coreutils/man1/split.1:57
 msgid ""
@@ -358,9 +270,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 51
-# File: raw/man1/split.1, line: 51
-# File: raw/man1/split.1, line: 51
 #. type: TP
 #: raw/coreutils/man1/split.1:57
 #, no-wrap
@@ -368,18 +277,12 @@ msgid "B<-u>, B<--unbuffered>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 54
-# File: raw/man1/split.1, line: 54
-# File: raw/man1/split.1, line: 54
 #. type: Plain text
 #: raw/coreutils/man1/split.1:60
 msgid "immediately copy input to output with '-n r/...'"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 54
-# File: raw/man1/split.1, line: 54
-# File: raw/man1/split.1, line: 54
 #. type: TP
 #: raw/coreutils/man1/split.1:60
 #, no-wrap
@@ -387,18 +290,12 @@ msgid "B<--verbose>"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 58
-# File: raw/man1/split.1, line: 58
-# File: raw/man1/split.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/split.1:64
 msgid "print a diagnostic just before each output file is opened"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 58
-# File: raw/man1/split.1, line: 58
-# File: raw/man1/split.1, line: 58
 #. type: TP
 #: raw/coreutils/man1/split.1:64
 #, no-wrap
@@ -406,18 +303,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/split.1, line: 61
-# File: raw/man1/split.1, line: 61
-# File: raw/man1/split.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/split.1:67
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/split.1, line: 61
-# File: raw/man1/split.1, line: 61
-# File: raw/man1/split.1, line: 61
 #. type: TP
 #: raw/coreutils/man1/split.1:67
 #, no-wrap
@@ -425,18 +316,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/split.1, line: 64
-# File: raw/man1/split.1, line: 64
-# File: raw/man1/split.1, line: 64
 #. type: Plain text
 #: raw/coreutils/man1/split.1:70
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/split.1, line: 67
-# File: raw/man1/split.1, line: 67
-# File: raw/man1/split.1, line: 67
 #. type: Plain text
 #: raw/coreutils/man1/split.1:73
 msgid ""
@@ -446,9 +331,6 @@ msgid ""
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 67
-# File: raw/man1/split.1, line: 67
-# File: raw/man1/split.1, line: 67
 #. type: SS
 #: raw/coreutils/man1/split.1:73
 #, no-wrap
@@ -456,9 +338,6 @@ msgid "CHUNKS may be:"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 68
-# File: raw/man1/split.1, line: 68
-# File: raw/man1/split.1, line: 68
 #. type: TP
 #: raw/coreutils/man1/split.1:74
 #, no-wrap
@@ -466,18 +345,12 @@ msgid "N"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 71
-# File: raw/man1/split.1, line: 71
-# File: raw/man1/split.1, line: 71
 #. type: Plain text
 #: raw/coreutils/man1/split.1:77
 msgid "split into N files based on size of input"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 71
-# File: raw/man1/split.1, line: 71
-# File: raw/man1/split.1, line: 71
 #. type: TP
 #: raw/coreutils/man1/split.1:77
 #, no-wrap
@@ -485,18 +358,12 @@ msgid "K/N"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 74
-# File: raw/man1/split.1, line: 74
-# File: raw/man1/split.1, line: 74
 #. type: Plain text
 #: raw/coreutils/man1/split.1:80
 msgid "output Kth of N to stdout"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 74
-# File: raw/man1/split.1, line: 74
-# File: raw/man1/split.1, line: 74
 #. type: TP
 #: raw/coreutils/man1/split.1:80
 #, no-wrap
@@ -504,18 +371,12 @@ msgid "l/N"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 77
-# File: raw/man1/split.1, line: 77
-# File: raw/man1/split.1, line: 77
 #. type: Plain text
 #: raw/coreutils/man1/split.1:83
 msgid "split into N files without splitting lines/records"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 77
-# File: raw/man1/split.1, line: 77
-# File: raw/man1/split.1, line: 77
 #. type: TP
 #: raw/coreutils/man1/split.1:83
 #, no-wrap
@@ -523,18 +384,12 @@ msgid "l/K/N"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 80
-# File: raw/man1/split.1, line: 80
-# File: raw/man1/split.1, line: 80
 #. type: Plain text
 #: raw/coreutils/man1/split.1:86
 msgid "output Kth of N to stdout without splitting lines/records"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 80
-# File: raw/man1/split.1, line: 80
-# File: raw/man1/split.1, line: 80
 #. type: TP
 #: raw/coreutils/man1/split.1:86
 #, no-wrap
@@ -542,18 +397,12 @@ msgid "r/N"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 83
-# File: raw/man1/split.1, line: 83
-# File: raw/man1/split.1, line: 83
 #. type: Plain text
 #: raw/coreutils/man1/split.1:89
 msgid "like 'l' but use round robin distribution"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 83
-# File: raw/man1/split.1, line: 83
-# File: raw/man1/split.1, line: 83
 #. type: TP
 #: raw/coreutils/man1/split.1:89
 #, no-wrap
@@ -561,18 +410,12 @@ msgid "r/K/N"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 86
-# File: raw/man1/split.1, line: 86
-# File: raw/man1/split.1, line: 86
 #. type: Plain text
 #: raw/coreutils/man1/split.1:92
 msgid "likewise but only output Kth of N to stdout"
 msgstr ""
 
 #
-# File: raw/man1/split.1, line: 86
-# File: raw/man1/split.1, line: 86
-# File: raw/man1/split.1, line: 86
 #. type: SH
 #: raw/coreutils/man1/split.1:92
 #, no-wrap
@@ -580,18 +423,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/split.1, line: 88
-# File: raw/man1/split.1, line: 88
-# File: raw/man1/split.1, line: 88
 #. type: Plain text
 #: raw/coreutils/man1/split.1:94
 msgid "Written by Torbjorn Granlund and Richard M. Stallman."
 msgstr "由 Torbjorn Granlund 和 Richard M. Stallman 编写。"
 
 #
-# File: raw/man1/split.1, line: 88
-# File: raw/man1/split.1, line: 88
-# File: raw/man1/split.1, line: 88
 #. type: SH
 #: raw/coreutils/man1/split.1:94
 #, no-wrap
@@ -599,9 +436,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/split.1, line: 90
-# File: raw/man1/split.1, line: 90
-# File: raw/man1/split.1, line: 90
 #. type: Plain text
 #: raw/coreutils/man1/split.1:96
 msgid ""
@@ -609,7 +443,6 @@ msgid ""
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-# File: raw/man1/split.1, line: 92
 #
 #. type: Plain text
 #: raw/coreutils/man1/split.1:98
@@ -621,16 +454,12 @@ msgstr ""
 "译错误。"
 
 #
-# File: raw/man1/split.1, line: 92
-# File: raw/man1/split.1, line: 92
-# File: raw/man1/split.1, line: 92
 #. type: SH
 #: raw/coreutils/man1/split.1:98
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/split.1, line: 95
 #. type: Plain text
 #: raw/coreutils/man1/split.1:101
 #, fuzzy
@@ -645,9 +474,6 @@ msgstr ""
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
-# File: raw/man1/split.1, line: 98
-# File: raw/man1/split.1, line: 98
-# File: raw/man1/split.1, line: 98
 #. type: Plain text
 #: raw/coreutils/man1/split.1:104
 msgid ""
@@ -658,16 +484,12 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #
-# File: raw/man1/split.1, line: 98
-# File: raw/man1/split.1, line: 98
-# File: raw/man1/split.1, line: 98
 #. type: SH
 #: raw/coreutils/man1/split.1:104
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/split.1, line: 100
 #
 #. type: Plain text
 #: raw/coreutils/man1/split.1:106
@@ -676,9 +498,6 @@ msgid ""
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/splitE<gt>"
 
 #
-# File: raw/man1/split.1, line: 101
-# File: raw/man1/split.1, line: 101
-# File: raw/man1/split.1, line: 101
 #. type: Plain text
 #: raw/coreutils/man1/split.1:107
 msgid "or available locally via: info \\(aq(coreutils) split invocation\\(aq"

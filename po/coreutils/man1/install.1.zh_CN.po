@@ -20,7 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-# File: raw/man1/install.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/install.1:2
@@ -28,7 +27,6 @@ msgstr ""
 msgid "INSTALL"
 msgstr "INSTALL"
 
-# File: raw/man1/install.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/install.1:2
 #, no-wrap
@@ -36,7 +34,6 @@ msgstr "INSTALL"
 msgid "October 2017"
 msgstr "2017年10月"
 
-# File: raw/man1/install.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/install.1:2
 #, no-wrap
@@ -44,7 +41,6 @@ msgstr "2017年10月"
 msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.28"
 
-# File: raw/man1/install.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/install.1:2
@@ -53,17 +49,12 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/install.1, line: 3
-# File: raw/man1/install.1, line: 3
-# File: raw/man1/install.1, line: 3
-# File: raw/man1/install.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/install.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-# File: raw/man1/install.1, line: 5
 #
 #. type: Plain text
 #: raw/coreutils/man1/install.1:5
@@ -71,51 +62,33 @@ msgid "install - copy files and set attributes"
 msgstr "install - 复制文件并设置属性"
 
 #
-# File: raw/man1/install.1, line: 5
-# File: raw/man1/install.1, line: 5
-# File: raw/man1/install.1, line: 5
-# File: raw/man1/install.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/install.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-# File: raw/man1/install.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/install.1:8
 msgid "B<install> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,SOURCE DEST\\/>"
 msgstr "B<install> [I<\\,选项\\/>]... [I<\\,-T\\/>] I<\\,源文件 目标文件\\/>"
 
-# File: raw/man1/install.1, line: 11
-# File: raw/man1/install.1, line: 11
-# File: raw/man1/install.1, line: 11
-# File: raw/man1/install.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/install.1:11
 msgid "B<install> [I<\\,OPTION\\/>]... I<\\,SOURCE\\/>... I<\\,DIRECTORY\\/>"
 msgstr "B<install> [I<\\,选项\\/>]... I<源文件列表>... I<目录>"
 
-# File: raw/man1/install.1, line: 14
-# File: raw/man1/install.1, line: 14
-# File: raw/man1/install.1, line: 14
-# File: raw/man1/install.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/install.1:14
 msgid "B<install> [I<\\,OPTION\\/>]... I<\\,-t DIRECTORY SOURCE\\/>..."
 msgstr "B<install> [I<\\,选项\\/>]... I<\\,-t 目录 源文件列表\\/>..."
 
-# File: raw/man1/install.1, line: 17
 #. type: Plain text
 #: raw/coreutils/man1/install.1:17
 msgid "B<install> [I<\\,OPTION\\/>]... I<\\,-d DIRECTORY\\/>..."
 msgstr "B<install> [I<\\,选项\\/>]... I<\\,-d 目录列表\\/>..."
 
 #
-# File: raw/man1/install.1, line: 17
-# File: raw/man1/install.1, line: 17
-# File: raw/man1/install.1, line: 17
-# File: raw/man1/install.1, line: 17
 #. type: SH
 #: raw/coreutils/man1/install.1:17
 #, no-wrap
@@ -123,10 +96,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/install.1, line: 24
-# File: raw/man1/install.1, line: 24
-# File: raw/man1/install.1, line: 24
-# File: raw/man1/install.1, line: 24
 #. type: Plain text
 #: raw/coreutils/man1/install.1:24
 msgid ""
@@ -141,10 +110,6 @@ msgstr ""
 
 #
 # Shall we add some information about "DIR components" according to texinfo document?
-# File: raw/man1/install.1, line: 28
-# File: raw/man1/install.1, line: 28
-# File: raw/man1/install.1, line: 28
-# File: raw/man1/install.1, line: 28
 #. type: Plain text
 #: raw/coreutils/man1/install.1:28
 msgid ""
@@ -157,10 +122,6 @@ msgstr ""
 "录及其所有组件。"
 
 #
-# File: raw/man1/install.1, line: 30
-# File: raw/man1/install.1, line: 30
-# File: raw/man1/install.1, line: 30
-# File: raw/man1/install.1, line: 30
 #. type: Plain text
 #: raw/coreutils/man1/install.1:30
 msgid ""
@@ -168,7 +129,6 @@ msgid ""
 msgstr "必选参数对长短选项同时适用。"
 
 # Words in texinfo document is also hard to understand. Please make sure that you understand what CONTROL/METHOD is.
-# File: raw/man1/install.1, line: 30
 #. type: TP
 #: raw/coreutils/man1/install.1:30
 #, no-wrap
@@ -176,20 +136,12 @@ msgid "B<--backup>[=I<\\,CONTROL\\/>]"
 msgstr "B<--backup>[=I<\\,控制参数\\/>]"
 
 #
-# File: raw/man1/install.1, line: 33
-# File: raw/man1/install.1, line: 33
-# File: raw/man1/install.1, line: 33
-# File: raw/man1/install.1, line: 33
 #. type: Plain text
 #: raw/coreutils/man1/install.1:33
 msgid "make a backup of each existing destination file"
 msgstr "为每个已存在的目标文件创建一个备份"
 
 #
-# File: raw/man1/install.1, line: 33
-# File: raw/man1/install.1, line: 33
-# File: raw/man1/install.1, line: 33
-# File: raw/man1/install.1, line: 33
 #. type: TP
 #: raw/coreutils/man1/install.1:33
 #, no-wrap
@@ -197,20 +149,12 @@ msgid "B<-b>"
 msgstr "B<-b>"
 
 #
-# File: raw/man1/install.1, line: 36
-# File: raw/man1/install.1, line: 36
-# File: raw/man1/install.1, line: 36
-# File: raw/man1/install.1, line: 36
 #. type: Plain text
 #: raw/coreutils/man1/install.1:36
 msgid "like B<--backup> but does not accept an argument"
 msgstr "类似 B<--backup>，但是不接受参数"
 
 #
-# File: raw/man1/install.1, line: 36
-# File: raw/man1/install.1, line: 36
-# File: raw/man1/install.1, line: 36
-# File: raw/man1/install.1, line: 36
 #. type: TP
 #: raw/coreutils/man1/install.1:36
 #, no-wrap
@@ -218,20 +162,12 @@ msgid "B<-c>"
 msgstr "B<-c>"
 
 #
-# File: raw/man1/install.1, line: 39
-# File: raw/man1/install.1, line: 39
-# File: raw/man1/install.1, line: 39
-# File: raw/man1/install.1, line: 39
 #. type: Plain text
 #: raw/coreutils/man1/install.1:39
 msgid "(ignored)"
 msgstr "（被忽略的选项）"
 
 #
-# File: raw/man1/install.1, line: 39
-# File: raw/man1/install.1, line: 39
-# File: raw/man1/install.1, line: 39
-# File: raw/man1/install.1, line: 39
 #. type: TP
 #: raw/coreutils/man1/install.1:39
 #, no-wrap
@@ -239,10 +175,6 @@ msgid "B<-C>, B<--compare>"
 msgstr "B<-C>, B<--compare>"
 
 #
-# File: raw/man1/install.1, line: 43
-# File: raw/man1/install.1, line: 43
-# File: raw/man1/install.1, line: 43
-# File: raw/man1/install.1, line: 43
 #. type: Plain text
 #: raw/coreutils/man1/install.1:43
 msgid ""
@@ -251,10 +183,6 @@ msgid ""
 msgstr "比较每一对源文件与目标文件。在某些情况下，完全不修改目标文件"
 
 #
-# File: raw/man1/install.1, line: 43
-# File: raw/man1/install.1, line: 43
-# File: raw/man1/install.1, line: 43
-# File: raw/man1/install.1, line: 43
 #. type: TP
 #: raw/coreutils/man1/install.1:43
 #, no-wrap
@@ -262,10 +190,6 @@ msgid "B<-d>, B<--directory>"
 msgstr "B<-d>, B<--directory>"
 
 #
-# File: raw/man1/install.1, line: 47
-# File: raw/man1/install.1, line: 47
-# File: raw/man1/install.1, line: 47
-# File: raw/man1/install.1, line: 47
 #. type: Plain text
 #: raw/coreutils/man1/install.1:47
 msgid ""
@@ -274,17 +198,12 @@ msgid ""
 msgstr "将所有参数看作目录名称；创建指定目录的所有相关组件"
 
 #
-# File: raw/man1/install.1, line: 47
-# File: raw/man1/install.1, line: 47
-# File: raw/man1/install.1, line: 47
-# File: raw/man1/install.1, line: 47
 #. type: TP
 #: raw/coreutils/man1/install.1:47
 #, no-wrap
 msgid "B<-D>"
 msgstr "B<-D>"
 
-# File: raw/man1/install.1, line: 52
 #. type: Plain text
 #: raw/coreutils/man1/install.1:52
 msgid ""
@@ -294,10 +213,6 @@ msgstr ""
 "创建目标文件路径中除最后一个部分以外所有组成部分（缺失的父目录），或者 B<--"
 "target-directory> 的全部组成部分，然后将源文件复制为目标文件"
 
-# File: raw/man1/install.1, line: 52
-# File: raw/man1/install.1, line: 52
-# File: raw/man1/install.1, line: 52
-# File: raw/man1/install.1, line: 52
 #. type: TP
 #: raw/coreutils/man1/install.1:52
 #, no-wrap
@@ -305,19 +220,11 @@ msgid "B<-g>, B<--group>=I<\\,GROUP\\/>"
 msgstr "B<-g>, B<--group>=I<\\,组名\\/>"
 
 #
-# File: raw/man1/install.1, line: 55
-# File: raw/man1/install.1, line: 55
-# File: raw/man1/install.1, line: 55
-# File: raw/man1/install.1, line: 55
 #. type: Plain text
 #: raw/coreutils/man1/install.1:55
 msgid "set group ownership, instead of process' current group"
 msgstr "设置组所有权，而不是使用进程的当前组所有权"
 
-# File: raw/man1/install.1, line: 55
-# File: raw/man1/install.1, line: 55
-# File: raw/man1/install.1, line: 55
-# File: raw/man1/install.1, line: 55
 #. type: TP
 #: raw/coreutils/man1/install.1:55
 #, no-wrap
@@ -325,19 +232,11 @@ msgid "B<-m>, B<--mode>=I<\\,MODE\\/>"
 msgstr "B<-m>, B<--mode>=I<\\,模式\\/>"
 
 #
-# File: raw/man1/install.1, line: 58
-# File: raw/man1/install.1, line: 58
-# File: raw/man1/install.1, line: 58
-# File: raw/man1/install.1, line: 58
 #. type: Plain text
 #: raw/coreutils/man1/install.1:58
 msgid "set permission mode (as in chmod), instead of rwxr-xr-x"
 msgstr "设置权限模式（类似 chmod），而不是 rwxr-xr-x"
 
-# File: raw/man1/install.1, line: 58
-# File: raw/man1/install.1, line: 58
-# File: raw/man1/install.1, line: 58
-# File: raw/man1/install.1, line: 58
 #. type: TP
 #: raw/coreutils/man1/install.1:58
 #, no-wrap
@@ -345,20 +244,12 @@ msgid "B<-o>, B<--owner>=I<\\,OWNER\\/>"
 msgstr "B<-o>, B<--owner>=I<\\,所有者\\/>"
 
 #
-# File: raw/man1/install.1, line: 61
-# File: raw/man1/install.1, line: 61
-# File: raw/man1/install.1, line: 61
-# File: raw/man1/install.1, line: 61
 #. type: Plain text
 #: raw/coreutils/man1/install.1:61
 msgid "set ownership (super-user only)"
 msgstr "设置所有权（仅适用于超级用户）"
 
 #
-# File: raw/man1/install.1, line: 61
-# File: raw/man1/install.1, line: 61
-# File: raw/man1/install.1, line: 61
-# File: raw/man1/install.1, line: 61
 #. type: TP
 #: raw/coreutils/man1/install.1:61
 #, no-wrap
@@ -366,10 +257,6 @@ msgid "B<-p>, B<--preserve-timestamps>"
 msgstr "B<-p>, B<--preserve-timestamps>"
 
 #
-# File: raw/man1/install.1, line: 65
-# File: raw/man1/install.1, line: 65
-# File: raw/man1/install.1, line: 65
-# File: raw/man1/install.1, line: 65
 #. type: Plain text
 #: raw/coreutils/man1/install.1:65
 msgid ""
@@ -378,10 +265,6 @@ msgid ""
 msgstr "将源文件的访问/修改时间应用于相应目标文件"
 
 #
-# File: raw/man1/install.1, line: 65
-# File: raw/man1/install.1, line: 65
-# File: raw/man1/install.1, line: 65
-# File: raw/man1/install.1, line: 65
 #. type: TP
 #: raw/coreutils/man1/install.1:65
 #, no-wrap
@@ -389,19 +272,11 @@ msgid "B<-s>, B<--strip>"
 msgstr "B<-s>, B<--strip>"
 
 #
-# File: raw/man1/install.1, line: 68
-# File: raw/man1/install.1, line: 68
-# File: raw/man1/install.1, line: 68
-# File: raw/man1/install.1, line: 68
 #. type: Plain text
 #: raw/coreutils/man1/install.1:68
 msgid "strip symbol tables"
 msgstr "剥离符号表"
 
-# File: raw/man1/install.1, line: 68
-# File: raw/man1/install.1, line: 68
-# File: raw/man1/install.1, line: 68
-# File: raw/man1/install.1, line: 68
 #. type: TP
 #: raw/coreutils/man1/install.1:68
 #, no-wrap
@@ -409,19 +284,11 @@ msgid "B<--strip-program>=I<\\,PROGRAM\\/>"
 msgstr "B<--strip-program>=I<\\,程序\\/>"
 
 #
-# File: raw/man1/install.1, line: 71
-# File: raw/man1/install.1, line: 71
-# File: raw/man1/install.1, line: 71
-# File: raw/man1/install.1, line: 71
 #. type: Plain text
 #: raw/coreutils/man1/install.1:71
 msgid "program used to strip binaries"
 msgstr "指定用于剥离（strip）二进制文件的程序"
 
-# File: raw/man1/install.1, line: 71
-# File: raw/man1/install.1, line: 71
-# File: raw/man1/install.1, line: 71
-# File: raw/man1/install.1, line: 71
 #. type: TP
 #: raw/coreutils/man1/install.1:71
 #, no-wrap
@@ -429,19 +296,11 @@ msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
 msgstr "B<-S>, B<--suffix>=I<\\,后缀\\/>"
 
 #
-# File: raw/man1/install.1, line: 74
-# File: raw/man1/install.1, line: 74
-# File: raw/man1/install.1, line: 74
-# File: raw/man1/install.1, line: 74
 #. type: Plain text
 #: raw/coreutils/man1/install.1:74
 msgid "override the usual backup suffix"
 msgstr "替换常用的备份文件后缀"
 
-# File: raw/man1/install.1, line: 74
-# File: raw/man1/install.1, line: 74
-# File: raw/man1/install.1, line: 74
-# File: raw/man1/install.1, line: 74
 #. type: TP
 #: raw/coreutils/man1/install.1:74
 #, no-wrap
@@ -449,20 +308,12 @@ msgid "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 msgstr "B<-t>, B<--target-directory>=I<\\,目录\\/>"
 
 #
-# File: raw/man1/install.1, line: 77
-# File: raw/man1/install.1, line: 77
-# File: raw/man1/install.1, line: 77
-# File: raw/man1/install.1, line: 77
 #. type: Plain text
 #: raw/coreutils/man1/install.1:77
 msgid "copy all SOURCE arguments into DIRECTORY"
 msgstr "复制源目录列表中的所有文件到指定目录"
 
 #
-# File: raw/man1/install.1, line: 77
-# File: raw/man1/install.1, line: 77
-# File: raw/man1/install.1, line: 77
-# File: raw/man1/install.1, line: 77
 #. type: TP
 #: raw/coreutils/man1/install.1:77
 #, no-wrap
@@ -470,20 +321,12 @@ msgid "B<-T>, B<--no-target-directory>"
 msgstr "B<-T>, B<--no-target-directory>"
 
 #
-# File: raw/man1/install.1, line: 80
-# File: raw/man1/install.1, line: 80
-# File: raw/man1/install.1, line: 80
-# File: raw/man1/install.1, line: 80
 #. type: Plain text
 #: raw/coreutils/man1/install.1:80
 msgid "treat DEST as a normal file"
 msgstr "将目标文件当作普通文件对待（而不是目录）"
 
 #
-# File: raw/man1/install.1, line: 80
-# File: raw/man1/install.1, line: 80
-# File: raw/man1/install.1, line: 80
-# File: raw/man1/install.1, line: 80
 #. type: TP
 #: raw/coreutils/man1/install.1:80
 #, no-wrap
@@ -491,27 +334,18 @@ msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
 #
-# File: raw/man1/install.1, line: 83
-# File: raw/man1/install.1, line: 83
-# File: raw/man1/install.1, line: 83
-# File: raw/man1/install.1, line: 83
 #. type: Plain text
 #: raw/coreutils/man1/install.1:83
 msgid "print the name of each directory as it is created"
 msgstr "每次创建目录都输出目录名"
 
 #
-# File: raw/man1/install.1, line: 83
-# File: raw/man1/install.1, line: 83
-# File: raw/man1/install.1, line: 83
-# File: raw/man1/install.1, line: 83
 #. type: TP
 #: raw/coreutils/man1/install.1:83
 #, no-wrap
 msgid "B<--preserve-context>"
 msgstr "B<--preserve-context>"
 
-# File: raw/man1/install.1, line: 86
 #
 #. type: Plain text
 #: raw/coreutils/man1/install.1:86
@@ -519,17 +353,12 @@ msgid "preserve SELinux security context"
 msgstr "保持 SELinux 安全上下文"
 
 #
-# File: raw/man1/install.1, line: 86
-# File: raw/man1/install.1, line: 86
-# File: raw/man1/install.1, line: 86
-# File: raw/man1/install.1, line: 86
 #. type: TP
 #: raw/coreutils/man1/install.1:86
 #, no-wrap
 msgid "B<-Z>"
 msgstr "B<-Z>"
 
-# File: raw/man1/install.1, line: 90
 #
 #. type: Plain text
 #: raw/coreutils/man1/install.1:90
@@ -538,17 +367,12 @@ msgid ""
 "to default type"
 msgstr "将目标文件和每个创建的目录的 SELinux 安全上下文设置为默认类型"
 
-# File: raw/man1/install.1, line: 90
-# File: raw/man1/install.1, line: 90
-# File: raw/man1/install.1, line: 90
-# File: raw/man1/install.1, line: 90
 #. type: TP
 #: raw/coreutils/man1/install.1:90
 #, no-wrap
 msgid "B<--context>[=I<\\,CTX\\/>]"
 msgstr "B<--context>[=I<\\,CTX\\/>]"
 
-# File: raw/man1/install.1, line: 94
 #
 #. type: Plain text
 #: raw/coreutils/man1/install.1:94
@@ -560,10 +384,6 @@ msgstr ""
 "定类型"
 
 #
-# File: raw/man1/install.1, line: 94
-# File: raw/man1/install.1, line: 94
-# File: raw/man1/install.1, line: 94
-# File: raw/man1/install.1, line: 94
 #. type: TP
 #: raw/coreutils/man1/install.1:94
 #, no-wrap
@@ -571,20 +391,12 @@ msgid "B<--help>"
 msgstr "B<--help>"
 
 #
-# File: raw/man1/install.1, line: 97
-# File: raw/man1/install.1, line: 97
-# File: raw/man1/install.1, line: 97
-# File: raw/man1/install.1, line: 97
 #. type: Plain text
 #: raw/coreutils/man1/install.1:97
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #
-# File: raw/man1/install.1, line: 97
-# File: raw/man1/install.1, line: 97
-# File: raw/man1/install.1, line: 97
-# File: raw/man1/install.1, line: 97
 #. type: TP
 #: raw/coreutils/man1/install.1:97
 #, no-wrap
@@ -592,20 +404,12 @@ msgid "B<--version>"
 msgstr "B<--version>"
 
 #
-# File: raw/man1/install.1, line: 100
-# File: raw/man1/install.1, line: 100
-# File: raw/man1/install.1, line: 100
-# File: raw/man1/install.1, line: 100
 #. type: Plain text
 #: raw/coreutils/man1/install.1:100
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #
-# File: raw/man1/install.1, line: 104
-# File: raw/man1/install.1, line: 104
-# File: raw/man1/install.1, line: 104
-# File: raw/man1/install.1, line: 104
 #. type: Plain text
 #: raw/coreutils/man1/install.1:104
 msgid ""
@@ -619,10 +423,6 @@ msgstr ""
 "量。可选的值如下所示："
 
 #
-# File: raw/man1/install.1, line: 104
-# File: raw/man1/install.1, line: 104
-# File: raw/man1/install.1, line: 104
-# File: raw/man1/install.1, line: 104
 #. type: TP
 #: raw/coreutils/man1/install.1:104
 #, no-wrap
@@ -630,20 +430,12 @@ msgid "none, off"
 msgstr "none, off"
 
 #
-# File: raw/man1/install.1, line: 107
-# File: raw/man1/install.1, line: 107
-# File: raw/man1/install.1, line: 107
-# File: raw/man1/install.1, line: 107
 #. type: Plain text
 #: raw/coreutils/man1/install.1:107
 msgid "never make backups (even if B<--backup> is given)"
 msgstr "从不做备份（即使给定了 B<--backup>）"
 
 #
-# File: raw/man1/install.1, line: 107
-# File: raw/man1/install.1, line: 107
-# File: raw/man1/install.1, line: 107
-# File: raw/man1/install.1, line: 107
 #. type: TP
 #: raw/coreutils/man1/install.1:107
 #, no-wrap
@@ -651,20 +443,12 @@ msgid "numbered, t"
 msgstr "numbered, t"
 
 #
-# File: raw/man1/install.1, line: 110
-# File: raw/man1/install.1, line: 110
-# File: raw/man1/install.1, line: 110
-# File: raw/man1/install.1, line: 110
 #. type: Plain text
 #: raw/coreutils/man1/install.1:110
 msgid "make numbered backups"
 msgstr "做带编号的备份"
 
 #
-# File: raw/man1/install.1, line: 110
-# File: raw/man1/install.1, line: 110
-# File: raw/man1/install.1, line: 110
-# File: raw/man1/install.1, line: 110
 #. type: TP
 #: raw/coreutils/man1/install.1:110
 #, no-wrap
@@ -672,20 +456,12 @@ msgid "existing, nil"
 msgstr "existing, nil"
 
 #
-# File: raw/man1/install.1, line: 113
-# File: raw/man1/install.1, line: 113
-# File: raw/man1/install.1, line: 113
-# File: raw/man1/install.1, line: 113
 #. type: Plain text
 #: raw/coreutils/man1/install.1:113
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr "如果备份带编号则继续以编号方式备份，否则采用简单备份"
 
 #
-# File: raw/man1/install.1, line: 113
-# File: raw/man1/install.1, line: 113
-# File: raw/man1/install.1, line: 113
-# File: raw/man1/install.1, line: 113
 #. type: TP
 #: raw/coreutils/man1/install.1:113
 #, no-wrap
@@ -693,20 +469,12 @@ msgid "simple, never"
 msgstr "simple, never"
 
 #
-# File: raw/man1/install.1, line: 116
-# File: raw/man1/install.1, line: 116
-# File: raw/man1/install.1, line: 116
-# File: raw/man1/install.1, line: 116
 #. type: Plain text
 #: raw/coreutils/man1/install.1:116
 msgid "always make simple backups"
 msgstr "总做简单备份"
 
 #
-# File: raw/man1/install.1, line: 116
-# File: raw/man1/install.1, line: 116
-# File: raw/man1/install.1, line: 116
-# File: raw/man1/install.1, line: 116
 #. type: SH
 #: raw/coreutils/man1/install.1:116
 #, no-wrap
@@ -714,20 +482,12 @@ msgid "AUTHOR"
 msgstr "作者"
 
 #
-# File: raw/man1/install.1, line: 118
-# File: raw/man1/install.1, line: 118
-# File: raw/man1/install.1, line: 118
-# File: raw/man1/install.1, line: 118
 #. type: Plain text
 #: raw/coreutils/man1/install.1:118
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #
-# File: raw/man1/install.1, line: 118
-# File: raw/man1/install.1, line: 118
-# File: raw/man1/install.1, line: 118
-# File: raw/man1/install.1, line: 118
 #. type: SH
 #: raw/coreutils/man1/install.1:118
 #, no-wrap
@@ -735,10 +495,6 @@ msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #
-# File: raw/man1/install.1, line: 120
-# File: raw/man1/install.1, line: 120
-# File: raw/man1/install.1, line: 120
-# File: raw/man1/install.1, line: 120
 #. type: Plain text
 #: raw/coreutils/man1/install.1:120
 msgid ""
@@ -746,10 +502,6 @@ msgid ""
 msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
-# File: raw/man1/install.1, line: 122
-# File: raw/man1/install.1, line: 122
-# File: raw/man1/install.1, line: 122
-# File: raw/man1/install.1, line: 122
 #. type: Plain text
 #: raw/coreutils/man1/install.1:122
 msgid ""
@@ -760,17 +512,12 @@ msgstr ""
 "翻译错误。"
 
 #
-# File: raw/man1/install.1, line: 122
-# File: raw/man1/install.1, line: 122
-# File: raw/man1/install.1, line: 122
-# File: raw/man1/install.1, line: 122
 #. type: SH
 #: raw/coreutils/man1/install.1:122
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
-# File: raw/man1/install.1, line: 125
 #. type: Plain text
 #: raw/coreutils/man1/install.1:125
 #| msgid ""
@@ -783,7 +530,6 @@ msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-# File: raw/man1/install.1, line: 128
 #
 #. type: Plain text
 #: raw/coreutils/man1/install.1:128
@@ -794,7 +540,6 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-# File: raw/man1/install.1, line: 128
 #
 #. type: SH
 #: raw/coreutils/man1/install.1:128
@@ -802,7 +547,6 @@ msgstr ""
 msgid "SEE ALSO"
 msgstr "参见"
 
-# File: raw/man1/install.1, line: 130
 #
 #. type: Plain text
 #: raw/coreutils/man1/install.1:130
@@ -811,7 +555,6 @@ msgid ""
 "installE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/installE<gt>"
 
-# File: raw/man1/install.1, line: 131
 #
 #. type: Plain text
 #: raw/coreutils/man1/install.1:131
