@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-03-04 18:17+0800\n"
-"PO-Revision-Date: 2017-03-04 18:25+0800\n"
+"PO-Revision-Date: 2017-05-13 22:25+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -32,14 +32,12 @@ msgstr "MV"
 msgid "January 2017"
 msgstr "2017年1月"
 
-# File: raw/man1/mv.1, line: 2
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
 #, no-wrap
 msgid "GNU coreutils 8.26"
 msgstr "GNU coreutils 8.26"
 
-# File: raw/man1/mv.1, line: 2
 #
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
@@ -48,10 +46,6 @@ msgid "User Commands"
 msgstr "用户命令"
 
 #
-# File: raw/man1/mv.1, line: 3
-# File: raw/man1/mv.1, line: 3
-# File: raw/man1/mv.1, line: 3
-# File: raw/man1/mv.1, line: 3
 #. type: SH
 #: raw/coreutils/man1/mv.1:3
 #, no-wrap
@@ -59,20 +53,12 @@ msgid "NAME"
 msgstr "名称"
 
 #
-# File: raw/man1/mv.1, line: 5
-# File: raw/man1/mv.1, line: 5
-# File: raw/man1/mv.1, line: 5
-# File: raw/man1/mv.1, line: 5
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:5
 msgid "mv - move (rename) files"
-msgstr ""
+msgstr "mv - 移动（重命名）文件"
 
 #
-# File: raw/man1/mv.1, line: 5
-# File: raw/man1/mv.1, line: 5
-# File: raw/man1/mv.1, line: 5
-# File: raw/man1/mv.1, line: 5
 #. type: SH
 #: raw/coreutils/man1/mv.1:5
 #, no-wrap
@@ -80,40 +66,24 @@ msgid "SYNOPSIS"
 msgstr "概述"
 
 #
-# File: raw/man1/mv.1, line: 8
-# File: raw/man1/mv.1, line: 8
-# File: raw/man1/mv.1, line: 8
-# File: raw/man1/mv.1, line: 8
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:8
 msgid "B<mv> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,SOURCE DEST\\/>"
-msgstr ""
+msgstr "B<mv> [I<\\,选项\\/>]... [I<\\,-T\\/>] I<\\,源文件 目标文件\\/>"
 
 #
-# File: raw/man1/mv.1, line: 11
-# File: raw/man1/mv.1, line: 11
-# File: raw/man1/mv.1, line: 11
-# File: raw/man1/mv.1, line: 11
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:11
 msgid "B<mv> [I<\\,OPTION\\/>]... I<\\,SOURCE\\/>... I<\\,DIRECTORY\\/>"
-msgstr ""
+msgstr "B<mv> [I<\\,选项\\/>]... I<\\,源文件\\/>... I<\\,目标目录\\/>"
 
 #
-# File: raw/man1/mv.1, line: 14
-# File: raw/man1/mv.1, line: 14
-# File: raw/man1/mv.1, line: 14
-# File: raw/man1/mv.1, line: 14
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:14
 msgid "B<mv> [I<\\,OPTION\\/>]... I<\\,-t DIRECTORY SOURCE\\/>..."
-msgstr ""
+msgstr "B<mv> [I<\\,选项\\/>]... I<\\,-t 目标目录 源文件\\/>..."
 
 #
-# File: raw/man1/mv.1, line: 14
-# File: raw/man1/mv.1, line: 14
-# File: raw/man1/mv.1, line: 14
-# File: raw/man1/mv.1, line: 14
 #. type: SH
 #: raw/coreutils/man1/mv.1:14
 #, no-wrap
@@ -121,10 +91,6 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #
-# File: raw/man1/mv.1, line: 18
-# File: raw/man1/mv.1, line: 18
-# File: raw/man1/mv.1, line: 18
-# File: raw/man1/mv.1, line: 18
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:18
 msgid "Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY."
