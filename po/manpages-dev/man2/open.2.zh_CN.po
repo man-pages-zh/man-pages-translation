@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2017-04-09 00:37+0800\n"
 "PO-Revision-Date: 2017-03-06 00:06+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <debian-l10n-chinese@lists.debian.org>\n"
