@@ -4,12 +4,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
-"PO-Revision-Date: 2016-12-18 17:24+0800\n"
+"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"PO-Revision-Date: 2017-10-19 16:17+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -26,20 +26,17 @@ msgstr ""
 msgid "STAT"
 msgstr "STAT"
 
-#
 #. type: TH
 #: raw/coreutils/man1/stat.1:2
-#, fuzzy, no-wrap
-#| msgid "December 2016"
+#, no-wrap
 msgid "October 2017"
-msgstr "2016年12月"
+msgstr "2017年10月"
 
-#
 #. type: TH
 #: raw/coreutils/man1/stat.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GNU coreutils 8.28"
-msgstr "GNU coreutils 8.23"
+msgstr "GNU coreutils 8.28"
 
 #
 #. type: TH
@@ -731,15 +728,13 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:181
-#, fuzzy
 msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-10-18 22:23+0800\n"
-"PO-Revision-Date: 2017-02-12 22:10+0800\n"
+"PO-Revision-Date: 2017-10-19 16:13+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -23,20 +23,19 @@ msgstr ""
 #: raw/coreutils/man1/nproc.1:2
 #, no-wrap
 msgid "NPROC"
-msgstr ""
+msgstr "NPROC"
 
 #. type: TH
 #: raw/coreutils/man1/nproc.1:2
 #, no-wrap
 msgid "October 2017"
-msgstr ""
+msgstr "2017年10月"
 
-#
 #. type: TH
 #: raw/coreutils/man1/nproc.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GNU coreutils 8.28"
-msgstr "GNU coreutils 8.23"
+msgstr "GNU coreutils 8.28"
 
 #
 #. type: TH
@@ -56,7 +55,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/nproc.1:5
 msgid "nproc - print the number of processing units available"
-msgstr ""
+msgstr "nproc - 显示可用的处理器单元个数"
 
 #
 #. type: SH
@@ -69,7 +68,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/nproc.1:8
 msgid "B<nproc> [I<\\,OPTION\\/>]..."
-msgstr ""
+msgstr "B<nproc> [I<\\,选项\\/]..."
 
 #
 #. type: SH
@@ -149,7 +148,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/nproc.1:27
 msgid "Written by Giuseppe Scrivano."
-msgstr ""
+msgstr "由 Giuseppe Scrivano 编写。"
 
 #
 #. type: SH
@@ -163,8 +162,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/nproc.1:29
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text
@@ -173,6 +171,7 @@ msgid ""
 "Report nproc translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 nproc 的翻译错误。"
 
 #
 #. type: SH
@@ -181,15 +180,13 @@ msgstr ""
 msgid "COPYRIGHT"
 msgstr "版权"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nproc.1:34
-#, fuzzy
 msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
@@ -214,13 +211,13 @@ msgstr "参见"
 #: raw/coreutils/man1/nproc.1:39
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/nprocE<gt>"
-msgstr ""
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/nprocE<gt>"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/nproc.1:40
 msgid "or available locally via: info \\(aq(coreutils) nproc invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) nproc invocation\\(aq"
 
 #
 #

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-10-19 15:48+0800\n"
-"PO-Revision-Date: 2017-10-19 15:45+0800\n"
+"PO-Revision-Date: 2017-10-19 16:18+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -104,14 +104,14 @@ msgstr "B<-a>, B<--all>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:18
 msgid "do not ignore entries starting with ."
-msgstr ""
+msgstr "不要忽略以点号（“.”）起始的条目"
 
 #
 #. type: TP
 #: raw/coreutils/man1/vdir.1:18
 #, no-wrap
 msgid "B<-A>, B<--almost-all>"
-msgstr ""
+msgstr "B<-A>, B<--almost-all>"
 
 #
 #. type: Plain text
@@ -137,7 +137,7 @@ msgstr ""
 #: raw/coreutils/man1/vdir.1:24
 #, no-wrap
 msgid "B<-b>, B<--escape>"
-msgstr ""
+msgstr "B<-b>, B<--escape>"
 
 #
 #. type: Plain text
@@ -996,8 +996,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/vdir.1:248
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text

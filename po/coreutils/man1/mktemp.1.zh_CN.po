@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-10-19 15:48+0800\n"
-"PO-Revision-Date: 2017-10-19 15:46+0800\n"
+"PO-Revision-Date: 2017-10-19 16:19+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -68,7 +68,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:8
 msgid "B<mktemp> [I<\\,OPTION\\/>]... [I<\\,TEMPLATE\\/>]"
-msgstr ""
+msgstr "B<mktemp> [I<\\,选项\\/>]... [I<\\,模板\\/>]"
 
 #
 #. type: SH
@@ -86,6 +86,9 @@ msgid ""
 "not specified, use tmp.XXXXXXXXXX, and B<--tmpdir> is implied.  Files are "
 "created u+rw, and directories u+rwx, minus umask restrictions."
 msgstr ""
+"安全地创建一个临时文件或目录，并打印出其名称。所给定的模板字符串的最后一部分必须包含至少三个连续的“X”。如果没有指定模板字符串，程序将默认使用“tmp.X"
+"XXXXXXXXX”并默认启用 B<--tmpdir> 选项。文件创建时权限使用 u+rw，而目录使用 u+rwx，在此基础上再减去 umask"
+" 所体现的权限限制。"
 
 #
 #. type: TP
@@ -98,20 +101,20 @@ msgstr "B<-d>, B<--directory>"
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:18
 msgid "create a directory, not a file"
-msgstr ""
+msgstr "创建一个目录而非文件"
 
 #
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:18
 #, no-wrap
 msgid "B<-u>, B<--dry-run>"
-msgstr ""
+msgstr "B<-u>, B<--dry-run>"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:21
 msgid "do not create anything; merely print a name (unsafe)"
-msgstr ""
+msgstr "不要创建任何文件；只打印一个名称（不安全）"
 
 #
 #. type: TP
@@ -124,14 +127,14 @@ msgstr "B<-q>, B<--quiet>"
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:24
 msgid "suppress diagnostics about file/dir-creation failure"
-msgstr ""
+msgstr "隐藏文件/目录创建出错时的诊断信息"
 
 #
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:24
 #, no-wrap
 msgid "B<--suffix>=I<\\,SUFF\\/>"
-msgstr ""
+msgstr "B<--suffix>=I<\\,后缀名\\/>"
 
 #
 #. type: Plain text
@@ -139,7 +142,7 @@ msgstr ""
 msgid ""
 "append SUFF to TEMPLATE; SUFF must not contain a slash.  This option is "
 "implied if TEMPLATE does not end in X"
-msgstr ""
+msgstr "将后缀名附加到模板字符串后；后缀名不能含有斜线。如果模板字符串不以“X”结尾，该选项将默认被选中"
 
 #
 #. type: TP
@@ -225,8 +228,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mktemp.1:50
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text

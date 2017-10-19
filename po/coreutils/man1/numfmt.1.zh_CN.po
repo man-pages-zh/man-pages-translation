@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
-"PO-Revision-Date: 2017-02-22 01:55+0800\n"
+"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"PO-Revision-Date: 2017-10-19 16:12+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -25,20 +25,17 @@ msgstr ""
 msgid "NUMFMT"
 msgstr "NUMFMT"
 
-#
 #. type: TH
 #: raw/coreutils/man1/numfmt.1:2
-#, fuzzy, no-wrap
-#| msgid "December 2016"
+#, no-wrap
 msgid "October 2017"
-msgstr "2016年12月"
+msgstr "2017年10月"
 
 #. type: TH
 #: raw/coreutils/man1/numfmt.1:2
-#, fuzzy, no-wrap
-#| msgid "GNU coreutils 8.26"
+#, no-wrap
 msgid "GNU coreutils 8.28"
-msgstr "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.28"
 
 #
 #. type: TH
@@ -621,7 +618,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:172
 msgid "Written by Assaf Gordon."
-msgstr ""
+msgstr "由 Assaf Gordon 编写。"
 
 #
 #. type: SH
@@ -645,6 +642,8 @@ msgid ""
 "Report numfmt translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 numfmt 的翻"
+"译错误。"
 
 #
 #. type: SH
@@ -655,15 +654,11 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:179
-#, fuzzy
-#| msgid ""
-#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
@@ -688,13 +683,13 @@ msgstr "参见"
 #: raw/coreutils/man1/numfmt.1:184
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/numfmtE<gt>"
-msgstr ""
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/numfmtE<gt>"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:185
 msgid "or available locally via: info \\(aq(coreutils) numfmt invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) numfmt invocation\\(aq"
 
 #
 #

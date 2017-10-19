@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
-"PO-Revision-Date: 2017-10-18 23:00+0800\n"
+"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"PO-Revision-Date: 2017-10-19 16:00+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -258,21 +258,16 @@ msgstr ""
 msgid "BUGS"
 msgstr "BUGS"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/md5sum.1:58
-#, fuzzy
-#| msgid ""
-#| "The MD5 algorithm should not be used any more for security related "
-#| "purposes.  Instead, better use an SHA-2 algorithm, implemented in the "
-#| "programs sha224sum(1), sha256sum(1), sha384sum(1), sha512sum(1)"
 msgid ""
 "Do not use the MD5 algorithm for security related purposes.  Instead, use an "
 "SHA-2 algorithm, implemented in the programs sha224sum(1), sha256sum(1), "
 "sha384sum(1), sha512sum(1), or the BLAKE2 algorithm, implemented in b2sum(1)"
 msgstr ""
-"MD5 算法不应再被用于和安全相关的目的。作为替代，使用 SHA-2 算法更好，它实现在"
-"了 sha224sum(1)、sha256sum(1)、sha384sum(1) 和 sha512sum(1) 这些程序中"
+"不要为与安全相关的目的使用 MD5 算法。作为替代，请使用一个 SHA-2 算法，它们分"
+"别在 sha224sum(1)、sha256sum(1)、sha384sum(1)、sha512sum(1) 这些程序中实现；"
+"或者请使用 BLAKE2 算法，它在 b2sum(1) 程序中实现"
 
 #
 #. type: SH

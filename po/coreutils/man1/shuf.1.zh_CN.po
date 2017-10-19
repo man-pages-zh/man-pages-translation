@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
-"PO-Revision-Date: 2017-03-04 18:24+0800\n"
+"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"PO-Revision-Date: 2017-10-19 16:17+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -30,14 +30,13 @@ msgstr "SHUF"
 #: raw/coreutils/man1/shuf.1:2
 #, no-wrap
 msgid "October 2017"
-msgstr ""
+msgstr "2017年10月"
 
 #. type: TH
 #: raw/coreutils/man1/shuf.1:2
-#, fuzzy, no-wrap
-#| msgid "GNU coreutils 8.26"
+#, no-wrap
 msgid "GNU coreutils 8.28"
-msgstr "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.28"
 
 #
 #. type: TH
@@ -271,15 +270,11 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/shuf.1:58
-#, fuzzy
-#| msgid ""
-#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
