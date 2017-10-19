@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2017-10-19 15:48+0800\n"
 "PO-Revision-Date: 2017-10-18 22:55+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -30,14 +30,12 @@ msgstr "TIMEOUT"
 #. type: TH
 #: raw/coreutils/man1/timeout.1:2
 #, no-wrap
-#| msgid "December 2016"
 msgid "October 2017"
 msgstr "2017年10月"
 
 #. type: TH
 #: raw/coreutils/man1/timeout.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.26"
 msgid "GNU coreutils 8.28"
 msgstr "GNU coreutils 8.28"
 
@@ -72,7 +70,8 @@ msgstr "概述"
 #: raw/coreutils/man1/timeout.1:8
 msgid ""
 "B<timeout> [I<\\,OPTION\\/>] I<\\,DURATION COMMAND \\/>[I<\\,ARG\\/>]..."
-msgstr "B<timeout> [I<\\,选项列表\\/>] I<\\,持续时间 命令 \\/>[I<\\,参数列表\\/>]..."
+msgstr ""
+"B<timeout> [I<\\,选项列表\\/>] I<\\,持续时间 命令 \\/>[I<\\,参数列表\\/>]..."
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:11
@@ -173,7 +172,8 @@ msgstr "指定超时发生时应当送出的信号；"
 msgid ""
 "SIGNAL may be a name like 'HUP' or a number; see 'kill B<-l>' for a list of "
 "signals"
-msgstr "信号可以是类似“HUP”的信号名或是信号数；从“kill B<-l>”的输出可获得信号的列表"
+msgstr ""
+"信号可以是类似“HUP”的信号名或是信号数；从“kill B<-l>”的输出可获得信号的列表"
 
 #
 #. type: TP
@@ -237,7 +237,6 @@ msgstr "BUGS"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:61
-#| msgid "Some platforms don't curently support timeouts beyond the year 2038."
 msgid "Some platforms don't currently support timeouts beyond the year 2038."
 msgstr "某些平台目前不支持将超时时间设置为超过 2038 年。"
 
@@ -266,7 +265,8 @@ msgstr "报告错误"
 #: raw/coreutils/man1/timeout.1:65
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text
@@ -287,9 +287,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:70
-#| msgid ""
-#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."

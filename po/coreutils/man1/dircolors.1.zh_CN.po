@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2017-10-19 15:48+0800\n"
 "PO-Revision-Date: 2017-10-19 15:39+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -28,7 +28,6 @@ msgstr "DIRCOLORS"
 #. type: TH
 #: raw/coreutils/man1/dircolors.1:2
 #, no-wrap
-#| msgid "December 2016"
 msgid "October 2017"
 msgstr "2017年10月"
 
@@ -164,8 +163,9 @@ msgid ""
 "file types and extensions.  Otherwise, a precompiled database is used.  For "
 "details on the format of these files, run 'dircolors B<--print-database>'."
 msgstr ""
-"如果参数里指定了一个文件，程序将从文件中读取内容以确定应当为不同的文件类型和扩展名使用怎样的颜色。在其它情况下，程序会使用一个预编译的数据库。如需了解这些文"
-"件的格式细节，请运行“dircolors B<--print-database>”。"
+"如果参数里指定了一个文件，程序将从文件中读取内容以确定应当为不同的文件类型和"
+"扩展名使用怎样的颜色。在其它情况下，程序会使用一个预编译的数据库。如需了解这"
+"些文件的格式细节，请运行“dircolors B<--print-database>”。"
 
 #
 #. type: SH
@@ -192,7 +192,8 @@ msgstr "报告错误"
 #: raw/coreutils/man1/dircolors.1:36
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text
@@ -201,7 +202,8 @@ msgid ""
 "Report dircolors translation bugs to E<lt>http://translationproject.org/team/"
 "E<gt>"
 msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 dircolors 的翻译错误。"
+"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 dircolors "
+"的翻译错误。"
 
 #
 #. type: SH
@@ -242,7 +244,8 @@ msgstr "参见"
 msgid ""
 "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
 "dircolorsE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/dircolorsE<gt>"
+msgstr ""
+"完整文档请见： E<lt>http://www.gnu.org/software/coreutils/dircolorsE<gt>"
 
 #
 #. type: Plain text
