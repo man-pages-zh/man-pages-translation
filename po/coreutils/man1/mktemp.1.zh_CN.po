@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-10-18 22:23+0800\n"
-"PO-Revision-Date: 2017-03-04 18:47+0800\n"
+"PO-Revision-Date: 2017-10-19 15:46+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -29,14 +29,14 @@ msgstr "MKTEMP"
 #: raw/coreutils/man1/mktemp.1:2
 #, no-wrap
 msgid "October 2017"
-msgstr ""
+msgstr "2017年10月"
 
 #. type: TH
 #: raw/coreutils/man1/mktemp.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.26"
 msgid "GNU coreutils 8.28"
-msgstr "GNU coreutils 8.26"
+msgstr "GNU coreutils 8.28"
 
 #
 #. type: TH
@@ -56,7 +56,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:5
 msgid "mktemp - create a temporary file or directory"
-msgstr ""
+msgstr "mktemp - 创建一个临时文件或目录"
 
 #
 #. type: SH
@@ -212,7 +212,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:48
 msgid "Written by Jim Meyering and Eric Blake."
-msgstr ""
+msgstr "由 Jim Meyering 和 Eric Blake 编写。"
 
 #
 #. type: SH
@@ -226,8 +226,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mktemp.1:50
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text
@@ -248,7 +247,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:55
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
@@ -256,7 +254,7 @@ msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
