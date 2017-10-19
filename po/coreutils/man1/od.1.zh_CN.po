@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-10-19 16:20+0800\n"
-"PO-Revision-Date: 2017-10-19 16:11+0800\n"
+"PO-Revision-Date: 2017-10-19 17:05+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -57,7 +57,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:5
 msgid "od - dump files in octal and other formats"
-msgstr ""
+msgstr "od - 用八进制或其它格式表示文件"
 
 #
 #. type: SH
@@ -666,8 +666,7 @@ msgstr "报告错误"
 #: raw/coreutils/man1/od.1:157
 msgid ""
 "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #
 #. type: Plain text

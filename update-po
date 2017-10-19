@@ -29,4 +29,6 @@ for potitem in templates/*/man*/*.pot; do
         msginit --no-translator -i "${potitem}" -o "${poitem}" -l "${_MAN_LANG}.UTF-8"
     fi
 done
+
+cd ./po; find . -name "*.po" -exec sed -i -e '/^# File:/d' {} \;
 printf "%s\n" "# UPDATE-PO ### END ###############"
