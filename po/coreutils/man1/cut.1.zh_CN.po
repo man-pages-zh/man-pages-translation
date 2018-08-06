@@ -82,7 +82,7 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:12
 msgid "Print selected parts of lines from each FILE to standard output."
-msgstr ""
+msgstr "将每个FILE文件的选定行部分打印到标准输出。"
 
 #
 #. type: Plain text
@@ -108,7 +108,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:19
 msgid "select only these bytes"
-msgstr ""
+msgstr "仅显示行中指定直接范围的内容"
 
 #
 #. type: TP
@@ -121,27 +121,27 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:22
 msgid "select only these characters"
-msgstr ""
+msgstr "仅显示行中指定范围的字符"
 
 #
 #. type: TP
 #: raw/coreutils/man1/cut.1:22
 #, no-wrap
 msgid "B<-d>, B<--delimiter>=I<\\,DELIM\\/>"
-msgstr ""
+msgstr "指定字段的分隔符，默认的字段分隔符为“TAB”；"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:25
 msgid "use DELIM instead of TAB for field delimiter"
-msgstr ""
+msgstr "使用DELIM代替TAB进行字段分隔符"
 
 #
 #. type: TP
 #: raw/coreutils/man1/cut.1:25
 #, no-wrap
 msgid "B<-f>, B<--fields>=I<\\,LIST\\/>"
-msgstr ""
+msgstr "显示指定字段的内容；"
 
 #
 #. type: Plain text
@@ -149,8 +149,8 @@ msgstr ""
 msgid ""
 "select only these fields; also print any line that contains no delimiter "
 "character, unless the B<-s> option is specified"
-msgstr ""
-
+msgstr "只选择这些字段; 还打印任何不包含分隔符的行"
+       "字符，除非指定了B <-s>选项"
 #
 #. type: TP
 #: raw/coreutils/man1/cut.1:30
@@ -175,7 +175,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:37
 msgid "complement the set of selected bytes, characters or fields"
-msgstr ""
+msgstr "补充所选字节，字符或字段的集合"
 
 #
 #. type: TP
@@ -188,7 +188,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:40
 msgid "do not print lines not containing delimiters"
-msgstr ""
+msgstr "不要打印不包含分隔符的行"
 
 #
 #. type: TP
@@ -202,7 +202,7 @@ msgstr ""
 #: raw/coreutils/man1/cut.1:44
 msgid ""
 "use STRING as the output delimiter the default is to use the input delimiter"
-msgstr ""
+"使用STRING作为输出分隔符，默认是使用输入分隔符msgstr"
 
 #
 #. type: TP
@@ -215,7 +215,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:47
 msgid "line delimiter is NUL, not newline"
-msgstr ""
+msgstr "行分隔符是NUL，而不是换行符"
 
 #
 #. type: TP
@@ -251,7 +251,7 @@ msgid ""
 "range, or many ranges separated by commas.  Selected input is written in the "
 "same order that it is read, and is written exactly once.  Each range is one "
 "of:"
-msgstr ""
+msgstr "使用B <-b>，B <-c>或B <-f>中的一个，并且仅使用一个。 由上一个组成每个列表"
 
 #
 #. type: TP
@@ -264,7 +264,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:61
 msgid "N'th byte, character or field, counted from 1"
-msgstr ""
+msgstr "第N个字节，字符或字段，从1开始计算"
 
 #
 #. type: TP
@@ -277,7 +277,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:64
 msgid "from N'th byte, character or field, to end of line"
-msgstr ""
+msgstr "从第N个字节，字符或字段到行尾"
 
 #
 #. type: TP
@@ -290,7 +290,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:67
 msgid "from N'th to M'th (included) byte, character or field"
-msgstr ""
+msgstr "从N'到M'（包括）字节，字符或字段"
 
 #
 #. type: TP
@@ -303,7 +303,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:70
 msgid "from first to M'th (included) byte, character or field"
-msgstr ""
+msgstr "从第一个到第M个（包括）字节，字符或字段"
 
 #
 #. type: SH
@@ -316,7 +316,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:72
 msgid "Written by David M. Ihnat, David MacKenzie, and Jim Meyering."
-msgstr ""
+msgstr "由David M. Ihnat，David MacKenzie和Jim Meyering撰写。"
 
 #
 #. type: SH
@@ -338,7 +338,7 @@ msgstr ""
 #: raw/coreutils/man1/cut.1:76
 msgid ""
 "Report cut translation bugs to E<lt>http://translationproject.org/team/E<gt>"
-msgstr ""
+msgstr "报告将翻译错误请转到E <http://translationproject.org/team/E <gt>"
 
 #
 #. type: SH
@@ -362,7 +362,8 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr ""
+msgstr "这是免费软件：您可以自由更改并重新分发它。”
+“在法律允许的范围内，不提供任何担保。"
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
