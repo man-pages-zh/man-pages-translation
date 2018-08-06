@@ -149,8 +149,8 @@ msgstr "显示指定字段的内容；"
 msgid ""
 "select only these fields; also print any line that contains no delimiter "
 "character, unless the B<-s> option is specified"
-msgstr "只选择这些字段; 还打印任何不包含分隔符的行"
-       "字符，除非指定了B <-s>选项"
+msgstr "只选择这些字段; 还打印任何不包含分隔符的行。除非指定了B <-s>选项"
+       
 #
 #. type: TP
 #: raw/coreutils/man1/cut.1:30
