@@ -206,7 +206,7 @@ msgid ""
 "colorize the output; WHEN can be 'always' (default if omitted), 'auto', or "
 "'never'; more info below"
 msgstr ""
-“ 如果可以'始终'将着色输出;（如果省略则默认），'自动'或'从不';更多信息如下”
+"如果可以'始终'将着色输出;（如果省略则默认），'自动'或'从不';更多信息如下"
 
 #
 #. type: TP
@@ -433,7 +433,7 @@ msgstr "B<--sort>=I<\\,关键字\\/>"
 msgid ""
 "hyperlink file names; WHEN can be 'always' (default if omitted), 'auto', or "
 "'never'"
-msgstr "“超链接文件名; 如果可以'始终'（如果省略则默认），'自动'或'决不'"
+msgstr "超链接文件名; 如果可以'始终'（如果省略则默认），'自动'或'决不'"
 
 #. type: TP
 #: raw/coreutils/man1/dir.1:105
@@ -448,8 +448,8 @@ msgid ""
 "append indicator with style WORD to entry names: none (default), slash (B<-"
 "p>), file-type (B<--file-type>), classify (B<-F>)"
 msgstr ""
-“将带有样式WORD的指示符附加到条目名称：无（默认），斜杠（B < - p>），”
-“文件类型（B < - file-type>），分类（B <-F>）”
+"将带有样式WORD的指示符附加到条目名称：无（默认），斜杠（B < - p>），"
+"文件类型（B < - file-type>），分类（B <-F>）"
 #
 #. type: TP
 #: raw/coreutils/man1/dir.1:110
