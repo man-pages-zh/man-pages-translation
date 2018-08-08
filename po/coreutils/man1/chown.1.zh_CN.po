@@ -74,7 +74,8 @@ msgid ""
 "B<chown> [I<\\,OPTION\\/>]... [I<\\,OWNER\\/>][I<\\,:\\/>[I<\\,GROUP\\/>]] I<"
 "\\,FILE\\/>..."
 msgstr ""
-
+"B<chown> [I<\\,选项\\/>]... [I<\\,所有者\\/>][I<\\,:\\/>[I<\\,所属组\\/>]] I<"
+"\\,文件\\/>..."
 #
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:11
@@ -105,6 +106,12 @@ msgid ""
 "B<chgrp>.  If only a colon is given, or if the entire operand is empty, "
 "neither the owner nor the group is changed."
 msgstr ""
+"本手册页记录了B <chown>的GNU版本.<chown>更改"
+"每个给定文件的用户和组所有权。如果只有所有者给出“用户名或用户ID”，则该用户成为每个用户的所有者。给定文件，文件组不会更改。"
+"如果所有者被跟踪”通过用户名冒号和组名（或数字组ID），它们之间没有空格，文件的组所有权也改变了。"
+"如果冒号”用户名后面没有组名，该用户是”文件和文件组已更改为该用户的登录组。"
+"如果”冒号和组被给出，但是所有者被省略，只有组文件被更改;在这种情况下，B <chown>执行与“B <chgrp>”相同的功能“。"
+"如果只给出一个冒号，或者整个操作数是空的，所有者和所属组都没有改变。"
 
 #
 #. type: SH
@@ -120,6 +127,7 @@ msgid ""
 "Change the owner and/or group of each FILE to OWNER and/or GROUP.  With B<--"
 "reference>, change the owner and group of each FILE to those of RFILE."
 msgstr ""
+"将每个文件的所有者和/或组更改为所有者和/或组。使用B < -reference>，将每个FILE的所有者和组更改为RFILE的所有者和组。 "
 
 #
 #. type: TP
@@ -132,7 +140,7 @@ msgstr "B<-c>, B<--changes>"
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:38
 msgid "like verbose but report only when a change is made"
-msgstr ""
+msgstr "详细信息，但仅在进行更改时报告"
 
 #
 #. type: TP
@@ -152,13 +160,13 @@ msgstr "隐藏大多数错误信息"
 #: raw/coreutils/man1/chown.1:41
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
-msgstr "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--详细信息>"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:44
 msgid "output a diagnostic for every file processed"
-msgstr ""
+msgstr "为每个处理的文件输出诊断"
 
 #
 #. type: TP
@@ -173,7 +181,7 @@ msgstr ""
 msgid ""
 "affect the referent of each symbolic link (this is the default), rather than "
 "the symbolic link itself"
-msgstr ""
+msgstr "影响每个符号链接的指示对象（这是默认值），而不是符号链接本身"
 
 #
 #. type: TP
@@ -188,7 +196,7 @@ msgstr "B<-h>, B<--no-dereference>"
 msgid ""
 "affect symbolic links instead of any referenced file (useful only on systems "
 "that can change the ownership of a symlink)"
-msgstr ""
+msgstr "影响符号链接而不是任何引用的文件（仅在系统上有用可以改变符号链接的所有权）"
 
 #
 #. type: TP
@@ -204,7 +212,7 @@ msgid ""
 "change the owner and/or group of each file only if its current owner and/or "
 "group match those specified here.  Either may be omitted, in which case a "
 "match is not required for the omitted attribute"
-msgstr ""
+msgstr "仅在其当前所有者和/或组更改每个文件的所有者和/或组匹配此处指定的组。两者都可以省略，在这种情况下省略的属性不需要匹配"
 
 #
 #. type: TP
@@ -217,7 +225,7 @@ msgstr "B<--no-preserve-root>"
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:62
 msgid "do not treat '/' specially (the default)"
-msgstr ""
+msgstr "不要特别处理'/'（默认）"
 
 #
 #. type: TP
@@ -230,7 +238,7 @@ msgstr "B<--preserve-root>"
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:65
 msgid "fail to operate recursively on '/'"
-msgstr ""
+msgstr "无法以'/'递归操作"
 
 #
 #. type: TP
@@ -243,7 +251,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:69
 msgid "use RFILE's owner and group rather than specifying OWNER:GROUP values"
-msgstr ""
+msgstr "使用RFILE的所有者和组而不是指定OWNER：GROUP值"
 
 #
 #. type: TP
@@ -256,7 +264,7 @@ msgstr "B<-R>, B<--recursive>"
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:72
 msgid "operate on files and directories recursively"
-msgstr ""
+msgstr "以递归方式操作文件和目录"
 
 #
 #. type: Plain text
@@ -266,6 +274,8 @@ msgid ""
 "option is also specified.  If more than one is specified, only the final one "
 "takes effect."
 msgstr ""
+"以下选项修改<-R>时遍历层次结构的方式还指定了选项。"
+"如果指定了多个选项，则只选择最后一个生效。"
 
 #
 #. type: TP
@@ -279,7 +289,7 @@ msgstr ""
 #: raw/coreutils/man1/chown.1:80
 msgid ""
 "if a command line argument is a symbolic link to a directory, traverse it"
-msgstr ""
+msgstr "如果命令行参数是目录的符号链接，则遍历它"
 
 #
 #. type: TP
@@ -292,7 +302,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:84
 msgid "traverse every symbolic link to a directory encountered"
-msgstr ""
+msgstr "遍历遇到的目录的每个符号链接"
 
 #
 #. type: TP
@@ -305,7 +315,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:87
 msgid "do not traverse any symbolic links (default)"
-msgstr ""
+msgstr "不要遍历任何符号链接（默认）"
 
 #
 #. type: TP
@@ -340,7 +350,7 @@ msgid ""
 "Owner is unchanged if missing.  Group is unchanged if missing, but changed "
 "to login group if implied by a ':' following a symbolic OWNER.  OWNER and "
 "GROUP may be numeric as well as symbolic."
-msgstr ""
+msgstr "如果所有者失踪，文件所有者不变。 如果所属组丢失，则所属组保持不变，但如果在符号所有者后面隐含“：”，则更改为登录组。所有者和所属组可以是数字也可以是字符。"
 
 #
 #. type: SH
@@ -360,7 +370,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:101
 msgid "Change the owner of /u to \"root\"."
-msgstr ""
+msgstr "将用户的所有者更改为“root”。"
 
 #
 #. type: TP
@@ -373,7 +383,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:104
 msgid "Likewise, but also change its group to \"staff\"."
-msgstr ""
+msgstr "同样，但也将其组改为\"员工\"."
 
 #
 #. type: TP
@@ -386,7 +396,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:107
 msgid "Change the owner of /u and subfiles to \"root\"."
-msgstr ""
+msgstr "将用户和子文件的所有者更改为“root”"
 
 #
 #. type: SH
@@ -449,8 +459,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是免费软件：您可以自由更改并重新分发它。"
+"在法律允许的范围内，不作任何担保."
 
 #
 #. type: SH
