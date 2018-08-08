@@ -1,7 +1,7 @@
 #
-# Chinese translations for PACKAGE package
-# Copyright (C) 2015 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
+#软件包的中文翻译
+#版权（C）2015自由软件基金会
+＃此文件与系统软件包相同的分发许可证。
 #
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
@@ -25,7 +25,7 @@ msgstr ""
 #: raw/coreutils/man1/expand.1:2
 #, no-wrap
 msgid "EXPAND"
-msgstr "EXPAND"
+msgstr "扩大"
 
 #
 #. type: TH
@@ -47,7 +47,7 @@ msgstr "GNU coreutils 8.26"
 #: raw/coreutils/man1/expand.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "User Commands"
+msgstr "用户命令"
 
 #
 #. type: SH
@@ -140,6 +140,10 @@ msgid ""
 "specified tab stop.  Also a prefix of '+' can be used to align remaining tab "
 "stops relative to the last specified tab stop instead of the first column"
 msgstr ""
+“使用逗号分隔的标签位置列表可以是最后指定的位置”
+“前缀为'/'以指定在最后一次显式后使用的选项卡大小”
+“指定制表位。此外，前缀'+'可用于对齐剩余制表符”
+“相对于最后指定的制表位而不是第一列停止”
 
 #
 #. type: TP
@@ -232,8 +236,7 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是免费软件：您可以自由更改并重新分发它。在法律允许的范围内，不提供任何担保。"
 
 #
 #. type: SH
@@ -246,7 +249,7 @@ msgstr "参见"
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:50
 msgid "unexpand(1)"
-msgstr "unexpand(1)"
+msgstr "未开发的(1)"
 
 #
 #. type: Plain text
