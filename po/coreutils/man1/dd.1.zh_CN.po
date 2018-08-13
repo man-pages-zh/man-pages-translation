@@ -126,26 +126,26 @@ msgstr "每次转换指定字节数的数据"
 #: raw/coreutils/man1/dd.1:22
 #, no-wrap
 msgid "conv=CONVS"
-msgstr ""
+msgstr "转换[,转换]..."
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:25
 msgid "convert the file as per the comma separated symbol list"
-msgstr ""
+msgstr "将文件按 转换 参数指定的方式转换（在lq,rq两边没有空格）。"
 
 #
 #. type: TP
 #: raw/coreutils/man1/dd.1:25
 #, no-wrap
 msgid "count=N"
-msgstr ""
+msgstr "每块的大小"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:28
 msgid "copy only N input blocks"
-msgstr ""
+msgstr "只拷贝输入文件的前 blocks 块（每块的大小为 ibs-byte 字节），而不是全部内容，直到文件末尾。"
 
 #
 #. type: TP
@@ -158,7 +158,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:31
 msgid "read up to BYTES bytes at a time (default: 512)"
-msgstr ""
+msgstr "一次读 bytes 字节。默认是512。"
 
 #
 #. type: TP
@@ -171,7 +171,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:34
 msgid "read from FILE instead of stdin"
-msgstr ""
+msgstr "从 file 中读而不是标准输入。"
 
 #
 #. type: TP
@@ -197,7 +197,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:40
 msgid "write BYTES bytes at a time (default: 512)"
-msgstr ""
+msgstr "一次写 bytes 字节。默认是512。"
 
 #
 #. type: TP
@@ -210,7 +210,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:43
 msgid "write to FILE instead of stdout"
-msgstr ""
+msgstr "写到 file 里去而不是标准输出。除非指定 conv=notrunc ，否则， dd 将把 file 截为O字节（或由 seek= 选项指定的大小）"
 
 #
 #. type: TP
@@ -236,7 +236,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:49
 msgid "skip N obs-sized blocks at start of output"
-msgstr ""
+msgstr "在拷贝之前，跳过输出文件的前 blocks 块，每块大小为 obs-byte 字节。"
 
 #
 #. type: TP
@@ -249,7 +249,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:52
 msgid "skip N ibs-sized blocks at start of input"
-msgstr ""
+msgstr "在拷贝之前，跳过输入文件的前 blocks 块，每块大小为 ibs-byte 字节。"
 
 #
 #. type: TP
@@ -293,7 +293,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:67
 msgid "from EBCDIC to ASCII"
-msgstr ""
+msgstr "将EBCDIC转换成ascii。"
 
 #
 #. type: TP
@@ -306,7 +306,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:70
 msgid "from ASCII to EBCDIC"
-msgstr ""
+msgstr "将ascii转换成ebcdic。"
 
 #
 #. type: TP
@@ -319,7 +319,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:73
 msgid "from ASCII to alternate EBCDIC"
-msgstr ""
+msgstr "将ascii转换成alternative ebcdic。"
 
 #
 #. type: TP
@@ -332,7 +332,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:76
 msgid "pad newline-terminated records with spaces to cbs-size"
-msgstr ""
+msgstr "每一行输入，无论长短，输出都是 cbs 字节，并且其中的lq换行rq（NEWLINE，即c中的'）用 空格替换。如有必要，行尾会填充空格。"
 
 #
 #. type: TP
@@ -345,7 +345,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:79
 msgid "replace trailing spaces in cbs-size records with newline"
-msgstr ""
+msgstr "用lq换行rq替换每个输入块（ cbs 字节大小）末尾的空格。"
 
 #
 #. type: TP
@@ -358,7 +358,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:82
 msgid "change upper case to lower case"
-msgstr ""
+msgstr "将大写字母转换成小写。"
 
 #
 #. type: TP
@@ -371,7 +371,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:85
 msgid "change lower case to upper case"
-msgstr ""
+msgstr "将小写字母转换成大写。"
 
 #
 #. type: TP
@@ -397,7 +397,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:91
 msgid "swap every pair of input bytes"
-msgstr ""
+msgstr "交换每对输入字节。如果读入的字节数是奇数，最后 一个字节只是简单的复制到输出（因为没有能跟它交换的 字节了）（POSIX 1003.26，PASC翻译1003.2 3号和4号）。"
 
 #
 #. type: TP
@@ -412,7 +412,7 @@ msgstr ""
 msgid ""
 "pad every input block with NULs to ibs-size; when used with block or "
 "unblock, pad with spaces rather than NULs"
-msgstr ""
+msgstr "用0填充到每个输入块的末尾，使其大小为 ibs 字节。"
 
 #
 #. type: TP
@@ -451,7 +451,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:104
 msgid "do not truncate the output file"
-msgstr ""
+msgstr "不截断输出文件。"
 
 #
 #. type: TP
@@ -464,7 +464,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:107
 msgid "continue after read errors"
-msgstr ""
+msgstr "发生读错误时，继续进行。"
 
 #
 #. type: TP
