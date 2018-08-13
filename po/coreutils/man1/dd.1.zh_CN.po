@@ -184,7 +184,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:37
 msgid "read as per the comma separated symbol list"
-msgstr ""
+msgstr "按逗号分隔的符号读取列表"
 
 #
 #. type: TP
@@ -223,7 +223,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:46
 msgid "write as per the comma separated symbol list"
-msgstr ""
+msgstr "按逗号分隔符号写入列表"
 
 #
 #. type: TP
@@ -280,7 +280,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:64
 msgid "Each CONV symbol may be:"
-msgstr ""
+msgstr "每个符号的转换可能是："
 
 #
 #. type: TP
@@ -384,7 +384,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:88
 msgid "try to seek rather than write the output for NUL input blocks"
-msgstr ""
+msgstr "尝试寻找而不是写字符输入块的输出"
 
 #
 #. type: TP
@@ -425,7 +425,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:98
 msgid "fail if the output file already exists"
-msgstr ""
+msgstr "如果输出文件已经存在，则失败"
 
 #
 #. type: TP
@@ -438,7 +438,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:101
 msgid "do not create the output file"
-msgstr ""
+msgstr "不要创建输出文件"
 
 #
 #. type: TP
@@ -477,7 +477,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:110
 msgid "physically write output file data before finishing"
-msgstr ""
+msgstr "在输出前物理写入输出文件数据"
 
 #
 #. type: TP
@@ -490,13 +490,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:113
 msgid "likewise, but also write metadata"
-msgstr ""
+msgstr "同样，但也写元数据"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:115
 msgid "Each FLAG symbol may be:"
-msgstr ""
+msgstr "每个标志符号可以是："
 
 #
 #. type: TP
@@ -509,7 +509,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:118
 msgid "append mode (makes sense only for output; conv=notrunc suggested)"
-msgstr ""
+msgstr "追加模式（仅对输出有意义;建议使用conv = notrunc）"
 
 #
 #. type: TP
@@ -522,7 +522,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:121
 msgid "use direct I/O for data"
-msgstr ""
+msgstr "使用直接I/O数据"
 
 #
 #. type: TP
@@ -535,7 +535,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:124
 msgid "fail unless a directory"
-msgstr ""
+msgstr "除非目录失败"
 
 #
 #. type: TP
@@ -548,13 +548,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:127
 msgid "use synchronized I/O for data"
-msgstr ""
+msgstr "使用同步I/O进行数据处理"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:130
 msgid "likewise, but also for metadata"
-msgstr ""
+msgstr "同样地，也适用于元数据。"
 
 #
 #. type: TP
@@ -567,7 +567,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:133
 msgid "accumulate full blocks of input (iflag only)"
-msgstr ""
+msgstr "累积完整的输入块（仅限iflag）"
 
 #
 #. type: TP
@@ -580,7 +580,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:136
 msgid "use non-blocking I/O"
-msgstr ""
+msgstr "使用非阻塞I/O"
 
 #
 #. type: TP
@@ -593,7 +593,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:139
 msgid "do not update access time"
-msgstr ""
+msgstr "不更新访问时间"
 
 #
 #. type: TP
@@ -606,7 +606,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:142
 msgid "Request to drop cache.  See also oflag=sync"
-msgstr ""
+msgstr "请求删除缓存。参见oflag = sync"
 
 #
 #. type: TP
@@ -619,7 +619,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:145
 msgid "do not assign controlling terminal from file"
-msgstr ""
+msgstr "不指定文件控制终端"
 
 #
 #. type: TP
@@ -632,7 +632,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:148
 msgid "do not follow symlinks"
-msgstr ""
+msgstr "不要跟随链接"
 
 #
 #. type: TP
@@ -645,7 +645,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:151
 msgid "treat 'count=N' as a byte count (iflag only)"
-msgstr ""
+msgstr "将'count = N'视为一个字节计数（仅限iflag）"
 
 #
 #. type: TP
@@ -658,7 +658,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:154
 msgid "treat 'skip=N' as a byte count (iflag only)"
-msgstr ""
+msgstr "将'skip = N'视为字节计数（仅限iflag）"
 
 #
 #. type: TP
@@ -671,7 +671,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:157
 msgid "treat 'seek=N' as a byte count (oflag only)"
-msgstr ""
+msgstr "将'seek = N'视为字节计数（仅限oflag）"
 
 #
 #. type: Plain text
