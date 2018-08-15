@@ -117,7 +117,7 @@ msgstr "B<--debug>"
 #. type: Plain text
 #: raw/coreutils/man1/date.1:24
 msgid "annotate the parsed date, and warn about questionable usage to stderr"
-msgstr ""
+msgstr "注释解析的日期，并警告stderr的可疑用法"
 
 #
 #. type: TP
@@ -184,8 +184,8 @@ msgid ""
 "output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for "
 "date and time to the indicated precision.  Example: 2006-08-14 02:34:56-06:00"
 msgstr ""
-"以 RFC 3339 格式输出日期和时间。TIMESPEC='date', 'seconds' 或 'ns' 指定显示日"
-"期和时间的精确度。日期和时间两部分由一个空格分隔：2006-08-07 12:34:56-06:00"
+"以 RFC 3339 格式输出日期和时间。TIMESPEC='date', 'seconds' 或 'ns' 指定显示日期和时间的精确度。"
+"日期和时间两部分由一个空格分隔：2006-08-07 12:34:56-06:00"
 
 #
 #. type: TP
@@ -1133,8 +1133,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是免费软件：您可以自由更改并重新分发它。 "
+"在法律允许的范围内，不作任何担保。"
 
 #
 #. type: SH
