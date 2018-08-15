@@ -132,7 +132,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:25
 msgid "convert the file as per the comma separated symbol list"
-msgstr ""
+msgstr "根据逗号分隔的符号列表转换文件"
 
 #
 #. type: TP
@@ -145,7 +145,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:28
 msgid "copy only N input blocks"
-msgstr ""
+msgstr "仅复制N个输入块"
 
 #
 #. type: TP
@@ -158,7 +158,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:31
 msgid "read up to BYTES bytes at a time (default: 512)"
-msgstr ""
+msgstr "一次读取BYTES字节（默认值：512）"
 
 #
 #. type: TP
@@ -171,7 +171,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:34
 msgid "read from FILE instead of stdin"
-msgstr ""
+msgstr "从FILE而不是stdin读取"
 
 #
 #. type: TP
@@ -184,7 +184,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:37
 msgid "read as per the comma separated symbol list"
-msgstr ""
+msgstr "按逗号分隔的符号列表读取"
 
 #
 #. type: TP
@@ -197,7 +197,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:40
 msgid "write BYTES bytes at a time (default: 512)"
-msgstr ""
+msgstr "一次写BYTES字节（默认值：512）"
 
 #
 #. type: TP
@@ -210,7 +210,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:43
 msgid "write to FILE instead of stdout"
-msgstr ""
+msgstr "写入FILE而不是stdout"
 
 #
 #. type: TP
@@ -223,7 +223,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:46
 msgid "write as per the comma separated symbol list"
-msgstr ""
+msgstr "按逗号分隔的符号列表写"
 
 #
 #. type: TP
@@ -236,7 +236,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:49
 msgid "skip N obs-sized blocks at start of output"
-msgstr ""
+msgstr "在输出开始时跳过N个障碍大小的块"
 
 #
 #. type: TP
@@ -249,7 +249,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:52
 msgid "skip N ibs-sized blocks at start of input"
-msgstr ""
+msgstr "在输入开始时跳过N 个大小的块"
 
 #
 #. type: TP
@@ -275,12 +275,14 @@ msgid ""
 "w =2, b =512, kB =1000, K =1024, MB =1000*1000, M =1024*1024, xM =M, GB "
 "=1000*1000*1000, G =1024*1024*1024, and so on for T, P, E, Z, Y."
 msgstr ""
+"N和BYTES之后可以跟随以下乘法后缀：c =1,w =2, b =512, kB =1000, K =1024, MB =1000*1000,
+M =1024*1024, xM =M, GB=1000*1000*1000, G =1024*1024*1024, and so on for T, P, E, Z, Y. "
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:64
 msgid "Each CONV symbol may be:"
-msgstr ""
+msgstr "每个CONV符号可以是："
 
 #
 #. type: TP
@@ -293,7 +295,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:67
 msgid "from EBCDIC to ASCII"
-msgstr ""
+msgstr "从EBCDIC到ASCII"
 
 #
 #. type: TP
@@ -306,7 +308,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:70
 msgid "from ASCII to EBCDIC"
-msgstr ""
+msgstr "从ASCII到EBCDIC"
 
 #
 #. type: TP
@@ -319,7 +321,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:73
 msgid "from ASCII to alternate EBCDIC"
-msgstr ""
+msgstr "从ASCII到备用EBCDIC"
 
 #
 #. type: TP
@@ -332,7 +334,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:76
 msgid "pad newline-terminated records with spaces to cbs-size"
-msgstr ""
+msgstr "使用cbs-size的空格填充换行符终止的记录"
 
 #
 #. type: TP
@@ -345,7 +347,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:79
 msgid "replace trailing spaces in cbs-size records with newline"
-msgstr ""
+msgstr "用换行符替换cbs-size记录中的尾随空格"
 
 #
 #. type: TP
@@ -358,7 +360,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:82
 msgid "change upper case to lower case"
-msgstr ""
+msgstr "将大写改为小写"
 
 #
 #. type: TP
@@ -371,7 +373,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:85
 msgid "change lower case to upper case"
-msgstr ""
+msgstr "将小写改为大写"
 
 #
 #. type: TP
@@ -384,7 +386,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:88
 msgid "try to seek rather than write the output for NUL input blocks"
-msgstr ""
+msgstr "尝试寻找而不是写NUL输入块的输出"
 
 #
 #. type: TP
@@ -397,7 +399,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:91
 msgid "swap every pair of input bytes"
-msgstr ""
+msgstr "交换每对输入字节"
 
 #
 #. type: TP
@@ -413,6 +415,7 @@ msgid ""
 "pad every input block with NULs to ibs-size; when used with block or "
 "unblock, pad with spaces rather than NULs"
 msgstr ""
+"用NUL填充每个输入块到ibs-size; 当与块或使用时解锁，填充空格而不是NUL "
 
 #
 #. type: TP
@@ -425,7 +428,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:98
 msgid "fail if the output file already exists"
-msgstr ""
+msgstr "如果输出文件已存在则失败"
 
 #
 #. type: TP
@@ -438,7 +441,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:101
 msgid "do not create the output file"
-msgstr ""
+msgstr "不要创建输出文件"
 
 #
 #. type: TP
@@ -451,7 +454,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:104
 msgid "do not truncate the output file"
-msgstr ""
+msgstr "不要截断输出文件"
 
 #
 #. type: TP
@@ -464,7 +467,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:107
 msgid "continue after read errors"
-msgstr ""
+msgstr "读错后继续"
 
 #
 #. type: TP
@@ -477,7 +480,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:110
 msgid "physically write output file data before finishing"
-msgstr ""
+msgstr "在完成之前物理写入输出文件数据"
 
 #
 #. type: TP
@@ -490,13 +493,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:113
 msgid "likewise, but also write metadata"
-msgstr ""
+msgstr "同样，但也写元数据"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:115
 msgid "Each FLAG symbol may be:"
-msgstr ""
+msgstr "每个FLAG符号可以是:"
 
 #
 #. type: TP
@@ -509,7 +512,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:118
 msgid "append mode (makes sense only for output; conv=notrunc suggested)"
-msgstr ""
+msgstr "追加模式（仅对输出有意义;建议使用conv = notrunc）"
 
 #
 #. type: TP
@@ -522,7 +525,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:121
 msgid "use direct I/O for data"
-msgstr ""
+msgstr "使用直接I / O进行数据"
 
 #
 #. type: TP
@@ -535,7 +538,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:124
 msgid "fail unless a directory"
-msgstr ""
+msgstr "除非目录失败"
 
 #
 #. type: TP
@@ -548,13 +551,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:127
 msgid "use synchronized I/O for data"
-msgstr ""
+msgstr "使用I / O进行数据同步"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:130
 msgid "likewise, but also for metadata"
-msgstr ""
+msgstr "同样，也适用于元数据"
 
 #
 #. type: TP
@@ -567,7 +570,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:133
 msgid "accumulate full blocks of input (iflag only)"
-msgstr ""
+msgstr "累积完整的输入块（仅限iflag）"
 
 #
 #. type: TP
@@ -580,7 +583,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:136
 msgid "use non-blocking I/O"
-msgstr ""
+msgstr "使用非阻塞I / O."
 
 #
 #. type: TP
@@ -593,7 +596,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:139
 msgid "do not update access time"
-msgstr ""
+msgstr "不要更新访问时间"
 
 #
 #. type: TP
@@ -606,7 +609,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:142
 msgid "Request to drop cache.  See also oflag=sync"
-msgstr ""
+msgstr "请求删除缓存。 另见oflag = sync"
 
 #
 #. type: TP
@@ -619,7 +622,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:145
 msgid "do not assign controlling terminal from file"
-msgstr ""
+msgstr "不要从文件中分配控制终端"
 
 #
 #. type: TP
@@ -632,7 +635,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:148
 msgid "do not follow symlinks"
-msgstr ""
+msgstr "不要遵循符号链接"
 
 #
 #. type: TP
@@ -645,7 +648,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:151
 msgid "treat 'count=N' as a byte count (iflag only)"
-msgstr ""
+msgstr "将'count = N'视为字节数（仅限iflag）"
 
 #
 #. type: TP
@@ -658,7 +661,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:154
 msgid "treat 'skip=N' as a byte count (iflag only)"
-msgstr ""
+msgstr "将'skip = N'视为字节数（仅限iflag）"
 
 #
 #. type: TP
@@ -671,7 +674,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:157
 msgid "treat 'seek=N' as a byte count (oflag only)"
-msgstr ""
+msgstr "将'seek = N'视为字节数（仅限oflag）"
 
 #
 #. type: Plain text
@@ -680,6 +683,7 @@ msgid ""
 "Sending a USR1 signal to a running 'dd' process makes it print I/O "
 "statistics to standard error and then resume copying."
 msgstr ""
+"将USR1信号发送到正在运行的'dd'进程会使其打印I / O.统计到标准错误，然后恢复复制。 "
 
 #
 #. type: Plain text
@@ -773,8 +777,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是免费软件：您可以自由更改并重新分发它。"
+"在法律允许的范围内，不作任何担保。"
 
 #
 #. type: SH
