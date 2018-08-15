@@ -71,19 +71,21 @@ msgstr "概述"
 msgid ""
 "B<ln> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,TARGET LINK_NAME (1st form)\\/>"
 msgstr ""
+"B<ln> [I<\\,选项\\/>]... [I<\\,-T\\/>] I<\\,目标 连接名 (第一种形式)\\/>"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:11
 msgid "B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET (2nd form)\\/>"
 msgstr ""
-
+"B<ln> [I<\\,选项\\/>]... I<\\,目标 (第二种形式)\\/>"
 #
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:14
 msgid ""
 "B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET\\/>... I<\\,DIRECTORY (3rd form)\\/>"
 msgstr ""
+"B<ln> [I<\\,选项\\/>]... I<\\,目标\\/>... I<\\,目录 (第三种形式)\\/>"
 
 #
 #. type: Plain text
@@ -92,6 +94,7 @@ msgid ""
 "B<ln> [I<\\,OPTION\\/>]... I<\\,-t DIRECTORY TARGET\\/>...  I<\\,(4th "
 "form)\\/>"
 msgstr ""
+"B<ln> [I<\\,选项\\/>]... I<\\,-t 目录 目标\\/>...  I<\\,(第四种形式）"
 
 #
 #. type: SH
@@ -111,7 +114,10 @@ msgid ""
 "(name of new link) should not already exist.  When creating hard links, each "
 "TARGET must exist.  Symbolic links can hold arbitrary text; if later "
 "resolved, a relative link is interpreted in relation to its parent directory."
-msgstr ""
+msgstr "在第一种形式中，创建一个名为“连接名”的目标链接。在第二种形式，在当前目录中创建一个指向目标的链接。
+在第三个和第四种形式，在目录中创建指向每个目标的链接。“默认情况下，默认情况下创建硬链接，符号链接与B < - symbolic>。
+默认情况下每个目标（新链接的名称）不应该已存在。创建硬链接时，每个TARGET必须存在。符号链接可以包含任意文本;
+如果以后已解决，相对链接将根据其父目录进行解释。"
 
 #
 #. type: Plain text
@@ -160,7 +166,7 @@ msgstr ""
 msgid ""
 "allow the superuser to attempt to hard link directories (note: will probably "
 "fail due to system restrictions, even for the superuser)"
-msgstr ""
+msgstr "允许超级用户尝试硬链接目录（注意：由于系统限制可能会失败，即使对于超级用户也是如此）"
 
 #
 #. type: TP
@@ -173,7 +179,7 @@ msgstr "B<-f>, B<--force>"
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:44
 msgid "remove existing destination files"
-msgstr ""
+msgstr "删除现有目标文件"
 
 #
 #. type: TP
@@ -186,7 +192,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:47
 msgid "prompt whether to remove destinations"
-msgstr ""
+msgstr "提示是否删除目的地文件"
 
 #
 #. type: TP
@@ -199,7 +205,7 @@ msgstr "B<-L>, B<--logical>"
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:50
 msgid "dereference TARGETs that are symbolic links"
-msgstr ""
+msgstr "取消引用作为符号链接的目标"
 
 #
 #. type: TP
@@ -213,7 +219,7 @@ msgstr ""
 #: raw/coreutils/man1/ln.1:54
 msgid ""
 "treat LINK_NAME as a normal file if it is a symbolic link to a directory"
-msgstr ""
+msgstr "如果LINK_NAME是指向目录的符号链接，则将其视为普通文件"
 
 #
 #. type: TP
@@ -226,7 +232,7 @@ msgstr "B<-P>, B<--physical>"
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:57
 msgid "make hard links directly to symbolic links"
-msgstr ""
+msgstr "直接将符号链接硬链接"
 
 #
 #. type: TP
@@ -239,7 +245,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:60
 msgid "create symbolic links relative to link location"
-msgstr ""
+msgstr "创建相对于链接位置的符号链接"
 
 #
 #. type: TP
@@ -252,7 +258,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:63
 msgid "make symbolic links instead of hard links"
-msgstr ""
+msgstr "制作符号链接而不是硬链接"
 
 #
 #. type: TP
@@ -265,7 +271,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:66
 msgid "override the usual backup suffix"
-msgstr ""
+msgstr "覆盖通常的备份后缀"
 
 #. type: TP
 #: raw/coreutils/man1/ln.1:66
@@ -277,7 +283,7 @@ msgstr "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:70
 msgid "specify the DIRECTORY in which to create the links"
-msgstr ""
+msgstr "指定要在其中创建链接的DIRECTORY"
 
 #
 #. type: TP
@@ -290,7 +296,7 @@ msgstr "B<-T>, B<--no-target-directory>"
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:73
 msgid "treat LINK_NAME as a normal file always"
-msgstr ""
+msgstr "始终将LINK_NAME视为普通文件"
 
 #
 #. type: TP
@@ -303,7 +309,7 @@ msgstr "B<-v>, B<--verbose>"
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:76
 msgid "print name of each linked file"
-msgstr ""
+msgstr "打印每个链接文件的名称"
 
 #
 #. type: TP
@@ -339,7 +345,9 @@ msgid ""
 "SIMPLE_BACKUP_SUFFIX.  The version control method may be selected via the "
 "B<--backup> option or through the VERSION_CONTROL environment variable.  "
 "Here are the values:"
-msgstr ""
+msgstr "备份后缀为“〜”，除非使用B < - suffix>或SIMPLE_BACKUP_SUFFIX进行设置。 可以通过以下方式选择版本控制方法
+B < - backup>选项或通过VERSION_CONTROL环境变量。
+以下是值："
 
 #
 #. type: TP
@@ -352,7 +360,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:89
 msgid "never make backups (even if B<--backup> is given)"
-msgstr ""
+msgstr "从不进行备份（即使给出了B < - backup>）"
 
 #
 #. type: TP
@@ -365,7 +373,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:92
 msgid "make numbered backups"
-msgstr ""
+msgstr "编号备份"
 
 #
 #. type: TP
@@ -378,7 +386,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:95
 msgid "numbered if numbered backups exist, simple otherwise"
-msgstr ""
+msgstr "如果编号的备份存在则编号，否则简单"
 
 #
 #. type: TP
@@ -391,7 +399,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:98
 msgid "always make simple backups"
-msgstr ""
+msgstr "总是做简单的备份"
 
 #
 #. type: Plain text
@@ -399,7 +407,8 @@ msgstr ""
 msgid ""
 "Using B<-s> ignores B<-L> and B<-P>.  Otherwise, the last option specified "
 "controls behavior when a TARGET is a symbolic link, defaulting to B<-P>."
-msgstr ""
+msgstr "使用 <-s>忽略 <-L>和 <-P>。 否则，指定最后一个选项
+当TARGET是符号链接时，控制行为，默认为 <-P>。"
 
 #
 #. type: SH
@@ -475,7 +484,7 @@ msgstr "参见"
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:115
 msgid "link(2), symlink(2)"
-msgstr "link(2), symlink(2)"
+msgstr "链接（2），符号链接（2）"
 
 #
 #. type: Plain text
