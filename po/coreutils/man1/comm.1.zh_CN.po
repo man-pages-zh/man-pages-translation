@@ -98,8 +98,8 @@ msgid ""
 "unique to FILE1, column two contains lines unique to FILE2, and column three "
 "contains lines common to both files."
 msgstr ""
+"没有选项，产生三列输出。 第一列包含行FILE1是唯一的，第二列包含FILE2特有的行和第三列 包含两个文件共有的行。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/comm.1:18
 #, no-wrap
@@ -110,7 +110,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:21
 msgid "suppress column 1 (lines unique to FILE1)"
-msgstr ""
+msgstr "抑制第1列（FILE1独有的行）"
 
 #
 #. type: TP
@@ -123,7 +123,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:24
 msgid "suppress column 2 (lines unique to FILE2)"
-msgstr ""
+msgstr "抑制第2列（FILE2独有的行）"
 
 #
 #. type: TP
@@ -136,7 +136,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:27
 msgid "suppress column 3 (lines that appear in both files)"
-msgstr ""
+msgstr "抑制第3列（两个文件中出现的行）"
 
 #
 #. type: TP
@@ -152,6 +152,7 @@ msgid ""
 "check that the input is correctly sorted, even if all input lines are "
 "pairable"
 msgstr ""
+"检查输入是否正确排序，即使所有输入行都是可配对的"
 
 #
 #. type: TP
@@ -164,7 +165,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:34
 msgid "do not check that the input is correctly sorted"
-msgstr ""
+msgstr "不要检查输入是否正确排序"
 
 #
 #. type: TP
@@ -177,7 +178,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:37
 msgid "separate columns with STR"
-msgstr ""
+msgstr "用STR分隔列"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:37
@@ -189,7 +190,7 @@ msgstr "B<--total>"
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:40
 msgid "output a summary"
-msgstr ""
+msgstr "输出摘要"
 
 #
 #. type: TP
@@ -202,7 +203,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:43
 msgid "line delimiter is NUL, not newline"
-msgstr ""
+msgstr "行分隔符是NUL，而不是换行符"
 
 #
 #. type: TP
@@ -234,7 +235,7 @@ msgstr "显示版本信息并退出"
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:51
 msgid "Note, comparisons honor the rules specified by 'LC_COLLATE'."
-msgstr ""
+msgstr "注意，遵守'LC_COLLATE'指定的对照规则。"
 
 #
 #. type: SH
@@ -254,7 +255,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:55
 msgid "Print only lines present in both file1 and file2."
-msgstr ""
+msgstr "仅打印file1和file2中的行。"
 
 #
 #. type: TP
@@ -267,7 +268,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:58
 msgid "Print lines in file1 not in file2, and vice versa."
-msgstr ""
+msgstr "在file1中打印行而不是在file2中，反之亦然。"
 
 #
 #. type: SH
