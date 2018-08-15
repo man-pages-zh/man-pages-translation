@@ -168,9 +168,8 @@ msgid ""
 "is interpreted as hexadecimal; otherwise, if it begins with 0, as octal; "
 "otherwise, as decimal.  TYPE may be:"
 msgstr ""
-"当类型为 b、c 或者 u 时，必须同时指定主设备号和从设备号，当类型为 p 时它们必"
-"须同时被省略。如果主设备号和从设备号以 0x 或者 0X 起始，它将被解释为十六进制"
-"数据；否则，如果它以 0 起始，则看作八进制；否则看作十进制。所指定类型可以为："
+"当类型为 b、c 或者 u 时，必须同时指定主设备号和从设备号，当类型为 p 时它们必须同时被省略。如果主设备号和从设备号以 0x 或者 0X 起始，
+它将被解释为十六进制数据；否则，如果它以 0 起始，则看作八进制；否则看作十进制。所指定类型可以为："
 
 #
 #. type: TP
@@ -219,8 +218,7 @@ msgid ""
 "the version described here.  Please refer to your shell's documentation for "
 "details about the options it supports."
 msgstr ""
-"注意：您的 shell 可能提供了它自己版本的 mknod，且它通常都会覆盖这里所描述的版"
-"本。请参考您所用 shell 的文档以了解它们所支持选项的细节。"
+"注意：您的 shell 可能提供了它自己版本的 mknod，且它通常都会覆盖这里所描述的版本。请参考您所用 shell 的文档以了解它们所支持选项的细节。"
 
 #
 #. type: SH
@@ -273,8 +271,8 @@ msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"版权所有 \\(co 2017自由软件基金会，Inc.  License GPLv3+: GNU GPL "
+"版本3或更高版本 E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
 #. type: Plain text
@@ -283,8 +281,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是免费软件：您可以自由更改并重新分发它。"
+"在法律允许的范围内，不作任何担保。"
 
 #
 #. type: SH
