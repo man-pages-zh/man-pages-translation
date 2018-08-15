@@ -55,7 +55,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:5
 msgid "csplit - split a file into sections determined by context lines"
-msgstr ""
+msgstr "csplit - 将文件拆分为由上下文行确定的部分"
 
 #
 #. type: SH
@@ -68,7 +68,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:8
 msgid "B<csplit> [I<\\,OPTION\\/>]... I<\\,FILE PATTERN\\/>..."
-msgstr ""
+msgstr "B<csplit> [I<\\,选项\\/>]... I<\\,文件模式\\/>..."
 
 #
 #. type: SH
@@ -84,12 +84,13 @@ msgid ""
 "Output pieces of FILE separated by PATTERN(s) to files 'xx00', 'xx01', ..., "
 "and output byte counts of each piece to standard output."
 msgstr ""
+"输出由PATTERN（s）分隔到文件'xx00'，'xx01'，...的FILE片段，并将每个部分的字节数输出到标准输出。 "
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:15
 msgid "Read standard input if FILE is -"
-msgstr ""
+msgstr "如果FILE是 - 读取标准输入"
 
 #
 #. type: Plain text
@@ -109,7 +110,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:20
 msgid "use sprintf FORMAT instead of %02d"
-msgstr ""
+msgstr "使用sprintf FORMAT而不是％02d"
 
 #
 #. type: TP
@@ -122,7 +123,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:23
 msgid "use PREFIX instead of 'xx'"
-msgstr ""
+msgstr "使用PREFIX而不是'xx'"
 
 #
 #. type: TP
@@ -135,7 +136,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:26
 msgid "do not remove output files on errors"
-msgstr ""
+msgstr "不要删除错误输出文件"
 
 #
 #. type: TP
@@ -148,7 +149,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:29
 msgid "suppress the lines matching PATTERN"
-msgstr ""
+msgstr "抑制匹配PATTERN的行"
 
 #
 #. type: TP
@@ -161,7 +162,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:32
 msgid "use specified number of digits instead of 2"
-msgstr ""
+msgstr "使用指定的位数而不是2"
 
 #
 #. type: TP
@@ -174,7 +175,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:35
 msgid "do not print counts of output file sizes"
-msgstr ""
+msgstr "不打印输出文件大小的计数"
 
 #
 #. type: TP
@@ -187,7 +188,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:38
 msgid "remove empty output files"
-msgstr ""
+msgstr "删除空输出文件"
 
 #
 #. type: TP
@@ -220,7 +221,7 @@ msgstr "显示版本信息并退出"
 #: raw/coreutils/man1/csplit.1:44
 #, no-wrap
 msgid "Each PATTERN may be:"
-msgstr ""
+msgstr "每个PATTERN可能是："
 
 #
 #. type: TP
@@ -233,7 +234,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:48
 msgid "copy up to but not including specified line number"
-msgstr ""
+msgstr "复制到但不包括指定的行号"
 
 #
 #. type: TP
@@ -246,7 +247,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:51
 msgid "copy up to but not including a matching line"
-msgstr ""
+msgstr "复制但不包括匹配的行"
 
 #
 #. type: TP
@@ -259,7 +260,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:54
 msgid "skip to, but not including a matching line"
-msgstr ""
+msgstr "跳到，但不包括匹配的行"
 
 #
 #. type: TP
@@ -272,7 +273,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:57
 msgid "repeat the previous pattern specified number of times"
-msgstr ""
+msgstr "重复前一个模式指定的次数"
 
 #
 #. type: TP
@@ -285,13 +286,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:60
 msgid "repeat the previous pattern as many times as possible"
-msgstr ""
+msgstr "尽可能多地重复前一个模式"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/csplit.1:62
 msgid "A line OFFSET is a required '+' or '-' followed by a positive integer."
-msgstr ""
+msgstr "行偏移是要求的“+”或“-”，后面是正整数。"
 
 #
 #. type: SH
