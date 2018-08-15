@@ -86,9 +86,9 @@ msgid ""
 "not specified, use tmp.XXXXXXXXXX, and B<--tmpdir> is implied.  Files are "
 "created u+rw, and directories u+rwx, minus umask restrictions."
 msgstr ""
-"安全地创建一个临时文件或目录，并打印出其名称。所给定的模板字符串的最后一部分必须包含至少三个连续的“X”。如果没有指定模板字符串，程序将默认使用“tmp.X"
-"XXXXXXXXX”并默认启用 B<--tmpdir> 选项。文件创建时权限使用 u+rw，而目录使用 u+rwx，在此基础上再减去 umask"
-" 所体现的权限限制。"
+"安全地创建一个临时文件或目录，并打印出其名称。所给定的模板字符串的最后一部分必须包含至少三个连续的“X”。如果没有指定模板字符串，
+程序将默认使用“tmp.XXXXXXXXXX”并默认启用 B<--tmpdir> 选项。文件创建时权限使用 u+rw，而目录使用 u+rwx，
+在此基础上再减去 umask 所体现的权限限制。"
 
 #
 #. type: TP
@@ -159,7 +159,8 @@ msgid ""
 "set, else I<\\,/tmp\\/>.  With this option, TEMPLATE must not be an absolute "
 "name; unlike with B<-t>, TEMPLATE may contain slashes, but mktemp creates "
 "only the final component"
-msgstr ""
+msgstr "解释相对于DIR的模板; 如果未指定DIR，请使用$ TMPDIR if设置，否则我<\\，/ tmp \\ />。 使用此选项，
+TEMPLATE不能是绝对的名称; 与B <-t>不同，TEMPLATE可能包含斜杠，但mktemp会创建只有最后的组成部分"
 
 #
 #. type: TP
@@ -175,7 +176,7 @@ msgid ""
 "interpret TEMPLATE as a single file name component, relative to a directory: "
 "$TMPDIR, if set; else the directory specified via B<-p>; else I<\\,/tmp\\/> "
 "[deprecated]"
-msgstr ""
+msgstr "将TEMPLATE解释为相对于目录的单个文件名组件：$ TMPDIR，如果设置; 否则通过B <-p>指定的目录; 否则我<\\，/ tmp \\ />[弃用]"
 
 #
 #. type: TP
@@ -253,8 +254,8 @@ msgid ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"版权所有\\（co 2017年自由软件基金会，Inc.许可的GPLv3 +：GNU GPL"
+"版本3或更高版本 E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #
 #. type: Plain text
@@ -263,8 +264,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是免费软件：您可以自由更改并重新分发它。"
+"在法律允许的范围内，不作任何担保。"
 
 #
 #. type: SH
