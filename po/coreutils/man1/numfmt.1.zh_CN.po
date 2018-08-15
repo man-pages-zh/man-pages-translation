@@ -82,7 +82,7 @@ msgstr "描述"
 #: raw/coreutils/man1/numfmt.1:12
 msgid ""
 "Reformat NUMBER(s), or the numbers from standard input if none are specified."
-msgstr ""
+msgstr "如果未指定，则重新格式化NUMBER（s）或标准输入的数字。"
 
 #
 #. type: Plain text
@@ -102,7 +102,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:17
 msgid "print warnings about invalid input"
-msgstr ""
+msgstr "打印有关无效输入的警告"
 
 #
 #. type: TP
@@ -115,7 +115,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:20
 msgid "use X instead of whitespace for field delimiter"
-msgstr ""
+msgstr "使用X而不是空格来表示字段分隔符"
 
 #
 #. type: TP
@@ -128,7 +128,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:24
 msgid "replace the numbers in these input fields (default=1)  see FIELDS below"
-msgstr ""
+msgstr "替换这些输入字段中的数字（默认值= 1），请参阅下面的FIELDS"
 
 #
 #. type: TP
@@ -141,7 +141,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:28
 msgid "use printf style floating-point FORMAT; see FORMAT below for details"
-msgstr ""
+msgstr "使用printf样式的浮点格式; 请参阅下面的FORMAT了解详情"
 
 #
 #. type: TP
@@ -154,7 +154,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:32
 msgid "auto-scale input numbers to UNITs; default is 'none'; see UNIT below"
-msgstr ""
+msgstr "自动调整输入数字到UNIT; 默认为'无'; 见下面的UNIT"
 
 #
 #. type: TP
@@ -167,7 +167,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:35
 msgid "specify the input unit size (instead of the default 1)"
-msgstr ""
+msgstr "指定输入单位大小（而不是默认值1）"
 
 #
 #. type: TP
@@ -182,7 +182,7 @@ msgstr ""
 msgid ""
 "use locale-defined grouping of digits, e.g. 1,000,000 (which means it has no "
 "effect in the C/POSIX locale)"
-msgstr ""
+msgstr "使用区域设置定义的数字分组，例如 1,000,000（这意味着没有C / POSIX语言环境中的效果）"
 
 #
 #. type: TP
@@ -197,7 +197,7 @@ msgstr ""
 msgid ""
 "print (without converting) the first N header lines; N defaults to 1 if not "
 "specified"
-msgstr ""
+msgstr "打印（不转换）前N个标题行; 如果不是，N默认为1规定"
 
 #
 #. type: TP
@@ -212,7 +212,7 @@ msgstr ""
 msgid ""
 "failure mode for invalid numbers: MODE can be: abort (default), fail, warn, "
 "ignore"
-msgstr ""
+msgstr "无效数字的失败模式：MODE可以是：中止（默认），失败，警告，忽视"
 
 #
 #. type: TP
@@ -228,7 +228,7 @@ msgid ""
 "pad the output to N characters; positive N will right-align; negative N will "
 "left-align; padding is ignored if the output is wider than N; the default is "
 "to automatically pad if a whitespace is found"
-msgstr ""
+msgstr "将输出填充为N个字符; 正N将右对齐; 负N将左对齐; 如果输出宽于N，则忽略填充; 默认是如果找到空格则自动填充"
 
 #
 #. type: TP
@@ -243,7 +243,7 @@ msgstr ""
 msgid ""
 "use METHOD for rounding when scaling; METHOD can be: up, down, from-zero "
 "(default), towards-zero, nearest"
-msgstr ""
+msgstr "使用METHOD进行缩放时的舍入; 方法可以是：up，down，from-zero（默认值），朝向零，最近"
 
 #
 #. type: TP
@@ -257,7 +257,7 @@ msgstr ""
 #: raw/coreutils/man1/numfmt.1:62
 msgid ""
 "add SUFFIX to output numbers, and accept optional SUFFIX in input numbers"
-msgstr ""
+msgstr "将SUFFIX添加到输出数字，并在输入数字中接受可选的SUFFIX"
 
 #
 #. type: TP
@@ -270,7 +270,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:65
 msgid "auto-scale output numbers to UNITs; see UNIT below"
-msgstr ""
+msgstr "自动调整输出数字到UNIT; 见下面的UNIT"
 
 #
 #. type: TP
@@ -283,7 +283,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:68
 msgid "the output unit size (instead of the default 1)"
-msgstr ""
+msgstr "输出单元大小（而不是默认值1）"
 
 #
 #. type: TP
@@ -296,7 +296,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:71
 msgid "line delimiter is NUL, not newline"
-msgstr ""
+msgstr "行分隔符是NUL，而不是换行符"
 
 #
 #. type: TP
