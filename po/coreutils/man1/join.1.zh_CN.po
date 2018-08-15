@@ -57,7 +57,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/join.1:5
 msgid "join - join lines of two files on a common field"
-msgstr ""
+msgstr "join - 在公共字段上连接两个文件的行"
 
 #
 #. type: SH
@@ -85,13 +85,13 @@ msgstr "描述"
 msgid ""
 "For each pair of input lines with identical join fields, write a line to "
 "standard output.  The default join field is the first, delimited by blanks."
-msgstr ""
+msgstr "对于具有相同连接字段的每对输入行，请写入一行标准输出。 默认连接字段是第一个，由空格分隔。"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/join.1:15
 msgid "When FILE1 or FILE2 (not both) is -, read standard input."
-msgstr ""
+msgstr "当FILE1或FILE2（不是两者）是 - 时，读取标准输入。"
 
 #
 #. type: TP
@@ -106,7 +106,7 @@ msgstr ""
 msgid ""
 "also print unpairable lines from file FILENUM, where FILENUM is 1 or 2, "
 "corresponding to FILE1 or FILE2"
-msgstr ""
+msgstr "还可以从文件FILENUM中打印不可用的行，其中FILENUM为1或2，对应于FILE1或FILE2"
 
 #
 #. type: TP
@@ -119,7 +119,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:22
 msgid "replace missing input fields with EMPTY"
-msgstr ""
+msgstr "用EMPTY替换缺少的输入字段"
 
 #
 #. type: TP
@@ -132,7 +132,7 @@ msgstr "B<-i>, B<--ignore-case>"
 #. type: Plain text
 #: raw/coreutils/man1/join.1:25
 msgid "ignore differences in case when comparing fields"
-msgstr ""
+msgstr "在比较字段时忽略差异"
 
 #
 #. type: TP
@@ -145,7 +145,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:28
 msgid "equivalent to '-1 FIELD B<-2> FIELD'"
-msgstr ""
+msgstr "相当于'-1 FIELD B <-2> FIELD'"
 
 #
 #. type: TP
@@ -158,7 +158,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:31
 msgid "obey FORMAT while constructing output line"
-msgstr ""
+msgstr "在构造输出线时服从FORMAT"
 
 #
 #. type: TP
@@ -171,7 +171,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:34
 msgid "use CHAR as input and output field separator"
-msgstr ""
+msgstr "使用CHAR作为输入和输出字段分隔符"
 
 #
 #. type: TP
@@ -184,7 +184,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:37
 msgid "like B<-a> FILENUM, but suppress joined output lines"
-msgstr ""
+msgstr "像<-a> FILENUM一样，但是抑制连接的输出线"
 
 #
 #. type: TP
@@ -197,7 +197,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:40
 msgid "join on this FIELD of file 1"
-msgstr ""
+msgstr "加入这个文件的字段1"
 
 #
 #. type: TP
@@ -210,7 +210,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:43
 msgid "join on this FIELD of file 2"
-msgstr ""
+msgstr "加入这个文件字段2"
 
 #
 #. type: TP
@@ -225,7 +225,7 @@ msgstr "B<--check-order>"
 msgid ""
 "check that the input is correctly sorted, even if all input lines are "
 "pairable"
-msgstr ""
+msgstr "检查输入是否正确排序，即使所有输入行都是可配对"
 
 #
 #. type: TP
@@ -238,7 +238,7 @@ msgstr "B<--nocheck-order>"
 #. type: Plain text
 #: raw/coreutils/man1/join.1:50
 msgid "do not check that the input is correctly sorted"
-msgstr ""
+msgstr "不要检查输入是否正确排序"
 
 #
 #. type: TP
@@ -253,7 +253,7 @@ msgstr "B<--header>"
 msgid ""
 "treat the first line in each file as field headers, print them without "
 "trying to pair them"
-msgstr ""
+msgstr "将每个文件中的第一行视为字段标题，不打印它们试图配对他们"
 
 #
 #. type: TP
@@ -306,6 +306,9 @@ msgid ""
 "by CHAR.  If FORMAT is the keyword 'auto', then the first line of each file "
 "determines the number of fields output for each line."
 msgstr ""
+"除非给出 <-t> 字符，否则前导空白将分隔字段并被忽略，其他字段由CHAR分隔。任何FIELD都是从1. FORMAT是一个或多个逗号或空格分隔的规格，
+每个正在'FILENUM.FIELD'或'0'。默认FORMAT输出连接字段，来自FILE1的剩余字段，来自FILE2的剩余字段，全部分开通过CHAR。
+如果FORMAT是关键字'auto'，那么每个文件的第一行确定每行输出的字段数。"
 
 #
 #. type: Plain text
@@ -317,6 +320,8 @@ msgid ""
 "'LC_COLLATE'.  If the input is not sorted and some lines cannot be joined, a "
 "warning message will be given."
 msgstr ""
+"重要：FILE1和FILE2必须在连接字段上排序。例如，使用“\”排序 <-k> 1b，1 \“如果'join'没有选项，或者使用\join <-t>''\“if”
+'sort'没有选项。注意，对照遵守'LC_COLLATE'。如果输入未排序且某些行无法连接，则将发出警告信息。"
 
 #
 #. type: SH
@@ -378,8 +383,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是免费软件：您可以自由更改并重新分发它。 "
+"在法律允许的范围内，不作任何担保。"
 
 #
 #. type: SH
