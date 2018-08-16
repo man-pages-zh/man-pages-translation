@@ -103,7 +103,7 @@ msgid ""
 "Write an unambiguous representation, octal bytes by default, of FILE to "
 "standard output.  With more than one FILE argument, concatenate them in the "
 "listed order to form the input."
-msgstr ""
+msgstr "写一个明确的表示，默认为八进制字节，FILE到标准输出。 使用多个FILE参数，以列出的顺序连接它们以形成输入。"
 
 #
 #. type: Plain text
@@ -121,7 +121,8 @@ msgid ""
 "byte printed, incremented when dump is progressing.  For OFFSET and LABEL, a "
 "0x or 0X prefix indicates hexadecimal; suffixes may be . for octal and b for "
 "multiply by 512."
-msgstr ""
+msgstr "如果第一和第二调用格式都适用，则假设最后一个操作数以+或（如果有2个操作数）以数字开头，则假定第二种格式。OFFSET操作数表示B <-j> OFFSET。 
+LABEL是打印的第一个字节的伪地址，在转储进行时递增。 对于OFFSET和LABEL，0x或0X前缀表示十六进制; 对于八进制，后缀可能是b对于乘以512。"
 
 #
 #. type: Plain text
@@ -143,7 +144,7 @@ msgstr ""
 msgid ""
 "output format for file offsets; RADIX is one of [doxn], for Decimal, Octal, "
 "Hex or None"
-msgstr ""
+msgstr "文件偏移的输出格式; RADIX是[doxn]之一，用于十进制，八进制，十六进制或无"
 
 #
 #. type: TP
@@ -156,7 +157,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:38
 msgid "swap input bytes according the specified order"
-msgstr ""
+msgstr "根据指定的顺序交换输入字节"
 
 #
 #. type: TP
@@ -169,7 +170,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:41
 msgid "skip BYTES input bytes first"
-msgstr ""
+msgstr "首先跳过BYTES输入字节"
 
 #
 #. type: TP
@@ -182,7 +183,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:44
 msgid "limit dump to BYTES input bytes"
-msgstr ""
+msgstr "将转储限制为BYTES输入字节"
 
 #
 #. type: TP
@@ -197,7 +198,7 @@ msgstr ""
 msgid ""
 "output strings of at least BYTES graphic chars; 3 is implied when BYTES is "
 "not specified"
-msgstr ""
+msgstr "输出至少BYTES图形字符的字符串;当未指定BYTES时隐含3"
 
 #
 #. type: TP
@@ -210,7 +211,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:51
 msgid "select output format or formats"
-msgstr ""
+msgstr "选择输出格式或格式"
 
 #
 #. type: TP
@@ -223,7 +224,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:54
 msgid "do not use * to mark line suppression"
-msgstr ""
+msgstr "不要使用*来标记行抑制"
 
 #
 #. type: TP
@@ -237,7 +238,7 @@ msgstr ""
 #: raw/coreutils/man1/od.1:58
 msgid ""
 "output BYTES bytes per output line; 32 is implied when BYTES is not specified"
-msgstr ""
+msgstr "每个输出行输出BYTES字节; 未指定BYTES时隐含32"
 
 #
 #. type: TP
@@ -250,7 +251,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:61
 msgid "accept arguments in third form above"
-msgstr ""
+msgstr "接受上面第三种形式的参数"
 
 #
 #. type: TP
@@ -283,7 +284,7 @@ msgstr "显示版本信息并退出"
 #: raw/coreutils/man1/od.1:67
 #, no-wrap
 msgid "Traditional format specifications may be intermixed; they accumulate:"
-msgstr ""
+msgstr "他们积累的：传统格式规范可以混合使用;"
 
 #
 #. type: TP
@@ -296,7 +297,7 @@ msgstr "B<-a>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:71
 msgid "same as B<-t> a, select named characters, ignoring high-order bit"
-msgstr ""
+msgstr "与B <-t> a相同，选择命名字符，忽略高位"
 
 #
 #. type: TP
@@ -309,7 +310,7 @@ msgstr "B<-b>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:74
 msgid "same as B<-t> o1, select octal bytes"
-msgstr ""
+msgstr "与B <-t> o1相同，选择八进制字节"
 
 #
 #. type: TP
@@ -322,7 +323,7 @@ msgstr "B<-c>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:77
 msgid "same as B<-t> c, select printable characters or backslash escapes"
-msgstr ""
+msgstr "与B <-t> c相同，选择可打印字符或反斜杠转义符"
 
 #
 #. type: TP
@@ -335,7 +336,7 @@ msgstr "B<-d>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:80
 msgid "same as B<-t> u2, select unsigned decimal 2-byte units"
-msgstr ""
+msgstr "与B <-t> u2相同，选择无符号十进制2字节单位"
 
 #
 #. type: TP
@@ -348,7 +349,7 @@ msgstr "B<-f>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:83
 msgid "same as B<-t> fF, select floats"
-msgstr ""
+msgstr "与B <-t> fF相同，选择浮点数"
 
 #
 #. type: TP
@@ -361,7 +362,7 @@ msgstr "B<-i>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:86
 msgid "same as B<-t> dI, select decimal ints"
-msgstr ""
+msgstr "与B <-t> dI相同，选择十进制整数"
 
 #
 #. type: TP
@@ -374,7 +375,7 @@ msgstr "B<-l>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:89
 msgid "same as B<-t> dL, select decimal longs"
-msgstr ""
+msgstr "与B <-t> dL相同，选择十进制长度"
 
 #
 #. type: TP
@@ -387,7 +388,7 @@ msgstr "B<-o>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:92
 msgid "same as B<-t> o2, select octal 2-byte units"
-msgstr ""
+msgstr "与B <-t> o2相同，选择八进制2字节单位"
 
 #
 #. type: TP
@@ -400,7 +401,7 @@ msgstr "B<-s>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:95
 msgid "same as B<-t> d2, select decimal 2-byte units"
-msgstr ""
+msgstr "与B <-t> d2相同，选择十进制2字节单位"
 
 #
 #. type: TP
@@ -413,14 +414,14 @@ msgstr "B<-x>"
 #. type: Plain text
 #: raw/coreutils/man1/od.1:98
 msgid "same as B<-t> x2, select hexadecimal 2-byte units"
-msgstr ""
+msgstr "与B <-t> x2相同，选择十六进制2字节单位"
 
 #
 #. type: SS
 #: raw/coreutils/man1/od.1:98
 #, no-wrap
 msgid "TYPE is made up of one or more of these specifications:"
-msgstr ""
+msgstr "TYPE由以下一个或多个规范组成："
 
 #
 #. type: TP
@@ -433,7 +434,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:102
 msgid "named character, ignoring high-order bit"
-msgstr ""
+msgstr "命名字符，忽略高位"
 
 #
 #. type: TP
@@ -446,7 +447,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:105
 msgid "printable character or backslash escape"
-msgstr ""
+msgstr "可打印字符或反斜杠转义"
 
 #
 #. type: TP
@@ -459,7 +460,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:108
 msgid "signed decimal, SIZE bytes per integer"
-msgstr ""
+msgstr "带符号的十进制，每个整数的SIZE字节"
 
 #
 #. type: TP
@@ -471,7 +472,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:111
 msgid "floating point, SIZE bytes per float"
-msgstr ""
+msgstr "浮点，每个浮点数的SIZE字节"
 
 #
 #. type: TP
@@ -484,7 +485,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:114
 msgid "octal, SIZE bytes per integer"
-msgstr ""
+msgstr "八进制，每个整数的SIZE字节"
 
 #
 #. type: TP
@@ -497,7 +498,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:117
 msgid "unsigned decimal, SIZE bytes per integer"
-msgstr ""
+msgstr "无符号十进制，每个整数的SIZE字节"
 
 #
 #. type: TP
@@ -510,7 +511,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:120
 msgid "hexadecimal, SIZE bytes per integer"
-msgstr ""
+msgstr "十六进制，每个整数的SIZE字节"
 
 #
 #. type: Plain text
@@ -520,7 +521,10 @@ msgid ""
 "S for sizeof(short), I for sizeof(int) or L for sizeof(long).  If TYPE is f, "
 "SIZE may also be F for sizeof(float), D for sizeof(double) or L for "
 "sizeof(long double)."
-msgstr ""
+msgstr "SIZE是一个数字。 对于[doux]中的TYPE，SIZE也可以是C表示sizeof（char），
+S表示sizeof（短），I表示sizeof（int）或L表示sizeof（long）。 如果TYPE是f，
+对于sizeof（float），SIZE也可以是F，对于sizeof（double）或者L，也可以是D.
+sizeof（长双）。"
 
 #
 #. type: Plain text
@@ -528,14 +532,14 @@ msgstr ""
 msgid ""
 "Adding a z suffix to any type displays printable characters at the end of "
 "each output line."
-msgstr ""
+msgstr "将z后缀添加到任何类型会在每个输出行的末尾显示可打印字符。"
 
 #
 #. type: SS
 #: raw/coreutils/man1/od.1:128
 #, no-wrap
 msgid "BYTES is hex with 0x or 0X prefix, and may have a multiplier suffix:"
-msgstr ""
+msgstr "BYTES是带有0x或0X前缀的十六进制，可能有一个乘数后缀："
 
 #
 #. type: TP
@@ -606,7 +610,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:146
 msgid "and so on for G, T, P, E, Z, Y."
-msgstr ""
+msgstr "对于G，T，P，E，Z，Y等等。"
 
 #
 #. type: SH
@@ -626,7 +630,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:150
 msgid "Display hexdump format output"
-msgstr ""
+msgstr "显示hexdump格式输出"
 
 #
 #. type: TP
@@ -639,7 +643,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/od.1:153
 msgid "The default output format used by od"
-msgstr ""
+msgstr "od使用的默认输出格式"
 
 #
 #. type: SH
