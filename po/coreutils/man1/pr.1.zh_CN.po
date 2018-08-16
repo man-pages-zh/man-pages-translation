@@ -81,13 +81,13 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:12
 msgid "Paginate or columnate FILE(s) for printing."
-msgstr ""
+msgstr "用于打印的Paginate或columnate FILE（s）。"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
-msgstr ""
+msgstr "如果没有FILE，或者FILE是 - ，则读取标准输入。"
 
 #
 #. type: Plain text
@@ -107,7 +107,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:19
 msgid "begin [stop] printing with page FIRST_[LAST_]PAGE"
-msgstr ""
+msgstr "以页面FIRSTy [LAST] PAGE开始[停止]打印"
 
 #
 #. type: TP
@@ -122,7 +122,7 @@ msgstr ""
 msgid ""
 "output COLUMN columns and print columns down, unless B<-a> is used. Balance "
 "number of lines in the columns on each page"
-msgstr ""
+msgstr "输出COLUMN列和打印列，除非使用B <-a>。平衡每页列中的行数"
 
 #
 #. type: TP
@@ -135,7 +135,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:28
 msgid "print columns across rather than down, used together with B<-COLUMN>"
-msgstr ""
+msgstr "打印列而不是向下打印列，与B <-COLUMN>一起使用"
 
 #
 #. type: TP
@@ -148,7 +148,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:31
 msgid "use hat notation (^G) and octal backslash notation"
-msgstr ""
+msgstr "使用帽子符号（^ G）和八进制反斜杠表示法"
 
 #
 #. type: TP
@@ -161,7 +161,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:34
 msgid "double space the output"
-msgstr ""
+msgstr "输出的双倍空间"
 
 #
 #. type: TP
@@ -174,7 +174,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:37
 msgid "use FORMAT for the header date"
-msgstr ""
+msgstr "使用FORMAT作为标题日期"
 
 #
 #. type: TP
@@ -187,7 +187,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:40
 msgid "expand input CHARs (TABs) to tab WIDTH (8)"
-msgstr ""
+msgstr "将输入CHAR（TAB）扩展为选项卡WIDTH（8）"
 
 #
 #. type: TP
@@ -202,7 +202,7 @@ msgstr ""
 msgid ""
 "use form feeds instead of newlines to separate pages (by a 3-line page "
 "header with B<-F> or a 5-line header and trailer without B<-F>)"
-msgstr ""
+msgstr "使用换页而不是换行来分隔页面（通过带有B <-F>的3行页眉或带有B <-F>的5行页眉和预告片）"
 
 #
 #. type: TP
@@ -217,7 +217,7 @@ msgstr ""
 msgid ""
 "use a centered HEADER instead of filename in page header, B<-h> \"\" prints "
 "a blank line, don't use B<-h>\"\""
-msgstr ""
+msgstr "在页眉中使用居中的HEADER而不是文件名，B <-h> \“\”打印一个空行，不要使用B <-h> \“\"
 
 #
 #. type: TP
@@ -230,7 +230,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:52
 msgid "replace spaces with CHARs (TABs) to tab WIDTH (8)"
-msgstr ""
+msgstr "用CHAR（TAB）替换空格以选项卡WIDTH（8）"
 
 #
 #. type: TP
@@ -245,7 +245,7 @@ msgstr ""
 msgid ""
 "merge full lines, turns off B<-W> line truncation, no column alignment, B<--"
 "sep-string>[=I<\\,STRING\\/>] sets separators"
-msgstr ""
+msgstr "合并完整行，关闭B <-W>行截断，没有列对齐，B < - sep-string> [= I <\\，STRING \\ />]设置分隔符"
 
 #
 #. type: TP
@@ -260,7 +260,7 @@ msgstr ""
 msgid ""
 "set the page length to PAGE_LENGTH (66) lines (default number of lines of "
 "text 56, and with B<-F> 63).  implies B<-t> if PAGE_LENGTH E<lt>= 10"
-msgstr ""
+msgstr "将页面长度设置为PAGE_LENGTH（66）行（默认文本行数为56，B <-F> 63）。 如果PAGE_LENGTH E <= 10，则暗示B <-t>"
 
 #
 #. type: TP
@@ -275,7 +275,7 @@ msgstr ""
 msgid ""
 "print all files in parallel, one in each column, truncate lines, but join "
 "lines of full length with B<-J>"
-msgstr ""
+msgstr "并行打印所有文件，每列一个，截断行，但用B <-J>连接全长行"
 
 #
 #. type: TP
@@ -290,7 +290,7 @@ msgstr ""
 msgid ""
 "number lines, use DIGITS (5) digits, then SEP (TAB), default counting starts "
 "with 1st line of input file"
-msgstr ""
+msgstr "数字行，使用DIGITS（5）数字，然后使用SEP（TAB），默认计数从输入文件的第1行开始"
 
 #
 #. type: TP
@@ -305,7 +305,7 @@ msgstr ""
 msgid ""
 "start counting with NUMBER at 1st line of first page printed (see "
 "+FIRST_PAGE)"
-msgstr ""
+msgstr "在第一页打印的第一行开始计数NUMBER（参见+ FIRST_PAGE）"
 
 #
 #. type: TP
@@ -320,7 +320,7 @@ msgstr ""
 msgid ""
 "offset each line with MARGIN (zero) spaces, do not affect B<-w> or B<-W>, "
 "MARGIN will be added to PAGE_WIDTH"
-msgstr ""
+msgstr "用MARGIN（零）空格偏移每一行，不影响B <-w>或B <-W>，MARGIN将被添加到PAGE_WIDTH"
 
 #
 #. type: TP
@@ -333,7 +333,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:80
 msgid "omit warning when a file cannot be opened"
-msgstr ""
+msgstr "无法打开文件时省略警告"
 
 #
 #. type: TP
@@ -350,7 +350,8 @@ msgid ""
 "E<lt>TABE<gt> character without B<-w> and 'no char' with B<-w>.  B<-s[CHAR]> "
 "turns off line truncation of all 3 column options (B<-COLUMN>|-a B<-COLUMN>|-"
 "m) except B<-w> is set"
-msgstr ""
+msgstr "用单个字符分隔列，CHAR的默认值是不带B <-w>的E <TABE <gt>字符和带有B <-w>的'无字符'。
+  B <-s [CHAR]>关闭所有3列选项的行截断（B <-COLUMN> | -a B <-COLUMN> | - m）除了B <-w>之外"
 
 #
 #. type: TP
@@ -366,7 +367,8 @@ msgid ""
 "separate columns by STRING, without B<-S>: Default separator E<lt>TABE<gt> "
 "with B<-J> and E<lt>spaceE<gt> otherwise (same as B<-S>\" \"), no effect on "
 "column options"
-msgstr ""
+msgstr "通过STRING分隔列，没有B <-S>：默认分隔符E <TABE <gt>
+除了B <-J>和E <lt> spaceE <gt>（与B <-S> \“\”相同），对列选项没有影响"
 
 #
 #. type: TP
@@ -379,7 +381,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:95
 msgid "omit page headers and trailers; implied if PAGE_LENGTH E<lt>= 10"
-msgstr ""
+msgstr "省略页眉和预告片; 如果PAGE_LENGTH E <= 10，则暗示"
 
 #
 #. type: TP
@@ -394,7 +396,7 @@ msgstr ""
 msgid ""
 "omit page headers and trailers, eliminate any pagination by form feeds set "
 "in input files"
-msgstr ""
+msgstr "省略页眉和页脚，通过输入文件中设置的转换页消除任何分页"
 
 #
 #. type: TP
@@ -407,7 +409,7 @@ msgstr "B<-v>, B<--show-nonprinting>"
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:102
 msgid "use octal backslash notation"
-msgstr ""
+msgstr "使用八进制反斜杠表示法"
 
 #
 #. type: TP
@@ -422,7 +424,7 @@ msgstr ""
 msgid ""
 "set page width to PAGE_WIDTH (72) characters for multiple text-column output "
 "only, B<-s[char]> turns off (72)"
-msgstr ""
+msgstr "将页面宽度设置为PAGE_WIDTH（72）字符仅用于多个文本列输出，B <-s [char]>关闭（72）"
 
 #
 #. type: TP
@@ -437,7 +439,7 @@ msgstr ""
 msgid ""
 "set page width to PAGE_WIDTH (72) characters always, truncate lines, except "
 "B<-J> option is set, no interference with B<-S> or B<-s>"
-msgstr ""
+msgstr "将页面宽度设置为PAGE_WIDTH（72）字符，截断行，除了“B <J>选项设置，不干扰B <-S>或B <-s>"
 
 #
 #. type: TP
@@ -476,7 +478,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:119
 msgid "Written by Pete TerMaat and Roland Huebner."
-msgstr ""
+msgstr "由Pete TerMaat和Roland Huebner撰写"
 
 #
 #. type: SH
