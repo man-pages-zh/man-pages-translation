@@ -56,7 +56,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/split.1:5
 msgid "split - split a file into pieces"
-msgstr ""
+msgstr "split - 将文件拆分成块"
 
 #
 #. type: SH
@@ -84,13 +84,13 @@ msgstr "描述"
 msgid ""
 "Output pieces of FILE to PREFIXaa, PREFIXab, ...; default size is 1000 "
 "lines, and default PREFIX is 'x'."
-msgstr ""
+msgstr "输出FILE到PREFIXaa，PREFIXab，...; 默认大小为1000行，默认PREFIX为“x”。"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/split.1:15
 msgid "With no FILE, or when FILE is -, read standard input."
-msgstr ""
+msgstr "如果没有FILE，或者FILE是 - ，则读取标准输入。"
 
 #
 #. type: Plain text
@@ -110,7 +110,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:20
 msgid "generate suffixes of length N (default 2)"
-msgstr ""
+msgstr "生成长度为N的后缀（默认为2）"
 
 #
 #. type: TP
@@ -123,7 +123,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:23
 msgid "append an additional SUFFIX to file names"
-msgstr ""
+msgstr "在文件名后附加一个SUFFIX"
 
 #
 #. type: TP
@@ -136,7 +136,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:26
 msgid "put SIZE bytes per output file"
-msgstr ""
+msgstr "每个输出文件放置SIZE字节"
 
 #
 #. type: TP
@@ -149,7 +149,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:29
 msgid "put at most SIZE bytes of records per output file"
-msgstr ""
+msgstr "每个输出文件最多放置SIZE字节的记录"
 
 #
 #. type: TP
@@ -162,7 +162,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:32
 msgid "use numeric suffixes starting at 0, not alphabetic"
-msgstr ""
+msgstr "使用从0开始的数字后缀，而不是字母"
 
 #
 #. type: TP
@@ -175,7 +175,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:35
 msgid "same as B<-d>, but allow setting the start value"
-msgstr ""
+msgstr "与B <-d>相同，但允许设置起始值"
 
 #. type: TP
 #: raw/coreutils/man1/split.1:35
@@ -186,7 +186,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:38
 msgid "use hex suffixes starting at 0, not alphabetic"
-msgstr ""
+msgstr "使用从0开始的十六进制后缀，而不是字母"
 
 #. type: TP
 #: raw/coreutils/man1/split.1:38
@@ -197,7 +197,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:41
 msgid "same as B<-x>, but allow setting the start value"
-msgstr ""
+msgstr "与B <-x>相同，但允许设置起始值"
 
 #
 #. type: TP
@@ -210,7 +210,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:44
 msgid "do not generate empty output files with '-n'"
-msgstr ""
+msgstr "不要使用'-n'生成空输出文件"
 
 #
 #. type: TP
@@ -223,7 +223,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:47
 msgid "write to shell COMMAND; file name is $FILE"
-msgstr ""
+msgstr "写入shell COMMAND; 文件名是$ FILE"
 
 #
 #. type: TP
@@ -236,7 +236,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:50
 msgid "put NUMBER lines/records per output file"
-msgstr ""
+msgstr "每个输出文件放置NUMBER行/记录"
 
 #
 #. type: TP
@@ -249,7 +249,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:53
 msgid "generate CHUNKS output files; see explanation below"
-msgstr ""
+msgstr "生成CHUNKS输出文件; 见下面的解释"
 
 #
 #. type: TP
@@ -264,7 +264,7 @@ msgstr ""
 msgid ""
 "use SEP instead of newline as the record separator; \\&'\\e0' (zero) "
 "specifies the NUL character"
-msgstr ""
+msgstr "使用SEP而不是换行作为记录分隔符; \\＆'\\ e0'（零）指定NUL字符"
 
 #
 #. type: TP
@@ -277,7 +277,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:60
 msgid "immediately copy input to output with '-n r/...'"
-msgstr ""
+msgstr "使用'-n r / ...立即将输入复制到输出"
 
 #
 #. type: TP
@@ -290,7 +290,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:64
 msgid "print a diagnostic just before each output file is opened"
-msgstr ""
+msgstr "在每个输出文件打开之前打印诊断"
 
 #
 #. type: TP
@@ -325,14 +325,15 @@ msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
 "of 1000)."
-msgstr ""
+msgstr "SIZE参数是一个整数和可选单位（例如：10K是10 * 1024）。
+单位是K，M，G，T，P，E，Z，Y（乘方1024）或KB，MB，......（乘方1000）。"
 
 #
 #. type: SS
 #: raw/coreutils/man1/split.1:73
 #, no-wrap
 msgid "CHUNKS may be:"
-msgstr ""
+msgstr "CHUNKS可能是："
 
 #
 #. type: TP
@@ -345,7 +346,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:77
 msgid "split into N files based on size of input"
-msgstr ""
+msgstr "根据输入的大小分成N个文件"
 
 #
 #. type: TP
@@ -358,7 +359,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:80
 msgid "output Kth of N to stdout"
-msgstr ""
+msgstr "将N的Kth输出到标准输出"
 
 #
 #. type: TP
@@ -371,7 +372,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:83
 msgid "split into N files without splitting lines/records"
-msgstr ""
+msgstr "拆分为N个文件而不拆分行/记录"
 
 #
 #. type: TP
@@ -384,7 +385,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:86
 msgid "output Kth of N to stdout without splitting lines/records"
-msgstr ""
+msgstr "输出N到标准输出的Kth而不分割线/记录"
 
 #
 #. type: TP
@@ -397,7 +398,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:89
 msgid "like 'l' but use round robin distribution"
-msgstr ""
+msgstr "像'l'但使用循环分配"
 
 #
 #. type: TP
@@ -410,7 +411,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/split.1:92
 msgid "likewise but only output Kth of N to stdout"
-msgstr ""
+msgstr "同样但只输出N的Kth到stdout"
 
 #
 #. type: SH
