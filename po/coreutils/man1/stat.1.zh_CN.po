@@ -43,7 +43,7 @@ msgstr "GNU coreutils 8.28"
 #: raw/coreutils/man1/stat.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr "User Commands"
+msgstr "用户命令"
 
 #
 #. type: SH
@@ -56,7 +56,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:5
 msgid "stat - display file or file system status"
-msgstr ""
+msgstr "stat - 显示文件或文件系统状态"
 
 #
 #. type: SH
@@ -82,7 +82,7 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:12
 msgid "Display file or file system status."
-msgstr ""
+msgstr "显示文件或文件系统状态。"
 
 #
 #. type: Plain text
@@ -102,7 +102,7 @@ msgstr "B<-L>, B<--dereference>"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:17
 msgid "follow links"
-msgstr ""
+msgstr "关注链接"
 
 #
 #. type: TP
@@ -115,7 +115,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:20
 msgid "display file system status instead of file status"
-msgstr ""
+msgstr "显示文件系统状态而不是文件状态"
 
 #
 #. type: TP
@@ -130,7 +130,7 @@ msgstr ""
 msgid ""
 "use the specified FORMAT instead of the default; output a newline after each "
 "use of FORMAT"
-msgstr ""
+msgstr "使用指定的FORMAT而不是默认值; 每次使用FORMAT后输出换行符"
 
 #
 #. type: TP
@@ -145,7 +145,7 @@ msgstr ""
 msgid ""
 "like B<--format>, but interpret backslash escapes, and do not output a "
 "mandatory trailing newline; if you want a newline, include \\en in FORMAT"
-msgstr ""
+msgstr "比如 < - format>，但是解释反斜杠转义，并且不输出强制的尾随换行符; 如果你想要一个换行符，请在FORMAT中包含\\ en"
 
 #
 #. type: TP
@@ -158,7 +158,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:32
 msgid "print the information in terse form"
-msgstr ""
+msgstr "以简洁的形式打印信息"
 
 #
 #. type: TP
@@ -190,7 +190,7 @@ msgstr "显示版本信息并退出"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:40
 msgid "The valid format sequences for files (without B<--file-system>):"
-msgstr ""
+msgstr "文件的有效格式序列（没有B < - file-system>）："
 
 #
 #. type: TP
@@ -203,7 +203,7 @@ msgstr "%a"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:43
 msgid "access rights in octal (note '#' and '0' printf flags)"
-msgstr ""
+msgstr "八进制访问权限（注意'＃'和'0'printf标志）"
 
 #
 #. type: TP
@@ -216,7 +216,7 @@ msgstr "%A"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:46
 msgid "access rights in human readable form"
-msgstr ""
+msgstr "人类可读形式的访问权限"
 
 #
 #. type: TP
@@ -229,7 +229,7 @@ msgstr "%b"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:49
 msgid "number of blocks allocated (see %B)"
-msgstr ""
+msgstr "分配的块数（见％B）"
 
 #
 #. type: TP
@@ -242,7 +242,7 @@ msgstr "%B"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:52
 msgid "the size in bytes of each block reported by %b"
-msgstr ""
+msgstr "％b报告的每个块的大小（以字节为单位）"
 
 #
 #. type: TP
@@ -255,7 +255,7 @@ msgstr "%C"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:55
 msgid "SELinux security context string"
-msgstr ""
+msgstr "SELinux安全上下文字符串"
 
 #
 #. type: TP
@@ -268,7 +268,7 @@ msgstr "%d"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:58
 msgid "device number in decimal"
-msgstr ""
+msgstr "十进制设备号"
 
 #
 #. type: TP
@@ -281,7 +281,7 @@ msgstr "%D"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:61
 msgid "device number in hex"
-msgstr ""
+msgstr "设备号以十六进制表示"
 
 #
 #. type: TP
@@ -294,7 +294,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:64
 msgid "raw mode in hex"
-msgstr ""
+msgstr "十六进制的原始模式"
 
 #
 #. type: TP
@@ -307,7 +307,7 @@ msgstr "%F"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:67
 msgid "file type"
-msgstr ""
+msgstr "文件类型"
 
 #
 #. type: TP
@@ -320,7 +320,7 @@ msgstr "%g"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:70
 msgid "group ID of owner"
-msgstr ""
+msgstr "所有者的组ID"
 
 #
 #. type: TP
@@ -333,7 +333,7 @@ msgstr "%G"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:73
 msgid "group name of owner"
-msgstr ""
+msgstr "所有者的组名"
 
 #
 #. type: TP
@@ -346,7 +346,7 @@ msgstr "%h"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:76
 msgid "number of hard links"
-msgstr ""
+msgstr "硬链接数量"
 
 #
 #. type: TP
@@ -359,7 +359,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:79
 msgid "inode number"
-msgstr ""
+msgstr "inode号码"
 
 #
 #. type: TP
@@ -372,7 +372,7 @@ msgstr "%m"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:82
 msgid "mount point"
-msgstr ""
+msgstr "挂载点"
 
 #
 #. type: TP
@@ -385,7 +385,7 @@ msgstr "%n"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:85 raw/coreutils/man1/stat.1:156
 msgid "file name"
-msgstr ""
+msgstr "文件名"
 
 #
 #. type: TP
@@ -398,7 +398,7 @@ msgstr "%N"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:88
 msgid "quoted file name with dereference if symbolic link"
-msgstr ""
+msgstr "如果符号链接，带引号的带引号的文件名"
 
 #
 #. type: TP
@@ -411,7 +411,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:91
 msgid "optimal I/O transfer size hint"
-msgstr ""
+msgstr "最佳I / O传输大小提示"
 
 #
 #. type: TP
@@ -424,7 +424,7 @@ msgstr "%s"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:94
 msgid "total size, in bytes"
-msgstr ""
+msgstr "总大小，以字节为单位"
 
 #
 #. type: TP
@@ -437,7 +437,7 @@ msgstr "%t"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:97
 msgid "major device type in hex, for character/block device special files"
-msgstr ""
+msgstr "十六进制的主要设备类型，用于字符/块设备特殊文件"
 
 #
 #. type: TP
@@ -450,7 +450,7 @@ msgstr "%T"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:100
 msgid "minor device type in hex, for character/block device special files"
-msgstr ""
+msgstr "十六进制的次要设备类型，用于字符/块设备特殊文件"
 
 #
 #. type: TP
@@ -463,7 +463,7 @@ msgstr "%u"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:103
 msgid "user ID of owner"
-msgstr ""
+msgstr "所有者的用户ID"
 
 #
 #. type: TP
@@ -476,7 +476,7 @@ msgstr "%U"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:106
 msgid "user name of owner"
-msgstr ""
+msgstr "所有者的用户名"
 
 #
 #. type: TP
@@ -489,7 +489,7 @@ msgstr "%w"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:109
 msgid "time of file birth, human-readable; - if unknown"
-msgstr ""
+msgstr "出生时间，人类可读; - 如果不知道"
 
 #
 #. type: TP
@@ -502,7 +502,7 @@ msgstr "%W"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:112
 msgid "time of file birth, seconds since Epoch; 0 if unknown"
-msgstr ""
+msgstr "文件出生的时间，自大纪元以来的秒数; 0如果不知道"
 
 #
 #. type: TP
@@ -515,7 +515,7 @@ msgstr "%x"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:115
 msgid "time of last access, human-readable"
-msgstr ""
+msgstr "上次访问的时间，人类可读"
 
 #
 #. type: TP
@@ -528,7 +528,7 @@ msgstr "%X"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:118
 msgid "time of last access, seconds since Epoch"
-msgstr ""
+msgstr "上次访问的时间，自Epoch以来的秒数"
 
 #
 #. type: TP
@@ -541,7 +541,7 @@ msgstr "%y"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:121
 msgid "time of last data modification, human-readable"
-msgstr ""
+msgstr "上次数据修改的时间，人类可读"
 
 #
 #. type: TP
@@ -554,7 +554,7 @@ msgstr "%Y"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:124
 msgid "time of last data modification, seconds since Epoch"
-msgstr ""
+msgstr "上次数据修改的时间，自Epoch以来的秒数"
 
 #
 #. type: TP
@@ -567,7 +567,7 @@ msgstr "%z"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:127
 msgid "time of last status change, human-readable"
-msgstr ""
+msgstr "最后一次状态改变的时间，人类可读"
 
 #
 #. type: TP
@@ -580,25 +580,25 @@ msgstr "%Z"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:130
 msgid "time of last status change, seconds since Epoch"
-msgstr ""
+msgstr "上次状态变化的时间，自Epoch以来的秒数"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:132
 msgid "Valid format sequences for file systems:"
-msgstr ""
+msgstr "文件系统的有效格式序列："
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:135
 msgid "free blocks available to non-superuser"
-msgstr ""
+msgstr "非超级用户可用的空闲块"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:138
 msgid "total data blocks in file system"
-msgstr ""
+msgstr "文件系统中的总数据块"
 
 #
 #. type: TP
@@ -611,25 +611,25 @@ msgstr "%c"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:141
 msgid "total file nodes in file system"
-msgstr ""
+msgstr "文件系统中的总文件节点"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:144
 msgid "free file nodes in file system"
-msgstr ""
+msgstr "文件系统中的空闲文件节点"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:147
 msgid "free blocks in file system"
-msgstr ""
+msgstr "文件系统中的空闲块"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:150
 msgid "file system ID in hex"
-msgstr ""
+msgstr "十六进制文件系统ID"
 
 #
 #. type: TP
@@ -642,13 +642,13 @@ msgstr "%l"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:153
 msgid "maximum length of filenames"
-msgstr ""
+msgstr "文件名的最大长度"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:159
 msgid "block size (for faster transfers)"
-msgstr ""
+msgstr "块大小（用于更快的传输）"
 
 #
 #. type: TP
@@ -661,19 +661,19 @@ msgstr "%S"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:162
 msgid "fundamental block size (for block counts)"
-msgstr ""
+msgstr "基本块大小（用于块计数）"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:165
 msgid "file system type in hex"
-msgstr ""
+msgstr "文件系统类型为十六进制"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:168
 msgid "file system type in human readable form"
-msgstr ""
+msgstr "文件系统类型以人类可读的形式"
 
 #
 #. type: Plain text
@@ -682,7 +682,7 @@ msgid ""
 "NOTE: your shell may have its own version of stat, which usually supersedes "
 "the version described here.  Please refer to your shell's documentation for "
 "details about the options it supports."
-msgstr ""
+msgstr "注意：您的shell可能有自己的stat版本，通常会取代此处描述的版本。 有关其支持的选项的详细信息，请参阅shell的文档。"
 
 #
 #. type: SH
