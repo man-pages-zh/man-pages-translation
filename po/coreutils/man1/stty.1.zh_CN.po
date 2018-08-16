@@ -97,7 +97,7 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:18
 msgid "Print or change terminal characteristics."
-msgstr ""
+msgstr "打印或更改终端特性。"
 
 #
 #. type: Plain text
@@ -117,7 +117,7 @@ msgstr "B<-a>, B<--all>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:23
 msgid "print all current settings in human-readable form"
-msgstr ""
+msgstr "以人类可读的形式打印所有当前设置"
 
 #
 #. type: TP
@@ -130,7 +130,7 @@ msgstr "B<-g>, B<--save>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:26
 msgid "print all current settings in a stty-readable form"
-msgstr ""
+msgstr "以stty-readable形式打印所有当前设置"
 
 #
 #. type: TP
@@ -143,7 +143,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:29
 msgid "open and use the specified DEVICE instead of stdin"
-msgstr ""
+msgstr "打开并使用指定的DEVICE而不是stdin"
 
 #
 #. type: TP
@@ -177,7 +177,7 @@ msgstr "显示版本信息并退出"
 msgid ""
 "Optional - before SETTING indicates negation.  An * marks non-POSIX "
 "settings.  The underlying system defines which settings are available."
-msgstr ""
+msgstr "可选 - 在SETTING指示否定之前。 An *标记非POSIX设置。 底层系统定义了可用的设置。"
 
 #
 #. type: SS
@@ -191,13 +191,13 @@ msgstr "特殊字符："
 #: raw/coreutils/man1/stty.1:39
 #, no-wrap
 msgid "* discard CHAR"
-msgstr ""
+msgstr "丢弃CHAR"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:42
 msgid "CHAR will toggle discarding of output"
-msgstr ""
+msgstr "CHAR将切换输出丢弃"
 
 #
 #. type: TP
@@ -210,7 +210,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:45
 msgid "CHAR will send an end of file (terminate the input)"
-msgstr ""
+msgstr "CHAR将发送文件结束（终止输入）"
 
 #
 #. type: TP
@@ -223,7 +223,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:48
 msgid "CHAR will end the line"
-msgstr ""
+msgstr "CHAR将结束这条线"
 
 #
 #. type: TP
@@ -236,7 +236,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:51
 msgid "alternate CHAR for ending the line"
-msgstr ""
+msgstr "用于结束该行的备用CHAR"
 
 #
 #. type: TP
@@ -249,7 +249,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:54
 msgid "CHAR will erase the last character typed"
-msgstr ""
+msgstr "CHAR将删除键入的最后一个字符"
 
 #
 #. type: TP
@@ -262,7 +262,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:57
 msgid "CHAR will send an interrupt signal"
-msgstr ""
+msgstr "CHAR将发送中断信号"
 
 #
 #. type: TP
@@ -275,7 +275,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:60
 msgid "CHAR will erase the current line"
-msgstr ""
+msgstr "CHAR将擦除当前行"
 
 #
 #. type: TP
@@ -288,7 +288,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:63
 msgid "CHAR will enter the next character quoted"
-msgstr ""
+msgstr "CHAR将输入下一个字符引号"
 
 #
 #. type: TP
@@ -301,7 +301,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:66
 msgid "CHAR will send a quit signal"
-msgstr ""
+msgstr "CHAR将发送一个退出信号"
 
 #
 #. type: TP
@@ -314,7 +314,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:69
 msgid "CHAR will redraw the current line"
-msgstr ""
+msgstr "CHAR将重绘当前行"
 
 #
 #. type: TP
@@ -327,7 +327,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:72
 msgid "CHAR will restart the output after stopping it"
-msgstr ""
+msgstr "停止后，CHAR将重新启动输出"
 
 #
 #. type: TP
@@ -340,7 +340,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:75
 msgid "CHAR will stop the output"
-msgstr ""
+msgstr "CHAR将停止输出"
 
 #
 #. type: TP
@@ -353,7 +353,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:78
 msgid "CHAR will send a terminal stop signal"
-msgstr ""
+msgstr "CHAR将发送终端停止信号"
 
 #
 #. type: TP
@@ -366,7 +366,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:81
 msgid "CHAR will switch to a different shell layer"
-msgstr ""
+msgstr "CHAR将切换到不同的shell层"
 
 #
 #. type: TP
@@ -379,7 +379,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:84
 msgid "CHAR will erase the last word typed"
-msgstr ""
+msgstr "CHAR将删除键入的最后一个单词"
 
 #
 #. type: SS
@@ -399,7 +399,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:88
 msgid "set the input and output speeds to N bauds"
-msgstr ""
+msgstr "将输入和输出速度设置为N波特"
 
 #
 #. type: TP
@@ -412,7 +412,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:91
 msgid "tell the kernel that the terminal has N columns"
-msgstr ""
+msgstr "告诉内核终端有N列"
 
 #
 #. type: TP
@@ -425,7 +425,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:94
 msgid "same as cols N"
-msgstr ""
+msgstr "与cols N相同"
 
 #
 #. type: TP
@@ -438,7 +438,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:97
 msgid "wait for transmission before applying settings (on by default)"
-msgstr ""
+msgstr "在应用设置之前等待传输（默认情况下已启用）"
 
 #
 #. type: TP
@@ -451,7 +451,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:100
 msgid "set the input speed to N"
-msgstr ""
+msgstr "将输入速度设置为N."
 
 #
 #. type: TP
@@ -464,7 +464,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:103
 msgid "use line discipline N"
-msgstr ""
+msgstr "使用线路纪律N."
 
 #
 #. type: TP
@@ -477,7 +477,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:106
 msgid "with B<-icanon>, set N characters minimum for a completed read"
-msgstr ""
+msgstr "使用B <-icanon>，为完成的读取设置最小N个字符"
 
 #
 #. type: TP
@@ -490,7 +490,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:109
 msgid "set the output speed to N"
-msgstr ""
+msgstr "将输出速度设置为N."
 
 #
 #. type: TP
@@ -503,7 +503,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:112
 msgid "tell the kernel that the terminal has N rows"
-msgstr ""
+msgstr "告诉内核终端有N行"
 
 #
 #. type: TP
@@ -516,7 +516,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:115
 msgid "print the number of rows and columns according to the kernel"
-msgstr ""
+msgstr "根据内核打印行数和列数"
 
 #
 #. type: TP
@@ -529,7 +529,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:118
 msgid "print the terminal speed"
-msgstr ""
+msgstr "打印终端速度"
 
 #
 #. type: TP
@@ -542,14 +542,14 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:121
 msgid "with B<-icanon>, set read timeout of N tenths of a second"
-msgstr ""
+msgstr "使用B <-icanon>，将读取超时设置为十分之一秒"
 
 #
 #. type: SS
 #: raw/coreutils/man1/stty.1:121
 #, no-wrap
 msgid "Control settings:"
-msgstr ""
+msgstr "控制设置："
 
 #
 #. type: TP
@@ -562,7 +562,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:125
 msgid "disable modem control signals"
-msgstr ""
+msgstr "禁用调制解调器控制信"
 
 #
 #. type: TP
@@ -575,7 +575,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:128
 msgid "allow input to be received"
-msgstr ""
+msgstr "允许接收输入"
 
 #
 #. type: TP
@@ -588,7 +588,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:131
 msgid "enable RTS/CTS handshaking"
-msgstr ""
+msgstr "启用RTS / CTS握手"
 
 #
 #. type: TP
@@ -601,7 +601,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:134
 msgid "set character size to N bits, N in [5..8]"
-msgstr ""
+msgstr "将字符大小设置为N位，[5..8]中的N"
 
 #
 #. type: TP
@@ -614,7 +614,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:137
 msgid "use two stop bits per character (one with '-')"
-msgstr ""
+msgstr "每个字符使用两个停止位（一个带' - '）"
 
 #
 #. type: TP
@@ -627,7 +627,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:140
 msgid "send a hangup signal when the last process closes the tty"
-msgstr ""
+msgstr "当最后一个进程关闭tty时发送一个挂断信号"
 
 #
 #. type: TP
@@ -640,7 +640,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:143
 msgid "same as [-]hup"
-msgstr ""
+msgstr "与[ - ] hup相同"
 
 #
 #. type: TP
@@ -653,7 +653,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:146
 msgid "generate parity bit in output and expect parity bit in input"
-msgstr ""
+msgstr "在输出中生成奇偶校验位并期望输入中的奇偶校验位"
 
 #
 #. type: TP
@@ -666,7 +666,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:149
 msgid "set odd parity (or even parity with '-')"
-msgstr ""
+msgstr "设置奇数奇偶校验（或甚至与' - '的奇偶校验）"
 
 #
 #. type: TP
@@ -679,14 +679,14 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:152
 msgid "use \"stick\" (mark/space) parity"
-msgstr ""
+msgstr "使用\“stick \”（标记/空格）奇偶校验"
 
 #
 #. type: SS
 #: raw/coreutils/man1/stty.1:152
 #, no-wrap
 msgid "Input settings:"
-msgstr ""
+msgstr "输入设置："
 
 #
 #. type: TP
@@ -699,7 +699,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:156
 msgid "breaks cause an interrupt signal"
-msgstr ""
+msgstr "中断导致中断信号"
 
 #
 #. type: TP
@@ -712,7 +712,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:159 raw/coreutils/man1/stty.1:217
 msgid "translate carriage return to newline"
-msgstr ""
+msgstr "将回车转换为换行符"
 
 #
 #. type: TP
@@ -725,7 +725,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:162
 msgid "ignore break characters"
-msgstr ""
+msgstr "忽略中断字符"
 
 #
 #. type: TP
@@ -738,7 +738,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:165
 msgid "ignore carriage return"
-msgstr ""
+msgstr "忽略回车"
 
 #
 #. type: TP
@@ -751,7 +751,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:168
 msgid "ignore characters with parity errors"
-msgstr ""
+msgstr "忽略奇偶校验错误的字符"
 
 #
 #. type: TP
@@ -764,7 +764,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:171
 msgid "beep and do not flush a full input buffer on a character"
-msgstr ""
+msgstr "发出蜂鸣声并且不会刷新字符上的完整输入缓冲区"
 
 #
 #. type: TP
@@ -777,7 +777,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:174
 msgid "translate newline to carriage return"
-msgstr ""
+msgstr "将换行符翻译为回车"
 
 #
 #. type: TP
@@ -790,7 +790,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:177
 msgid "enable input parity checking"
-msgstr ""
+msgstr "启用输入奇偶校验"
 
 #
 #. type: TP
@@ -803,7 +803,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:180
 msgid "clear high (8th) bit of input characters"
-msgstr ""
+msgstr "清除输入字符的高位（第8位）"
 
 #
 #. type: TP
@@ -816,7 +816,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:183
 msgid "assume input characters are UTF-8 encoded"
-msgstr ""
+msgstr "假设输入字符是UTF-8编码的"
 
 #
 #. type: TP
@@ -829,7 +829,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:186
 msgid "translate uppercase characters to lowercase"
-msgstr ""
+msgstr "将大写字符转换为小写"
 
 #
 #. type: TP
@@ -842,7 +842,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:189
 msgid "let any character restart output, not only start character"
-msgstr ""
+msgstr "让任何字符重启输出，而不仅仅是起始字符"
 
 #
 #. type: TP
@@ -855,7 +855,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:192
 msgid "enable sending of start/stop characters"
-msgstr ""
+msgstr "启用发送开始/停止字符"
 
 #
 #. type: TP
@@ -868,7 +868,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:195
 msgid "enable XON/XOFF flow control"
-msgstr ""
+msgstr "启用XON / XOFF流量控制"
 
 #
 #. type: TP
@@ -881,7 +881,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:198
 msgid "mark parity errors (with a 255-0-character sequence)"
-msgstr ""
+msgstr "标记奇偶校验错误（使用255-0字符序列）"
 
 #
 #. type: TP
@@ -894,14 +894,14 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:201
 msgid "same as [-]ixoff"
-msgstr ""
+msgstr "与[ - ] ixoff相同"
 
 #
 #. type: SS
 #: raw/coreutils/man1/stty.1:201
 #, no-wrap
 msgid "Output settings:"
-msgstr ""
+msgstr "输出设置："
 
 #
 #. type: TP
@@ -914,7 +914,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:205
 msgid "backspace delay style, N in [0..1]"
-msgstr ""
+msgstr "退格延迟样式，[0..1]中的N"
 
 #
 #. type: TP
@@ -927,7 +927,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:208
 msgid "carriage return delay style, N in [0..3]"
-msgstr ""
+msgstr "回车延迟方式，N在[0..3]"
 
 #
 #. type: TP
@@ -940,7 +940,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:211
 msgid "form feed delay style, N in [0..1]"
-msgstr ""
+msgstr "换页延迟样式，[0..1]中的N"
 
 #
 #. type: TP
@@ -953,7 +953,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:214
 msgid "newline delay style, N in [0..1]"
-msgstr ""
+msgstr "换行延迟样式，[0..1]中的N"
 
 #
 #. type: TP
@@ -973,7 +973,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:220
 msgid "use delete characters for fill instead of NUL characters"
-msgstr ""
+msgstr "使用删除字符填充而不是NUL字符"
 
 #
 #. type: TP
@@ -986,7 +986,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:223
 msgid "use fill (padding) characters instead of timing for delays"
-msgstr ""
+msgstr "使用填充（填充）字符而不是延迟时间"
 
 #
 #. type: TP
@@ -999,7 +999,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:226
 msgid "translate lowercase characters to uppercase"
-msgstr ""
+msgstr "将小写字符转换为大写"
 
 #
 #. type: TP
@@ -1012,7 +1012,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:229
 msgid "translate newline to carriage return-newline"
-msgstr ""
+msgstr "将换行符转换为回车换行符"
 
 #
 #. type: TP
@@ -1025,7 +1025,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:232
 msgid "newline performs a carriage return"
-msgstr ""
+msgstr "换行执行回车"
 
 #
 #. type: TP
@@ -1038,7 +1038,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:235
 msgid "do not print carriage returns in the first column"
-msgstr ""
+msgstr "不要在第一列中打印回车符"
 
 #
 #. type: TP
@@ -1051,7 +1051,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:238
 msgid "postprocess output"
-msgstr ""
+msgstr "后处理输出"
 
 #
 #. type: TP
@@ -1064,7 +1064,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:241
 msgid "horizontal tab delay style, N in [0..3]"
-msgstr ""
+msgstr "水平制表符延迟样式，[0..3]中的N"
 
 #
 #. type: TP
@@ -1077,7 +1077,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:244
 msgid "same as tab0"
-msgstr ""
+msgstr "与tab0相同"
 
 #
 #. type: TP
@@ -1090,7 +1090,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:247
 msgid "same as tab3"
-msgstr ""
+msgstr "与tab3相同"
 
 #
 #. type: TP
@@ -1103,7 +1103,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:250
 msgid "vertical tab delay style, N in [0..1]"
-msgstr ""
+msgstr "垂直制表符延迟样式，[0..1]中的N"
 
 #
 #. type: SS
@@ -1123,7 +1123,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:254
 msgid "echo erase characters as backspace-space-backspace"
-msgstr ""
+msgstr "回显擦除字符作为退格空间退格"
 
 #
 #. type: TP
@@ -1136,7 +1136,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:257
 msgid "kill all line by obeying the echoprt and echoe settings"
-msgstr ""
+msgstr "通过服从回声和回声设置来杀死所有行"
 
 #
 #. type: TP
@@ -1149,7 +1149,7 @@ msgstr "* B<-crtkill>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:260
 msgid "kill all line by obeying the echoctl and echok settings"
-msgstr ""
+msgstr "通过遵守echoctl和echok设置来杀死所有行"
 
 #
 #. type: TP
@@ -1162,7 +1162,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:263
 msgid "echo control characters in hat notation ('^c')"
-msgstr ""
+msgstr "用帽子符号表示回声控制字符（'^ c'）"
 
 #
 #. type: TP
@@ -1175,7 +1175,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:266
 msgid "echo input characters"
-msgstr ""
+msgstr "回声输入字符"
 
 #
 #. type: TP
@@ -1201,7 +1201,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:272
 msgid "same as [-]crterase"
-msgstr ""
+msgstr "与[ - ] crterase相同"
 
 #
 #. type: TP
@@ -1214,7 +1214,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:275
 msgid "echo a newline after a kill character"
-msgstr ""
+msgstr "在杀死字符后回显换行符"
 
 #
 #. type: TP
@@ -1227,7 +1227,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:278
 msgid "same as [-]crtkill"
-msgstr ""
+msgstr "与[ - ] crtkill相同"
 
 #
 #. type: TP
@@ -1240,7 +1240,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:281
 msgid "echo newline even if not echoing other characters"
-msgstr ""
+msgstr "即使没有回显其他字符，也会回显换行符"
 
 #
 #. type: TP
@@ -1253,7 +1253,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:284
 msgid "echo erased characters backward, between '\\e' and '/'"
-msgstr ""
+msgstr "回声删除了'\\ e'和'/'之间的字符"
 
 #
 #. type: TP
@@ -1266,7 +1266,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:287
 msgid "enable \"LINEMODE\"; useful with high latency links"
-msgstr ""
+msgstr "enable \“LINEMODE \”; 适用于高延迟链接"
 
 #
 #. type: TP
@@ -1279,7 +1279,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:290
 msgid "discard output"
-msgstr ""
+msgstr "丢弃输出"
 
 #
 #. type: TP
@@ -1292,7 +1292,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:293
 msgid "enable special characters: erase, kill, werase, rprnt"
-msgstr ""
+msgstr "启用特殊字符：erase，kill，werase，rprnt"
 
 #
 #. type: TP
@@ -1305,7 +1305,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:296
 msgid "enable non-POSIX special characters"
-msgstr ""
+msgstr "启用非POSIX特殊字符"
 
 #
 #. type: TP
@@ -1318,7 +1318,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:299
 msgid "enable interrupt, quit, and suspend special characters"
-msgstr ""
+msgstr "启用中断，退出和暂停特殊字符"
 
 #
 #. type: TP
@@ -1331,7 +1331,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:302
 msgid "disable flushing after interrupt and quit special characters"
-msgstr ""
+msgstr "中断后禁用刷新并退出特殊字符"
 
 #
 #. type: TP
@@ -1344,7 +1344,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:305
 msgid "same as [-]echoprt"
-msgstr ""
+msgstr "与[ - ] echoprt相同"
 
 #
 #. type: TP
@@ -1357,7 +1357,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:308
 msgid "stop background jobs that try to write to the terminal"
-msgstr ""
+msgstr "停止尝试写入终端的后台作业"
 
 #
 #. type: TP
@@ -1370,14 +1370,14 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:311
 msgid "with icanon, escape with '\\e' for uppercase characters"
-msgstr ""
+msgstr "使用icanon，使用'\\ e'表示大写字符"
 
 #
 #. type: SS
 #: raw/coreutils/man1/stty.1:311
 #, no-wrap
 msgid "Combination settings:"
-msgstr ""
+msgstr "组合设置："
 
 #
 #. type: TP
@@ -1390,7 +1390,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:315
 msgid "same as [-]lcase"
-msgstr ""
+msgstr "与[ - ] lcase相同"
 
 #
 #. type: TP
@@ -1403,7 +1403,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:318
 msgid "same as B<-icanon>"
-msgstr ""
+msgstr "与B <-icanon>相同"
 
 #
 #. type: TP
@@ -1416,7 +1416,7 @@ msgstr "B<-cbreak>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:321
 msgid "same as icanon"
-msgstr ""
+msgstr "与icanon相同"
 
 #
 #. type: TP
@@ -1431,7 +1431,7 @@ msgstr ""
 msgid ""
 "same as brkint ignpar istrip icrnl ixon opost isig icanon, eof and eol "
 "characters to their default values"
-msgstr ""
+msgstr "与brkint ignpar相同istrip icrnl ixon opost isig icanon，eof和eol字符为其默认值"
 
 #
 #. type: TP
@@ -1457,7 +1457,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:331
 msgid "same as echoe echoctl echoke"
-msgstr ""
+msgstr "与回声echoctl echoke相同"
 
 #
 #. type: TP
@@ -1470,7 +1470,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:335
 msgid "same as echoe echoctl echoke B<-ixany> intr ^c erase 0177 kill ^u"
-msgstr ""
+msgstr "与echoe echoctl echoke B相同<-ixany> intr ^ c erase 0177 kill ^ u"
 
 #
 #. type: TP
@@ -1483,7 +1483,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:338
 msgid "same as [-]ixany"
-msgstr ""
+msgstr "与[ - ] ixany相同"
 
 #
 #. type: TP
@@ -1496,7 +1496,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:341
 msgid "erase and kill characters to their default values"
-msgstr ""
+msgstr "擦除并删除字符为默认值"
 
 #
 #. type: TP
@@ -1509,7 +1509,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:344
 msgid "same as parenb B<-parodd> cs7"
-msgstr ""
+msgstr "与parenb B <-parodd> cs7相同"
 
 #
 #. type: TP
@@ -1522,7 +1522,7 @@ msgstr "B<-evenp>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:347 raw/coreutils/man1/stty.1:368
 msgid "same as B<-parenb> cs8"
-msgstr ""
+msgstr "与B <-parenb> cs8相同"
 
 #
 #. type: TP
@@ -1535,7 +1535,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:350
 msgid "same as xcase iuclc olcuc"
-msgstr ""
+msgstr "与xcase iuclc olcuc相同"
 
 #
 #. type: TP
@@ -1548,7 +1548,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:353
 msgid "same as B<-parenb> B<-istrip> B<-opost> cs8"
-msgstr ""
+msgstr "与B <-parenb> B <-istrip> B <-opost> cs8相同"
 
 #
 #. type: TP
@@ -1561,7 +1561,7 @@ msgstr "B<-litout>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:356
 msgid "same as parenb istrip opost cs7"
-msgstr ""
+msgstr "与parenb istrip opost cs7相同"
 
 #
 #. type: TP
@@ -1574,7 +1574,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:359
 msgid "same as B<-icrnl> B<-onlcr>"
-msgstr ""
+msgstr "与B <-icrn> B <-onlcr>相同"
 
 #
 #. type: TP
@@ -1587,7 +1587,7 @@ msgstr "B<-nl>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:362
 msgid "same as icrnl B<-inlcr> B<-igncr> onlcr B<-ocrnl> B<-onlret>"
-msgstr ""
+msgstr "与icrnl B <-inlcr> B <-igncr> onlcr B <-ocrnl> B <-onlret>相同"
 
 #
 #. type: TP
@@ -1600,7 +1600,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:365
 msgid "same as parenb parodd cs7"
-msgstr ""
+msgstr "与parenb parodd cs7相同"
 
 #
 #. type: TP
@@ -1620,7 +1620,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:371
 msgid "same as [-]evenp"
-msgstr ""
+msgstr "与[ - ] evenp相同"
 
 #
 #. type: TP
@@ -1633,7 +1633,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:374
 msgid "same as B<-parenb> B<-istrip> cs8"
-msgstr ""
+msgstr "与B <-parenb> B <-istrip> cs8相同"
 
 #
 #. type: TP
@@ -1646,7 +1646,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:377
 msgid "same as parenb istrip cs7"
-msgstr ""
+msgstr "与parenb istrip cs7相同"
 
 #
 #. type: TP
@@ -1662,7 +1662,9 @@ msgid ""
 "same as B<-ignbrk> B<-brkint> B<-ignpar> B<-parmrk> B<-inpck> B<-istrip> B<-"
 "inlcr> B<-igncr> B<-icrnl> B<-ixon> B<-ixoff> B<-icanon> B<-opost> B<-isig> "
 "B<-iuclc> B<-ixany> B<-imaxbel> B<-xcase> min 1 time 0"
-msgstr ""
+msgstr "与B <-bbrk> B <-brkint> B <-ignar> B <-prkrk> B <-inpck> B <-istrip> B <-inlcr> B 
+<-igncr> B <-icrn> B < - ixon> B <-ixoff> B <-icanon> B <-opost> B <-isig> B <-iuclc> B 
+<-ixany> B <-imaxbel> B <-xcase> min 1次0"
 
 #
 #. type: TP
@@ -1675,7 +1677,7 @@ msgstr "B<-raw>"
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:385
 msgid "same as cooked"
-msgstr ""
+msgstr "与cooked相同"
 
 #
 #. type: TP
@@ -1694,7 +1696,11 @@ msgid ""
 "onlret> nl0 cr0 tab0 bs0 vt0 ff0 isig B<-tostop> B<-ofdel> B<-echoprt> "
 "echoctl echoke B<-extproc> B<-flusho>, all special characters to their "
 "default values"
-msgstr ""
+msgstr "与cread B <-ignbrk> brkint B <-inlcr> B <-igncr> icrnl icanon iexten echo echoe echok
+B <-echonl> B <-noflsh> B <-ixoff> B <-iutf8> B <-clclc> B <-ixany> imaxbel B <-xcase> B <-olcuc> 
+B <-ocrnl> opost B <-ofill> onlcr B <-onocr> B <-onlret> nl0 cr0 tab0 bs0 vt0 ff0 isig B <-tostop> 
+B <-ofdel> B <-echoprt> echoctl echoke B <-extproc> B <-flusho>，所有特殊字符都是默认值
+"
 
 #
 #. type: Plain text
@@ -1704,7 +1710,8 @@ msgid ""
 "baud rate, line discipline, and deviations from stty sane.  In settings, "
 "CHAR is taken literally, or coded as in ^c, 0x37, 0177 or 127; special "
 "values ^- or undef used to disable special characters."
-msgstr ""
+msgstr "处理连接到标准输入的tty线。 没有参数，打印波特率，线路规则和与stty sane的偏差。在设置中，CHAR按字面意思，
+或编码为^ c，0x37,0177或127; 特殊值^ - 或undef用于禁用特殊字符。"
 
 #
 #. type: SH
