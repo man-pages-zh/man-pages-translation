@@ -84,7 +84,7 @@ msgstr "描述"
 msgid ""
 "Overwrite the specified FILE(s) repeatedly, in order to make it harder for "
 "even very expensive hardware probing to recover the data."
-msgstr ""
+msgstr "重复覆盖指定的FILE，以便使甚至非常昂贵的硬件探测更难以恢复数据。"
 
 #
 #. type: Plain text
@@ -110,7 +110,7 @@ msgstr "B<-f>, B<--force>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:20
 msgid "change permissions to allow writing if necessary"
-msgstr ""
+msgstr "更改权限以允许在必要时进行写入"
 
 #
 #. type: TP
@@ -123,7 +123,7 @@ msgstr "B<-v>, B<--verbose>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:23
 msgid "overwrite N times instead of the default (3)"
-msgstr ""
+msgstr "覆盖N次而不是默认值（3）"
 
 #
 #. type: TP
@@ -136,7 +136,7 @@ msgstr "B<--random-source>=I<文件>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:26
 msgid "get random bytes from FILE"
-msgstr ""
+msgstr "从FILE获取随机字节"
 
 #
 #. type: TP
@@ -149,7 +149,7 @@ msgstr "B<-z>, B<--zero>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:29
 msgid "shred this many bytes (suffixes like K, M, G accepted)"
-msgstr ""
+msgstr "粉碎大多字节（接受后缀如K，M，G）"
 
 #
 #. type: TP
@@ -162,7 +162,7 @@ msgstr "B<-u>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:32
 msgid "truncate and remove file after overwriting"
-msgstr ""
+msgstr "覆盖后截断并删除文件"
 
 #
 #. type: TP
@@ -175,7 +175,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:35
 msgid "like B<-u> but give control on HOW to delete; See below"
-msgstr ""
+msgstr "像B <-u>但是控制如何删除; 见下文"
 
 #
 #. type: TP
@@ -188,7 +188,7 @@ msgstr "B<-v>, B<--verbose>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:38
 msgid "show progress"
-msgstr ""
+msgstr "显示进度"
 
 #
 #. type: TP
@@ -201,13 +201,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:41
 msgid "do not round file sizes up to the next full block;"
-msgstr ""
+msgstr "不要将文件大小舍入到下一个完整块;"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:43
 msgid "this is the default for non-regular files"
-msgstr ""
+msgstr "这是非常规文件的默认值"
 
 #
 #. type: TP
@@ -220,7 +220,7 @@ msgstr "B<-z>, B<--zero>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:46
 msgid "add a final overwrite with zeros to hide shredding"
-msgstr ""
+msgstr "用零添加最后的覆盖以隐藏碎化"
 
 #
 #. type: TP
@@ -259,7 +259,11 @@ msgid ""
 "use a standard unlink call.  \\&'wipe' =E<gt> also first obfuscate bytes in "
 "the name.  \\&'wipesync' =E<gt> also sync each obfuscated byte to disk.  The "
 "default mode is 'wipesync', but note it can be expensive."
-msgstr ""
+msgstr "如果指定B < - remove>（ <-u>），则删除文件。 默认不是删除文件，
+因为在 <dev / hda >等设备文件上操作是很常见的，通常不应删除这些文件。
+可选的HOW参数指示如何删除目录条目：\\＆'unlink'= E <gt>使用标准的unlink调用。
+\\＆'wipe'= E <gt>也首先在名称中混淆字节。\\＆'wipesync'= E <gt>还将每个混淆的字节同步到磁盘。
+默认模式是'wipesync'，但请注意它可能很昂贵。"
 
 #
 #. type: Plain text
@@ -270,7 +274,8 @@ msgid ""
 "things, but many modern file system designs do not satisfy this assumption.  "
 "The following are examples of file systems on which shred is not effective, "
 "or is not guaranteed to be effective in all file system modes:"
-msgstr ""
+msgstr "注意：请注意，shred依赖于一个非常重要的假设：文件系统会覆盖数据。 这是传统的做事方式，
+但许多现代文件系统设计并不满足这一假设。以下是Shred无效或不保证在所有文件系统模式下有效的文件系统示例："
 
 #
 #. type: Plain text
@@ -278,7 +283,7 @@ msgstr ""
 msgid ""
 "* log-structured or journaled file systems, such as those supplied with AIX "
 "and Solaris (and JFS, ReiserFS, XFS, Ext3, etc.)"
-msgstr ""
+msgstr "日志结构或日志文件系统，例如AIX和Solaris（以及JFS，ReiserFS，XFS，Ext3等）提供的文件系统"
 
 #
 #. type: Plain text
@@ -286,14 +291,14 @@ msgstr ""
 msgid ""
 "* file systems that write redundant data and carry on even if some writes "
 "fail, such as RAID-based file systems"
-msgstr ""
+msgstr "写入冗余数据的文件系统，即使有些写入也会继续失败，例如基于RAID的文件系统"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:75
 msgid ""
 "* file systems that make snapshots, such as Network Appliance's NFS server"
-msgstr ""
+msgstr "制作快照的文件系统，例如Network Appliance的NFS服务器"
 
 #
 #. type: Plain text
@@ -301,13 +306,13 @@ msgstr ""
 msgid ""
 "* file systems that cache in temporary locations, such as NFS version 3 "
 "clients"
-msgstr ""
+msgstr "缓存在临时位置的文件系统，例如NFS版本3客户端"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:80
 msgid "* compressed file systems"
-msgstr ""
+msgstr "压缩文件系统"
 
 #
 #. type: Plain text
@@ -320,7 +325,10 @@ msgid ""
 "be changed by adding the data=something option to the mount options for a "
 "particular file system in the I<\\,/etc/fstab\\/> file, as documented in the "
 "mount man page (man mount)."
-msgstr ""
+msgstr "在ext3文件系统的情况下，上述免责声明仅适用于data = journal模式（并且shred因此效果有限），
+该模式除了仅仅元数据之外还记录文件数据。 在data = ordered（默认）和data = writeback模式中，shred像往常一样工作。 
+可以通过在I <\\，/ etc / fstab \\ />文件中为特定文件系统的mount选项添加data = something选项来更改Ext3日记记录模式，
+如mount man page（man mount）中所述。"
 
 #
 #. type: Plain text
@@ -329,7 +337,7 @@ msgid ""
 "In addition, file system backups and remote mirrors may contain copies of "
 "the file that cannot be removed, and that will allow a shredded file to be "
 "recovered later."
-msgstr ""
+msgstr "此外，文件系统备份和远程镜像可能包含无法删除的文件副本，这将允许稍后恢复碎片文件。"
 
 #
 #. type: SH
@@ -342,7 +350,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:94
 msgid "Written by Colin Plumb."
-msgstr ""
+msgstr "由Colin Plumb撰写。"
 
 #
 #. type: SH
