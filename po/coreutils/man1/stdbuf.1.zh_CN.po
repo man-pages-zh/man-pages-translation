@@ -57,7 +57,7 @@ msgstr "名称"
 msgid ""
 "stdbuf - Run COMMAND, with modified buffering operations for its standard "
 "streams."
-msgstr ""
+msgstr "stdbuf - 运行COMMAND，对其标准流进行修改的缓冲操作。"
 
 #
 #. type: SH
@@ -84,7 +84,7 @@ msgstr "描述"
 #: raw/coreutils/man1/stdbuf.1:13
 msgid ""
 "Run COMMAND, with modified buffering operations for its standard streams."
-msgstr ""
+msgstr "运行COMMAND，对其标准流进行修改的缓冲操作。"
 
 #
 #. type: Plain text
@@ -104,7 +104,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:18
 msgid "adjust standard input stream buffering"
-msgstr ""
+msgstr "调整标准输入流缓冲"
 
 #
 #. type: TP
@@ -117,7 +117,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:21
 msgid "adjust standard output stream buffering"
-msgstr ""
+msgstr "调整标准输出流缓冲"
 
 #
 #. type: TP
@@ -130,7 +130,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:24
 msgid "adjust standard error stream buffering"
-msgstr ""
+msgstr "调整标准错误流缓冲"
 
 #
 #. type: TP
@@ -164,13 +164,13 @@ msgstr "显示版本信息并退出"
 msgid ""
 "If MODE is 'L' the corresponding stream will be line buffered.  This option "
 "is invalid with standard input."
-msgstr ""
+msgstr "如果MODE为'L'，则相应的流将被行缓冲。 标准输入时此选项无效。"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:35
 msgid "If MODE is '0' the corresponding stream will be unbuffered."
-msgstr ""
+msgstr "如果MODE为'0'，则相应的流将是无缓冲的。"
 
 #
 #. type: Plain text
@@ -180,7 +180,8 @@ msgid ""
 "1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.  In "
 "this case the corresponding stream will be fully buffered with the buffer "
 "size set to MODE bytes."
-msgstr ""
+msgstr "否则MODE是一个数字，可以跟随以下之一：KB 1000，K 1024，MB 1000 * 1000，M 1024 * 1024，
+依此类推G，T，P，E，Z，Y。在这种情况下 相应的流将完全缓冲，缓冲区大小设置为MODE字节。"
 
 #
 #. type: Plain text
@@ -190,7 +191,8 @@ msgid ""
 "for example) then that will override corresponding changes by 'stdbuf'.  "
 "Also some filters (like 'dd' and 'cat' etc.) don't use streams for I/O, and "
 "are thus unaffected by 'stdbuf' settings."
-msgstr ""
+msgstr "注意：如果COMMAND调整其标准流的缓冲（例如'tee'），那么将通过'stdbuf'覆盖相应的更改。 
+另外一些过滤器（如'dd'和'cat'等）不使用I / O流，因此不受'stdbuf'设置的影响。"
 
 #
 #. type: SH
@@ -209,7 +211,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:49
 msgid "This will immediately display unique entries from access.log"
-msgstr ""
+msgstr "这将立即显示access.log中的唯一条目"
 
 #
 #. type: SH
@@ -224,7 +226,7 @@ msgstr "BUGS"
 msgid ""
 "On GLIBC platforms, specifying a buffer size, i.e., using fully buffered "
 "mode will result in undefined operation."
-msgstr ""
+msgstr "在GLIBC平台上，指定缓冲区大小，即使用完全缓冲模式将导致未定义的操作。"
 
 #
 #. type: SH
