@@ -68,7 +68,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:8
 msgid "B<numfmt> [I<\\,OPTION\\/>]... [I<\\,NUMBER\\/>]..."
-msgstr ""
+msgstr "B<编号> [I<\\,选项\\/>]... [I<\\,编号\\/>]..."
 
 #
 #. type: SH
@@ -109,7 +109,7 @@ msgstr "打印有关无效输入的警告"
 #: raw/coreutils/man1/numfmt.1:17
 #, no-wrap
 msgid "B<-d>, B<--delimiter>=I<\\,X\\/>"
-msgstr ""
+msgstr "B<-d>, B<--分隔符>=I<\\,X\\/>"
 
 #
 #. type: Plain text
@@ -342,7 +342,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:81
 msgid "no auto-scaling is done; suffixes will trigger an error"
-msgstr ""
+msgstr "没有自动缩放; 后缀会触发错误"
 
 #
 #. type: TP
@@ -355,7 +355,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:84
 msgid "accept optional single/two letter suffix:"
-msgstr ""
+msgstr "接受可选的单/双字母后缀："
 
 #
 #. type: Plain text
@@ -374,7 +374,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:92 raw/coreutils/man1/numfmt.1:99
 msgid "accept optional single letter suffix:"
-msgstr ""
+msgstr "接受可选的单字母后缀："
 
 #
 #. type: Plain text
@@ -406,7 +406,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:106
 msgid "accept optional two-letter suffix:"
-msgstr ""
+msgstr "接受可选的两个字母后缀："
 
 #
 #. type: Plain text
@@ -419,7 +419,7 @@ msgstr ""
 #: raw/coreutils/man1/numfmt.1:110
 #, no-wrap
 msgid "FIELDS supports cut(1) style field ranges:"
-msgstr ""
+msgstr "FIELDS支持cut（1）样式字段范围："
 
 #
 #. type: TP
@@ -432,7 +432,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:114
 msgid "N'th field, counted from 1"
-msgstr ""
+msgstr "第N个字段，从1开始计算"
 
 #
 #. type: TP
@@ -445,7 +445,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:117
 msgid "from N'th field, to end of line"
-msgstr ""
+msgstr "从第N场到终点线"
 
 #
 #. type: TP
@@ -458,7 +458,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:120
 msgid "from N'th to M'th field (inclusive)"
-msgstr ""
+msgstr "从第N个到第M个（包括在内）"
 
 #
 #. type: TP
@@ -471,7 +471,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:123
 msgid "from first to M'th field (inclusive)"
-msgstr ""
+msgstr "从第一场到第M场（包括）"
 
 #
 #. type: TP
@@ -490,7 +490,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/numfmt.1:128
 msgid "Multiple fields/ranges can be separated with commas"
-msgstr ""
+msgstr "可以用逗号分隔多个字段/范围"
 
 #
 #. type: Plain text
@@ -502,7 +502,12 @@ msgid ""
 "width will zero pad the number. Optional negative values (%-10f) will left "
 "align.  Optional precision (%.1f) will override the input determined "
 "precision."
-msgstr ""
+msgstr "FORMAT必须适合打印一个浮点参数'％f'。
+可选引号（％'f）将启用B < - 分组>（如果当前语言环境支持）。
+可选宽度值（％10f）将填充输出。
+可选零（％010f）宽度将零填充数字。
+可选的负值（％-10f）将保持对齐。
+可选精度（％。1f）将覆盖输入确定的精度。"
 
 #
 #. type: Plain text
@@ -514,7 +519,11 @@ msgid ""
 "the exit status is 2.  With B<--invalid=>'warn' each conversion error is "
 "diagnosed, but the exit status is 0.  With B<--invalid=>'ignore' conversion "
 "errors are not diagnosed and the exit status is 0."
-msgstr ""
+msgstr "如果所有输入数字都已成功转换，则退出状态为0。
+默认情况下，numfmt将在退出状态为2的第一个转换错误处停止。
+如果B < - invalid =>'fail'，则会为每个转换错误打印一条警告，退出状态为2。
+使用B < - invalid =>'warn'诊断每个转换错误，但退出状态为0。
+使用B < - invalid =>'忽略'时，不会诊断转换错误，退出状态为0。"
 
 #
 #. type: SH
