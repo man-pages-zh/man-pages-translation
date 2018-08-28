@@ -85,7 +85,7 @@ msgstr "描述"
 msgid ""
 "Reformat each paragraph in the FILE(s), writing to standard output.  The "
 "option B<-WIDTH> is an abbreviated form of B<--width>=I<\\,DIGITS\\/>."
-msgstr ""
+msgstr "重新格式化文件中的每个段落，写入标准输出。 选项B <-WIDTH>是< - width> = I <\\，DIGITS \\ />的缩写形式。"
 
 #
 #. type: Plain text
@@ -111,7 +111,7 @@ msgstr "B<-c>, B<--crown-margin>"
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:20
 msgid "preserve indentation of first two lines"
-msgstr ""
+msgstr "保留前两行的缩进"
 
 #
 #. type: TP
@@ -126,7 +126,7 @@ msgstr "B<-p>, B<--prefix>=I<\\,STRING\\/>"
 msgid ""
 "reformat only lines beginning with STRING, reattaching the prefix to "
 "reformatted lines"
-msgstr ""
+msgstr "仅重新格式化以STRING开头的行，将前缀重新附加到重新格式化的行"
 
 #
 #. type: TP
@@ -139,7 +139,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:27
 msgid "split long lines, but do not refill"
-msgstr ""
+msgstr "拆分长线，但不要重新填充"
 
 #
 #. type: TP
@@ -152,7 +152,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:30
 msgid "indentation of first line different from second"
-msgstr ""
+msgstr "第一行的缩进与第二行不同"
 
 #
 #. type: TP
@@ -165,7 +165,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:33
 msgid "one space between words, two after sentences"
-msgstr ""
+msgstr "单词之间有一个空格，两个句子之后"
 
 #
 #. type: TP
@@ -178,7 +178,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:36
 msgid "maximum line width (default of 75 columns)"
-msgstr ""
+msgstr "最大线宽（默认为75列）"
 
 #
 #. type: TP
@@ -191,7 +191,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:39
 msgid "goal width (default of 93% of width)"
-msgstr ""
+msgstr "目标宽度（默认宽度的93％）"
 
 #
 #. type: TP
