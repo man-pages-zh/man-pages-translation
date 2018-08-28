@@ -84,7 +84,7 @@ msgstr "描述"
 msgid ""
 "Translate, squeeze, and/or delete characters from standard input, writing to "
 "standard output."
-msgstr ""
+msgstr "从标准输入翻译，挤压和/或删除字符，写入标准输出。"
 
 #
 #. type: TP
@@ -97,7 +97,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:16
 msgid "use the complement of SET1"
-msgstr ""
+msgstr "使用SET1的补充"
 
 #
 #. type: TP
@@ -110,7 +110,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:19
 msgid "delete characters in SET1, do not translate"
-msgstr ""
+msgstr "删除SET1中的字符，不要翻译"
 
 #
 #. type: TP
@@ -125,7 +125,7 @@ msgstr ""
 msgid ""
 "replace each sequence of a repeated character that is listed in the last "
 "specified SET, with a single occurrence of that character"
-msgstr ""
+msgstr "替换最后一个指定SET中列出的重复字符的每个序列，只出现一次该字符"
 
 #
 #. type: TP
@@ -138,7 +138,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:27
 msgid "first truncate SET1 to length of SET2"
-msgstr ""
+msgstr "首先将SET1截断为SET2的长度"
 
 #
 #. type: TP
@@ -172,7 +172,7 @@ msgstr "显示版本信息并退出"
 msgid ""
 "SETs are specified as strings of characters.  Most represent themselves.  "
 "Interpreted sequences are:"
-msgstr ""
+msgstr "解释序列是：SET被指定为字符串。 大多数代表自己。 "
 
 #
 #. type: TP
@@ -185,7 +185,7 @@ msgstr "\\eNNN"
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:39
 msgid "character with octal value NNN (1 to 3 octal digits)"
-msgstr ""
+msgstr "具有八进制值NNN的字符（1到3个八进制数字）"
 
 #
 #. type: TP
@@ -211,7 +211,7 @@ msgstr "\\ea"
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:45
 msgid "audible BEL"
-msgstr ""
+msgstr "声音BEL"
 
 #
 #. type: TP
@@ -302,7 +302,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:66
 msgid "all characters from CHAR1 to CHAR2 in ascending order"
-msgstr ""
+msgstr "从CHAR1到CHAR2的所有字符按升序排列"
 
 #
 #. type: TP
@@ -315,7 +315,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:69
 msgid "in SET2, copies of CHAR until length of SET1"
-msgstr ""
+msgstr "在SET2中，CHAR的副本直到SET1的长度"
 
 #
 #. type: TP
@@ -328,7 +328,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:72
 msgid "REPEAT copies of CHAR, REPEAT octal if starting with 0"
-msgstr ""
+msgstr "如果以0开头，则重复CHAR，REPEAT八进制的副本"
 
 #
 #. type: TP
@@ -341,7 +341,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:75
 msgid "all letters and digits"
-msgstr ""
+msgstr "所有字母和数字"
 
 #
 #. type: TP
@@ -354,7 +354,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:78
 msgid "all letters"
-msgstr ""
+msgstr "所有的信件"
 
 #
 #. type: TP
@@ -367,7 +367,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:81
 msgid "all horizontal whitespace"
-msgstr ""
+msgstr "所有水平空格"
 
 #
 #. type: TP
@@ -380,7 +380,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:84
 msgid "all control characters"
-msgstr ""
+msgstr "所有控制字符"
 
 #
 #. type: TP
@@ -393,7 +393,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:87
 msgid "all digits"
-msgstr ""
+msgstr "所有数字"
 
 #
 #. type: TP
@@ -406,7 +406,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:90
 msgid "all printable characters, not including space"
-msgstr ""
+msgstr "所有可打印的字符，不包括空格"
 
 #
 #. type: TP
@@ -419,7 +419,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:93
 msgid "all lower case letters"
-msgstr ""
+msgstr "所有小写字母"
 
 #
 #. type: TP
@@ -432,7 +432,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:96
 msgid "all printable characters, including space"
-msgstr ""
+msgstr "所有可打印的字符，包括空格"
 
 #
 #. type: TP
@@ -445,7 +445,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:99
 msgid "all punctuation characters"
-msgstr ""
+msgstr "所有标点字符"
 
 #
 #. type: TP
@@ -458,7 +458,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:102
 msgid "all horizontal or vertical whitespace"
-msgstr ""
+msgstr "所有水平或垂直空白"
 
 #
 #. type: TP
@@ -497,7 +497,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:111
 msgid "all characters which are equivalent to CHAR"
-msgstr ""
+msgstr "所有与CHAR等效的字符"
 
 #
 #. type: Plain text
@@ -510,7 +510,10 @@ msgid ""
 "order; used in SET2 while translating, they may only be used in pairs to "
 "specify case conversion.  B<-s> uses the last specified SET, and occurs "
 "after translation or deletion."
-msgstr ""
+msgstr "如果未给出B <-d>并且出现SET1和SET2，则发生转换。 <-t>只能在翻译时使用。 
+SET2通过根据需要重复其最后一个字符而扩展到SET1的长度。 SET2的多余字符被忽略。 
+只有[：lower：]和[：upper：]保证按升序扩展; 在翻译时在SET2中使用，
+它们可能仅成对使用以指定大小写转换。 <-s>使用最后指定的SET，并在翻译或删除后发生。"
 
 #
 #. type: SH
