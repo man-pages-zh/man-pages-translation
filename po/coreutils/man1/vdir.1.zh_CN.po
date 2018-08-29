@@ -84,7 +84,7 @@ msgstr "描述"
 msgid ""
 "List information about the FILEs (the current directory by default).  Sort "
 "entries alphabetically if none of B<-cftuvSUX> nor B<--sort> is specified."
-msgstr ""
+msgstr "列出有关FILE的信息（默认情况下为当前目录）。 如果未指定B <-cftuvSUX>和B < - sort>，则按字母顺序对条目进行排序。"
 
 #
 #. type: Plain text
@@ -130,7 +130,7 @@ msgstr "B<--author>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:24
 msgid "with B<-l>, print the author of each file"
-msgstr ""
+msgstr "使用B <-l>，打印每个文件的作者"
 
 #
 #. type: TP
@@ -158,7 +158,7 @@ msgstr ""
 msgid ""
 "scale sizes by SIZE before printing them; e.g., \\&'--block-size=M' prints "
 "sizes in units of 1,048,576 bytes; see SIZE format below"
-msgstr ""
+msgstr "在印刷之前按尺寸缩小尺寸; 例如，\\＆' - block-size = M'以1,048,576字节为单位打印大小; 请参阅下面的SIZE格式"
 
 #
 #. type: TP
@@ -171,7 +171,7 @@ msgstr "B<-B>, B<--ignore-backups>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:35
 msgid "do not list implied entries ending with ~"
-msgstr ""
+msgstr "不要列出以〜结尾的隐含条目"
 
 #
 #. type: TP
@@ -187,7 +187,8 @@ msgid ""
 "with B<-lt>: sort by, and show, ctime (time of last modification of file "
 "status information); with B<-l>: show ctime and sort by name; otherwise: "
 "sort by ctime, newest first"
-msgstr ""
+msgstr "使用B <-lt>：排序依次显示ctime（文件状态信息的最后修改时间）; 使用B <-l>：
+显示ctime并按名称排序; 否则：按ctime排序，最新的"
 
 #
 #. type: TP
@@ -200,7 +201,7 @@ msgstr "B<-C>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:44
 msgid "list entries by columns"
-msgstr ""
+msgstr "按列列出条目"
 
 #
 #. type: TP
@@ -215,7 +216,7 @@ msgstr ""
 msgid ""
 "colorize the output; WHEN can be 'always' (default if omitted), 'auto', or "
 "'never'; more info below"
-msgstr ""
+msgstr "着色输出; WHEN可以是'always'（如果省略则默认），'auto'或'never'; 更多信息如下"
 
 #
 #. type: TP
@@ -228,7 +229,7 @@ msgstr "B<-d>, B<--directory>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:51
 msgid "list directories themselves, not their contents"
-msgstr ""
+msgstr "列出目录本身，而不是其内容"
 
 #
 #. type: TP
@@ -241,7 +242,7 @@ msgstr "B<-D>, B<--dired>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:54
 msgid "generate output designed for Emacs' dired mode"
-msgstr ""
+msgstr "生成为Emacs的dired模式设计的输出"
 
 #
 #. type: TP
@@ -254,7 +255,7 @@ msgstr "B<-f>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:57
 msgid "do not sort, enable B<-aU>, disable B<-ls> B<--color>"
-msgstr ""
+msgstr "不排序，启用B <-aU>，禁用B <-ls> B < - color>"
 
 #
 #. type: TP
@@ -267,7 +268,7 @@ msgstr "B<-F>, B<--classify>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:60
 msgid "append indicator (one of */=E<gt>@|) to entries"
-msgstr ""
+msgstr "将条目（（* / = E </ u> @ |之一）附加到条目"
 
 #
 #. type: TP
@@ -280,7 +281,7 @@ msgstr "B<--file-type>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:63
 msgid "likewise, except do not append '*'"
-msgstr ""
+msgstr "同样，除了不附加'*'"
 
 #
 #. type: TP
@@ -295,7 +296,7 @@ msgstr "B<--time>=I<关键字>"
 msgid ""
 "across B<-x>, commas B<-m>, horizontal B<-x>, long B<-l>, single-column "
 "B<-1>, verbose B<-l>, vertical B<-C>"
-msgstr ""
+msgstr "跨越 B<-x>, 逗号 B<-m>, 行 B<-x>, 列 B<-l>, 单列 B<-1>, 详细 B<-l>, 纵 B<-C>"
 
 #
 #. type: TP
@@ -308,7 +309,7 @@ msgstr "B<--full-time>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:70
 msgid "like B<-l> B<--time-style>=I<\\,full-iso\\/>"
-msgstr ""
+msgstr "比如 <-l>  < - time-style> = I <\\，full-iso \\ />"
 
 #
 #. type: TP
@@ -321,7 +322,7 @@ msgstr "B<-g>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:73
 msgid "like B<-l>, but do not list owner"
-msgstr ""
+msgstr "像B <-l>，但不列出所有者"
 
 #
 #. type: TP
@@ -334,7 +335,7 @@ msgstr "B<--group-directories-first>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:76
 msgid "group directories before files;"
-msgstr ""
+msgstr "文件前的组目录;"
 
 #
 #. type: Plain text
@@ -342,7 +343,7 @@ msgstr ""
 msgid ""
 "can be augmented with a B<--sort> option, but any use of B<--sort>=I<\\,none"
 "\\/> (B<-U>) disables grouping"
-msgstr ""
+msgstr "可以使用B < - sort>选项进行扩充，但是任何使用B < - sort> = I <\\，none \\ />（B <-U>）都会禁用分组"
 
 #
 #. type: TP
@@ -355,7 +356,7 @@ msgstr "B<-G>, B<--no-group>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:82
 msgid "in a long listing, don't print group names"
-msgstr ""
+msgstr "在长列表中，不要打印组名"
 
 #
 #. type: TP
@@ -368,7 +369,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:86
 msgid "with B<-l> and/or B<-s>, print human readable sizes (e.g., 1K 234M 2G)"
-msgstr ""
+msgstr "使用B <-l>和/或B <-s>，打印人类可读尺寸（例如，1K 234M 2G）"
 
 #
 #. type: TP
@@ -394,7 +395,7 @@ msgstr "B<-H>, B<--dereference-command-line>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:92
 msgid "follow symbolic links listed on the command line"
-msgstr ""
+msgstr "按照命令行中列出的符号链接"
 
 #
 #. type: TP
@@ -407,13 +408,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:95
 msgid "follow each command line symbolic link"
-msgstr ""
+msgstr "按照每个命令行符号链接"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:97
 msgid "that points to a directory"
-msgstr ""
+msgstr "指向目录"
 
 #
 #. type: TP
@@ -428,7 +429,7 @@ msgstr ""
 msgid ""
 "do not list implied entries matching shell PATTERN (overridden by B<-a> or "
 "B<-A>)"
-msgstr ""
+msgstr "不列出与shell PATTERN匹配的隐含条目（由B <-a>或B <-A>覆盖）"
 
 #
 #. type: TP
@@ -442,7 +443,7 @@ msgstr "B<--time>=I<关键字>"
 msgid ""
 "hyperlink file names; WHEN can be 'always' (default if omitted), 'auto', or "
 "'never'"
-msgstr ""
+msgstr "超链接文件名; 什么时候可以'永远'（如果省略则默认），'自动'或'从不'"
 
 #
 #. type: TP
@@ -457,7 +458,7 @@ msgstr "B<--time>=I<关键字>"
 msgid ""
 "append indicator with style WORD to entry names: none (default), slash (B<-"
 "p>), file-type (B<--file-type>), classify (B<-F>)"
-msgstr ""
+msgstr "将带有样式WORD的指示符附加到条目名称：无（默认），斜杠（B <-p>），文件类型（B < - 文件类型>），分类（B <-F>）"
 
 #
 #. type: TP
@@ -470,7 +471,7 @@ msgstr "B<-i>, B<--inode>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:113
 msgid "print the index number of each file"
-msgstr ""
+msgstr "打印每个文件的索引号"
 
 #
 #. type: TP
@@ -483,7 +484,7 @@ msgstr "B<-i>, B<--inode>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:116
 msgid "do not list implied entries matching shell PATTERN"
-msgstr ""
+msgstr "不列出与shell PATTERN匹配的隐含条目"
 
 #
 #. type: TP
@@ -496,7 +497,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:119
 msgid "default to 1024-byte blocks for disk usage"
-msgstr ""
+msgstr "默认为1024字节块用于磁盘使用"
 
 #
 #. type: TP
@@ -509,7 +510,7 @@ msgstr "B<-l>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:122
 msgid "use a long listing format"
-msgstr ""
+msgstr "使用长列表格式"
 
 #
 #. type: TP
@@ -524,7 +525,7 @@ msgstr "B<-L>, B<--dereference>"
 msgid ""
 "when showing file information for a symbolic link, show information for the "
 "file the link references rather than for the link itself"
-msgstr ""
+msgstr "在显示符号链接的文件信息时，显示链接引用的文件的信息，而不是链接本身的信息"
 
 #
 #. type: TP
@@ -537,7 +538,7 @@ msgstr "B<-m>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:130
 msgid "fill width with a comma separated list of entries"
-msgstr ""
+msgstr "用逗号分隔的条目列表填充宽度"
 
 #
 #. type: TP
@@ -550,7 +551,7 @@ msgstr "B<-n>, B<--numeric-uid-gid>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:133
 msgid "like B<-l>, but list numeric user and group IDs"
-msgstr ""
+msgstr "像B <-l>，但列出数字用户和组ID"
 
 #
 #. type: TP
@@ -563,7 +564,7 @@ msgstr "B<-N>, B<--literal>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:136
 msgid "print entry names without quoting"
-msgstr ""
+msgstr "打印条目名称而不引用"
 
 #
 #. type: TP
@@ -576,7 +577,7 @@ msgstr "B<-o>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:139
 msgid "like B<-l>, but do not list group information"
-msgstr ""
+msgstr "像B <-l>，但不列出组信息"
 
 #
 #. type: TP
@@ -589,7 +590,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:142
 msgid "append / indicator to directories"
-msgstr ""
+msgstr "追加/指标到目录"
 
 #
 #. type: TP
@@ -602,7 +603,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:145
 msgid "print ? instead of nongraphic characters"
-msgstr ""
+msgstr "打印？ 而不是非字符字符"
 
 #
 #. type: TP
@@ -617,7 +618,7 @@ msgstr ""
 msgid ""
 "show nongraphic characters as-is (the default, unless program is 'ls' and "
 "output is a terminal)"
-msgstr ""
+msgstr "显示非图形字符as-is（默认情况下，除非程序是'ls'并且输出是终端）"
 
 #
 #. type: TP
@@ -630,7 +631,7 @@ msgstr "B<-Q>, B<--quote-name>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:152
 msgid "enclose entry names in double quotes"
-msgstr ""
+msgstr "用双引号括起条目名称"
 
 #
 #. type: TP
@@ -645,7 +646,8 @@ msgstr "B<--time>=I<关键字>"
 msgid ""
 "use quoting style WORD for entry names: literal, locale, shell, shell-"
 "always, shell-escape, shell-escape-always, c, escape"
-msgstr ""
+msgstr "使用引用样式WORD作为条目名称：文字，语言环境，shell，shell-always，
+shell-escape，shell-escape-always，c，escape"
 
 #
 #. type: TP
@@ -658,7 +660,7 @@ msgstr "B<-r>, B<--reverse>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:160
 msgid "reverse order while sorting"
-msgstr ""
+msgstr "排序时的逆序"
 
 #
 #. type: TP
@@ -684,7 +686,7 @@ msgstr "B<-s>, B<--size>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:166
 msgid "print the allocated size of each file, in blocks"
-msgstr ""
+msgstr "以块为单位打印每个文件的分配大小"
 
 #
 #. type: TP
@@ -697,7 +699,7 @@ msgstr "B<-S>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:169
 msgid "sort by file size, largest first"
-msgstr ""
+msgstr "按文件大小排序，最大的第一个"
 
 #
 #. type: TP
@@ -712,7 +714,7 @@ msgstr "B<--time>=I<关键字>"
 msgid ""
 "sort by WORD instead of name: none (B<-U>), size (B<-S>), time (B<-t>), "
 "version (B<-v>), extension (B<-X>)"
-msgstr ""
+msgstr "按WORD排序而不是名称：无（B <-U>），大小（B <-S>），时间（B <-t>），版本（B <-v>），扩展名（B <-X>）"
 
 #
 #. type: TP
@@ -728,7 +730,8 @@ msgid ""
 "with B<-l>, show time as WORD instead of default modification time: atime or "
 "access or use (B<-u>); ctime or status (B<-c>); also use specified time as "
 "sort key if B<--sort>=I<\\,time\\/> (newest first)"
-msgstr ""
+msgstr "使用B <-l>，将时间显示为WORD而不是默认修改时间：atime或access或use（B <-u>）;
+ctime或status（B <-c>）; 如果B < - sort> = I <\\，时间\\ />（最新的第一个），也使用指定的时间作为排序键"
 
 #
 #. type: TP
@@ -746,7 +749,9 @@ msgid ""
 "FORMAT1E<lt>newlineE<gt>FORMAT2, then FORMAT1 applies to non-recent files "
 "and FORMAT2 to recent files; if STYLE is prefixed with 'posix-', STYLE takes "
 "effect only outside the POSIX locale"
-msgstr ""
+msgstr "使用B <-l>，使用样式STYLE显示时间：full-iso，long-iso，iso，locale或+ FORMAT; 
+FORMAT被解释为'date';如果FORMAT是FORMAT1E <lt> newlineE <gt> FORMAT2，则FORMAT1适用于非近期文件，
+FORMAT2适用于最近的文件; 如果STYLE以'posix-'为前缀，则STYLE仅在POSIX语言环境之外生效"
 
 #
 #. type: TP
@@ -759,7 +764,7 @@ msgstr "B<-t>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:191
 msgid "sort by modification time, newest first"
-msgstr ""
+msgstr "按修改时间排序，最新"
 
 #. type: TP
 #: raw/coreutils/man1/vdir.1:191
@@ -771,7 +776,7 @@ msgstr "B<-T>, B<--tabsize>=I<\\,COLS\\/>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:194
 msgid "assume tab stops at each COLS instead of 8"
-msgstr ""
+msgstr "假设制表符停在每个COLS而不是8"
 
 #
 #. type: TP
@@ -786,7 +791,7 @@ msgstr "B<-u>"
 msgid ""
 "with B<-lt>: sort by, and show, access time; with B<-l>: show access time "
 "and sort by name; otherwise: sort by access time, newest first"
-msgstr ""
+msgstr "与B <-lt>：排序和显示访问时间; 使用B <-l>：显示访问时间并按名称排序; 否则：按访问时间排序，最新的"
 
 #
 #. type: TP
@@ -799,7 +804,7 @@ msgstr "B<-U>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:202
 msgid "do not sort; list entries in directory order"
-msgstr ""
+msgstr "不要排序; 按目录顺序列出条目"
 
 #
 #. type: TP
@@ -812,7 +817,7 @@ msgstr "B<-v>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:205
 msgid "natural sort of (version) numbers within text"
-msgstr ""
+msgstr "文本中的自然类型（版本）数字"
 
 #
 #. type: TP
@@ -825,7 +830,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:208
 msgid "set output width to COLS.  0 means no limit"
-msgstr ""
+msgstr "将输出宽度设置为COLS。 0表示没有限制"
 
 #
 #. type: TP
@@ -838,7 +843,7 @@ msgstr "B<-x>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:211
 msgid "list entries by lines instead of by columns"
-msgstr ""
+msgstr "按行而不是按列列出条目"
 
 #
 #. type: TP
@@ -851,7 +856,7 @@ msgstr "B<-X>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:214
 msgid "sort alphabetically by entry extension"
-msgstr ""
+msgstr "按条目扩展名按字母顺序排序"
 
 #
 #. type: TP
@@ -864,7 +869,7 @@ msgstr "B<-Z>, B<--context>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:217
 msgid "print any security context of each file"
-msgstr ""
+msgstr "打印每个文件的任何安全上下文"
 
 #
 #. type: TP
@@ -877,7 +882,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:220
 msgid "list one file per line.  Avoid '\\en' with B<-q> or B<-b>"
-msgstr ""
+msgstr "每行列出一个文件。 避免使用B <-q>或B <-b>的'\\ en'"
 
 #
 #. type: TP
@@ -912,7 +917,8 @@ msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
 "of 1000)."
-msgstr ""
+msgstr "SIZE参数是一个整数和可选单位（例如：10K是10 * 1024）。 单位是K，M，G，T，P，E，Z，Y（默认1024）
+或KB，MB，......（默认1000）。"
 
 #
 #. type: Plain text
@@ -923,7 +929,9 @@ msgid ""
 "codes only when standard output is connected to a terminal.  The LS_COLORS "
 "environment variable can change the settings.  Use the dircolors command to "
 "set it."
-msgstr ""
+msgstr "默认情况下使用颜色来区分文件类型，并且B < - color> = I <\\，从不使用\\ />。 
+对于B < - color> = I <\\，auto \\ />，仅当标准输出连接到终端时，ls才会发出颜色代码。
+LS_COLORS环境变量可以更改设置。 使用dircolors命令进行设置。"
 
 #
 #. type: SS
@@ -956,7 +964,7 @@ msgstr "1"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:241
 msgid "if minor problems (e.g., cannot access subdirectory),"
-msgstr ""
+msgstr "如果是小问题（例如，无法访问子目录）"
 
 #
 #. type: TP
@@ -969,7 +977,7 @@ msgstr "2"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:244
 msgid "if serious trouble (e.g., cannot access command-line argument)."
-msgstr ""
+msgstr "如果严重的麻烦（例如，无法访问命令行参数）。"
 
 #
 #. type: SH
