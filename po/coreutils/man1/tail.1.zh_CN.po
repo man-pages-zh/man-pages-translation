@@ -129,13 +129,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:24
 msgid "output appended data as the file grows;"
-msgstr ""
+msgstr "随着文件的增长输出附加数据;"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:26
 msgid "an absent option argument means 'descriptor'"
-msgstr ""
+msgstr "缺席选项参数表示'描述符'"
 
 #
 #. type: TP
@@ -148,7 +148,7 @@ msgstr "B<-F>"
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:29
 msgid "same as B<--follow>=I<\\,name\\/> B<--retry>"
-msgstr ""
+msgstr "与B相同< - follow> = I <\\，name \\ /> B < - retry>"
 
 #
 #. type: TP
@@ -163,7 +163,7 @@ msgstr ""
 msgid ""
 "output the last NUM lines, instead of the last 10; or use B<-n> +NUM to "
 "output starting with line NUM"
-msgstr ""
+msgstr "输出最后NUM行，而不是最后10行; 或者使用B <-n> + NUM从NUM行开始输出"
 
 #
 #. type: TP
@@ -176,7 +176,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:36
 msgid "with B<--follow>=I<\\,name\\/>, reopen a FILE which has not"
-msgstr ""
+msgstr "用B < - follow> = I <\\，名称\\ />，重新打开一个没有的文件"
 
 #
 #. type: Plain text
@@ -185,7 +185,7 @@ msgid ""
 "changed size after N (default 5) iterations to see if it has been unlinked "
 "or renamed (this is the usual case of rotated log files); with inotify, this "
 "option is rarely useful"
-msgstr ""
+msgstr "在N（默认5次）迭代之后改变大小以查看它是否已被取消链接或重命名（这是旋转日志文件的通常情况）; 使用inotify，此选项很少有用"
 
 #
 #. type: TP
@@ -198,7 +198,7 @@ msgstr "B<--pid>=I<\\,PID\\/>"
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:44
 msgid "with B<-f>, terminate after process ID, PID dies"
-msgstr ""
+msgstr "使用B <-f>，在进程ID之后终止，PID死亡"
 
 #
 #. type: TP
@@ -211,7 +211,7 @@ msgstr "B<-q>, B<--quiet>, B<--silent>"
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:47
 msgid "never output headers giving file names"
-msgstr ""
+msgstr "从不输出提供文件名的标题"
 
 #
 #. type: TP
@@ -240,7 +240,7 @@ msgid ""
 "with B<-f>, sleep for approximately N seconds (default 1.0) between "
 "iterations; with inotify and B<--pid>=I<\\,P\\/>, check process P at least "
 "once every N seconds"
-msgstr ""
+msgstr "使用B <-f>，在迭代之间休眠大约N秒（默认值为1.0）; 使用inotify和B < - pid> = I <\\，P \\ />，每N秒至少检查一次进程P."
 
 #
 #. type: TP
@@ -253,7 +253,7 @@ msgstr "B<-v>, B<--verbose>"
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:59
 msgid "always output headers giving file names"
-msgstr ""
+msgstr "总是输出标题给出文件名"
 
 #. type: TP
 #: raw/coreutils/man1/tail.1:59
@@ -299,7 +299,8 @@ msgstr "显示版本信息并退出"
 msgid ""
 "NUM may have a multiplier suffix: b 512, kB 1000, K 1024, MB 1000*1000, M "
 "1024*1024, GB 1000*1000*1000, G 1024*1024*1024, and so on for T, P, E, Z, Y."
-msgstr ""
+msgstr "NUM可以有一个乘数后缀：b 512，KB 1000，K 1024，MB 1000 * 1000，M 1024 * 1024，
+GB 1000 * 1000 * 1000，G 1024 * 1024 * 1024，依此类推T，P，E， Z，Y。"
 
 #
 #. type: Plain text
@@ -312,7 +313,10 @@ msgid ""
 "rotation).  Use B<--follow>=I<\\,name\\/> in that case.  That causes tail to "
 "track the named file in a way that accommodates renaming, removal and "
 "creation."
-msgstr ""
+msgstr "使用B < - follow>（B <-f>），tail默认遵循文件描述符，这意味着即使重命名尾部文件，
+tail也将继续跟踪其结束。 当您确实想要跟踪文件的实际名称而不是文件描述符（例如，日志轮换）时，
+不希望出现此默认行为。 在这种情况下，请使用B < - follow> = I <\\，名称\\ />。 
+这导致tail以适合重命名，删除和创建的方式跟踪命名文件。"
 
 #
 #. type: SH
