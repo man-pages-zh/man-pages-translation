@@ -123,7 +123,7 @@ msgstr "B<-v>, B<--verbose>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:23
 msgid "overwrite N times instead of the default (3)"
-msgstr ""
+msgstr "重写N次而不是默认的（3）"
 
 #
 #. type: TP
@@ -136,7 +136,7 @@ msgstr "B<--random-source>=I<文件>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:26
 msgid "get random bytes from FILE"
-msgstr ""
+msgstr "从文件中获取随机字节"
 
 #
 #. type: TP
@@ -149,7 +149,7 @@ msgstr "B<-z>, B<--zero>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:29
 msgid "shred this many bytes (suffixes like K, M, G accepted)"
-msgstr ""
+msgstr "切割这么多字节（可以接受后缀如K，M，G）"
 
 #
 #. type: TP
@@ -162,7 +162,7 @@ msgstr "B<-u>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:32
 msgid "truncate and remove file after overwriting"
-msgstr ""
+msgstr "在重写后截断和删除文件"
 
 #
 #. type: TP
@@ -175,7 +175,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:35
 msgid "like B<-u> but give control on HOW to delete; See below"
-msgstr ""
+msgstr "类似＜u>但要如何删除控件；见下文"
 
 #
 #. type: TP
@@ -188,7 +188,7 @@ msgstr "B<-v>, B<--verbose>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:38
 msgid "show progress"
-msgstr ""
+msgstr "显示进度"
 
 #
 #. type: TP
@@ -201,13 +201,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:41
 msgid "do not round file sizes up to the next full block;"
-msgstr ""
+msgstr "不要将文件大小调整到下一个完整的块；"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:43
 msgid "this is the default for non-regular files"
-msgstr ""
+msgstr "这是非常规文件的默认值"
 
 #
 #. type: TP
@@ -220,7 +220,7 @@ msgstr "B<-z>, B<--zero>"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:46
 msgid "add a final overwrite with zeros to hide shredding"
-msgstr ""
+msgstr "用零添加最后的覆盖以隐藏分割"
 
 #
 #. type: TP
@@ -259,7 +259,9 @@ msgid ""
 "use a standard unlink call.  \\&'wipe' =E<gt> also first obfuscate bytes in "
 "the name.  \\&'wipesync' =E<gt> also sync each obfuscated byte to disk.  The "
 "default mode is 'wipesync', but note it can be expensive."
-msgstr ""
+msgstr "如果指定 < - remove>（B <-u>），则删除FILE。 默认不是删除文件，因为在I <\\，/等设备文件上操作是很常见的dev / hda \\ />，通常不应删除这些文件。
+可选的HOW参数指示如何删除目录条目：\\＆'unlink'= E <gt>使用标准的unlink调用。 \\＆'wipe'= E <gt>也首先混淆了字节名字。
+\WiPSYNC＝E<GT>也将每个混淆的字节同步到磁盘。这个默认的模式是“wipesync '，但请注意它可能是昂贵的。"
 
 #
 #. type: Plain text
@@ -278,7 +280,7 @@ msgstr ""
 msgid ""
 "* log-structured or journaled file systems, such as those supplied with AIX "
 "and Solaris (and JFS, ReiserFS, XFS, Ext3, etc.)"
-msgstr ""
+msgstr "日志结构或日志文件系统，例如AIX提供的文件系统和Solaris（和JFS、ReSeReFS、XFS、Ext3等）"
 
 #
 #. type: Plain text
@@ -286,14 +288,14 @@ msgstr ""
 msgid ""
 "* file systems that write redundant data and carry on even if some writes "
 "fail, such as RAID-based file systems"
-msgstr ""
+msgstr "写入冗余数据的文件系统，即使有些写入失败也会继续，例如基于RAID的文件系统"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:75
 msgid ""
 "* file systems that make snapshots, such as Network Appliance's NFS server"
-msgstr ""
+msgstr "文件系统进行快照，例如Network Appliance的NFS服务器"
 
 #
 #. type: Plain text
@@ -301,13 +303,13 @@ msgstr ""
 msgid ""
 "* file systems that cache in temporary locations, such as NFS version 3 "
 "clients"
-msgstr ""
+msgstr "客户缓存在临时位置的文件系统，例如NFS版本3"
 
 #
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:80
 msgid "* compressed file systems"
-msgstr ""
+msgstr "压缩文件系统"
 
 #
 #. type: Plain text
@@ -329,7 +331,7 @@ msgid ""
 "In addition, file system backups and remote mirrors may contain copies of "
 "the file that cannot be removed, and that will allow a shredded file to be "
 "recovered later."
-msgstr ""
+msgstr "此外，后来恢复了文件系统备份和远程镜像可能包含副本无法删除的文件，并允许文件被粉碎。"
 
 #
 #. type: SH
@@ -342,7 +344,7 @@ msgstr "作者"
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:94
 msgid "Written by Colin Plumb."
-msgstr ""
+msgstr "由Colin Plumb撰写。"
 
 #
 #. type: SH
@@ -390,8 +392,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"这是自由软件：你可以自由地改变和重新分配 "
+"在法律允许的范围内，不作任何担保。"
 
 #
 #. type: SH

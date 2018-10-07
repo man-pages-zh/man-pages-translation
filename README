@@ -1,35 +1,35 @@
-man-pages-translation: working repo for translation
----------------------------------------------------
+man-pages-translation：man手册翻译工作
+-------------------------------------------------- - 
 
-This is the working repository for man pages translation.
-After any modification, run `./update-all` script to sync
-status of all files.
+这是手册页翻译的工作存储库。
+在任何修改之后，运行`./ update-all`脚本进行同步
+所有文件的状态。
 
-Guide for translators
+翻译指南
 ---------------------
 
-Go to `po/` directory and pick up the `po` file you like.
-Translate it properly, then come and send your work back.
+转到`po /`目录并选择你喜欢的`po`文件。
+正确翻译，然后发送你的工作。
 
-Guide for admins
+管理员指南
 ---------------
 
-You need to install the following software first:
+您需要先安装以下软件：
 
 * po4a
 
-This repository uses `po4a` to automate the translation/generation
-process. All you need to call is the `./update-all` script to keep
-everything up-to-date.
+该存储库使用`po4a`来自动执行转换/生成
+处理。 你需要调用的只是`./ update-all`脚本
+一切都是最新的。
 
-If anyone wants to add a new man page for translation, please
-put it under `raw/` directory as others. Then automatic scripts
-will take care of them.
+如果有人想要添加新的翻译手册，请
+把它放在`raw /`目录下，就像其他人一样。 然后自动脚本
+会照顾他们。
 
-Current active translations
+当前有效的翻译
 ---------------------------
 
 * coreutils
 * procps
-* util-linux (planned)
-* man-pages (wishlist)
+* util-linux（计划）
+* man-pages（希望清单）
