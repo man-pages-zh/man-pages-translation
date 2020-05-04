@@ -4,6 +4,7 @@
 # This file is distributed under the same license as the manpages package.
 # Automatically generated, 2017.
 # Boyuan Yang <073plan@gmail.com>, 2017.
+# Zheng Junyi <zhengjunyi@live.com>, 2020.
 #
 msgid ""
 msgstr ""
@@ -22,42 +23,42 @@ msgstr ""
 #: raw/manpages/man1/iconv.1:26
 #, no-wrap
 msgid "ICONV"
-msgstr ""
+msgstr "ICONV"
 
 #. type: TH
 #: raw/manpages/man1/iconv.1:26
 #, no-wrap
 msgid "2014-07-08"
-msgstr ""
+msgstr "2014-07-08"
 
 #. type: TH
 #: raw/manpages/man1/iconv.1:26
 #, no-wrap
 msgid "GNU"
-msgstr ""
+msgstr "GNU"
 
 #. type: TH
 #: raw/manpages/man1/iconv.1:26
 #, no-wrap
 msgid "Linux User Manual"
-msgstr ""
+msgstr "Linux User Manual"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:27
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:29
 msgid "iconv - convert text from one character encoding to another"
-msgstr ""
+msgstr "将文本从一种字符编码转换为另一种"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:29
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:35
@@ -65,12 +66,14 @@ msgid ""
 "B<iconv> [I<options>] [-f I<from-encoding>] [-t I<to-encoding>] "
 "[I<inputfile>]..."
 msgstr ""
+"B<iconv> [I<选项>] [-f I<原始文本编码>] [-t I<输出编码>] "
+"[I<需要转换的文件>]..."
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:35
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:46
@@ -80,6 +83,9 @@ msgid ""
 "(-), B<iconv> reads from standard input.  If no output file is given, "
 "B<iconv> writes to standard output."
 msgstr ""
+"B<iconv> 程序以一种编码方式读取文本，然后以另一种编码方式输出文本。如果没有指定需要转换的原始文件，"
+"或者仅给出一个破折号 (-) ，则 B<iconv> 将从标准输入中读取文本。如果没有给定输出到哪个文件，"
+"则 B<iconv> 将会输出到标准输出"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:56
@@ -88,34 +94,35 @@ msgid ""
 "locale's character encoding.  If no I<to-encoding> is given, the default is "
 "derived from the current locale's character encoding."
 msgstr ""
+"如果没有给定I<原始文本编码>，则将默认采用当前 B<locale> 的编码，没有也是同理"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:56
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "选项"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:57
 #, no-wrap
 msgid "B<-f>I< from-encoding>B<, --from-code=>I<from-encoding>"
-msgstr ""
+msgstr "B<-f>I< 原始文本编码>B<, --from-code=>I<原始文本编码>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:62
 msgid "Use I<from-encoding> for input characters."
-msgstr ""
+msgstr "I<原始文本编码>指定从什么编码进行转换"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:62
 #, no-wrap
 msgid "B<-t>I< to-encoding>B<, --to-code=>I<to-encoding>"
-msgstr ""
+msgstr "B<-t>I< 输出编码>B<, --to-code=>I<输出编码>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:67
 msgid "Use I<to-encoding> for output characters."
-msgstr ""
+msgstr "I<输出编码>指定转换到什么编码"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:74
@@ -123,6 +130,8 @@ msgid ""
 "If the string B<//IGNORE> is appended to I<to-encoding>, characters that "
 "cannot be converted are discarded and an error is printed after conversion."
 msgstr ""
+"如果I<输出编码>中包含字符串 B<//IGNORE>，则忽略无法转换的字符，并在转换完成后给出错误提示"
+
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:85
@@ -134,115 +143,118 @@ msgid ""
 "that are outside of the target character set and cannot be transliterated "
 "are replaced with a question mark (?) in the output."
 msgstr ""
+"如果I<输出编码>中包含字符串 B<//TRANSLIT>，则在尽可能的将转换的字符音译。这意味着当一个字符"
+"不能在目标字符集中表示时，可以通过一个或几个看起来相似的字符。目标字符集之外且无法音译的字符在"
+"输出中被替换为问号（？）。"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:85
 #, no-wrap
 msgid "B<-l>, B<--list>"
-msgstr ""
+msgstr "B<-l>, B<--list>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:88
 msgid "List all known character set encodings."
-msgstr ""
+msgstr "列举所有已知的字符集"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:88
 #, no-wrap
 msgid "B<-c>"
-msgstr ""
+msgstr "B<-c>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:92
 msgid ""
 "Silently discard characters that cannot be converted instead of terminating "
 "when encountering such characters."
-msgstr ""
+msgstr "忽略无效的字符"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:92
 #, no-wrap
 msgid "B<-o>I< outputfile>B<, --output=>I<outputfile>"
-msgstr ""
+msgstr "B<-o>I< 文件>B<, --output=>I<文件>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:97
 msgid "Use I<outputfile> for output."
-msgstr ""
+msgstr "输出文件"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:97
 #, no-wrap
 msgid "B<-s>, B<--silent>"
-msgstr ""
+msgstr "B<-s>, B<--silent>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:100
 msgid "This option is ignored; it is provided only for compatibility."
-msgstr ""
+msgstr "关闭警告；仅出于兼容性目的提供"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:100
 #, no-wrap
 msgid "B<--verbose>"
-msgstr ""
+msgstr "B<--verbose>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:104
 msgid ""
 "Print progress information on standard error when processing multiple files."
-msgstr ""
+msgstr "处理多个文件时，输出进度信息。"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:104
 #, no-wrap
 msgid "B<-?>, B<--help>"
-msgstr ""
+msgstr "B<-?>, B<--help>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:107
 msgid "Print a usage summary and exit."
-msgstr ""
+msgstr "给出此帮助列表并退出"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:107
 #, no-wrap
 msgid "B<--usage>"
-msgstr ""
+msgstr "B<--usage>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:110
 msgid "Print a short usage summary and exit."
-msgstr ""
+msgstr "给出简要的用法信息"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:110
 #, no-wrap
 msgid "B<-V>, B<--version>"
-msgstr ""
+msgstr "B<-V>, B<--version>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:114
 msgid ""
 "Print the version number, license, and disclaimer of warranty for B<iconv>."
-msgstr ""
+msgstr "输出程序的版本号，许可证和免责声明"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:114
 #, no-wrap
 msgid "EXIT STATUS"
-msgstr ""
+msgstr "退出状态"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:116
 msgid "Zero on success, non-zero on errors."
-msgstr ""
+msgstr "B<0> 表示成功，B<非 0> 表示存在错误"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:116
 #, no-wrap
 msgid "ENVIRONMENT"
-msgstr ""
+msgstr "环境变量"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:134
@@ -254,12 +266,15 @@ msgid ""
 "The operation of the latter function is influenced by the setting of the "
 "B<GCONV_PATH> environment variable:"
 msgstr ""
+"B<iconv> 程序内部使用 B<iconv>(3) 函数，该函数又使用 I<gconv> 模块（动态加载的共享库）在字符集之间进行转换。"
+"在调用 B<iconv>(3) 之前，B<iconv> 程序必须首先使用 B<iconv_open>(3) 分配转换描述符。 后一个功能的操作受"
+"B<GCONV_PATH> 环境变量影响："
 
 #. type: IP
 #: raw/manpages/man1/iconv.1:134 raw/manpages/man1/iconv.1:145
 #, no-wrap
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:145
@@ -270,6 +285,9 @@ msgid ""
 "conversion.  If the system gconv module configuration cache file is not "
 "available then the system gconv module configuration file is used."
 msgstr ""
+"如果未设置 B<GCONV_PATH>，则 B<iconv_open>(3) 的加载由 B<iconvconfig>(8) 创建的系统 gconv "
+"模块缓存的配置文件，然后根据该配置加载执行转换所需的 gconv 模块。如果系统 gconv 模块缓存的配置文件"
+"不可用，则使用系统 gconv 模块的配置文件。"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:169
@@ -287,79 +305,85 @@ msgid ""
 "This allows users to use custom modules and even replace system-provided "
 "modules by providing such modules in B<GCONV_PATH> directories."
 msgstr ""
+"如果定义了 B<GCONV_PATH>(以冒号分隔的路径列表)，则不使用系统 gconv 模块缓存的配置。相反，"
+"B<iconv_open>(3) 首先尝试通过依次搜索 B<GCONV_PATH> 中的的目录来加载配置文件，然后是系统"
+"默认的 gconv 模块的配置文件。如果目录不包含 gconv 模块的配置文件，则该目录可能包含的所有 gconv "
+"模块都将被忽略。如果目录包含 gconv 模块的配置文件，并且该目录中有转换所需的模块可用，则从该目录加载"
+"所需的模块，其加载顺序为在 B<GCONV_PATH> 中找依次寻找合适的模块。通过在 B<GCONV_PATH> 中提供合适"
+"的模块，用户可以使用自定义模块甚至替换系统提供的模块。"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:169
 #, no-wrap
 msgid "FILES"
-msgstr ""
+msgstr "文件"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:170
 #, no-wrap
 msgid "I</usr/lib/gconv>"
-msgstr ""
+msgstr "I</usr/lib/gconv>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:173
 msgid "Usual default gconv module path."
-msgstr ""
+msgstr "默认的 gconv 模块路径。"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:173
 #, no-wrap
 msgid "I</usr/lib/gconv/gconv-modules>"
-msgstr ""
+msgstr "I</usr/lib/gconv/gconv-modules>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:176
 msgid "Usual system default gconv module configuration file."
-msgstr ""
+msgstr "默认的系统 gconv 模块的配置文件"
 
 #. type: TP
 #: raw/manpages/man1/iconv.1:176
 #, no-wrap
 msgid "I</usr/lib/gconv/gconv-modules.cache>"
-msgstr ""
+msgstr "I</usr/lib/gconv/gconv-modules.cache>"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:179
 msgid "Usual system gconv module configuration cache."
-msgstr ""
+msgstr "系统 gconv 模块的配置文件缓存"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:179
 #, no-wrap
 msgid "CONFORMING TO"
-msgstr ""
+msgstr "标准"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:181
 msgid "POSIX.1-2001."
-msgstr ""
+msgstr "POSIX.1-2001."
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:181
 #, no-wrap
 msgid "EXAMPLE"
-msgstr ""
+msgstr "示例"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:183
 msgid "Convert text from the ISO 8859-15 character encoding to UTF-8:"
-msgstr ""
+msgstr "将编码为 ISO 8859-15 的文件转换为 UTF-8"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:187
 #, no-wrap
 msgid "$ B<iconv -f ISO-8859-15 -t UTF-8 E<lt> input.txt E<gt> output.txt>\n"
-msgstr ""
+msgstr "$ B<iconv -f ISO-8859-15 -t UTF-8 E<lt> input.txt E<gt> output.txt>\n"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:192
 msgid ""
 "The next example converts from UTF-8 to ASCII, transliterating when possible:"
-msgstr ""
+msgstr "这个示例展示了如何尽可能的从 UTF-8 转换到 ASCII:"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:197
@@ -368,12 +392,14 @@ msgid ""
 "$ B<echo abc ß α € àḃç | iconv -f UTF-8 -t ASCII//TRANSLIT>\n"
 "abc ss ? EUR abc\n"
 msgstr ""
+"$ B<echo abc ß α € àḃç | iconv -f UTF-8 -t ASCII//TRANSLIT>\n"
+"abc ss ? EUR abc\n"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:199
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参见"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:205
@@ -381,12 +407,14 @@ msgid ""
 "B<locale>(1), B<iconv>(3), B<nl_langinfo>(3), B<charsets>(7), "
 "B<iconvconfig>(8)"
 msgstr ""
+"B<locale>(1), B<iconv>(3), B<nl_langinfo>(3), B<charsets>(7), "
+"B<iconvconfig>(8)"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:205
 #, no-wrap
 msgid "COLOPHON"
-msgstr ""
+msgstr "COLOPHON"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:213
@@ -396,3 +424,6 @@ msgid ""
 "version of this page, can be found at \\%https://www.kernel.org/doc/man-"
 "pages/."
 msgstr ""
+"本页面是 Linux I<man-pages> 项目 4.09 版的一部分。该项目的描述、有关报告错误"
+"的信息以及本页面的最新版本可以在 \\%https://www.kernel.org/doc/pan-pages/ 上"
+"找到。"

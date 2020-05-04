@@ -1,0 +1,127 @@
+'\" t -*- coding: UTF-8 -*-
+.\"
+.\" Copyright (C) 2014 Marko Myllynen <myllynen@redhat.com>
+.\"
+.\" %%%LICENSE_START(GPLv2+_DOC_FULL)
+.\" This is free documentation; you can redistribute it and/or
+.\" modify it under the terms of the GNU General Public License as
+.\" published by the Free Software Foundation; either version 2 of
+.\" the License, or (at your option) any later version.
+.\"
+.\" The GNU General Public License's references to "object code"
+.\" and "executables" are to be interpreted as the output of any
+.\" document formatting or typesetting system, including
+.\" intermediate and printed output.
+.\"
+.\" This manual is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public
+.\" License along with this manual; if not, see
+.\" <http://www.gnu.org/licenses/>.
+.\" %%%LICENSE_END
+.\"
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH ICONV 1 2014\-07\-08 GNU "Linux User Manual"
+.SH 名称
+将文本从一种字符编码转换为另一种
+.SH 概述
+\fBiconv\fP [\fI选项\fP] [\-f \fI原始文本编码\fP] [\-t \fI输出编码\fP] [\fI需要转换的文件\fP]...
+.SH 描述
+\fBiconv\fP 程序以一种编码方式读取文本，然后以另一种编码方式输出文本。如果没有指定需要转换的原始文件，或者仅给出一个破折号 (\-) ，则
+\fBiconv\fP 将从标准输入中读取文本。如果没有给定输出到哪个文件，则 \fBiconv\fP 将会输出到标准输出
+.PP
+如果没有给定\fI原始文本编码\fP，则将默认采用当前 \fBlocale\fP 的编码，没有也是同理
+.SH 选项
+.TP 
+\fB\-f\fP\fI 原始文本编码\fP\fB, \-\-from\-code=\fP\fI原始文本编码\fP
+\fI原始文本编码\fP指定从什么编码进行转换
+.TP 
+\fB\-t\fP\fI 输出编码\fP\fB, \-\-to\-code=\fP\fI输出编码\fP
+\fI输出编码\fP指定转换到什么编码
+
+如果\fI输出编码\fP中包含字符串 \fB//IGNORE\fP，则忽略无法转换的字符，并在转换完成后给出错误提示
+
+如果\fI输出编码\fP中包含字符串
+\fB//TRANSLIT\fP，则在尽可能的将转换的字符音译。这意味着当一个字符不能在目标字符集中表示时，可以通过一个或几个看起来相似的字符。目标字符集之外且无法音译的字符在输出中被替换为问号（？）。
+.TP 
+\fB\-l\fP, \fB\-\-list\fP
+列举所有已知的字符集
+.TP 
+\fB\-c\fP
+忽略无效的字符
+.TP 
+\fB\-o\fP\fI 文件\fP\fB, \-\-output=\fP\fI文件\fP
+输出文件
+.TP 
+\fB\-s\fP, \fB\-\-silent\fP
+关闭警告；仅出于兼容性目的提供
+.TP 
+\fB\-\-verbose\fP
+处理多个文件时，输出进度信息。
+.TP 
+\fB\-?\fP, \fB\-\-help\fP
+给出此帮助列表并退出
+.TP 
+\fB\-\-usage\fP
+给出简要的用法信息
+.TP 
+\fB\-V\fP, \fB\-\-version\fP
+输出程序的版本号，许可证和免责声明
+.SH 退出状态
+\fB0\fP 表示成功，\fB非 0\fP 表示存在错误
+.SH 环境变量
+\fBiconv\fP 程序内部使用 \fBiconv\fP(3) 函数，该函数又使用 \fIgconv\fP 模块（动态加载的共享库）在字符集之间进行转换。在调用
+\fBiconv\fP(3) 之前，\fBiconv\fP 程序必须首先使用 \fBiconv_open\fP(3) 分配转换描述符。
+后一个功能的操作受\fBGCONV_PATH\fP 环境变量影响：
+.IP * 3
+如果未设置 \fBGCONV_PATH\fP，则 \fBiconv_open\fP(3) 的加载由 \fBiconvconfig\fP(8) 创建的系统 gconv
+模块缓存的配置文件，然后根据该配置加载执行转换所需的 gconv 模块。如果系统 gconv 模块缓存的配置文件不可用，则使用系统 gconv
+模块的配置文件。
+.IP *
+如果定义了 \fBGCONV_PATH\fP(以冒号分隔的路径列表)，则不使用系统 gconv 模块缓存的配置。相反，\fBiconv_open\fP(3)
+首先尝试通过依次搜索 \fBGCONV_PATH\fP 中的的目录来加载配置文件，然后是系统默认的 gconv 模块的配置文件。如果目录不包含 gconv
+模块的配置文件，则该目录可能包含的所有 gconv 模块都将被忽略。如果目录包含 gconv
+模块的配置文件，并且该目录中有转换所需的模块可用，则从该目录加载所需的模块，其加载顺序为在 \fBGCONV_PATH\fP 中找依次寻找合适的模块。通过在
+\fBGCONV_PATH\fP 中提供合适的模块，用户可以使用自定义模块甚至替换系统提供的模块。
+.SH 文件
+.TP 
+\fI/usr/lib/gconv\fP
+默认的 gconv 模块路径。
+.TP 
+\fI/usr/lib/gconv/gconv\-modules\fP
+默认的系统 gconv 模块的配置文件
+.TP 
+\fI/usr/lib/gconv/gconv\-modules.cache\fP
+系统 gconv 模块的配置文件缓存
+.SH 标准
+POSIX.1\-2001.
+.SH 示例
+将编码为 ISO 8859\-15 的文件转换为 UTF\-8
+
+.in +4n
+.nf
+$ \fBiconv \-f ISO\-8859\-15 \-t UTF\-8 < input.txt > output.txt\fP
+.fi
+.in
+.PP
+这个示例展示了如何尽可能的从 UTF\-8 转换到 ASCII:
+
+.in +4n
+.nf
+$ \fBecho abc ß α € àḃç | iconv \-f UTF\-8 \-t ASCII//TRANSLIT\fP
+abc ss ? EUR abc
+.fi
+.in
+.SH 参见
+\fBlocale\fP(1), \fBiconv\fP(3), \fBnl_langinfo\fP(3), \fBcharsets\fP(7),
+\fBiconvconfig\fP(8)
+.SH COLOPHON
+本页面是 Linux \fIman\-pages\fP 项目 4.09 版的一部分。该项目的描述、有关报告错误的信息以及本页面的最新版本可以在
+\%https://www.kernel.org/doc/pan\-pages/ 上找到。
