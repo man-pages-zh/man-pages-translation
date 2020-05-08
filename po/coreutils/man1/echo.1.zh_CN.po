@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:31+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/echo.1:2
 #, no-wrap
@@ -30,296 +26,254 @@ msgstr "ECHO"
 
 #. type: TH
 #: raw/coreutils/man1/echo.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/echo.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/echo.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/echo.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:5
 msgid "echo - display a line of text"
 msgstr "echo - 显示一行文本"
 
-#
 #. type: SH
 #: raw/coreutils/man1/echo.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:8
 msgid "B<echo> [I<\\,SHORT-OPTION\\/>]... [I<\\,STRING\\/>]..."
 msgstr "B<echo> [I<\\,短选项\\/>]... [I<\\,字符串列表\\/>]..."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:11
 msgid "B<echo> I<\\,LONG-OPTION\\/>"
 msgstr "B<echo> I<\\,长选项\\/>"
 
-#
 #. type: SH
 #: raw/coreutils/man1/echo.1:11
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:15
 msgid "Echo the STRING(s) to standard output."
 msgstr "将字符串列表中的字符输出到标准输出。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:15
 #, no-wrap
 msgid "B<-n>"
 msgstr "B<-n>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:18
 msgid "do not output the trailing newline"
 msgstr "不输出尾随的换行符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:18
 #, no-wrap
 msgid "B<-e>"
 msgstr "B<-e>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:21
 msgid "enable interpretation of backslash escapes"
 msgstr "启用解释反斜杠的转义功能"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:21
 #, no-wrap
 msgid "B<-E>"
 msgstr "B<-E>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:24
 msgid "disable interpretation of backslash escapes (default)"
 msgstr "禁用解释反斜杠的转义功能（默认）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:24
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:27
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:27
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:30
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:32
 msgid "If B<-e> is in effect, the following sequences are recognized:"
 msgstr "若 B<-e> 可用，则以下序列即可识别："
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:32
 #, no-wrap
 msgid "\\e\\e"
 msgstr "\\e\\e"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:35
 msgid "backslash"
 msgstr "反斜线"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:35
 #, no-wrap
 msgid "\\ea"
 msgstr "\\ea"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:38
 msgid "alert (BEL)"
 msgstr "报警符(BEL)"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:38
 #, no-wrap
 msgid "\\eb"
 msgstr "\\eb"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:41
 msgid "backspace"
 msgstr "退格符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:41
 #, no-wrap
 msgid "\\ec"
 msgstr "\\ec"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:44
 msgid "produce no further output"
 msgstr "禁止尾随的换行符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:44
 #, no-wrap
 msgid "\\ee"
 msgstr "\\ee"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:47
 msgid "escape"
 msgstr "escape 字符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:47
 #, no-wrap
 msgid "\\ef"
 msgstr "\\ef"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:50
 msgid "form feed"
 msgstr "换页符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:50
 #, no-wrap
 msgid "\\en"
 msgstr "\\en"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:53
 msgid "new line"
 msgstr "另起一行"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:53
 #, no-wrap
 msgid "\\er"
 msgstr "\\er"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:56
 msgid "carriage return"
 msgstr "回到行首"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:56
 #, no-wrap
 msgid "\\et"
 msgstr "\\et"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:59
 msgid "horizontal tab"
 msgstr "水平制表符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:59
 #, no-wrap
 msgid "\\ev"
 msgstr "\\ev"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:62
 msgid "vertical tab"
 msgstr "垂直制表符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:62
 #, no-wrap
 msgid "\\e0NNN"
 msgstr "\\e0NNN"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:65
 msgid "byte with octal value NNN (1 to 3 digits)"
 msgstr "字节数以八进制数 NNN (1至3位)表示"
 
-#
 #. type: TP
 #: raw/coreutils/man1/echo.1:65
 #, no-wrap
 msgid "\\exHH"
 msgstr "\\exHH"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:68
 msgid "byte with hexadecimal value HH (1 to 2 digits)"
 msgstr "字节数以十六进制数 HH (1至2位)表示"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:72
 msgid ""
@@ -330,44 +284,46 @@ msgstr ""
 "注意：您的 shell 可能内置了自己的 echo 程序版本，它会覆盖这里所提及的相应版"
 "本。请查阅您的 shell 文档获知它所支持的选项。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/echo.1:72
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:74
 msgid "Written by Brian Fox and Chet Ramey."
 msgstr "由 Brian Fox 和 Chet Ramey 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/echo.1:74
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:76
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:78
+#, fuzzy
+#| msgid ""
+#| "Report echo translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report echo translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 echo 的翻译"
 "错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/echo.1:78
 #, no-wrap
@@ -376,14 +332,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:81
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:84
 msgid ""
@@ -393,32 +352,29 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/echo.1:84
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:86
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "echoE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/echoE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/echoE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/echoE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/echo.1:87
 msgid "or available locally via: info \\(aq(coreutils) echo invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) echo invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

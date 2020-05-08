@@ -1,15 +1,12 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-19 17:05+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -20,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/od.1:2
 #, no-wrap
@@ -29,50 +25,46 @@ msgstr "OD"
 
 #. type: TH
 #: raw/coreutils/man1/od.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/od.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/od.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/od.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:5
 msgid "od - dump files in octal and other formats"
 msgstr "od - 用八进制或其它格式表示文件"
 
-#
 #. type: SH
 #: raw/coreutils/man1/od.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:8
 msgid "B<od> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:11
 msgid ""
@@ -80,7 +72,6 @@ msgid ""
 ">[I<\\,.\\/>][I<\\,b\\/>]]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:14
 msgid ""
@@ -89,14 +80,12 @@ msgid ""
 "\\/>][I<\\,b\\/>]]"
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/od.1:14
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:20
 msgid ""
@@ -105,13 +94,11 @@ msgid ""
 "listed order to form the input."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:22
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:29
 msgid ""
@@ -123,21 +110,18 @@ msgid ""
 "multiply by 512."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:31
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:31
 #, no-wrap
 msgid "B<-A>, B<--address-radix>=I<\\,RADIX\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:35
 msgid ""
@@ -145,53 +129,45 @@ msgid ""
 "Hex or None"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:35
 #, no-wrap
 msgid "B<--endian=>{big|little}"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:38
 msgid "swap input bytes according the specified order"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:38
 #, no-wrap
 msgid "B<-j>, B<--skip-bytes>=I<\\,BYTES\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:41
 msgid "skip BYTES input bytes first"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:41
 #, no-wrap
 msgid "B<-N>, B<--read-bytes>=I<\\,BYTES\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:44
 msgid "limit dump to BYTES input bytes"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:44
 #, no-wrap
 msgid "B<-S> BYTES, B<--strings>[=I<\\,BYTES\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:48
 msgid ""
@@ -199,269 +175,228 @@ msgid ""
 "not specified"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:48
 #, no-wrap
 msgid "B<-t>, B<--format>=I<\\,TYPE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:51
 msgid "select output format or formats"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:51
 #, no-wrap
 msgid "B<-v>, B<--output-duplicates>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:54
 msgid "do not use * to mark line suppression"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:54
 #, no-wrap
 msgid "B<-w[BYTES]>, B<--width>[=I<\\,BYTES\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:58
 msgid ""
 "output BYTES bytes per output line; 32 is implied when BYTES is not specified"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:58
 #, no-wrap
 msgid "B<--traditional>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:61
 msgid "accept arguments in third form above"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:61
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:64
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:64
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:67
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SS
 #: raw/coreutils/man1/od.1:67
 #, no-wrap
 msgid "Traditional format specifications may be intermixed; they accumulate:"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:68
 #, no-wrap
 msgid "B<-a>"
 msgstr "B<-a>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:71
 msgid "same as B<-t> a, select named characters, ignoring high-order bit"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:71
 #, no-wrap
 msgid "B<-b>"
 msgstr "B<-b>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:74
 msgid "same as B<-t> o1, select octal bytes"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:74
 #, no-wrap
 msgid "B<-c>"
 msgstr "B<-c>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:77
 msgid "same as B<-t> c, select printable characters or backslash escapes"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:77
 #, no-wrap
 msgid "B<-d>"
 msgstr "B<-d>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:80
 msgid "same as B<-t> u2, select unsigned decimal 2-byte units"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:80
 #, no-wrap
 msgid "B<-f>"
 msgstr "B<-f>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:83
 msgid "same as B<-t> fF, select floats"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:83
 #, no-wrap
 msgid "B<-i>"
 msgstr "B<-i>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:86
 msgid "same as B<-t> dI, select decimal ints"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:86
 #, no-wrap
 msgid "B<-l>"
 msgstr "B<-l>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:89
 msgid "same as B<-t> dL, select decimal longs"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:89
 #, no-wrap
 msgid "B<-o>"
 msgstr "B<-o>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:92
 msgid "same as B<-t> o2, select octal 2-byte units"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:92
 #, no-wrap
 msgid "B<-s>"
 msgstr "B<-s>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:95
 msgid "same as B<-t> d2, select decimal 2-byte units"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:95
 #, no-wrap
 msgid "B<-x>"
 msgstr "B<-x>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:98
 msgid "same as B<-t> x2, select hexadecimal 2-byte units"
 msgstr ""
 
-#
 #. type: SS
 #: raw/coreutils/man1/od.1:98
 #, no-wrap
 msgid "TYPE is made up of one or more of these specifications:"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:99
 #, no-wrap
 msgid "a"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:102
 msgid "named character, ignoring high-order bit"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:102
 #, no-wrap
 msgid "c"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:105
 msgid "printable character or backslash escape"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:105
 #, no-wrap
 msgid "d[SIZE]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:108
 msgid "signed decimal, SIZE bytes per integer"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:108
 #, no-wrap
@@ -473,46 +408,39 @@ msgstr ""
 msgid "floating point, SIZE bytes per float"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:111
 #, no-wrap
 msgid "o[SIZE]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:114
 msgid "octal, SIZE bytes per integer"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:114
 #, no-wrap
 msgid "u[SIZE]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:117
 msgid "unsigned decimal, SIZE bytes per integer"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:117
 #, no-wrap
 msgid "x[SIZE]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:120
 msgid "hexadecimal, SIZE bytes per integer"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:125
 msgid ""
@@ -522,7 +450,6 @@ msgid ""
 "sizeof(long double)."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:128
 msgid ""
@@ -530,172 +457,163 @@ msgid ""
 "each output line."
 msgstr ""
 
-#
 #. type: SS
 #: raw/coreutils/man1/od.1:128
 #, no-wrap
 msgid "BYTES is hex with 0x or 0X prefix, and may have a multiplier suffix:"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:129
 #, no-wrap
 msgid "b"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:132
 msgid "512"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:132
 #, no-wrap
 msgid "KB"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:135
 msgid "1000"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:135
 #, no-wrap
 msgid "K"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:138
 msgid "1024"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:138
 #, no-wrap
 msgid "MB"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:141
 msgid "1000*1000"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/od.1:141
 #, no-wrap
 msgid "M"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:144
 msgid "1024*1024"
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/od.1:146
-msgid "and so on for G, T, P, E, Z, Y."
+#: raw/coreutils/man1/od.1:147
+msgid ""
+"and so on for G, T, P, E, Z, Y.  Binary prefixes can be used, too: KiB=K, "
+"MiB=M, and so on."
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/od.1:146
+#: raw/coreutils/man1/od.1:147
 #, no-wrap
 msgid "EXAMPLES"
 msgstr "范例"
 
-#
 #. type: TP
-#: raw/coreutils/man1/od.1:147
+#: raw/coreutils/man1/od.1:148
 #, no-wrap
 msgid "B<od -A x -t x1z -v>"
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/od.1:150
+#: raw/coreutils/man1/od.1:151
 msgid "Display hexdump format output"
 msgstr ""
 
-#
 #. type: TP
-#: raw/coreutils/man1/od.1:150
+#: raw/coreutils/man1/od.1:151
 #, no-wrap
 msgid "B<od -A o -t oS -w16>"
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/od.1:153
+#: raw/coreutils/man1/od.1:154
 msgid "The default output format used by od"
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/od.1:153
+#: raw/coreutils/man1/od.1:154
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/od.1:155
+#: raw/coreutils/man1/od.1:156
 msgid "Written by Jim Meyering."
 msgstr "由 Jim Meyering 编写。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/od.1:155
+#: raw/coreutils/man1/od.1:156
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/od.1:157
+#: raw/coreutils/man1/od.1:158
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/od.1:159
+#: raw/coreutils/man1/od.1:160
+#, fuzzy
+#| msgid ""
+#| "Report od translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report od translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 od 的翻译错"
 "误。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/od.1:159
+#: raw/coreutils/man1/od.1:160
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/od.1:162
+#: raw/coreutils/man1/od.1:163
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/od.1:165
+#: raw/coreutils/man1/od.1:166
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -703,32 +621,27 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/od.1:165
+#: raw/coreutils/man1/od.1:166
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
-#. type: Plain text
-#: raw/coreutils/man1/od.1:167
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/odE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/odE<gt>"
-
-#
 #. type: Plain text
 #: raw/coreutils/man1/od.1:168
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/odE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/odE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/odE<gt>"
+
+#. type: Plain text
+#: raw/coreutils/man1/od.1:169
 msgid "or available locally via: info \\(aq(coreutils) od invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) od invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

@@ -1,14 +1,12 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:12+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -19,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/chcon.1:2
 #, no-wrap
@@ -28,50 +25,46 @@ msgstr "CHCON"
 
 #. type: TH
 #: raw/coreutils/man1/chcon.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/chcon.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/chcon.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chcon.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:5
 msgid "chcon - change file security context"
 msgstr "chcon - 修改文件安全上下文"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chcon.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:8
 msgid "B<chcon> [I<\\,OPTION\\/>]... I<\\,CONTEXT FILE\\/>..."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:11
 msgid ""
@@ -79,20 +72,17 @@ msgid ""
 "RANGE\\/>] [I<\\,-t TYPE\\/>] I<\\,FILE\\/>..."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:14
 msgid "B<chcon> [I<\\,OPTION\\/>]... I<\\,--reference=RFILE FILE\\/>..."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/chcon.1:14
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:19
 msgid ""
@@ -100,21 +90,18 @@ msgid ""
 "reference>, change the security context of each FILE to that of RFILE."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:21
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:21
 #, no-wrap
 msgid "B<--dereference>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:25
 msgid ""
@@ -122,137 +109,116 @@ msgid ""
 "the symbolic link itself"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:25
 #, no-wrap
 msgid "B<-h>, B<--no-dereference>"
 msgstr "B<-h>, B<--no-dereference>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:28
 msgid "affect symbolic links instead of any referenced file"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:28
 #, no-wrap
 msgid "B<-u>, B<--user>=I<\\,USER\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:31
 msgid "set user USER in the target security context"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:31
 #, no-wrap
 msgid "B<-r>, B<--role>=I<\\,ROLE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:34
 msgid "set role ROLE in the target security context"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:34
 #, no-wrap
 msgid "B<-t>, B<--type>=I<\\,TYPE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:37
 msgid "set type TYPE in the target security context"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:37
 #, no-wrap
 msgid "B<-l>, B<--range>=I<\\,RANGE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:40
 msgid "set range RANGE in the target security context"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:40
 #, no-wrap
 msgid "B<--no-preserve-root>"
 msgstr "B<--no-preserve-root>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:43
 msgid "do not treat '/' specially (the default)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:43
 #, no-wrap
 msgid "B<--preserve-root>"
 msgstr "B<--preserve-root>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:46
 msgid "fail to operate recursively on '/'"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:46
 #, no-wrap
 msgid "B<--reference>=I<\\,RFILE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:50
 msgid "use RFILE's security context rather than specifying a CONTEXT value"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:50
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
 msgstr "B<-R>, B<--recursive>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:53
 msgid "operate on files and directories recursively"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:53
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:56
 msgid "output a diagnostic for every file processed"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:60
 msgid ""
@@ -261,111 +227,102 @@ msgid ""
 "takes effect."
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:60
 #, no-wrap
 msgid "B<-H>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:64
 msgid ""
 "if a command line argument is a symbolic link to a directory, traverse it"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:64
 #, no-wrap
 msgid "B<-L>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:68
 msgid "traverse every symbolic link to a directory encountered"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:68
 #, no-wrap
 msgid "B<-P>"
 msgstr "B<-P>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:71
 msgid "do not traverse any symbolic links (default)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:71
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:74
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/chcon.1:74
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:77
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chcon.1:77
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:79
 msgid "Written by Russell Coker and Jim Meyering."
 msgstr "由 Russell Coker 和 Jim Meyering 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chcon.1:79
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:81
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:83
+#, fuzzy
+#| msgid ""
+#| "Report chcon translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report chcon translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 chcon 的翻"
 "译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chcon.1:83
 #, no-wrap
@@ -374,14 +331,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:86
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:89
 msgid ""
@@ -391,29 +351,26 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/chcon.1:89
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:91
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "chconE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chconE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/chconE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chconE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chcon.1:92
 msgid "or available locally via: info \\(aq(coreutils) chcon invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chcon invocation\\(aq"
 
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"

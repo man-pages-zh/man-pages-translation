@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/test.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/test.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -59,7 +58,7 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:8
-msgid "B<test> I<\\,EXPRESSION\\/>"
+msgid "B<test> I<EXPRESSION>"
 msgstr ""
 
 #. type: Plain text
@@ -67,19 +66,20 @@ msgstr ""
 msgid "B<test>"
 msgstr ""
 
+#.  \& tells doclifter the brackets are literal (Bug#31803).
 #. type: Plain text
-#: raw/coreutils/man1/test.1:14
-msgid "B<[> I<\\,EXPRESSION \\/>]"
+#: raw/coreutils/man1/test.1:15
+msgid "B<[\\&> I<EXPRESSION> B<]\\&>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:17
-msgid "B<[> ]"
+msgid "B<[\\& ]\">"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:20
-msgid "B<[> I<\\,OPTION\\/>"
+msgid "B<[\\&> I<OPTION>"
 msgstr ""
 
 #. type: SH
@@ -433,104 +433,115 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/test.1:117
 #, no-wrap
-msgid "B<-O> FILE"
+msgid "B<-N> FILE"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:120
-msgid "FILE exists and is owned by the effective user ID"
+msgid "FILE exists and has been modified since it was last read"
 msgstr ""
 
 #. type: TP
 #: raw/coreutils/man1/test.1:120
+#, no-wrap
+msgid "B<-O> FILE"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/test.1:123
+msgid "FILE exists and is owned by the effective user ID"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/test.1:123
 #, no-wrap
 msgid "B<-p> FILE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:123
+#: raw/coreutils/man1/test.1:126
 msgid "FILE exists and is a named pipe"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/test.1:123
+#: raw/coreutils/man1/test.1:126
 #, no-wrap
 msgid "B<-r> FILE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:126
+#: raw/coreutils/man1/test.1:129
 msgid "FILE exists and read permission is granted"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/test.1:126
+#: raw/coreutils/man1/test.1:129
 #, no-wrap
 msgid "B<-s> FILE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:129
+#: raw/coreutils/man1/test.1:132
 msgid "FILE exists and has a size greater than zero"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/test.1:129
+#: raw/coreutils/man1/test.1:132
 #, no-wrap
 msgid "B<-S> FILE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:132
+#: raw/coreutils/man1/test.1:135
 msgid "FILE exists and is a socket"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/test.1:132
+#: raw/coreutils/man1/test.1:135
 #, no-wrap
 msgid "B<-t> FD"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:135
+#: raw/coreutils/man1/test.1:138
 msgid "file descriptor FD is opened on a terminal"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/test.1:135
+#: raw/coreutils/man1/test.1:138
 #, no-wrap
 msgid "B<-u> FILE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:138
+#: raw/coreutils/man1/test.1:141
 msgid "FILE exists and its set-user-ID bit is set"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/test.1:138
+#: raw/coreutils/man1/test.1:141
 #, no-wrap
 msgid "B<-w> FILE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:141
+#: raw/coreutils/man1/test.1:144
 msgid "FILE exists and write permission is granted"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/test.1:141
+#: raw/coreutils/man1/test.1:144
 #, no-wrap
 msgid "B<-x> FILE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:144
+#: raw/coreutils/man1/test.1:147
 msgid "FILE exists and execute (or search) permission is granted"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:148
+#: raw/coreutils/man1/test.1:151
 msgid ""
 "Except for B<-h> and B<-L>, all FILE-related tests dereference symbolic "
 "links.  Beware that parentheses need to be escaped (e.g., by backslashes) "
@@ -539,21 +550,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:151
+#: raw/coreutils/man1/test.1:154
 msgid ""
 "NOTE: Binary B<-a> and B<-o> are inherently ambiguous.  Use 'test EXPR1 && "
 "test EXPR2' or 'test EXPR1 || test EXPR2' instead."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:154
+#: raw/coreutils/man1/test.1:157
 msgid ""
 "NOTE: [ honors the B<--help> and B<--version> options, but test does not.  "
 "test treats each of those as it treats any other nonempty STRING."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:158
+#: raw/coreutils/man1/test.1:161
 msgid ""
 "NOTE: your shell may have its own version of test and/or [, which usually "
 "supersedes the version described here.  Please refer to your shell's "
@@ -561,67 +572,66 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/test.1:158
+#: raw/coreutils/man1/test.1:161
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:160
+#: raw/coreutils/man1/test.1:163
 msgid "Written by Kevin Braunsdorf and Matthew Bradburn."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/test.1:160
+#: raw/coreutils/man1/test.1:163
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:162
+#: raw/coreutils/man1/test.1:165
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/test.1:164
-msgid ""
-"Report [ translation bugs to E<lt>http://translationproject.org/team/E<gt>"
-msgstr ""
-
-#. type: SH
-#: raw/coreutils/man1/test.1:164
-#, no-wrap
-msgid "COPYRIGHT"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:167
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/test.1:167
+#, no-wrap
+msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:170
+msgid ""
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/test.1:173
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/test.1:170
+#: raw/coreutils/man1/test.1:173
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:172
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/[E<gt>"
+#: raw/coreutils/man1/test.1:175
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/[E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:173
+#: raw/coreutils/man1/test.1:176
 msgid "or available locally via: info \\(aq(coreutils) test invocation\\(aq"
 msgstr ""

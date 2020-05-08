@@ -2,13 +2,12 @@
 # PACKAGE 软件包的简体中文翻译
 # Copyright (C) 2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2017.
 # Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:26+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -28,13 +27,14 @@ msgstr "CHROOT"
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
 #, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+msgid "March 2020"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
 #. type: TH
@@ -165,16 +165,23 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:36
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:38
+#, fuzzy
+#| msgid ""
+#| "Report chroot translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report chroot translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 chroot 的翻"
 "译错误。"
@@ -187,9 +194,13 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:41
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
@@ -216,14 +227,21 @@ msgstr "chroot(2)"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:49
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "chrootE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chrootE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/chrootE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chrootE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:50
 msgid "or available locally via: info \\(aq(coreutils) chroot invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chroot invocation\\(aq"
+
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
 
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"

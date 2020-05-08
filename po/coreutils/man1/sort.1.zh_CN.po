@@ -1,15 +1,13 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:15+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -20,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
 #, no-wrap
@@ -29,75 +26,67 @@ msgstr "SORT"
 
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/sort.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/sort.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:5
 msgid "sort - sort lines of text files"
 msgstr "sort - 对文本文件的行进行排序"
 
-#
 #. type: SH
 #: raw/coreutils/man1/sort.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:8
 msgid "B<sort> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:11
 msgid "B<sort> [I<\\,OPTION\\/>]... I<\\,--files0-from=F\\/>"
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/sort.1:11
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:15
 msgid "Write sorted concatenation of all FILE(s) to standard output."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:17
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:20
 msgid ""
@@ -105,157 +94,133 @@ msgid ""
 "Ordering options:"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:20
 #, no-wrap
 msgid "B<-b>, B<--ignore-leading-blanks>"
 msgstr "B<-b>, B<--ignore-leading-blanks>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:23
 msgid "ignore leading blanks"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:23
 #, no-wrap
 msgid "B<-d>, B<--dictionary-order>"
 msgstr "B<-d>, B<--dictionary-order>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:26
 msgid "consider only blanks and alphanumeric characters"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:26
 #, no-wrap
 msgid "B<-f>, B<--ignore-case>"
 msgstr "B<-f>, B<--ignore-case>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:29
 msgid "fold lower case to upper case characters"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:29
 #, no-wrap
 msgid "B<-g>, B<--general-numeric-sort>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:32
 msgid "compare according to general numerical value"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:32
 #, no-wrap
 msgid "B<-i>, B<--ignore-nonprinting>"
 msgstr "B<-i>, B<--ignore-nonprinting>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:35
 msgid "consider only printable characters"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:35
 #, no-wrap
 msgid "B<-M>, B<--month-sort>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:38
 msgid "compare (unknown) E<lt> 'JAN' E<lt> ... E<lt> 'DEC'"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:38
 #, no-wrap
 msgid "B<-h>, B<--human-numeric-sort>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:41
 msgid "compare human readable numbers (e.g., 2K 1G)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:41
 #, no-wrap
 msgid "B<-n>, B<--numeric-sort>"
 msgstr "B<-n>, B<--numeric-sort>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:44
 msgid "compare according to string numerical value"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:44
 #, no-wrap
 msgid "B<-R>, B<--random-sort>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:47
 msgid "shuffle, but group identical keys.  See shuf(1)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:47
 #, fuzzy, no-wrap
 msgid "B<--random-source>=I<\\,FILE\\/>"
 msgstr "B<--random-source>=I<文件>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:50
 msgid "get random bytes from FILE"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:50
 #, no-wrap
 msgid "B<-r>, B<--reverse>"
 msgstr "B<-r>, B<--reverse>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:53
 msgid "reverse the result of comparisons"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:53
 #, no-wrap
 msgid "B<--sort>=I<\\,WORD\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:58
 msgid ""
@@ -263,85 +228,72 @@ msgid ""
 "M>, numeric B<-n>, random B<-R>, version B<-V>"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:58
 #, no-wrap
 msgid "B<-V>, B<--version-sort>"
 msgstr "B<-V>, B<--version-sort>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:61
 msgid "natural sort of (version) numbers within text"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:63
 msgid "Other options:"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:63
 #, no-wrap
 msgid "B<--batch-size>=I<\\,NMERGE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:67
 msgid "merge at most NMERGE inputs at once; for more use temp files"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:67
 #, no-wrap
 msgid "B<-c>, B<--check>, B<--check>=I<\\,diagnose-first\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:70
 msgid "check for sorted input; do not sort"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:70
 #, no-wrap
 msgid "B<-C>, B<--check>=I<\\,quiet\\/>, B<--check>=I<\\,silent\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:73
 msgid "like B<-c>, but do not report first bad line"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:73
 #, no-wrap
 msgid "B<--compress-program>=I<\\,PROG\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:77
 msgid "compress temporaries with PROG; decompress them with PROG B<-d>"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:77
 #, no-wrap
 msgid "B<--debug>"
 msgstr "B<--debug>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:81
 msgid ""
@@ -349,14 +301,12 @@ msgid ""
 "usage to stderr"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:81
 #, fuzzy, no-wrap
 msgid "B<--files0-from>=I<\\,F\\/>"
 msgstr "B<--files0-from>=I<F>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:86
 msgid ""
@@ -366,92 +316,78 @@ msgstr ""
 "将文件F 中的以 NUL 结尾的名字所指定的文件作为待统计文件；如果文件F 为“-”，则"
 "从标准输入读取这些名字"
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:86
 #, no-wrap
 msgid "B<-k>, B<--key>=I<\\,KEYDEF\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:89
 msgid "sort via a key; KEYDEF gives location and type"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:89
 #, no-wrap
 msgid "B<-m>, B<--merge>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:92
 msgid "merge already sorted files; do not sort"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:92
 #, no-wrap
 msgid "B<-o>, B<--output>=I<\\,FILE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:95
 msgid "write result to FILE instead of standard output"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:95
 #, no-wrap
 msgid "B<-s>, B<--stable>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:98
 msgid "stabilize sort by disabling last-resort comparison"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:98
 #, no-wrap
 msgid "B<-S>, B<--buffer-size>=I<\\,SIZE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:101
 msgid "use SIZE for main memory buffer"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:101
 #, no-wrap
 msgid "B<-t>, B<--field-separator>=I<\\,SEP\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:104
 msgid "use SEP instead of non-blank to blank transition"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:104
 #, no-wrap
 msgid "B<-T>, B<--temporary-directory>=I<\\,DIR\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:108
 msgid ""
@@ -459,27 +395,23 @@ msgid ""
 "specify multiple directories"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:108
 #, no-wrap
 msgid "B<--parallel>=I<\\,N\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:111
 msgid "change the number of sorts run concurrently to N"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:111
 #, no-wrap
 msgid "B<-u>, B<--unique>"
 msgstr "B<-u>, B<--unique>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:115
 msgid ""
@@ -487,46 +419,39 @@ msgid ""
 "of an equal run"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:115
 #, no-wrap
 msgid "B<-z>, B<--zero-terminated>"
 msgstr "B<-z>, B<--zero-terminated>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:118
 msgid "line delimiter is NUL, not newline"
 msgstr "以 NUL 作为行的分隔符，而非换行符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:118
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:121
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/sort.1:121
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:124
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:132
 msgid ""
@@ -540,7 +465,6 @@ msgid ""
 "incorrect key usage."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:135
 msgid ""
@@ -548,7 +472,6 @@ msgid ""
 "memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:140
 msgid ""
@@ -556,44 +479,46 @@ msgid ""
 "Set LC_ALL=C to get the traditional sort order that uses native byte values."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/sort.1:140
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:142
 msgid "Written by Mike Haertel and Paul Eggert."
 msgstr "由 Mike Haertel 和 Paul Eggert 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/sort.1:142
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:144
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:146
+#, fuzzy
+#| msgid ""
+#| "Report sort translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report sort translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 sort 的翻译"
 "错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/sort.1:146
 #, no-wrap
@@ -602,14 +527,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:149
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:152
 msgid ""
@@ -619,34 +547,31 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/sort.1:152
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:154
 msgid "shuf(1), uniq(1)"
 msgstr "shuf(1), uniq(1)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:157
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "sortE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/sortE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/sortE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/sortE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/sort.1:158
 msgid "or available locally via: info \\(aq(coreutils) sort invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) sort invocation\\(aq"
 
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"

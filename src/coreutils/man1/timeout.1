@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH TIMEOUT 1 2017年10月 "GNU coreutils 8.28" 用户命令
+.TH TIMEOUT 1 "March 2020" "GNU coreutils 8.32" 用户命令
 .SH 名称
 timeout \- 在规定时限内运行一个命令
 .SH 概述
@@ -42,13 +42,18 @@ timeout \- 在规定时限内运行一个命令
 .IP
 信号可以是类似“HUP”的信号名或是信号数；从“kill \fB\-l\fP”的输出可获得信号的列表
 .TP 
+\fB\-v\fP, \fB\-\-verbose\fP
+diagnose to stderr any signal sent upon timeout
+.TP 
 \fB\-\-help\fP
 显示此帮助信息并退出
 .TP 
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-持续时间应当是一个浮点数，后缀可有可无；\&“s”表示秒（默认值），“m”表示分钟，“h”表示小时，或者使用“d”表示天数。
+DURATION is a floating point number with an optional suffix: \&'s' for
+seconds (the default), 'm' for minutes, 'h' for hours or 'd' for days.  A
+duration of 0 disables the associated timeout.
 .PP
 如果命令运行超时，而且 \fB\-\-preserve\-status\fP 未设置，则将退出状态值设为
 124。否则，将退出状态值设置为与所运行命令的退出状态值相同。如果没有指定信号类型，程序将在超时发生时送出 TERM 信号。TERM
@@ -59,12 +64,13 @@ timeout \- 在规定时限内运行一个命令
 .SH 作者
 由 Padraig Brady 编写。
 .SH 报告错误
-GNU coreutils 的在线帮助： <http://www.gnu.org/software/coreutils/>
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 .br
-请向 <http://translationproject.org/team/zh_CN.html> 报告 timeout 的翻译错误。
+Report any translation bugs to
+<https://translationproject.org/team/>
 .SH 版权
-Copyright \(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
-version 3 or later <http://gnu.org/licenses/gpl.html>.
+Copyright \(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
+version 3 or later <https://gnu.org/licenses/gpl.html>.
 .br
 This is free software: you are free to change and redistribute it.  There is
 NO WARRANTY, to the extent permitted by law.
@@ -72,6 +78,6 @@ NO WARRANTY, to the extent permitted by law.
 kill(1)
 .PP
 .br
-完整文档请见： <http://www.gnu.org/software/coreutils/timeout>
+Full documentation <https://www.gnu.org/software/coreutils/timeout>
 .br
 或者在本地使用： info \(aq(coreutils) timeout invocation\(aq

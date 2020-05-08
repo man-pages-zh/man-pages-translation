@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:58+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/uname.1:2
 #, no-wrap
@@ -30,70 +26,63 @@ msgstr "UNAME"
 
 #. type: TH
 #: raw/coreutils/man1/uname.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/uname.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/uname.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/uname.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:5
 msgid "uname - print system information"
 msgstr "uname - 输出系统信息"
 
-#
 #. type: SH
 #: raw/coreutils/man1/uname.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:8
 msgid "B<uname> [I<\\,OPTION\\/>]..."
 msgstr "B<uname> [I<\\,选项\\/>]..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/uname.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:12
 msgid "Print certain system information.  With no OPTION, same as B<-s>."
 msgstr "输出特定的系统信息。如果没有给定选项，则与 B<-s> 相同。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:12
 #, no-wrap
 msgid "B<-a>, B<--all>"
 msgstr "B<-a>, B<--all>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:16
 msgid ""
@@ -103,175 +92,156 @@ msgstr ""
 "按照如下所述的顺序输出全部信息，在信息未知的情况下会忽略 B<-p> 和 B<-i> 选"
 "项："
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:16
 #, no-wrap
 msgid "B<-s>, B<--kernel-name>"
 msgstr "B<-s>, B<--kernel-name>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:19
 msgid "print the kernel name"
 msgstr "输出内核名称"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:19
 #, no-wrap
 msgid "B<-n>, B<--nodename>"
 msgstr "B<-n>, B<--nodename>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:22
 msgid "print the network node hostname"
 msgstr "输出网络节点主机名"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:22
 #, no-wrap
 msgid "B<-r>, B<--kernel-release>"
 msgstr "B<-r>, B<--kernel-release>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:25
 msgid "print the kernel release"
 msgstr "输出内核发行版本"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:25
 #, no-wrap
 msgid "B<-v>, B<--kernel-version>"
 msgstr "B<-v>, B<--kernel-version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:28
 msgid "print the kernel version"
 msgstr "输出内核版本信息"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:28
 #, no-wrap
 msgid "B<-m>, B<--machine>"
 msgstr "B<-m>, B<--machine>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:31
 msgid "print the machine hardware name"
 msgstr "输出机器硬件名称"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:31
 #, no-wrap
 msgid "B<-p>, B<--processor>"
 msgstr "B<-p>, B<--processor>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:34
 msgid "print the processor type (non-portable)"
 msgstr "输出处理器类型（不可移植）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:34
 #, no-wrap
 msgid "B<-i>, B<--hardware-platform>"
 msgstr "B<-i>, B<--hardware-platform>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:37
 msgid "print the hardware platform (non-portable)"
 msgstr "输出硬件平台信息（不可移植）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:37
 #, no-wrap
 msgid "B<-o>, B<--operating-system>"
 msgstr "B<-o>, B<--operating-system>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:40
 msgid "print the operating system"
 msgstr "输出操作系统信息"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:40
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:43
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/uname.1:43
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:46
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/uname.1:46
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:48
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/uname.1:48
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:50
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:52
+#, fuzzy
+#| msgid ""
+#| "Report uname translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report uname translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 uname 的翻"
 "译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/uname.1:52
 #, no-wrap
@@ -280,14 +250,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:55
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:58
 msgid ""
@@ -297,37 +270,34 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/uname.1:58
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:60
 msgid "arch(1), uname(2)"
 msgstr "arch(1), uname(2)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:63
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "unameE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/unameE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/unameE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/unameE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/uname.1:64
 msgid "or available locally via: info \\(aq(coreutils) uname invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) uname invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

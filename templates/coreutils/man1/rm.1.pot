@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -78,7 +77,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:22
 msgid ""
-"If the I<-I> or I<--interactive\\=once> option is given, and there are more "
+"If the I<-I> or I<--interactive=once> option is given, and there are more "
 "than three files or the I<-r>, I<-R>, or I<--recursive> are given, then "
 "B<rm> prompts the user for whether to proceed with the entire operation.  If "
 "the response is not affirmative, the entire command is aborted."
@@ -88,9 +87,9 @@ msgstr ""
 #: raw/coreutils/man1/rm.1:29
 msgid ""
 "Otherwise, if a file is unwritable, standard input is a terminal, and the I<-"
-"f> or I<--force> option is not given, or the I<-i> or I<--interactive"
-"\\=always> option is given, B<rm> prompts the user for whether to remove the "
-"file.  If the response is not affirmative, the file is skipped."
+"f> or I<--force> option is not given, or the I<-i> or I<--"
+"interactive=always> option is given, B<rm> prompts the user for whether to "
+"remove the file.  If the response is not affirmative, the file is skipped."
 msgstr ""
 
 #. type: SH
@@ -180,71 +179,73 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/rm.1:55
 #, no-wrap
-msgid "B<--preserve-root>"
+msgid "B<--preserve-root>[=I<\\,all\\/>]"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:58
-msgid "do not remove '/' (default)"
+#: raw/coreutils/man1/rm.1:60
+msgid ""
+"do not remove '/' (default); with 'all', reject any command line argument on "
+"a separate device from its parent"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rm.1:58
+#: raw/coreutils/man1/rm.1:60
 #, no-wrap
 msgid "B<-r>, B<-R>, B<--recursive>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:61
+#: raw/coreutils/man1/rm.1:63
 msgid "remove directories and their contents recursively"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rm.1:61
+#: raw/coreutils/man1/rm.1:63
 #, no-wrap
 msgid "B<-d>, B<--dir>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:64
+#: raw/coreutils/man1/rm.1:66
 msgid "remove empty directories"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rm.1:64
+#: raw/coreutils/man1/rm.1:66
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:67
+#: raw/coreutils/man1/rm.1:69
 msgid "explain what is being done"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rm.1:67
+#: raw/coreutils/man1/rm.1:69
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:70
+#: raw/coreutils/man1/rm.1:72
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rm.1:70
+#: raw/coreutils/man1/rm.1:72
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:73
+#: raw/coreutils/man1/rm.1:75
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:76
+#: raw/coreutils/man1/rm.1:78
 msgid ""
 "By default, rm does not remove directories.  Use the B<--recursive> (B<-r> "
 "or B<-R>)  option to remove each listed directory, too, along with all of "
@@ -252,24 +253,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:79
+#: raw/coreutils/man1/rm.1:81
 msgid ""
 "To remove a file whose name starts with a '-', for example '-foo', use one "
 "of these commands:"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:81
+#: raw/coreutils/man1/rm.1:83
 msgid "rm B<--> B<-foo>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:83
+#: raw/coreutils/man1/rm.1:85
 msgid "rm ./-foo"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:87
+#: raw/coreutils/man1/rm.1:89
 msgid ""
 "Note that if you use rm to remove a file, it might be possible to recover "
 "some of its contents, given sufficient expertise and/or time.  For greater "
@@ -277,74 +278,73 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rm.1:87
+#: raw/coreutils/man1/rm.1:89
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:90
+#: raw/coreutils/man1/rm.1:92
 msgid ""
 "Written by Paul Rubin, David MacKenzie, Richard M. Stallman, and Jim "
 "Meyering."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rm.1:90
+#: raw/coreutils/man1/rm.1:92
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:92
+#: raw/coreutils/man1/rm.1:94
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:94
+#: raw/coreutils/man1/rm.1:96
 msgid ""
-"Report rm translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rm.1:94
+#: raw/coreutils/man1/rm.1:96
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:97
+#: raw/coreutils/man1/rm.1:99
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:100
+#: raw/coreutils/man1/rm.1:102
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rm.1:100
+#: raw/coreutils/man1/rm.1:102
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:102
+#: raw/coreutils/man1/rm.1:104
 msgid "unlink(1), unlink(2), chattr(1), shred(1)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:105
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/rmE<gt>"
+#: raw/coreutils/man1/rm.1:107
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/rmE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rm.1:106
+#: raw/coreutils/man1/rm.1:108
 msgid "or available locally via: info \\(aq(coreutils) rm invocation\\(aq"
 msgstr ""

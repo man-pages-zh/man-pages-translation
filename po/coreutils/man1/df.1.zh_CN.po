@@ -1,15 +1,13 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:48+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -20,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/df.1:2
 #, no-wrap
@@ -29,24 +26,24 @@ msgstr "DF"
 
 #. type: TH
 #: raw/coreutils/man1/df.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/df.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/df.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/df.1:3
 #, no-wrap
@@ -58,7 +55,6 @@ msgstr "名称"
 msgid "df - report file system disk space usage"
 msgstr "df - 报告文件系统磁盘空间使用情况"
 
-#
 #. type: SH
 #: raw/coreutils/man1/df.1:5
 #, no-wrap
@@ -70,14 +66,12 @@ msgstr "概述"
 msgid "B<df> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<df> [I<\\,选项列表\\/>]... [I<\\,文件列表\\/>]..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/df.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:19
 #, fuzzy
@@ -94,7 +88,6 @@ msgstr ""
 "磁盘空间默认以 1K 为一块显示，如果环境变量 POSIXLY_CORRECT 已设置，则采用 512"
 "字节作为一块显示。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:29
 #, fuzzy
@@ -111,14 +104,12 @@ msgstr ""
 "能显示未挂载文件系统的可用空间，因为在绝大多数系统中，这项功能的实现需要利用"
 "特定文件系统结构上不可移植且紧耦合的知识。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/df.1:29
 #, no-wrap
 msgid "OPTIONS"
 msgstr "选项"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:33
 #, fuzzy
@@ -129,34 +120,29 @@ msgstr ""
 "显示文件列表中每一个文件所在的文件系统的信息，没有指定文件则默认为整个文件系"
 "统"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:35
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:35
 #, no-wrap
 msgid "B<-a>, B<--all>"
 msgstr "B<-a>, B<--all>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:38
 msgid "include pseudo, duplicate, inaccessible file systems"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:38
 #, fuzzy, no-wrap
 msgid "B<-B>, B<--block-size>=I<\\,SIZE\\/>"
 msgstr "B<-B>, B<--block-size>=I<大小>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:43
 #, fuzzy
@@ -167,98 +153,84 @@ msgstr ""
 "按照指定I<大小>按比例缩小后输出；例如，'-BM' 以 1,048,576字节为单位输出大小；"
 "参考下文对I<大小>的格式说明"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:43
 #, no-wrap
 msgid "B<-h>, B<--human-readable>"
 msgstr "B<-h>, B<--human-readable>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:46
 #, fuzzy
 msgid "print sizes in powers of 1024 (e.g., 1023M)"
 msgstr "以 1024 为幂显示大小（例如，1023M）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:46
 #, no-wrap
 msgid "B<-H>, B<--si>"
 msgstr "B<-H>, B<--si>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:49
 #, fuzzy
 msgid "print sizes in powers of 1000 (e.g., 1.1G)"
 msgstr "以 1000 为幂输出大小（例，1.1G）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:49
 #, no-wrap
 msgid "B<-i>, B<--inodes>"
 msgstr "B<-i>, B<--inodes>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:52
 #, fuzzy
 msgid "list inode information instead of block usage"
 msgstr "显示 inode 信息而非块使用量"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:52
 #, no-wrap
 msgid "B<-k>"
 msgstr "B<-k>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:55
 #, fuzzy
 msgid "like B<--block-size>=I<\\,1K\\/>"
 msgstr "类似于 B<--block-size>=I<1K>"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:55
 #, no-wrap
 msgid "B<-l>, B<--local>"
 msgstr "B<-l>, B<--local>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:58
 #, fuzzy
 msgid "limit listing to local file systems"
 msgstr "仅列出本地的文件系统"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:58
 #, no-wrap
 msgid "B<--no-sync>"
 msgstr "B<--no-sync>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:61
 #, fuzzy
 msgid "do not invoke sync before getting usage info (default)"
 msgstr "取得使用量数据前不进行同步动作（默认）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:61
 #, fuzzy, no-wrap
 msgid "B<--output>[=I<\\,FIELD_LIST\\/>]"
 msgstr "B<--output>[=I<域列表>]"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:65
 #, fuzzy
@@ -267,7 +239,6 @@ msgid ""
 "FIELD_LIST is omitted."
 msgstr "使用域列表定义的输出格式，如果不指定域列表，则输出所有域"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:65
 #, no-wrap
@@ -279,28 +250,24 @@ msgstr "B<-P>, B<--portability>"
 msgid "use the POSIX output format"
 msgstr "使用 POSIX 输出格式"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:68
 #, no-wrap
 msgid "B<--sync>"
 msgstr "B<--sync>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:71
 #, fuzzy
 msgid "invoke sync before getting usage info"
 msgstr "获取使用量数据前进行同步操作"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:71
 #, no-wrap
 msgid "B<--total>"
 msgstr "B<--total>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:75
 msgid ""
@@ -313,81 +280,69 @@ msgstr ""
 msgid "B<-t>, B<--type>=I<\\,TYPE\\/>"
 msgstr "B<-t>, B<--type>=I<\\,类型\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:78
 #, fuzzy
 msgid "limit listing to file systems of type TYPE"
 msgstr "仅列出指定类型的文件系统"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:78
 #, no-wrap
 msgid "B<-T>, B<--print-type>"
 msgstr "B<-T>, B<--print-type>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:81
 #, fuzzy
 msgid "print file system type"
 msgstr "显示文件系统类型"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:81
 #, fuzzy, no-wrap
 msgid "B<-x>, B<--exclude-type>=I<\\,TYPE\\/>"
 msgstr "B<-x>, B<--exclude-type>=I<类型>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:84
 #, fuzzy
 msgid "limit listing to file systems not of type TYPE"
 msgstr "仅列出非指定类型的文件系统"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:84
 #, no-wrap
 msgid "B<-v>"
 msgstr "B<-v>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:87
 msgid "(ignored)"
 msgstr "（被忽略的选项）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:87
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:90
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/df.1:90
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:93
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:97
 #, fuzzy
@@ -401,21 +356,19 @@ msgstr ""
 "和 BLOCKSIZE 这四个中第一个有效值。如果这四个值都没有设置，则单位大小默认为 "
 "1024 字节（如果设置了POSIXLY_CORRECT，则为 512 字节）。"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/df.1:100
+#: raw/coreutils/man1/df.1:101
 #, fuzzy
 msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
-"of 1000)."
+"of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
 "I<大小>这个参数由一个整数和可选的单位组成（例如：10K 是 10*1024）。单位可以"
 "是 K, M, G, T, P, E, Z, Y （1024的幂）或者 KM, MB,... （1000的幂）。"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/df.1:104
+#: raw/coreutils/man1/df.1:105
 #, fuzzy
 msgid ""
 "FIELD_LIST is a comma-separated list of columns to be included.  Valid field "
@@ -426,61 +379,67 @@ msgstr ""
 "'fstype', 'itotal', 'iused', 'iavail', 'ipcent', \\&'size', 'used', 'avail', "
 "'pcent', 'file' 和 'target'（详见对应的 info 页面）。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/df.1:104
+#: raw/coreutils/man1/df.1:105
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/df.1:106
+#: raw/coreutils/man1/df.1:107
 msgid "Written by Torbjorn Granlund, David MacKenzie, and Paul Eggert."
 msgstr "由 Torbjorn Granlund、David MacKenzie 和 Paul Eggert 编写。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/df.1:106
+#: raw/coreutils/man1/df.1:107
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/df.1:108
+#: raw/coreutils/man1/df.1:109
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/df.1:110
+#: raw/coreutils/man1/df.1:111
+#, fuzzy
+#| msgid ""
+#| "Report df translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report df translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 df 的翻译错"
 "误。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/df.1:110
+#: raw/coreutils/man1/df.1:111
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/df.1:113
+#: raw/coreutils/man1/df.1:114
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/df.1:116
+#: raw/coreutils/man1/df.1:117
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -488,45 +447,32 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/df.1:116
+#: raw/coreutils/man1/df.1:117
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
-#. type: Plain text
-#: raw/coreutils/man1/df.1:118
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/dfE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/dfE<gt>"
-
-#
 #. type: Plain text
 #: raw/coreutils/man1/df.1:119
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/dfE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/dfE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/dfE<gt>"
+
+#. type: Plain text
+#: raw/coreutils/man1/df.1:120
 msgid "or available locally via: info \\(aq(coreutils) df invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) df invocation\\(aq"
 
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
 
-#
-#
-#
-#
 #, fuzzy
 #~ msgid "include dummy file systems"
 #~ msgstr "包含虚拟文件系统"
 
-#
-#
-#
-#
 #, fuzzy
 #~ msgid "produce a grand total"
 #~ msgstr "输出全局总计"

@@ -1,14 +1,12 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:09+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -19,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/readlink.1:2
 #, no-wrap
@@ -28,50 +25,46 @@ msgstr " READLINK"
 
 #. type: TH
 #: raw/coreutils/man1/readlink.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/readlink.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/readlink.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/readlink.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:5
 msgid "readlink - print resolved symbolic links or canonical file names"
 msgstr "readlink - 输出经过解析的符号链接值或权威文件名"
 
-#
 #. type: SH
 #: raw/coreutils/man1/readlink.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:8
 msgid "B<readlink> [I<\\,OPTION\\/>]... I<\\,FILE\\/>..."
 msgstr "B<readlink> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/readlink.1:8
 #, no-wrap
@@ -88,20 +81,17 @@ msgstr ""
 "请注意，realpath(1) 是更建议使用的用于标准化（或正规化，canonicalization）功"
 "能的命令。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:14
 msgid "Print value of a symbolic link or canonical file name"
 msgstr "输出符号链接值或权威文件名"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:14
 #, no-wrap
 msgid "B<-f>, B<--canonicalize>"
 msgstr "B<-f>, B<--canonicalize>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:19
 msgid ""
@@ -109,14 +99,12 @@ msgid ""
 "recursively; all but the last component must exist"
 msgstr "递归跟随给出文件名的所有符号链接以标准化；所有组件都必须存在"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:19
 #, no-wrap
 msgid "B<-e>, B<--canonicalize-existing>"
 msgstr "B<-e>, B<--canonicalize-existing>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:24
 msgid ""
@@ -124,14 +112,12 @@ msgid ""
 "recursively, all components must exist"
 msgstr "递归跟随给出文件名的所有符号链接以标准化，除最后一个外所有组件必须存在"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:24
 #, no-wrap
 msgid "B<-m>, B<--canonicalize-missing>"
 msgstr "B<-m>, B<--canonicalize-missing>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:29
 msgid ""
@@ -139,26 +125,24 @@ msgid ""
 "recursively, without requirements on components existence"
 msgstr "递归跟随给出文件名的所有符号链接以标准化；各个组件没有必须存在的要求"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:29
 #, no-wrap
 msgid "B<-n>, B<--no-newline>"
 msgstr "B<-n>, B<--no-newline>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:32
 msgid "do not output the trailing delimiter"
 msgstr "不要输出末尾定界符"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:34
-msgid "B<-q>, B<--quiet>,"
+#, fuzzy
+#| msgid "B<-q>, B<--quiet>,"
+msgid "B<-q>, B<--quiet>"
 msgstr "B<-q>, B<--quiet>,"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:34
 #, no-wrap
@@ -170,97 +154,90 @@ msgstr "B<-s>, B<--silent>"
 msgid "suppress most error messages (on by default)"
 msgstr "隐藏大多数错误信息（默认行为）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:37
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:40
 msgid "report error messages"
 msgstr "报告错误信息"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:40
 #, no-wrap
 msgid "B<-z>, B<--zero>"
 msgstr "B<-z>, B<--zero>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:43
 msgid "end each output line with NUL, not newline"
 msgstr "使每行输出以 NUL 字符结束，不添加换行符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:43
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:46
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/readlink.1:46
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:49
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/readlink.1:49
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:51
 msgid "Written by Dmitry V. Levin."
 msgstr "由 Dmitry V. Levin 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/readlink.1:51
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:53
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:55
+#, fuzzy
+#| msgid ""
+#| "Report readlink translation bugs to E<lt>http://translationproject.org/"
+#| "team/E<gt>"
 msgid ""
-"Report readlink translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 readlink 的"
 "翻译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/readlink.1:55
 #, no-wrap
@@ -269,14 +246,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:58
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:61
 msgid ""
@@ -286,40 +266,36 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/readlink.1:61
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:63
 msgid "readlink(2), realpath(1), realpath(3)"
 msgstr "readlink(2), realpath(1), realpath(3)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:66
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "readlinkE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-"readlinkE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/readlinkE<gt>"
 msgstr ""
 "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/readlinkE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/readlink.1:67
 msgid ""
 "or available locally via: info \\(aq(coreutils) readlink invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) readlink invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

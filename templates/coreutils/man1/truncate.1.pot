@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -82,8 +81,8 @@ msgstr ""
 #: raw/coreutils/man1/truncate.1:18
 msgid ""
 "If a FILE is larger than the specified size, the extra data is lost.  If a "
-"FILE is shorter, it is extended and the extended part (hole)  reads as zero "
-"bytes."
+"FILE is shorter, it is extended and the sparse extended part (hole)  reads "
+"as zero bytes."
 msgstr ""
 
 #. type: Plain text
@@ -159,15 +158,15 @@ msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:41
+#: raw/coreutils/man1/truncate.1:42
 msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
-"of 1000)."
+"of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:45
+#: raw/coreutils/man1/truncate.1:46
 msgid ""
 "SIZE may also be prefixed by one of the following modifying characters: "
 "\\&'+' extend by, '-' reduce by, 'E<lt>' at most, 'E<gt>' at least, \\&'/' "
@@ -175,75 +174,73 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/truncate.1:45
+#: raw/coreutils/man1/truncate.1:46
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:47
+#: raw/coreutils/man1/truncate.1:48
 msgid "Written by Padraig Brady."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/truncate.1:47
+#: raw/coreutils/man1/truncate.1:48
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:49
+#: raw/coreutils/man1/truncate.1:50
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:51
+#: raw/coreutils/man1/truncate.1:52
 msgid ""
-"Report truncate translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/truncate.1:51
+#: raw/coreutils/man1/truncate.1:52
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:54
+#: raw/coreutils/man1/truncate.1:55
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:57
+#: raw/coreutils/man1/truncate.1:58
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/truncate.1:57
+#: raw/coreutils/man1/truncate.1:58
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:59
+#: raw/coreutils/man1/truncate.1:60
 msgid "dd(1), truncate(2), ftruncate(2)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:62
+#: raw/coreutils/man1/truncate.1:63
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-"truncateE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:63
+#: raw/coreutils/man1/truncate.1:64
 msgid ""
 "or available locally via: info \\(aq(coreutils) truncate invocation\\(aq"
 msgstr ""

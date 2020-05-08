@@ -1,15 +1,13 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:11+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -20,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
 #, no-wrap
@@ -29,44 +26,41 @@ msgstr "CHMOD"
 
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chmod.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:5
 msgid "chmod - change file mode bits"
 msgstr "chmod - 改变文件模式比特位"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chmod.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:8
 msgid ""
@@ -76,26 +70,22 @@ msgstr ""
 "B<chmod> [I<\\,选项\\/>]... I<\\,模式\\/>[I<\\,,模式\\/>]... I<\\,文件列表\\/"
 ">..."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:11
 msgid "B<chmod> [I<\\,OPTION\\/>]... I<\\,OCTAL-MODE FILE\\/>..."
 msgstr "B<chmod> [I<\\,选项\\/>]... I<\\,八进制模式字符串 文件列表\\/>..."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:14
 msgid "B<chmod> [I<\\,OPTION\\/>]... I<\\,--reference=RFILE FILE\\/>..."
 msgstr "B<chmod> [I<\\,选项\\/>]... I<\\,--reference=参考文件 文件列表\\/>..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/chmod.1:14
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:23
 msgid ""
@@ -108,7 +98,6 @@ msgstr ""
 "的模式比特位，其模式字符串既可以是修改目标的符号表示，也可以是用一个八进制数"
 "字来代表新的模式比特位形式。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:32
 msgid ""
@@ -118,7 +107,6 @@ msgid ""
 "can be given, separated by commas."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:39
 msgid ""
@@ -129,7 +117,6 @@ msgid ""
 "but bits that are set in the umask are not affected."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:45
 msgid ""
@@ -140,7 +127,6 @@ msgid ""
 "affected."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:57
 msgid ""
@@ -155,7 +141,6 @@ msgid ""
 "granted to users that are in neither of the two preceding categories (B<o>)."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:67
 msgid ""
@@ -169,7 +154,6 @@ msgid ""
 "with the same values."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:80
 msgid ""
@@ -181,14 +165,12 @@ msgid ""
 "encountered during recursive directory traversals."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/chmod.1:80
 #, no-wrap
 msgid "SETUID AND SETGID BITS"
 msgstr "SETUID 和 SETGID 比特位"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chmod.1:95
 msgid ""
@@ -201,26 +183,24 @@ msgid ""
 "the underlying system behavior."
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:104
+#: raw/coreutils/man1/chmod.1:109
 msgid ""
-"B<chmod> preserves a directory's set-user-ID and set-group-ID bits unless "
+"For directories B<chmod> preserves set-user-ID and set-group-ID bits unless "
 "you explicitly specify otherwise.  You can set or clear the bits with "
-"symbolic modes like B<u+s> and B<g-s>, and you can set (but not clear) the "
-"bits with a numeric mode."
+"symbolic modes like B<u+s> and B<g-s>.  To clear these bits for directories "
+"with a numeric mode requires an additional leading zero, or leading = like "
+"B<00755> , or B<=755>"
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/chmod.1:104
+#: raw/coreutils/man1/chmod.1:109
 #, no-wrap
 msgid "RESTRICTED DELETION FLAG OR STICKY BIT"
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:115
+#: raw/coreutils/man1/chmod.1:120
 msgid ""
 "The restricted deletion flag or sticky bit is a single bit, whose "
 "interpretation depends on the file type.  For directories, it prevents "
@@ -232,202 +212,185 @@ msgid ""
 "run; this is called the I<sticky bit>."
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/chmod.1:115
+#: raw/coreutils/man1/chmod.1:120
 #, no-wrap
 msgid "OPTIONS"
 msgstr "选项"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:119
+#: raw/coreutils/man1/chmod.1:124
 msgid ""
 "Change the mode of each FILE to MODE.  With B<--reference>, change the mode "
 "of each FILE to that of RFILE."
 msgstr ""
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:119
+#: raw/coreutils/man1/chmod.1:124
 #, no-wrap
 msgid "B<-c>, B<--changes>"
 msgstr "B<-c>, B<--changes>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:122
+#: raw/coreutils/man1/chmod.1:127
 msgid "like verbose but report only when a change is made"
 msgstr "类似 verbose 选项，但只在做出修改时进行报告"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:122
+#: raw/coreutils/man1/chmod.1:127
 #, no-wrap
 msgid "B<-f>, B<--silent>, B<--quiet>"
 msgstr "B<-f>, B<--silent>, B<--quiet>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:125
+#: raw/coreutils/man1/chmod.1:130
 msgid "suppress most error messages"
 msgstr "隐藏大多数错误信息"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:125
+#: raw/coreutils/man1/chmod.1:130
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:128
+#: raw/coreutils/man1/chmod.1:133
 msgid "output a diagnostic for every file processed"
 msgstr "对每一个处理的文件输出诊断信息"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:128
+#: raw/coreutils/man1/chmod.1:133
 #, no-wrap
 msgid "B<--no-preserve-root>"
 msgstr "B<--no-preserve-root>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:131
+#: raw/coreutils/man1/chmod.1:136
 msgid "do not treat '/' specially (the default)"
 msgstr "不要对“/”特别对待（默认）"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:131
+#: raw/coreutils/man1/chmod.1:136
 #, no-wrap
 msgid "B<--preserve-root>"
 msgstr "B<--preserve-root>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:134
+#: raw/coreutils/man1/chmod.1:139
 msgid "fail to operate recursively on '/'"
 msgstr "不要在“/”下进行递归操作"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:134
+#: raw/coreutils/man1/chmod.1:139
 #, no-wrap
 msgid "B<--reference>=I<\\,RFILE\\/>"
 msgstr "B<--reference>=I<\\,参考文件\\/>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:137
+#: raw/coreutils/man1/chmod.1:142
 msgid "use RFILE's mode instead of MODE values"
 msgstr "使用参考文件的模式作为具体模式值"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:137
+#: raw/coreutils/man1/chmod.1:142
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
 msgstr "B<-R>, B<--recursive>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:140
+#: raw/coreutils/man1/chmod.1:145
 msgid "change files and directories recursively"
 msgstr "递归修改文件和目录"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:140
+#: raw/coreutils/man1/chmod.1:145
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:143
+#: raw/coreutils/man1/chmod.1:148
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
-#: raw/coreutils/man1/chmod.1:143
+#: raw/coreutils/man1/chmod.1:148
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:146
+#: raw/coreutils/man1/chmod.1:151
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:148
+#: raw/coreutils/man1/chmod.1:153
 msgid ""
 "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/chmod.1:148
+#: raw/coreutils/man1/chmod.1:153
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:150
+#: raw/coreutils/man1/chmod.1:155
 msgid "Written by David MacKenzie and Jim Meyering."
 msgstr "由 David MacKenzie 和 Jim Meyering 编写。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/chmod.1:150
+#: raw/coreutils/man1/chmod.1:155
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:152
+#: raw/coreutils/man1/chmod.1:157
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:154
+#: raw/coreutils/man1/chmod.1:159
+#, fuzzy
+#| msgid ""
+#| "Report chmod translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report chmod translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 chmod 的翻"
 "译错误。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/chmod.1:154
+#: raw/coreutils/man1/chmod.1:159
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:157
+#: raw/coreutils/man1/chmod.1:162
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:160
+#: raw/coreutils/man1/chmod.1:165
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -435,38 +398,34 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/chmod.1:160
+#: raw/coreutils/man1/chmod.1:165
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:162
+#: raw/coreutils/man1/chmod.1:167
 msgid "chmod(2)"
 msgstr "chmod(2)"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:165
+#: raw/coreutils/man1/chmod.1:170
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "chmodE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chmodE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/chmodE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chmodE<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:166
+#: raw/coreutils/man1/chmod.1:171
 msgid "or available locally via: info \\(aq(coreutils) chmod invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chmod invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

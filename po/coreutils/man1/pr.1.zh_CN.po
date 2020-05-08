@@ -1,13 +1,12 @@
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-19 16:10+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -18,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/pr.1:2
 #, no-wrap
@@ -27,96 +25,85 @@ msgstr "PR"
 
 #. type: TH
 #: raw/coreutils/man1/pr.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/pr.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/pr.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/pr.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:5
 msgid "pr - convert text files for printing"
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/pr.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:8
 msgid "B<pr> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/pr.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:12
 msgid "Paginate or columnate FILE(s) for printing."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:16
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:16
 #, no-wrap
 msgid "+FIRST_PAGE[:LAST_PAGE], B<--pages>=I<\\,FIRST_PAGE[\\/>:LAST_PAGE]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:19
 msgid "begin [stop] printing with page FIRST_[LAST_]PAGE"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:19
 #, no-wrap
 msgid "B<-COLUMN>, B<--columns>=I<\\,COLUMN\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:24
 msgid ""
@@ -124,79 +111,67 @@ msgid ""
 "number of lines in the columns on each page"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:24
 #, no-wrap
 msgid "B<-a>, B<--across>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:28
 msgid "print columns across rather than down, used together with B<-COLUMN>"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:28
 #, no-wrap
 msgid "B<-c>, B<--show-control-chars>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:31
 msgid "use hat notation (^G) and octal backslash notation"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:31
 #, no-wrap
 msgid "B<-d>, B<--double-space>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:34
 msgid "double space the output"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:34
 #, no-wrap
 msgid "B<-D>, B<--date-format>=I<\\,FORMAT\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:37
 msgid "use FORMAT for the header date"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:37
 #, no-wrap
 msgid "B<-e[CHAR[WIDTH]]>, B<--expand-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:40
 msgid "expand input CHARs (TABs) to tab WIDTH (8)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:40
 #, no-wrap
 msgid "B<-F>, B<-f>, B<--form-feed>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:45
 msgid ""
@@ -204,14 +179,12 @@ msgid ""
 "header with B<-F> or a 5-line header and trailer without B<-F>)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:45
 #, no-wrap
 msgid "B<-h>, B<--header>=I<\\,HEADER\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:49
 msgid ""
@@ -219,27 +192,23 @@ msgid ""
 "a blank line, don't use B<-h>\"\""
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:49
 #, no-wrap
 msgid "B<-i[CHAR[WIDTH]]>, B<--output-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:52
 msgid "replace spaces with CHARs (TABs) to tab WIDTH (8)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:52
 #, no-wrap
 msgid "B<-J>, B<--join-lines>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:56
 msgid ""
@@ -247,14 +216,12 @@ msgid ""
 "sep-string>[=I<\\,STRING\\/>] sets separators"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:56
 #, no-wrap
 msgid "B<-l>, B<--length>=I<\\,PAGE_LENGTH\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:61
 msgid ""
@@ -262,14 +229,12 @@ msgid ""
 "text 56, and with B<-F> 63).  implies B<-t> if PAGE_LENGTH E<lt>= 10"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:61
 #, no-wrap
 msgid "B<-m>, B<--merge>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:65
 msgid ""
@@ -277,14 +242,12 @@ msgid ""
 "lines of full length with B<-J>"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:65
 #, no-wrap
 msgid "B<-n[SEP[DIGITS]]>, B<--number-lines>[=I<\\,SEP[DIGITS]\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:69
 msgid ""
@@ -292,14 +255,12 @@ msgid ""
 "with 1st line of input file"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:69
 #, no-wrap
 msgid "B<-N>, B<--first-line-number>=I<\\,NUMBER\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:73
 msgid ""
@@ -307,14 +268,12 @@ msgid ""
 "+FIRST_PAGE)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:73
 #, no-wrap
 msgid "B<-o>, B<--indent>=I<\\,MARGIN\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:77
 msgid ""
@@ -322,27 +281,23 @@ msgid ""
 "MARGIN will be added to PAGE_WIDTH"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:77
 #, no-wrap
 msgid "B<-r>, B<--no-file-warnings>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:80
 msgid "omit warning when a file cannot be opened"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:80
 #, no-wrap
 msgid "B<-s[CHAR]>, B<--separator>[=I<\\,CHAR\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:86
 msgid ""
@@ -352,14 +307,12 @@ msgid ""
 "m) except B<-w> is set"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:86
 #, no-wrap
 msgid "B<-S[STRING]>, B<--sep-string>[=I<\\,STRING\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:91
 msgid ""
@@ -368,27 +321,23 @@ msgid ""
 "column options"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:91
 #, no-wrap
 msgid "B<-t>, B<--omit-header>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:95
 msgid "omit page headers and trailers; implied if PAGE_LENGTH E<lt>= 10"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:95
 #, no-wrap
 msgid "B<-T>, B<--omit-pagination>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:99
 msgid ""
@@ -396,27 +345,23 @@ msgid ""
 "in input files"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:99
 #, no-wrap
 msgid "B<-v>, B<--show-nonprinting>"
 msgstr "B<-v>, B<--show-nonprinting>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:102
 msgid "use octal backslash notation"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:102
 #, no-wrap
 msgid "B<-w>, B<--width>=I<\\,PAGE_WIDTH\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:106
 msgid ""
@@ -424,14 +369,12 @@ msgid ""
 "only, B<-s[char]> turns off (72)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:106
 #, no-wrap
 msgid "B<-W>, B<--page-width>=I<\\,PAGE_WIDTH\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:111
 msgid ""
@@ -439,70 +382,68 @@ msgid ""
 "B<-J> option is set, no interference with B<-S> or B<-s>"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:111
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:114
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/pr.1:114
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:117
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/pr.1:117
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:119
 msgid "Written by Pete TerMaat and Roland Huebner."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/pr.1:119
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:121
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:123
+#, fuzzy
+#| msgid ""
+#| "Report pr translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report pr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 pr 的翻译错"
 "误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/pr.1:123
 #, no-wrap
@@ -511,14 +452,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:126
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:129
 msgid ""
@@ -528,29 +472,24 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/pr.1:129
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:131
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/prE<gt>"
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/prE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/prE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/prE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:132
 msgid "or available locally via: info \\(aq(coreutils) pr invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) pr invocation\\(aq"
 
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"

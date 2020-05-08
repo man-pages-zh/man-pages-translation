@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:10+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
 #, no-wrap
@@ -30,88 +26,78 @@ msgstr "RMDIR"
 
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/rmdir.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:5
 msgid "rmdir - remove empty directories"
 msgstr "rmdir - 删除空目录"
 
-#
 #. type: SH
 #: raw/coreutils/man1/rmdir.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:8
 msgid "B<rmdir> [I<\\,OPTION\\/>]... I<\\,DIRECTORY\\/>..."
 msgstr "B<rmdir> [I<\\,选项\\/>]... I<\\,目录列表\\/>..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/rmdir.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:12
 msgid "Remove the DIRECTORY(ies), if they are empty."
 msgstr "删除目录列表中的空目录。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:14
 msgid "B<--ignore-fail-on-non-empty>"
 msgstr "B<--ignore-fail-on-non-empty>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:16
 msgid "ignore each failure that is solely because a directory"
 msgstr "忽略每一个仅因目录非空而导致的错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:18
 msgid "is non-empty"
 msgstr " "
 
-#
 #. type: TP
 #: raw/coreutils/man1/rmdir.1:18
 #, no-wrap
 msgid "B<-p>, B<--parents>"
 msgstr "B<-p>, B<--parents>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:22
 msgid ""
@@ -121,84 +107,79 @@ msgstr ""
 "删除目录及其路径上的目录；比如，'rmdir B<-p> a/b/c' 类似于 'rmdir a/b/c a/b "
 "a'"
 
-#
 #. type: TP
 #: raw/coreutils/man1/rmdir.1:22
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:25
 msgid "output a diagnostic for every directory processed"
 msgstr "为每一个处理过的目录输出诊断信息"
 
-#
 #. type: TP
 #: raw/coreutils/man1/rmdir.1:25
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:28
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/rmdir.1:28
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:31
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/rmdir.1:31
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:33
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/rmdir.1:33
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:35
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:37
+#, fuzzy
+#| msgid ""
+#| "Report rmdir translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report rmdir translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 rmdir 的翻"
 "译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/rmdir.1:37
 #, no-wrap
@@ -207,14 +188,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:40
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:43
 msgid ""
@@ -224,37 +208,34 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/rmdir.1:43
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:45
 msgid "rmdir(2)"
 msgstr "rmdir(2)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:48
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "rmdirE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/rmdirE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/rmdirE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/rmdirE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:49
 msgid "or available locally via: info \\(aq(coreutils) rmdir invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) rmdir invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

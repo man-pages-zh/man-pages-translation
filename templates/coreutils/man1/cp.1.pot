@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -474,16 +473,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:142
+#: raw/coreutils/man1/cp.1:143
 msgid ""
 "When B<--reflink>[=I<\\,always\\/>] is specified, perform a lightweight "
 "copy, where the data blocks are copied only when modified.  If this is not "
 "possible the copy fails, or if B<--reflink>=I<\\,auto\\/> is specified, fall "
-"back to a standard copy."
+"back to a standard copy.  Use B<--reflink>=I<\\,never\\/> to ensure a "
+"standard copy is performed."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:146
+#: raw/coreutils/man1/cp.1:147
 msgid ""
 "The backup suffix is '~', unless set with B<--suffix> or "
 "SIMPLE_BACKUP_SUFFIX.  The version control method may be selected via the "
@@ -492,51 +492,51 @@ msgid ""
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:146
+#: raw/coreutils/man1/cp.1:147
 #, no-wrap
 msgid "none, off"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:149
+#: raw/coreutils/man1/cp.1:150
 msgid "never make backups (even if B<--backup> is given)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:149
+#: raw/coreutils/man1/cp.1:150
 #, no-wrap
 msgid "numbered, t"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:152
+#: raw/coreutils/man1/cp.1:153
 msgid "make numbered backups"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:152
+#: raw/coreutils/man1/cp.1:153
 #, no-wrap
 msgid "existing, nil"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:155
+#: raw/coreutils/man1/cp.1:156
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:155
+#: raw/coreutils/man1/cp.1:156
 #, no-wrap
 msgid "simple, never"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:158
+#: raw/coreutils/man1/cp.1:159
 msgid "always make simple backups"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:162
+#: raw/coreutils/man1/cp.1:163
 msgid ""
 "As a special case, cp makes a backup of SOURCE when the force and backup "
 "options are given and SOURCE and DEST are the same name for an existing, "
@@ -544,67 +544,66 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:162
+#: raw/coreutils/man1/cp.1:163
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:164
+#: raw/coreutils/man1/cp.1:165
 msgid "Written by Torbjorn Granlund, David MacKenzie, and Jim Meyering."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:164
+#: raw/coreutils/man1/cp.1:165
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:166
+#: raw/coreutils/man1/cp.1:167
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:168
+#: raw/coreutils/man1/cp.1:169
 msgid ""
-"Report cp translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:168
+#: raw/coreutils/man1/cp.1:169
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:171
+#: raw/coreutils/man1/cp.1:172
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:174
+#: raw/coreutils/man1/cp.1:175
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:174
+#: raw/coreutils/man1/cp.1:175
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:176
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
+#: raw/coreutils/man1/cp.1:177
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/cpE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:177
+#: raw/coreutils/man1/cp.1:178
 msgid "or available locally via: info \\(aq(coreutils) cp invocation\\(aq"
 msgstr ""

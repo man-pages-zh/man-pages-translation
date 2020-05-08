@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:54+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
 #, no-wrap
@@ -30,64 +26,58 @@ msgstr "TOUCH"
 
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:5
 msgid "touch - change file timestamps"
 msgstr "touch - 改变文件时间戳"
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:8
 msgid "B<touch> [I<\\,OPTION\\/>]... I<\\,FILE\\/>..."
 msgstr "B<touch> [I<\\,选项\\/>]... I<\\,文件列表\\/>..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:12
 msgid ""
 "Update the access and modification times of each FILE to the current time."
 msgstr "将每个文件的访问时间和修改时间更新为当前时间。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:15
 msgid ""
@@ -96,7 +86,6 @@ msgid ""
 msgstr ""
 "除非提供了 B<-c> 或 B<-h> 参数，否则程序会在文件不存在时创建一个空文件。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:18
 msgid ""
@@ -106,73 +95,62 @@ msgstr ""
 "如果文件列表参数中有连字符“-”，它将被 touch 特别处理，并更改与标准输出相关联"
 "的文件的相应时间信息。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:20
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:20
 #, no-wrap
 msgid "B<-a>"
 msgstr "B<-a>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:23
 msgid "change only the access time"
 msgstr "仅更改文件访问时间"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:23
 #, no-wrap
 msgid "B<-c>, B<--no-create>"
 msgstr "B<-c>, B<--no-create>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:26
 msgid "do not create any files"
 msgstr "不要创建任何文件"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:26
 #, no-wrap
 msgid "B<-d>, B<--date>=I<\\,STRING\\/>"
 msgstr "B<-d>, B<--date>=I<\\,字符串\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:29
 msgid "parse STRING and use it instead of current time"
 msgstr "使用指定字符串所表示的时间而非当前时间"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:29
 #, no-wrap
 msgid "B<-f>"
 msgstr "B<-f>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:32
 msgid "(ignored)"
 msgstr "（被忽略的选项）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:32
 #, no-wrap
 msgid "B<-h>, B<--no-dereference>"
 msgstr "B<-h>, B<--no-dereference>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:37
 msgid ""
@@ -181,53 +159,45 @@ msgid ""
 msgstr ""
 "影响所有符号链接而非被引用的文件（仅在能够更改符号链接的时间戳的系统上有用）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:37
 #, no-wrap
 msgid "B<-m>"
 msgstr "B<-m>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:40
 msgid "change only the modification time"
 msgstr "仅更改文件修改时间"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:40
 #, no-wrap
 msgid "B<-r>, B<--reference>=I<\\,FILE\\/>"
 msgstr "B<-r>, B<--reference>=I<\\,文件\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:43
 msgid "use this file's times instead of current time"
 msgstr "使用指定文件的时间代替当前时间"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:43
 #, no-wrap
 msgid "B<-t> STAMP"
 msgstr "B<-t> STAMP"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:46
 msgid "use [[CC]YY]MMDDhhmm[.ss] instead of current time"
 msgstr "使用 [[CC]YY]MMDDhhmm[.ss] 代替当前时间"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:46
 #, no-wrap
 msgid "B<--time>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:51
 msgid ""
@@ -237,47 +207,40 @@ msgstr ""
 "改变文件的指定时间：若关键字是 access，atime 或 use，则等同于 B<-a>；若关键字"
 "是 modify 或 mtime，则等同于 B<-m>"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:51
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:54
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/touch.1:54
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:57
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:59
 msgid ""
 "Note that the B<-d> and B<-t> options accept different time-date formats."
 msgstr "请注意 B<-d> 和 B<-t> 选项接受的时间-日期格式有所不同。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:59
 #, no-wrap
 msgid "DATE STRING"
 msgstr "日期字符串"
 
-#
 #.  NOTE: keep this paragraph in sync with the one in date.x
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:68
@@ -297,14 +260,12 @@ msgstr ""
 "符串的具体格式较为复杂，在手册页中难以简单描述清楚，但是您可以在 info 文档中"
 "找到完整内容。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:68
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:71
 msgid ""
@@ -314,32 +275,35 @@ msgstr ""
 "由 Paul Rubin, Arnold Robbins, Jim Kingdon David MacKenzie 和 Randy Smith 编"
 "写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:71
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:73
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:75
+#, fuzzy
+#| msgid ""
+#| "Report touch translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report touch translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 touch 的翻"
 "译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:75
 #, no-wrap
@@ -348,14 +312,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:78
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:81
 msgid ""
@@ -365,31 +332,29 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/touch.1:81
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:83
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "touchE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/touchE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/touchE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/touchE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:84
 msgid "or available locally via: info \\(aq(coreutils) touch invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) touch invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

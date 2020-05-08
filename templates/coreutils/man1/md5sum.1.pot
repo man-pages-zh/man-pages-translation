@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/md5sum.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/md5sum.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -122,91 +121,103 @@ msgstr ""
 msgid "read in text mode (default)"
 msgstr ""
 
-#. type: SS
+#. type: TP
 #: raw/coreutils/man1/md5sum.1:26
+#, no-wrap
+msgid "B<-z>, B<--zero>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/md5sum.1:30
+msgid ""
+"end each output line with NUL, not newline, and disable file name escaping"
+msgstr ""
+
+#. type: SS
+#: raw/coreutils/man1/md5sum.1:30
 #, no-wrap
 msgid "The following five options are useful only when verifying checksums:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/md5sum.1:27
+#: raw/coreutils/man1/md5sum.1:31
 #, no-wrap
 msgid "B<--ignore-missing>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:30
+#: raw/coreutils/man1/md5sum.1:34
 msgid "don't fail or report status for missing files"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/md5sum.1:30
+#: raw/coreutils/man1/md5sum.1:34
 #, no-wrap
 msgid "B<--quiet>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:33
+#: raw/coreutils/man1/md5sum.1:37
 msgid "don't print OK for each successfully verified file"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/md5sum.1:33
+#: raw/coreutils/man1/md5sum.1:37
 #, no-wrap
 msgid "B<--status>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:36
+#: raw/coreutils/man1/md5sum.1:40
 msgid "don't output anything, status code shows success"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/md5sum.1:36
+#: raw/coreutils/man1/md5sum.1:40
 #, no-wrap
 msgid "B<--strict>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:39
+#: raw/coreutils/man1/md5sum.1:43
 msgid "exit non-zero for improperly formatted checksum lines"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/md5sum.1:39
+#: raw/coreutils/man1/md5sum.1:43
 #, no-wrap
 msgid "B<-w>, B<--warn>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:42
+#: raw/coreutils/man1/md5sum.1:46
 msgid "warn about improperly formatted checksum lines"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/md5sum.1:42
+#: raw/coreutils/man1/md5sum.1:46
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:45
+#: raw/coreutils/man1/md5sum.1:49
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/md5sum.1:45
+#: raw/coreutils/man1/md5sum.1:49
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:48
+#: raw/coreutils/man1/md5sum.1:52
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:53
+#: raw/coreutils/man1/md5sum.1:57
 msgid ""
 "The sums are computed as described in RFC 1321.  When checking, the input "
 "should be a former output of this program.  The default mode is to print a "
@@ -215,14 +226,21 @@ msgid ""
 "FILE."
 msgstr ""
 
+#. type: Plain text
+#: raw/coreutils/man1/md5sum.1:59
+msgid ""
+"Note: There is no difference between binary mode and text mode on GNU "
+"systems."
+msgstr ""
+
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:53
+#: raw/coreutils/man1/md5sum.1:59
 #, no-wrap
 msgid "BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:58
+#: raw/coreutils/man1/md5sum.1:64
 msgid ""
 "Do not use the MD5 algorithm for security related purposes.  Instead, use an "
 "SHA-2 algorithm, implemented in the programs sha224sum(1), sha256sum(1), "
@@ -230,68 +248,67 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:58
+#: raw/coreutils/man1/md5sum.1:64
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:60
+#: raw/coreutils/man1/md5sum.1:66
 msgid "Written by Ulrich Drepper, Scott Miller, and David Madore."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:60
+#: raw/coreutils/man1/md5sum.1:66
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:62
+#: raw/coreutils/man1/md5sum.1:68
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:64
+#: raw/coreutils/man1/md5sum.1:70
 msgid ""
-"Report md5sum translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:64
+#: raw/coreutils/man1/md5sum.1:70
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:67
+#: raw/coreutils/man1/md5sum.1:73
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:70
+#: raw/coreutils/man1/md5sum.1:76
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:70
+#: raw/coreutils/man1/md5sum.1:76
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:72
+#: raw/coreutils/man1/md5sum.1:78
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/md5sumE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/md5sumE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:73
+#: raw/coreutils/man1/md5sum.1:79
 msgid "or available locally via: info \\(aq(coreutils) md5sum invocation\\(aq"
 msgstr ""

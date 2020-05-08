@@ -1,14 +1,12 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:01+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -19,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
 #, no-wrap
@@ -28,179 +25,167 @@ msgstr "TRUNCATE"
 
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/truncate.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:5
 msgid "truncate - shrink or extend the size of a file to the specified size"
 msgstr "truncate - 缩减或扩展文件尺寸至指定大小"
 
-#
 #. type: SH
 #: raw/coreutils/man1/truncate.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:8
 msgid "B<truncate> I<\\,OPTION\\/>... I<\\,FILE\\/>..."
 msgstr "B<truncate> I<\\,选项\\/>... I<\\,文件列表\\/>..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/truncate.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:12
 msgid "Shrink or extend the size of each FILE to the specified size"
 msgstr "缩减或扩展每个指定文件的尺寸到指定的大小"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:14
 msgid "A FILE argument that does not exist is created."
 msgstr "如果给定文件参数中有不存在的文件，则它将被创建。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:18
+#, fuzzy
+#| msgid ""
+#| "If a FILE is larger than the specified size, the extra data is lost.  If "
+#| "a FILE is shorter, it is extended and the extended part (hole)  reads as "
+#| "zero bytes."
 msgid ""
 "If a FILE is larger than the specified size, the extra data is lost.  If a "
-"FILE is shorter, it is extended and the extended part (hole)  reads as zero "
-"bytes."
+"FILE is shorter, it is extended and the sparse extended part (hole)  reads "
+"as zero bytes."
 msgstr ""
 "如果一个文件比指定大小要大，多余的数据将会丢失。如果文件相对指定大小较小，则"
 "它将被扩展，扩展部分（空洞）将填充零字节。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:20
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/truncate.1:20
 #, no-wrap
 msgid "B<-c>, B<--no-create>"
 msgstr "B<-c>, B<--no-create>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:23
 msgid "do not create any files"
 msgstr "不要创建任何文件"
 
-#
 #. type: TP
 #: raw/coreutils/man1/truncate.1:23
 #, no-wrap
 msgid "B<-o>, B<--io-blocks>"
 msgstr "B<-o>, B<--io-blocks>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:26
 msgid "treat SIZE as number of IO blocks instead of bytes"
 msgstr "将给定大小的数字作为 IO 块数处理，而非作为字节数处理"
 
-#
 #. type: TP
 #: raw/coreutils/man1/truncate.1:26
 #, no-wrap
 msgid "B<-r>, B<--reference>=I<\\,RFILE\\/>"
 msgstr "B<-r>, B<--reference>=I<\\,参考文件\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:29
 msgid "base size on RFILE"
 msgstr "以所指定的文件大小作为基准"
 
-#
 #. type: TP
 #: raw/coreutils/man1/truncate.1:29
 #, no-wrap
 msgid "B<-s>, B<--size>=I<\\,SIZE\\/>"
 msgstr "B<-s>, B<--size>=I<\\,尺寸值\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:32
 msgid "set or adjust the file size by SIZE bytes"
 msgstr "使用给定尺寸值设定或调整文件大小"
 
-#
 #. type: TP
 #: raw/coreutils/man1/truncate.1:32
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:35
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/truncate.1:35
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:38
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:41
+#: raw/coreutils/man1/truncate.1:42
+#, fuzzy
+#| msgid ""
+#| "The SIZE argument is an integer and optional unit (example: 10K is "
+#| "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... "
+#| "(powers of 1000)."
 msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
-"of 1000)."
+"of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
 "所指定的大小是一个整数，可以附带一个可选的单位（例如，10K指代 10*1024）。单位"
 "包括 K、M、G、T、P、E、Z、Y（以1024作为基准）或者 KB、MB、…（以1000作为基"
 "准））。"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:45
+#: raw/coreutils/man1/truncate.1:46
 msgid ""
 "SIZE may also be prefixed by one of the following modifying characters: "
 "\\&'+' extend by, '-' reduce by, 'E<lt>' at most, 'E<gt>' at least, \\&'/' "
@@ -210,63 +195,67 @@ msgstr ""
 "缩减数值，'E<lt>' 值最大值，'E<gt>' 指最小值， \\&'/' 修改大小为指定数值的倍"
 "数，向下舍入，'%' 修改大小为指定数值的倍数，向上舍入。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/truncate.1:45
+#: raw/coreutils/man1/truncate.1:46
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:47
+#: raw/coreutils/man1/truncate.1:48
 msgid "Written by Padraig Brady."
 msgstr "由 Padraig Brady 编写。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/truncate.1:47
+#: raw/coreutils/man1/truncate.1:48
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:49
+#: raw/coreutils/man1/truncate.1:50
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:51
+#: raw/coreutils/man1/truncate.1:52
+#, fuzzy
+#| msgid ""
+#| "Report truncate translation bugs to E<lt>http://translationproject.org/"
+#| "team/E<gt>"
 msgid ""
-"Report truncate translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 truncate 的"
 "翻译错误。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/truncate.1:51
+#: raw/coreutils/man1/truncate.1:52
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:54
+#: raw/coreutils/man1/truncate.1:55
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:57
+#: raw/coreutils/man1/truncate.1:58
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -274,40 +263,36 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/truncate.1:57
+#: raw/coreutils/man1/truncate.1:58
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:59
+#: raw/coreutils/man1/truncate.1:60
 msgid "dd(1), truncate(2), ftruncate(2)"
 msgstr "dd(1), truncate(2), ftruncate(2)"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:62
+#: raw/coreutils/man1/truncate.1:63
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "truncateE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-"truncateE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
 msgstr ""
 "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/truncateE<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/truncate.1:63
+#: raw/coreutils/man1/truncate.1:64
 msgid ""
 "or available locally via: info \\(aq(coreutils) truncate invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) truncate invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -228,159 +227,168 @@ msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:59
+#: raw/coreutils/man1/nl.1:57
 msgid ""
-"By default, selects B<-v1> B<-i1> B<-l1> B<-sTAB> B<-w6> B<-nrn> B<-hn> B<-"
-"bt> B<-fn>.  CC are two delimiter characters used to construct logical page "
-"delimiters, a missing second character implies :.  Type \\e\\e for \\e.  "
-"STYLE is one of:"
+"Default options are: B<-bt> B<-d>'\\e:' B<-fn> B<-hn> B<-i1> B<-l1> B<-"
+"n>'rn' B<-s>E<lt>TABE<gt> B<-v1> B<-w6>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/nl.1:60
+msgid ""
+"CC are two delimiter characters used to construct logical page delimiters; a "
+"missing second character implies ':'."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/nl.1:62
+msgid "STYLE is one of:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/nl.1:59
+#: raw/coreutils/man1/nl.1:62
 #, no-wrap
 msgid "a"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:62
+#: raw/coreutils/man1/nl.1:65
 msgid "number all lines"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/nl.1:62
+#: raw/coreutils/man1/nl.1:65
 #, no-wrap
 msgid "t"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:65
+#: raw/coreutils/man1/nl.1:68
 msgid "number only nonempty lines"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/nl.1:65
+#: raw/coreutils/man1/nl.1:68
 #, no-wrap
 msgid "n"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:68
+#: raw/coreutils/man1/nl.1:71
 msgid "number no lines"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/nl.1:68
+#: raw/coreutils/man1/nl.1:71
 #, no-wrap
 msgid "pBRE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:72
+#: raw/coreutils/man1/nl.1:75
 msgid ""
 "number only lines that contain a match for the basic regular expression, BRE"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:74
+#: raw/coreutils/man1/nl.1:77
 msgid "FORMAT is one of:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/nl.1:74
+#: raw/coreutils/man1/nl.1:77
 #, no-wrap
 msgid "ln"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:77
+#: raw/coreutils/man1/nl.1:80
 msgid "left justified, no leading zeros"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/nl.1:77
+#: raw/coreutils/man1/nl.1:80
 #, no-wrap
 msgid "rn"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:80
+#: raw/coreutils/man1/nl.1:83
 msgid "right justified, no leading zeros"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/nl.1:80
+#: raw/coreutils/man1/nl.1:83
 #, no-wrap
 msgid "rz"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:83
+#: raw/coreutils/man1/nl.1:86
 msgid "right justified, leading zeros"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/nl.1:83
+#: raw/coreutils/man1/nl.1:86
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:85
+#: raw/coreutils/man1/nl.1:88
 msgid "Written by Scott Bartram and David MacKenzie."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/nl.1:85
+#: raw/coreutils/man1/nl.1:88
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:87
+#: raw/coreutils/man1/nl.1:90
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/nl.1:89
-msgid ""
-"Report nl translation bugs to E<lt>http://translationproject.org/team/E<gt>"
-msgstr ""
-
-#. type: SH
-#: raw/coreutils/man1/nl.1:89
-#, no-wrap
-msgid "COPYRIGHT"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:92
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
+msgstr ""
+
+#. type: SH
+#: raw/coreutils/man1/nl.1:92
+#, no-wrap
+msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:95
+msgid ""
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/nl.1:98
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/nl.1:95
+#: raw/coreutils/man1/nl.1:98
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:97
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/nlE<gt>"
+#: raw/coreutils/man1/nl.1:100
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/nlE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:98
+#: raw/coreutils/man1/nl.1:101
 msgid "or available locally via: info \\(aq(coreutils) nl invocation\\(aq"
 msgstr ""

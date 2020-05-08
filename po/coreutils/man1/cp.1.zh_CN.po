@@ -1,14 +1,13 @@
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:27+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -28,13 +27,14 @@ msgstr "CP"
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+msgid "March 2020"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
 #. type: TH
@@ -489,19 +489,26 @@ msgstr ""
 "序列时将其视作稀疏文件。使用 B<--sparse>=I<\\,never\\/> 以禁止创建稀疏文件。"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:142
+#: raw/coreutils/man1/cp.1:143
+#, fuzzy
+#| msgid ""
+#| "When B<--reflink>[=I<\\,always\\/>] is specified, perform a lightweight "
+#| "copy, where the data blocks are copied only when modified.  If this is "
+#| "not possible the copy fails, or if B<--reflink>=I<\\,auto\\/> is "
+#| "specified, fall back to a standard copy."
 msgid ""
 "When B<--reflink>[=I<\\,always\\/>] is specified, perform a lightweight "
 "copy, where the data blocks are copied only when modified.  If this is not "
 "possible the copy fails, or if B<--reflink>=I<\\,auto\\/> is specified, fall "
-"back to a standard copy."
+"back to a standard copy.  Use B<--reflink>=I<\\,never\\/> to ensure a "
+"standard copy is performed."
 msgstr ""
 "当指定了 B<--reflink>[=I<\\,always\\/>] 时，进行轻量级复制，其中的数据块仅在"
 "被修改时进行复制。如果这样的复制失败，或无法实行，或者指定了 B<--reflink>=I<"
 "\\,auto\\/> 时，回退到标准复制。"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:146
+#: raw/coreutils/man1/cp.1:147
 msgid ""
 "The backup suffix is '~', unless set with B<--suffix> or "
 "SIMPLE_BACKUP_SUFFIX.  The version control method may be selected via the "
@@ -513,51 +520,51 @@ msgstr ""
 "下："
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:146
+#: raw/coreutils/man1/cp.1:147
 #, no-wrap
 msgid "none, off"
 msgstr "none, off"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:149
+#: raw/coreutils/man1/cp.1:150
 msgid "never make backups (even if B<--backup> is given)"
 msgstr "永远不制作备份（即使给出了 B<--backup> ）"
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:149
+#: raw/coreutils/man1/cp.1:150
 #, no-wrap
 msgid "numbered, t"
 msgstr "numbered, t"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:152
+#: raw/coreutils/man1/cp.1:153
 msgid "make numbered backups"
 msgstr "制作编号的备份"
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:152
+#: raw/coreutils/man1/cp.1:153
 #, no-wrap
 msgid "existing, nil"
 msgstr "existing, nil"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:155
+#: raw/coreutils/man1/cp.1:156
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr "如果已编号副本存在则编号，否则采用简单方式"
 
 #. type: TP
-#: raw/coreutils/man1/cp.1:155
+#: raw/coreutils/man1/cp.1:156
 #, no-wrap
 msgid "simple, never"
 msgstr "simple, never"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:158
+#: raw/coreutils/man1/cp.1:159
 msgid "always make simple backups"
 msgstr "总是制作简单备份"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:162
+#: raw/coreutils/man1/cp.1:163
 msgid ""
 "As a special case, cp makes a backup of SOURCE when the force and backup "
 "options are given and SOURCE and DEST are the same name for an existing, "
@@ -567,54 +574,66 @@ msgstr ""
 "是同一个已存在普通文件的情况下制作备份副本。"
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:162
+#: raw/coreutils/man1/cp.1:163
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:164
+#: raw/coreutils/man1/cp.1:165
 msgid "Written by Torbjorn Granlund, David MacKenzie, and Jim Meyering."
 msgstr "由 Torbjorn Granlund、David MacKenzie 和 Jim Meyering 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:164
+#: raw/coreutils/man1/cp.1:165
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:166
+#: raw/coreutils/man1/cp.1:167
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:168
+#: raw/coreutils/man1/cp.1:169
+#, fuzzy
+#| msgid ""
+#| "Report cp translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report cp translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 cp 的翻译错"
 "误。"
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:168
+#: raw/coreutils/man1/cp.1:169
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:171
+#: raw/coreutils/man1/cp.1:172
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:174
+#: raw/coreutils/man1/cp.1:175
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -623,21 +642,26 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/cp.1:174
+#: raw/coreutils/man1/cp.1:175
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:176
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
+#: raw/coreutils/man1/cp.1:177
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/cpE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/cp.1:177
+#: raw/coreutils/man1/cp.1:178
 msgid "or available locally via: info \\(aq(coreutils) cp invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) cp invocation\\(aq"
+
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
 
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"

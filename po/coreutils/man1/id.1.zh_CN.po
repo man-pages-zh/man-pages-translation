@@ -1,15 +1,12 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:56+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -20,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/id.1:2
 #, no-wrap
@@ -29,24 +25,24 @@ msgstr "ID"
 
 #. type: TH
 #: raw/coreutils/man1/id.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/id.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/id.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/id.1:3
 #, no-wrap
@@ -58,7 +54,6 @@ msgstr "名称"
 msgid "id - print real and effective user and group IDs"
 msgstr "id - 显示真实和有效用户 ID 和组 ID"
 
-#
 #. type: SH
 #: raw/coreutils/man1/id.1:5
 #, no-wrap
@@ -67,207 +62,191 @@ msgstr "概述"
 
 #. type: Plain text
 #: raw/coreutils/man1/id.1:8
-msgid "B<id> [I<\\,OPTION\\/>]... [I<\\,USER\\/>]"
+#, fuzzy
+#| msgid "B<id> [I<\\,OPTION\\/>]... [I<\\,USER\\/>]"
+msgid "B<id> [I<\\,OPTION\\/>]... [I<\\,USER\\/>]..."
 msgstr "B<id> [I<\\,选项\\/>]... [I<\\,用户\\/>]"
 
 # ile: raw/man1/id.1, line: 8
-#
 #. type: SH
 #: raw/coreutils/man1/id.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:13
+#, fuzzy
+#| msgid ""
+#| "Print user and group information for the specified USER, or (when USER "
+#| "omitted) for the current user."
 msgid ""
-"Print user and group information for the specified USER, or (when USER "
+"Print user and group information for each specified USER, or (when USER "
 "omitted) for the current user."
 msgstr ""
 "显示指定用户的用户和用户组信息，或者（在没有给定用户信息的情况下）显示当前用"
 "户的信息。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:13
 #, no-wrap
 msgid "B<-a>"
 msgstr "B<-a>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:16
 msgid "ignore, for compatibility with other versions"
 msgstr "忽略，仅用于与其它版本兼容"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:16
 #, no-wrap
 msgid "B<-Z>, B<--context>"
 msgstr "B<-Z>, B<--context>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:19
 msgid "print only the security context of the process"
 msgstr "只显示当前进程的安全上下文"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:19
 #, no-wrap
 msgid "B<-g>, B<--group>"
 msgstr "B<-g>, B<--group>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:22
 msgid "print only the effective group ID"
 msgstr "只显示有效组 ID"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:22
 #, no-wrap
 msgid "B<-G>, B<--groups>"
 msgstr "B<-G>, B<--groups>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:25
 msgid "print all group IDs"
 msgstr "显示所有组 ID"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:25
 #, no-wrap
 msgid "B<-n>, B<--name>"
 msgstr "B<-n>, B<--name>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:28
 msgid "print a name instead of a number, for B<-ugG>"
 msgstr "显示名称而非编号，与 B<-ugG> 共同使用"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:28
 #, no-wrap
 msgid "B<-r>, B<--real>"
 msgstr "B<-r>, B<--real>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:31
 msgid "print the real ID instead of the effective ID, with B<-ugG>"
 msgstr "显示真实 ID 而非有效 ID，与 B<-ugG> 共同使用"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:31
 #, no-wrap
 msgid "B<-u>, B<--user>"
 msgstr "B<-u>, B<--user>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:34
 msgid "print only the effective user ID"
 msgstr "只显示有效用户 ID"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:34
 #, no-wrap
 msgid "B<-z>, B<--zero>"
 msgstr "B<-z>, B<--zero>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:37
 msgid "delimit entries with NUL characters, not whitespace;"
 msgstr "使用 NUL 字符分隔不同项，而不用空格；"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:39
 msgid "not permitted in default format"
 msgstr "在默认格式情况下不允许使用"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:39
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:42
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/id.1:42
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:45
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:47
 msgid "Without any OPTION, print some useful set of identified information."
 msgstr "如果没有指定任何选项，将会显示一些有用的身份信息。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/id.1:47
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:49
 msgid "Written by Arnold Robbins and David MacKenzie."
 msgstr "由 Arnold Robbins 和 David MacKenzie 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/id.1:49
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:51
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:53
+#, fuzzy
+#| msgid ""
+#| "Report id translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report id translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 id 的翻译错"
 "误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/id.1:53
 #, no-wrap
@@ -276,14 +255,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/id.1:56
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:59
 msgid ""
@@ -293,32 +275,27 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/id.1:59
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:61
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/idE<gt>"
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/idE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/idE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/idE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/id.1:62
 msgid "or available locally via: info \\(aq(coreutils) id invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) id invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

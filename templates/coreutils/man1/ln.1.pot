@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/ln.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/ln.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -59,26 +58,22 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:8
-msgid ""
-"B<ln> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,TARGET LINK_NAME (1st form)\\/>"
+msgid "B<ln> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,TARGET LINK_NAME\\/>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:11
-msgid "B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET (2nd form)\\/>"
+msgid "B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET\\/>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:14
-msgid ""
-"B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET\\/>... I<\\,DIRECTORY (3rd form)\\/>"
+msgid "B<ln> [I<\\,OPTION\\/>]... I<\\,TARGET\\/>... I<\\,DIRECTORY\\/>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:17
-msgid ""
-"B<ln> [I<\\,OPTION\\/>]... I<\\,-t DIRECTORY TARGET\\/>...  I<\\,(4th "
-"form)\\/>"
+msgid "B<ln> [I<\\,OPTION\\/>]... I<\\,-t DIRECTORY TARGET\\/>..."
 msgstr ""
 
 #. type: SH
@@ -364,13 +359,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:105
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:107
 msgid ""
-"Report ln translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
@@ -382,8 +377,8 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:110
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
@@ -406,8 +401,7 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:118
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/lnE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/lnE<gt>"
 msgstr ""
 
 #. type: Plain text

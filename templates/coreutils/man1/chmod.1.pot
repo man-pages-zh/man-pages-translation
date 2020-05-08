@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -175,22 +174,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:104
+#: raw/coreutils/man1/chmod.1:109
 msgid ""
-"B<chmod> preserves a directory's set-user-ID and set-group-ID bits unless "
+"For directories B<chmod> preserves set-user-ID and set-group-ID bits unless "
 "you explicitly specify otherwise.  You can set or clear the bits with "
-"symbolic modes like B<u+s> and B<g-s>, and you can set (but not clear) the "
-"bits with a numeric mode."
+"symbolic modes like B<u+s> and B<g-s>.  To clear these bits for directories "
+"with a numeric mode requires an additional leading zero, or leading = like "
+"B<00755> , or B<=755>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:104
+#: raw/coreutils/man1/chmod.1:109
 #, no-wrap
 msgid "RESTRICTED DELETION FLAG OR STICKY BIT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:115
+#: raw/coreutils/man1/chmod.1:120
 msgid ""
 "The restricted deletion flag or sticky bit is a single bit, whose "
 "interpretation depends on the file type.  For directories, it prevents "
@@ -203,191 +203,190 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:115
+#: raw/coreutils/man1/chmod.1:120
 #, no-wrap
 msgid "OPTIONS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:119
+#: raw/coreutils/man1/chmod.1:124
 msgid ""
 "Change the mode of each FILE to MODE.  With B<--reference>, change the mode "
 "of each FILE to that of RFILE."
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:119
+#: raw/coreutils/man1/chmod.1:124
 #, no-wrap
 msgid "B<-c>, B<--changes>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:122
+#: raw/coreutils/man1/chmod.1:127
 msgid "like verbose but report only when a change is made"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:122
+#: raw/coreutils/man1/chmod.1:127
 #, no-wrap
 msgid "B<-f>, B<--silent>, B<--quiet>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:125
+#: raw/coreutils/man1/chmod.1:130
 msgid "suppress most error messages"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:125
+#: raw/coreutils/man1/chmod.1:130
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:128
+#: raw/coreutils/man1/chmod.1:133
 msgid "output a diagnostic for every file processed"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:128
+#: raw/coreutils/man1/chmod.1:133
 #, no-wrap
 msgid "B<--no-preserve-root>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:131
+#: raw/coreutils/man1/chmod.1:136
 msgid "do not treat '/' specially (the default)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:131
+#: raw/coreutils/man1/chmod.1:136
 #, no-wrap
 msgid "B<--preserve-root>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:134
+#: raw/coreutils/man1/chmod.1:139
 msgid "fail to operate recursively on '/'"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:134
+#: raw/coreutils/man1/chmod.1:139
 #, no-wrap
 msgid "B<--reference>=I<\\,RFILE\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:137
+#: raw/coreutils/man1/chmod.1:142
 msgid "use RFILE's mode instead of MODE values"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:137
+#: raw/coreutils/man1/chmod.1:142
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:140
+#: raw/coreutils/man1/chmod.1:145
 msgid "change files and directories recursively"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:140
+#: raw/coreutils/man1/chmod.1:145
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:143
+#: raw/coreutils/man1/chmod.1:148
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:143
+#: raw/coreutils/man1/chmod.1:148
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:146
+#: raw/coreutils/man1/chmod.1:151
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:148
+#: raw/coreutils/man1/chmod.1:153
 msgid ""
 "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:148
+#: raw/coreutils/man1/chmod.1:153
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:150
+#: raw/coreutils/man1/chmod.1:155
 msgid "Written by David MacKenzie and Jim Meyering."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:150
+#: raw/coreutils/man1/chmod.1:155
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:152
+#: raw/coreutils/man1/chmod.1:157
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:154
+#: raw/coreutils/man1/chmod.1:159
 msgid ""
-"Report chmod translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:154
+#: raw/coreutils/man1/chmod.1:159
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:157
+#: raw/coreutils/man1/chmod.1:162
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:160
+#: raw/coreutils/man1/chmod.1:165
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:160
+#: raw/coreutils/man1/chmod.1:165
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:162
+#: raw/coreutils/man1/chmod.1:167
 msgid "chmod(2)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:165
+#: raw/coreutils/man1/chmod.1:170
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chmodE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/chmodE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:166
+#: raw/coreutils/man1/chmod.1:171
 msgid "or available locally via: info \\(aq(coreutils) chmod invocation\\(aq"
 msgstr ""

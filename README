@@ -26,6 +26,9 @@ If anyone wants to add a new man page for translation, please
 put it under `raw/` directory as others. Then automatic scripts
 will take care of them.
 
+Note: consider running `find . -type f -exec sed -i '/^#$/d' {} \;`
+for generated POT and PO files.
+
 Current active translations
 ---------------------------
 

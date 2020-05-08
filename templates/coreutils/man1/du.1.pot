@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/du.1:2
 #, no-wrap
-msgid "October 2017"
+msgid "March 2020"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/du.1:2
 #, no-wrap
-msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr ""
 
 #. type: TH
@@ -431,103 +430,102 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:127
+#: raw/coreutils/man1/du.1:128
 msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
-"of 1000)."
+"of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/du.1:127
+#: raw/coreutils/man1/du.1:128
 #, no-wrap
 msgid "PATTERNS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:138
+#: raw/coreutils/man1/du.1:139
 msgid ""
-"PATTERN is a shell pattern (not a regular expression).  The pattern B<?> "
+"PATTERN is a shell pattern (not a regular expression).  The pattern B<?\\&> "
 "matches any one character, whereas B<*> matches any string (composed of "
 "zero, one or multiple characters).  For example, B<*.o> will match any files "
 "whose names end in B<.o>.  Therefore, the command"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:140
+#: raw/coreutils/man1/du.1:141
 msgid "B<du --exclude=\\(aq*.o\\(aq>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:146
+#: raw/coreutils/man1/du.1:147
 msgid ""
 "will skip all files and subdirectories ending in B<.o> (including the file "
 "B<.o> itself)."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/du.1:146
+#: raw/coreutils/man1/du.1:147
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:149
+#: raw/coreutils/man1/du.1:150
 msgid ""
 "Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim Meyering."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/du.1:149
+#: raw/coreutils/man1/du.1:150
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:151
+#: raw/coreutils/man1/du.1:152
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:153
+#: raw/coreutils/man1/du.1:154
 msgid ""
-"Report du translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/du.1:153
+#: raw/coreutils/man1/du.1:154
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:156
+#: raw/coreutils/man1/du.1:157
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:159
+#: raw/coreutils/man1/du.1:160
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/du.1:159
+#: raw/coreutils/man1/du.1:160
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:161
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/duE<gt>"
+#: raw/coreutils/man1/du.1:162
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/duE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/du.1:162
+#: raw/coreutils/man1/du.1:163
 msgid "or available locally via: info \\(aq(coreutils) du invocation\\(aq"
 msgstr ""

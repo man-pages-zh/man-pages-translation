@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # riser <boomer@ccidnet.com>, 2000.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:00+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/head.1:2
 #, no-wrap
@@ -30,50 +26,46 @@ msgstr "HEAD"
 
 #. type: TH
 #: raw/coreutils/man1/head.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/head.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/head.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/head.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:5
 msgid "head - output the first part of files"
 msgstr "head - 输出文件的起始部分"
 
-#
 #. type: SH
 #: raw/coreutils/man1/head.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:8
 msgid "B<head> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<head> [I<\\,选项\\/>]... [I<\\,文件\\/>]..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/head.1:8
 #, no-wrap
@@ -89,13 +81,11 @@ msgstr ""
 "将文件列表中每个文件的起始10行内容输出至标准输出。如果指定多个文件，则会在每"
 "个文件的部分之前添加给定文件名称。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:15
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:17
 msgid ""
@@ -132,136 +122,137 @@ msgstr ""
 "显示前 NUM 行而不是前10行；以 '-' 起始，则显示每个文件中不包含最后 NUM 行的全"
 "部内容"
 
-#
 #. type: TP
 #: raw/coreutils/man1/head.1:27
 #, no-wrap
 msgid "B<-q>, B<--quiet>, B<--silent>"
 msgstr "B<-q>, B<--quiet>, B<--silent>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:30
 msgid "never print headers giving file names"
 msgstr "不显示给出文件名的首部"
 
-#
 #. type: TP
 #: raw/coreutils/man1/head.1:30
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:33
 msgid "always print headers giving file names"
 msgstr "显示给出文件名的首部"
 
-#
 #. type: TP
 #: raw/coreutils/man1/head.1:33
 #, no-wrap
 msgid "B<-z>, B<--zero-terminated>"
 msgstr "B<-z>, B<--zero-terminated>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:36
 msgid "line delimiter is NUL, not newline"
 msgstr "以 NUL 作为行的分隔符，而非换行符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/head.1:36
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:39
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/head.1:39
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:42
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: Plain text
-#: raw/coreutils/man1/head.1:46
+#: raw/coreutils/man1/head.1:47
+#, fuzzy
+#| msgid ""
+#| "NUM may have a multiplier suffix: b 512, kB 1000, K 1024, MB 1000*1000, M "
+#| "1024*1024, GB 1000*1000*1000, G 1024*1024*1024, and so on for T, P, E, Z, "
+#| "Y."
 msgid ""
 "NUM may have a multiplier suffix: b 512, kB 1000, K 1024, MB 1000*1000, M "
-"1024*1024, GB 1000*1000*1000, G 1024*1024*1024, and so on for T, P, E, Z, Y."
+"1024*1024, GB 1000*1000*1000, G 1024*1024*1024, and so on for T, P, E, Z, "
+"Y.  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
 "NUM 可以带倍数后缀：b 512, kB 1000, K 1024, MB 1000*1000, M 1024*1024, GB "
 "1000*1000*1000, G 1024*1024*1024, 对于 T, P, E, Z, Y 同样适用。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/head.1:46
+#: raw/coreutils/man1/head.1:47
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/head.1:48
+#: raw/coreutils/man1/head.1:49
 msgid "Written by David MacKenzie and Jim Meyering."
 msgstr "由 David MacKenzie 和 Jim Meyering 编写。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/head.1:48
+#: raw/coreutils/man1/head.1:49
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/head.1:50
+#: raw/coreutils/man1/head.1:51
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/head.1:52
+#: raw/coreutils/man1/head.1:53
+#, fuzzy
+#| msgid ""
+#| "Report head translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report head translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 head 的翻译"
 "错误。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/head.1:52
+#: raw/coreutils/man1/head.1:53
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/head.1:55
+#: raw/coreutils/man1/head.1:56
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/head.1:58
+#: raw/coreutils/man1/head.1:59
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -269,38 +260,34 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/head.1:58
+#: raw/coreutils/man1/head.1:59
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/head.1:60
+#: raw/coreutils/man1/head.1:61
 msgid "tail(1)"
 msgstr "tail(1)"
 
-#
-#. type: Plain text
-#: raw/coreutils/man1/head.1:63
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/headE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/headE<gt>"
-
-#
 #. type: Plain text
 #: raw/coreutils/man1/head.1:64
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "headE<gt>"
+msgid ""
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/headE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/headE<gt>"
+
+#. type: Plain text
+#: raw/coreutils/man1/head.1:65
 msgid "or available locally via: info \\(aq(coreutils) head invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) head invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

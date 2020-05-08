@@ -1,13 +1,12 @@
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-18 22:23+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:13+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -18,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
 #, no-wrap
@@ -27,31 +25,30 @@ msgstr "STDBUF"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:6
 msgid ""
@@ -59,106 +56,90 @@ msgid ""
 "streams."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:6
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:9
 msgid "B<stdbuf> I<\\,OPTION\\/>... I<\\,COMMAND\\/>"
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:9
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:13
 msgid ""
 "Run COMMAND, with modified buffering operations for its standard streams."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:15
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:15
 #, no-wrap
 msgid "B<-i>, B<--input>=I<\\,MODE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:18
 msgid "adjust standard input stream buffering"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:18
 #, no-wrap
 msgid "B<-o>, B<--output>=I<\\,MODE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:21
 msgid "adjust standard output stream buffering"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:21
 #, no-wrap
 msgid "B<-e>, B<--error>=I<\\,MODE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:24
 msgid "adjust standard error stream buffering"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:24
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:27
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:27
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:30
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:33
 msgid ""
@@ -166,25 +147,23 @@ msgid ""
 "is invalid with standard input."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:35
 msgid "If MODE is '0' the corresponding stream will be unbuffered."
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:40
+#: raw/coreutils/man1/stdbuf.1:41
 msgid ""
 "Otherwise MODE is a number which may be followed by one of the following: KB "
-"1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.  In "
-"this case the corresponding stream will be fully buffered with the buffer "
-"size set to MODE bytes."
+"1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.  "
+"Binary prefixes can be used, too: KiB=K, MiB=M, and so on.  In this case the "
+"corresponding stream will be fully buffered with the buffer size set to MODE "
+"bytes."
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:45
+#: raw/coreutils/man1/stdbuf.1:46
 msgid ""
 "NOTE: If COMMAND adjusts the buffering of its standard streams ('tee' does "
 "for example) then that will override corresponding changes by 'stdbuf'.  "
@@ -192,94 +171,90 @@ msgid ""
 "are thus unaffected by 'stdbuf' settings."
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/stdbuf.1:45
+#: raw/coreutils/man1/stdbuf.1:46
 #, no-wrap
 msgid "EXAMPLES"
 msgstr "范例"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:47
+#: raw/coreutils/man1/stdbuf.1:48
 msgid "B<tail -f access.log | stdbuf -oL cut -d \\(aq \\(aq -f1 | uniq>"
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:49
+#: raw/coreutils/man1/stdbuf.1:50
 msgid "This will immediately display unique entries from access.log"
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/stdbuf.1:49
+#: raw/coreutils/man1/stdbuf.1:50
 #, no-wrap
 msgid "BUGS"
 msgstr "BUGS"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:52
+#: raw/coreutils/man1/stdbuf.1:53
 msgid ""
 "On GLIBC platforms, specifying a buffer size, i.e., using fully buffered "
 "mode will result in undefined operation."
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/stdbuf.1:52
+#: raw/coreutils/man1/stdbuf.1:53
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:54
+#: raw/coreutils/man1/stdbuf.1:55
 msgid "Written by Padraig Brady."
 msgstr "由 Padraig Brady 编写。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/stdbuf.1:54
+#: raw/coreutils/man1/stdbuf.1:55
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:56
+#: raw/coreutils/man1/stdbuf.1:57
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:58
+#: raw/coreutils/man1/stdbuf.1:59
 msgid ""
-"Report stdbuf translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/stdbuf.1:58
+#: raw/coreutils/man1/stdbuf.1:59
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:61
+#: raw/coreutils/man1/stdbuf.1:62
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:64
+#: raw/coreutils/man1/stdbuf.1:65
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -287,28 +262,26 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/stdbuf.1:64
+#: raw/coreutils/man1/stdbuf.1:65
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
-#. type: Plain text
-#: raw/coreutils/man1/stdbuf.1:66
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/stdbufE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/stdbufE<gt>"
-
-#
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:67
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "stdbufE<gt>"
+msgid ""
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/stdbufE<gt>"
+msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/stdbufE<gt>"
+
+#. type: Plain text
+#: raw/coreutils/man1/stdbuf.1:68
 msgid "or available locally via: info \\(aq(coreutils) stdbuf invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) stdbuf invocation\\(aq"
 
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"

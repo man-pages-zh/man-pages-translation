@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:29+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/expr.1:2
 #, no-wrap
@@ -30,89 +26,79 @@ msgstr "EXPR"
 
 #. type: TH
 #: raw/coreutils/man1/expr.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/expr.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/expr.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/expr.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:5
 msgid "expr - evaluate expressions"
 msgstr "expr - 对表达式求值"
 
-#
 #. type: SH
 #: raw/coreutils/man1/expr.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:8
 msgid "B<expr> I<\\,EXPRESSION\\/>"
 msgstr "B<expr> I<\\,表达式\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:11
 msgid "B<expr> I<\\,OPTION\\/>"
 msgstr "B<expr> I<\\,选项\\/>"
 
-#
 #. type: SH
 #: raw/coreutils/man1/expr.1:11
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:13
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:16
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:16
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:19
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:22
 msgid ""
@@ -122,273 +108,231 @@ msgstr ""
 "将表达式的值打印至标准输出。以下说明以空行分隔优先级级别，运算优先级从低到"
 "高。表达式可能为："
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:22
 #, no-wrap
 msgid "ARG1 | ARG2"
 msgstr "参数1 | 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:25
 msgid "ARG1 if it is neither null nor 0, otherwise ARG2"
 msgstr "如果参数1 既不是 null 也不是 0，则为参数1，否则为参数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:25
 #, no-wrap
 msgid "ARG1 & ARG2"
 msgstr "参数1 & 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:28
 msgid "ARG1 if neither argument is null or 0, otherwise 0"
 msgstr "如果两个参数都不是 null 也不是 0，则为参数1，否则为 0"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:28
 #, no-wrap
 msgid "ARG1 E<lt> ARG2"
 msgstr "参数1 E<lt> 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:31
 msgid "ARG1 is less than ARG2"
 msgstr "参数1 小于参数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:31
 #, no-wrap
 msgid "ARG1 E<lt>= ARG2"
 msgstr "参数1 E<lt>= 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:34
 msgid "ARG1 is less than or equal to ARG2"
 msgstr "参数1 小于或等于参数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:34
 #, no-wrap
 msgid "ARG1 = ARG2"
 msgstr "参数1 = 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:37
 msgid "ARG1 is equal to ARG2"
 msgstr "参数1 等于参数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:37
 #, no-wrap
 msgid "ARG1 != ARG2"
 msgstr "参数1 != 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:40
 msgid "ARG1 is unequal to ARG2"
 msgstr "参数1 不等于参数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:40
 #, no-wrap
 msgid "ARG1 E<gt>= ARG2"
 msgstr "参数1 E<gt>= 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:43
 msgid "ARG1 is greater than or equal to ARG2"
 msgstr "参数1 大于或等于参数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:43
 #, no-wrap
 msgid "ARG1 E<gt> ARG2"
 msgstr "参数1 E<gt> 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:46
 msgid "ARG1 is greater than ARG2"
 msgstr "参数1 大于参数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:46
 #, no-wrap
 msgid "ARG1 + ARG2"
 msgstr "参数1 + 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:49
 msgid "arithmetic sum of ARG1 and ARG2"
 msgstr "参数1 和参数2 的代数和"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:49
 #, no-wrap
 msgid "ARG1 - ARG2"
 msgstr "参数1 - 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:52
 msgid "arithmetic difference of ARG1 and ARG2"
 msgstr "参数1 和参数2 的代数差"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:52
 #, no-wrap
 msgid "ARG1 * ARG2"
 msgstr "参数1 * 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:55
 msgid "arithmetic product of ARG1 and ARG2"
 msgstr "参数1 和参数2 的代数乘积"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:55
 #, no-wrap
 msgid "ARG1 / ARG2"
 msgstr "参数1 / 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:58
 msgid "arithmetic quotient of ARG1 divided by ARG2"
 msgstr "参数1 除以参数2 的代数商"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:58
 #, no-wrap
 msgid "ARG1 % ARG2"
 msgstr "参数1 % 参数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:61
 msgid "arithmetic remainder of ARG1 divided by ARG2"
 msgstr "参数1 除以参数2 所得余数"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:61
 #, no-wrap
 msgid "STRING : REGEXP"
 msgstr "字符串 : 正则表达式"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:64
 msgid "anchored pattern match of REGEXP in STRING"
 msgstr "在字符串中由给定正则表达式决定的锚定模式匹配"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:64
 #, no-wrap
 msgid "match STRING REGEXP"
 msgstr "match 字符串 正则表达式"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:67
 msgid "same as STRING : REGEXP"
 msgstr "与”字符串 : 正则表达式“相同"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:67
 #, no-wrap
 msgid "substr STRING POS LENGTH"
 msgstr "substr 字符串 位置 长度"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:70
 msgid "substring of STRING, POS counted from 1"
 msgstr "字符串的子串，位置由 1 开始计数"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:70
 #, no-wrap
 msgid "index STRING CHARS"
 msgstr "index 字符串 CHARS"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:73
 msgid "index in STRING where any CHARS is found, or 0"
 msgstr "任何能够在字符串中找到的 CHARS 的位置，或者 0"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:73
 #, no-wrap
 msgid "length STRING"
 msgstr "length 字符串"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:76
 msgid "length of STRING"
 msgstr "字符串 的长度"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:76
 #, no-wrap
 msgid "+ TOKEN"
 msgstr "+ TOKEN"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:79
 msgid "interpret TOKEN as a string, even if it is a"
 msgstr "将 TOKEN 视作字符串，即使它是一个"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:81
 msgid "keyword like 'match' or an operator like '/'"
 msgstr "类似于 'match' 的关键字或是一个类似 '/' 的操作符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/expr.1:81
 #, no-wrap
 msgid "( EXPRESSION )"
 msgstr "( 表达式 )"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:84
 msgid "value of EXPRESSION"
 msgstr "表达式 的值"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:89
 msgid ""
@@ -403,7 +347,6 @@ msgstr ""
 "\\e( 和 \\e) 之间的字符串或者 null；如果 \\e( 和 \\e) 未被使用，那么返回匹配"
 "的字符个数或者 0。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:92
 msgid ""
@@ -415,44 +358,46 @@ msgstr ""
 "0，则返回状态值为 1；如果 表达式 在语法上无效，则返回状态值为 1；如果发生错"
 "误，则返回状态值为 3。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/expr.1:92
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:94
 msgid "Written by Mike Parker, James Youngman, and Paul Eggert."
 msgstr "由 Mike Parker, James Youngman 和 Paul Eggert 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/expr.1:94
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:96
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:98
+#, fuzzy
+#| msgid ""
+#| "Report expr translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report expr translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 expr 的翻译"
 "错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/expr.1:98
 #, no-wrap
@@ -461,14 +406,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:101
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:104
 msgid ""
@@ -478,32 +426,29 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/expr.1:104
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:106
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "exprE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/exprE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/exprE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/exprE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/expr.1:107
 msgid "or available locally via: info \\(aq(coreutils) expr invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) expr invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

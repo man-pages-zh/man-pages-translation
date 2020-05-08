@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-19 16:12+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/chown.1:2
 #, no-wrap
@@ -30,44 +26,41 @@ msgstr "CHOWN"
 
 #. type: TH
 #: raw/coreutils/man1/chown.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/chown.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/chown.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:5
 msgid "chown - change file owner and group"
 msgstr "chown - 更改文件属主与属组"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:8
 msgid ""
@@ -75,20 +68,17 @@ msgid ""
 "\\,FILE\\/>..."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:11
 msgid "B<chown> [I<\\,OPTION\\/>]... I<\\,--reference=RFILE FILE\\/>..."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:11
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:31
 msgid ""
@@ -106,14 +96,12 @@ msgid ""
 "neither the owner nor the group is changed."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:31
 #, no-wrap
 msgid "OPTIONS"
 msgstr "选项"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:35
 msgid ""
@@ -121,53 +109,45 @@ msgid ""
 "reference>, change the owner and group of each FILE to those of RFILE."
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:35
 #, no-wrap
 msgid "B<-c>, B<--changes>"
 msgstr "B<-c>, B<--changes>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:38
 msgid "like verbose but report only when a change is made"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:38
 #, no-wrap
 msgid "B<-f>, B<--silent>, B<--quiet>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:41
 msgid "suppress most error messages"
 msgstr "隐藏大多数错误信息"
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:41
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:44
 msgid "output a diagnostic for every file processed"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:44
 #, no-wrap
 msgid "B<--dereference>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:48
 msgid ""
@@ -175,14 +155,12 @@ msgid ""
 "the symbolic link itself"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:48
 #, no-wrap
 msgid "B<-h>, B<--no-dereference>"
 msgstr "B<-h>, B<--no-dereference>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:53
 msgid ""
@@ -190,14 +168,12 @@ msgid ""
 "that can change the ownership of a symlink)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:53
 #, no-wrap
 msgid "B<--from>=I<\\,CURRENT_OWNER\\/>:CURRENT_GROUP"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:59
 msgid ""
@@ -206,59 +182,50 @@ msgid ""
 "match is not required for the omitted attribute"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:59
 #, no-wrap
 msgid "B<--no-preserve-root>"
 msgstr "B<--no-preserve-root>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:62
 msgid "do not treat '/' specially (the default)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:62
 #, no-wrap
 msgid "B<--preserve-root>"
 msgstr "B<--preserve-root>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:65
 msgid "fail to operate recursively on '/'"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:65
 #, no-wrap
 msgid "B<--reference>=I<\\,RFILE\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:69
 msgid "use RFILE's owner and group rather than specifying OWNER:GROUP values"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:69
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
 msgstr "B<-R>, B<--recursive>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:72
 msgid "operate on files and directories recursively"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:76
 msgid ""
@@ -267,73 +234,62 @@ msgid ""
 "takes effect."
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:76
 #, no-wrap
 msgid "B<-H>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:80
 msgid ""
 "if a command line argument is a symbolic link to a directory, traverse it"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:80
 #, no-wrap
 msgid "B<-L>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:84
 msgid "traverse every symbolic link to a directory encountered"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:84
 #, no-wrap
 msgid "B<-P>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:87
 msgid "do not traverse any symbolic links (default)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:87
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:90
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:90
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:93
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:97
 msgid ""
@@ -342,91 +298,85 @@ msgid ""
 "GROUP may be numeric as well as symbolic."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:97
 #, no-wrap
 msgid "EXAMPLES"
 msgstr "范例"
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:98
 #, no-wrap
 msgid "chown root /u"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:101
 msgid "Change the owner of /u to \"root\"."
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:101
 #, no-wrap
 msgid "chown root:staff /u"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:104
 msgid "Likewise, but also change its group to \"staff\"."
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/chown.1:104
 #, no-wrap
 msgid "chown -hR root /u"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:107
 msgid "Change the owner of /u and subfiles to \"root\"."
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:107
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:109
 msgid "Written by David MacKenzie and Jim Meyering."
 msgstr "由 David MacKenzie 和 Jim Meyering 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:109
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:111
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:113
+#, fuzzy
+#| msgid ""
+#| "Report chown translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report chown translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 chown 的翻"
 "译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:113
 #, no-wrap
@@ -435,14 +385,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:116
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:119
 msgid ""
@@ -452,35 +405,31 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/chown.1:119
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:121
 msgid "chown(2)"
 msgstr "chown(2)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:124
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "chownE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/chownE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/chownE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/chownE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:125
 msgid "or available locally via: info \\(aq(coreutils) chown invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chowns invocation\\(aq"
 
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"

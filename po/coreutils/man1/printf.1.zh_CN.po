@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:30+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/printf.1:2
 #, no-wrap
@@ -30,316 +26,271 @@ msgstr "PRINTF"
 
 #. type: TH
 #: raw/coreutils/man1/printf.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/printf.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/printf.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/printf.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:5
 msgid "printf - format and print data"
 msgstr "printf - 格式化并显示数据"
 
-#
 #. type: SH
 #: raw/coreutils/man1/printf.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:8
 msgid "B<printf> I<\\,FORMAT \\/>[I<\\,ARGUMENT\\/>]..."
 msgstr "B<printf> I<\\,格式\\/>[I<\\,参数列表\\/>]..."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:11
 msgid "B<printf> I<\\,OPTION\\/>"
 msgstr "B<printf> I<\\,选项\\/>"
 
-#
 #. type: SH
 #: raw/coreutils/man1/printf.1:11
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:15
 msgid "Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:"
 msgstr "按照指定格式打印参数列表中的参数或按照选项执行："
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:15
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:18
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:18
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:21
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:23
 msgid "FORMAT controls the output as in C printf.  Interpreted sequences are:"
 msgstr "I<格式>以 C printf 的方式控制输出。转义序列如下："
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:23
 #, no-wrap
 msgid "\\e\""
 msgstr "\\e\""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:26
 msgid "double quote"
 msgstr "双引号"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:26
 #, no-wrap
 msgid "\\e\\e"
 msgstr "\\e\\e"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:29
 msgid "backslash"
 msgstr "反斜线"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:29
 #, no-wrap
 msgid "\\ea"
 msgstr "\\ea"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:32
 msgid "alert (BEL)"
 msgstr "报警符(BEL)"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:32
 #, no-wrap
 msgid "\\eb"
 msgstr "\\eb"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:35
 msgid "backspace"
 msgstr "退格符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:35
 #, no-wrap
 msgid "\\ec"
 msgstr "\\ec"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:38
 msgid "produce no further output"
 msgstr "禁止尾随的换行符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:38
 #, no-wrap
 msgid "\\ee"
 msgstr "\\ee"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:41
 msgid "escape"
 msgstr "escape 字符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:41
 #, no-wrap
 msgid "\\ef"
 msgstr "\\ef"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:44
 msgid "form feed"
 msgstr "换页符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:44
 #, no-wrap
 msgid "\\en"
 msgstr "\\en"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:47
 msgid "new line"
 msgstr "另起一行"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:47
 #, no-wrap
 msgid "\\er"
 msgstr "\\er"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:50
 msgid "carriage return"
 msgstr "回到行首"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:50
 #, no-wrap
 msgid "\\et"
 msgstr "\\et"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:53
 msgid "horizontal tab"
 msgstr "水平制表符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:53
 #, no-wrap
 msgid "\\ev"
 msgstr "\\ev"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:56
 msgid "vertical tab"
 msgstr "垂直制表符"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:56
 #, no-wrap
 msgid "\\eNNN"
 msgstr "\\eNNN"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:59
 msgid "byte with octal value NNN (1 to 3 digits)"
 msgstr "字节数以八进制数 NNN (1至3位)表示"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:59
 #, no-wrap
 msgid "\\exHH"
 msgstr "\\exHH"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:62
 msgid "byte with hexadecimal value HH (1 to 2 digits)"
 msgstr "字节数以十六进制数 HH (1至2位)表示"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:62
 #, no-wrap
 msgid "\\euHHHH"
 msgstr "\\euHHHH"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:65
 msgid "Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)"
 msgstr "Unicode (ISO/IEC 10646) 字符，是 16进制值 HHHH（4位）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:65
 #, no-wrap
 msgid "\\eUHHHHHHHH"
 msgstr "\\eUHHHHHHHH"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:68
 msgid "Unicode character with hex value HHHHHHHH (8 digits)"
 msgstr "Unicode 字符，是 16进制值 HHHHHHHH（8位）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:68
 #, no-wrap
 msgid "%%"
 msgstr "%%"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:71
 msgid "a single %"
 msgstr "单个 %"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:71
 #, no-wrap
 msgid "%b"
 msgstr "%b"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:75
 msgid ""
@@ -349,14 +300,12 @@ msgstr ""
 "参数列表作为字符串，其中 '\\e' 字符被转义，除了八进制转义格式变为 \\e0 或 "
 "\\e0NNN"
 
-#
 #. type: TP
 #: raw/coreutils/man1/printf.1:75
 #, no-wrap
 msgid "%q"
 msgstr "%q"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:79
 msgid ""
@@ -375,7 +324,6 @@ msgstr ""
 "并且所有 C 格式规范的转义将由 diouxXfeEgGcs 中的某个字符作为结束，且“参数列"
 "表”将被首先转换为适当的格式。变量宽度声明也会被处理。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:86
 msgid ""
@@ -386,45 +334,46 @@ msgstr ""
 "注意：您的 shell 可能内置了自己的 printf 程序版本，它通常会覆盖这里所提及的相"
 "应版本。请查阅您的 shell 文档获知它所支持的选项。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/printf.1:86
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:88
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/printf.1:88
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:90
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:92
+#, fuzzy
+#| msgid ""
+#| "Report printf translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report printf translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 printf 的翻"
 "译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/printf.1:92
 #, no-wrap
@@ -433,14 +382,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:95
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:98
 msgid ""
@@ -450,38 +402,34 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/printf.1:98
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:100
 msgid "printf(3)"
 msgstr "printf(3)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:103
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "printfE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/printfE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/printfE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/printfE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:104
 msgid "or available locally via: info \\(aq(coreutils) printf invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) printf invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

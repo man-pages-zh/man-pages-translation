@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for coreutils package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the coreutils package.
-#
 # mhss <jijingzhisheng@up369.com>, 2001.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:47+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/cat.1:2
 #, no-wrap
@@ -31,294 +27,260 @@ msgstr "CAT"
 #. type: TH
 #: raw/coreutils/man1/cat.1:2
 #, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+msgid "March 2020"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/cat.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/cat.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:5
 msgid "cat - concatenate files and print on the standard output"
 msgstr "cat - 连接文件并在标准输出上输出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:8
 msgid "B<cat> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<cat> [I<\\,选项\\/>]... [I<\\,文件\\/>]..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:12
 msgid "Concatenate FILE(s) to standard output."
 msgstr "将文件列表中的文件连接到标准输出。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:14
 #, no-wrap
 msgid "B<-A>, B<--show-all>"
 msgstr "B<-A>, B<--show-all>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:17
 msgid "equivalent to B<-vET>"
 msgstr "等价于 B<-vET>"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:17
 #, no-wrap
 msgid "B<-b>, B<--number-nonblank>"
 msgstr "B<-b>, B<--number-nonblank>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:20
 msgid "number nonempty output lines, overrides B<-n>"
 msgstr "给非空输出行编号，使 B<-n> 失效。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:20
 #, no-wrap
 msgid "B<-e>"
 msgstr "B<-e>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:23
 msgid "equivalent to B<-vE>"
 msgstr "等价于 B<-vE>"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:23
 #, no-wrap
 msgid "B<-E>, B<--show-ends>"
 msgstr "B<-E>, B<--show-ends>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:26
 msgid "display $ at end of each line"
 msgstr "在每行结束显示 $"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:26
 #, no-wrap
 msgid "B<-n>, B<--number>"
 msgstr "B<-n>, B<--number>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:29
 msgid "number all output lines"
 msgstr "给所有输出行编号"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:29
 #, no-wrap
 msgid "B<-s>, B<--squeeze-blank>"
 msgstr "B<-s>, B<--squeeze-blank>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:32
 msgid "suppress repeated empty output lines"
 msgstr "将所有的连续的多个空行替换为一个空行"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:32
 #, no-wrap
 msgid "B<-t>"
 msgstr "B<-t>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:35
 msgid "equivalent to B<-vT>"
 msgstr "等价于 B<-vT>"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:35
 #, no-wrap
 msgid "B<-T>, B<--show-tabs>"
 msgstr "B<-T>, B<--show-tabs>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:38
 msgid "display TAB characters as ^I"
 msgstr "把 TAB 字符显示为 ^I"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:38
 #, no-wrap
 msgid "B<-u>"
 msgstr "B<-u>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:41
 msgid "(ignored)"
 msgstr "（被忽略的选项）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:41
 #, no-wrap
 msgid "B<-v>, B<--show-nonprinting>"
 msgstr "B<-v>, B<--show-nonprinting>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:44
 msgid "use ^ and M- notation, except for LFD and TAB"
 msgstr "除了 LFD 和 TAB 之外的不可打印字符，用 ^ 和 M- 标记方式显示"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:44
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:47
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:47
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:50
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:50
 #, no-wrap
 msgid "EXAMPLES"
 msgstr "范例"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:51
 #, no-wrap
 msgid "cat f - g"
 msgstr "cat f - g"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:54
 msgid "Output f's contents, then standard input, then g's contents."
 msgstr "依次输出文件 f，标准输入和文件 g 到标准输出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/cat.1:54
 #, no-wrap
 msgid "cat"
 msgstr "cat"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:57
 msgid "Copy standard input to standard output."
 msgstr "复制标准输入到标准输出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:57
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:59
 msgid "Written by Torbjorn Granlund and Richard M. Stallman."
 msgstr "由 Torbjorn Granlund 和 Richard M. Stallman 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:59
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:61
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:63
+#, fuzzy
+#| msgid ""
+#| "Report cat translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report cat translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 cat 的翻译"
 "错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:63
 #, no-wrap
@@ -327,14 +289,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:66
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:69
 msgid ""
@@ -344,31 +309,32 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/cat.1:69
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:71
 msgid "B<tac>(1)"
 msgstr "B<tac>(1)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:74
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/catE<gt>"
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/catE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/catE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/catE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:75
 msgid "or available locally via: info \\(aq(coreutils) cat invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) cat invocation\\(aq"
+
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
 
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"

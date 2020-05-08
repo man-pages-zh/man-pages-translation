@@ -1,14 +1,13 @@
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 22:27+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -28,13 +27,14 @@ msgstr "TEST"
 #. type: TH
 #: raw/coreutils/man1/test.1:2
 #, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+msgid "March 2020"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/test.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
 #. type: TH
@@ -62,7 +62,9 @@ msgstr "概述"
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:8
-msgid "B<test> I<\\,EXPRESSION\\/>"
+#, fuzzy
+#| msgid "B<test> I<\\,EXPRESSION\\/>"
+msgid "B<test> I<EXPRESSION>"
 msgstr "B<test> I<\\,表达式\\/>"
 
 #. type: Plain text
@@ -70,19 +72,24 @@ msgstr "B<test> I<\\,表达式\\/>"
 msgid "B<test>"
 msgstr "B<test>"
 
+#.  \& tells doclifter the brackets are literal (Bug#31803).
 #. type: Plain text
-#: raw/coreutils/man1/test.1:14
-msgid "B<[> I<\\,EXPRESSION \\/>]"
+#: raw/coreutils/man1/test.1:15
+#, fuzzy
+#| msgid "B<[> I<\\,EXPRESSION \\/>]"
+msgid "B<[\\&> I<EXPRESSION> B<]\\&>"
 msgstr "B<[> I<\\,表达式 \\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:17
-msgid "B<[> ]"
-msgstr "B<[> ]"
+msgid "B<[\\& ]\">"
+msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:20
-msgid "B<[> I<\\,OPTION\\/>"
+#, fuzzy
+#| msgid "B<[> I<\\,OPTION\\/>"
+msgid "B<[\\&> I<OPTION>"
 msgstr "B<[> I<\\,选项\\/>"
 
 #. type: SH
@@ -166,182 +173,154 @@ msgstr "表达式1 与表达式2 皆为真"
 msgid "EXPRESSION1 B<-o> EXPRESSION2"
 msgstr "表达式1 B<-o> 表达式2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:45
 msgid "either EXPRESSION1 or EXPRESSION2 is true"
 msgstr "表达式1 或表达式2 为真"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:45
 #, no-wrap
 msgid "B<-n> STRING"
 msgstr "B<-n> 字符串"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:48
 msgid "the length of STRING is nonzero"
 msgstr "字符串长度非零"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:48
 #, no-wrap
 msgid "STRING"
 msgstr "STRING"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:51
 msgid "equivalent to B<-n> STRING"
 msgstr "等价于 B<-n> 字符串"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:51
 #, no-wrap
 msgid "B<-z> STRING"
 msgstr "B<-z> 字符串"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:54
 msgid "the length of STRING is zero"
 msgstr "字符串的长度为 0"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:54
 #, no-wrap
 msgid "STRING1 = STRING2"
 msgstr "字符串1 = 字符串2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:57
 msgid "the strings are equal"
 msgstr "字符串相等"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:57
 #, no-wrap
 msgid "STRING1 != STRING2"
 msgstr "字符串1 != 字符串2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:60
 msgid "the strings are not equal"
 msgstr "字符串不相等"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:60
 #, no-wrap
 msgid "INTEGER1 B<-eq> INTEGER2"
 msgstr "整数1 B<-eq> 整数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:63
 msgid "INTEGER1 is equal to INTEGER2"
 msgstr "整数1 与整数2 相等"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:63
 #, no-wrap
 msgid "INTEGER1 B<-ge> INTEGER2"
 msgstr "整数1 B<-ge> 整数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:66
 msgid "INTEGER1 is greater than or equal to INTEGER2"
 msgstr "整数1 大于或等于整数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:66
 #, no-wrap
 msgid "INTEGER1 B<-gt> INTEGER2"
 msgstr "整数1 B<-gt> 整数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:69
 msgid "INTEGER1 is greater than INTEGER2"
 msgstr "整数1 大于整数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:69
 #, no-wrap
 msgid "INTEGER1 B<-le> INTEGER2"
 msgstr "整数1 B<-le> 整数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:72
 msgid "INTEGER1 is less than or equal to INTEGER2"
 msgstr "整数1 小于或等于整数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:72
 #, no-wrap
 msgid "INTEGER1 B<-lt> INTEGER2"
 msgstr "整数1 B<-lt> 整数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:75
 msgid "INTEGER1 is less than INTEGER2"
 msgstr "整数1 小于整数2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:75
 #, no-wrap
 msgid "INTEGER1 B<-ne> INTEGER2"
 msgstr "整数1 B<-ne> 整数2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:78
 msgid "INTEGER1 is not equal to INTEGER2"
 msgstr "整数1 和整数2 不相等"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:78
 #, no-wrap
 msgid "FILE1 B<-ef> FILE2"
 msgstr "文件1 B<-ef> 文件2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:81
 msgid "FILE1 and FILE2 have the same device and inode numbers"
 msgstr "文件1 和文件2 拥有相同的设备编号与 inode 编号"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:81
 #, no-wrap
 msgid "FILE1 B<-nt> FILE2"
 msgstr "文件1 B<-nt> 文件2"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/test.1:84
 msgid "FILE1 is newer (modification date) than FILE2"
 msgstr "文件1 在修改时间上新于文件2"
 
-#
 #. type: TP
 #: raw/coreutils/man1/test.1:84
 #, no-wrap
@@ -465,105 +444,119 @@ msgstr "文件存在且为一个符号链接（与 B<-h> 相同）"
 
 #. type: TP
 #: raw/coreutils/man1/test.1:117
+#, fuzzy, no-wrap
+#| msgid "B<-b> FILE"
+msgid "B<-N> FILE"
+msgstr "B<-b> 文件"
+
+#. type: Plain text
+#: raw/coreutils/man1/test.1:120
+#, fuzzy
+#| msgid "FILE exists and has its sticky bit set"
+msgid "FILE exists and has been modified since it was last read"
+msgstr "文件存在且被设置粘着位"
+
+#. type: TP
+#: raw/coreutils/man1/test.1:120
 #, no-wrap
 msgid "B<-O> FILE"
 msgstr "B<-O> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:120
+#: raw/coreutils/man1/test.1:123
 msgid "FILE exists and is owned by the effective user ID"
 msgstr "文件存在且为有效用户ID 所有"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:120
+#: raw/coreutils/man1/test.1:123
 #, no-wrap
 msgid "B<-p> FILE"
 msgstr "B<-p> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:123
+#: raw/coreutils/man1/test.1:126
 msgid "FILE exists and is a named pipe"
 msgstr "文件存在且为命名管道"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:123
+#: raw/coreutils/man1/test.1:126
 #, no-wrap
 msgid "B<-r> FILE"
 msgstr "B<-r> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:126
+#: raw/coreutils/man1/test.1:129
 msgid "FILE exists and read permission is granted"
 msgstr "文件存在且被授予读权限"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:126
+#: raw/coreutils/man1/test.1:129
 #, no-wrap
 msgid "B<-s> FILE"
 msgstr "B<-s> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:129
+#: raw/coreutils/man1/test.1:132
 msgid "FILE exists and has a size greater than zero"
 msgstr "文件存在且其大小大于零"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:129
+#: raw/coreutils/man1/test.1:132
 #, no-wrap
 msgid "B<-S> FILE"
 msgstr "B<-S> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:132
+#: raw/coreutils/man1/test.1:135
 msgid "FILE exists and is a socket"
 msgstr "文件存在且为套接字"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:132
+#: raw/coreutils/man1/test.1:135
 #, no-wrap
 msgid "B<-t> FD"
 msgstr "B<-t> FD"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:135
+#: raw/coreutils/man1/test.1:138
 msgid "file descriptor FD is opened on a terminal"
 msgstr "文件描述符 FD 在某个终端打开"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:135
+#: raw/coreutils/man1/test.1:138
 #, no-wrap
 msgid "B<-u> FILE"
 msgstr "B<-u> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:138
+#: raw/coreutils/man1/test.1:141
 msgid "FILE exists and its set-user-ID bit is set"
 msgstr "文件存在且被设置了 set-user-ID 位"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:138
+#: raw/coreutils/man1/test.1:141
 #, no-wrap
 msgid "B<-w> FILE"
 msgstr "B<-w> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:141
+#: raw/coreutils/man1/test.1:144
 msgid "FILE exists and write permission is granted"
 msgstr "文件存在且被赋予了写权限"
 
 #. type: TP
-#: raw/coreutils/man1/test.1:141
+#: raw/coreutils/man1/test.1:144
 #, no-wrap
 msgid "B<-x> FILE"
 msgstr "B<-x> 文件"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:144
+#: raw/coreutils/man1/test.1:147
 msgid "FILE exists and execute (or search) permission is granted"
 msgstr "文件存在且被授予执行（或搜索）权限"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:148
+#: raw/coreutils/man1/test.1:151
 msgid ""
 "Except for B<-h> and B<-L>, all FILE-related tests dereference symbolic "
 "links.  Beware that parentheses need to be escaped (e.g., by backslashes) "
@@ -575,7 +568,7 @@ msgstr ""
 "其值为该字符串的长度。"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:151
+#: raw/coreutils/man1/test.1:154
 msgid ""
 "NOTE: Binary B<-a> and B<-o> are inherently ambiguous.  Use 'test EXPR1 && "
 "test EXPR2' or 'test EXPR1 || test EXPR2' instead."
@@ -584,7 +577,7 @@ msgstr ""
 "EXPR2\" 或 \"test EXPR1 || test EXPR2\" 作为替代。"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:154
+#: raw/coreutils/man1/test.1:157
 msgid ""
 "NOTE: [ honors the B<--help> and B<--version> options, but test does not.  "
 "test treats each of those as it treats any other nonempty STRING."
@@ -593,7 +586,7 @@ msgstr ""
 "与其它非空字符串同等看待。"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:158
+#: raw/coreutils/man1/test.1:161
 msgid ""
 "NOTE: your shell may have its own version of test and/or [, which usually "
 "supersedes the version described here.  Please refer to your shell's "
@@ -603,54 +596,65 @@ msgstr ""
 "相应版本。请查阅您的 shell 文档获知它所支持的选项。"
 
 #. type: SH
-#: raw/coreutils/man1/test.1:158
+#: raw/coreutils/man1/test.1:161
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:160
+#: raw/coreutils/man1/test.1:163
 msgid "Written by Kevin Braunsdorf and Matthew Bradburn."
 msgstr "由 Kevin Braunsdorf 和 Matthew Bradburn 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/test.1:160
+#: raw/coreutils/man1/test.1:163
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:162
+#: raw/coreutils/man1/test.1:165
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:164
+#: raw/coreutils/man1/test.1:167
+#, fuzzy
+#| msgid ""
+#| "Report [ translation bugs to E<lt>http://translationproject.org/team/E<gt>"
 msgid ""
-"Report [ translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 [ 的翻译错"
 "误。"
 
 #. type: SH
-#: raw/coreutils/man1/test.1:164
+#: raw/coreutils/man1/test.1:167
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:167
+#: raw/coreutils/man1/test.1:170
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:170
+#: raw/coreutils/man1/test.1:173
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -659,21 +663,29 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/test.1:170
+#: raw/coreutils/man1/test.1:173
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:172
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/[E<gt>"
+#: raw/coreutils/man1/test.1:175
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/[E<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/[E<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/[E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:173
+#: raw/coreutils/man1/test.1:176
 msgid "or available locally via: info \\(aq(coreutils) test invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) test invocation\\(aq"
+
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
+#~ msgid "B<[> ]"
+#~ msgstr "B<[> ]"
 
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"

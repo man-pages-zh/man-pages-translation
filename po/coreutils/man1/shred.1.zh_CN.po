@@ -1,14 +1,12 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 16:20+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-19 16:14+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -19,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/shred.1:2
 #, no-wrap
@@ -28,57 +25,52 @@ msgstr "SHRED"
 
 #. type: TH
 #: raw/coreutils/man1/shred.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/shred.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/shred.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/shred.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:5
 msgid "shred - overwrite a file to hide its contents, and optionally delete it"
 msgstr "shred - 覆写一个文件以隐藏其内容，并提供可选的删除功能"
 
-#
 #. type: SH
 #: raw/coreutils/man1/shred.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:8
 msgid "B<shred> [I<\\,OPTION\\/>]... I<\\,FILE\\/>..."
 msgstr "B<shred> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/shred.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:13
 msgid ""
@@ -86,169 +78,143 @@ msgid ""
 "even very expensive hardware probing to recover the data."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:15
 msgid "If FILE is -, shred standard output."
 msgstr "如果给定文件是 -，则 shred 将对标准输出进行处理。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:17
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:17
 #, no-wrap
 msgid "B<-f>, B<--force>"
 msgstr "B<-f>, B<--force>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:20
 msgid "change permissions to allow writing if necessary"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:20
 #, fuzzy, no-wrap
 msgid "B<-n>, B<--iterations>=I<\\,N\\/>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:23
 msgid "overwrite N times instead of the default (3)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:23
 #, fuzzy, no-wrap
 msgid "B<--random-source>=I<\\,FILE\\/>"
 msgstr "B<--random-source>=I<文件>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:26
 msgid "get random bytes from FILE"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:26
 #, fuzzy, no-wrap
 msgid "B<-s>, B<--size>=I<\\,N\\/>"
 msgstr "B<-z>, B<--zero>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:29
 msgid "shred this many bytes (suffixes like K, M, G accepted)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:29
 #, no-wrap
 msgid "B<-u>"
 msgstr "B<-u>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:32
-msgid "truncate and remove file after overwriting"
+msgid "deallocate and remove file after overwriting"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:32
 #, no-wrap
 msgid "B<--remove>[=I<\\,HOW\\/>]"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:35
 msgid "like B<-u> but give control on HOW to delete; See below"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:35
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:38
 msgid "show progress"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:38
 #, no-wrap
 msgid "B<-x>, B<--exact>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:41
 msgid "do not round file sizes up to the next full block;"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:43
 msgid "this is the default for non-regular files"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:43
 #, no-wrap
 msgid "B<-z>, B<--zero>"
 msgstr "B<-z>, B<--zero>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:46
 msgid "add a final overwrite with zeros to hide shredding"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:46
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:49
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/shred.1:49
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:52
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/shred.1:61
 msgid ""
@@ -261,131 +227,70 @@ msgid ""
 "default mode is 'wipesync', but note it can be expensive."
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:67
+#: raw/coreutils/man1/shred.1:66
 msgid ""
-"CAUTION: Note that shred relies on a very important assumption: that the "
-"file system overwrites data in place.  This is the traditional way to do "
-"things, but many modern file system designs do not satisfy this assumption.  "
-"The following are examples of file systems on which shred is not effective, "
-"or is not guaranteed to be effective in all file system modes:"
+"CAUTION: shred assumes the file system and hardware overwrite data in "
+"place.  Although this is common, many platforms operate otherwise.  Also, "
+"backups and mirrors may contain unremovable copies that will let a shredded "
+"file be recovered later.  See the GNU coreutils manual for details."
 msgstr ""
 
-#
-#. type: Plain text
-#: raw/coreutils/man1/shred.1:70
-msgid ""
-"* log-structured or journaled file systems, such as those supplied with AIX "
-"and Solaris (and JFS, ReiserFS, XFS, Ext3, etc.)"
-msgstr ""
-
-#
-#. type: Plain text
-#: raw/coreutils/man1/shred.1:73
-msgid ""
-"* file systems that write redundant data and carry on even if some writes "
-"fail, such as RAID-based file systems"
-msgstr ""
-
-#
-#. type: Plain text
-#: raw/coreutils/man1/shred.1:75
-msgid ""
-"* file systems that make snapshots, such as Network Appliance's NFS server"
-msgstr ""
-
-#
-#. type: Plain text
-#: raw/coreutils/man1/shred.1:78
-msgid ""
-"* file systems that cache in temporary locations, such as NFS version 3 "
-"clients"
-msgstr ""
-
-#
-#. type: Plain text
-#: raw/coreutils/man1/shred.1:80
-msgid "* compressed file systems"
-msgstr ""
-
-#
-#. type: Plain text
-#: raw/coreutils/man1/shred.1:88
-msgid ""
-"In the case of ext3 file systems, the above disclaimer applies (and shred is "
-"thus of limited effectiveness) only in data=journal mode, which journals "
-"file data in addition to just metadata.  In both the data=ordered (default) "
-"and data=writeback modes, shred works as usual.  Ext3 journaling modes can "
-"be changed by adding the data=something option to the mount options for a "
-"particular file system in the I<\\,/etc/fstab\\/> file, as documented in the "
-"mount man page (man mount)."
-msgstr ""
-
-#
-#. type: Plain text
-#: raw/coreutils/man1/shred.1:92
-msgid ""
-"In addition, file system backups and remote mirrors may contain copies of "
-"the file that cannot be removed, and that will allow a shredded file to be "
-"recovered later."
-msgstr ""
-
-#
 #. type: SH
-#: raw/coreutils/man1/shred.1:92
+#: raw/coreutils/man1/shred.1:66
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:94
+#: raw/coreutils/man1/shred.1:68
 msgid "Written by Colin Plumb."
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/shred.1:94
+#: raw/coreutils/man1/shred.1:68
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:96
+#: raw/coreutils/man1/shred.1:70
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:98
+#: raw/coreutils/man1/shred.1:72
 msgid ""
-"Report shred translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
-#
 #. type: SH
-#: raw/coreutils/man1/shred.1:98
+#: raw/coreutils/man1/shred.1:72
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:101
+#: raw/coreutils/man1/shred.1:75
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:104
+#: raw/coreutils/man1/shred.1:78
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -393,28 +298,26 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/shred.1:104
+#: raw/coreutils/man1/shred.1:78
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:106
+#: raw/coreutils/man1/shred.1:80
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "shredE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/shredE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/shredE<gt>"
 msgstr "完整文档请见：E<lt>http://www.gnu.org/software/coreutils/shredE<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/shred.1:107
+#: raw/coreutils/man1/shred.1:81
 msgid "or available locally via: info \\(aq(coreutils) shred invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) shred invocation\\(aq"
 
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"

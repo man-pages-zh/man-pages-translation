@@ -1,13 +1,12 @@
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:04+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -18,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/mkfifo.1:2
 #, no-wrap
@@ -27,63 +25,57 @@ msgstr "MKFIFO"
 
 #. type: TH
 #: raw/coreutils/man1/mkfifo.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/mkfifo.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/mkfifo.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:5
 msgid "mkfifo - make FIFOs (named pipes)"
 msgstr "mkfifo - 创建 FIFO（命名管道）"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:8
 msgid "B<mkfifo> [I<\\,OPTION\\/>]... I<\\,NAME\\/>..."
 msgstr "B<mkfifo> [I<\\,选项\\/>]... I<\\,名称\\/>..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:12
 msgid "Create named pipes (FIFOs) with the given NAMEs."
 msgstr "使用给定的名称创建命名管道（FIFO）。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:14
 msgid ""
@@ -96,20 +88,17 @@ msgstr "必选参数对长短选项同时适用。"
 msgid "B<-m>, B<--mode>=I<\\,MODE\\/>"
 msgstr "B<-m>, B<--mode>=I<\\,模式\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:17
 msgid "set file permission bits to MODE, not a=rw - umask"
 msgstr "将文件权限位设置为给定的模式（类似 chmod），而不是类似 a=rw 这样"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mkfifo.1:17
 #, no-wrap
 msgid "B<-Z>"
 msgstr "B<-Z>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:20
 msgid "set the SELinux security context to default type"
@@ -121,7 +110,6 @@ msgstr "将 SELinux 安全上下文设置为默认类型"
 msgid "B<--context>[=I<\\,CTX\\/>]"
 msgstr "B<--context>[=I<\\,CTX\\/>]"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:24
 msgid ""
@@ -131,71 +119,68 @@ msgstr ""
 "类似 B<-Z>，或者如果指定了上下文，则将 SELinux 或者 SMACK 安全上下文设置为指"
 "定类型"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mkfifo.1:24
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:27
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mkfifo.1:27
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:30
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:30
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:32
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:32
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:34
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:36
+#, fuzzy
+#| msgid ""
+#| "Report mkfifo translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report mkfifo translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 mkfifo 的翻"
 "译错误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:36
 #, no-wrap
@@ -204,14 +189,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:39
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:42
 msgid ""
@@ -221,38 +209,34 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/mkfifo.1:42
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:44
 msgid "mkfifo(3)"
 msgstr "mkfifo(3)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:47
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
+#| "mkfifoE<gt>"
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/mkfifoE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/mkfifoE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/mkfifoE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mkfifo.1:48
 msgid "or available locally via: info \\(aq(coreutils) mkfifo invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) mkfifo invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

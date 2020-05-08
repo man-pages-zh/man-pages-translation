@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH RM 1 2017年10月 "GNU coreutils 8.28" 用户命令
+.TH RM 1 "March 2020" "GNU coreutils 8.32" 用户命令
 .SH 名称
 rm \- 移除文件或者目录
 .SH 概述
@@ -12,11 +12,16 @@ rm \- 移除文件或者目录
 .SH 描述
 本手册页记录 GNU 版本的 \fBrm\fP。\fBrm\fP 移除每一个指定的文件。默认情况下，它不删除目录。
 .P
-如果指定 \fI\-I\fP 或 \fI\-\-interactive\=once\fP 选项，且给出了三个以上的文件或指定了 \fI\-r\fP, \fI\-R\fP 或
-\fI\-\-recursive\fP 选项，则 \fBrm\fP 将提示并询问用户是否继续进行整个操作。如果未得到用户的确认，则整个命令将被中止。
+If the \fI\-I\fP or \fI\-\-interactive=once\fP option is given, and there are more
+than three files or the \fI\-r\fP, \fI\-R\fP, or \fI\-\-recursive\fP are given, then
+\fBrm\fP prompts the user for whether to proceed with the entire operation.  If
+the response is not affirmative, the entire command is aborted.
 .P
-否则，如果一个文件不可写、标准输入是一个终端且未给出 \fI\-f\fP 或 \fI\-\-force\fP 选项，或 \fI\-\-interactive\=always\fP
-选项被给出， \fBrm\fP 将提示用户是否删除该文件。如果未得到用户的确认，则该文件将被跳过。
+Otherwise, if a file is unwritable, standard input is a terminal, and the
+\fI\-f\fP or \fI\-\-force\fP option is not given, or the \fI\-i\fP or
+\fI\-\-interactive=always\fP option is given, \fBrm\fP prompts the user for whether
+to remove the file.  If the response is not affirmative, the file is
+skipped.
 .SH 选项
 .PP
 删除 (unlink) 给定文件。
@@ -40,8 +45,9 @@ WHEN 参数，则总是提示用户。
 \fB\-\-no\-preserve\-root\fP
 不对 '/' 做特殊处理
 .TP 
-\fB\-\-preserve\-root\fP
-不删除 '/'（默认）
+\fB\-\-preserve\-root\fP[=\fI\,all\/\fP]
+do not remove '/' (default); with 'all', reject any command line argument on
+a separate device from its parent
 .TP 
 \fB\-r\fP, \fB\-R\fP, \fB\-\-recursive\fP
 递归地移除目录及它们的内容
@@ -71,12 +77,13 @@ rm ./\-foo
 .SH 作者
 由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。
 .SH 报告错误
-GNU coreutils 的在线帮助： <http://www.gnu.org/software/coreutils/>
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 .br
-请向 <http://translationproject.org/team/zh_CN.html> 报告 rm 的翻译错误。
+Report any translation bugs to
+<https://translationproject.org/team/>
 .SH 版权
-Copyright \(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
-version 3 or later <http://gnu.org/licenses/gpl.html>.
+Copyright \(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
+version 3 or later <https://gnu.org/licenses/gpl.html>.
 .br
 This is free software: you are free to change and redistribute it.  There is
 NO WARRANTY, to the extent permitted by law.
@@ -84,6 +91,6 @@ NO WARRANTY, to the extent permitted by law.
 unlink(1), unlink(2), chattr(1), shred(1)
 .PP
 .br
-完整文档请见： <http://www.gnu.org/software/coreutils/rm>
+Full documentation <https://www.gnu.org/software/coreutils/rm>
 .br
 或者在本地使用： info \(aq(coreutils) rm invocation\(aq

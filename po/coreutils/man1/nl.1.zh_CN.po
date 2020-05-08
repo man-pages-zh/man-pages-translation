@@ -1,16 +1,13 @@
-#
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:14+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -21,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
 #, no-wrap
@@ -30,413 +26,381 @@ msgstr "NL"
 
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/nl.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/nl.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:5
 msgid "nl - number lines of files"
 msgstr "nl - 给文件编行号"
 
-#
 #. type: SH
 #: raw/coreutils/man1/nl.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:8
 msgid "B<nl> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<nl> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/nl.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:12
 msgid "Write each FILE to standard output, with line numbers added."
 msgstr "将文件列表中的每一个文件输出到标准输出，并添加行号。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
 msgstr "如果没有指定文件，或者指定文件为\"-\"，则从标准输入读取。"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:16
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:16
 #, no-wrap
 msgid "B<-b>, B<--body-numbering>=I<\\,STYLE\\/>"
 msgstr "B<-b>, B<--body-numbering>=I<\\,风格\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:19
 msgid "use STYLE for numbering body lines"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:19
 #, no-wrap
 msgid "B<-d>, B<--section-delimiter>=I<\\,CC\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:22
 msgid "use CC for logical page delimiters"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:22
 #, no-wrap
 msgid "B<-f>, B<--footer-numbering>=I<\\,STYLE\\/>"
 msgstr "B<-f>, B<--footer-numbering>=I<\\,风格\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:25
 msgid "use STYLE for numbering footer lines"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:25
 #, no-wrap
 msgid "B<-h>, B<--header-numbering>=I<\\,STYLE\\/>"
 msgstr "B<-h>, B<--header-numbering>=I<\\,风格\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:28
 msgid "use STYLE for numbering header lines"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:28
 #, no-wrap
 msgid "B<-i>, B<--line-increment>=I<\\,NUMBER\\/>"
 msgstr "B<-i>, B<--line-increment>=I<\\,数字\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:31
 msgid "line number increment at each line"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:31
 #, no-wrap
 msgid "B<-l>, B<--join-blank-lines>=I<\\,NUMBER\\/>"
 msgstr "B<-l>, B<--join-blank-lines>=I<\\,数字\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:34
 msgid "group of NUMBER empty lines counted as one"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:34
 #, no-wrap
 msgid "B<-n>, B<--number-format>=I<\\,FORMAT\\/>"
 msgstr "B<-n>, B<--number-format>=I<\\,格式\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:37
 msgid "insert line numbers according to FORMAT"
 msgstr "根据指定格式字符串插入行号"
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:37
 #, no-wrap
 msgid "B<-p>, B<--no-renumber>"
 msgstr "B<-p>, B<--no-renumber>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:40
 msgid "do not reset line numbers for each section"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:40
 #, no-wrap
 msgid "B<-s>, B<--number-separator>=I<\\,STRING\\/>"
 msgstr "B<-s>, B<--number-separator>=I<\\,字符串\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:43
 msgid "add STRING after (possible) line number"
 msgstr "如果可能的话，将指定字符串添加到行号后"
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:43
 #, no-wrap
 msgid "B<-v>, B<--starting-line-number>=I<\\,NUMBER\\/>"
 msgstr "B<-v>, B<--starting-line-number>=I<\\,数字\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:46
 msgid "first line number for each section"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:46
 #, no-wrap
 msgid "B<-w>, B<--number-width>=I<\\,NUMBER\\/>"
 msgstr "B<-w>, B<--number-width>=I<\\,数字\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:49
 msgid "use NUMBER columns for line numbers"
 msgstr "为行号留出指定列的宽度"
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:49
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:52
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/nl.1:52
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/nl.1:55
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:59
+#: raw/coreutils/man1/nl.1:57
+msgid ""
+"Default options are: B<-bt> B<-d>'\\e:' B<-fn> B<-hn> B<-i1> B<-l1> B<-"
+"n>'rn' B<-s>E<lt>TABE<gt> B<-v1> B<-w6>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/nl.1:60
 #, fuzzy
 msgid ""
-"By default, selects B<-v1> B<-i1> B<-l1> B<-sTAB> B<-w6> B<-nrn> B<-hn> B<-"
-"bt> B<-fn>.  CC are two delimiter characters used to construct logical page "
-"delimiters, a missing second character implies :.  Type \\e\\e for \\e.  "
-"STYLE is one of:"
+"CC are two delimiter characters used to construct logical page delimiters; a "
+"missing second character implies ':'."
 msgstr ""
 "默认情况下，将选用 B<-v1> B<-i1> B<-l1> B<-sTAB> B<-w6> B<-nrn> B<-hn> B<-"
 "bt> B<-fn> 的参数。CC are two delimiter characters for separating logical "
 "pages, a missing second character implies :.  Type \\e\\e for \\e.  风格字符"
 "串可以是下列字符串中的一个："
 
-#
+#. type: Plain text
+#: raw/coreutils/man1/nl.1:62
+#, fuzzy
+#| msgid "FORMAT is one of:"
+msgid "STYLE is one of:"
+msgstr "格式字符串可以是下列字符串中的一个："
+
 #. type: TP
-#: raw/coreutils/man1/nl.1:59
+#: raw/coreutils/man1/nl.1:62
 #, no-wrap
 msgid "a"
 msgstr "a"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:62
+#: raw/coreutils/man1/nl.1:65
 msgid "number all lines"
 msgstr "对所有行进行编号"
 
-#
 #. type: TP
-#: raw/coreutils/man1/nl.1:62
+#: raw/coreutils/man1/nl.1:65
 #, no-wrap
 msgid "t"
 msgstr "t"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:65
+#: raw/coreutils/man1/nl.1:68
 msgid "number only nonempty lines"
 msgstr "只对非空行进行编号"
 
-#
 #. type: TP
-#: raw/coreutils/man1/nl.1:65
+#: raw/coreutils/man1/nl.1:68
 #, no-wrap
 msgid "n"
 msgstr "n"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:68
+#: raw/coreutils/man1/nl.1:71
 msgid "number no lines"
 msgstr "不进行编号"
 
-#
 #. type: TP
-#: raw/coreutils/man1/nl.1:68
+#: raw/coreutils/man1/nl.1:71
 #, no-wrap
 msgid "pBRE"
 msgstr "pBRE"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:72
+#: raw/coreutils/man1/nl.1:75
 msgid ""
 "number only lines that contain a match for the basic regular expression, BRE"
 msgstr ""
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:74
+#: raw/coreutils/man1/nl.1:77
 msgid "FORMAT is one of:"
 msgstr "格式字符串可以是下列字符串中的一个："
 
-#
 #. type: TP
-#: raw/coreutils/man1/nl.1:74
+#: raw/coreutils/man1/nl.1:77
 #, no-wrap
 msgid "ln"
 msgstr "ln"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:77
+#: raw/coreutils/man1/nl.1:80
 msgid "left justified, no leading zeros"
 msgstr "左对齐，没有前导数字0"
 
-#
 #. type: TP
-#: raw/coreutils/man1/nl.1:77
+#: raw/coreutils/man1/nl.1:80
 #, no-wrap
 msgid "rn"
 msgstr "rn"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:80
+#: raw/coreutils/man1/nl.1:83
 msgid "right justified, no leading zeros"
 msgstr "右对齐，没有前导数字0"
 
-#
 #. type: TP
-#: raw/coreutils/man1/nl.1:80
+#: raw/coreutils/man1/nl.1:83
 #, no-wrap
 msgid "rz"
 msgstr "rz"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:83
+#: raw/coreutils/man1/nl.1:86
 msgid "right justified, leading zeros"
 msgstr "右对齐，用前导数字0填充空白位"
 
-#
 #. type: SH
-#: raw/coreutils/man1/nl.1:83
+#: raw/coreutils/man1/nl.1:86
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:85
+#: raw/coreutils/man1/nl.1:88
 msgid "Written by Scott Bartram and David MacKenzie."
 msgstr "由 Scott Bartram 和 David MacKenzie 编写。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/nl.1:85
+#: raw/coreutils/man1/nl.1:88
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:87
+#: raw/coreutils/man1/nl.1:90
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:89
+#: raw/coreutils/man1/nl.1:92
+#, fuzzy
+#| msgid ""
+#| "Report nl translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report nl translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 nl 的翻译错"
 "误。"
 
-#
 #. type: SH
-#: raw/coreutils/man1/nl.1:89
+#: raw/coreutils/man1/nl.1:92
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:92
+#: raw/coreutils/man1/nl.1:95
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:95
+#: raw/coreutils/man1/nl.1:98
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -444,32 +408,27 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
-#: raw/coreutils/man1/nl.1:95
+#: raw/coreutils/man1/nl.1:98
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:97
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/nlE<gt>"
+#: raw/coreutils/man1/nl.1:100
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/nlE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/nlE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/nlE<gt>"
 
-#
 #. type: Plain text
-#: raw/coreutils/man1/nl.1:98
+#: raw/coreutils/man1/nl.1:101
 msgid "or available locally via: info \\(aq(coreutils) nl invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) nl invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"

@@ -1,14 +1,12 @@
-#
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Automatically generated, 2015.
 # Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 15:48+0800\n"
+"POT-Creation-Date: 2020-05-08 19:39-0400\n"
 "PO-Revision-Date: 2017-10-18 23:03+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -19,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
 #, no-wrap
@@ -28,82 +25,73 @@ msgstr "MV"
 
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
-#, no-wrap
-msgid "October 2017"
-msgstr "2017年10月"
+#, fuzzy, no-wrap
+#| msgid "March 2015"
+msgid "March 2020"
+msgstr "2015年三月"
 
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
-#, no-wrap
-msgid "GNU coreutils 8.28"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.28"
+msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.28"
 
-#
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
 #, no-wrap
 msgid "User Commands"
 msgstr "用户命令"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mv.1:3
 #, no-wrap
 msgid "NAME"
 msgstr "名称"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:5
 msgid "mv - move (rename) files"
 msgstr "mv - 移动（重命名）文件"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mv.1:5
 #, no-wrap
 msgid "SYNOPSIS"
 msgstr "概述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:8
 msgid "B<mv> [I<\\,OPTION\\/>]... [I<\\,-T\\/>] I<\\,SOURCE DEST\\/>"
 msgstr "B<mv> [I<\\,选项\\/>]... [I<\\,-T\\/>] I<\\,源文件 目标文件\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:11
 msgid "B<mv> [I<\\,OPTION\\/>]... I<\\,SOURCE\\/>... I<\\,DIRECTORY\\/>"
 msgstr "B<mv> [I<\\,选项\\/>]... I<\\,源文件\\/>... I<\\,目标目录\\/>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:14
 msgid "B<mv> [I<\\,OPTION\\/>]... I<\\,-t DIRECTORY SOURCE\\/>..."
 msgstr "B<mv> [I<\\,选项\\/>]... I<\\,-t 目标目录 源文件\\/>..."
 
-#
 #. type: SH
 #: raw/coreutils/man1/mv.1:14
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:18
 msgid "Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY."
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:20
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
-#
 # Words in texinfo document is also hard to understand. Please make sure that you understand what CONTROL/METHOD is.
 #. type: TP
 #: raw/coreutils/man1/mv.1:20
@@ -111,65 +99,55 @@ msgstr "必选参数对长短选项同时适用。"
 msgid "B<--backup>[=I<\\,CONTROL\\/>]"
 msgstr "B<--backup>[=I<控制参数>]"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:23
 msgid "make a backup of each existing destination file"
 msgstr "为每个已存在的目标文件创建一个备份"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:23
 #, no-wrap
 msgid "B<-b>"
 msgstr "B<-b>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:26
 msgid "like B<--backup> but does not accept an argument"
 msgstr "类似 B<--backup>，但是不接受参数"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:26
 #, no-wrap
 msgid "B<-f>, B<--force>"
 msgstr "B<-f>, B<--force>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:29
 msgid "do not prompt before overwriting"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:29
 #, no-wrap
 msgid "B<-i>, B<--interactive>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:32
 msgid "prompt before overwrite"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:32
 #, no-wrap
 msgid "B<-n>, B<--no-clobber>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:35
 msgid "do not overwrite an existing file"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:37
 msgid ""
@@ -177,66 +155,56 @@ msgid ""
 "takes effect."
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:37
 #, no-wrap
 msgid "B<--strip-trailing-slashes>"
 msgstr "B<--strip-trailing-slashes>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:41
 msgid "remove any trailing slashes from each SOURCE argument"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:41
 #, no-wrap
 msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:44
 msgid "override the usual backup suffix"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:44
 #, fuzzy, no-wrap
 msgid "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 msgstr "B<-T>, B<--no-target-directory>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:47
 msgid "move all SOURCE arguments into DIRECTORY"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:47
 #, no-wrap
 msgid "B<-T>, B<--no-target-directory>"
 msgstr "B<-T>, B<--no-target-directory>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:50
 msgid "treat DEST as a normal file"
 msgstr "将目标文件当作普通文件对待（而不是目录）"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:50
 #, no-wrap
 msgid "B<-u>, B<--update>"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:55
 msgid ""
@@ -244,59 +212,50 @@ msgid ""
 "the destination file is missing"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:55
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:58
 msgid "explain what is being done"
 msgstr "解释正在发生的情况"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:58
 #, no-wrap
 msgid "B<-Z>, B<--context>"
 msgstr "B<-Z>, B<--context>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:62
 msgid "set SELinux security context of destination file to default type"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:62
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:65
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:65
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:68
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:72
 msgid ""
@@ -306,96 +265,90 @@ msgid ""
 "Here are the values:"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:72
 #, no-wrap
 msgid "none, off"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:75
 msgid "never make backups (even if B<--backup> is given)"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:75
 #, no-wrap
 msgid "numbered, t"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:78
 msgid "make numbered backups"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:78
 #, no-wrap
 msgid "existing, nil"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:81
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr ""
 
-#
 #. type: TP
 #: raw/coreutils/man1/mv.1:81
 #, no-wrap
 msgid "simple, never"
 msgstr ""
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:84
 msgid "always make simple backups"
 msgstr ""
 
-#
 #. type: SH
 #: raw/coreutils/man1/mv.1:84
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:86
 msgid "Written by Mike Parker, David MacKenzie, and Jim Meyering."
 msgstr "由 Mike Parker、David MacKenzie 和 Jim Meyering 编写。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mv.1:86
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:88
+#, fuzzy
+#| msgid ""
+#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
+#| "E<gt>"
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:90
+#, fuzzy
+#| msgid ""
+#| "Report mv translation bugs to E<lt>http://translationproject.org/team/"
+#| "E<gt>"
 msgid ""
-"Report mv translation bugs to E<lt>http://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 mv 的翻译错"
 "误。"
 
-#
 #. type: SH
 #: raw/coreutils/man1/mv.1:90
 #, no-wrap
@@ -404,14 +357,17 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:93
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:96
 msgid ""
@@ -421,38 +377,32 @@ msgstr ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 
-#
 #. type: SH
 #: raw/coreutils/man1/mv.1:96
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:98
 msgid "rename(2)"
 msgstr "rename(2)"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:101
-msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/mvE<gt>"
+#, fuzzy
+#| msgid ""
+#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/mvE<gt>"
+msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/mvE<gt>"
 msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/mvE<gt>"
 
-#
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:102
 msgid "or available locally via: info \\(aq(coreutils) mv invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) mv invocation\\(aq"
 
+#~ msgid "October 2017"
+#~ msgstr "2017年10月"
+
 #~ msgid "January 2017"
 #~ msgstr "2017年1月"
-
-#
-#
-#
-#
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
