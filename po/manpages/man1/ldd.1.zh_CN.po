@@ -4,13 +4,14 @@
 # This file is distributed under the same license as the manpages package.
 # Automatically generated, 2017.
 # Boyuan Yang <073plan@gmail.com>, 2017.
+# Zheng Junyi <zhengjunyi@live.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-14 19:14+0800\n"
 "PO-Revision-Date: 2017-02-14 19:14+0800\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Last-Translator: Zheng Junyi <zhengjunyi@live.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -22,47 +23,47 @@ msgstr ""
 #: raw/manpages/man1/ldd.1:14
 #, no-wrap
 msgid "LDD"
-msgstr ""
+msgstr "LDD"
 
 #. type: TH
 #: raw/manpages/man1/ldd.1:14
 #, no-wrap
 msgid "2016-07-17"
-msgstr ""
+msgstr "2016-07-17"
 
 #. type: TH
 #: raw/manpages/man1/ldd.1:14
 #, no-wrap
 msgid "Linux Programmer's Manual"
-msgstr ""
+msgstr "Linux Programmer's Manual"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:15
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:17
 msgid "ldd - print shared object dependencies"
-msgstr ""
+msgstr "ldd - 显示共享库的依赖情况"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:17
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:19
 msgid "B<ldd> [I<option>]... I<file>..."
-msgstr ""
+msgstr "B<ldd> [I<选项>]... I<文件>..."
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:19
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:24
@@ -71,6 +72,7 @@ msgid ""
 "or shared object specified on the command line.  An example of its use and "
 "output is the following:"
 msgstr ""
+"B<ldd> 显示命令行上指定的每个程序或共享库所需的共享库 (共享库) 。其用法和输出示例如下："
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:37
@@ -87,6 +89,16 @@ msgid ""
 "        libattr.so.1 =E<gt> /lib64/libattr.so.1 (0x00007f87e4817000)\n"
 "        libpthread.so.0 =E<gt> /lib64/libpthread.so.0 (0x00007f87e45fa000)\n"
 msgstr ""
+"$ B<ldd /bin/ls>\n"
+"        linux-vdso.so.1 (0x00007ffcc3563000)\n"
+"        libselinux.so.1 =E<gt> /lib64/libselinux.so.1 (0x00007f87e5459000)\n"
+"        libcap.so.2 =E<gt> /lib64/libcap.so.2 (0x00007f87e5254000)\n"
+"        libc.so.6 =E<gt> /lib64/libc.so.6 (0x00007f87e4e92000)\n"
+"        libpcre.so.1 =E<gt> /lib64/libpcre.so.1 (0x00007f87e4c22000)\n"
+"        libdl.so.2 =E<gt> /lib64/libdl.so.2 (0x00007f87e4a1e000)\n"
+"        /lib64/ld-linux-x86-64.so.2 (0x00005574bf12e000)\n"
+"        libattr.so.1 =E<gt> /lib64/libattr.so.1 (0x00007f87e4817000)\n"
+"        libpthread.so.0 =E<gt> /lib64/libpthread.so.0 (0x00007f87e45fa000)\n"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:63
@@ -100,12 +112,17 @@ msgid ""
 "address at which it is loaded.  (The I<linux-vdso> and I<ld-linux> shared "
 "dependencies are special; see B<vdso>(7)  and B<ld.so>(8).)"
 msgstr ""
+"在通常情况下，如果环境变量 B<LD_TRACE_LOADED_OBJECTS> 设置为 1，则 B<ldd> 会调用标准"
+"动态链接程序 (请参阅 B<ld.so>(8)) 。这将检查程序的动态库的依赖关系， 并查找 (根据 B<ld.so>(8) "
+"中描述的规则) 与加载满足那些依赖关系的对象。 对于每个依赖项，B<ldd> 显示匹配对象的位置以及加载该"
+"对象的 (十六进制) 地址。 (I<linux-vdso> 和 I<ld-linux> 共享依赖项是特殊的；请参阅 B<vdso>(7)"
+" 和 B<ld.so>(8)。) "
 
 #. type: SS
 #: raw/manpages/man1/ldd.1:63
 #, no-wrap
 msgid "Security"
-msgstr ""
+msgstr "安全性"
 
 #.  The circumstances are where the program has an interpreter
 #.  other than ld-linux.so. In this case, ldd tries to execute the
@@ -130,69 +147,74 @@ msgid ""
 "executable, since this may result in the execution of arbitrary code.  A "
 "safer alternative when dealing with untrusted executables is:"
 msgstr ""
+"请注意，在某些情况下 (例如，程序指定了 I<ld-linux.so> 以外的 ELF 解释器) ，某些版本的 B<ldd> "
+"可能会尝试通过尝试直接执行程序来获取依赖项信息 (这可能导致执行程序的 ELF 解释器中定义的任何代码，"
+"甚至可能导致直接执行程序本身) 。因此，您不应该在不受信任的可执行文件上使用 B<ldd>，因为这可能会导致"
+"执行任意代码。处理不受信任的可执行文件时，更安全的选择是："
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:94
 #, no-wrap
 msgid "    $ B<objdump -p /path/to/program | grep NEEDED>\n"
-msgstr ""
+msgstr "    $ B<objdump -p /path/to/program | grep NEEDED>\n"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:94
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "选项"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:95
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:99
 msgid "Print the version number of B<ldd>."
-msgstr ""
+msgstr "显示 B<ldd> 的版本号"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:99
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
-msgstr ""
+msgstr "B<-v>, B<--verbose>"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:103
 msgid ""
 "Print all information, including, for example, symbol versioning information."
 msgstr ""
+"显示所有信息，包括符号版本 (symbol versioning) 信息。"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:103
 #, no-wrap
 msgid "B<-u>, B<--unused>"
-msgstr ""
+msgstr "B<-u>, B<--unused>"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:107
 msgid "Print unused direct dependencies.  (Since glibc 2.3.4.)"
-msgstr ""
+msgstr "显示未使用的直接依赖项。 (需要 glibc 2.3.4)"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:107
 #, no-wrap
 msgid "B<-d>, B<--data-relocs>"
-msgstr ""
+msgstr "B<-d>, B<--data-relocs>"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:110
 msgid "Perform relocations and report any missing objects (ELF only)."
-msgstr ""
+msgstr "执行重定向并报告所有缺少的对象 (仅限于 ELF) 。"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:110
 #, no-wrap
 msgid "B<-r>, B<--function-relocs>"
-msgstr ""
+msgstr "B<-r>, B<--function-relocs>"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:114
@@ -200,12 +222,13 @@ msgid ""
 "Perform relocations for both data objects and functions, and report any "
 "missing objects or functions (ELF only)."
 msgstr ""
+"对数据对象和函数执行重定向，并报告所有缺少的对象或函数 (仅限于 ELF) 。"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:114
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #.  .SH NOTES
 #.  The standard version of
@@ -227,18 +250,18 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:134
 msgid "Usage information."
-msgstr ""
+msgstr "使用信息"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:134
 #, no-wrap
 msgid "BUGS"
-msgstr ""
+msgstr "BUGS"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:137
 msgid "B<ldd> does not work on a.out shared libraries."
-msgstr ""
+msgstr "B<ldd> 在 a.out 共享库上可能无法工作。"
 
 #.  .SH AUTHOR
 #.  David Engel.
@@ -251,23 +274,25 @@ msgid ""
 "on one of these programs, the program will attempt to run with I<argc> = 0 "
 "and the results will be unpredictable."
 msgstr ""
+"对于某些非常老的 a.out 程序，构建时所使用的编译器尚未添加 B<ldd> 支持，B<ldd> 可能无法正常"
+"工作。如果在这些程序上使用 B<ldd>，则该程序将尝试以 I<argc>=0 运行，结果将不可预测。"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:151
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参考"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:156
 msgid "B<pldd>(1), B<sprof>(1), B<ld.so>(8), B<ldconfig>(8)"
-msgstr ""
+msgstr "B<pldd>(1), B<sprof>(1), B<ld.so>(8), B<ldconfig>(8)"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:156
 #, no-wrap
 msgid "COLOPHON"
-msgstr ""
+msgstr "COLOPHON"
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:164
@@ -277,3 +302,6 @@ msgid ""
 "version of this page, can be found at \\%https://www.kernel.org/doc/man-"
 "pages/."
 msgstr ""
+"本页面是 Linux I<man-pages> 项目 4.09 版的一部分。该项目的描述、有关报告错误"
+"的信息以及本页面的最新版本可以在 \\%https://www.kernel.org/doc/pan-pages/ 上"
+"找到。"
