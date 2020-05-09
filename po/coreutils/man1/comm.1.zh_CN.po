@@ -2,12 +2,12 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2016-2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-19 16:16+0800\n"
+"PO-Revision-Date: 2020-05-08 23:04-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/comm.1:2
@@ -25,17 +25,15 @@ msgstr "COMM"
 
 #. type: TH
 #: raw/coreutils/man1/comm.1:2
-#, fuzzy, no-wrap
-#| msgid "March 2015"
+#, no-wrap
 msgid "March 2020"
-msgstr "2015年三月"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/comm.1:2
-#, fuzzy, no-wrap
-#| msgid "GNU coreutils 8.28"
+#, no-wrap
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/comm.1:2
@@ -88,74 +86,76 @@ msgid ""
 "unique to FILE1, column two contains lines unique to FILE2, and column three "
 "contains lines common to both files."
 msgstr ""
+"如果不附带选项，程序会生成三列输出。第一列包含文件1 特有的行，第二列包含 文件"
+"2 特有的行，而第三列包含两个文件共有的行。"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:18
 #, no-wrap
 msgid "B<-1>"
-msgstr ""
+msgstr "B<-1>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:21
 msgid "suppress column 1 (lines unique to FILE1)"
-msgstr ""
+msgstr "不输出文件1 特有的行"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:21
 #, no-wrap
 msgid "B<-2>"
-msgstr ""
+msgstr "B<-2>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:24
 msgid "suppress column 2 (lines unique to FILE2)"
-msgstr ""
+msgstr "不输出文件2 特有的行"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:24
 #, no-wrap
 msgid "B<-3>"
-msgstr ""
+msgstr "B<-3>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:27
 msgid "suppress column 3 (lines that appear in both files)"
-msgstr ""
+msgstr "不输出两个文件共有的行"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:27
 #, no-wrap
 msgid "B<--check-order>"
-msgstr ""
+msgstr "B<--check-order>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:31
 msgid ""
 "check that the input is correctly sorted, even if all input lines are "
 "pairable"
-msgstr ""
+msgstr "检查输入是否被正确排序，即使所有输入行均成对"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:31
 #, no-wrap
 msgid "B<--nocheck-order>"
-msgstr ""
+msgstr "B<--nocheck-order>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:34
 msgid "do not check that the input is correctly sorted"
-msgstr ""
+msgstr "不检查输入是否被正确排序"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:34
 #, no-wrap
 msgid "B<--output-delimiter>=I<\\,STR\\/>"
-msgstr ""
+msgstr "B<--output-delimiter>=I<\\,STR\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:37
 msgid "separate columns with STR"
-msgstr ""
+msgstr "按照指定的 STR 分隔各列"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:37
@@ -166,18 +166,18 @@ msgstr "B<--total>"
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:40
 msgid "output a summary"
-msgstr ""
+msgstr "输出一份摘要信息"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:40
 #, no-wrap
 msgid "B<-z>, B<--zero-terminated>"
-msgstr ""
+msgstr "B<-z>, B<--zero-terminated>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:43
 msgid "line delimiter is NUL, not newline"
-msgstr ""
+msgstr "以 NUL 字符而非换行符作为行尾分隔符"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:43
@@ -204,7 +204,7 @@ msgstr "显示版本信息并退出"
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:51
 msgid "Note, comparisons honor the rules specified by 'LC_COLLATE'."
-msgstr ""
+msgstr "注意，比较操作遵从“LC_COLLATE”所指定的规则"
 
 #. type: SH
 #: raw/coreutils/man1/comm.1:51
@@ -216,23 +216,23 @@ msgstr "范例"
 #: raw/coreutils/man1/comm.1:52
 #, no-wrap
 msgid "comm -12 file1 file2"
-msgstr ""
+msgstr "comm -12 文件1 文件2"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:55
 msgid "Print only lines present in both file1 and file2."
-msgstr ""
+msgstr "只打印在文件1 和文件2 中都有的行。"
 
 #. type: TP
 #: raw/coreutils/man1/comm.1:55
 #, no-wrap
 msgid "comm -3 file1 file2"
-msgstr ""
+msgstr "comm -3 文件1 文件2"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:58
 msgid "Print lines in file1 not in file2, and vice versa."
-msgstr ""
+msgstr "打印在文件1 中有，而文件2 中没有的行。反之亦然。"
 
 #. type: SH
 #: raw/coreutils/man1/comm.1:58
@@ -253,26 +253,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:62
-#, fuzzy
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:64
-#, fuzzy
-#| msgid ""
-#| "Report comm translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 comm 的翻译"
-"错误。"
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/comm.1:64
@@ -282,16 +273,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:67
-#, fuzzy
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:70
@@ -315,13 +302,9 @@ msgstr "join(1), uniq(1)"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:75
-#, fuzzy
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-#| "commE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/commE<gt>"
-msgstr "完整文档请见：E<lt>http://www.gnu.org/software/coreutils/commE<gt>"
+msgstr "完整文档请见：E<lt>https://www.gnu.org/software/coreutils/commE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/comm.1:76

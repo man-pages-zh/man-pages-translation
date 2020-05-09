@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2016-2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-18 22:27+0800\n"
+"PO-Revision-Date: 2020-05-08 23:09-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
@@ -28,14 +28,13 @@ msgstr "CP"
 #: raw/coreutils/man1/cp.1:2
 #, no-wrap
 msgid "March 2020"
-msgstr ""
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
-#, fuzzy, no-wrap
-#| msgid "GNU coreutils 8.28"
+#, no-wrap
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/cp.1:2
@@ -490,12 +489,6 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:143
-#, fuzzy
-#| msgid ""
-#| "When B<--reflink>[=I<\\,always\\/>] is specified, perform a lightweight "
-#| "copy, where the data blocks are copied only when modified.  If this is "
-#| "not possible the copy fails, or if B<--reflink>=I<\\,auto\\/> is "
-#| "specified, fall back to a standard copy."
 msgid ""
 "When B<--reflink>[=I<\\,always\\/>] is specified, perform a lightweight "
 "copy, where the data blocks are copied only when modified.  If this is not "
@@ -505,7 +498,8 @@ msgid ""
 msgstr ""
 "当指定了 B<--reflink>[=I<\\,always\\/>] 时，进行轻量级复制，其中的数据块仅在"
 "被修改时进行复制。如果这样的复制失败，或无法实行，或者指定了 B<--reflink>=I<"
-"\\,auto\\/> 时，回退到标准复制。"
+"\\,auto\\/> 时，程序将会回退到标准复制操作。使用 B<--reflink>=I<\\,never\\/> "
+"可以确保永远进行标准复制。"
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:147
@@ -592,26 +586,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:167
-#, fuzzy
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:169
-#, fuzzy
-#| msgid ""
-#| "Report cp translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 cp 的翻译错"
-"误。"
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/cp.1:169
@@ -621,16 +606,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:172
-#, fuzzy
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:175
@@ -649,11 +630,8 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:177
-#, fuzzy
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/cpE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/cpE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/cpE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cp.1:178
