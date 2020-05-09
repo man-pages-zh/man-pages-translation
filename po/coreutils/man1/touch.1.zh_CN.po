@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2020-05-09 00:30-0400\n"
 "PO-Revision-Date: 2020-05-08 23:36-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,14 +27,12 @@ msgstr "TOUCH"
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
 #, no-wrap
-#| msgid "March 2015"
 msgid "March 2020"
 msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/touch.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.32"
 
@@ -83,7 +81,8 @@ msgstr "将每个文件的访问时间和修改时间更新为当前时间。"
 msgid ""
 "A FILE argument that does not exist is created empty, unless B<-c> or B<-h> "
 "is supplied."
-msgstr "除非提供了 B<-c> 或 B<-h> 参数，否则程序会在文件不存在时创建一个空文件。"
+msgstr ""
+"除非提供了 B<-c> 或 B<-h> 参数，否则程序会在文件不存在时创建一个空文件。"
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:18
@@ -155,7 +154,8 @@ msgstr "B<-h>, B<--no-dereference>"
 msgid ""
 "affect each symbolic link instead of any referenced file (useful only on "
 "systems that can change the timestamps of a symlink)"
-msgstr "影响所有符号链接而非被引用的文件（仅在能够更改符号链接的时间戳的系统上有用）"
+msgstr ""
+"影响所有符号链接而非被引用的文件（仅在能够更改符号链接的时间戳的系统上有用）"
 
 #. type: TP
 #: raw/coreutils/man1/touch.1:37
@@ -281,21 +281,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:73
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:75
-#| msgid ""
-#| "Report touch translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/touch.1:75
@@ -305,9 +301,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:78
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -332,9 +325,6 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/touch.1:83
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-#| "touchE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/touchE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/touchE<gt>"

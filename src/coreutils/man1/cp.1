@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH CP 1 "March 2020" "GNU coreutils 8.32" 用户命令
+.TH CP 1 2020年三月 "GNU coreutils 8.32" 用户命令
 .SH 名称
 cp \- 复制文件和目录
 .SH 概述
@@ -124,11 +124,9 @@ cp \- 复制文件和目录
 \fB\-\-sparse\fP=\fI\,always\/\fP，将在源文件包含足够多内容为零的字节序列时将其视作稀疏文件。使用
 \fB\-\-sparse\fP=\fI\,never\/\fP 以禁止创建稀疏文件。
 .PP
-When \fB\-\-reflink\fP[=\fI\,always\/\fP] is specified, perform a lightweight copy,
-where the data blocks are copied only when modified.  If this is not
-possible the copy fails, or if \fB\-\-reflink\fP=\fI\,auto\/\fP is specified, fall
-back to a standard copy.  Use \fB\-\-reflink\fP=\fI\,never\/\fP to ensure a standard
-copy is performed.
+当指定了 \fB\-\-reflink\fP[=\fI\,always\/\fP]
+时，进行轻量级复制，其中的数据块仅在被修改时进行复制。如果这样的复制失败，或无法实行，或者指定了 \fB\-\-reflink\fP=\fI\,auto\/\fP
+时，程序将会回退到标准复制操作。使用 \fB\-\-reflink\fP=\fI\,never\/\fP 可以确保永远进行标准复制。
 .PP
 备份的后缀为“~”，除非设置了 \fB\-\-suffix\fP 或者 SIMPLE_BACKUP_SUFFIX。版本控制方式可以使用 \fB\-\-backup\fP
 选项或者 VERSION_CONTROL 环境变量进行指定。可用的值如下：
@@ -149,10 +147,9 @@ simple, never
 .SH 作者
 由 Torbjorn Granlund、David MacKenzie 和 Jim Meyering 编写。
 .SH 报告错误
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+GNU coreutils 的在线帮助： <https://www.gnu.org/software/coreutils/>
 .br
-Report any translation bugs to
-<https://translationproject.org/team/>
+请向 <https://translationproject.org/team/zh_CN.html> 报告翻译错误。
 .SH 版权
 Copyright \(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
 version 3 or later <https://gnu.org/licenses/gpl.html>.
@@ -160,6 +157,6 @@ version 3 or later <https://gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it.  There is
 NO WARRANTY, to the extent permitted by law.
 .SH 参见
-Full documentation <https://www.gnu.org/software/coreutils/cp>
+完整文档请见： <https://www.gnu.org/software/coreutils/cp>
 .br
 或者在本地使用： info \(aq(coreutils) cp invocation\(aq

@@ -132,7 +132,6 @@ msgid ""
 msgstr ""
 "如果I<输出编码>中包含字符串 B<//IGNORE>，则忽略无法转换的字符，并在转换完成后给出错误提示"
 
-
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:85
 msgid ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2020-05-09 00:29-0400\n"
 "PO-Revision-Date: 2020-05-09 00:22-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,14 +27,12 @@ msgstr "EXPAND"
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
 #, no-wrap
-#| msgid "March 2015"
 msgid "March 2020"
 msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/expand.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.26"
 msgid "GNU coreutils 8.32"
 msgstr "2020年三月"
 
@@ -102,13 +100,11 @@ msgstr "不转换非空白符后的制表符"
 #. type: TP
 #: raw/coreutils/man1/expand.1:19
 #, no-wrap
-#| msgid "B<-t>, B<--tabs>=I<\\,NUMBER\\/>"
 msgid "B<-t>, B<--tabs>=I<\\,N\\/>"
 msgstr "B<-t>, B<--tabs>=I<\\,数字\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:22
-#| msgid "have tabs NUMBER characters apart, not 8"
 msgid "have tabs N characters apart, not 8"
 msgstr "设置每个制表符为指定数字的宽度，而不是默认的 8"
 
@@ -126,8 +122,10 @@ msgid ""
 "specified tab stop.  Also a prefix of '+' can be used to align remaining tab "
 "stops relative to the last specified tab stop instead of the first column"
 msgstr ""
-"指定制表符位置列表，用逗号分隔。最后的指定位置可以前缀加上‘/’符号以声明在最后一个明确指定制表符位置的声明之后对应位置的倍数均为制表符。另外，还可以使用‘"
-"+’的前缀以声明在最后一个明确指定位置的制表符之后每隔多少的位置间距是一个制表符"
+"指定制表符位置列表，用逗号分隔。最后的指定位置可以前缀加上‘/’符号以声明在最后"
+"一个明确指定制表符位置的声明之后对应位置的倍数均为制表符。另外，还可以使"
+"用‘+’的前缀以声明在最后一个明确指定位置的制表符之后每隔多少的位置间距是一个制"
+"表符"
 
 #. type: TP
 #: raw/coreutils/man1/expand.1:30
@@ -170,21 +168,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:40
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:42
-#| msgid ""
-#| "Report expand translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/expand.1:42
@@ -194,13 +188,11 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:45
-#| msgid ""
-#| "Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:48
@@ -224,9 +216,6 @@ msgstr "unexpand(1)"
 
 #. type: Plain text
 #: raw/coreutils/man1/expand.1:53
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-#| "expandE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/expandE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/expandE<gt>"

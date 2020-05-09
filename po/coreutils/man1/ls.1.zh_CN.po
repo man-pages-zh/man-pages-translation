@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2020-05-09 00:29-0400\n"
 "PO-Revision-Date: 2020-05-09 00:23-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,14 +27,12 @@ msgstr "LS"
 #. type: TH
 #: raw/coreutils/man1/ls.1:2
 #, no-wrap
-#| msgid "March 2015"
 msgid "March 2020"
 msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/ls.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.32"
 
@@ -870,21 +868,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:252
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:254
-#| msgid ""
-#| "Report ls translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/ls.1:254
@@ -894,9 +888,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:257
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -921,8 +912,6 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:262
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/lsE<gt>"
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/lsE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/lsE<gt>"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2020-05-09 00:30-0400\n"
 "PO-Revision-Date: 2020-05-09 00:09-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,14 +26,12 @@ msgstr "STDBUF"
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
 #, no-wrap
-#| msgid "March 2015"
 msgid "March 2020"
 msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
 msgstr "2020年三月"
 
@@ -170,8 +168,9 @@ msgid ""
 "Also some filters (like 'dd' and 'cat' etc.) don't use streams for I/O, and "
 "are thus unaffected by 'stdbuf' settings."
 msgstr ""
-"注意：若指定的命令调整了其自身的标准流缓冲区（例如 tee 命令），则此操作会覆盖由 \"stdbuf\" 工具所做出的相应设置。还有某些过滤器程序（如"
-" \"dd\" 和 \"cat\" 之类）不使用输入输出流，因此不受 \"stdbuf\" 设置的影响。"
+"注意：若指定的命令调整了其自身的标准流缓冲区（例如 tee 命令），则此操作会覆盖"
+"由 \"stdbuf\" 工具所做出的相应设置。还有某些过滤器程序（如 \"dd\" 和 \"cat\" "
+"之类）不使用输入输出流，因此不受 \"stdbuf\" 设置的影响。"
 
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:46
@@ -221,18 +220,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:57
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:59
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:59
@@ -242,9 +240,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:62
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -269,9 +264,6 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:67
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-#| "stdbufE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/stdbufE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/stdbufE<gt>"

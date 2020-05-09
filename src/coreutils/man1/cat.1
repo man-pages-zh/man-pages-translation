@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH CAT 1 "March 2020" "GNU coreutils 8.32" 用户命令
+.TH CAT 1 2020年三月 "GNU coreutils 8.32" 用户命令
 .SH 名称
 cat \- 连接文件并在标准输出上输出
 .SH 概述
@@ -20,7 +20,7 @@ cat \- 连接文件并在标准输出上输出
 等价于 \fB\-vET\fP
 .TP 
 \fB\-b\fP, \fB\-\-number\-nonblank\fP
-给非空输出行编号，使 \fB\-n\fP 失效。
+对非空输出行编号，同时取消 \fB\-n\fP 选项效果
 .TP 
 \fB\-e\fP
 等价于 \fB\-vE\fP
@@ -54,17 +54,16 @@ cat \- 连接文件并在标准输出上输出
 .SH 范例
 .TP 
 cat f \- g
-依次输出文件 f，标准输入和文件 g 到标准输出
+先输出 f 的内容，然后输出标准输入的内容，最后输出 g 的内容。
 .TP 
 cat
-复制标准输入到标准输出
+复制标准输入到标准输出。
 .SH 作者
 由 Torbjorn Granlund 和 Richard M. Stallman 编写。
 .SH 报告错误
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+GNU coreutils 的在线帮助： <https://www.gnu.org/software/coreutils/>
 .br
-Report any translation bugs to
-<https://translationproject.org/team/>
+请向 <https://translationproject.org/team/zh_CN.html> 报告翻译错误。
 .SH 版权
 Copyright \(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
 version 3 or later <https://gnu.org/licenses/gpl.html>.
@@ -75,6 +74,6 @@ NO WARRANTY, to the extent permitted by law.
 \fBtac\fP(1)
 .PP
 .br
-Full documentation <https://www.gnu.org/software/coreutils/cat>
+完整文档请见： <https://www.gnu.org/software/coreutils/cat>
 .br
 或者在本地使用： info \(aq(coreutils) cat invocation\(aq

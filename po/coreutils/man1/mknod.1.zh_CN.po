@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2020-05-09 00:29-0400\n"
 "PO-Revision-Date: 2020-05-08 23:37-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,14 +26,12 @@ msgstr "MKNOD"
 #. type: TH
 #: raw/coreutils/man1/mknod.1:2
 #, no-wrap
-#| msgid "March 2015"
 msgid "March 2020"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/mknod.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.32"
 
@@ -63,7 +61,8 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:8
 msgid "B<mknod> [I<\\,OPTION\\/>]... I<\\,NAME TYPE \\/>[I<\\,MAJOR MINOR\\/>]"
-msgstr "B<mknod> [I<\\,选项\\/>]... I<\\,名称 类型 \\/>[I<\\,主设备号 从设备号\\/>]"
+msgstr ""
+"B<mknod> [I<\\,选项\\/>]... I<\\,名称 类型 \\/>[I<\\,主设备号 从设备号\\/>]"
 
 #. type: SH
 #: raw/coreutils/man1/mknod.1:8
@@ -215,21 +214,16 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:52
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr "2020年三月"
 
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:54
-#| msgid ""
-#| "Report mknod translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/mknod.1:54
@@ -239,9 +233,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:57
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -271,9 +262,6 @@ msgstr "mknod(2)"
 
 #. type: Plain text
 #: raw/coreutils/man1/mknod.1:65
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-#| "mknodE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/mknodE<gt>"
 msgstr "完整文档请见：E<lt>https://www.gnu.org/software/coreutils/mknodE<gt>"

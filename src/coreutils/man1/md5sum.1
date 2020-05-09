@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH MD5SUM 1 "March 2020" "GNU coreutils 8.32" 用户命令
+.TH MD5SUM 1 2020年三月 "GNU coreutils 8.32" 用户命令
 .SH 名称
 md5sum \- 计算并校验 MD5 信息摘要
 .SH 概述
@@ -29,7 +29,7 @@ md5sum \- 计算并校验 MD5 信息摘要
 以文本模式读入（默认）
 .TP 
 \fB\-z\fP, \fB\-\-zero\fP
-end each output line with NUL, not newline, and disable file name escaping
+以 NUL 字符而非换行符来结束每一个输出行
 .SS 下面五个选项仅在验证校验和时有用：
 .TP 
 \fB\-\-ignore\-missing\fP
@@ -57,8 +57,7 @@ end each output line with NUL, not newline, and disable file name escaping
 描述的方式进行计算。在校验过程中，其输入内容应当为该程序先前的输出内容。默认模式是输出一行文字，包含校验和、一个空格、一个指示输入模式的字符（'*'
 表示二进制输入，空格表示字符输入）以及每个文件的名称。
 .PP
-Note: There is no difference between binary mode and text mode on GNU
-systems.
+注意：GNU 系统上二进制模式和文本模式没有区别。
 .SH BUGS
 不要为与安全相关的目的使用 MD5 算法。作为替代，请使用一个 SHA\-2 算法，它们分别在
 sha224sum(1)、sha256sum(1)、sha384sum(1)、sha512sum(1) 这些程序中实现；或者请使用 BLAKE2
@@ -66,10 +65,9 @@ sha224sum(1)、sha256sum(1)、sha384sum(1)、sha512sum(1) 这些程序中实现�
 .SH 作者
 由 Ulrich Drepper, Scott Miller 和 David Madore 编写。
 .SH 报告错误
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+GNU coreutils 的在线帮助： <https://www.gnu.org/software/coreutils/>
 .br
-Report any translation bugs to
-<https://translationproject.org/team/>
+请向 <https://translationproject.org/team/zh_CN.html> 报告翻译错误。
 .SH 版权
 Copyright \(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
 version 3 or later <https://gnu.org/licenses/gpl.html>.
@@ -77,6 +75,6 @@ version 3 or later <https://gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it.  There is
 NO WARRANTY, to the extent permitted by law.
 .SH 参见
-Full documentation <https://www.gnu.org/software/coreutils/md5sum>
+完整文档请见： <https://www.gnu.org/software/coreutils/md5sum>
 .br
 或者在本地使用： info \(aq(coreutils) md5sum invocation\(aq

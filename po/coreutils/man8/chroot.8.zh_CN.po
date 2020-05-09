@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2020-05-09 00:30-0400\n"
 "PO-Revision-Date: 2020-05-08 23:14-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -33,7 +33,6 @@ msgstr "2020年三月"
 #. type: TH
 #: raw/coreutils/man8/chroot.8:2
 #, no-wrap
-#| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
 msgstr "GNU coreutils 8.32"
 
@@ -65,7 +64,8 @@ msgstr "概述"
 msgid ""
 "B<chroot> [I<\\,OPTION\\/>] I<\\,NEWROOT \\/>[I<\\,COMMAND \\/>[I<\\,ARG\\/"
 ">]...]"
-msgstr "B<chroot> [I<\\,选项\\/>] I<\\,新根 \\/>[I<\\,命令 \\/>[I<\\,参数\\/>]...]"
+msgstr ""
+"B<chroot> [I<\\,选项\\/>] I<\\,新根 \\/>[I<\\,命令 \\/>[I<\\,参数\\/>]...]"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:11
@@ -142,7 +142,8 @@ msgstr "显示版本信息并退出"
 #: raw/coreutils/man8/chroot.8:32
 msgid ""
 "If no command is given, run '\"$SHELL\" B<-i>' (default: '/bin/sh B<-i>')."
-msgstr "如果没有给定命令，则运行“\"$SHELL\" B<-i>”（默认为：“/bin/sh B<-i>”）。"
+msgstr ""
+"如果没有给定命令，则运行“\"$SHELL\" B<-i>”（默认为：“/bin/sh B<-i>”）。"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:32
@@ -163,21 +164,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:36
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:38
-#| msgid ""
-#| "Report chroot translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man8/chroot.8:38
@@ -187,9 +184,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:41
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -219,9 +213,6 @@ msgstr "chroot(2)"
 
 #. type: Plain text
 #: raw/coreutils/man8/chroot.8:49
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-#| "chrootE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/chrootE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/chrootE<gt>"

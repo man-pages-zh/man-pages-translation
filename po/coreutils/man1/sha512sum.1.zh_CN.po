@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2020-05-09 00:29-0400\n"
 "PO-Revision-Date: 2020-05-09 00:17-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,14 +27,12 @@ msgstr "SHA512SUM"
 #. type: TH
 #: raw/coreutils/man1/sha512sum.1:2
 #, no-wrap
-#| msgid "March 2015"
 msgid "March 2020"
 msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/sha512sum.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
 msgstr "2020年三月"
 
@@ -129,7 +127,6 @@ msgstr "以文本模式读入（默认）"
 #. type: TP
 #: raw/coreutils/man1/sha512sum.1:26
 #, no-wrap
-#| msgid "B<-t>, B<--text>"
 msgid "B<-z>, B<--zero>"
 msgstr "B<-z>, B<--zero>"
 
@@ -262,21 +259,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:63
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:65
-#| msgid ""
-#| "Report sha512sum translation bugs to E<lt>http://translationproject.org/"
-#| "team/E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/sha512sum.1:65
@@ -286,9 +279,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:68
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -313,12 +303,10 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:73
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
-#| "sha512sumE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/sha512sumE<gt>"
-msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha512sumE<gt>"
+msgstr ""
+"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha512sumE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:74
