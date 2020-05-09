@@ -12,13 +12,11 @@ truncate \- 缩减或扩展文件尺寸至指定大小
 .SH 描述
 .\" Add any additional description here
 .PP
-缩减或扩展每个指定文件的尺寸到指定的大小
+将文件缩减或扩展至指定大小
 .PP
-如果给定文件参数中有不存在的文件，则它将被创建。
+如果指定文件不存在则创建。
 .PP
-If a FILE is larger than the specified size, the extra data is lost.  If a
-FILE is shorter, it is extended and the sparse extended part (hole)  reads
-as zero bytes.
+如果指定文件超出指定大小则超出的数据将丢失。如果指定文件小于指定大小则将用零字节填充扩展部分（空洞）。
 .PP
 必选参数对长短选项同时适用。
 .TP 

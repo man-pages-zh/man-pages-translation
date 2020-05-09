@@ -47,10 +47,9 @@ bytes.
 .SH 范例
 \fBtail \-f access.log | stdbuf \-oL cut \-d \(aq \(aq \-f1 | uniq\fP
 .br
-This will immediately display unique entries from access.log
+这样会立刻显示 access.log 中独特的条目。
 .SH BUGS
-On GLIBC platforms, specifying a buffer size, i.e., using fully buffered
-mode will result in undefined operation.
+在基于 GLIBC 的平台上，指定缓冲大小（即使用全缓冲模式）通常会导致未定义的操作。
 .SH 作者
 由 Padraig Brady 编写。
 .SH 报告错误
