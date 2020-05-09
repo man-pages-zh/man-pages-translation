@@ -1,8 +1,12 @@
-# man-pages-translation: working repo for translation
+# man-pages-translation: working repo for Chinese man page translation
 
-This is the working repository for man pages translation.
+This is the working repository for Chinese man pages translation.
 After any modification, run `./update-all` script to sync
 status of all files.
+
+After reaching a milestone, the outcome is expected to be exported
+to the [manpages-zh](https://github.com/man-pages-zh/manpages-zh)
+project.
 
 # Guide for translators
 
