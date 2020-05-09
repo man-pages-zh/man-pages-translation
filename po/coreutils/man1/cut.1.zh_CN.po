@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-08 23:51-0400\n"
+"PO-Revision-Date: 2020-05-09 00:35-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -72,7 +72,7 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:12
 msgid "Print selected parts of lines from each FILE to standard output."
-msgstr "从每个输入<文件>中输出指定部分到标准输出。"
+msgstr "从每个输入文件中输出指定部分到标准输出。"
 
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:14
@@ -129,8 +129,7 @@ msgstr "B<-f>, B<--fields>=I<\\,列表\\/>"
 msgid ""
 "select only these fields; also print any line that contains no delimiter "
 "character, unless the B<-s> option is specified"
-msgstr ""
-"只选中指定的这些域；并打印所有不包含分界符的行，除非同时指定了 B<-s> 选项"
+msgstr "只选中指定的这些域；并打印所有不包含分界符的行，除非同时指定了 B<-s> 选项"
 
 #. type: TP
 #: raw/coreutils/man1/cut.1:30
@@ -284,15 +283,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/cut.1:74
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:76
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/cut.1:76

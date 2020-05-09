@@ -1,12 +1,12 @@
 # Chinese translations for PACKAGE package
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# Boyuan Yang <073plan@gmail.com>, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2017, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-04 18:17+0800\n"
-"PO-Revision-Date: 2017-03-06 00:22+0800\n"
+"POT-Creation-Date: 2020-05-09 00:47-0400\n"
+"PO-Revision-Date: 2020-05-09 00:45-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/pinky.1:2
@@ -25,14 +25,14 @@ msgstr "PINKY"
 #. type: TH
 #: raw/coreutils/man1/pinky.1:2
 #, no-wrap
-msgid "January 2017"
-msgstr "2017年1月"
+msgid "March 2020"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/pinky.1:2
 #, no-wrap
-msgid "GNU coreutils 8.26"
-msgstr "GNU coreutils 8.26"
+msgid "GNU coreutils 8.32"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/pinky.1:2
@@ -60,7 +60,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/pinky.1:8
 msgid "B<pinky> [I<\\,OPTION\\/>]... [I<\\,USER\\/>]..."
-msgstr "B<pinky> [I<\\,选项\\/>]... [I<\\,用户\/>]..."
+msgstr "B<pinky> [I<\\,选项\\/>]... [I<\\,用户\\/>]..."
 
 #. type: SH
 #: raw/coreutils/man1/pinky.1:8
@@ -194,7 +194,9 @@ msgstr "显示版本信息并退出"
 msgid ""
 "A lightweight 'finger' program; print user information.  The utmp file will "
 "be I<\\,/var/run/utmp\\/>."
-msgstr "一个轻量级的“finger”程序；输出用户信息。所用 utmp 文件是 I<\\,/var/run/utmp\\/>。"
+msgstr ""
+"一个轻量级的“finger”程序；输出用户信息。所用 utmp 文件是 I<\\,/var/run/utmp"
+"\\/>。"
 
 #. type: SH
 #: raw/coreutils/man1/pinky.1:47
@@ -216,16 +218,16 @@ msgstr "报告错误"
 #. type: Plain text
 #: raw/coreutils/man1/pinky.1:51
 msgid ""
-"GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pinky.1:53
 msgid ""
-"Report pinky translation bugs to E<lt>http://translationproject.org/team/"
-"E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 pinky 的翻译错误。"
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/pinky.1:53
@@ -236,11 +238,11 @@ msgstr "版权"
 #. type: Plain text
 #: raw/coreutils/man1/pinky.1:56
 msgid ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/pinky.1:59
@@ -260,13 +262,13 @@ msgstr "参见"
 #. type: Plain text
 #: raw/coreutils/man1/pinky.1:61
 msgid ""
-"Full documentation at: E<lt>http://www.gnu.org/software/coreutils/pinkyE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/pinkyE<gt>"
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/pinkyE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/pinkyE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pinky.1:62
 msgid "or available locally via: info \\(aq(coreutils) pinky invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) pinky invocation\\(aq"
 
-#~ msgid "March 2015"
-#~ msgstr "2015年三月"
+#~ msgid "January 2017"
+#~ msgstr "2017年1月"

@@ -51,7 +51,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/test.1:5
 msgid "test - check file types and compare values"
-msgstr "test - 检查文件类型并比较值\n"
+msgstr "test - 检查文件类型并比较值"
 
 #. type: SH
 #: raw/coreutils/man1/test.1:5

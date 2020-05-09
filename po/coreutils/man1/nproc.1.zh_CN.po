@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 00:13-0400\n"
+"PO-Revision-Date: 2020-05-09 00:38-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -61,7 +61,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/nproc.1:8
 msgid "B<nproc> [I<\\,OPTION\\/>]..."
-msgstr "B<nproc> [I<\\,选项\\/]..."
+msgstr "B<nproc> [I<\\,选项\\/>]..."
 
 #. type: SH
 #: raw/coreutils/man1/nproc.1:8
@@ -141,15 +141,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/nproc.1:29
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/nproc.1:31
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/nproc.1:31

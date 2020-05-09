@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-08 23:58-0400\n"
+"PO-Revision-Date: 2020-05-09 00:37-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -75,7 +75,7 @@ msgid ""
 "Reformat each paragraph in the FILE(s), writing to standard output.  The "
 "option B<-WIDTH> is an abbreviated form of B<--width>=I<\\,DIGITS\\/>."
 msgstr ""
-"对给定<文件>的每一段进行重新格式化，写入到标准输出。选项“B<-宽度>”是“B<--"
+"对给定文件的每一段进行重新格式化，写入到标准输出。选项“B<-宽度>”是“B<--"
 "width>=I<\\,宽度数字\\/>”的缩写。"
 
 #. type: Plain text
@@ -211,15 +211,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/fmt.1:49
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:51
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/fmt.1:51
@@ -232,8 +230,7 @@ msgstr "版权"
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:57

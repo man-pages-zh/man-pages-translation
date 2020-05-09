@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2020-05-08 22:57-0400\n"
+"PO-Revision-Date: 2020-05-09 00:46-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/chown.1:2
@@ -108,8 +108,8 @@ msgid ""
 "Change the owner and/or group of each FILE to OWNER and/or GROUP.  With B<--"
 "reference>, change the owner and group of each FILE to those of RFILE."
 msgstr ""
-"修改每个<文件>的所有者和/或所属组为给定的<所有者>和/或<组>。如同时使用 B<--"
-"reference>，将每个给定<文件>的所有者和属组修改为<参考文件>所具有的对应值。"
+"修改每个文件的所有者和/或所属组为给定的所有者和/或组。如同时使用 B<--"
+"reference>，将每个给定文件的所有者和属组修改为参考文件所具有的对应值。"
 
 #. type: TP
 #: raw/coreutils/man1/chown.1:35
@@ -219,7 +219,7 @@ msgstr "B<--reference>=I<\\,参考文件\\/>"
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:69
 msgid "use RFILE's owner and group rather than specifying OWNER:GROUP values"
-msgstr "使用指定<参考文件>的所有者和所属组信息，而非手工指定 所有者:组 的值"
+msgstr "使用指定参考文件的所有者和所属组信息，而非手工指定 所有者:组 的值"
 
 #. type: TP
 #: raw/coreutils/man1/chown.1:69
@@ -369,15 +369,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/chown.1:111
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:113
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/chown.1:113
