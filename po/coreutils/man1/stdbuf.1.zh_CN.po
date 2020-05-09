@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:30-0400\n"
-"PO-Revision-Date: 2020-05-09 10:46-0400\n"
+"PO-Revision-Date: 2020-05-09 11:34-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -33,7 +33,7 @@ msgstr "2020年三月"
 #: raw/coreutils/man1/stdbuf.1:2
 #, no-wrap
 msgid "GNU coreutils 8.32"
-msgstr "2020年三月"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
@@ -52,7 +52,7 @@ msgstr "名称"
 msgid ""
 "stdbuf - Run COMMAND, with modified buffering operations for its standard "
 "streams."
-msgstr ""
+msgstr "stdbuf - 运行给定的命令，同时改变该命令对应标准输入输出流的缓冲操作配置。"
 
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:6

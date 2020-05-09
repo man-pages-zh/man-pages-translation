@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH TIMEOUT 1 2020年三月 2020年三月 用户命令
+.TH TIMEOUT 1 2020年三月 "GNU coreutils 8.32" 用户命令
 .SH 名称
 timeout \- 在规定时限内运行一个命令
 .SH 概述
@@ -43,7 +43,7 @@ timeout \- 在规定时限内运行一个命令
 信号可以是类似“HUP”的信号名或是信号数；从“kill \fB\-l\fP”的输出可获得信号的列表
 .TP 
 \fB\-v\fP, \fB\-\-verbose\fP
-diagnose to stderr any signal sent upon timeout
+对任何超时后发送的信号，向标准错误输出诊断信息
 .TP 
 \fB\-\-help\fP
 显示此帮助信息并退出
@@ -51,9 +51,8 @@ diagnose to stderr any signal sent upon timeout
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-DURATION is a floating point number with an optional suffix: \&'s' for
-seconds (the default), 'm' for minutes, 'h' for hours or 'd' for days.  A
-duration of 0 disables the associated timeout.
+持续时间应当是一个浮点数，后缀是可选的：\&“s”表示秒（默认值），“m”表示分钟，“h”表示小时，或者使用“d”表示天数。若持续时间为
+0，将禁用所关联的超时配置。
 .PP
 如果命令运行超时，而且 \fB\-\-preserve\-status\fP 未设置，则将退出状态值设为
 124。否则，将退出状态值设置为与所运行命令的退出状态值相同。如果没有指定信号类型，程序将在超时发生时送出 TERM 信号。TERM

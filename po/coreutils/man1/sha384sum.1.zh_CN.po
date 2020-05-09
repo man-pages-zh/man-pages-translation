@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 00:16-0400\n"
+"PO-Revision-Date: 2020-05-09 11:32-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -33,7 +33,7 @@ msgstr "2020年三月"
 #: raw/coreutils/man1/sha384sum.1:2
 #, no-wrap
 msgid "GNU coreutils 8.32"
-msgstr "2020年三月"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/sha384sum.1:2
@@ -237,7 +237,7 @@ msgstr ""
 msgid ""
 "Note: There is no difference between binary mode and text mode on GNU "
 "systems."
-msgstr ""
+msgstr "注意：GNU 系统上二进制模式和文本模式没有区别。"
 
 #. type: SH
 #: raw/coreutils/man1/sha384sum.1:59
@@ -260,15 +260,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/sha384sum.1:63
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha384sum.1:65
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/sha384sum.1:65
@@ -304,8 +302,7 @@ msgstr "参见"
 #: raw/coreutils/man1/sha384sum.1:73
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/sha384sumE<gt>"
-msgstr ""
-"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha384sumE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha384sumE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha384sum.1:74
