@@ -1,0 +1,70 @@
+'\" t
+.\" (The preceding line is a note to broken versions of man to tell
+.\" them to pre-process this man page with tbl)
+.\" Man page for kill.
+.\" Licensed under version 2 of the GNU General Public License.
+.\" Written by Albert Cahalan; converted to a man page by
+.\" Michael K. Johnson
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH KILL 1 "2011 年 10 月" procps\-ng 用户命令
+.SH 名称
+kill \- 终止进程
+.SH 概述
+\fBkill\fP [选项] <pid> [...]
+.SH 描述
+默认的终止信号是 TERM。 使用 \fB\-l\fP 或 \fB\-L\fP 列出可用的信号。常用的信号包括 HUP，INT，KILL，STOP，CONT 和
+0。可以用三种方式指定备用信号：\fB\-9\fP，\fB\-SIGKILL\fP 或 \fB\-KILL\fP。负数 PID 值可用于选择整个进程组。请参阅 ps 命令输出的
+PGID 列。\fB\-1\fP 是特殊的 PID；它表示除 kill 进程本身和 init 之外的所有进程。
+.SH 选项
+.TP 
+\fB<pid> [...]\fP
+向给定的每个 <pid> 发送信号
+.TP 
+\fB\-<signal>\fP
+.TQ
+\fB\-s <信号>\fP
+.TQ
+\fB\-\-signal <信号>\fP
+指定要发送的 \fB信号\fP。信号可以使用信号名或数字给出。信号的行为在 \fBsignal\fP(7) 手册页中进行了说明。
+.TP 
+\fB\-l\fP, \fB\-\-list\fP [\fI信号\fP]
+列出可用的信号的名称。此选项具有可选参数，该参数将信号编号 (数字) 转换为信号名称，反之亦然。
+.TP 
+\fB\-L\fP,\fB\ \-\-table\fP
+在表格中列出信号名称。
+.TP 
+.PD
+.SH 注意
+您的 Shell 程序（命令行解释器）可能具有内置的 kill 命令。您可能需要运行 /bin/kill 的命令来避免“冲突”。
+.SH 举个栗子
+.TP 
+\fBkill \-9 \-1\fP
+杀死所有可以杀死的进程。
+.TP 
+\fBkill \-l 11\fP
+显示信号编号 11 所代表的信号名称。
+.TP 
+\fBkill \-L\fP
+在表格中列出所有可用的信号。
+.TP 
+\fBkill 123 543 2341 3453\fP
+为这些进程发送默认信号 SIGTERM。
+.SH 参考
+\fBkill\fP(2), \fBkillall\fP(1), \fBnice\fP(1), \fBpkill\fP(1), \fBrenice\fP(1),
+\fBsignal\fP(7), \fBskill\fP(1)
+.SH 标准
+该命令符合适当的标准。\fB\-L\fP 是 Linux 特有的。
+.SH 作者
+.UR albert@users.sf.net
+Albert Cahalan
+.UE
+在 1999 年写了一个 kill
+程序来替换不符合标准的 bsdutils。util\-linux 也实现了一个可以工作的版本。
+.SH 报告错误
+如果你想报告错误，请发送邮件到
+.UR procps@freelists.org
+.UE

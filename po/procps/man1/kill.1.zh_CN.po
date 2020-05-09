@@ -3,13 +3,14 @@
 # Copyright (C) 2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2017.
+# Zheng Junyi <zhengjunyi@live.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2017-02-12 00:59+0800\n"
 "PO-Revision-Date: 2017-02-12 00:59+0800\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: Zheng Junyi <zhengjunyi@live.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,53 +21,53 @@ msgstr ""
 #: raw/procps/man1/kill.1:8
 #, no-wrap
 msgid "KILL"
-msgstr ""
+msgstr "KILL"
 
 #. type: TH
 #: raw/procps/man1/kill.1:8
 #, no-wrap
 msgid "October 2011"
-msgstr ""
+msgstr "2011 年 10 月"
 
 #. type: TH
 #: raw/procps/man1/kill.1:8
 #, no-wrap
 msgid "procps-ng"
-msgstr ""
+msgstr "procps-ng"
 
 #. type: TH
 #: raw/procps/man1/kill.1:8
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: raw/procps/man1/kill.1:9
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:11
 msgid "kill - send a signal to a process"
-msgstr ""
+msgstr "kill - 终止进程"
 
 #. type: SH
 #: raw/procps/man1/kill.1:11
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:14
 msgid "B<kill> [options] E<lt>pidE<gt> [...]"
-msgstr ""
+msgstr "B<kill> [选项] E<lt>pidE<gt> [...]"
 
 #. type: SH
 #: raw/procps/man1/kill.1:14
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:30
@@ -78,41 +79,45 @@ msgid ""
 "groups; see the PGID column in ps command output.  A PID of B<-1> is "
 "special; it indicates all processes except the kill process itself and init."
 msgstr ""
+"默认的终止信号是 TERM。 使用 B<-l> 或 B<-L> 列出可用的信号。常用的信号包括 HUP，INT，"
+"KILL，STOP，CONT 和 0。可以用三种方式指定备用信号：B<-9>，B<-SIGKILL> 或 B<-KILL>。"
+"负数 PID 值可用于选择整个进程组。请参阅 ps 命令输出的 PGID 列。B<-1> 是特殊的 PID；"
+"它表示除 kill 进程本身和 init 之外的所有进程。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:30
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "选项"
 
 #. type: TP
 #: raw/procps/man1/kill.1:31
 #, no-wrap
 msgid "B<E<lt>pidE<gt> [...]>"
-msgstr ""
+msgstr "B<E<lt>pidE<gt> [...]>"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:34
 msgid "Send signal to every E<lt>pidE<gt> listed."
-msgstr ""
+msgstr "向给定的每个 E<lt>pidE<gt> 发送信号"
 
 #. type: TP
 #: raw/procps/man1/kill.1:34
 #, no-wrap
 msgid "B<-E<lt>signalE<gt>>"
-msgstr ""
+msgstr "B<-E<lt>signalE<gt>>"
 
 #. type: TQ
 #: raw/procps/man1/kill.1:36
 #, no-wrap
 msgid "B<-s E<lt>signalE<gt>>"
-msgstr ""
+msgstr "B<-s E<lt>信号E<gt>>"
 
 #. type: TQ
 #: raw/procps/man1/kill.1:38
 #, no-wrap
 msgid "B<--signal E<lt>signalE<gt>>"
-msgstr ""
+msgstr "B<--signal E<lt>信号E<gt>>"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:46
@@ -121,12 +126,13 @@ msgid ""
 "or number.  The behavior of signals is explained in B<signal>(7)  manual "
 "page."
 msgstr ""
+"指定要发送的 B<信号>。信号可以使用信号名或数字给出。信号的行为在 B<signal>(7) 手册页中进行了说明。"
 
 #. type: TP
 #: raw/procps/man1/kill.1:46
 #, no-wrap
 msgid "B<-l>, B<--list> [I<signal>]"
-msgstr ""
+msgstr "B<-l>, B<--list> [I<信号>]"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:50
@@ -134,23 +140,24 @@ msgid ""
 "List signal names.  This option has optional argument, which will convert "
 "signal number to signal name, or other way round."
 msgstr ""
+"列出可用的信号的名称。此选项具有可选参数，该参数将信号编号 (数字) 转换为信号名称，反之亦然。"
 
 #. type: TP
 #: raw/procps/man1/kill.1:50
 #, no-wrap
 msgid "B<-L>,B<\\ --table>"
-msgstr ""
+msgstr "B<-L>,B<\\ --table>"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:53
 msgid "List signal names in a nice table."
-msgstr ""
+msgstr "在表格中列出信号名称。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:55
 #, no-wrap
 msgid "NOTES"
-msgstr ""
+msgstr "注意"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:59
@@ -159,62 +166,63 @@ msgid ""
 "may need to run the command described here as /bin/kill to solve the "
 "conflict."
 msgstr ""
+"您的 Shell 程序（命令行解释器）可能具有内置的 kill 命令。您可能需要运行 /bin/kill 的命令来避免“冲突”。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:59
 #, no-wrap
 msgid "EXAMPLES"
-msgstr ""
+msgstr "举个栗子"
 
 #. type: TP
 #: raw/procps/man1/kill.1:60
 #, no-wrap
 msgid "B<kill -9 -1>"
-msgstr ""
+msgstr "B<kill -9 -1>"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:63
 msgid "Kill all processes you can kill."
-msgstr ""
+msgstr "杀死所有可以杀死的进程。"
 
 #. type: TP
 #: raw/procps/man1/kill.1:63
 #, no-wrap
 msgid "B<kill -l 11>"
-msgstr ""
+msgstr "B<kill -l 11>"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:66
 msgid "Translate number 11 into a signal name."
-msgstr ""
+msgstr "显示信号编号 11 所代表的信号名称。"
 
 #. type: TP
 #: raw/procps/man1/kill.1:66
 #, no-wrap
 msgid "B<kill -L>"
-msgstr ""
+msgstr "B<kill -L>"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:69
 msgid "List the available signal choices in a nice table."
-msgstr ""
+msgstr "在表格中列出所有可用的信号。"
 
 #. type: TP
 #: raw/procps/man1/kill.1:69
 #, no-wrap
 msgid "B<kill 123 543 2341 3453>"
-msgstr ""
+msgstr "B<kill 123 543 2341 3453>"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:72
 msgid "Send the default signal, SIGTERM, to all those processes."
-msgstr ""
+msgstr "为这些进程发送默认信号 SIGTERM。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:72
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参考"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:80
@@ -222,24 +230,27 @@ msgid ""
 "B<kill>(2), B<killall>(1), B<nice>(1), B<pkill>(1), B<renice>(1), "
 "B<signal>(7), B<skill>(1)"
 msgstr ""
+"B<kill>(2), B<killall>(1), B<nice>(1), B<pkill>(1), B<renice>(1), "
+"B<signal>(7), B<skill>(1)"
 
 #. type: SH
 #: raw/procps/man1/kill.1:80
 #, no-wrap
 msgid "STANDARDS"
-msgstr ""
+msgstr "标准"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:84
 msgid ""
 "This command meets appropriate standards. The B<-L> flag is Linux-specific."
 msgstr ""
+"该命令符合适当的标准。B<-L> 是 Linux 特有的。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:84
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:90
@@ -248,14 +259,16 @@ msgid ""
 "replace a bsdutils one that was not standards compliant.  The util-linux one "
 "might also work correctly."
 msgstr ""
+"E<.UR albert@users.sf.net> Albert Cahalan E<.UE> 在 1999 年写了一个 kill 程序来"
+"替换不符合标准的 bsdutils。util-linux 也实现了一个可以工作的版本。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:90
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: raw/procps/man1/kill.1:93
 msgid "Please send bug reports to E<.UR procps@freelists.org> E<.UE>"
-msgstr ""
+msgstr "如果你想报告错误，请发送邮件到 E<.UR procps@freelists.org> E<.UE>"
