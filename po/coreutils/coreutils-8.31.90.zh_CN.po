@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-05-08 22:55-0400\n"
+"PO-Revision-Date: 2020-05-09 00:29-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1755,7 +1755,9 @@ msgid ""
 "and column three contains lines common to both files.\n"
 msgstr ""
 "\n"
-"如果不附带选项，程序会生成三列输出。第一列包含文件1 特有的行，第二列包含 文件2 特有的行，而第三列包含两个文件共有的行。\n"
+"如果不附带选项，程序会生成三列输出。\n"
+"第一列包含文件1 特有的行，第二列包含 文件2 特有的行，\n"
+"而第三列包含两个文件共有的行。\n"
 
 #: src/comm.c:129
 msgid ""
@@ -1782,7 +1784,7 @@ msgstr ""
 
 #: src/comm.c:141
 msgid "  --output-delimiter=STR  separate columns with STR\n"
-msgstr "  --output-delimiter=STR\t依照STR 分列\n"
+msgstr "  --output-delimiter=STR\t按照指定的 STR 分隔各列\n"
 
 #: src/comm.c:144
 msgid "  --total           output a summary\n"
@@ -1811,7 +1813,7 @@ msgid ""
 msgstr ""
 "\n"
 "示例：\n"
-"  %s -12 文件1 文件2  只打印在文件1 和文件2 中都有的行\n"
+"  %s -12 文件1 文件2  只打印在文件1 和文件2 中都有的行。\n"
 "  %s -3  文件1 文件2  打印在文件1 中有，而文件2 中没有的行。反之亦然。\n"
 
 #: src/comm.c:238
@@ -2343,7 +2345,7 @@ msgid ""
 msgstr ""
 "\n"
 "当指定了 --reflink[=always] 参数时，将进行轻量级复制，此时数据块只在被修改时\n"
-"进行复制，如果无法如此操作则复制将会失败。或者如果指定了 --reflink=auto，程序\n"
+"进行复制。如果这样的复制失败，或无法实行，或者指定了 --reflink=auto，程序\n"
 "将会回退到标准复制操作。使用 --reflink=never 可以确保永远进行标准复制。\n"
 
 #: src/cp.c:247
@@ -2654,9 +2656,9 @@ msgid ""
 "  -c, --characters=LIST   select only these characters\n"
 "  -d, --delimiter=DELIM   use DELIM instead of TAB for field delimiter\n"
 msgstr ""
-"  -b, --bytes=列表\t\t只选中指定的这些字节\n"
-"  -c, --characters=列表\t\t只选中指定的这些字符\n"
-"  -d, --delimiter=分界符\t使用指定分界符代替制表符作为区域分界\n"
+"  -b, --bytes=列表        只选中指定的这些字节\n"
+"  -c, --characters=列表   只选中指定的这些字符\n"
+"  -d, --delimiter=分界符  使用指定分界符代替制表符作为区域分界\n"
 
 #: src/cut.c:163
 msgid ""
@@ -2665,15 +2667,15 @@ msgid ""
 "                            the -s option is specified\n"
 "  -n                      (ignored)\n"
 msgstr ""
-"  -f, --fields=列表\t\t只选中指定的这些域；并打印所有不包含分界符的\n"
-"\t\t\t\t行，除非-s 选项被指定\n"
-"  -n\t\t\t\t(忽略)\n"
+"  -f, --fields=列表       只选中指定的这些域；并打印所有不包含分界符\n"
+"                            的行，除非同时指定了 -s 选项\n"
+"  -n                      （忽略）\n"
 
 #: src/cut.c:169
 msgid ""
 "      --complement        complement the set of selected bytes, characters\n"
 "                            or fields\n"
-msgstr "      --complement\t\t补全选中的字节、字符或域\n"
+msgstr "      --complement        补全选中的字节、字符或域\n"
 
 #: src/cut.c:173
 msgid ""
@@ -4756,7 +4758,7 @@ msgid ""
 "\n"
 msgstr ""
 "输出指定<用户>的用户和用户组信息，\n"
-"或（当没有指定用户信息时）默认使用当前用户信息 。\n"
+"或（当没有指定用户信息时）默认使用当前用户信息。\n"
 "\n"
 
 #: src/id.c:102
@@ -6669,7 +6671,7 @@ msgid ""
 "\n"
 msgstr ""
 "打印当前进程可用的处理器数，\n"
-"此数目可能小于实际工作数\n"
+"此数目可能小于实际在线的处理器数量\n"
 "\n"
 
 #: src/nproc.c:63
@@ -6677,7 +6679,7 @@ msgid ""
 "      --all      print the number of installed processors\n"
 "      --ignore=N  if possible, exclude N processing units\n"
 msgstr ""
-"      --all      打印所拥有的处理器数目\n"
+"      --all      打印已安装的处理器数目\n"
 "      --ignore=N  可能的话，排除 N 个处理单元\n"
 
 #: src/numfmt.c:694
@@ -9955,9 +9957,9 @@ msgid ""
 "  -o, --output=MODE  adjust standard output stream buffering\n"
 "  -e, --error=MODE   adjust standard error stream buffering\n"
 msgstr ""
-"  -i, --input=MODE   调整标准输入流缓冲区\n"
-"  -o, --output=MODE  调整标准输出流缓冲区\n"
-"  -e, --error=MODE   调整标准错误流缓冲区\n"
+"  -i, --input=模式   调整标准输入流缓冲区\n"
+"  -o, --output=模式  调整标准输出流缓冲区\n"
+"  -e, --error=模式   调整标准错误流缓冲区\n"
 
 #: src/stdbuf.c:105
 msgid ""
@@ -9966,7 +9968,7 @@ msgid ""
 "This option is invalid with standard input.\n"
 msgstr ""
 "\n"
-"若 MODE 是 \"L\"，则相应的流将是行缓冲模式。\n"
+"若<模式>是 \"L\"，则相应的流将是行缓冲模式。\n"
 "标准输入流下此选项无效。\n"
 
 #: src/stdbuf.c:108
@@ -9975,7 +9977,7 @@ msgid ""
 "If MODE is '0' the corresponding stream will be unbuffered.\n"
 msgstr ""
 "\n"
-"若 MODE 是 \"0\"，则相应的流将不缓冲。\n"
+"若<模式>是 \"0\"，则相应的流将不缓冲。\n"
 
 #: src/stdbuf.c:111
 #, fuzzy
@@ -11514,13 +11516,6 @@ msgstr ""
 "  -k 文件\t\t指定文件存在且设置了粘附位\n"
 
 #: src/test.c:752
-#, fuzzy
-#| msgid ""
-#| "  -L FILE     FILE exists and is a symbolic link (same as -h)\n"
-#| "  -O FILE     FILE exists and is owned by the effective user ID\n"
-#| "  -p FILE     FILE exists and is a named pipe\n"
-#| "  -r FILE     FILE exists and read permission is granted\n"
-#| "  -s FILE     FILE exists and has a size greater than zero\n"
 msgid ""
 "  -L FILE     FILE exists and is a symbolic link (same as -h)\n"
 "  -N FILE     FILE exists and has been modified since it was last read\n"
@@ -11529,11 +11524,12 @@ msgid ""
 "  -r FILE     FILE exists and read permission is granted\n"
 "  -s FILE     FILE exists and has a size greater than zero\n"
 msgstr ""
-"  -L 文件\t\t指定文件存在且为符号链接(等于-h)\n"
-"  -O 文件\t\t指定文件存在且属主ID 有效\n"
-"  -p 文件\t\t指定文件存在且为命名管道\n"
-"  -r 文件\t\t指定文件存在且具备读取权限\n"
-"  -s 文件\t\t指定文件存在且其大小大于0\n"
+"  -L 文件     指定文件存在且为符号链接（等效于-h）\n"
+"  -N 文件     指定文件存在且自上次读取以来已被修改\n"
+"  -O 文件     指定文件存在且为有效用户 ID 所拥有\n"
+"  -p 文件     指定文件存在且为命名管道\n"
+"  -r 文件     指定文件存在且具备读取权限\n"
+"  -s 文件     指定文件存在且其大小大于零\n"
 
 #: src/test.c:760
 msgid ""

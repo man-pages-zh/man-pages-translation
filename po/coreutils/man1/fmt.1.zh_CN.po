@@ -2,12 +2,12 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-19 16:09+0800\n"
+"PO-Revision-Date: 2020-05-08 23:58-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/fmt.1:2
@@ -25,17 +25,17 @@ msgstr "FMT"
 
 #. type: TH
 #: raw/coreutils/man1/fmt.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "March 2015"
 msgid "March 2020"
-msgstr "2015年三月"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/fmt.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/fmt.1:2
@@ -52,7 +52,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:5
 msgid "fmt - simple optimal text formatter"
-msgstr ""
+msgstr "fmt - 简单的文本优化格式化工具"
 
 #. type: SH
 #: raw/coreutils/man1/fmt.1:5
@@ -76,7 +76,7 @@ msgstr "描述"
 msgid ""
 "Reformat each paragraph in the FILE(s), writing to standard output.  The "
 "option B<-WIDTH> is an abbreviated form of B<--width>=I<\\,DIGITS\\/>."
-msgstr ""
+msgstr "对给定<文件>的每一段进行重新格式化，写入到标准输出。选项“B<-宽度>”是“B<--width>=I<\\,宽度数字\\/>”的缩写。"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:15
@@ -98,7 +98,7 @@ msgstr "B<-c>, B<--crown-margin>"
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:20
 msgid "preserve indentation of first two lines"
-msgstr ""
+msgstr "保持前两行的缩进"
 
 #. type: TP
 #: raw/coreutils/man1/fmt.1:20
@@ -111,62 +111,62 @@ msgstr "B<-p>, B<--prefix>=I<\\,STRING\\/>"
 msgid ""
 "reformat only lines beginning with STRING, reattaching the prefix to "
 "reformatted lines"
-msgstr ""
+msgstr "只对以指定字符串开头的行重新格式化，将前缀重新附着到被重新格式化的行上"
 
 #. type: TP
 #: raw/coreutils/man1/fmt.1:24
 #, no-wrap
 msgid "B<-s>, B<--split-only>"
-msgstr ""
+msgstr "B<-s>, B<--split-only>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:27
 msgid "split long lines, but do not refill"
-msgstr ""
+msgstr "分割过长的行，但不自动补足"
 
 #. type: TP
 #: raw/coreutils/man1/fmt.1:27
 #, no-wrap
 msgid "B<-t>, B<--tagged-paragraph>"
-msgstr ""
+msgstr "B<-t>, B<--tagged-paragraph>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:30
 msgid "indentation of first line different from second"
-msgstr ""
+msgstr "对第一行进行缩进以和第二行区分"
 
 #. type: TP
 #: raw/coreutils/man1/fmt.1:30
 #, no-wrap
 msgid "B<-u>, B<--uniform-spacing>"
-msgstr ""
+msgstr "B<-u>, B<--uniform-spacing>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:33
 msgid "one space between words, two after sentences"
-msgstr ""
+msgstr "单词间保留一个空格，每句之后保留两个空格"
 
 #. type: TP
 #: raw/coreutils/man1/fmt.1:33
 #, no-wrap
 msgid "B<-w>, B<--width>=I<\\,WIDTH\\/>"
-msgstr ""
+msgstr "B<-w>, B<--width>=I<\\,宽度\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:36
 msgid "maximum line width (default of 75 columns)"
-msgstr ""
+msgstr "最大行宽（默认为 75 列）"
 
 #. type: TP
 #: raw/coreutils/man1/fmt.1:36
 #, no-wrap
 msgid "B<-g>, B<--goal>=I<\\,WIDTH\\/>"
-msgstr ""
+msgstr "B<-g>, B<--goal>=I<\\,目标宽度\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:39
 msgid "goal width (default of 93% of width)"
-msgstr ""
+msgstr "目标宽度（默认为上述最大行宽的 93%）"
 
 #. type: TP
 #: raw/coreutils/man1/fmt.1:39
@@ -209,26 +209,21 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:49
-#, fuzzy
 #| msgid ""
 #| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
 #| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:51
-#, fuzzy
 #| msgid ""
 #| "Report fmt translation bugs to E<lt>http://translationproject.org/team/"
 #| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 fmt 的翻译"
-"错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/fmt.1:51
@@ -238,16 +233,13 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:54
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:57
@@ -266,11 +258,10 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:59
-#, fuzzy
 #| msgid ""
 #| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/fmtE<gt>"
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/fmtE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/fmtE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/fmtE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fmt.1:60

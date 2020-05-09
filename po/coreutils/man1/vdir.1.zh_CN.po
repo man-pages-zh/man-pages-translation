@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2020-05-08 23:05-0400\n"
+"PO-Revision-Date: 2020-05-09 00:27-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/vdir.1:2
@@ -75,6 +75,8 @@ msgid ""
 "List information about the FILEs (the current directory by default).  Sort "
 "entries alphabetically if none of B<-cftuvSUX> nor B<--sort> is specified."
 msgstr ""
+"列出给定文件（默认为当前目录）的信息。如果不指定"
+"B<-cftuvSUX> 中任意一个或 B<--sort> 选项，则根据字母大小排序"
 
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:15
@@ -869,15 +871,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/vdir.1:252
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:254
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/vdir.1:254

@@ -2,12 +2,12 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2017, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-18 23:13+0800\n"
+"PO-Revision-Date: 2020-05-09 00:09-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
@@ -25,17 +25,17 @@ msgstr "STDBUF"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "March 2015"
 msgid "March 2020"
-msgstr "2015年三月"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/stdbuf.1:2
@@ -65,7 +65,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:9
 msgid "B<stdbuf> I<\\,OPTION\\/>... I<\\,COMMAND\\/>"
-msgstr ""
+msgstr "B<stdbuf> I<\\,选项\\/>... I<\\,命令\\/>"
 
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:9
@@ -77,7 +77,7 @@ msgstr "描述"
 #: raw/coreutils/man1/stdbuf.1:13
 msgid ""
 "Run COMMAND, with modified buffering operations for its standard streams."
-msgstr ""
+msgstr "运行给定的命令，同时改变该命令对应标准输入输出流的缓冲操作配置。"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:15
@@ -89,34 +89,34 @@ msgstr "必选参数对长短选项同时适用。"
 #: raw/coreutils/man1/stdbuf.1:15
 #, no-wrap
 msgid "B<-i>, B<--input>=I<\\,MODE\\/>"
-msgstr ""
+msgstr "B<-i>, B<--input>=I<\\,模式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:18
 msgid "adjust standard input stream buffering"
-msgstr ""
+msgstr "调整标准输入流缓冲区"
 
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:18
 #, no-wrap
 msgid "B<-o>, B<--output>=I<\\,MODE\\/>"
-msgstr ""
+msgstr "B<-o>, B<--output>=I<\\,模式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:21
 msgid "adjust standard output stream buffering"
-msgstr ""
+msgstr "调整标准输出流缓冲区"
 
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:21
 #, no-wrap
 msgid "B<-e>, B<--error>=I<\\,MODE\\/>"
-msgstr ""
+msgstr "B<-e>, B<--error>=I<\\,模式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:24
 msgid "adjust standard error stream buffering"
-msgstr ""
+msgstr "调整标准错误流缓冲区"
 
 #. type: TP
 #: raw/coreutils/man1/stdbuf.1:24
@@ -145,12 +145,12 @@ msgstr "显示版本信息并退出"
 msgid ""
 "If MODE is 'L' the corresponding stream will be line buffered.  This option "
 "is invalid with standard input."
-msgstr ""
+msgstr "若<模式>是 \"L\"，则相应的流将是行缓冲模式。标准输入流下此选项无效。"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:35
 msgid "If MODE is '0' the corresponding stream will be unbuffered."
-msgstr ""
+msgstr "若<模式>是 \"0\"，则相应的流将不缓冲。"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:41
@@ -170,6 +170,8 @@ msgid ""
 "Also some filters (like 'dd' and 'cat' etc.) don't use streams for I/O, and "
 "are thus unaffected by 'stdbuf' settings."
 msgstr ""
+"注意：若指定的命令调整了其自身的标准流缓冲区（例如 tee 命令），则此操作会覆盖由 \"stdbuf\" 工具所做出的相应设置。还有某些过滤器程序（如"
+" \"dd\" 和 \"cat\" 之类）不使用输入输出流，因此不受 \"stdbuf\" 设置的影响。"
 
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:46
@@ -180,7 +182,7 @@ msgstr "范例"
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:48
 msgid "B<tail -f access.log | stdbuf -oL cut -d \\(aq \\(aq -f1 | uniq>"
-msgstr ""
+msgstr "B<tail -f access.log | stdbuf -oL cut -d \\(aq \\(aq -f1 | uniq>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:50
@@ -219,20 +221,18 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:57
-#, fuzzy
 #| msgid ""
 #| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
 #| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:59
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/stdbuf.1:59
@@ -242,7 +242,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:62
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
@@ -250,8 +249,8 @@ msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:65
@@ -270,13 +269,12 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:67
-#, fuzzy
 #| msgid ""
 #| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
 #| "stdbufE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/stdbufE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/stdbufE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/stdbufE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stdbuf.1:68

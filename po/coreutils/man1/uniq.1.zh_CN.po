@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-18 22:49+0800\n"
+"PO-Revision-Date: 2020-05-08 23:36-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/uniq.1:2
@@ -26,17 +26,17 @@ msgstr "UNIQ"
 
 #. type: TH
 #: raw/coreutils/man1/uniq.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "March 2015"
 msgid "March 2020"
-msgstr "2015年三月"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/uniq.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/uniq.1:2
@@ -77,8 +77,7 @@ msgstr "描述"
 msgid ""
 "Filter adjacent matching lines from INPUT (or standard input), writing to "
 "OUTPUT (or standard output)."
-msgstr ""
-"从输入文件（或标准输入）筛选一组相邻的匹配行，写入到输出文件（或标准输出）。"
+msgstr "从输入文件（或标准输入）筛选一组相邻的匹配行，写入到输出文件（或标准输出）。"
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:15
@@ -253,7 +252,6 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:65
-#, fuzzy
 #| msgid ""
 #| "Note: 'uniq' does not detect repeated lines unless they are adjacent.  "
 #| "You may want to sort the input first, or use 'sort B<-u>' without "
@@ -262,8 +260,7 @@ msgid ""
 "Note: 'uniq' does not detect repeated lines unless they are adjacent.  You "
 "may want to sort the input first, or use 'sort B<-u>' without 'uniq'."
 msgstr ""
-"注意：“uniq”只检测那些相邻的重复行。你或许需要先对输入排序，或者使用“sort B<-"
-"u>”而非“uniq”。另外，比较的细则会依据“LC_COLLATE”所指定的规则。"
+"提示：\"uniq\" 不会检查重复的行，除非它们是相邻的行。您也许需要事先对输入排序，或使用 \"sort -u\" 而非 \"uniq\"。"
 
 #. type: SH
 #: raw/coreutils/man1/uniq.1:65
@@ -284,26 +281,21 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:69
-#, fuzzy
 #| msgid ""
 #| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
 #| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:71
-#, fuzzy
 #| msgid ""
 #| "Report uniq translation bugs to E<lt>http://translationproject.org/team/"
 #| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 uniq 的翻译"
-"错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/uniq.1:71
@@ -313,7 +305,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:74
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
@@ -321,8 +312,8 @@ msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:77
@@ -346,13 +337,12 @@ msgstr "comm(1), join(1), sort(1)"
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:82
-#, fuzzy
 #| msgid ""
 #| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
 #| "uniqE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/uniqE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/uniqE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/uniqE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/uniq.1:83

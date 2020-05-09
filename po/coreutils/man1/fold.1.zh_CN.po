@@ -2,12 +2,12 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2017, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-18 23:03+0800\n"
+"PO-Revision-Date: 2020-05-08 23:46-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/fold.1:2
@@ -25,17 +25,17 @@ msgstr "FOLD"
 
 #. type: TH
 #: raw/coreutils/man1/fold.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "March 2015"
 msgid "March 2020"
-msgstr "2015年三月"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/fold.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/fold.1:2
@@ -161,26 +161,21 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:35
-#, fuzzy
 #| msgid ""
 #| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
 #| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:37
-#, fuzzy
 #| msgid ""
 #| "Report fold translation bugs to E<lt>http://translationproject.org/team/"
 #| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 fold 的翻译"
-"错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/fold.1:37
@@ -190,7 +185,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:40
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
@@ -198,8 +192,8 @@ msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:43
@@ -218,13 +212,12 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:45
-#, fuzzy
 #| msgid ""
 #| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/"
 #| "foldE<gt>"
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/foldE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/foldE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/foldE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/fold.1:46

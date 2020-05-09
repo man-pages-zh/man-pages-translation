@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-18 22:45+0800\n"
+"PO-Revision-Date: 2020-05-09 00:10-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
@@ -26,17 +26,17 @@ msgstr "RM"
 
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "March 2015"
 msgid "March 2020"
-msgstr "2015年三月"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.28"
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
@@ -78,8 +78,8 @@ msgid ""
 "This manual page documents the GNU version of B<rm>.  B<rm> removes each "
 "specified file.  By default, it does not remove directories."
 msgstr ""
-"本手册页记录 GNU 版本的 B<rm>。B<rm> 移除每一个指定的文件。默认情况下，它不删"
-"除目录。"
+"本手册页记录 GNU 版本的 B<rm>。B<rm> 移除每一个指定的文件。"
+"默认情况下，它不删除目录。"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:22
@@ -210,17 +210,17 @@ msgstr "不对 '/' 做特殊处理"
 
 #. type: TP
 #: raw/coreutils/man1/rm.1:55
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "B<--preserve-root>"
 msgid "B<--preserve-root>[=I<\\,all\\/>]"
-msgstr "B<--preserve-root>"
+msgstr "B<--preserve-root>[=I<\\,all\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:60
 msgid ""
 "do not remove '/' (default); with 'all', reject any command line argument on "
 "a separate device from its parent"
-msgstr ""
+msgstr "不要删除“/”（默认行为）；如添加了“all”参数，将拒绝处理与父目录位于不同设备上的命令行参数"
 
 #. type: TP
 #: raw/coreutils/man1/rm.1:60
@@ -292,8 +292,7 @@ msgstr ""
 msgid ""
 "To remove a file whose name starts with a '-', for example '-foo', use one "
 "of these commands:"
-msgstr ""
-"如果需要删除一个文件名以连字符 “-”起始的文件，例如 '-foo'，请使用下列命令："
+msgstr "如果需要删除一个文件名以连字符 “-”起始的文件，例如 '-foo'，请使用下列命令："
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:83
@@ -327,8 +326,7 @@ msgstr "作者"
 msgid ""
 "Written by Paul Rubin, David MacKenzie, Richard M. Stallman, and Jim "
 "Meyering."
-msgstr ""
-"由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。"
+msgstr "由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。"
 
 #. type: SH
 #: raw/coreutils/man1/rm.1:92
@@ -338,26 +336,21 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:94
-#, fuzzy
 #| msgid ""
 #| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
 #| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:96
-#, fuzzy
 #| msgid ""
 #| "Report rm translation bugs to E<lt>http://translationproject.org/team/"
 #| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 rm 的翻译错"
-"误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/rm.1:96
@@ -367,7 +360,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:99
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
@@ -375,8 +367,8 @@ msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:102
@@ -400,11 +392,10 @@ msgstr "unlink(1), unlink(2), chattr(1), shred(1)"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:107
-#, fuzzy
 #| msgid ""
 #| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/rmE<gt>"
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/rmE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/rmE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/rmE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:108
