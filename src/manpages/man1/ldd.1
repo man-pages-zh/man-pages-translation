@@ -1,0 +1,111 @@
+.\" Copyright 1995-2000 David Engel (david@ods.com)
+.\" Copyright 1995 Rickard E. Faith (faith@cs.unc.edu)
+.\" Copyright 2000 Ben Collins (bcollins@debian.org)
+.\"    Redone for GLibc 2.2
+.\" Copyright 2000 Jakub Jelinek (jakub@redhat.com)
+.\"    Corrected.
+.\" and Copyright (C) 2012, 2016, Michael Kerrisk <mtk.manpages@gmail.com>
+.\"
+.\" %%%LICENSE_START(GPL_NOVERSION_ONELINE)
+.\" Do not restrict distribution.
+.\" May be distributed under the GNU General Public License
+.\" %%%LICENSE_END
+.\"
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH LDD 1 2016\-07\-17 "" "Linux Programmer's Manual"
+.SH 名称
+ldd \- 显示共享库的依赖情况
+.SH 概述
+\fBldd\fP [\fI选项\fP]... \fI文件\fP...
+.SH 描述
+\fBldd\fP 显示命令行上指定的每个程序或共享库所需的共享库 (共享库) 。其用法和输出示例如下：
+
+.nf
+
+$ \fBldd /bin/ls\fP
+        linux\-vdso.so.1 (0x00007ffcc3563000)
+        libselinux.so.1 => /lib64/libselinux.so.1 (0x00007f87e5459000)
+        libcap.so.2 => /lib64/libcap.so.2 (0x00007f87e5254000)
+        libc.so.6 => /lib64/libc.so.6 (0x00007f87e4e92000)
+        libpcre.so.1 => /lib64/libpcre.so.1 (0x00007f87e4c22000)
+        libdl.so.2 => /lib64/libdl.so.2 (0x00007f87e4a1e000)
+        /lib64/ld\-linux\-x86\-64.so.2 (0x00005574bf12e000)
+        libattr.so.1 => /lib64/libattr.so.1 (0x00007f87e4817000)
+        libpthread.so.0 => /lib64/libpthread.so.0 (0x00007f87e45fa000)
+.fi
+
+.\"
+在通常情况下，如果环境变量 \fBLD_TRACE_LOADED_OBJECTS\fP 设置为 1，则 \fBldd\fP 会调用标准动态链接程序 (请参阅
+\fBld.so\fP(8)) 。这将检查程序的动态库的依赖关系， 并查找 (根据 \fBld.so\fP(8) 中描述的规则) 与加载满足那些依赖关系的对象。
+对于每个依赖项，\fBldd\fP 显示匹配对象的位置以及加载该对象的 (十六进制) 地址。 (\fIlinux\-vdso\fP 和 \fIld\-linux\fP
+共享依赖项是特殊的；请参阅 \fBvdso\fP(7) 和 \fBld.so\fP(8)。)
+.SS 安全性
+.\" The circumstances are where the program has an interpreter
+.\" other than ld-linux.so. In this case, ldd tries to execute the
+.\" program directly with LD_TRACE_LOADED_OBJECTS=1, with the
+.\" result that the program interpreter gets control, and can do
+.\" what it likes, or pass control to the program itself.
+.\" Much more detail at
+.\" http://www.catonmat.net/blog/ldd-arbitrary-code-execution/
+.\" Mainline glibc's ldd allows this possibility (the line
+.\"      try_trace "$file"
+.\" in glibc 2.15, for example), but many distro versions of
+.\" ldd seem to remove that code path from the script.
+请注意，在某些情况下 (例如，程序指定了 \fIld\-linux.so\fP 以外的 ELF 解释器) ，某些版本的 \fBldd\fP
+可能会尝试通过尝试直接执行程序来获取依赖项信息 (这可能导致执行程序的 ELF 解释器中定义的任何代码，甚至可能导致直接执行程序本身)
+。因此，您不应该在不受信任的可执行文件上使用 \fBldd\fP，因为这可能会导致执行任意代码。处理不受信任的可执行文件时，更安全的选择是：
+
+    $ \fBobjdump \-p /path/to/program | grep NEEDED\fP
+.SH 选项
+.TP 
+\fB\-\-version\fP
+显示 \fBldd\fP 的版本号
+.TP 
+\fB\-v\fP, \fB\-\-verbose\fP
+显示所有信息，包括符号版本 (symbol versioning) 信息。
+.TP 
+\fB\-u\fP, \fB\-\-unused\fP
+显示未使用的直接依赖项。 (需要 glibc 2.3.4)
+.TP 
+\fB\-d\fP, \fB\-\-data\-relocs\fP
+执行重定向并报告所有缺少的对象 (仅限于 ELF) 。
+.TP 
+\fB\-r\fP, \fB\-\-function\-relocs\fP
+对数据对象和函数执行重定向，并报告所有缺少的对象或函数 (仅限于 ELF) 。
+.TP 
+\fB\-\-help\fP
+.\" .SH NOTES
+.\" The standard version of
+.\" .B ldd
+.\" comes with glibc2.
+.\" Libc5 came with an older version, still present
+.\" on some systems.
+.\" The long options are not supported by the libc5 version.
+.\" On the other hand, the glibc2 version does not support
+.\" .B \-V
+.\" and only has the equivalent
+.\" .BR \-\-version .
+.\" .LP
+.\" The libc5 version of this program will use the name of a library given
+.\" on the command line as-is when it contains a \(aq/\(aq; otherwise it
+.\" searches for the library in the standard locations.
+.\" To run it
+.\" on a shared library in the current directory, prefix the name with "./".
+使用信息
+.SH BUGS
+\fBldd\fP 在 a.out 共享库上可能无法工作。
+.PP
+.\" .SH AUTHOR
+.\" David Engel.
+.\" Roland McGrath and Ulrich Drepper.
+对于某些非常老的 a.out 程序，构建时所使用的编译器尚未添加 \fBldd\fP 支持，\fBldd\fP 可能无法正常工作。如果在这些程序上使用
+\fBldd\fP，则该程序将尝试以 \fIargc\fP=0 运行，结果将不可预测。
+.SH 参考
+\fBpldd\fP(1), \fBsprof\fP(1), \fBld.so\fP(8), \fBldconfig\fP(8)
+.SH COLOPHON
+本页面是 Linux \fIman\-pages\fP 项目 4.09 版的一部分。该项目的描述、有关报告错误的信息以及本页面的最新版本可以在
+\%https://www.kernel.org/doc/pan\-pages/ 上找到。
