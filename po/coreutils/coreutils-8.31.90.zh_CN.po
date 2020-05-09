@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-05-09 10:50-0400\n"
+"PO-Revision-Date: 2020-05-09 11:10-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -3594,7 +3594,7 @@ msgid ""
 msgstr ""
 "  -i, --inodes\t\t显示inode 信息而非块使用量\n"
 "  -k\t\t\t即--block-size=1K\n"
-"  -l, --local\t\t只显示本机的文件系统\n"
+"  -l, --local\t\t只列出本地的文件系统\n"
 "      --no-sync\t\t取得使用量数据前不进行同步动作(默认)\n"
 
 #: src/df.c:1536
@@ -3607,7 +3607,7 @@ msgstr ""
 "      --output[=域列表]      使用给定域列表定义的输出格式，\n"
 "                               或者在缺省情况下输出所有域。\n"
 "  -P, --portability     使用 POSIX 兼容的输出格式\n"
-"      --sync            取得使用量数据前先调用同步（sync）动作\n"
+"      --sync            取得使用量数据前先进行同步（sync）\n"
 
 #: src/df.c:1542
 msgid ""
@@ -3622,9 +3622,9 @@ msgid ""
 "  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE\n"
 "  -v                    (ignored)\n"
 msgstr ""
-"  -t, --type=类型       只显示指定文件系统为指定类型的信息\n"
+"  -t, --type=类型       只显示是指定类型的文件系统的信息\n"
 "  -T, --print-type      显示文件系统类型\n"
-"  -x, --exclude-type=类型   只显示文件系统不是指定类型的信息\n"
+"  -x, --exclude-type=类型   只显示不是指定类型的文件系统的信息\n"
 "  -v                    （忽略）\n"
 
 #: src/df.c:1556
@@ -4054,7 +4054,7 @@ msgstr ""
 
 #: src/env.c:133
 msgid "      --block-signal[=SIG]    block delivery of SIG signal(s) to COMMAND\n"
-msgstr "      --block-signal[=信号]   阻挡向指定<命令>传递指定的信号\n"
+msgstr "      --block-signal[=信号]   阻挡向指定命令传递指定的信号\n"
 
 #: src/env.c:136
 msgid "      --default-signal[=SIG]  reset handling of SIG signal(s) to the default\n"

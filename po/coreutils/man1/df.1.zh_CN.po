@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 00:42-0400\n"
+"PO-Revision-Date: 2020-05-09 11:10-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -207,7 +207,6 @@ msgstr "B<-l>, B<--local>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:58
-#, fuzzy
 msgid "limit listing to local file systems"
 msgstr "仅列出本地的文件系统"
 
@@ -256,9 +255,8 @@ msgstr "B<--sync>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:71
-#, fuzzy
 msgid "invoke sync before getting usage info"
-msgstr "获取使用量数据前进行同步操作"
+msgstr "取得使用量数据前先进行同步（sync）"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:71
@@ -280,9 +278,8 @@ msgstr "B<-t>, B<--type>=I<\\,类型\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:78
-#, fuzzy
 msgid "limit listing to file systems of type TYPE"
-msgstr "仅列出指定类型的文件系统"
+msgstr "只显示指定文件系统为指定类型的信息"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:78
@@ -292,21 +289,19 @@ msgstr "B<-T>, B<--print-type>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:81
-#, fuzzy
 msgid "print file system type"
 msgstr "显示文件系统类型"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:81
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<-x>, B<--exclude-type>=I<\\,TYPE\\/>"
-msgstr "B<-x>, B<--exclude-type>=I<类型>"
+msgstr "B<-x>, B<--exclude-type>=I<\\,类型\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:84
-#, fuzzy
 msgid "limit listing to file systems not of type TYPE"
-msgstr "仅列出非指定类型的文件系统"
+msgstr "只显示不是指定类型的文件系统的信息"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:84

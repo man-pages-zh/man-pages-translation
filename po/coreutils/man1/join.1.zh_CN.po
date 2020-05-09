@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 00:47-0400\n"
+"PO-Revision-Date: 2020-05-09 11:12-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -117,40 +117,40 @@ msgstr "B<-i>, B<--ignore-case>"
 #. type: Plain text
 #: raw/coreutils/man1/join.1:25
 msgid "ignore differences in case when comparing fields"
-msgstr ""
+msgstr "比较各个域时忽略大小写"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:25
 #, no-wrap
 msgid "B<-j> FIELD"
-msgstr ""
+msgstr "B<-j> 域"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:28
 msgid "equivalent to '-1 FIELD B<-2> FIELD'"
-msgstr ""
+msgstr "等效于 \"-1 域 B<-2> 域\""
 
 #. type: TP
 #: raw/coreutils/man1/join.1:28
 #, no-wrap
 msgid "B<-o> FORMAT"
-msgstr ""
+msgstr "B<-o> 格式"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:31
 msgid "obey FORMAT while constructing output line"
-msgstr ""
+msgstr "按照指定格式构造输出行"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:31
 #, no-wrap
 msgid "B<-t> CHAR"
-msgstr ""
+msgstr "B<-t> 字符"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:34
 msgid "use CHAR as input and output field separator"
-msgstr ""
+msgstr "使用指定字符作为输入和输出域的分隔符"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:34
