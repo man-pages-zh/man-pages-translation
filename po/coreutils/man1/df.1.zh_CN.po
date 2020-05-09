@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 11:10-0400\n"
+"PO-Revision-Date: 2020-05-09 11:17-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -110,13 +110,12 @@ msgstr "选项"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:33
-#, fuzzy
 msgid ""
 "Show information about the file system on which each FILE resides, or all "
 "file systems by default."
 msgstr ""
 "显示文件列表中每一个文件所在的文件系统的信息，没有指定文件则默认为整个文件系"
-"统"
+"统。"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:35
@@ -137,9 +136,9 @@ msgstr "包含伪（pseudo）、重复和无法访问的文件系统"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:38
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<-B>, B<--block-size>=I<\\,SIZE\\/>"
-msgstr "B<-B>, B<--block-size>=I<大小>"
+msgstr "B<-B>, B<--block-size>=I<\\,大小\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:43
@@ -159,7 +158,6 @@ msgstr "B<-h>, B<--human-readable>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:46
-#, fuzzy
 msgid "print sizes in powers of 1024 (e.g., 1023M)"
 msgstr "以 1024 为幂显示大小（例如，1023M）"
 
@@ -171,7 +169,6 @@ msgstr "B<-H>, B<--si>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:49
-#, fuzzy
 msgid "print sizes in powers of 1000 (e.g., 1.1G)"
 msgstr "以 1000 为幂输出大小（例，1.1G）"
 
@@ -183,7 +180,6 @@ msgstr "B<-i>, B<--inodes>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:52
-#, fuzzy
 msgid "list inode information instead of block usage"
 msgstr "显示 inode 信息而非块使用量"
 
@@ -195,9 +191,8 @@ msgstr "B<-k>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:55
-#, fuzzy
 msgid "like B<--block-size>=I<\\,1K\\/>"
-msgstr "类似于 B<--block-size>=I<1K>"
+msgstr "类似于 B<--block-size>=I<\\,1K\\/>"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:55
@@ -218,19 +213,17 @@ msgstr "B<--no-sync>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:61
-#, fuzzy
 msgid "do not invoke sync before getting usage info (default)"
 msgstr "取得使用量数据前不进行同步动作（默认）"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:61
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<--output>[=I<\\,FIELD_LIST\\/>]"
-msgstr "B<--output>[=I<域列表>]"
+msgstr "B<--output>[=I<\\,域列表\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:65
-#, fuzzy
 msgid ""
 "use the output format defined by FIELD_LIST, or print all fields if "
 "FIELD_LIST is omitted."
