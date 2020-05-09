@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-05-07 21:50-0400\n"
+"PO-Revision-Date: 2020-05-08 20:22-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -338,8 +338,8 @@ msgstr "”"
 msgid "%s: end of file"
 msgstr "%s：文件结束"
 
-#: lib/randread.c:128 src/du.c:1074 src/md5sum.c:803 src/od.c:954
-#: src/tac.c:251 src/tac.c:357 src/tac.c:515 src/tac.c:596 src/wc.c:824
+#: lib/randread.c:128 src/du.c:1074 src/md5sum.c:803 src/od.c:954 src/tac.c:251
+#: src/tac.c:357 src/tac.c:515 src/tac.c:596 src/wc.c:824
 #, c-format
 msgid "%s: read error"
 msgstr "%s：读取出错"
@@ -843,17 +843,16 @@ msgid "%s%s argument '%s' too large"
 msgstr "%s%s 参数\"%s\"太大"
 
 #. This is a proper name. See the gettext manual, section Names.
-#: src/basename.c:29 src/chgrp.c:38 src/chmod.c:39 src/chown.c:37
-#: src/comm.c:39 src/cp.c:48 src/csplit.c:45 src/cut.c:46 src/date.c:40
-#: src/dd.c:45 src/df.c:49 src/dirname.c:32 src/du.c:55 src/env.c:39
-#: src/expand.c:49 src/fold.c:36 src/groups.c:36 src/head.c:47 src/id.c:42
-#: src/install.c:51 src/ln.c:52 src/ls.c:137 src/mkdir.c:39 src/mkfifo.c:36
-#: src/mknod.c:37 src/mv.c:43 src/nice.c:40 src/nl.c:42 src/paste.c:53
-#: src/pathchk.c:32 src/pinky.c:38 src/printenv.c:44 src/printf.c:68
-#: src/rm.c:41 src/rmdir.c:37 src/stty.c:68 src/sum.c:39 src/tac.c:58
-#: src/tail.c:77 src/tee.c:38 src/touch.c:45 src/tty.c:44 src/uname.c:61
-#: src/unexpand.c:50 src/uniq.c:41 src/uptime.c:46 src/users.c:36 src/wc.c:51
-#: src/who.c:51 src/yes.c:32
+#: src/basename.c:29 src/chgrp.c:38 src/chmod.c:39 src/chown.c:37 src/comm.c:39
+#: src/cp.c:48 src/csplit.c:45 src/cut.c:46 src/date.c:40 src/dd.c:45
+#: src/df.c:49 src/dirname.c:32 src/du.c:55 src/env.c:39 src/expand.c:49
+#: src/fold.c:36 src/groups.c:36 src/head.c:47 src/id.c:42 src/install.c:51
+#: src/ln.c:52 src/ls.c:137 src/mkdir.c:39 src/mkfifo.c:36 src/mknod.c:37
+#: src/mv.c:43 src/nice.c:40 src/nl.c:42 src/paste.c:53 src/pathchk.c:32
+#: src/pinky.c:38 src/printenv.c:44 src/printf.c:68 src/rm.c:41 src/rmdir.c:37
+#: src/stty.c:68 src/sum.c:39 src/tac.c:58 src/tail.c:77 src/tee.c:38
+#: src/touch.c:45 src/tty.c:44 src/uname.c:61 src/unexpand.c:50 src/uniq.c:41
+#: src/uptime.c:46 src/users.c:36 src/wc.c:51 src/who.c:51 src/yes.c:32
 msgid "David MacKenzie"
 msgstr "David MacKenzie"
 
@@ -917,9 +916,9 @@ msgstr "缺少操作数"
 #: src/hostname.c:111 src/install.c:985 src/join.c:969 src/link.c:84
 #: src/ln.c:593 src/logname.c:70 src/mknod.c:182 src/mv.c:451 src/nproc.c:115
 #: src/od.c:1871 src/ptx.c:2082 src/seq.c:639 src/shuf.c:491 src/sort.c:4596
-#: src/split.c:1554 src/tr.c:1768 src/tsort.c:559 src/tty.c:113
-#: src/uname.c:252 src/uniq.c:520 src/uniq.c:537 src/unlink.c:80
-#: src/uptime.c:252 src/users.c:145 src/wc.c:758 src/who.c:831 src/whoami.c:78
+#: src/split.c:1554 src/tr.c:1768 src/tsort.c:559 src/tty.c:113 src/uname.c:252
+#: src/uniq.c:520 src/uniq.c:537 src/unlink.c:80 src/uptime.c:252
+#: src/users.c:145 src/wc.c:758 src/who.c:831 src/whoami.c:78
 #, c-format
 msgid "extra operand %s"
 msgstr "额外的操作数 %s"
@@ -941,7 +940,7 @@ msgstr "用法：%s [选项]... [文件]\n"
 
 #: src/basenc.c:106
 msgid "basenc encode or decode FILE, or standard input, to standard output.\n"
-msgstr "baseenc 可以编码/解码文件或标准输入输出。\n"
+msgstr "basenc 可以编码/解码文件或标准输入输出。\n"
 
 #: src/basenc.c:110
 #, c-format
@@ -1787,8 +1786,8 @@ msgstr "  --output-delimiter=STR\t依照STR 分列\n"
 msgid "  --total           output a summary\n"
 msgstr "  --total           输出一份摘要信息\n"
 
-#: src/comm.c:147 src/cut.c:178 src/head.c:134 src/numfmt.c:945
-#: src/paste.c:452 src/tail.c:312
+#: src/comm.c:147 src/cut.c:178 src/head.c:134 src/numfmt.c:945 src/paste.c:452
+#: src/tail.c:312
 msgid "  -z, --zero-terminated    line delimiter is NUL, not newline\n"
 msgstr "  -z, --zero-terminated    以 NUL 字符而非换行符作为行尾分隔符\n"
 
@@ -7970,9 +7969,8 @@ msgstr ""
 "　或：%s -G [选项]... [输入 [输出]]\n"
 
 #: src/ptx.c:1818
-#, fuzzy
 msgid "Output a permuted index, including context, of the words in the input files.\n"
-msgstr "输出一串预排的文件索引信息，包括输入文件中各单词的环境。\n"
+msgstr "输出一串预排的文件索引信息，包括输入文件中各单词的上下文。\n"
 
 #: src/ptx.c:1825
 msgid ""
@@ -7987,15 +7985,10 @@ msgid ""
 "  -F, --flag-truncation=STRING   use STRING for flagging line truncations.\n"
 "                                 The default is '/'\n"
 msgstr ""
+"  -F, --flag-truncation=字符串   使用指定字符串标记行的截断位置。\n"
+"                                 默认值为 '/'\n"
 
 #: src/ptx.c:1833
-#, fuzzy
-#| msgid ""
-#| "  -M, --macro-name=STRING        macro name to use instead of `xx'\n"
-#| "  -O, --format=roff              generate output as roff directives\n"
-#| "  -R, --right-side-refs          put references at right, not counted in -w\n"
-#| "  -S, --sentence-regexp=REGEXP   for end of lines or end of sentences\n"
-#| "  -T, --format=tex               generate output as TeX directives\n"
 msgid ""
 "  -M, --macro-name=STRING        macro name to use instead of 'xx'\n"
 "  -O, --format=roff              generate output as roff directives\n"
@@ -8003,11 +7996,11 @@ msgid ""
 "  -S, --sentence-regexp=REGEXP   for end of lines or end of sentences\n"
 "  -T, --format=tex               generate output as TeX directives\n"
 msgstr ""
-"  -M, --macro-name=字符串\t指定代替\"xx\"的宏名\n"
-"  -O, --format=roff\t\t生成roff 格式输出\n"
-"  -R, --right-side-refs\t\t将关联引用放置在右侧，不能和-w 选项叠加\n"
-"  -S, --sentence-regexp=正则表达式\t用于匹配行末或句末\n"
-"  -T, --format=tex\t\t生成TeX 格式输出\n"
+"  -M, --macro-name=字符串        指定代替 'xx' 的宏名\n"
+"  -O, --format=roff              生成roff 格式输出\n"
+"  -R, --right-side-refs          将关联引用放置在右侧，不能和-w 选项叠加\n"
+"  -S, --sentence-regexp=正则     用于匹配行末或句末\n"
+"  -T, --format=tex               生成 TeX 格式输出\n"
 
 #: src/ptx.c:1840
 msgid ""

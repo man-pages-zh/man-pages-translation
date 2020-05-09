@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the coreutils package.
 # mhss <jijingzhisheng@up369.com>, 2001.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2016-2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2017-10-18 22:47+0800\n"
+"PO-Revision-Date: 2020-05-08 20:22-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/cat.1:2
@@ -28,14 +28,13 @@ msgstr "CAT"
 #: raw/coreutils/man1/cat.1:2
 #, no-wrap
 msgid "March 2020"
-msgstr ""
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/cat.1:2
-#, fuzzy, no-wrap
-#| msgid "GNU coreutils 8.28"
+#, no-wrap
 msgid "GNU coreutils 8.32"
-msgstr "GNU coreutils 8.28"
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/cat.1:2
@@ -101,7 +100,7 @@ msgstr "B<-b>, B<--number-nonblank>"
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:20
 msgid "number nonempty output lines, overrides B<-n>"
-msgstr "给非空输出行编号，使 B<-n> 失效。"
+msgstr "对非空输出行编号，同时取消 B<-n> 选项效果"
 
 #. type: TP
 #: raw/coreutils/man1/cat.1:20
@@ -228,7 +227,7 @@ msgstr "cat f - g"
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:54
 msgid "Output f's contents, then standard input, then g's contents."
-msgstr "依次输出文件 f，标准输入和文件 g 到标准输出"
+msgstr "先输出 f 的内容，然后输出标准输入的内容，最后输出 g 的内容。"
 
 #. type: TP
 #: raw/coreutils/man1/cat.1:54
@@ -239,7 +238,7 @@ msgstr "cat"
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:57
 msgid "Copy standard input to standard output."
-msgstr "复制标准输入到标准输出"
+msgstr "复制标准输入到标准输出。"
 
 #. type: SH
 #: raw/coreutils/man1/cat.1:57
@@ -260,26 +259,17 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:61
-#, fuzzy
-#| msgid ""
-#| "GNU coreutils online help: E<lt>http://www.gnu.org/software/coreutils/"
-#| "E<gt>"
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
-"GNU coreutils 的在线帮助： E<lt>http://www.gnu.org/software/coreutils/E<gt>"
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:63
-#, fuzzy
-#| msgid ""
-#| "Report cat translation bugs to E<lt>http://translationproject.org/team/"
-#| "E<gt>"
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
-"请向 E<lt>http://translationproject.org/team/zh_CN.htmlE<gt> 报告 cat 的翻译"
-"错误。"
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/cat.1:63
@@ -289,16 +279,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:66
-#, fuzzy
-#| msgid ""
-#| "Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2017 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>http://gnu.org/licenses/gpl.htmlE<gt>."
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:69
@@ -322,11 +308,8 @@ msgstr "B<tac>(1)"
 
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:74
-#, fuzzy
-#| msgid ""
-#| "Full documentation at: E<lt>http://www.gnu.org/software/coreutils/catE<gt>"
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/catE<gt>"
-msgstr "完整文档请见： E<lt>http://www.gnu.org/software/coreutils/catE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/catE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cat.1:75

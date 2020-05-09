@@ -3,203 +3,205 @@
 # Copyright (C) 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2020.
+# Boyuan Yang <073plan@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2020-05-08 19:39-0400\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2020-05-08 20:20-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/basenc.1:2
 #, no-wrap
 msgid "BASENC"
-msgstr ""
+msgstr "BASENC"
 
 #. type: TH
 #: raw/coreutils/man1/basenc.1:2
 #, no-wrap
 msgid "March 2020"
-msgstr ""
+msgstr "2020年三月"
 
 #. type: TH
 #: raw/coreutils/man1/basenc.1:2
 #, no-wrap
 msgid "GNU coreutils 8.32"
-msgstr ""
+msgstr "GNU coreutils 8.32"
 
 #. type: TH
 #: raw/coreutils/man1/basenc.1:2
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:3
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:5
 msgid "basenc - Encode/decode data and print to standard output"
-msgstr ""
+msgstr "basenc - 编码/解码数据并输出至标准输出"
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:8
 msgid "B<basenc> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]"
-msgstr ""
+msgstr "B<basenc> [I<\\,选项\\/>]... [I<\\,文件\\/>]"
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:8
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:12
 msgid "basenc encode or decode FILE, or standard input, to standard output."
-msgstr ""
+msgstr "basenc 可以编码/解码文件或标准输入输出。"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
-msgstr ""
+msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:16
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
-msgstr ""
+msgstr "必选参数对长短选项同时适用。"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:16
 #, no-wrap
 msgid "B<--base64>"
-msgstr ""
+msgstr "B<--base64>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:19
 msgid "same as 'base64' program (RFC4648 section 4)"
-msgstr ""
+msgstr "与 'base64' 程序相同（RFC4648 section 4）"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:19
 #, no-wrap
 msgid "B<--base64url>"
-msgstr ""
+msgstr "B<--base64url>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:22
 msgid "file- and url-safe base64 (RFC4648 section 5)"
-msgstr ""
+msgstr "文件安全和 url 安全的 base64（RFC4648 section 5）"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:22
 #, no-wrap
 msgid "B<--base32>"
-msgstr ""
+msgstr "B<--base32>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:25
 msgid "same as 'base32' program (RFC4648 section 6)"
-msgstr ""
+msgstr "与 'base32' 程序相同（RFC4648 section 6）"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:25
 #, no-wrap
 msgid "B<--base32hex>"
-msgstr ""
+msgstr "B<--base32hex>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:28
 msgid "extended hex alphabet base32 (RFC4648 section 7)"
-msgstr ""
+msgstr "扩展的十六进制（hex）字母表 base32（RFC4648 section 7）"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:28
 #, no-wrap
 msgid "B<--base16>"
-msgstr ""
+msgstr "B<--base16>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:31
 msgid "hex encoding (RFC4648 section 8)"
-msgstr ""
+msgstr "十六进制（hex）编码（RFC4648 section 8）"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:31
 #, no-wrap
 msgid "B<--base2msbf>"
-msgstr ""
+msgstr "B<--base2msbf>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:34
 msgid "bit string with most significant bit (msb) first"
-msgstr ""
+msgstr "位字符串，最高位（msb）最先"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:34
 #, no-wrap
 msgid "B<--base2lsbf>"
-msgstr ""
+msgstr "B<--base2lsbf>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:37
 msgid "bit string with least significant bit (lsb) first"
-msgstr ""
+msgstr "位字符串，最低位（lsb）最先"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:37
 #, no-wrap
 msgid "B<-d>, B<--decode>"
-msgstr ""
+msgstr "B<-d>, B<--decode>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:40
 msgid "decode data"
-msgstr ""
+msgstr "解码数据"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:40
 #, no-wrap
 msgid "B<-i>, B<--ignore-garbage>"
-msgstr ""
+msgstr "B<-i>, B<--ignore-garbage>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:43
 msgid "when decoding, ignore non-alphabet characters"
-msgstr ""
+msgstr "解码时忽略非字母字符"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:43
 #, no-wrap
 msgid "B<-w>, B<--wrap>=I<\\,COLS\\/>"
-msgstr ""
+msgstr "B<-w>, B<--wrap>=I<\\,字符数\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:47
 msgid ""
 "wrap encoded lines after COLS character (default 76).  Use 0 to disable line "
 "wrapping"
-msgstr ""
+msgstr "在指定的字符数后自动换行(默认为76)，0 为禁用自动换行"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:47
 #, no-wrap
 msgid "B<--z85>"
-msgstr ""
+msgstr "B<--z85>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:52
@@ -207,28 +209,30 @@ msgid ""
 "ascii85-like encoding (ZeroMQ spec:32/Z85); when encoding, input length must "
 "be a multiple of 4; when decoding, input length must be a multiple of 5"
 msgstr ""
+"类似 ascii85 的编码（ZeroMQ 标准：32/Z85）；编码时，输入长度必须是 4 的倍数；"
+"解码时，输入长度必须是 5 的倍数；"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:52
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:55
 msgid "display this help and exit"
-msgstr ""
+msgstr "显示此帮助信息并退出"
 
 #. type: TP
 #: raw/coreutils/man1/basenc.1:55
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:58
 msgid "output version information and exit"
-msgstr ""
+msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:62
@@ -237,12 +241,14 @@ msgid ""
 "the formal alphabet.  Use B<--ignore-garbage> to attempt to recover from any "
 "other non-alphabet bytes in the encoded stream."
 msgstr ""
+"解码时，输入数据（编码流）可能包含一些换行符，以及不在有效字符范围之内的字"
+"符。可以尝试用 B<--ignore-garbage> 选项来绕过编码流中的无效字符。"
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:62
 #, no-wrap
 msgid "ENCODINGS EXAMPLES"
-msgstr ""
+msgstr "编码示例"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:68
@@ -251,6 +257,8 @@ msgid ""
 "$ printf '\\e376\\e117\\e202' | basenc --base64\n"
 "/k+C\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202' | basenc --base64\n"
+"/k+C\n"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:71
@@ -259,6 +267,8 @@ msgid ""
 "$ printf '\\e376\\e117\\e202' | basenc --base64url\n"
 "_k-C\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202' | basenc --base64\n"
+"/k+C\n"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:74
@@ -267,6 +277,8 @@ msgid ""
 "$ printf '\\e376\\e117\\e202' | basenc --base32\n"
 "7ZHYE===\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202' | basenc --base32\n"
+"7ZHYE===\n"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:77
@@ -275,6 +287,8 @@ msgid ""
 "$ printf '\\e376\\e117\\e202' | basenc --base32hex\n"
 "VP7O4===\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202' | basenc --base32hex\n"
+"VP7O4===\n"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:80
@@ -283,6 +297,8 @@ msgid ""
 "$ printf '\\e376\\e117\\e202' | basenc --base16\n"
 "FE4F82\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202' | basenc --base16\n"
+"FE4F82\n"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:83
@@ -291,6 +307,8 @@ msgid ""
 "$ printf '\\e376\\e117\\e202' | basenc --base2lsbf\n"
 "011111111111001001000001\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202' | basenc --base2lsbf\n"
+"011111111111001001000001\n"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:86
@@ -299,6 +317,8 @@ msgid ""
 "$ printf '\\e376\\e117\\e202' | basenc --base2msbf\n"
 "111111100100111110000010\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202' | basenc --base2msbf\n"
+"111111100100111110000010\n"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:89
@@ -307,41 +327,45 @@ msgid ""
 "$ printf '\\e376\\e117\\e202\\e000' | basenc --z85\n"
 "@.FaC\n"
 msgstr ""
+"$ printf '\\e376\\e117\\e202\\e000' | basenc --z85\n"
+"@.FaC\n"
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:91
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:93
 msgid "Written by Simon Josefsson and Assaf Gordon."
-msgstr ""
+msgstr "由 Simon Josefsson 和 Assaf Gordon 编写。"
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:93
 #, no-wrap
 msgid "REPORTING BUGS"
-msgstr ""
+msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:95
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:97
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:97
 #, no-wrap
 msgid "COPYRIGHT"
-msgstr ""
+msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:100
@@ -349,6 +373,8 @@ msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
+"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:103
@@ -356,20 +382,22 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
 #: raw/coreutils/man1/basenc.1:103
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:105
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/basencE<gt>"
-msgstr ""
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/basencE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/basenc.1:106
 msgid "or available locally via: info \\(aq(coreutils) basenc invocation\\(aq"
-msgstr ""
+msgstr "或者在本地使用： info \\(aq(coreutils) basenc invocation\\(aq"
