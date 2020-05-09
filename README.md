@@ -41,6 +41,11 @@ for generated POT and PO files.
 * util-linux (planned)
 * man-pages (wishlist)
 
+# Other projects
+
+* [manpages-zh](https://github.com/man-pages-zh/manpages-zh): Storage and main release repo for Chinese man pages.
+* [manpages-l10n](https://salsa.debian.org/manpages-l10n-team): A cross-language man page translation project using similar tools (po4a).
+
 # Copyright and License
 
 ```
