@@ -40,3 +40,17 @@ for generated POT and PO files.
 * procps
 * util-linux (planned)
 * man-pages (wishlist)
+
+# Copyright and License
+
+```
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.2
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover
+Texts.
+```
+
+To contributors: By submitting patches and Pull Requests to this project,
+you agree that your contribution is licensed under the license described
+above.
