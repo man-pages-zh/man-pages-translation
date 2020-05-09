@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:30-0400\n"
-"PO-Revision-Date: 2020-05-09 00:20-0400\n"
+"PO-Revision-Date: 2020-05-09 10:24-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -72,16 +72,15 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:12
 msgid "Shrink or extend the size of each FILE to the specified size"
-msgstr "缩减或扩展每个指定文件的尺寸到指定的大小"
+msgstr "将文件缩减或扩展至指定大小"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:14
 msgid "A FILE argument that does not exist is created."
-msgstr "如果给定文件参数中有不存在的文件，则它将被创建。"
+msgstr "如果指定文件不存在则创建。"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:18
-#, fuzzy
 #| msgid ""
 #| "If a FILE is larger than the specified size, the extra data is lost.  If "
 #| "a FILE is shorter, it is extended and the extended part (hole)  reads as "
@@ -90,9 +89,7 @@ msgid ""
 "If a FILE is larger than the specified size, the extra data is lost.  If a "
 "FILE is shorter, it is extended and the sparse extended part (hole)  reads "
 "as zero bytes."
-msgstr ""
-"如果一个文件比指定大小要大，多余的数据将会丢失。如果文件相对指定大小较小，则"
-"它将被扩展，扩展部分（空洞）将填充零字节。"
+msgstr "如果指定文件超出指定大小则超出的数据将丢失。如果指定文件小于指定大小则将用零字节填充扩展部分（空洞）。"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:20
@@ -214,15 +211,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/truncate.1:50
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:52
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/truncate.1:52
@@ -263,8 +258,7 @@ msgstr "dd(1), truncate(2), ftruncate(2)"
 #: raw/coreutils/man1/truncate.1:63
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
-msgstr ""
-"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:64

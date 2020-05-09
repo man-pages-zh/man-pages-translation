@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 00:16-0400\n"
+"PO-Revision-Date: 2020-05-09 10:48-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -105,9 +105,9 @@ msgstr "必选参数对长短选项同时适用。"
 # Words in texinfo document is also hard to understand. Please make sure that you understand what CONTROL/METHOD is.
 #. type: TP
 #: raw/coreutils/man1/ln.1:30
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<--backup>[=I<\\,CONTROL\\/>]"
-msgstr "B<--backup>[=I<控制参数>]"
+msgstr "B<--backup>[=I<\\,控制参数\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:33
@@ -220,12 +220,12 @@ msgstr ""
 #: raw/coreutils/man1/ln.1:63
 #, no-wrap
 msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
-msgstr ""
+msgstr "B<-S>, B<--suffix>=I<\\,后缀名\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:66
 msgid "override the usual backup suffix"
-msgstr ""
+msgstr "覆盖通常的备份后缀配置"
 
 #. type: TP
 #: raw/coreutils/man1/ln.1:66
@@ -295,12 +295,12 @@ msgstr ""
 #: raw/coreutils/man1/ln.1:86
 #, no-wrap
 msgid "none, off"
-msgstr ""
+msgstr "none, off"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:89
 msgid "never make backups (even if B<--backup> is given)"
-msgstr ""
+msgstr "从不创建备份（即使给出了 B<--backup>）"
 
 #. type: TP
 #: raw/coreutils/man1/ln.1:89
@@ -317,7 +317,7 @@ msgstr ""
 #: raw/coreutils/man1/ln.1:92
 #, no-wrap
 msgid "existing, nil"
-msgstr ""
+msgstr "existing, nil"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:95
@@ -328,12 +328,12 @@ msgstr ""
 #: raw/coreutils/man1/ln.1:95
 #, no-wrap
 msgid "simple, never"
-msgstr ""
+msgstr "simple, never"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:98
 msgid "always make simple backups"
-msgstr ""
+msgstr "总是创建简单的备份"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:101
@@ -363,15 +363,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/ln.1:105
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:107
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/ln.1:107

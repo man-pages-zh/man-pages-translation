@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 00:19-0400\n"
+"PO-Revision-Date: 2020-05-09 10:50-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -140,84 +140,84 @@ msgstr ""
 #: raw/coreutils/man1/dd.1:31
 #, no-wrap
 msgid "if=FILE"
-msgstr ""
+msgstr "if=文件"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:34
 msgid "read from FILE instead of stdin"
-msgstr ""
+msgstr "从指定文件而非标准输入来进行读取"
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:34
 #, no-wrap
 msgid "iflag=FLAGS"
-msgstr ""
+msgstr "iflag=标志"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:37
 msgid "read as per the comma separated symbol list"
-msgstr ""
+msgstr "按照以逗号分隔的符号列表指定的方式读取"
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:37
 #, no-wrap
 msgid "obs=BYTES"
-msgstr ""
+msgstr "obs=字节数"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:40
 msgid "write BYTES bytes at a time (default: 512)"
-msgstr ""
+msgstr "一次写入指定字节数（默认：512）"
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:40
 #, no-wrap
 msgid "of=FILE"
-msgstr ""
+msgstr "of=文件"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:43
 msgid "write to FILE instead of stdout"
-msgstr ""
+msgstr "写入到指定文件而非标准输出"
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:43
 #, no-wrap
 msgid "oflag=FLAGS"
-msgstr ""
+msgstr "oflag=标志"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:46
 msgid "write as per the comma separated symbol list"
-msgstr ""
+msgstr "按照以逗号分隔的符号列表指定的方式写入"
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:46
 #, no-wrap
 msgid "seek=N"
-msgstr ""
+msgstr "seek=块数"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:49
 msgid "skip N obs-sized blocks at start of output"
-msgstr ""
+msgstr "在输出开始处跳过指定的 obs 大小的块数"
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:49
 #, no-wrap
 msgid "skip=N"
-msgstr ""
+msgstr "skip=块数"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:52
 msgid "skip N ibs-sized blocks at start of input"
-msgstr ""
+msgstr "在输入开始处跳过指定的 ibs 大小的块数"
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:52
 #, no-wrap
 msgid "status=LEVEL"
-msgstr ""
+msgstr "status=等级"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:58
@@ -627,15 +627,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/dd.1:173
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:175
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/dd.1:175

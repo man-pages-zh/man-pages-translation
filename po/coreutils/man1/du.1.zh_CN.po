@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-08 23:54-0400\n"
+"PO-Revision-Date: 2020-05-09 10:31-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -105,13 +105,13 @@ msgstr "B<-a>, B<--all>"
 #. type: Plain text
 #: raw/coreutils/man1/du.1:23
 msgid "write counts for all files, not just directories"
-msgstr ""
+msgstr "输出所有文件的磁盘用量，不仅仅是目录"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:23
 #, no-wrap
 msgid "B<--apparent-size>"
-msgstr ""
+msgstr "B<--apparent-size>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:29
@@ -119,59 +119,59 @@ msgid ""
 "print apparent sizes, rather than disk usage; although the apparent size is "
 "usually smaller, it may be larger due to holes in ('sparse') files, internal "
 "fragmentation, indirect blocks, and the like"
-msgstr ""
+msgstr "显示表面用量，而并非是磁盘用量；虽然表面用量通常会小一些，但有时它会因为稀疏文件间的“洞”、内部碎片、非直接引用的块等原因显得更大一些。"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:29
 #, no-wrap
 msgid "B<-B>, B<--block-size>=I<\\,SIZE\\/>"
-msgstr ""
+msgstr "B<-B>, B<--block-size>=I<\\,大小\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:34
 msgid ""
 "scale sizes by SIZE before printing them; e.g., \\&'-BM' prints sizes in "
 "units of 1,048,576 bytes; see SIZE format below"
-msgstr ""
+msgstr "以指定大小为单位对块大小进行输出；例如，\\&'-BM' 以 1,048,576 字节为单位输出大小；详情请参见下方的“SIZE 格式”部分"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:34
 #, no-wrap
 msgid "B<-b>, B<--bytes>"
-msgstr ""
+msgstr "B<-b>, B<--bytes>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:37
 msgid "equivalent to '--apparent-size B<--block-size>=I<\\,1\\/>'"
-msgstr ""
+msgstr "等效于 '--apparent-size B<--block-size>=I<\\,1\\/>'"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:37
 #, no-wrap
 msgid "B<-c>, B<--total>"
-msgstr ""
+msgstr "B<-c>, B<--total>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:40
 msgid "produce a grand total"
-msgstr ""
+msgstr "显示总计信息"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:40
 #, no-wrap
 msgid "B<-D>, B<--dereference-args>"
-msgstr ""
+msgstr "B<-D>, B<--dereference-args>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:44
 msgid "dereference only symlinks that are listed on the command line"
-msgstr ""
+msgstr "只在符号链接显式在命令行列出时对其进行解引用"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:44
 #, no-wrap
 msgid "B<-d>, B<--max-depth>=I<\\,N\\/>"
-msgstr ""
+msgstr "B<-d>, B<--max-depth>=I<\\,N\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:50
@@ -180,6 +180,8 @@ msgid ""
 "fewer levels below the command line argument; B<--max-depth>=I<\\,0\\/> is "
 "the same as B<--summarize>"
 msgstr ""
+"仅当目录（或在 B<--all> 选项启用时包括文件）层级不高于命令行参数指定的 N 层时输出对应目录或文件的对应大小；B<--max-depth>=I<"
+"\\,0\\/> 等效于 B<--summarize>"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:50
@@ -192,7 +194,7 @@ msgstr "B<--files0-from>=I<\\,F\\/>"
 msgid ""
 "summarize disk usage of the NUL-terminated file names specified in file F; "
 "if F is -, then read names from standard input"
-msgstr ""
+msgstr "统计由文件 F 给出的由 NUL 空字符结束的文件名列表所对应各个文件的信息；如果 F 是 -，则从标准输入读取文件名列表"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:55
@@ -209,34 +211,34 @@ msgstr "和 B<--dereference-args>（B<-D>）等效"
 #: raw/coreutils/man1/du.1:58
 #, no-wrap
 msgid "B<-h>, B<--human-readable>"
-msgstr ""
+msgstr "B<-h>, B<--human-readable>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:61
 msgid "print sizes in human readable format (e.g., 1K 234M 2G)"
-msgstr ""
+msgstr "以人类可读的格式输出大小（例如，1K 234M 2G）"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:61
 #, no-wrap
 msgid "B<--inodes>"
-msgstr ""
+msgstr "B<--inodes>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:64
 msgid "list inode usage information instead of block usage"
-msgstr ""
+msgstr "列出 inode 使用信息而非块使用信息"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:64
 #, no-wrap
 msgid "B<-k>"
-msgstr ""
+msgstr "B<-k>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:67
 msgid "like B<--block-size>=I<\\,1K\\/>"
-msgstr ""
+msgstr "等效于 B<--block-size>=I<\\,1K\\/>"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:67
@@ -247,18 +249,18 @@ msgstr "B<-L>, B<--dereference>"
 #. type: Plain text
 #: raw/coreutils/man1/du.1:70
 msgid "dereference all symbolic links"
-msgstr ""
+msgstr "解引用所有符号链接"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:70
 #, no-wrap
 msgid "B<-l>, B<--count-links>"
-msgstr ""
+msgstr "B<-l>, B<--count-links>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:73
 msgid "count sizes many times if hard linked"
-msgstr ""
+msgstr "如果是硬连接，则重复计算其尺寸"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:73
@@ -269,7 +271,7 @@ msgstr "B<-m>"
 #. type: Plain text
 #: raw/coreutils/man1/du.1:76
 msgid "like B<--block-size>=I<\\,1M\\/>"
-msgstr ""
+msgstr "等效于 B<--block-size>=I<\\,1M\\/>"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:76
@@ -319,14 +321,14 @@ msgstr "只分别计算命令列中每个参数所占的总用量"
 #: raw/coreutils/man1/du.1:88
 #, no-wrap
 msgid "B<-t>, B<--threshold>=I<\\,SIZE\\/>"
-msgstr ""
+msgstr "B<-t>, B<--threshold>=I<\\,大小\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:92
 msgid ""
 "exclude entries smaller than SIZE if positive, or entries greater than SIZE "
 "if negative"
-msgstr ""
+msgstr "如果指定大小为正值，排除比该值更小的项，或者在值为负时排除更大的项"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:92
@@ -339,11 +341,11 @@ msgstr "B<--time>"
 msgid ""
 "show time of the last modification of any file in the directory, or any of "
 "its subdirectories"
-msgstr ""
+msgstr "显示目录中或其子目录下所有文件的最后修改时间"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:96
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<--time>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
@@ -352,13 +354,13 @@ msgstr "B<--time>=I<\\,关键字\\/>"
 msgid ""
 "show time as WORD instead of modification time: atime, access, use, ctime or "
 "status"
-msgstr ""
+msgstr "显示指定关键字对应的时间而非最后修改时间：atime, access, use, ctime 或 status"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:100
 #, no-wrap
 msgid "B<--time-style>=I<\\,STYLE\\/>"
-msgstr ""
+msgstr "B<--time-style>=I<\\,格式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:105
@@ -366,39 +368,41 @@ msgid ""
 "show times using STYLE, which can be: full-iso, long-iso, iso, or +FORMAT; "
 "FORMAT is interpreted like in 'date'"
 msgstr ""
+"使用指定格式显示时间，格式可以为：full-iso, long-iso, iso 或 +FORMAT；FORMAT 字符串以与 'date'"
+" 工具类似的方式解读"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:105
 #, no-wrap
 msgid "B<-X>, B<--exclude-from>=I<\\,FILE\\/>"
-msgstr ""
+msgstr "B<-X>, B<--exclude-from>=I<\\,文件\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:108
 msgid "exclude files that match any pattern in FILE"
-msgstr ""
+msgstr "排除所有与指定文件所提供模式匹配的文件"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:108
 #, no-wrap
 msgid "B<--exclude>=I<\\,PATTERN\\/>"
-msgstr ""
+msgstr "B<--exclude>=I<\\,模式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:111
 msgid "exclude files that match PATTERN"
-msgstr ""
+msgstr "排除所有与所给模式匹配的文件"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:111
 #, no-wrap
 msgid "B<-x>, B<--one-file-system>"
-msgstr ""
+msgstr "B<-x>, B<--one-file-system>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:114
 msgid "skip directories on different file systems"
-msgstr ""
+msgstr "跳过位于不同文件系统上的目录"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:114
@@ -476,8 +480,7 @@ msgstr "作者"
 #: raw/coreutils/man1/du.1:150
 msgid ""
 "Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim Meyering."
-msgstr ""
-"由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。"
+msgstr "由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:150
@@ -489,15 +492,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/du.1:152
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:154
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:154

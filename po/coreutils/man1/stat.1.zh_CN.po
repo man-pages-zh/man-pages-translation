@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:30-0400\n"
-"PO-Revision-Date: 2020-05-09 00:09-0400\n"
+"PO-Revision-Date: 2020-05-09 10:40-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -119,7 +119,7 @@ msgstr ""
 #: raw/coreutils/man1/stat.1:24
 #, no-wrap
 msgid "B<-c>  B<--format>=I<\\,FORMAT\\/>"
-msgstr ""
+msgstr "B<-c>  B<--format>=I<\\,格式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:28
@@ -605,7 +605,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:180
 msgid "%n %s %b %f %u %g %D %i %h %t %T %X %Y %Z %W %o %C"
-msgstr ""
+msgstr "%n %s %b %f %u %g %D %i %h %t %T %X %Y %Z %W %o %C"
 
 #. type: SS
 #: raw/coreutils/man1/stat.1:180
@@ -616,7 +616,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:183
 msgid "%n %i %l %t %s %S %b %f %a %c %d"
-msgstr ""
+msgstr "%n %i %l %t %s %S %b %f %a %c %d"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:187
@@ -624,7 +624,7 @@ msgid ""
 "NOTE: your shell may have its own version of stat, which usually supersedes "
 "the version described here.  Please refer to your shell's documentation for "
 "details about the options it supports."
-msgstr ""
+msgstr "注意：您的 shell 可能内置了自己的 stat 程序版本，它会覆盖这里所提及的相应版本。请查阅您的 shell 文档获知它所支持的选项。"
 
 #. type: SH
 #: raw/coreutils/man1/stat.1:187
@@ -647,15 +647,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/stat.1:191
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:193
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: SH
 #: raw/coreutils/man1/stat.1:193
@@ -690,7 +688,7 @@ msgstr "参见"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:201
 msgid "stat(2), statfs(2), statx(2)"
-msgstr ""
+msgstr "stat(2), statfs(2), statx(2)"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:204
