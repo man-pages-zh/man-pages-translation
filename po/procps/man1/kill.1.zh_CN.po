@@ -172,7 +172,7 @@ msgstr ""
 #: raw/procps/man1/kill.1:59
 #, no-wrap
 msgid "EXAMPLES"
-msgstr "举个栗子"
+msgstr "示例"
 
 #. type: TP
 #: raw/procps/man1/kill.1:60
