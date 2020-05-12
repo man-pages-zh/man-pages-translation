@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.31.90\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2020-02-27 17:02+0000\n"
-"PO-Revision-Date: 2020-05-09 11:10-0400\n"
+"PO-Revision-Date: 2020-05-12 09:59-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -7114,15 +7114,6 @@ msgstr ""
 "如果指定了多于一个文件，将它们以列出的顺序连接起来作为输入。\n"
 
 #: src/od.c:337
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "If first and second call formats both apply, the second format is assumed\n"
-#| "if the last operand begins with + or (if there are 2 operands) a digit.\n"
-#| "An OFFSET operand means -j OFFSET.  LABEL is the pseudo-address\n"
-#| "at first byte printed, incremented when dump is progressing.\n"
-#| "For OFFSET and LABEL, a 0x or 0X prefix indicates hexadecimal;\n"
-#| "suffixes may be . for octal and b for multiply by 512.\n"
 msgid ""
 "\n"
 "If first and second call formats both apply, the second format is assumed\n"
@@ -7133,9 +7124,9 @@ msgid ""
 "suffixes may be . for octal and b for multiply by 512.\n"
 msgstr ""
 "\n"
-"如果两个调用格式都适用，系统会在最后一个运算量以\"+\"或数字开始\n"
-"(如果有两个运算量)的情况下采用第二种格式。\n"
-"偏移量是指 -j 偏移量。标签是第一个字节的伪地址，\n"
+"如果两个调用格式都适用，系统会在最后一个运算符以\"+\"或数字开始\n"
+"（如果有两个运算符）的情况下采用第二种格式。\n"
+"仅给出偏移量等效于 -j 偏移量。标签是所打印的第一个字节的伪地址，\n"
 "随着累积过程递增。偏移量和标签如果冠以\"0x\"或\"0X\"前缀则\n"
 "表示十六进制数；后缀\".\"代表八进制数，后缀\"b\"表示乘以 512。\n"
 
@@ -7146,6 +7137,11 @@ msgid ""
 "      --endian={big|little}   swap input bytes according the specified order\n"
 "  -j, --skip-bytes=BYTES      skip BYTES input bytes first\n"
 msgstr ""
+"  -A, --address-radix=基数    指定文件偏移量的输出格式；这里给出的基数\n"
+"                                可以是 [doxn]，分别代表十进制、八进制、\n"
+"                                十六进制或无基数\n"
+"      --endian={big|little}   根据给定的顺序交换输入字节\n"
+"  -j, --skip-bytes=字节数     处理前先跳过指定数量的字节\n"
 
 #: src/od.c:355
 #, fuzzy
@@ -10076,8 +10072,9 @@ msgid ""
 "settings.  The underlying system defines which settings are available.\n"
 msgstr ""
 "\n"
-"可选- 在设置前的指示中，* 标记出了非POSIX 标准的设置。以下系\n"
-"统定义象征了哪些设置是有效的。\n"
+"设置字符串之前可能出现的“-”字符代表禁用该项设置。下文中出现的\n"
+"星号 * 标记代表这项设置不符合 POSIX 标准。各项设置是否可用最终\n"
+"由实际系统特性所决定。\n"
 
 #: src/stty.c:555
 msgid ""
@@ -10089,50 +10086,33 @@ msgstr ""
 
 #: src/stty.c:559
 msgid " * discard CHAR  CHAR will toggle discarding of output\n"
-msgstr ""
+msgstr " * discard 字符  给定的字符将触发对输出内容的丢弃\n"
 
 #: src/stty.c:564
 msgid " * dsusp CHAR    CHAR will send a terminal stop signal once input flushed\n"
-msgstr ""
+msgstr " * dsusp 字符    给定的字符在输入刷新后将发送终端停止信号\n"
 
 #: src/stty.c:568
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Special characters:\n"
-#| " * dsusp CHAR    CHAR will send a terminal stop signal once input flushed\n"
-#| "   eof CHAR      CHAR will send an end of file (terminate the input)\n"
-#| "   eol CHAR      CHAR will end the line\n"
 msgid ""
 "   eof CHAR      CHAR will send an end of file (terminate the input)\n"
 "   eol CHAR      CHAR will end the line\n"
 msgstr ""
-"\n"
-"特殊字符：\n"
-" * dsusp 字符\t每当输入刷新时会发送一个用于终端阻塞信号的字符\n"
-"   eof\t字符\t表示文件末尾而发送的字符(用于终止输入)\n"
-"   eol\t字符\t为表示行尾而发送的字符\n"
+"   eof 字符      表示文件末尾而发送的字符（用于终止输入）\n"
+"   eol 字符      为表示行尾而发送的字符\n"
 
 #: src/stty.c:573
 msgid " * eol2 CHAR     alternate CHAR for ending the line\n"
-msgstr ""
+msgstr " * eol2 字符     为表示行尾而发送的另一个可选字符\n"
 
 #: src/stty.c:577
-#, fuzzy
-#| msgid ""
-#| " * eol2 CHAR     alternate CHAR for ending the line\n"
-#| "   erase CHAR    CHAR will erase the last character typed\n"
-#| "   intr CHAR     CHAR will send an interrupt signal\n"
-#| "   kill CHAR     CHAR will erase the current line\n"
 msgid ""
 "   erase CHAR    CHAR will erase the last character typed\n"
 "   intr CHAR     CHAR will send an interrupt signal\n"
 "   kill CHAR     CHAR will erase the current line\n"
 msgstr ""
-" * eol2 字符\t为表示行尾而发送的另一个可选字符\n"
-"   erase 字符\t擦除前一个输入文字的字符\n"
-"   intr 字符\t用于发送中断信号的字符\n"
-"   kill 字符\t用于擦除当前终端行的字符\n"
+"   erase 字符    擦除前一个输入文字的字符\n"
+"   intr 字符     用于发送中断信号的字符\n"
+"   kill 字符     用于擦除当前终端行的字符\n"
 
 #: src/stty.c:583
 msgid " * lnext CHAR    CHAR will enter the next character quoted\n"
@@ -10144,11 +10124,11 @@ msgstr ""
 
 #: src/stty.c:592
 msgid "   quit CHAR     CHAR will send a quit signal\n"
-msgstr ""
+msgstr "   quit 字符     给定的字符将发送一个退出（quit）信号\n"
 
 #: src/stty.c:596
 msgid " * rprnt CHAR    CHAR will redraw the current line\n"
-msgstr ""
+msgstr " * rprnt 字符    给定的字符将触发重新绘制当前行\n"
 
 #: src/stty.c:600
 #, fuzzy
@@ -10173,16 +10153,9 @@ msgstr ""
 
 #: src/stty.c:611
 msgid " * werase CHAR   CHAR will erase the last word typed\n"
-msgstr ""
+msgstr " * werase 字符   给定的字符将擦除前一个键入的单词\n"
 
 #: src/stty.c:615
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Special settings:\n"
-#| "   N             set the input and output speeds to N bauds\n"
-#| " * cols N        tell the kernel that the terminal has N columns\n"
-#| " * columns N     same as cols N\n"
 msgid ""
 "\n"
 "Special settings:\n"
@@ -10190,27 +10163,15 @@ msgid ""
 msgstr ""
 "\n"
 "特殊设置：\n"
-"   N\t\t设置输入输出速度为N 波特\n"
-" * cols N\t统治内核终端上有N 栏\n"
-" * columns N\t等于cols N\n"
+"   N             设置输入输出速度为 N 波特\n"
 
 #: src/stty.c:621
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Special settings:\n"
-#| "   N             set the input and output speeds to N bauds\n"
-#| " * cols N        tell the kernel that the terminal has N columns\n"
-#| " * columns N     same as cols N\n"
 msgid ""
 " * cols N        tell the kernel that the terminal has N columns\n"
 " * columns N     same as cols N\n"
 msgstr ""
-"\n"
-"特殊设置：\n"
-"   N\t\t设置输入输出速度为N 波特\n"
-" * cols N\t统治内核终端上有N 栏\n"
-" * columns N\t等于cols N\n"
+" * cols N        告知内核对应终端的宽度为 N 列\n"
+" * columns N     等效于 cols N\n"
 
 #: src/stty.c:626
 #, c-format
