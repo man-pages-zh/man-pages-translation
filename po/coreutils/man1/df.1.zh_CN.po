@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 11:28-0400\n"
+"PO-Revision-Date: 2020-05-16 11:53-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -142,13 +142,10 @@ msgstr "B<-B>, B<--block-size>=I<\\,大小\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:43
-#, fuzzy
 msgid ""
 "scale sizes by SIZE before printing them; e.g., \\&'-BM' prints sizes in "
 "units of 1,048,576 bytes; see SIZE format below"
-msgstr ""
-"按照指定I<大小>按比例缩小后输出；例如，'-BM' 以 1,048,576字节为单位输出大小；"
-"参考下文对I<大小>的格式说明"
+msgstr "以指定大小为单位对块大小进行输出；例如，\\&'-BM' 以 1,048,576 字节为单位输出大小；详情请参见下方的“SIZE 格式”部分"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:43
