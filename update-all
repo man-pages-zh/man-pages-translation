@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Copyright (c) 2015-2020 Boyuan Yang <073plan@gmail.com>
+#
+# This script is released into the Public Domain.
+
 main() {
     ./update-pot
     ./update-po

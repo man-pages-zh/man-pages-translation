@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 11:37-0400\n"
+"PO-Revision-Date: 2020-05-15 22:52-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -139,7 +139,7 @@ msgstr ""
 #: raw/coreutils/man1/mv.1:32
 #, no-wrap
 msgid "B<-n>, B<--no-clobber>"
-msgstr ""
+msgstr "B<-n>, B<--no-clobber>"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:35
@@ -201,7 +201,7 @@ msgstr "将目标文件当作普通文件对待（而不是目录）"
 #: raw/coreutils/man1/mv.1:50
 #, no-wrap
 msgid "B<-u>, B<--update>"
-msgstr ""
+msgstr "B<-u>, B<--update>"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:55

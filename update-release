@@ -2,6 +2,10 @@
 #
 # update-release - update released translated man pages
 #
+# Copyright (c) 2015-2020 Boyuan Yang <073plan@gmail.com>
+#
+# This script is released into the Public Domain.
+#
 
 _MAN_LANG=zh_CN
 
@@ -13,6 +17,7 @@ for manfile in raw/*/man*/*; do
     fi
     releasefile="src/$(dirname "${manfile}" | cut -d/ -f2-)/$(basename "${manfile}")"
     po4a-translate -M "UTF-8" -L "UTF-8" -f man -m "${manfile}" -p "${pofile}" -l "${releasefile}"
-    printf "%s\n" "Generating ${releasefile}..."
+    po4a_retvalue="${?}"
+    printf "%s\n" "Tried to generate ${releasefile}... retvalue: ${po4a_retvalue}"
 done
 printf "%s\n" "# UPDATE-RELEASE ### END #####################"

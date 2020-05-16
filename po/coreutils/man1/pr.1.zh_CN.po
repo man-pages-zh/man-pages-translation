@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-09 00:29-0400\n"
-"PO-Revision-Date: 2020-05-09 00:14-0400\n"
+"PO-Revision-Date: 2020-05-15 22:55-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -50,7 +50,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:5
 msgid "pr - convert text files for printing"
-msgstr ""
+msgstr "pr - 转换文本文件以便后续打印使用"
 
 #. type: SH
 #: raw/coreutils/man1/pr.1:5
@@ -61,7 +61,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:8
 msgid "B<pr> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
-msgstr ""
+msgstr "B<pr> [I<\\,选项\\/>]... [I<\\,文件\\/>]..."
 
 #. type: SH
 #: raw/coreutils/man1/pr.1:8
@@ -72,12 +72,12 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:12
 msgid "Paginate or columnate FILE(s) for printing."
-msgstr ""
+msgstr "对给定文件进行分页或分栏以便后续打印使用。"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:14
 msgid "With no FILE, or when FILE is -, read standard input."
-msgstr ""
+msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:16
@@ -89,212 +89,212 @@ msgstr "必选参数对长短选项同时适用。"
 #: raw/coreutils/man1/pr.1:16
 #, no-wrap
 msgid "+FIRST_PAGE[:LAST_PAGE], B<--pages>=I<\\,FIRST_PAGE[\\/>:LAST_PAGE]"
-msgstr ""
+msgstr "+首页[:末页], B<--pages>=I<\\,首页[\\/>:末页]"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:19
 msgid "begin [stop] printing with page FIRST_[LAST_]PAGE"
-msgstr ""
+msgstr "在指定的首页/末页处开始/停止打印"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:19
 #, no-wrap
 msgid "B<-COLUMN>, B<--columns>=I<\\,COLUMN\\/>"
-msgstr ""
+msgstr "B<-列数>, B<--columns>=I<\\,列数\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:24
 msgid ""
 "output COLUMN columns and print columns down, unless B<-a> is used. Balance "
 "number of lines in the columns on each page"
-msgstr ""
+msgstr "输出指定的列数。如果指定了B<-a> 选项，则从上到下列印。程序会自动在每一页均衡每列占用的行数"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:24
 #, no-wrap
 msgid "B<-a>, B<--across>"
-msgstr ""
+msgstr "B<-a>, B<--across>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:28
 msgid "print columns across rather than down, used together with B<-COLUMN>"
-msgstr ""
+msgstr "置每列从上到下输出，配合\"B<-列数>\"选项一起使用"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:28
 #, no-wrap
 msgid "B<-c>, B<--show-control-chars>"
-msgstr ""
+msgstr "B<-c>, B<--show-control-chars>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:31
 msgid "use hat notation (^G) and octal backslash notation"
-msgstr ""
+msgstr "使用头标(^G)和八进制反斜杠标记"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:31
 #, no-wrap
 msgid "B<-d>, B<--double-space>"
-msgstr ""
+msgstr "B<-d>, B<--double-space>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:34
 msgid "double space the output"
-msgstr ""
+msgstr "加倍输出空白区域"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:34
 #, no-wrap
 msgid "B<-D>, B<--date-format>=I<\\,FORMAT\\/>"
-msgstr ""
+msgstr "B<-D>, B<--date-format>=I<\\,格式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:37
 msgid "use FORMAT for the header date"
-msgstr ""
+msgstr "使用遵循指定格式的页眉日期"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:37
 #, no-wrap
 msgid "B<-e[CHAR[WIDTH]]>, B<--expand-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
-msgstr ""
+msgstr "B<-e[字符[宽度]]>, B<--expand-tabs>[=I<\\,字符[宽度]\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:40
 msgid "expand input CHARs (TABs) to tab WIDTH (8)"
-msgstr ""
+msgstr "扩展输入的字符（制表符）到制表符宽度(8)"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:40
 #, no-wrap
 msgid "B<-F>, B<-f>, B<--form-feed>"
-msgstr ""
+msgstr "B<-F>, B<-f>, B<--form-feed>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:45
 msgid ""
 "use form feeds instead of newlines to separate pages (by a 3-line page "
 "header with B<-F> or a 5-line header and trailer without B<-F>)"
-msgstr ""
+msgstr "使用换页符代替新行作为页面间的分隔符（使用 B<-F> 选项时页眉为 3 行,不使用时为 5 行且带页脚）"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:45
 #, no-wrap
 msgid "B<-h>, B<--header>=I<\\,HEADER\\/>"
-msgstr ""
+msgstr "B<-h>, B<--header>=I<\\,页眉\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:49
 msgid ""
 "use a centered HEADER instead of filename in page header, B<-h> \"\" prints "
 "a blank line, don't use B<-h>\"\""
-msgstr ""
+msgstr "在页眉中使用居中的指定字符代替文件名，-h \"\" 会输出一个空行，不要使用 -h\"\""
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:49
 #, no-wrap
 msgid "B<-i[CHAR[WIDTH]]>, B<--output-tabs>[=I<\\,CHAR[WIDTH]\\/>]"
-msgstr ""
+msgstr "B<-i[字符[宽度]]>, B<--output-tabs>[=I<\\,字符[宽度]\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:52
 msgid "replace spaces with CHARs (TABs) to tab WIDTH (8)"
-msgstr ""
+msgstr "使用指定字符（或制表符）代替空格补足到指定制表符宽度(默认8)"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:52
 #, no-wrap
 msgid "B<-J>, B<--join-lines>"
-msgstr ""
+msgstr "B<-J>, B<--join-lines>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:56
 msgid ""
 "merge full lines, turns off B<-W> line truncation, no column alignment, B<--"
 "sep-string>[=I<\\,STRING\\/>] sets separators"
-msgstr ""
+msgstr "合并整个行，关闭 B<-W> 选项的行截断，不使用栏调整，使用 B<--sep-string>[=I<\\,字符串\\/>] 设置分隔符"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:56
 #, no-wrap
 msgid "B<-l>, B<--length>=I<\\,PAGE_LENGTH\\/>"
-msgstr ""
+msgstr "B<-l>, B<--length>=I<\\,页长\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:61
 msgid ""
 "set the page length to PAGE_LENGTH (66) lines (default number of lines of "
 "text 56, and with B<-F> 63).  implies B<-t> if PAGE_LENGTH E<lt>= 10"
-msgstr ""
+msgstr "使用指定页长的行数（默认为66）（默认文本行数为 56,当启用 B<-F> 时为 63）如果指定页长小于等于 10 则隐含启用 B<-t>"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:61
 #, no-wrap
 msgid "B<-m>, B<--merge>"
-msgstr ""
+msgstr "B<-m>, B<--merge>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:65
 msgid ""
 "print all files in parallel, one in each column, truncate lines, but join "
 "lines of full length with B<-J>"
-msgstr ""
+msgstr "在同一行显示所有文件，每个文件占用一栏，分割行，但是当使用 B<-J> 时将行合并到完整长度"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:65
 #, no-wrap
 msgid "B<-n[SEP[DIGITS]]>, B<--number-lines>[=I<\\,SEP[DIGITS]\\/>]"
-msgstr ""
+msgstr "B<-n[分隔符[位数]]>, B<--number-lines>[=I<\\,分隔符[位数]\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:69
 msgid ""
 "number lines, use DIGITS (5) digits, then SEP (TAB), default counting starts "
 "with 1st line of input file"
-msgstr ""
+msgstr "显示行号，使用指定(默认5) 位数，后接分隔符(默认TAB)默认从输入文件的第一行开始计数"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:69
 #, no-wrap
 msgid "B<-N>, B<--first-line-number>=I<\\,NUMBER\\/>"
-msgstr ""
+msgstr "B<-N>, B<--first-line-number>=I<\\,数字\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:73
 msgid ""
 "start counting with NUMBER at 1st line of first page printed (see "
 "+FIRST_PAGE)"
-msgstr ""
+msgstr "从首页的首行以指定数字开始计数（参看\"+首页\"）"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:73
 #, no-wrap
 msgid "B<-o>, B<--indent>=I<\\,MARGIN\\/>"
-msgstr ""
+msgstr "B<-o>, B<--indent>=I<\\,缩进量\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:77
 msgid ""
 "offset each line with MARGIN (zero) spaces, do not affect B<-w> or B<-W>, "
 "MARGIN will be added to PAGE_WIDTH"
-msgstr ""
+msgstr "将每行缩进(默认0)个空格，不影响 B<-w> 或 B<-W> 参数，缩进量的值将被加入页面宽度"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:77
 #, no-wrap
 msgid "B<-r>, B<--no-file-warnings>"
-msgstr ""
+msgstr "B<-r>, B<--no-file-warnings>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:80
 msgid "omit warning when a file cannot be opened"
-msgstr ""
+msgstr "当文件无法打开时忽略警告"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:80
 #, no-wrap
 msgid "B<-s[CHAR]>, B<--separator>[=I<\\,CHAR\\/>]"
-msgstr ""
+msgstr "B<-s[字符]>, B<--separator>[=I<\\,字符\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:86
@@ -304,12 +304,14 @@ msgid ""
 "turns off line truncation of all 3 column options (B<-COLUMN>|-a B<-COLUMN>|-"
 "m) except B<-w> is set"
 msgstr ""
+"由单个字符分隔各列，未使用 B<-w> 选项时时默认为制表符，否则为空。另外除非指定了 B<-w> 选项，否则 \"B<-s[字符]>\""
+" 会屏蔽三个列相关的截行选项(B<-COLUMN>|-a B<-COLUMN>|-m)"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:86
 #, no-wrap
 msgid "B<-S[STRING]>, B<--sep-string>[=I<\\,STRING\\/>]"
-msgstr ""
+msgstr "B<-S[字符串]>, B<--sep-string>[=I<\\,字符串\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:91
@@ -318,30 +320,32 @@ msgid ""
 "with B<-J> and E<lt>spaceE<gt> otherwise (same as B<-S>\" \"), no effect on "
 "column options"
 msgstr ""
+"使用指定的字符串分栏。如果使用 B<-J> 但不使用 B<-S> 则默认以制表符作为分隔符，如果同时使用 B<-J> 和 B<-S>"
+" 则默认值为空格（等效于 B<-S>\" \"）；这里的 B<-S> 选项不会影响分栏选项"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:91
 #, no-wrap
 msgid "B<-t>, B<--omit-header>"
-msgstr ""
+msgstr "B<-t>, B<--omit-header>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:95
 msgid "omit page headers and trailers; implied if PAGE_LENGTH E<lt>= 10"
-msgstr ""
+msgstr "省略页面头部和尾部；在所指定页长小于等于 10 时默认启用"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:95
 #, no-wrap
 msgid "B<-T>, B<--omit-pagination>"
-msgstr ""
+msgstr "B<-T>, B<--omit-pagination>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:99
 msgid ""
 "omit page headers and trailers, eliminate any pagination by form feeds set "
 "in input files"
-msgstr ""
+msgstr "忽略页眉和页脚，同时除去输入文件中设置的所有分页符"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:99
@@ -352,33 +356,33 @@ msgstr "B<-v>, B<--show-nonprinting>"
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:102
 msgid "use octal backslash notation"
-msgstr ""
+msgstr "使用八进制反斜杠标记"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:102
 #, no-wrap
 msgid "B<-w>, B<--width>=I<\\,PAGE_WIDTH\\/>"
-msgstr ""
+msgstr "B<-w>, B<--width>=I<\\,页面宽度\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:106
 msgid ""
 "set page width to PAGE_WIDTH (72) characters for multiple text-column output "
 "only, B<-s[char]> turns off (72)"
-msgstr ""
+msgstr "将多文本栏输出的页面宽度设置为指定字符数（默认 72）；当 B<-s[char]> 选项不启用时有效（即保持默认值 72）"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:106
 #, no-wrap
 msgid "B<-W>, B<--page-width>=I<\\,PAGE_WIDTH\\/>"
-msgstr ""
+msgstr "B<-W>, B<--page-width>=I<\\,页面宽度\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:111
 msgid ""
 "set page width to PAGE_WIDTH (72) characters always, truncate lines, except "
 "B<-J> option is set, no interference with B<-S> or B<-s>"
-msgstr ""
+msgstr "总是将页面宽度设置为指定的（默认72）字符数；除非 B<-J> 选项启用，否则总是截断行；此参数与 B<-S> 或 B<-s> 不冲突"
 
 #. type: TP
 #: raw/coreutils/man1/pr.1:111
@@ -423,15 +427,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/pr.1:121
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/pr.1:123
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/pr.1:123

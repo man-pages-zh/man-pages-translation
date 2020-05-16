@@ -2,6 +2,10 @@
 
 # update-po -- update current .po files using .pot files.
 #
+# Copyright (c) 2015-2020 Boyuan Yang <073plan@gmail.com>
+#
+# This script is released into the Public Domain.
+#
 # Only a wrapper for msgmerge and msginit.
 
 _MAN_LANG="zh_CN"
