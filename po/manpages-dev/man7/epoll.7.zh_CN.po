@@ -1,0 +1,989 @@
+# Chinese translations for Linux man-pages project
+# Copyright (C) 2003  Davide Libenzi
+# This file is distributed under the same license as the Linux man-pages project.
+# Minda Li <mdl@hust.edu.cn>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: man-pages 5.12\n"
+"POT-Creation-Date: 2021-04-13 19:12+0800\n"
+"PO-Revision-Date: 2021-07-17 21:27+0800\n"
+"Last-Translator: Minda Li <mdl@hust.edu.cn>\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man7/epoll.7:21
+#, no-wrap
+msgid "EPOLL"
+msgstr "EPOLL"
+
+#. type: TH
+#: raw/manpages-dev/man7/epoll.7:21
+#, no-wrap
+msgid "2021-03-22"
+msgstr "2021-03-22"
+
+#. type: TH
+#: raw/manpages-dev/man7/epoll.7:21
+#, no-wrap
+msgid "Linux"
+msgstr "Linux"
+
+#. type: TH
+#: raw/manpages-dev/man7/epoll.7:21
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr "Linux Programmer's Manual"
+
+#. type: SH
+#: raw/manpages-dev/man7/epoll.7:22
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:24
+msgid "epoll - I/O event notification facility"
+msgstr "epoll - I/O 事件通知设施"
+
+#. type: SH
+#: raw/manpages-dev/man7/epoll.7:24
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概要"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:27
+#, no-wrap
+msgid "B<#include E<lt>sys/epoll.hE<gt>>\n"
+msgstr "B<#include E<lt>sys/epoll.hE<gt>>\n"
+
+#. type: SH
+#: raw/manpages-dev/man7/epoll.7:28
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "说明"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:38
+msgid ""
+"The B<epoll> API performs a similar task to B<poll>(2): monitoring multiple "
+"file descriptors to see if I/O is possible on any of them.  The B<epoll> API "
+"can be used either as an edge-triggered or a level-triggered interface and "
+"scales well to large numbers of watched file descriptors."
+msgstr ""
+"B<epoll> API 的任务与 B<poll>(2) 类似：监控多个文件描述符，找出其中可以进行"
+"I/O 的文件描述符。 B<epoll> API 既可以作为边缘触发（edge-triggered）的接口"
+"使用，也可以作为水平触发（level-triggered）的接口使用，并能很好地扩展，监视"
+"大量文件描述符。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:46
+msgid ""
+"The central concept of the B<epoll> API is the B<epoll> I<instance>, an in-"
+"kernel data structure which, from a user-space perspective, can be "
+"considered as a container for two lists:"
+msgstr ""
+"B<epoll> API 的核心概念是 B<epoll> I<实例>（B<epoll> I<instance>），这是内核的"
+"一个内部数据结构，从用户空间的角度看，它可以被看作一个内含两个列表的容器："
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:46 raw/manpages-dev/man7/epoll.7:53
+#: raw/manpages-dev/man7/epoll.7:67 raw/manpages-dev/man7/epoll.7:76
+#: raw/manpages-dev/man7/epoll.7:82
+#, no-wrap
+msgid "\\(bu"
+msgstr "\\(bu"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:53
+msgid ""
+"The I<interest> list (sometimes also called the B<epoll> set): the set of "
+"file descriptors that the process has registered an interest in monitoring."
+msgstr ""
+"I<兴趣>列表（I<interest> list，有时也称为 B<epoll> 集（B<epoll> set））："
+"进程注册了“监控兴趣”的文件描述符的集合。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:62
+msgid ""
+"The I<ready> list: the set of file descriptors that are \"ready\" for I/O.  "
+"The ready list is a subset of (or, more precisely, a set of references to)  "
+"the file descriptors in the interest list.  The ready list is dynamically "
+"populated by the kernel as a result of I/O activity on those file "
+"descriptors."
+msgstr ""
+"I<就绪>列表（I<ready> list）：“准备好”进行 I/O 的文件描述符的集合。就绪列表是"
+"兴趣列表中的文件描述符的子集（或者更准确地说，是其引用的集合）。内核会根据这些"
+"文件描述符上的 I/O 活动动态地填充就绪列表。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:67
+msgid ""
+"The following system calls are provided to create and manage an B<epoll> "
+"instance:"
+msgstr "下列系统调用可用于创建和管理 B<epoll> 实例："
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:76
+msgid ""
+"B<epoll_create>(2)  creates a new B<epoll> instance and returns a file "
+"descriptor referring to that instance.  (The more recent "
+"B<epoll_create1>(2)  extends the functionality of B<epoll_create>(2).)"
+msgstr ""
+"B<epoll_create>(2) 会创建一个新的 B<epoll> 实例，并返回一个指向该实例的文件描述符。"
+"（最新的 B<epoll_create1>(2) 扩展了 B<epoll_create>(2) 的功能。）"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:82
+msgid ""
+"Interest in particular file descriptors is then registered via "
+"B<epoll_ctl>(2), which adds items to the interest list of the B<epoll> "
+"instance."
+msgstr ""
+"B<epoll_ctl>(2) 能向 B<epoll> 实例的兴趣列表中添加项目，注册对特定文件描述符"
+"的兴趣。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:91
+msgid ""
+"B<epoll_wait>(2)  waits for I/O events, blocking the calling thread if no "
+"events are currently available.  (This system call can be thought of as "
+"fetching items from the ready list of the B<epoll> instance.)"
+msgstr ""
+"B<epoll_wait>(2) 会等待 I/O 事件，如果当前没有事件可用，则阻塞调用它的线程。"
+"（此系统调用可被看作从 B<epoll> 实例的就绪列表中获取项目。）"
+
+#. type: SS
+#: raw/manpages-dev/man7/epoll.7:91
+#, no-wrap
+msgid "Level-triggered and edge-triggered"
+msgstr "水平触发与边缘触发"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:100
+msgid ""
+"The B<epoll> event distribution interface is able to behave both as edge-"
+"triggered (ET) and as level-triggered (LT).  The difference between the two "
+"mechanisms can be described as follows.  Suppose that this scenario happens:"
+msgstr ""
+"B<epoll> 事件的分发接口既可以表现为边缘触发（ET），也可以表现为水平触发（LT）。"
+"这两种机制的区别描述如下。假设发生下列情况："
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:100 raw/manpages-dev/man7/epoll.7:380
+#, no-wrap
+msgid "1."
+msgstr "1."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:106
+msgid ""
+"The file descriptor that represents the read side of a pipe (I<rfd>)  is "
+"registered on the B<epoll> instance."
+msgstr "读取方在 B<epoll> 实例中注册代表管道读取端（I<rfd>）的文件描述符。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:106 raw/manpages-dev/man7/epoll.7:414
+#, no-wrap
+msgid "2."
+msgstr "2."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:108
+msgid "A pipe writer writes 2\\ kB of data on the write side of the pipe."
+msgstr "写入方在管道的写入端写入 2 kB 的数据。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:108 raw/manpages-dev/man7/epoll.7:424
+#, no-wrap
+msgid "3."
+msgstr "3."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:114
+msgid ""
+"A call to B<epoll_wait>(2)  is done that will return I<rfd> as a ready file "
+"descriptor."
+msgstr "读取方调用 B<epoll_wait>(2)， I<rfd> 作为一个就绪的文件描述符被返回。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:114 raw/manpages-dev/man7/epoll.7:434
+#, no-wrap
+msgid "4."
+msgstr "4."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:117
+msgid "The pipe reader reads 1\\ kB of data from I<rfd>."
+msgstr "读取方只从 I<rfd> 中读取 1 kB 的数据。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:117 raw/manpages-dev/man7/epoll.7:448
+#, no-wrap
+msgid "5."
+msgstr "5."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:121
+msgid "A call to B<epoll_wait>(2)  is done."
+msgstr "读取方再次调用 B<epoll_wait>(2)。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:156
+msgid ""
+"If the I<rfd> file descriptor has been added to the B<epoll> interface using "
+"the B<EPOLLET> (edge-triggered)  flag, the call to B<epoll_wait>(2)  done in "
+"step B<5> will probably hang despite the available data still present in the "
+"file input buffer; meanwhile the remote peer might be expecting a response "
+"based on the data it already sent.  The reason for this is that edge-"
+"triggered mode delivers events only when changes occur on the monitored file "
+"descriptor.  So, in step B<5> the caller might end up waiting for some data "
+"that is already present inside the input buffer.  In the above example, an "
+"event on I<rfd> will be generated because of the write done in B<2> and the "
+"event is consumed in B<3>.  Since the read operation done in B<4> does not "
+"consume the whole buffer data, the call to B<epoll_wait>(2)  done in step "
+"B<5> might block indefinitely."
+msgstr ""
+"如果读取方添加 I<rfd> 到 B<epoll> 接口时使用了 B<EPOLLET> （边缘触发）标志位，"
+"那么纵使此刻文件输入缓冲区中仍有可用的数据（剩余的1 KB 数据），步骤B<5>中的"
+"B<epoll_wait>(2) 调用仍可能会挂起；与此同时，写入方可能在等待读取方对它"
+"发送的数据的响应。造成这种互相等待的情形的原因是边缘触发模式只有在被监控的"
+"文件描述符发生变化时才会递送事件。因此，在步骤B<5>中，读取方最终可能会为一些"
+"已经存在于自己输入缓冲区内的数据一直等下去。在上面的例子中，由于写入方在第B<2>步中"
+"进行了写操作， I<rfd> 上产生了一个事件，这个事件在第B<3>步中被读取方消耗了。但"
+"读取方在第B<4>步中进行的读操作却没有消耗完整个缓冲区的数据，因此在第B<5>步中对"
+"B<epoll_wait>(2) 的调用可能会无限期地阻塞。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:166
+msgid ""
+"An application that employs the B<EPOLLET> flag should use nonblocking file "
+"descriptors to avoid having a blocking read or write starve a task that is "
+"handling multiple file descriptors.  The suggested way to use B<epoll> as an "
+"edge-triggered (B<EPOLLET>)  interface is as follows:"
+msgstr ""
+"使用 B<EPOLLET> 标志位的应用程序应当使用非阻塞的文件描述符，以避免（因事件"
+"被消耗而）使正在处理多个文件描述符的任务因阻塞的读或写而出现饥饿。将 B<epoll>"
+"用作边缘触发（B<EPOLLET>）的接口，建议的使用方法如下："
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:166
+#, no-wrap
+msgid "a)"
+msgstr "a)"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:168
+msgid "with nonblocking file descriptors; and"
+msgstr "使用非阻塞的文件描述符；"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:168
+#, no-wrap
+msgid "b)"
+msgstr "b)"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:175
+msgid ""
+"by waiting for an event only after B<read>(2)  or B<write>(2)  return "
+"B<EAGAIN>."
+msgstr "只在 B<read>(2) 或 B<write>(2) 返回 B<EAGAIN> 后再等待新的事件。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:185
+msgid ""
+"By contrast, when used as a level-triggered interface (the default, when "
+"B<EPOLLET> is not specified), B<epoll> is simply a faster B<poll>(2), and "
+"can be used wherever the latter is used since it shares the same semantics."
+msgstr ""
+"相较而言，当作为水平触发的接口使用时（默认情况，没有指定 B<EPOLLET>）， B<epoll>"
+"只是一个更快的 B<poll>(2)，可以用在任何能使用 B<poll>(2) 的地方，因为此时两者的"
+"语义相同。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:202
+msgid ""
+"Since even with edge-triggered B<epoll>, multiple events can be generated "
+"upon receipt of multiple chunks of data, the caller has the option to "
+"specify the B<EPOLLONESHOT> flag, to tell B<epoll> to disable the associated "
+"file descriptor after the receipt of an event with B<epoll_wait>(2).  When "
+"the B<EPOLLONESHOT> flag is specified, it is the caller's responsibility to "
+"rearm the file descriptor using B<epoll_ctl>(2)  with B<EPOLL_CTL_MOD>."
+msgstr ""
+"即使是边缘触发的 B<epoll>，在收到多个数据块时也可能产生多个事件，因此调用者可以"
+"指定 B<EPOLLONESHOT> 标志位，告诉 B<epoll> 在自己用 B<epoll_wait>(2)"
+"收到事件后禁用相关的文件描述符。当指定了 B<EPOLLONESHOT> 标志位时，调用者可使用"
+"B<epoll_ctl>(2) 与 B<EPOLL_CTL_MOD> 标志位重装（rearm）一个被禁用的文件描述符，"
+"这是调用者而不是 B<epoll> 的责任。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:219
+msgid ""
+"If multiple threads (or processes, if child processes have inherited the "
+"B<epoll> file descriptor across B<fork>(2))  are blocked in "
+"B<epoll_wait>(2)  waiting on the same epoll file descriptor and a file "
+"descriptor in the interest list that is marked for edge-triggered "
+"(B<EPOLLET>)  notification becomes ready, just one of the threads (or "
+"processes) is awoken from B<epoll_wait>(2).  This provides a useful "
+"optimization for avoiding \"thundering herd\" wake-ups in some scenarios."
+msgstr ""
+"如果多个线程（或进程，如果子进程通过 B<fork>(2) 继承了 B<epoll> 文件描述符）"
+"等待同一个 epoll 文件描述符，且同时在 B<epoll_wait>(2) 中被阻塞，那么当"
+"兴趣列表中某个标记为边缘触发 (B<EPOLLET>) 通知的文件描述符准备就绪，这些线程"
+"（或进程）中只会有一个线程（或进程）从 B<epoll_wait>(2) 中被唤醒。这为避免"
+"某些场景下的“惊群”（thundering herd）唤醒提供了有用的优化。"
+
+#. type: SS
+#: raw/manpages-dev/man7/epoll.7:219
+#, no-wrap
+msgid "Interaction with autosleep"
+msgstr "系统自动睡眠的处理"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:231
+msgid ""
+"If the system is in B<autosleep> mode via I</sys/power/autosleep> and an "
+"event happens which wakes the device from sleep, the device driver will keep "
+"the device awake only until that event is queued.  To keep the device awake "
+"until the event has been processed, it is necessary to use the "
+"B<epoll_ctl>(2)  B<EPOLLWAKEUP> flag."
+msgstr ""
+"如果系统通过 I</sys/power/autosleep> 处于 B<autosleep> 模式，那么当某个事件"
+"的发生将设备从睡眠中唤醒时，设备驱动程序仅会保持设备唤醒直到该事件入队为止。"
+"若想保持设备唤醒直到事件被处理完毕，则需使用 B<epoll_ctl>(2) 的 B<EPOLLWAKEUP>"
+"标志位。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:250
+msgid ""
+"When the B<EPOLLWAKEUP> flag is set in the B<events> field for a I<struct "
+"epoll_event>, the system will be kept awake from the moment the event is "
+"queued, through the B<epoll_wait>(2)  call which returns the event until the "
+"subsequent B<epoll_wait>(2)  call.  If the event should keep the system "
+"awake beyond that time, then a separate I<wake_lock> should be taken before "
+"the second B<epoll_wait>(2)  call."
+msgstr ""
+"当在 I<struct epoll_event> 结构体的 B<events> 段中设置 B<EPOLLWAKEUP>"
+"标志位时，从事件入队的那一刻起，到 B<epoll_wait>(2) 调用返回事件，再一直到"
+"下一次 B<epoll_wait>(2) 调用之前，系统会一直保持唤醒。若要让事件保持系统唤醒"
+"的时间超过这个时间，那么在第二次 B<epoll_wait>(2) 调用之前，应当设置一个单独的"
+"I<wake_lock>。"
+
+#. type: SS
+#: raw/manpages-dev/man7/epoll.7:250
+#, no-wrap
+msgid "/proc interfaces"
+msgstr "/proc 接口"
+
+#.  Following was added in 2.6.28, but them removed in 2.6.29
+#.  .TP
+#.  .IR /proc/sys/fs/epoll/max_user_instances " (since Linux 2.6.28)"
+#.  This specifies an upper limit on the number of epoll instances
+#.  that can be created per real user ID.
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:258
+msgid ""
+"The following interfaces can be used to limit the amount of kernel memory "
+"consumed by epoll:"
+msgstr "以下接口可以用来限制 epoll 消耗的内核内存的量。"
+
+#. type: TP
+#: raw/manpages-dev/man7/epoll.7:258
+#, no-wrap
+msgid "I</proc/sys/fs/epoll/max_user_watches> (since Linux 2.6.28)"
+msgstr "I</proc/sys/fs/epoll/max_user_watches> （从 Linux 2.6.28 开始）"
+
+#.  2.6.29 (in 2.6.28, the default was 1/32 of lowmem)
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:272
+msgid ""
+"This specifies a limit on the total number of file descriptors that a user "
+"can register across all epoll instances on the system.  The limit is per "
+"real user ID.  Each registered file descriptor costs roughly 90 bytes on a "
+"32-bit kernel, and roughly 160 bytes on a 64-bit kernel.  Currently, the "
+"default value for I<max_user_watches> is 1/25 (4%) of the available low "
+"memory, divided by the registration cost in bytes."
+msgstr ""
+"此接口指定了单个用户在系统内所有 epoll 实例中可以注册的文件描述符的总数限制。"
+"这个限制是针对每个真实用户ID的。每个注册的文件描述符在32位内核上大约需要90个字节，"
+"在64位内核上大约需要160个字节。目前， I<max_user_watches> 的默认值是可用低内存"
+"的1/25（4%）除以注册的空间成本（以字节计）。"
+
+#. type: SS
+#: raw/manpages-dev/man7/epoll.7:272
+#, no-wrap
+msgid "Example for suggested usage"
+msgstr "示例：建议的使用 epoll 的方式"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:301
+msgid ""
+"While the usage of B<epoll> when employed as a level-triggered interface "
+"does have the same semantics as B<poll>(2), the edge-triggered usage "
+"requires more clarification to avoid stalls in the application event loop.  "
+"In this example, listener is a nonblocking socket on which B<listen>(2)  has "
+"been called.  The function I<do_use_fd()> uses the new ready file descriptor "
+"until B<EAGAIN> is returned by either B<read>(2)  or B<write>(2).  An event-"
+"driven state machine application should, after having received B<EAGAIN>, "
+"record its current state so that at the next call to I<do_use_fd()> it will "
+"continue to B<read>(2)  or B<write>(2)  from where it stopped before."
+msgstr ""
+"B<epoll> 作为水平触发接口的用法与 B<poll>(2) 具有相同的语义，但边缘触发的用法"
+"需要更多的说明，以避免应用程序事件循环的停滞。在下面的例子中，调用了 B<listen>(2)"
+"来监听 listener，一个非阻塞的套接字。函数 I<do_use_fd()> 使用新就绪的"
+"文件描述符，直到 B<read>(2) 或 B<write>(2) 返回 B<EAGAIN>。一个事件驱动的"
+"状态机应用程序在接收到 B<EAGAIN> 后，应该记录它的当前状态，这样在下一次调用"
+"I<do_use_fd()> 时，它就能从之前停下的地方继续 B<read>(2) 或 B<write>(2)。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:307
+#, no-wrap
+msgid ""
+"#define MAX_EVENTS 10\n"
+"struct epoll_event ev, events[MAX_EVENTS];\n"
+"int listen_sock, conn_sock, nfds, epollfd;\n"
+msgstr ""
+"#define MAX_EVENTS 10\n"
+"struct epoll_event ev, events[MAX_EVENTS];\n"
+"int listen_sock, conn_sock, nfds, epollfd;\n"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:310
+#, no-wrap
+msgid ""
+"/* Code to set up listening socket, \\(aqlisten_sock\\(aq,\n"
+"   (socket(), bind(), listen()) omitted. */\n"
+msgstr ""
+"/* Code to set up listening socket, \\(aqlisten_sock\\(aq,\n"
+"   (socket(), bind(), listen()) omitted. */\n"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:316
+#, no-wrap
+msgid ""
+"epollfd = epoll_create1(0);\n"
+"if (epollfd == -1) {\n"
+"    perror(\"epoll_create1\");\n"
+"    exit(EXIT_FAILURE);\n"
+"}\n"
+msgstr ""
+"epollfd = epoll_create1(0);\n"
+"if (epollfd == -1) {\n"
+"    perror(\"epoll_create1\");\n"
+"    exit(EXIT_FAILURE);\n"
+"}\n"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:323
+#, no-wrap
+msgid ""
+"ev.events = EPOLLIN;\n"
+"ev.data.fd = listen_sock;\n"
+"if (epoll_ctl(epollfd, EPOLL_CTL_ADD, listen_sock, &ev) == -1) {\n"
+"    perror(\"epoll_ctl: listen_sock\");\n"
+"    exit(EXIT_FAILURE);\n"
+"}\n"
+msgstr ""
+"ev.events = EPOLLIN;\n"
+"ev.data.fd = listen_sock;\n"
+"if (epoll_ctl(epollfd, EPOLL_CTL_ADD, listen_sock, &ev) == -1) {\n"
+"    perror(\"epoll_ctl: listen_sock\");\n"
+"    exit(EXIT_FAILURE);\n"
+"}\n"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:330
+#, no-wrap
+msgid ""
+"for (;;) {\n"
+"    nfds = epoll_wait(epollfd, events, MAX_EVENTS, -1);\n"
+"    if (nfds == -1) {\n"
+"        perror(\"epoll_wait\");\n"
+"        exit(EXIT_FAILURE);\n"
+"    }\n"
+msgstr ""
+"for (;;) {\n"
+"    nfds = epoll_wait(epollfd, events, MAX_EVENTS, -1);\n"
+"    if (nfds == -1) {\n"
+"        perror(\"epoll_wait\");\n"
+"        exit(EXIT_FAILURE);\n"
+"    }\n"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:352
+#, no-wrap
+msgid ""
+"    for (n = 0; n E<lt> nfds; ++n) {\n"
+"        if (events[n].data.fd == listen_sock) {\n"
+"            conn_sock = accept(listen_sock,\n"
+"                               (struct sockaddr *) &addr, &addrlen);\n"
+"            if (conn_sock == -1) {\n"
+"                perror(\"accept\");\n"
+"                exit(EXIT_FAILURE);\n"
+"            }\n"
+"            setnonblocking(conn_sock);\n"
+"            ev.events = EPOLLIN | EPOLLET;\n"
+"            ev.data.fd = conn_sock;\n"
+"            if (epoll_ctl(epollfd, EPOLL_CTL_ADD, conn_sock,\n"
+"                        &ev) == -1) {\n"
+"                perror(\"epoll_ctl: conn_sock\");\n"
+"                exit(EXIT_FAILURE);\n"
+"            }\n"
+"        } else {\n"
+"            do_use_fd(events[n].data.fd);\n"
+"        }\n"
+"    }\n"
+"}\n"
+msgstr ""
+"    for (n = 0; n E<lt> nfds; ++n) {\n"
+"        if (events[n].data.fd == listen_sock) {\n"
+"            conn_sock = accept(listen_sock,\n"
+"                               (struct sockaddr *) &addr, &addrlen);\n"
+"            if (conn_sock == -1) {\n"
+"                perror(\"accept\");\n"
+"                exit(EXIT_FAILURE);\n"
+"            }\n"
+"            setnonblocking(conn_sock);\n"
+"            ev.events = EPOLLIN | EPOLLET;\n"
+"            ev.data.fd = conn_sock;\n"
+"            if (epoll_ctl(epollfd, EPOLL_CTL_ADD, conn_sock,\n"
+"                        &ev) == -1) {\n"
+"                perror(\"epoll_ctl: conn_sock\");\n"
+"                exit(EXIT_FAILURE);\n"
+"            }\n"
+"        } else {\n"
+"            do_use_fd(events[n].data.fd);\n"
+"        }\n"
+"    }\n"
+"}\n"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:371
+msgid ""
+"When used as an edge-triggered interface, for performance reasons, it is "
+"possible to add the file descriptor inside the B<epoll> interface "
+"(B<EPOLL_CTL_ADD>)  once by specifying (B<EPOLLIN>|B<EPOLLOUT>).  This "
+"allows you to avoid continuously switching between B<EPOLLIN> and "
+"B<EPOLLOUT> calling B<epoll_ctl>(2)  with B<EPOLL_CTL_MOD>."
+msgstr ""
+"当作为边缘触发的接口使用时，出于性能考虑，可在添加文件描述符（B<EPOLL_CTL_ADD>）"
+"时指定 (B<EPOLLIN>|B<EPOLLOUT>)。这样可以避免反复调用 B<epoll_ctl>(2) 与"
+"B<EPOLL_CTL_MOD> 在 B<EPOLLIN> 和 B<EPOLLOUT> 之间来回切换。"
+
+#. type: SS
+#: raw/manpages-dev/man7/epoll.7:371
+#, no-wrap
+msgid "Questions and answers"
+msgstr "epoll 十问"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:372
+#, no-wrap
+msgid "0."
+msgstr "0."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:375
+msgid ""
+"What is the key used to distinguish the file descriptors registered in an "
+"interest list?"
+msgstr "用什么区分兴趣列表中注册的文件描述符？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:380
+msgid ""
+"The key is the combination of the file descriptor number and the open file "
+"description (also known as an \"open file handle\", the kernel's internal "
+"representation of an open file)."
+msgstr ""
+"文件描述符的数值和打开文件描述（open file description，又称“open file handle”，"
+"内核对打开的文件的内部表示）的组合。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:384
+msgid ""
+"What happens if you register the same file descriptor on an B<epoll> "
+"instance twice?"
+msgstr "如果在同一个 B<epoll> 实例上多次注册相同的文件描述符会怎样？"
+
+#.  But a file descriptor duplicated by fork(2) can't be added to the
+#.  set, because the [file *, fd] pair is already in the epoll set.
+#.  That is a somewhat ugly inconsistency.  On the one hand, a child process
+#.  cannot add the duplicate file descriptor to the epoll set.  (In every
+#.  other case that I can think of, file descriptors duplicated by fork have
+#.  similar semantics to file descriptors duplicated by dup() and friends.)  On
+#.  the other hand, the very fact that the child has a duplicate of the
+#.  file descriptor means that even if the parent closes its file descriptor,
+#.  then epoll_wait() in the parent will continue to receive notifications for
+#.  that file descriptor because of the duplicated file descriptor in the child.
+#.  See http://thread.gmane.org/gmane.linux.kernel/596462/
+#.  "epoll design problems with common fork/exec patterns"
+#.  mtk, Feb 2008
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:414
+msgid ""
+"You will probably get B<EEXIST>.  However, it is possible to add a duplicate "
+"(B<dup>(2), B<dup2>(2), B<fcntl>(2)  B<F_DUPFD>)  file descriptor to the "
+"same B<epoll> instance.  This can be a useful technique for filtering "
+"events, if the duplicate file descriptors are registered with different "
+"I<events> masks."
+msgstr ""
+"你可能会得到 B<EEXIST>。然而，在同一个epoll实例上添加重复的（B<dup>(2),"
+"B<dup2>(2), B<fcntl>(2) B<F_DUPFD>）文件描述符是可能的。如果重复的文件描述符"
+"是用不同的事件掩码（I<events> mask）注册的，那么这会成为过滤事件的一个实用技巧。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:421
+msgid ""
+"Can two B<epoll> instances wait for the same file descriptor? If so, are "
+"events reported to both B<epoll> file descriptors?"
+msgstr ""
+"多个 B<epoll> 实例能等待同一个文件描述符吗？如果可以，事件会被报告给所有的这些"
+"B<epoll> 文件描述符吗？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:424
+msgid ""
+"Yes, and events would be reported to both.  However, careful programming may "
+"be needed to do this correctly."
+msgstr "能，而且事件会被报告给所有的实例。但你可能需要小心仔细地编程才能正确地实现这一点。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:428
+msgid "Is the B<epoll> file descriptor itself poll/epoll/selectable?"
+msgstr "B<epoll> 文件描述符本身 poll/epoll/selectable 吗？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:434
+msgid ""
+"Yes.  If an B<epoll> file descriptor has events waiting, then it will "
+"indicate as being readable."
+msgstr "是的，如果一个 B<epoll> 文件描述符有事件在等待，那么它将显示为可读。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:438
+msgid ""
+"What happens if one attempts to put an B<epoll> file descriptor into its own "
+"file descriptor set?"
+msgstr "如果试图把 B<epoll> 文件描述符放到它自己的文件描述符集合中会发生什么？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:448
+msgid ""
+"The B<epoll_ctl>(2)  call fails (B<EINVAL>).  However, you can add an "
+"B<epoll> file descriptor inside another B<epoll> file descriptor set."
+msgstr ""
+"B<epoll_ctl>(2) 调用会失败（B<EINVAL>）。但你可以将一个 B<epoll> 文件描述符"
+"添加到另一个 B<epoll> 文件描述符集合中。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:452
+msgid ""
+"Can I send an B<epoll> file descriptor over a UNIX domain socket to another "
+"process?"
+msgstr "我可以通过 UNIX 域套接字发送一个 B<epoll> 文件描述符到另一个进程吗？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:455
+msgid ""
+"Yes, but it does not make sense to do this, since the receiving process "
+"would not have copies of the file descriptors in the interest list."
+msgstr "可以，但这样做是没有意义的，因为接收进程不会得到兴趣列表中文件描述符的副本。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:455
+#, no-wrap
+msgid "6."
+msgstr "6."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:459
+msgid ""
+"Will closing a file descriptor cause it to be removed from all B<epoll> "
+"interest lists?"
+msgstr "关闭一个文件描述符会将它从所有 B<epoll> 兴趣列表中移除吗？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:474
+msgid ""
+"Yes, but be aware of the following point.  A file descriptor is a reference "
+"to an open file description (see B<open>(2)).  Whenever a file descriptor is "
+"duplicated via B<dup>(2), B<dup2>(2), B<fcntl>(2)  B<F_DUPFD>, or "
+"B<fork>(2), a new file descriptor referring to the same open file "
+"description is created.  An open file description continues to exist until "
+"all file descriptors referring to it have been closed."
+msgstr ""
+"会，但要注意几点。文件描述符是对打开文件描述（open file description）的引用"
+"（见 B<open>(2)）。每当通过 B<dup>(2), B<dup2>(2), B<fcntl>(2) B<F_DUPFD>,"
+"或 B<fork>(2) 复制某个文件描述符时，都会创建一个新的文件描述符，引用同一个"
+"打开文件描述。一个打开文件描述会在所有引用它的文件描述符被关闭之前一直存在。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:494
+msgid ""
+"A file descriptor is removed from an interest list only after all the file "
+"descriptors referring to the underlying open file description have been "
+"closed.  This means that even after a file descriptor that is part of an "
+"interest list has been closed, events may be reported for that file "
+"descriptor if other file descriptors referring to the same underlying file "
+"description remain open.  To prevent this happening, the file descriptor "
+"must be explicitly removed from the interest list (using B<epoll_ctl>(2)  "
+"B<EPOLL_CTL_DEL>)  before it is duplicated.  Alternatively, the application "
+"must ensure that all file descriptors are closed (which may be difficult if "
+"file descriptors were duplicated behind the scenes by library functions that "
+"used B<dup>(2)  or B<fork>(2))."
+msgstr ""
+"一个文件描述符只有在所有指向其依赖的打开文件描述的文件描述符都被关闭后才会"
+"从兴趣列表中移除。这意味着，即使兴趣列表内的某个文件描述符被关闭了，如果引用"
+"同一文件描述的其他文件描述符仍然开着，则该文件描述符的事件仍可能会通知。为了防止"
+"这种情况发生，在复制文件描述符前，必须显式地将其从兴趣列表中移除（使用"
+"B<epoll_ctl>(2) B<EPOLL_CTL_DEL>）。或者应用程序必须能确保所有的文件描述符"
+"都被关闭（如果文件描述符是被使用 B<dup>(2) 或 B<fork>(2) 的库函数隐式复制的,"
+"这一点可能会很难保证）。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:494
+#, no-wrap
+msgid "7."
+msgstr "7."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:498
+msgid ""
+"If more than one event occurs between B<epoll_wait>(2)  calls, are they "
+"combined or reported separately?"
+msgstr ""
+"如果在两次 B<epoll_wait>(2) 调用之间发生了不止一个事件，它们是会一起报告还是会"
+"分开报告？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:500
+msgid "They will be combined."
+msgstr "它们会一起报告。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:500
+#, no-wrap
+msgid "8."
+msgstr "8."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:503
+msgid ""
+"Does an operation on a file descriptor affect the already collected but not "
+"yet reported events?"
+msgstr "对文件描述符的操作会影响已经收集到但尚未报告的事件吗？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:508
+msgid ""
+"You can do two operations on an existing file descriptor.  Remove would be "
+"meaningless for this case.  Modify will reread available I/O."
+msgstr ""
+"你可以对某个现有的文件描述符做删除和修改两种操作：删除，对这种情况没有意义；"
+"修改，将重新读取可用的 I/O。"
+
+#. type: IP
+#: raw/manpages-dev/man7/epoll.7:508
+#, no-wrap
+msgid "9."
+msgstr "9."
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:515
+msgid ""
+"Do I need to continuously read/write a file descriptor until B<EAGAIN> when "
+"using the B<EPOLLET> flag (edge-triggered behavior)?"
+msgstr ""
+"当使用 B<EPOLLET> 标志位（边缘触发行为）时，我需要持续读/写文件描述符，直到"
+"B<EAGAIN> 吗？"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:524
+msgid ""
+"Receiving an event from B<epoll_wait>(2)  should suggest to you that such "
+"file descriptor is ready for the requested I/O operation.  You must consider "
+"it ready until the next (nonblocking)  read/write yields B<EAGAIN>.  When "
+"and how you will use the file descriptor is entirely up to you."
+msgstr ""
+"从 B<epoll_wait>(2) 收到的事件会提示你，对应的文件描述符已经准备好进行所要求的"
+"I/O 操作。直到下一次（非阻塞的）读/写产生 B<EAGAIN> 之前，此文件描述符都应"
+"被认为是就绪的。何时及如何使用该文件描述符完全取决于你。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:530
+msgid ""
+"For packet/token-oriented files (e.g., datagram socket, terminal in "
+"canonical mode), the only way to detect the end of the read/write I/O space "
+"is to continue to read/write until B<EAGAIN>."
+msgstr ""
+"对于面向数据包/令牌的文件（如数据报套接字、典型模式（canonical mode）下的终端）,"
+"感知读/写 I/O 空间尽头的唯一方法是持续读/写直到 B<EAGAIN>。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:546
+msgid ""
+"For stream-oriented files (e.g., pipe, FIFO, stream socket), the condition "
+"that the read/write I/O space is exhausted can also be detected by checking "
+"the amount of data read from / written to the target file descriptor.  For "
+"example, if you call B<read>(2)  by asking to read a certain amount of data "
+"and B<read>(2)  returns a lower number of bytes, you can be sure of having "
+"exhausted the read I/O space for the file descriptor.  The same is true when "
+"writing using B<write>(2).  (Avoid this latter technique if you cannot "
+"guarantee that the monitored file descriptor always refers to a stream-"
+"oriented file.)"
+msgstr ""
+"对于面向流的文件（如管道、FIFO、流套接字），也可通过检查从目标文件描述符读/写的"
+"数据量来检测读/写 I/O 空间消费完的情况。例如，如果你在调用 B<read>(2) 时指定了"
+"期望读取的字节数，但 B<read>(2) 返回的实际读取字节数较少，你就可以确定文件描述符的"
+"读 I/O 空间已经消费完了。在使用 B<write>(2) 写入时同理。（但如果你不能保证"
+"被监视的文件描述符总是指向一个面向流的文件，那么就应当避免使用这一技巧）"
+
+#. type: SS
+#: raw/manpages-dev/man7/epoll.7:546
+#, no-wrap
+msgid "Possible pitfalls and ways to avoid them"
+msgstr "可能的陷阱和避免的方法"
+
+#. type: TP
+#: raw/manpages-dev/man7/epoll.7:547
+#, no-wrap
+msgid "B<o Starvation (edge-triggered)>"
+msgstr "B<o 边缘触发下的饥饿>"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:555
+msgid ""
+"If there is a large amount of I/O space, it is possible that by trying to "
+"drain it the other files will not get processed causing starvation.  (This "
+"problem is not specific to B<epoll>.)"
+msgstr ""
+"如果某个就绪的文件可用的 I/O 空间很大，试图穷尽它可能会导致其他文件得不到处理，"
+"造成饥饿。(但这个问题并不是 B<epoll> 特有的）。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:563
+msgid ""
+"The solution is to maintain a ready list and mark the file descriptor as "
+"ready in its associated data structure, thereby allowing the application to "
+"remember which files need to be processed but still round robin amongst all "
+"the ready files.  This also supports ignoring subsequent events you receive "
+"for file descriptors that are already ready."
+msgstr ""
+"解决方案是维护一个就绪列表，并在其关联的数据结构中将此文件描述符标记为就绪，从而"
+"使应用程序在记住哪些文件需要被处理的同时仍能循环遍历所有就绪的文件。这也使你可以"
+"忽略收到的已经就绪的文件描述符的后续事件。"
+
+#. type: TP
+#: raw/manpages-dev/man7/epoll.7:563
+#, no-wrap
+msgid "B<o If using an event cache...>"
+msgstr "B<o 如果使用了事件缓存...>"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:579
+msgid ""
+"If you use an event cache or store all the file descriptors returned from "
+"B<epoll_wait>(2), then make sure to provide a way to mark its closure "
+"dynamically (i.e., caused by a previous event's processing).  Suppose you "
+"receive 100 events from B<epoll_wait>(2), and in event #47 a condition "
+"causes event #13 to be closed.  If you remove the structure and B<close>(2)  "
+"the file descriptor for event #13, then your event cache might still say "
+"there are events waiting for that file descriptor causing confusion."
+msgstr ""
+"如果你使用了事件缓存或暂存了所有从 B<epoll_wait>(2) 返回的文件描述符，那么"
+"一定要有某种方法来动态地标记这些文件描述符的关闭（例如因先前的事件处理引起的"
+"文件描述符关闭）。假设你从 B<epoll_wait>(2) 收到了100个事件，在事件#47中，"
+"某个条件导致事件#13被关闭。如果你删除数据结构并关闭（B<close>(2)）事件#13的"
+"文件描述符，那么你的事件缓存可能仍然会说事件#13的文件描述符有事件在等待"
+"而造成迷惑。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:590
+msgid ""
+"One solution for this is to call, during the processing of event 47, "
+"B<epoll_ctl>(B<EPOLL_CTL_DEL>)  to delete file descriptor 13 and "
+"B<close>(2), then mark its associated data structure as removed and link it "
+"to a cleanup list.  If you find another event for file descriptor 13 in your "
+"batch processing, you will discover the file descriptor had been previously "
+"removed and there will be no confusion."
+msgstr ""
+"对应的一个解决方案是，在处理事件47的过程中，调用 B<epoll_ctl>(B<EPOLL_CTL_DEL>)"
+"来删除并关闭（B<close>(2)）文件描述符13，然后将其相关的数据结构标记为已删除，"
+"并将其链接到一个清理列表。如果你在批处理中发现了文件描述符13的另一个事件，"
+"你会发现文件描述符13先前已被删除，这样就不会有任何混淆。"
+
+#. type: SH
+#: raw/manpages-dev/man7/epoll.7:590
+#, no-wrap
+msgid "VERSIONS"
+msgstr "版本"
+
+#.  Its interface should be finalized in Linux kernel 2.5.66.
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:596
+msgid ""
+"The B<epoll> API was introduced in Linux kernel 2.5.44.  Support was added "
+"to glibc in version 2.3.2."
+msgstr "B<epoll> API 在 Linux 内核2.5.44中引入。2.3.2版本的 glibc 加入了对其的支持。"
+
+#. type: SH
+#: raw/manpages-dev/man7/epoll.7:596
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr "适用于"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:605
+msgid ""
+"The B<epoll> API is Linux-specific.  Some other systems provide similar "
+"mechanisms, for example, FreeBSD has I<kqueue>, and Solaris has I</dev/poll>."
+msgstr ""
+"B<epoll> API 是 Linux 特有的。其他的一些系统也提供类似的机制，例如 FreeBSD"
+"有 I<kqueue>， Solaris 有 I</dev/poll>。"
+
+#. type: SH
+#: raw/manpages-dev/man7/epoll.7:605
+#, no-wrap
+msgid "NOTES"
+msgstr "注"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:614
+msgid ""
+"The set of file descriptors that is being monitored via an epoll file "
+"descriptor can be viewed via the entry for the epoll file descriptor in the "
+"process's I</proc/[pid]/fdinfo> directory.  See B<proc>(5)  for further "
+"details."
+msgstr ""
+"可以通过进程对应的 I</proc/[pid]/fdinfo> 目录下的 epoll 文件描述符条目查看"
+"epoll 文件描述符所监视的文件描述符的集合。详情见 B<proc>(5)。"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:620
+msgid ""
+"The B<kcmp>(2)  B<KCMP_EPOLL_TFD> operation can be used to test whether a "
+"file descriptor is present in an epoll instance."
+msgstr ""
+"B<kcmp>(2) 的 B<KCMP_EPOLL_TFD> 操作可以用来检查一个 epoll 实例中是否存在"
+"某个文件描述符。"
+
+#. type: SH
+#: raw/manpages-dev/man7/epoll.7:620
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "另请参阅"
+
+#. type: Plain text
+#: raw/manpages-dev/man7/epoll.7:626
+msgid ""
+"B<epoll_create>(2), B<epoll_create1>(2), B<epoll_ctl>(2), B<epoll_wait>(2), "
+"B<poll>(2), B<select>(2)"
+msgstr ""
+"B<epoll_create>(2), B<epoll_create1>(2), B<epoll_ctl>(2), B<epoll_wait>(2), "
+"B<poll>(2), B<select>(2)"
