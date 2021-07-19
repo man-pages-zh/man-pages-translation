@@ -36,7 +36,7 @@ put it under `raw/` directory as others. Then automatic scripts
 will take care of them.
 
 Note: consider running `find . -type f -exec sed -i '/^#$/d' {} \;`
-for generated POT and PO files.
+for generated POT and PO files to remove empty translator comments.
 
 # Current active translations
 
