@@ -6,68 +6,69 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2021-07-30 18:47-0400\n"
-"PO-Revision-Date: 2021-07-30 18:47-0400\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-07-30 19:03-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
 
 #. type: TH
 #: raw/kbd/man1/unicode_start.1:2
 #, no-wrap
 msgid "UNICODE_START"
-msgstr ""
+msgstr "UNICODE_START"
 
 #. type: TH
 #: raw/kbd/man1/unicode_start.1:2
 #, no-wrap
 msgid "3 Feb 2001"
-msgstr ""
+msgstr "2011年2月3日"
 
 #. type: TH
 #: raw/kbd/man1/unicode_start.1:2
 #, no-wrap
 msgid "kbd"
-msgstr ""
+msgstr "kbd"
 
 #. type: SH
 #: raw/kbd/man1/unicode_start.1:3
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:5
 msgid "unicode_start - put keyboard and console in unicode mode"
-msgstr ""
+msgstr "unicode_start - 将键盘和控制台设为 unicode 模式"
 
 #. type: SH
 #: raw/kbd/man1/unicode_start.1:5
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:8
 msgid "B<unicode_start> [I<font> [I<umap>]]"
-msgstr ""
+msgstr "B<unicode_start> [I<字体> [I<umap>]]"
 
 #. type: SH
 #: raw/kbd/man1/unicode_start.1:8
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:13
 msgid ""
 "The B<unicode_start> command will put the keyboard and console into Unicode "
 "(UTF-8) mode."
-msgstr ""
+msgstr "B<unicode_start> 命令会将键盘和控制台设为 Unicode（UTF-8）模式。"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:20
@@ -77,6 +78,9 @@ msgid ""
 "user programs.  Also, that one can type hexadecimal Alt-xxxx using the "
 "numeric keypad, and again produce UTF-8."
 msgstr ""
+"对键盘来说，这意味着用户可以使用 B<loadkeys>(1) 将16位 U+xxxx 的值附加在键盘"
+"的按键上，并令其成为用户程序的 UTF-8 输入。同时，用户可以使用小键盘键入十六"
+"进制的 Alt-xxxx 字符，并同样产生 UTF-8 输入效果。"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:23
@@ -84,6 +88,8 @@ msgid ""
 "For the console this means that the kernel expects UTF-8 output from user "
 "programs, and displays the output accordingly."
 msgstr ""
+"对控制台来说，这意味着内核期望从用户程序得到 UTF-8 输出，并相应地显示这些输"
+"出。"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:29
@@ -92,12 +98,14 @@ msgid ""
 "Unicode map, or, if it hasn't, such a map can be given explicitly as second "
 "parameter.  When no font was specified, the current font is kept."
 msgstr ""
+"指定的 I<字体> 参数是加载的字体。它应当含有内置的 Unicode 映射表；如果没有，"
+"应当使用第二个参数显式指定映射表。如果未指定字体，则维持使用原字体。"
 
 #. type: SH
 #: raw/kbd/man1/unicode_start.1:29
 #, no-wrap
 msgid "NOTE"
-msgstr ""
+msgstr "备注"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:32
@@ -105,12 +113,14 @@ msgid ""
 "Unicode mode is a parameter with a value per virtual console.  However, "
 "usually the font and keymap is common to all consoles."
 msgstr ""
+"Unicode 模式是每个虚拟控制台对应一个值的参数。然而，通常情况下字体和键盘映射"
+"对全部控制台均通用。"
 
 #. type: SH
 #: raw/kbd/man1/unicode_start.1:32
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参见"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:38
@@ -118,3 +128,5 @@ msgid ""
 "B<dumpkeys>(1), B<kbd_mode>(1), B<loadkeys>(1), B<unicode_stop>(1), "
 "B<utf-8>(7), B<setfont>(8)"
 msgstr ""
+"B<dumpkeys>(1), B<kbd_mode>(1), B<loadkeys>(1), B<unicode_stop>(1), "
+"B<utf-8>(7), B<setfont>(8)"
