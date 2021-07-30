@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2021-07-30 18:47-0400\n"
 "PO-Revision-Date: 2020-05-09 11:33-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -77,21 +77,15 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/sleep.1:18
-#| msgid ""
-#| "Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default), "
-#| "\\&'m' for minutes, 'h' for hours or 'd' for days.  Unlike most "
-#| "implementations that require NUMBER be an integer, here NUMBER may be an "
-#| "arbitrary floating point number.  Given two or more arguments, pause for "
-#| "the amount of time specified by the sum of their values."
 msgid ""
 "Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default), "
 "\\&'m' for minutes, 'h' for hours or 'd' for days.  NUMBER need not be an "
 "integer.  Given two or more arguments, pause for the amount of time "
 "specified by the sum of their values."
 msgstr ""
-"暂停指定数量秒。后缀是 's'，则指数量单位为秒（默认），\\&'m'为分钟，'h'"
-"为小时，'d' 为天。这里给出的数字不一定必须为整数。如果给定两个及以上"
-"的参数，则暂停的时间是这些给定值的和。"
+"暂停指定数量秒。后缀是 's'，则指数量单位为秒（默认），\\&'m'为分钟，'h'为小"
+"时，'d' 为天。这里给出的数字不一定必须为整数。如果给定两个及以上的参数，则暂"
+"停的时间是这些给定值的和。"
 
 #. type: TP
 #: raw/coreutils/man1/sleep.1:18
@@ -136,13 +130,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/sleep.1:28
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sleep.1:30
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/sleep.1:30

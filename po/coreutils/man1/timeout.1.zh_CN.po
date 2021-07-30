@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:30-0400\n"
+"POT-Creation-Date: 2021-07-30 18:47-0400\n"
 "PO-Revision-Date: 2020-05-09 11:35-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -63,7 +63,8 @@ msgstr "概述"
 #: raw/coreutils/man1/timeout.1:8
 msgid ""
 "B<timeout> [I<\\,OPTION\\/>] I<\\,DURATION COMMAND \\/>[I<\\,ARG\\/>]..."
-msgstr "B<timeout> [I<\\,选项列表\\/>] I<\\,持续时间 命令 \\/>[I<\\,参数列表\\/>]..."
+msgstr ""
+"B<timeout> [I<\\,选项列表\\/>] I<\\,持续时间 命令 \\/>[I<\\,参数列表\\/>]..."
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:11
@@ -151,7 +152,8 @@ msgstr "指定超时发生时应当送出的信号；"
 msgid ""
 "SIGNAL may be a name like 'HUP' or a number; see 'kill B<-l>' for a list of "
 "signals"
-msgstr "信号可以是类似“HUP”的信号名或是信号数；从“kill B<-l>”的输出可获得信号的列表"
+msgstr ""
+"信号可以是类似“HUP”的信号名或是信号数；从“kill B<-l>”的输出可获得信号的列表"
 
 #. type: TP
 #: raw/coreutils/man1/timeout.1:43
@@ -161,7 +163,6 @@ msgstr "B<-v>, B<--verbose>"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:46
-#| msgid "specify the signal to be sent on timeout;"
 msgid "diagnose to stderr any signal sent upon timeout"
 msgstr "对任何超时后发送的信号，向标准错误输出诊断信息"
 
@@ -189,16 +190,14 @@ msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:56
-#| msgid ""
-#| "DURATION is a floating point number with an optional suffix: \\&'s' for "
-#| "seconds (the default), 'm' for minutes, 'h' for hours or 'd' for days."
 msgid ""
 "DURATION is a floating point number with an optional suffix: \\&'s' for "
 "seconds (the default), 'm' for minutes, 'h' for hours or 'd' for days.  A "
 "duration of 0 disables the associated timeout."
 msgstr ""
-"持续时间应当是一个浮点数，后缀是可选的：\\&“s”表示秒（默认值），“m”表示分钟，“h”表示小时，或者使用“d”表示天数。若持续时间为"
-" 0，将禁用所关联的超时配置。"
+"持续时间应当是一个浮点数，后缀是可选的：\\&“s”表示秒（默认值），“m”表示分"
+"钟，“h”表示小时，或者使用“d”表示天数。若持续时间为 0，将禁用所关联的超时配"
+"置。"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:63
@@ -248,13 +247,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/timeout.1:69
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:71
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/timeout.1:71
@@ -267,7 +268,8 @@ msgstr "版权"
 msgid ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:77
@@ -293,7 +295,8 @@ msgstr "kill(1)"
 #: raw/coreutils/man1/timeout.1:82
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/timeoutE<gt>"
-msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/timeoutE<gt>"
+msgstr ""
+"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/timeoutE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:83
