@@ -27,7 +27,7 @@ msgstr "UNICODE_START"
 #: raw/kbd/man1/unicode_start.1:2
 #, no-wrap
 msgid "3 Feb 2001"
-msgstr "2011年2月3日"
+msgstr "2001年2月3日"
 
 #. type: TH
 #: raw/kbd/man1/unicode_start.1:2
