@@ -1,0 +1,17 @@
+.\" @(#)unicode_stop.1 1.0 010203 aeb
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH UNICODE_STOP 1 2001年2月3日 kbd 
+.SH 名称
+unicode_stop \- 将键盘和控制台从 unicode 模式回退
+.SH 概述
+\fBunicode_stop\fP
+.SH 描述
+.LP
+\fBunicode_stop\fP 命令会一定程度上撤销 \fBunicode_start\fP 命令的效果。它会将键盘置于 ASCII (XLATE)
+模式，并清除控制台的 UTF\-8 模式。
+.SH 参见
+\fBkbd_mode\fP(1), \fBunicode_start\fP(1), \fButf\-8\fP(7), \fBsetfont\fP(8)
