@@ -6,72 +6,73 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2020-05-08 19:39-0400\n"
-"PO-Revision-Date: 2020-05-08 19:39-0400\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-08-01 14:58-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
 
 #. type: TH
 #: raw/util-linux/man1/last.1:17
 #, no-wrap
 msgid "LAST, LASTB"
-msgstr ""
+msgstr "LAST, LASTB"
 
 #. type: TH
 #: raw/util-linux/man1/last.1:17
 #, no-wrap
 msgid "October 2013"
-msgstr ""
+msgstr "2013年10月"
 
 #. type: TH
 #: raw/util-linux/man1/last.1:17
 #, no-wrap
 msgid "util-linux"
-msgstr ""
+msgstr "util-linux"
 
 #. type: TH
 #: raw/util-linux/man1/last.1:17
 #, no-wrap
 msgid "User Commands"
-msgstr ""
+msgstr "用户命令"
 
 #. type: SH
 #: raw/util-linux/man1/last.1:18
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:20
 msgid "last, lastb - show a listing of last logged in users"
-msgstr ""
+msgstr "last, lastb - 显示用户最近登录情况的列表"
 
 #. type: SH
 #: raw/util-linux/man1/last.1:20
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "概述"
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:24
 msgid "B<last> [options] [I<username>...] [I<tty>...]"
-msgstr ""
+msgstr "B<last> [选项] [I<用户名>...] [I<tty>...]"
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:28
 msgid "B<lastb> [options] [I<username>...] [I<tty>...]"
-msgstr ""
+msgstr "B<lastb> [选项] [I<用户名>...] [I<tty>...]"
 
 #. type: SH
 #: raw/util-linux/man1/last.1:28
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:45
@@ -112,7 +113,7 @@ msgstr ""
 #: raw/util-linux/man1/last.1:66
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "选项"
 
 #. type: TP
 #: raw/util-linux/man1/last.1:67
@@ -416,7 +417,7 @@ msgstr ""
 #: raw/util-linux/man1/last.1:181
 #, no-wrap
 msgid "FILES"
-msgstr ""
+msgstr "文件"
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:183
@@ -432,7 +433,7 @@ msgstr ""
 #: raw/util-linux/man1/last.1:185
 #, no-wrap
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:189
@@ -457,9 +458,9 @@ msgstr ""
 #: raw/util-linux/man1/last.1:194
 #, no-wrap
 msgid "SEE ALSO"
-msgstr ""
+msgstr "参见"
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:198
 msgid "B<login>(1), B<wtmp>(5), B<init>(8), B<shutdown>(8)"
-msgstr ""
+msgstr "B<login>(1), B<wtmp>(5), B<init>(8), B<shutdown>(8)"
