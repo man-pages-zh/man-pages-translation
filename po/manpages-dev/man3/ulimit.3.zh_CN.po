@@ -1,0 +1,252 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-30 14:59-0400\n"
+"PO-Revision-Date: 2021-09-30 14:59-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages-dev/man3/ulimit.3:27
+#, no-wrap
+msgid "ULIMIT"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man3/ulimit.3:27
+#, no-wrap
+msgid "2017-09-15"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man3/ulimit.3:27
+#, no-wrap
+msgid "Linux"
+msgstr ""
+
+#. type: TH
+#: raw/manpages-dev/man3/ulimit.3:27
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:28
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:30
+msgid "ulimit - get and set user limits"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:30
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:32
+msgid "B<#include E<lt>ulimit.hE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:34
+msgid "B<long ulimit(int >I<cmd>B<, long >I<newlimit>B<);>"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:34
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:46
+msgid ""
+"Warning: this routine is obsolete.  Use B<getrlimit>(2), B<setrlimit>(2), "
+"and B<sysconf>(3)  instead.  For the shell command B<ulimit>(), see "
+"B<bash>(1)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:53
+msgid ""
+"The B<ulimit>()  call will get or set some limit for the calling process.  "
+"The I<cmd> argument can have one of the following values."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man3/ulimit.3:53
+#, no-wrap
+msgid "B<UL_GETFSIZE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:56
+msgid "Return the limit on the size of a file, in units of 512 bytes."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man3/ulimit.3:56
+#, no-wrap
+msgid "B<UL_SETFSIZE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:59
+msgid "Set the limit on the size of a file."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man3/ulimit.3:59
+#, no-wrap
+msgid "B<3>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:63
+msgid ""
+"(Not implemented for Linux.)  Return the maximum possible address of the "
+"data segment."
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man3/ulimit.3:63
+#, no-wrap
+msgid "B<4>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:67
+msgid ""
+"(Implemented but no symbolic constant provided.)  Return the maximum number "
+"of files that the calling process can open."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:67
+#, no-wrap
+msgid "RETURN VALUE"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:74
+msgid ""
+"On success, B<ulimit>()  returns a nonnegative value.  On error, -1 is "
+"returned, and I<errno> is set appropriately."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:74
+#, no-wrap
+msgid "ERRORS"
+msgstr ""
+
+#. type: TP
+#: raw/manpages-dev/man3/ulimit.3:75
+#, no-wrap
+msgid "B<EPERM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:78
+msgid "An unprivileged process tried to increase a limit."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:78
+#, no-wrap
+msgid "ATTRIBUTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:81
+msgid ""
+"For an explanation of the terms used in this section, see B<attributes>(7)."
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man3/ulimit.3:85
+#, no-wrap
+msgid "Interface"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man3/ulimit.3:85
+#, no-wrap
+msgid "Attribute"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man3/ulimit.3:85
+#, no-wrap
+msgid "Value"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man3/ulimit.3:88
+#, no-wrap
+msgid "B<ulimit>()"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man3/ulimit.3:88
+#, no-wrap
+msgid "Thread safety"
+msgstr ""
+
+#. type: tbl table
+#: raw/manpages-dev/man3/ulimit.3:88
+#, no-wrap
+msgid "MT-Safe"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:91
+#, no-wrap
+msgid "CONFORMING TO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:96
+msgid "SVr4, POSIX.1-2001.  POSIX.1-2008 marks B<ulimit>()  as obsolete."
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:96
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:101
+msgid "B<bash>(1), B<getrlimit>(2), B<setrlimit>(2), B<sysconf>(3)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages-dev/man3/ulimit.3:101
+#, no-wrap
+msgid "COLOPHON"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages-dev/man3/ulimit.3:109
+msgid ""
+"This page is part of release 5.10 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
+msgstr ""
