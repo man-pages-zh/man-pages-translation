@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-09-30 14:59-0400\n"
-"PO-Revision-Date: 2021-09-30 15:06-0400\n"
+"PO-Revision-Date: 2021-09-30 22:42-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
@@ -86,65 +86,65 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:53
-#, fuzzy
 msgid ""
 "The B<ulimit>()  call will get or set some limit for the calling process.  "
 "The I<cmd> argument can have one of the following values."
-msgstr "B<ulimit>() 调用可以获取或设置调用进程的某些限制。"
+msgstr ""
+"B<ulimit>() 调用可以获取或设置调用进程的某些限制。I<cmd> 参数可以取如下的值。"
 
 #. type: TP
 #: raw/manpages-dev/man3/ulimit.3:53
 #, no-wrap
 msgid "B<UL_GETFSIZE>"
-msgstr ""
+msgstr "B<UL_GETFSIZE>"
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:56
 msgid "Return the limit on the size of a file, in units of 512 bytes."
-msgstr ""
+msgstr "返回文件大小相关的限制，单位为 512 字节。"
 
 #. type: TP
 #: raw/manpages-dev/man3/ulimit.3:56
 #, no-wrap
 msgid "B<UL_SETFSIZE>"
-msgstr ""
+msgstr "B<UL_SETFSIZE>"
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:59
 msgid "Set the limit on the size of a file."
-msgstr ""
+msgstr "设置文件大小相关的限制。"
 
 #. type: TP
 #: raw/manpages-dev/man3/ulimit.3:59
 #, no-wrap
 msgid "B<3>"
-msgstr ""
+msgstr "B<3>"
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:63
 msgid ""
 "(Not implemented for Linux.)  Return the maximum possible address of the "
 "data segment."
-msgstr ""
+msgstr "（Linux 未实现。）返回数据段可能的最大地址。"
 
 #. type: TP
 #: raw/manpages-dev/man3/ulimit.3:63
 #, no-wrap
 msgid "B<4>"
-msgstr ""
+msgstr "B<4>"
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:67
 msgid ""
 "(Implemented but no symbolic constant provided.)  Return the maximum number "
 "of files that the calling process can open."
-msgstr ""
+msgstr "（已实现，但未提供符号常量。）返回调用进程可以打开文件的最大数量。"
 
 #. type: SH
 #: raw/manpages-dev/man3/ulimit.3:67
 #, no-wrap
 msgid "RETURN VALUE"
-msgstr ""
+msgstr "返回值"
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:74
@@ -152,35 +152,37 @@ msgid ""
 "On success, B<ulimit>()  returns a nonnegative value.  On error, -1 is "
 "returned, and I<errno> is set appropriately."
 msgstr ""
+"如果成功，B<ulimit>() 返回非零值。如果出错，返回值为 -1，且将相应设置 "
+"I<errno> 的值。"
 
 #. type: SH
 #: raw/manpages-dev/man3/ulimit.3:74
 #, no-wrap
 msgid "ERRORS"
-msgstr ""
+msgstr "错误"
 
 #. type: TP
 #: raw/manpages-dev/man3/ulimit.3:75
 #, no-wrap
 msgid "B<EPERM>"
-msgstr ""
+msgstr "B<EPERM>"
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:78
 msgid "An unprivileged process tried to increase a limit."
-msgstr ""
+msgstr "一个无权限的进程尝试提升限制。"
 
 #. type: SH
 #: raw/manpages-dev/man3/ulimit.3:78
 #, no-wrap
 msgid "ATTRIBUTES"
-msgstr ""
+msgstr "属性"
 
 #. type: Plain text
 #: raw/manpages-dev/man3/ulimit.3:81
 msgid ""
 "For an explanation of the terms used in this section, see B<attributes>(7)."
-msgstr ""
+msgstr "如需了解本节中所使用术语的解释，请查看 B<attributes>(7)。"
 
 #. type: tbl table
 #: raw/manpages-dev/man3/ulimit.3:85
@@ -254,3 +256,6 @@ msgid ""
 "version of this page, can be found at \\%https://www.kernel.org/doc/man-"
 "pages/."
 msgstr ""
+"此页面是 Linux I<man-pages> 项目 5.10 版的一部分。您可以访问 \\%https://www."
+"kernel.org/doc/man-pages/ 来了解项目的描述、报告问题的方法和此页面的最新版"
+"本。"
