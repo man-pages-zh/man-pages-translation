@@ -1,0 +1,885 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-10-01 23:44-0400\n"
+"PO-Revision-Date: 2021-10-02 00:05-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: TH
+#: raw/manpages/man7/man.7:34
+#, no-wrap
+msgid "MAN"
+msgstr "MAN"
+
+#. type: TH
+#: raw/manpages/man7/man.7:34
+#, no-wrap
+msgid "2020-11-01"
+msgstr "2020-11-01"
+
+#. type: TH
+#: raw/manpages/man7/man.7:34
+#, no-wrap
+msgid "Linux"
+msgstr "Linux"
+
+#. type: TH
+#: raw/manpages/man7/man.7:34
+#, no-wrap
+msgid "Linux Programmer's Manual"
+msgstr "Linux 程序员手册"
+
+#. type: SH
+#: raw/manpages/man7/man.7:35
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:37
+msgid "man - macros to format man pages"
+msgstr "man - 格式化手册页的宏"
+
+#. type: SH
+#: raw/manpages/man7/man.7:37
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:41
+msgid "B<groff -Tascii -man> I<file> \\&..."
+msgstr "B<groff -Tascii -man> I<文件> \\&..."
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:45
+msgid "B<groff -Tps -man> I<file> \\&..."
+msgstr "B<groff -Tps -man> I<文件> \\&..."
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:49
+msgid "B<man> [I<section>] I<title>"
+msgstr "B<man> [I<章节号>] I<标题>"
+
+#. type: SH
+#: raw/manpages/man7/man.7:49
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:62
+msgid ""
+"This manual page explains the B<groff an.tmac> macro package (often called "
+"the B<man> macro package).  This macro package should be used by developers "
+"when writing or porting man pages for Linux.  It is fairly compatible with "
+"other versions of this macro package, so porting man pages should not be a "
+"major problem (exceptions include the NET-2 BSD release, which uses a "
+"totally different macro package called mdoc; see B<mdoc>(7))."
+msgstr ""
+"此手册页解释了 B<groff an.tmac> 宏包（通常称为 B<man> 宏包）。开发者应使用该"
+"宏包为 Linux 编写或移植 man 手册页。它和其它版本的该宏包大致时兼容的，因此移"
+"植手册页通常不是大问题（其中一个例外是 NET-2 BSD 发行版本，它使用了名为 mdoc "
+"的完全不同的宏包；参见 B<mdoc>(7)）。"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:74
+msgid ""
+"Note that NET-2 BSD mdoc man pages can be used with B<groff> simply by "
+"specifying the B<-mdoc> option instead of the B<-man> option.  Using the B<-"
+"mandoc> option is, however, recommended, since this will automatically "
+"detect which macro package is in use."
+msgstr ""
+"注意 NET-2 BSD mdoc 手册页也可以使用 B<groff> 处理，只需指定 B<-mdoc> 选项而"
+"非 B<-man> 选项。推荐使用 b<-mandoc> 选项，这样可以自动探测所使用的宏包。"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:78
+msgid ""
+"For conventions that should be employed when writing man pages for the Linux "
+"I<man-pages> package, see B<man-pages>(7)."
+msgstr ""
+"如需了解为 Linux I<man-pages> 软件包编写手册页时的惯例，请参见 B<man-"
+"pages>(7)。"
+
+#. type: SS
+#: raw/manpages/man7/man.7:78
+#, no-wrap
+msgid "Title line"
+msgstr "标题行"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:81
+msgid ""
+"The first command in a man page (after comment lines, that is, lines that "
+"start with B<.\\e\">) should be"
+msgstr "手册页的第一个命令（除了以 B<.\\e\"> 开头的注释行以外）应当是"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:85
+msgid "B<\\&.TH> I<title section date source manual>"
+msgstr "B<\\&.TH> I<标题 章节号 日期 来源 手册名称>"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:91
+msgid ""
+"For details of the arguments that should be supplied to the B<TH> command, "
+"see B<man-pages>(7)."
+msgstr "如需了解应当向 B<TH> 命令提供的参数的具体细节，请见 B<man-pages>(7)。"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:97
+msgid ""
+"Note that BSD mdoc-formatted pages begin with the B<Dd> command, not the "
+"B<TH> command."
+msgstr "请注意，BSD mdoc 格式的手册页使用 B<Dd> 命令起始，不使用 B<TH> 命令。"
+
+#. type: SS
+#: raw/manpages/man7/man.7:97
+#, no-wrap
+msgid "Sections"
+msgstr ""
+
+#. The following doesn't seem to be required (see Debian bug 411303),
+#. If the name contains spaces and appears
+#. on the same line as
+#. .BR \&.SH ,
+#. then place the heading in double quotes.
+#. type: Plain text
+#: raw/manpages/man7/man.7:106
+msgid "Sections are started with B<\\&.SH> followed by the heading name."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:109
+msgid ""
+"The only mandatory heading is NAME, which should be the first section and be "
+"followed on the next line by a one-line description of the program:"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:112
+msgid "\\&.SH NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:114
+msgid "item \\e- description"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:128
+msgid ""
+"It is extremely important that this format is followed, and that there is a "
+"backslash before the single dash which follows the item name.  This syntax "
+"is used by the B<mandb>(8)  program to create a database of short "
+"descriptions for the B<whatis>(1)  and B<apropos>(1)  commands.  (See "
+"B<lexgrog>(1)  for further details on the syntax of the NAME section.)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:131
+msgid ""
+"For a list of other sections that might appear in a manual page, see B<man-"
+"pages>(7)."
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:131
+#, no-wrap
+msgid "Fonts"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:133
+msgid "The commands to select the type face are:"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:133
+#, no-wrap
+msgid "B<\\&.B>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:136
+msgid "Bold"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:136
+#, no-wrap
+msgid "B<\\&.BI>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:140
+msgid ""
+"Bold alternating with italics (especially useful for function specifications)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:140
+#, no-wrap
+msgid "B<\\&.BR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:145
+msgid ""
+"Bold alternating with Roman (especially useful for referring to other manual "
+"pages)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:145
+#, no-wrap
+msgid "B<\\&.I>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:148
+msgid "Italics"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:148
+#, no-wrap
+msgid "B<\\&.IB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:151
+msgid "Italics alternating with bold"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:151
+#, no-wrap
+msgid "B<\\&.IR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:154
+msgid "Italics alternating with Roman"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:154
+#, no-wrap
+msgid "B<\\&.RB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:157
+msgid "Roman alternating with bold"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:157
+#, no-wrap
+msgid "B<\\&.RI>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:160
+msgid "Roman alternating with italics"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:160
+#, no-wrap
+msgid "B<\\&.SB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:163
+msgid "Small alternating with bold"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:163
+#, no-wrap
+msgid "B<\\&.SM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:166
+msgid "Small (useful for acronyms)"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:180
+msgid ""
+"Traditionally, each command can have up to six arguments, but the GNU "
+"implementation removes this limitation (you might still want to limit "
+"yourself to 6 arguments for portability's sake).  Arguments are delimited by "
+"spaces.  Double quotes can be used to specify an argument which contains "
+"spaces.  For the macros that produce alternating type faces, the arguments "
+"will be printed next to each other without intervening spaces, so that the B<"
+"\\&.BR> command can be used to specify a word in bold followed by a mark of "
+"punctuation in Roman.  If no arguments are given, the command is applied to "
+"the following line of text."
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:180
+#, no-wrap
+msgid "Other macros and strings"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:199
+msgid ""
+"Below are other relevant macros and predefined strings.  Unless noted "
+"otherwise, all macros cause a break (end the current line of text).  Many of "
+"these macros set or use the \"prevailing indent.\" The \"prevailing indent\" "
+"value is set by any macro with the parameter I<i> below; macros may omit "
+"I<i> in which case the current prevailing indent will be used.  As a result, "
+"successive indented paragraphs can use the same indent without respecifying "
+"the indent value.  A normal (nonindented) paragraph resets the prevailing "
+"indent value to its default value (0.5 inches).  By default, a given indent "
+"is measured in ens; try to use ens or ems as units for indents, since these "
+"will automatically adjust to font size changes.  The other key macro "
+"definitions are:"
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:199
+#, no-wrap
+msgid "Normal paragraphs"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:200
+#, no-wrap
+msgid "B<\\&.LP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:205 raw/manpages/man7/man.7:210
+msgid "Same as B<\\&.PP> (begin a new paragraph)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:205
+#, no-wrap
+msgid "B<\\&.P>"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:210
+#, no-wrap
+msgid "B<\\&.PP>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:213
+msgid "Begin a new paragraph and reset prevailing indent."
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:213
+#, no-wrap
+msgid "Relative margin indent"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:214
+#, no-wrap
+msgid "B<\\&.RS>I< i>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:225
+msgid ""
+"Start relative margin indent: moves the left margin I<i> to the right (if "
+"I<i> is omitted, the prevailing indent value is used).  A new prevailing "
+"indent is set to 0.5 inches.  As a result, all following paragraph(s) will "
+"be indented until the corresponding B<\\&.RE>."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:225
+#, no-wrap
+msgid "B<\\&.RE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:229
+msgid ""
+"End relative margin indent and restores the previous value of the prevailing "
+"indent."
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:229
+#, no-wrap
+msgid "Indented paragraph macros"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:230
+#, no-wrap
+msgid "B<\\&.HP>I< i>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:235
+msgid ""
+"Begin paragraph with a hanging indent (the first line of the paragraph is at "
+"the left margin of normal paragraphs, and the rest of the paragraph's lines "
+"are indented)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:235
+#, no-wrap
+msgid "B<\\&.IP>I< x i>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:256
+msgid ""
+"Indented paragraph with optional hanging tag.  If the tag I<x> is omitted, "
+"the entire following paragraph is indented by I<i>.  If the tag I<x> is "
+"provided, it is hung at the left margin before the following indented "
+"paragraph (this is just like B<\\&.TP> except the tag is included with the "
+"command instead of being on the following line).  If the tag is too long, "
+"the text after the tag will be moved down to the next line (text will not be "
+"lost or garbled).  For bulleted lists, use this macro with \\e(bu (bullet) "
+"or \\e(em (em dash)  as the tag, and for numbered lists, use the number or "
+"letter followed by a period as the tag; this simplifies translation to other "
+"formats."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:256
+#, no-wrap
+msgid "B<\\&.TP>I< i>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:263
+msgid ""
+"Begin paragraph with hanging tag.  The tag is given on the next line, but "
+"its results are like those of the B<\\&.IP> command."
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:263
+#, no-wrap
+msgid "Hypertext link macros"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:264
+#, no-wrap
+msgid "B<\\&.UR>I< url>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:271
+msgid ""
+"Insert a hypertext link to the URI (URL)  I<url>, with all text up to the "
+"following B<\\&.UE> macro as the link text."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:271
+#, no-wrap
+msgid "B<\\&.UE .RI [ trailer ]>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:288
+msgid ""
+"Terminate the link text of the preceding B<\\&.UR> macro, with the optional "
+"I<trailer> (if present, usually a closing parenthesis and/or end-of-sentence "
+"punctuation) immediately following.  For non-HTML output devices (e.g., "
+"B<man -Tutf8>), the link text is followed by the URL in angle brackets; if "
+"there is no link text, the URL is printed as its own link text, surrounded "
+"by angle brackets.  (Angle brackets may not be available on all output "
+"devices.)  For the HTML output device, the link text is hyperlinked to the "
+"URL; if there is no link text, the URL is printed as its own link text."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:291
+msgid ""
+"These macros have been supported since GNU Troff 1.20 (2009-01-05) and "
+"Heirloom Doctools Troff since 160217 (2016-02-17)."
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:291
+#, no-wrap
+msgid "Miscellaneous macros"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:292
+#, no-wrap
+msgid "B<\\&.DT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:296
+msgid ""
+"Reset tabs to default tab values (every 0.5 inches); does not cause a break."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:296
+#, no-wrap
+msgid "B<\\&.PD>I< d>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:301
+msgid ""
+"Set inter-paragraph vertical distance to d (if omitted, d=0.4v); does not "
+"cause a break."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:301
+#, no-wrap
+msgid "B<\\&.SS>I< t>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:308
+msgid ""
+"Subheading I<t> (like B<\\&.SH>, but used for a subsection inside a section)."
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:308
+#, no-wrap
+msgid "Predefined strings"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:312
+msgid "The B<man> package has the following predefined strings:"
+msgstr ""
+
+#. type: IP
+#: raw/manpages/man7/man.7:312
+#, no-wrap
+msgid "\\e*R"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:314
+msgid "Registration Symbol: \\*R"
+msgstr ""
+
+#. type: IP
+#: raw/manpages/man7/man.7:314
+#, no-wrap
+msgid "\\e*S"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:316
+msgid "Change to default font size"
+msgstr ""
+
+#. type: IP
+#: raw/manpages/man7/man.7:316
+#, no-wrap
+msgid "\\e*(Tm"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:318
+msgid "Trademark Symbol: \\*(Tm"
+msgstr ""
+
+#. type: IP
+#: raw/manpages/man7/man.7:318
+#, no-wrap
+msgid "\\e*(lq"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:320
+msgid "Left angled double quote: ``"
+msgstr ""
+
+#. type: IP
+#: raw/manpages/man7/man.7:320
+#, no-wrap
+msgid "\\e*(rq"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:322
+msgid "Right angled double quote: ''"
+msgstr ""
+
+#. type: SS
+#: raw/manpages/man7/man.7:322
+#, no-wrap
+msgid "Safe subset"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:366
+msgid ""
+"Although technically B<man> is a troff macro package, in reality a large "
+"number of other tools process man page files that don't implement all of "
+"troff's abilities.  Thus, it's best to avoid some of troff's more exotic "
+"abilities where possible to permit these other tools to work correctly.  "
+"Avoid using the various troff preprocessors (if you must, go ahead and use "
+"B<tbl>(1), but try to use the B<IP> and B<TP> commands instead for two-"
+"column tables).  Avoid using computations; most other tools can't process "
+"them.  Use simple commands that are easy to translate to other formats.  The "
+"following troff macros are believed to be safe (though in many cases they "
+"will be ignored by translators): B<\\e\">, B<.>, B<ad>, B<bp>, B<br>, B<ce>, "
+"B<de>, B<ds>, B<el>, B<ie>, B<if>, B<fi>, B<ft>, B<hy>, B<ig>, B<in>, B<na>, "
+"B<ne>, B<nf>, B<nh>, B<ps>, B<so>, B<sp>, B<ti>, B<tr>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:389
+msgid ""
+"You may also use many troff escape sequences (those sequences beginning with "
+"\\e).  When you need to include the backslash character as normal text, use "
+"\\ee.  Other sequences you may use, where x or xx are any characters and N "
+"is any digit, include: B<\\e\\(aq>, B<\\e\\(ga>, B<\\e->, B<\\e.>, B<\\e\">, "
+"B<\\e%>, B<\\e*x>, B<\\e*(xx>, B<\\e(xx>, B<\\e$N>, B<\\enx>, B<\\en(xx>, B<"
+"\\efx>, and B<\\ef(xx>.  Avoid using the escape sequences for drawing "
+"graphics."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:420
+msgid ""
+"Do not use the optional parameter for B<bp> (break page).  Use only positive "
+"values for B<sp> (vertical space).  Don't define a macro (B<de>)  with the "
+"same name as a macro in this or the mdoc macro package with a different "
+"meaning; it's likely that such redefinitions will be ignored.  Every "
+"positive indent (B<in>)  should be paired with a matching negative indent "
+"(although you should be using the B<RS> and B<RE> macros instead).  The "
+"condition test (B<if,ie>)  should only have \\(aqt\\(aq or \\(aqn\\(aq as "
+"the condition.  Only translations (B<tr>)  that can be ignored should be "
+"used.  Font changes (B<ft> and the B<\\ef> escape sequence)  should only "
+"have the values 1, 2, 3, 4, R, I, B, P, or CW (the ft command may also have "
+"no parameters)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:427
+msgid ""
+"If you use capabilities beyond these, check the results carefully on several "
+"tools.  Once you've confirmed that the additional capability is safe, let "
+"the maintainer of this document know about the safe command or sequence that "
+"should be added to this list."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/man.7:427
+#, no-wrap
+msgid "FILES"
+msgstr "文件"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:429
+msgid "I</usr/share/groff/>[*/]I<tmac/an.tmac>"
+msgstr "I</usr/share/groff/>[*/]I<tmac/an.tmac>"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:431
+msgid "I</usr/man/whatis>"
+msgstr "I</usr/man/whatis>"
+
+#. type: SH
+#: raw/manpages/man7/man.7:431
+#, no-wrap
+msgid "NOTES"
+msgstr "备注"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:446
+msgid ""
+"By all means include full URLs (or URIs) in the text itself; some tools such "
+"as B<man2html>(1)  can automatically turn them into hypertext links.  You "
+"can also use the B<UR> and B<UE> macros to identify links to related "
+"information.  If you include URLs, use the full URL (e.g., E<.UR http://www."
+"kernel.org> E<.UE )> to ensure that tools can automatically find the URLs."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:455
+msgid ""
+"Tools processing these files should open the file and examine the first "
+"nonwhitespace character.  A period (.) or single quote (\\(aq) at the "
+"beginning of a line indicates a troff-based file (such as man or mdoc).  A "
+"left angle bracket (E<lt>) indicates an SGML/XML-based file (such as HTML or "
+"Docbook).  Anything else suggests simple ASCII text (e.g., a \"catman\" "
+"result)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:466
+msgid ""
+"Many man pages begin with B<\\(aq\\e\"> followed by a space and a list of "
+"characters, indicating how the page is to be preprocessed.  For "
+"portability's sake to non-troff translators we recommend that you avoid "
+"using anything other than B<tbl>(1), and Linux can detect that "
+"automatically.  However, you might want to include this information so your "
+"man page can be handled by other (less capable) systems.  Here are the "
+"definitions of the preprocessors invoked by these characters:"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:466
+#, no-wrap
+msgid "B<e>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:469
+msgid "eqn(1)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:469
+#, no-wrap
+msgid "B<g>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:472
+msgid "grap(1)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:472
+#, no-wrap
+msgid "B<p>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:475
+msgid "pic(1)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:475
+#, no-wrap
+msgid "B<r>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:478
+msgid "refer(1)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:478
+#, no-wrap
+msgid "B<t>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:481
+msgid "tbl(1)"
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/man.7:481
+#, no-wrap
+msgid "B<v>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:484
+msgid "vgrind(1)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/man.7:484
+#, no-wrap
+msgid "BUGS"
+msgstr "缺陷"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:496
+msgid ""
+"Most of the macros describe formatting (e.g., font type and spacing) instead "
+"of marking semantic content (e.g., this text is a reference to another "
+"page), compared to formats like mdoc and DocBook (even HTML has more "
+"semantic markings).  This situation makes it harder to vary the B<man> "
+"format for different media, to make the formatting consistent for a given "
+"media, and to automatically insert cross-references.  By sticking to the "
+"safe subset described above, it should be easier to automate transitioning "
+"to a different reference page format in the future."
+msgstr ""
+
+#. .SH AUTHORS
+#. .IP \(em 3m
+#. James Clark (jjc@jclark.com) wrote the implementation of the macro package.
+#. .IP \(em
+#. Rickard E. Faith (faith@cs.unc.edu) wrote the initial version of
+#. this manual page.
+#. .IP \(em
+#. Jens Schweikhardt (schweikh@noc.fdn.de) wrote the Linux Man-Page Mini-HOWTO
+#. (which influenced this manual page).
+#. .IP \(em
+#. David A. Wheeler (dwheeler@ida.org) heavily modified this
+#. manual page, such as adding detailed information on sections and macros.
+#. type: Plain text
+#: raw/manpages/man7/man.7:512
+msgid "The Sun macro B<TX> is not implemented."
+msgstr "Sun 的宏 B<TX> 未实现。"
+
+#. type: SH
+#: raw/manpages/man7/man.7:512
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:524
+msgid ""
+"B<apropos>(1), B<groff>(1), B<lexgrog>(1), B<man>(1), B<man2html>(1), "
+"B<groff_mdoc>(7), B<whatis>(1), B<groff_man>(7), B<groff_www>(7), B<man-"
+"pages>(7), B<mdoc>(7)"
+msgstr ""
+"B<apropos>(1), B<groff>(1), B<lexgrog>(1), B<man>(1), B<man2html>(1), "
+"B<groff_mdoc>(7), B<whatis>(1), B<groff_man>(7), B<groff_www>(7), B<man-"
+"pages>(7), B<mdoc>(7)"
+
+#. type: SH
+#: raw/manpages/man7/man.7:524
+#, no-wrap
+msgid "COLOPHON"
+msgstr "注记"
+
+#. type: Plain text
+#: raw/manpages/man7/man.7:532
+msgid ""
+"This page is part of release 5.10 of the Linux I<man-pages> project.  A "
+"description of the project, information about reporting bugs, and the latest "
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
+msgstr ""
+"此页面是 Linux I<man-pages> 项目 5.10 版的一部分。您可以访问 \\%https://www."
+"kernel.org/doc/man-pages/ 来了解项目的描述、报告问题的方法和此页面的最新版"
+"本。"
