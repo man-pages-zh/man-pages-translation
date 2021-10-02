@@ -1,0 +1,161 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-10-01 23:07-0400\n"
+"PO-Revision-Date: 2021-10-01 23:27-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: TH
+#: raw/gzip/man1/zless.1:1
+#, no-wrap
+msgid "ZLESS"
+msgstr "ZLESS"
+
+#. type: SH
+#: raw/gzip/man1/zless.1:2
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:4
+msgid "zless - file perusal filter for crt viewing of compressed text"
+msgstr "zless - 用于在显示器上阅读被压缩的文本文件的过滤器"
+
+#. type: SH
+#: raw/gzip/man1/zless.1:4
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:7
+msgid "B<zless> [ name ...  ]"
+msgstr "B<zless> [ 文件名 ...  ]"
+
+#. type: SH
+#: raw/gzip/man1/zless.1:7
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:20
+msgid ""
+"I<Zless> is a filter which allows examination of compressed or plain text "
+"files one screenful at a time on a soft-copy terminal.  It is the equivalent "
+"of setting the environment variable LESSOPEN to '|gzip -cdfq -- %s', and the "
+"environment variable LESSMETACHARS to "
+"\\&'E<lt>spaceE<gt>E<lt>tabE<gt>E<lt>newlineE<gt>;*?\"()E<lt>E<gt>[|&^`#\\e$"
+"%=~', and then running I<less>.  However, enough people seem to think that "
+"having the command I<zless> available is important to be worth providing it."
+msgstr ""
+"I<Zless> 是一个文件过滤器，可以在软终端上以全屏幕的形式显示经过压缩或未经压缩"
+"的文本文件。它等效于将环境变量 LESSOPEN 设置为 '|gzip -cdfq -- %s'，"
+"LESSMETACHARS 设置为 \\&'E<lt>spaceE<gt>E<lt>tabE<gt>E<lt>newlineE<gt>;*?"
+"\"()E<lt>E<gt>[|&^`#\\e$%=~'，然后运行 I<less> 命令。然而，很多人认为独立的 "
+"I<zless> 命令同样重要且值得提供。"
+
+#. type: SH
+#: raw/gzip/man1/zless.1:20
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:22
+msgid "zmore(1), less(1)"
+msgstr "zmore(1), less(1)"
+
+#. type: SH
+#: raw/gzip/man1/zless.1:22
+#, no-wrap
+msgid "BUGS"
+msgstr "缺陷"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:30
+msgid ""
+"I<Zless> does not work with compressed data that is piped to it via standard "
+"input; it requires that input files be specified as arguments.  To read "
+"compressed data from a pipe, you can use .\\|.\\|.B<|gunzip|less> instead "
+"of .\\|.\\|.B<|zless>."
+msgstr ""
+"I<Zless> 无法在压缩数据使用管道经由标准输入方式提供的情况下工作； 它要求输入"
+"文件必须经由参数给出。如需从管道中读取压缩数据，您可以使用 .\\|.\\|.B<|"
+"gunzip|less> instead of .\\|.\\|.B<|zless> 作为替代。"
+
+#. type: SH
+#: raw/gzip/man1/zless.1:30
+#, no-wrap
+msgid "COPYRIGHT NOTICE"
+msgstr "版权声明"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:32
+msgid "Copyright \\(co 2006-2007, 2015-2018 Free Software Foundation, Inc."
+msgstr "Copyright \\(co 2006-2007, 2015-2018 Free Software Foundation, Inc."
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:34
+msgid "Copyright \\(co 1992, 1993 Jean-loup Gailly"
+msgstr "Copyright \\(co 1992, 1993 Jean-loup Gailly"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:38
+msgid ""
+"Permission is granted to make and distribute verbatim copies of this manual "
+"provided the copyright notice and this permission notice are preserved on "
+"all copies."
+msgstr ""
+"Permission is granted to make and distribute verbatim copies of this manual "
+"provided the copyright notice and this permission notice are preserved on "
+"all copies.\n"
+"\n"
+"授予制作和发布本手册的逐字副本的权限，条件为此权限声明在所有副本中必须保持原"
+"样。"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:49
+msgid ""
+"Permission is granted to copy and distribute modified versions of this "
+"manual under the conditions for verbatim copying, provided that the entire "
+"resulting derived work is distributed under the terms of a permission notice "
+"identical to this one."
+msgstr ""
+"Permission is granted to copy and distribute modified versions of this "
+"manual under the conditions for verbatim copying, provided that the entire "
+"resulting derived work is distributed under the terms of a permission notice "
+"identical to this one.\n"
+"\n"
+"授予复制和制作此手册经过修改的版本的权限，其条件与逐字副本的情况一致，且整个"
+"衍生工作须以与本权限声明完全相同的条款进行发布。"
+
+#. type: Plain text
+#: raw/gzip/man1/zless.1:53
+msgid ""
+"Permission is granted to copy and distribute translations of this manual "
+"into another language, under the above conditions for modified versions, "
+"except that this permission notice may be stated in a translation approved "
+"by the Foundation."
+msgstr ""
+"Permission is granted to copy and distribute translations of this manual "
+"into another language, under the above conditions for modified versions, "
+"except that this permission notice may be stated in a translation approved "
+"by the Foundation.\n"
+"\n"
+"授予复制和发布本手册页其它语言的翻译的权限，其条件与受修改副本的情况一致；作"
+"为例外，本权限声明可以按照（自由软件）基金会批准的翻译文本进行阐述。（译者"
+"注：当前翻译未经批准，仅供参考；具体条款请以英文原文为准。）"
