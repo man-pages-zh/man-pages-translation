@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-10-01 23:44-0400\n"
-"PO-Revision-Date: 2021-10-02 00:05-0400\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2021-11-02 14:36-0400\n"
+"PO-Revision-Date: 2021-11-02 14:35-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgid ""
 "detect which macro package is in use."
 msgstr ""
 "注意 NET-2 BSD mdoc 手册页也可以使用 B<groff> 处理，只需指定 B<-mdoc> 选项而"
-"非 B<-man> 选项。推荐使用 b<-mandoc> 选项，这样可以自动探测所使用的宏包。"
+"非 B<-man> 选项。推荐使用 B<-mandoc> 选项，这样可以自动探测所使用的宏包。"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:78
@@ -150,17 +150,17 @@ msgstr "请注意，BSD mdoc 格式的手册页使用 B<Dd> 命令起始，不�
 #: raw/manpages/man7/man.7:97
 #, no-wrap
 msgid "Sections"
-msgstr ""
+msgstr "章节"
 
-#. The following doesn't seem to be required (see Debian bug 411303),
-#. If the name contains spaces and appears
-#. on the same line as
-#. .BR \&.SH ,
-#. then place the heading in double quotes.
+#.  The following doesn't seem to be required (see Debian bug 411303),
+#.  If the name contains spaces and appears
+#.  on the same line as
+#.  .BR \&.SH ,
+#.  then place the heading in double quotes.
 #. type: Plain text
 #: raw/manpages/man7/man.7:106
 msgid "Sections are started with B<\\&.SH> followed by the heading name."
-msgstr ""
+msgstr "章节以 B<\\&.SH> 起始，并后接章节标题。"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:109
@@ -168,16 +168,18 @@ msgid ""
 "The only mandatory heading is NAME, which should be the first section and be "
 "followed on the next line by a one-line description of the program:"
 msgstr ""
+"唯一必需的章节标题为“名称（NAME）”一节。它应当是手册页第一个章节，并紧跟一行"
+"用来描述程序的文字："
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:112
 msgid "\\&.SH NAME"
-msgstr ""
+msgstr "\\&.SH 名称"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:114
 msgid "item \\e- description"
-msgstr ""
+msgstr "条目 \\e- 描述信息"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:128
@@ -200,7 +202,7 @@ msgstr ""
 #: raw/manpages/man7/man.7:131
 #, no-wrap
 msgid "Fonts"
-msgstr ""
+msgstr "字体"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:133
@@ -832,18 +834,18 @@ msgid ""
 "to a different reference page format in the future."
 msgstr ""
 
-#. .SH AUTHORS
-#. .IP \(em 3m
-#. James Clark (jjc@jclark.com) wrote the implementation of the macro package.
-#. .IP \(em
-#. Rickard E. Faith (faith@cs.unc.edu) wrote the initial version of
-#. this manual page.
-#. .IP \(em
-#. Jens Schweikhardt (schweikh@noc.fdn.de) wrote the Linux Man-Page Mini-HOWTO
-#. (which influenced this manual page).
-#. .IP \(em
-#. David A. Wheeler (dwheeler@ida.org) heavily modified this
-#. manual page, such as adding detailed information on sections and macros.
+#.  .SH AUTHORS
+#.  .IP \(em 3m
+#.  James Clark (jjc@jclark.com) wrote the implementation of the macro package.
+#.  .IP \(em
+#.  Rickard E. Faith (faith@cs.unc.edu) wrote the initial version of
+#.  this manual page.
+#.  .IP \(em
+#.  Jens Schweikhardt (schweikh@noc.fdn.de) wrote the Linux Man-Page Mini-HOWTO
+#.  (which influenced this manual page).
+#.  .IP \(em
+#.  David A. Wheeler (dwheeler@ida.org) heavily modified this
+#.  manual page, such as adding detailed information on sections and macros.
 #. type: Plain text
 #: raw/manpages/man7/man.7:512
 msgid "The Sun macro B<TX> is not implemented."
