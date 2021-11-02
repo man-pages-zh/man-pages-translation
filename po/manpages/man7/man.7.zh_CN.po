@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-02 14:36-0400\n"
-"PO-Revision-Date: 2021-11-02 14:35-0400\n"
+"POT-Creation-Date: 2021-11-02 15:04-0400\n"
+"PO-Revision-Date: 2021-11-02 15:03-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
@@ -638,7 +638,7 @@ msgstr ""
 #: raw/manpages/man7/man.7:322
 #, no-wrap
 msgid "Safe subset"
-msgstr ""
+msgstr "安全子集"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:366
@@ -753,67 +753,67 @@ msgstr ""
 #: raw/manpages/man7/man.7:466
 #, no-wrap
 msgid "B<e>"
-msgstr ""
+msgstr "B<e>"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:469
 msgid "eqn(1)"
-msgstr ""
+msgstr "eqn(1)"
 
 #. type: TP
 #: raw/manpages/man7/man.7:469
 #, no-wrap
 msgid "B<g>"
-msgstr ""
+msgstr "B<g>"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:472
 msgid "grap(1)"
-msgstr ""
+msgstr "grap(1)"
 
 #. type: TP
 #: raw/manpages/man7/man.7:472
 #, no-wrap
 msgid "B<p>"
-msgstr ""
+msgstr "B<p>"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:475
 msgid "pic(1)"
-msgstr ""
+msgstr "pic(1)"
 
 #. type: TP
 #: raw/manpages/man7/man.7:475
 #, no-wrap
 msgid "B<r>"
-msgstr ""
+msgstr "B<r>"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:478
 msgid "refer(1)"
-msgstr ""
+msgstr "refer(1)"
 
 #. type: TP
 #: raw/manpages/man7/man.7:478
 #, no-wrap
 msgid "B<t>"
-msgstr ""
+msgstr "B<t>"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:481
 msgid "tbl(1)"
-msgstr ""
+msgstr "tbl(1)"
 
 #. type: TP
 #: raw/manpages/man7/man.7:481
 #, no-wrap
 msgid "B<v>"
-msgstr ""
+msgstr "B<v>"
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:484
 msgid "vgrind(1)"
-msgstr ""
+msgstr "vgrind(1)"
 
 #. type: SH
 #: raw/manpages/man7/man.7:484
@@ -833,6 +833,11 @@ msgid ""
 "safe subset described above, it should be easier to automate transitioning "
 "to a different reference page format in the future."
 msgstr ""
+"和 mdoc 或者 DocBook 等格式相比，这里的大多数宏描述的是格式化信息（例如字体格"
+"式和间距）而非语义化标记内容（例如，某段文本是另一页面的引用）。甚至 HTML 都"
+"提供了更多语义化的标记。这种情况令 B<man> 格式在不同的媒体上表现效果不佳，例"
+"如难以在指定媒介上保持格式一致，或是自动插入交叉引用。但如果只使用上文所描述"
+"的安全子集，在未来自动迁移到不同的参考页面格式时应当会相对容易一些。"
 
 #.  .SH AUTHORS
 #.  .IP \(em 3m
