@@ -4,6 +4,8 @@
 #
 # This script is released into the Public Domain.
 
+set -e
+
 main() {
     ./update-pot
     ./update-po
