@@ -28,6 +28,14 @@ logv() {
     printf "%s\n" "$1"
 }
 
+test_po4a() {
+    if ! command -v po4a-updatepo &> /dev/null ; then
+        logv "E: You must install po4a before proceeding!"
+        exit 1
+    fi
+}
+
+test_po4a
 printf "%s\n" "# UPDATE-POT ###############################"
 for pkgdir in raw/*; do
     if ! [ -d "${pkgdir}" ]; then
