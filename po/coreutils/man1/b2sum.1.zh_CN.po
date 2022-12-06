@@ -3,20 +3,20 @@
 # Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2016.
-# Boyuan Yang <073plan@gmail.com>, 2016-2020.
+# Boyuan Yang <073plan@gmail.com>, 2016-2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.32\n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2020-05-08 19:54-0400\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2022-12-06 16:47-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/b2sum.1:2
@@ -28,14 +28,14 @@ msgstr "B2SUM"
 #: raw/coreutils/man1/b2sum.1:2
 #, no-wrap
 msgid "September 2022"
-msgstr ""
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/b2sum.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 8.32"
+msgstr "GNU coreutils 9.1"
 
 #. type: TH
 #: raw/coreutils/man1/b2sum.1:2
@@ -73,10 +73,9 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:12
-#, fuzzy
 #| msgid "Print or check BLAKE2 (512-bit) checksums."
 msgid "Print or check BLAKE2b (512-bit) checksums."
-msgstr "输出或检查 BLAKE2（512位）校验和。"
+msgstr "输出或检查 BLAKE2b（512位）校验和。"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:14
@@ -87,7 +86,7 @@ msgstr "如果没有指定文件，或者指定文件为“-”，则从标准�
 #: raw/coreutils/man1/b2sum.1:16
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
-msgstr ""
+msgstr "必选参数对长短选项同时适用。"
 
 #. type: TP
 #: raw/coreutils/man1/b2sum.1:16
@@ -108,21 +107,19 @@ msgstr "B<-c>, B<--check>"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:22
-#, fuzzy
 #| msgid "read BLAKE2 sums from the FILEs and check them"
 msgid "read checksums from the FILEs and check them"
-msgstr "从指定文件中读取 BLAKE2 文件校验和信息并对它们进行检查"
+msgstr "从指定文件中读取校验和并进行检验"
 
 #. type: TP
 #: raw/coreutils/man1/b2sum.1:22
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "B<-l>, B<--length>"
 msgid "B<-l>, B<--length>=I<\\,BITS\\/>"
-msgstr "B<-l>, B<--length>"
+msgstr "B<-l>, B<--length>=I<\\,位数\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:26
-#, fuzzy
 #| msgid ""
 #| "digest length in bits; must not exceed the maximum for the blake2 "
 #| "algorithm and must be a multiple of 8"
@@ -252,7 +249,6 @@ msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:64
-#, fuzzy
 #| msgid ""
 #| "The sums are computed as described in RFC 7693.  When checking, the input "
 #| "should be a former output of this program.  The default mode is to print "
@@ -267,8 +263,8 @@ msgid ""
 "FILE."
 msgstr ""
 "校验和按照 RFC 7693 描述的方式进行计算。在校验过程中，其输入内容应当为该程序"
-"先前的输出内容。默认模式是输出一行文字，包含校验和、一个指示输入模式的字符"
-"（'*' 指示二进制输入，\\&' ' 指示二进制特性不明显的文本输入）以及每个文件的名"
+"先前的输出内容。默认模式是输出一行文字，包含：校验和、一个指示输入模式的字符"
+"（'*' 指示二进制输入，' ' 指示二进制特性不明显的文本输入）以及每个文件的名"
 "称。"
 
 #. type: Plain text
@@ -299,15 +295,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/b2sum.1:70
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:72
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/b2sum.1:72
@@ -317,7 +311,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:75
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -325,7 +318,7 @@ msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
@@ -346,7 +339,7 @@ msgstr "参见"
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:80
 msgid "B<cksum>(1)"
-msgstr ""
+msgstr "B<cksum>(1)"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:83
