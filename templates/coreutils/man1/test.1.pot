@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/test.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/test.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -471,7 +471,7 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:129
-msgid "FILE exists and read permission is granted"
+msgid "FILE exists and the user has read access"
 msgstr ""
 
 #. type: TP
@@ -526,7 +526,7 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:144
-msgid "FILE exists and write permission is granted"
+msgid "FILE exists and the user has write access"
 msgstr ""
 
 #. type: TP
@@ -537,7 +537,7 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:147
-msgid "FILE exists and execute (or search) permission is granted"
+msgid "FILE exists and the user has execute (or search) access"
 msgstr ""
 
 #. type: Plain text
@@ -609,7 +609,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/test.1:170
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
@@ -628,10 +628,16 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:175
-msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/[E<gt>"
+msgid "B<access>(2)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/test.1:176
+#: raw/coreutils/man1/test.1:178
+msgid ""
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/testE<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/test.1:179
 msgid "or available locally via: info \\(aq(coreutils) test invocation\\(aq"
 msgstr ""

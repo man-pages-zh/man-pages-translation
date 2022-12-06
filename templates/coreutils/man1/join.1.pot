@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/join.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/join.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -95,163 +95,165 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:19
 #, no-wrap
-msgid "B<-e> EMPTY"
+msgid "B<-e> STRING"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:22
-msgid "replace missing input fields with EMPTY"
+#: raw/coreutils/man1/join.1:23
+msgid ""
+"replace missing (empty) input fields with STRING; I.e., missing fields "
+"specified with '-12jo' options"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:22
+#: raw/coreutils/man1/join.1:23
 #, no-wrap
 msgid "B<-i>, B<--ignore-case>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:25
+#: raw/coreutils/man1/join.1:26
 msgid "ignore differences in case when comparing fields"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:25
+#: raw/coreutils/man1/join.1:26
 #, no-wrap
 msgid "B<-j> FIELD"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:28
+#: raw/coreutils/man1/join.1:29
 msgid "equivalent to '-1 FIELD B<-2> FIELD'"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:28
+#: raw/coreutils/man1/join.1:29
 #, no-wrap
 msgid "B<-o> FORMAT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:31
+#: raw/coreutils/man1/join.1:32
 msgid "obey FORMAT while constructing output line"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:31
+#: raw/coreutils/man1/join.1:32
 #, no-wrap
 msgid "B<-t> CHAR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:34
+#: raw/coreutils/man1/join.1:35
 msgid "use CHAR as input and output field separator"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:34
+#: raw/coreutils/man1/join.1:35
 #, no-wrap
 msgid "B<-v> FILENUM"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:37
+#: raw/coreutils/man1/join.1:38
 msgid "like B<-a> FILENUM, but suppress joined output lines"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:37
+#: raw/coreutils/man1/join.1:38
 #, no-wrap
 msgid "B<-1> FIELD"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:40
+#: raw/coreutils/man1/join.1:41
 msgid "join on this FIELD of file 1"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:40
+#: raw/coreutils/man1/join.1:41
 #, no-wrap
 msgid "B<-2> FIELD"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:43
+#: raw/coreutils/man1/join.1:44
 msgid "join on this FIELD of file 2"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:43
+#: raw/coreutils/man1/join.1:44
 #, no-wrap
 msgid "B<--check-order>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:47
+#: raw/coreutils/man1/join.1:48
 msgid ""
 "check that the input is correctly sorted, even if all input lines are "
 "pairable"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:47
+#: raw/coreutils/man1/join.1:48
 #, no-wrap
 msgid "B<--nocheck-order>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:50
+#: raw/coreutils/man1/join.1:51
 msgid "do not check that the input is correctly sorted"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:50
+#: raw/coreutils/man1/join.1:51
 #, no-wrap
 msgid "B<--header>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:54
+#: raw/coreutils/man1/join.1:55
 msgid ""
 "treat the first line in each file as field headers, print them without "
 "trying to pair them"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:54
+#: raw/coreutils/man1/join.1:55
 #, no-wrap
 msgid "B<-z>, B<--zero-terminated>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:57
+#: raw/coreutils/man1/join.1:58
 msgid "line delimiter is NUL, not newline"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:57
+#: raw/coreutils/man1/join.1:58
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:60
+#: raw/coreutils/man1/join.1:61
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/join.1:60
+#: raw/coreutils/man1/join.1:61
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:63
+#: raw/coreutils/man1/join.1:64
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:71
+#: raw/coreutils/man1/join.1:72
 msgid ""
 "Unless B<-t> CHAR is given, leading blanks separate fields and are ignored, "
 "else fields are separated by CHAR.  Any FIELD is a field number counted from "
@@ -263,7 +265,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:78
+#: raw/coreutils/man1/join.1:79
 msgid ""
 "Important: FILE1 and FILE2 must be sorted on the join fields.  E.g., use "
 "\"sort B<-k> 1b,1\" if 'join' has no options, or use \"join B<-t> ''\" if "
@@ -273,72 +275,72 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/join.1:78
+#: raw/coreutils/man1/join.1:79
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:80
+#: raw/coreutils/man1/join.1:81
 msgid "Written by Mike Haertel."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/join.1:80
+#: raw/coreutils/man1/join.1:81
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:82
+#: raw/coreutils/man1/join.1:83
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:84
+#: raw/coreutils/man1/join.1:85
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/join.1:84
+#: raw/coreutils/man1/join.1:85
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:87
+#: raw/coreutils/man1/join.1:88
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:90
+#: raw/coreutils/man1/join.1:91
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/join.1:90
+#: raw/coreutils/man1/join.1:91
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:92
-msgid "comm(1), uniq(1)"
+#: raw/coreutils/man1/join.1:93
+msgid "B<comm>(1), B<uniq>(1)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:95
+#: raw/coreutils/man1/join.1:96
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/joinE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:96
+#: raw/coreutils/man1/join.1:97
 msgid "or available locally via: info \\(aq(coreutils) join invocation\\(aq"
 msgstr ""

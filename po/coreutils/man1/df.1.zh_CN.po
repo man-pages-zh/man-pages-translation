@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-16 11:53-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "DF"
 #. type: TH
 #: raw/coreutils/man1/df.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/df.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -50,7 +51,9 @@ msgstr "名称"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:5
-msgid "df - report file system disk space usage"
+#, fuzzy
+#| msgid "df - report file system disk space usage"
+msgid "df - report file system space usage"
 msgstr "df - 报告文件系统磁盘空间使用情况"
 
 #. type: SH
@@ -75,9 +78,9 @@ msgstr "描述"
 #, fuzzy
 msgid ""
 "This manual page documents the GNU version of B<df>.  B<df> displays the "
-"amount of disk space available on the file system containing each file name "
+"amount of space available on the file system containing each file name "
 "argument.  If no file name is given, the space available on all currently "
-"mounted file systems is shown.  Disk space is shown in 1K blocks by default, "
+"mounted file systems is shown.  Space is shown in 1K blocks by default, "
 "unless the environment variable POSIXLY_CORRECT is set, in which case 512-"
 "byte blocks are used."
 msgstr ""
@@ -90,7 +93,7 @@ msgstr ""
 #: raw/coreutils/man1/df.1:29
 #, fuzzy
 msgid ""
-"If an argument is the absolute file name of a disk device node containing a "
+"If an argument is the absolute file name of a device node containing a "
 "mounted file system, B<df> shows the space available on that file system "
 "rather than on the file system containing the device node.  This version of "
 "B<df> cannot show the space available on unmounted file systems, because on "
@@ -145,7 +148,9 @@ msgstr "B<-B>, B<--block-size>=I<\\,大小\\/>"
 msgid ""
 "scale sizes by SIZE before printing them; e.g., \\&'-BM' prints sizes in "
 "units of 1,048,576 bytes; see SIZE format below"
-msgstr "以指定大小为单位对块大小进行输出；例如，\\&'-BM' 以 1,048,576 字节为单位输出大小；详情请参见下方的“SIZE 格式”部分"
+msgstr ""
+"以指定大小为单位对块大小进行输出；例如，\\&'-BM' 以 1,048,576 字节为单位输出"
+"大小；详情请参见下方的“SIZE 格式”部分"
 
 #. type: TP
 #: raw/coreutils/man1/df.1:43
@@ -383,13 +388,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/df.1:109
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:111
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/df.1:111
@@ -399,8 +406,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:114
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -430,6 +441,10 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/dfE<gt
 #: raw/coreutils/man1/df.1:120
 msgid "or available locally via: info \\(aq(coreutils) df invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) df invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

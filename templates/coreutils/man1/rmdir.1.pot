@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -72,134 +72,130 @@ msgstr ""
 msgid "Remove the DIRECTORY(ies), if they are empty."
 msgstr ""
 
-#. type: Plain text
-#: raw/coreutils/man1/rmdir.1:14
+#. type: TP
+#: raw/coreutils/man1/rmdir.1:12
+#, no-wrap
 msgid "B<--ignore-fail-on-non-empty>"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:16
-msgid "ignore each failure that is solely because a directory"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/rmdir.1:18
-msgid "is non-empty"
+msgid "ignore each failure that is solely because a directory is non-empty"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:18
+#: raw/coreutils/man1/rmdir.1:16
 #, no-wrap
 msgid "B<-p>, B<--parents>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:22
+#: raw/coreutils/man1/rmdir.1:20
 msgid ""
 "remove DIRECTORY and its ancestors; e.g., 'rmdir B<-p> a/b/c' is similar to "
 "'rmdir a/b/c a/b a'"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:22
+#: raw/coreutils/man1/rmdir.1:20
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:25
+#: raw/coreutils/man1/rmdir.1:23
 msgid "output a diagnostic for every directory processed"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:25
+#: raw/coreutils/man1/rmdir.1:23
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:28
+#: raw/coreutils/man1/rmdir.1:26
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:28
+#: raw/coreutils/man1/rmdir.1:26
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:31
+#: raw/coreutils/man1/rmdir.1:29
 msgid "output version information and exit"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:31
+#: raw/coreutils/man1/rmdir.1:29
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:33
+#: raw/coreutils/man1/rmdir.1:31
 msgid "Written by David MacKenzie."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:33
+#: raw/coreutils/man1/rmdir.1:31
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:35
+#: raw/coreutils/man1/rmdir.1:33
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:37
+#: raw/coreutils/man1/rmdir.1:35
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:37
+#: raw/coreutils/man1/rmdir.1:35
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:40
+#: raw/coreutils/man1/rmdir.1:38
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:43
+#: raw/coreutils/man1/rmdir.1:41
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:43
+#: raw/coreutils/man1/rmdir.1:41
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:45
-msgid "rmdir(2)"
+#: raw/coreutils/man1/rmdir.1:43
+msgid "B<rmdir>(2)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:48
+#: raw/coreutils/man1/rmdir.1:46
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/rmdirE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:49
+#: raw/coreutils/man1/rmdir.1:47
 msgid "or available locally via: info \\(aq(coreutils) rmdir invocation\\(aq"
 msgstr ""

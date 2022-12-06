@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-30 18:47-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-16 11:57-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "DATE"
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/date.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -80,58 +81,63 @@ msgid "DESCRIPTION"
 msgstr "描述"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:15
-msgid "Display the current time in the given FORMAT, or set the system date."
+#: raw/coreutils/man1/date.1:16
+#, fuzzy
+#| msgid ""
+#| "Display the current time in the given FORMAT, or set the system date."
+msgid ""
+"Display date and time in the given FORMAT.  With B<-s>, or with "
+"[MMDDhhmm[[CC]YY][.ss]], set the date and time."
 msgstr "按照给定格式显示当前时间，或设置系统日期。"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:17
+#: raw/coreutils/man1/date.1:18
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr "必选参数对长短选项同时适用。"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:17
+#: raw/coreutils/man1/date.1:18
 #, no-wrap
 msgid "B<-d>, B<--date>=I<\\,STRING\\/>"
 msgstr "B<-d>, B<--date>=I<\\,字符串\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:20
+#: raw/coreutils/man1/date.1:21
 msgid "display time described by STRING, not 'now'"
 msgstr "显示由字符串指定的时间，而不是当前时间"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:20
+#: raw/coreutils/man1/date.1:21
 #, no-wrap
 msgid "B<--debug>"
 msgstr "B<--debug>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:24
+#: raw/coreutils/man1/date.1:25
 msgid "annotate the parsed date, and warn about questionable usage to stderr"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:24
+#: raw/coreutils/man1/date.1:25
 #, fuzzy, no-wrap
 msgid "B<-f>, B<--file>=I<\\,DATEFILE\\/>"
 msgstr "B<-f>, B<--file>=I<日期文件>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:27
+#: raw/coreutils/man1/date.1:28
 #, fuzzy
 msgid "like B<--date>; once for each line of DATEFILE"
 msgstr "如同将日期文件中的每行作为 B<--date> 的参数"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:27
+#: raw/coreutils/man1/date.1:28
 #, fuzzy, no-wrap
 msgid "B<-I[FMT]>, B<--iso-8601>[=I<\\,FMT\\/>]"
 msgstr "B<-I[TIMESPEC]>, B<--iso-8601>[=I<TIMESPEC>]"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:34
+#: raw/coreutils/man1/date.1:35
 #, fuzzy
 msgid ""
 "output date/time in ISO 8601 format.  FMT='date' for date only (the "
@@ -142,26 +148,38 @@ msgstr ""
 "\\&'hours', 'minutes', 'seconds' 或 'ns' 可以指定显示日期和时间的精确度。"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:34
+#: raw/coreutils/man1/date.1:35
+#, fuzzy, no-wrap
+#| msgid "B<--version>"
+msgid "B<--resolution>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: raw/coreutils/man1/date.1:39
+msgid "output the available resolution of timestamps Example: 0.000000001"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/date.1:39
 #, no-wrap
 msgid "B<-R>, B<--rfc-email>"
 msgstr "B<-R>, B<--rfc-email>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:38
+#: raw/coreutils/man1/date.1:43
 msgid ""
 "output date and time in RFC 5322 format.  Example: Mon, 14 Aug 2006 02:34:56 "
 "B<-0600>"
 msgstr "以 RFC 5322 格式输出日期与时间。例：Mon, 14 Aug 2006 02:34:56 B<-0600>"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:38
+#: raw/coreutils/man1/date.1:43
 #, fuzzy, no-wrap
 msgid "B<--rfc-3339>=I<\\,FMT\\/>"
 msgstr "B<--rfc-3339>=I<TIMESPEC>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:44
+#: raw/coreutils/man1/date.1:49
 #, fuzzy
 msgid ""
 "output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for "
@@ -171,621 +189,621 @@ msgstr ""
 "期和时间的精确度。日期和时间两部分由一个空格分隔：2006-08-07 12:34:56-06:00"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:44
+#: raw/coreutils/man1/date.1:49
 #, fuzzy, no-wrap
 msgid "B<-r>, B<--reference>=I<\\,FILE\\/>"
 msgstr "B<-r>, B<--reference>=I<文件>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:47
+#: raw/coreutils/man1/date.1:52
 msgid "display the last modification time of FILE"
 msgstr "显示指定文件的最后修改时间"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:47
+#: raw/coreutils/man1/date.1:52
 #, fuzzy, no-wrap
 msgid "B<-s>, B<--set>=I<\\,STRING\\/>"
 msgstr "B<-s>, B<--set>=I<字符串>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:50
+#: raw/coreutils/man1/date.1:55
 #, fuzzy
 msgid "set time described by STRING"
 msgstr "将时间设置为字符串描述的时间"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:50
+#: raw/coreutils/man1/date.1:55
 #, no-wrap
 msgid "B<-u>, B<--utc>, B<--universal>"
 msgstr "B<-u>, B<--utc>, B<--universal>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:53
+#: raw/coreutils/man1/date.1:58
 #, fuzzy
 msgid "print or set Coordinated Universal Time (UTC)"
 msgstr "输出或设置协调世界时 (UTC)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:53
+#: raw/coreutils/man1/date.1:58
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:56
+#: raw/coreutils/man1/date.1:61
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:56
+#: raw/coreutils/man1/date.1:61
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:59
+#: raw/coreutils/man1/date.1:64
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:61
+#: raw/coreutils/man1/date.1:66
 #, fuzzy
 msgid "FORMAT controls the output.  Interpreted sequences are:"
 msgstr "格式字符串控制输出。转义序列如下所示："
 
 #. type: TP
-#: raw/coreutils/man1/date.1:61
+#: raw/coreutils/man1/date.1:66
 #, no-wrap
 msgid "%%"
 msgstr "%%"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:64
+#: raw/coreutils/man1/date.1:69
 msgid "a literal %"
 msgstr "一个 % 字符"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:64
+#: raw/coreutils/man1/date.1:69
 #, no-wrap
 msgid "%a"
 msgstr "%a"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:67
+#: raw/coreutils/man1/date.1:72
 #, fuzzy
 msgid "locale's abbreviated weekday name (e.g., Sun)"
 msgstr "星期日期名称的缩略本地表示（例，'日'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:67
+#: raw/coreutils/man1/date.1:72
 #, no-wrap
 msgid "%A"
 msgstr "%A"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:70
+#: raw/coreutils/man1/date.1:75
 #, fuzzy
 msgid "locale's full weekday name (e.g., Sunday)"
 msgstr "星期日期的本地全称（例，'星期日'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:70
+#: raw/coreutils/man1/date.1:75
 #, no-wrap
 msgid "%b"
 msgstr "%b"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:73
+#: raw/coreutils/man1/date.1:78
 #, fuzzy
 msgid "locale's abbreviated month name (e.g., Jan)"
 msgstr "月份名称的缩略本地表示（例，' 1月'，'12月'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:73
+#: raw/coreutils/man1/date.1:78
 #, no-wrap
 msgid "%B"
 msgstr "%B"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:76
+#: raw/coreutils/man1/date.1:81
 #, fuzzy
 msgid "locale's full month name (e.g., January)"
 msgstr "月份的本地全称（例，'一月'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:76
+#: raw/coreutils/man1/date.1:81
 #, no-wrap
 msgid "%c"
 msgstr "%c"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:79
+#: raw/coreutils/man1/date.1:84
 #, fuzzy
 msgid "locale's date and time (e.g., Thu Mar 3 23:05:25 2005)"
 msgstr "日期和时间的本地表示（例，'2005年03月03日"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:79
+#: raw/coreutils/man1/date.1:84
 #, no-wrap
 msgid "%C"
 msgstr "%C"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:82
+#: raw/coreutils/man1/date.1:87
 #, fuzzy
 msgid "century; like %Y, except omit last two digits (e.g., 20)"
 msgstr "世纪；类似 %Y，但是省略最后两位数字（例，'20'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:82
+#: raw/coreutils/man1/date.1:87
 #, no-wrap
 msgid "%d"
 msgstr "%d"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:85
+#: raw/coreutils/man1/date.1:90
 #, fuzzy
 msgid "day of month (e.g., 01)"
 msgstr "月份中的天数（例，'01'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:85
+#: raw/coreutils/man1/date.1:90
 #, no-wrap
 msgid "%D"
 msgstr "%D"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:88
+#: raw/coreutils/man1/date.1:93
 #, fuzzy
 msgid "date; same as %m/%d/%y"
 msgstr "日期；与 %m/%d/%y 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:88
+#: raw/coreutils/man1/date.1:93
 #, no-wrap
 msgid "%e"
 msgstr "%e"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:91
+#: raw/coreutils/man1/date.1:96
 #, fuzzy
 msgid "day of month, space padded; same as %_d"
 msgstr "月份中的天数，不够两位数时左侧添加空格；与 %_d 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:91
+#: raw/coreutils/man1/date.1:96
 #, no-wrap
 msgid "%F"
 msgstr "%F"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:94
+#: raw/coreutils/man1/date.1:99
 #, fuzzy
 msgid "full date; like %+4Y-%m-%d"
 msgstr "完整日期；与 %Y-%m-%d 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:94
+#: raw/coreutils/man1/date.1:99
 #, no-wrap
 msgid "%g"
 msgstr "%g"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:97
+#: raw/coreutils/man1/date.1:102
 #, fuzzy
 msgid "last two digits of year of ISO week number (see %G)"
 msgstr "ISO 星期数的后两位（见 %G）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:97
+#: raw/coreutils/man1/date.1:102
 #, no-wrap
 msgid "%G"
 msgstr "%G"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:100
+#: raw/coreutils/man1/date.1:105
 #, fuzzy
 msgid "year of ISO week number (see %V); normally useful only with %V"
 msgstr "ISO 星期数对应的年份（见 %V）；通常只在与 %V 共用时有意义"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:100
+#: raw/coreutils/man1/date.1:105
 #, no-wrap
 msgid "%h"
 msgstr "%h"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:103
+#: raw/coreutils/man1/date.1:108
 #, fuzzy
 msgid "same as %b"
 msgstr "和 %b 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:103
+#: raw/coreutils/man1/date.1:108
 #, no-wrap
 msgid "%H"
 msgstr "%H"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:106
+#: raw/coreutils/man1/date.1:111
 #, fuzzy
 msgid "hour (00..23)"
 msgstr "小时 (00..23)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:106
+#: raw/coreutils/man1/date.1:111
 #, no-wrap
 msgid "%I"
 msgstr "%I"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:109
+#: raw/coreutils/man1/date.1:114
 #, fuzzy
 msgid "hour (01..12)"
 msgstr "小时 (01..12)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:109
+#: raw/coreutils/man1/date.1:114
 #, no-wrap
 msgid "%j"
 msgstr "%j"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:112
+#: raw/coreutils/man1/date.1:117
 #, fuzzy
 msgid "day of year (001..366)"
 msgstr "一年中的天数 (001..366)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:112
+#: raw/coreutils/man1/date.1:117
 #, no-wrap
 msgid "%k"
 msgstr "%k"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:115
+#: raw/coreutils/man1/date.1:120
 #, fuzzy
 msgid "hour, space padded ( 0..23); same as %_H"
 msgstr "小时 ( 0..23)，不够两位数时左侧添加空格；与 %_H 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:115
+#: raw/coreutils/man1/date.1:120
 #, no-wrap
 msgid "%l"
 msgstr "%l"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:118
+#: raw/coreutils/man1/date.1:123
 #, fuzzy
 msgid "hour, space padded ( 1..12); same as %_I"
 msgstr "小时 ( 1..12)，不够两位数时左侧添加空格；与 %_H 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:118
+#: raw/coreutils/man1/date.1:123
 #, no-wrap
 msgid "%m"
 msgstr "%m"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:121
+#: raw/coreutils/man1/date.1:126
 #, fuzzy
 msgid "month (01..12)"
 msgstr "月份 (01..12)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:121
+#: raw/coreutils/man1/date.1:126
 #, no-wrap
 msgid "%M"
 msgstr "%M"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:124
+#: raw/coreutils/man1/date.1:129
 #, fuzzy
 msgid "minute (00..59)"
 msgstr "分钟 (00..59)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:124
+#: raw/coreutils/man1/date.1:129
 #, no-wrap
 msgid "%n"
 msgstr "%n"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:127
+#: raw/coreutils/man1/date.1:132
 #, fuzzy
 msgid "a newline"
 msgstr "一个换行符"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:127
+#: raw/coreutils/man1/date.1:132
 #, no-wrap
 msgid "%N"
 msgstr "%N"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:130
+#: raw/coreutils/man1/date.1:135
 #, fuzzy
 msgid "nanoseconds (000000000..999999999)"
 msgstr "纳秒 (000000000..999999999)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:130
+#: raw/coreutils/man1/date.1:135
 #, no-wrap
 msgid "%p"
 msgstr "%p"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:133
+#: raw/coreutils/man1/date.1:138
 #, fuzzy
 msgid "locale's equivalent of either AM or PM; blank if not known"
 msgstr "与 AM 或 PM 等价的本地表示；如果未知则为空"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:133
+#: raw/coreutils/man1/date.1:138
 #, no-wrap
 msgid "%P"
 msgstr "%P"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:136
+#: raw/coreutils/man1/date.1:141
 #, fuzzy
 msgid "like %p, but lower case"
 msgstr "类似 %p，但是使用小写字符"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:136
+#: raw/coreutils/man1/date.1:141
 #, no-wrap
 msgid "%q"
 msgstr "%q"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:139
+#: raw/coreutils/man1/date.1:144
 #, fuzzy
 msgid "quarter of year (1..4)"
 msgstr "一年中的天数 (001..366)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:139
+#: raw/coreutils/man1/date.1:144
 #, no-wrap
 msgid "%r"
 msgstr "%r"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:142
+#: raw/coreutils/man1/date.1:147
 #, fuzzy
 msgid "locale's 12-hour clock time (e.g., 11:11:04 PM)"
 msgstr "12小时制钟表时间的本地表示（例，'下午 11时11分04秒'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:142
+#: raw/coreutils/man1/date.1:147
 #, no-wrap
 msgid "%R"
 msgstr "%R"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:145
+#: raw/coreutils/man1/date.1:150
 #, fuzzy
 msgid "24-hour hour and minute; same as %H:%M"
 msgstr "24小时制的小时与分钟；与 %H:%M 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:145
+#: raw/coreutils/man1/date.1:150
 #, no-wrap
 msgid "%s"
 msgstr "%s"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:148
+#: raw/coreutils/man1/date.1:153
 #, fuzzy
-msgid "seconds since 1970-01-01 00:00:00 UTC"
+msgid "seconds since the Epoch (1970-01-01 00:00 UTC)"
 msgstr "自 1970-01-01 00:00:00 UTC 以来的秒数"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:148
+#: raw/coreutils/man1/date.1:153
 #, no-wrap
 msgid "%S"
 msgstr "%S"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:151
+#: raw/coreutils/man1/date.1:156
 #, fuzzy
 msgid "second (00..60)"
 msgstr "秒 (00..60)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:151
+#: raw/coreutils/man1/date.1:156
 #, no-wrap
 msgid "%t"
 msgstr "%t"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:154
+#: raw/coreutils/man1/date.1:159
 #, fuzzy
 msgid "a tab"
 msgstr "一个制表符"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:154
+#: raw/coreutils/man1/date.1:159
 #, no-wrap
 msgid "%T"
 msgstr "%T"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:157
+#: raw/coreutils/man1/date.1:162
 #, fuzzy
 msgid "time; same as %H:%M:%S"
 msgstr "时间；与 %H:%M:%S 相同"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:157
+#: raw/coreutils/man1/date.1:162
 #, no-wrap
 msgid "%u"
 msgstr "%u"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:160
+#: raw/coreutils/man1/date.1:165
 #, fuzzy
 msgid "day of week (1..7); 1 is Monday"
 msgstr "一周中的天数 (1..7)；1 是周一"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:160
+#: raw/coreutils/man1/date.1:165
 #, no-wrap
 msgid "%U"
 msgstr "%U"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:163
+#: raw/coreutils/man1/date.1:168
 #, fuzzy
 msgid "week number of year, with Sunday as first day of week (00..53)"
 msgstr "一年中的星期数；周日作为一周的第一天 (00..53)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:163
+#: raw/coreutils/man1/date.1:168
 #, no-wrap
 msgid "%V"
 msgstr "%V"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:166
+#: raw/coreutils/man1/date.1:171
 #, fuzzy
 msgid "ISO week number, with Monday as first day of week (01..53)"
 msgstr "ISO 星期数，周一作为一周的第一天 (01..53)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:166
+#: raw/coreutils/man1/date.1:171
 #, no-wrap
 msgid "%w"
 msgstr "%w"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:169
+#: raw/coreutils/man1/date.1:174
 #, fuzzy
 msgid "day of week (0..6); 0 is Sunday"
 msgstr "一周中的天数 (0..6)；0 是周日"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:169
+#: raw/coreutils/man1/date.1:174
 #, no-wrap
 msgid "%W"
 msgstr "%W"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:172
+#: raw/coreutils/man1/date.1:177
 #, fuzzy
 msgid "week number of year, with Monday as first day of week (00..53)"
 msgstr "一年中的星期数；周一作为一周的第一天 (00..53)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:172
+#: raw/coreutils/man1/date.1:177
 #, no-wrap
 msgid "%x"
 msgstr "%x"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:175
+#: raw/coreutils/man1/date.1:180
 #, fuzzy
 msgid "locale's date representation (e.g., 12/31/99)"
 msgstr "本地的日期表示（例如，'12/31/99', '1999年12月31日')"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:175
+#: raw/coreutils/man1/date.1:180
 #, no-wrap
 msgid "%X"
 msgstr "%X"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:178
+#: raw/coreutils/man1/date.1:183
 #, fuzzy
 msgid "locale's time representation (e.g., 23:13:48)"
 msgstr "本地的时间表示（例如，'23:13:48', '23时13分48秒')"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:178
+#: raw/coreutils/man1/date.1:183
 #, no-wrap
 msgid "%y"
 msgstr "%y"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:181
+#: raw/coreutils/man1/date.1:186
 #, fuzzy
 msgid "last two digits of year (00..99)"
 msgstr "年份的后两位数字 (00..99)"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:181
+#: raw/coreutils/man1/date.1:186
 #, no-wrap
 msgid "%Y"
 msgstr "%Y"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:184
+#: raw/coreutils/man1/date.1:189
 #, fuzzy
 msgid "year"
 msgstr "年份"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:184
+#: raw/coreutils/man1/date.1:189
 #, no-wrap
 msgid "%z"
 msgstr "%z"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:187
+#: raw/coreutils/man1/date.1:192
 #, fuzzy
 msgid "+hhmm numeric time zone (e.g., B<-0400>)"
 msgstr "+hhmm 数字时区表示（例，'B<-0400>'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:187
+#: raw/coreutils/man1/date.1:192
 #, no-wrap
 msgid "%:z"
 msgstr "%:z"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:190
+#: raw/coreutils/man1/date.1:195
 #, fuzzy
 msgid "+hh:mm numeric time zone (e.g., B<-04>:00)"
 msgstr "+hh:mm 数字时区表示（例，'B<-04>:00'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:190
+#: raw/coreutils/man1/date.1:195
 #, no-wrap
 msgid "%::z"
 msgstr "%::z"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:193
+#: raw/coreutils/man1/date.1:198
 #, fuzzy
 msgid "+hh:mm:ss numeric time zone (e.g., B<-04>:00:00)"
 msgstr "+hh:mm:ss 数字时区表示（例，'B<-04>:00:00'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:193
+#: raw/coreutils/man1/date.1:198
 #, no-wrap
 msgid "%:::z"
 msgstr "%:::z"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:196
+#: raw/coreutils/man1/date.1:201
 #, fuzzy
 msgid "numeric time zone with : to necessary precision (e.g., B<-04>, +05:30)"
 msgstr "数字时区表示，':' 在精确度需要的时候添加（例，'B<-04>, +05:30'）"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:196
+#: raw/coreutils/man1/date.1:201
 #, no-wrap
 msgid "%Z"
 msgstr "%Z"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:199
+#: raw/coreutils/man1/date.1:204
 #, fuzzy
 msgid "alphabetic time zone abbreviation (e.g., EDT)"
 msgstr "拉丁字母表示的时区缩写（例，'EDT'）"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:202
+#: raw/coreutils/man1/date.1:207
 #, fuzzy
 msgid ""
 "By default, date pads numeric fields with zeroes.  The following optional "
@@ -793,76 +811,76 @@ msgid ""
 msgstr "默认情况下，date 使用 0 填充空白位。下列可选标志可以跟随在 '%' 之后："
 
 #. type: TP
-#: raw/coreutils/man1/date.1:202
+#: raw/coreutils/man1/date.1:207
 #, no-wrap
 msgid "-"
 msgstr "-"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:205
+#: raw/coreutils/man1/date.1:210
 #, fuzzy
 msgid "(hyphen) do not pad the field"
 msgstr "（连字符）不要填充空白位"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:205
+#: raw/coreutils/man1/date.1:210
 #, no-wrap
 msgid "_"
 msgstr "_"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:208
+#: raw/coreutils/man1/date.1:213
 #, fuzzy
 msgid "(underscore) pad with spaces"
 msgstr "（下划线）使用空格填充空白位"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:208
+#: raw/coreutils/man1/date.1:213
 #, no-wrap
 msgid "0"
 msgstr "0"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:211
+#: raw/coreutils/man1/date.1:216
 msgid "(zero) pad with zeros"
 msgstr "（零）使用数字 0 填充空白位"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:211
+#: raw/coreutils/man1/date.1:216
 #, no-wrap
 msgid "+"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:214
+#: raw/coreutils/man1/date.1:219
 msgid "pad with zeros, and put '+' before future years with E<gt>4 digits"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:214
+#: raw/coreutils/man1/date.1:219
 #, no-wrap
 msgid "^"
 msgstr "^"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:217
+#: raw/coreutils/man1/date.1:222
 msgid "use upper case if possible"
 msgstr "如果可能，使用大写形式"
 
 #. type: TP
-#: raw/coreutils/man1/date.1:217
+#: raw/coreutils/man1/date.1:222
 #, no-wrap
 msgid "#"
 msgstr "#"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:220
+#: raw/coreutils/man1/date.1:225
 #, fuzzy
 msgid "use opposite case if possible"
 msgstr "如果可能，使用大小写的相反格式"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:225
+#: raw/coreutils/man1/date.1:230
 #, fuzzy
 msgid ""
 "After any flags comes an optional field width, as a decimal number; then an "
@@ -875,52 +893,53 @@ msgstr ""
 "'O'，表示在可用的情况下使用本地的数字符号表示方式。"
 
 #. type: SH
-#: raw/coreutils/man1/date.1:225
+#: raw/coreutils/man1/date.1:230
 #, no-wrap
 msgid "EXAMPLES"
 msgstr "范例"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:227
+#: raw/coreutils/man1/date.1:232
 #, fuzzy
-msgid "Convert seconds since the epoch (1970-01-01 UTC) to a date"
+msgid "Convert seconds since the Epoch (1970-01-01 UTC) to a date"
 msgstr "将自 epoch (1970-01-01 UTC) 以来的秒数转换为一个日期"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:229
+#: raw/coreutils/man1/date.1:234
 msgid "CW<$ date --date='@2147483647'>"
 msgstr "CW<$ date --date='@2147483647'>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:231
+#: raw/coreutils/man1/date.1:236
 #, fuzzy
-msgid "Show the time on the west coast of the US (use tzselect(1) to find TZ)"
+msgid ""
+"Show the time on the west coast of the US (use B<tzselect>(1) to find TZ)"
 msgstr "显示美国西海岸的当前时间（使用 tzselect(1) 来寻找 TZ）"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:233
+#: raw/coreutils/man1/date.1:238
 msgid "CW<$ TZ='America/Los_Angeles' date>"
 msgstr "CW<$ TZ='America/Los_Angeles' date>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:235
+#: raw/coreutils/man1/date.1:240
 msgid "Show the local time for 9AM next Friday on the west coast of the US"
 msgstr "显示美国西海岸下个周五上午 9 时的当地时间"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:237
+#: raw/coreutils/man1/date.1:242
 msgid "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
 msgstr "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
 
 #. type: SH
-#: raw/coreutils/man1/date.1:237
+#: raw/coreutils/man1/date.1:242
 #, no-wrap
 msgid "DATE STRING"
 msgstr "日期字符串"
 
 #.  NOTE: keep this paragraph in sync with the one in touch.x
 #. type: Plain text
-#: raw/coreutils/man1/date.1:246
+#: raw/coreutils/man1/date.1:251
 msgid ""
 "The --date=STRING is a mostly free format human readable date string such as "
 "\"Sun, 29 Feb 2004 16:21:42 -0800\" or \"2004-02-29 16:21:42\" or even "
@@ -938,53 +957,57 @@ msgstr ""
 "找到完整内容。"
 
 #. type: SH
-#: raw/coreutils/man1/date.1:246
+#: raw/coreutils/man1/date.1:251
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:248
+#: raw/coreutils/man1/date.1:253
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/date.1:248
+#: raw/coreutils/man1/date.1:253
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:250
+#: raw/coreutils/man1/date.1:255
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:252
+#: raw/coreutils/man1/date.1:257
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/date.1:252
+#: raw/coreutils/man1/date.1:257
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:255
+#: raw/coreutils/man1/date.1:260
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:258
+#: raw/coreutils/man1/date.1:263
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -993,21 +1016,25 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/date.1:258
+#: raw/coreutils/man1/date.1:263
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:260
+#: raw/coreutils/man1/date.1:265
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/dateE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/dateE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:261
+#: raw/coreutils/man1/date.1:266
 msgid "or available locally via: info \\(aq(coreutils) date invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) date invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #, fuzzy
 #~| msgid "December 2016"

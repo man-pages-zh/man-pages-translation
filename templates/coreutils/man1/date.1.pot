@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/date.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -75,57 +75,59 @@ msgid "DESCRIPTION"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:15
-msgid "Display the current time in the given FORMAT, or set the system date."
+#: raw/coreutils/man1/date.1:16
+msgid ""
+"Display date and time in the given FORMAT.  With B<-s>, or with "
+"[MMDDhhmm[[CC]YY][.ss]], set the date and time."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:17
+#: raw/coreutils/man1/date.1:18
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:17
+#: raw/coreutils/man1/date.1:18
 #, no-wrap
 msgid "B<-d>, B<--date>=I<\\,STRING\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:20
+#: raw/coreutils/man1/date.1:21
 msgid "display time described by STRING, not 'now'"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:20
+#: raw/coreutils/man1/date.1:21
 #, no-wrap
 msgid "B<--debug>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:24
+#: raw/coreutils/man1/date.1:25
 msgid "annotate the parsed date, and warn about questionable usage to stderr"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:24
+#: raw/coreutils/man1/date.1:25
 #, no-wrap
 msgid "B<-f>, B<--file>=I<\\,DATEFILE\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:27
+#: raw/coreutils/man1/date.1:28
 msgid "like B<--date>; once for each line of DATEFILE"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:27
+#: raw/coreutils/man1/date.1:28
 #, no-wrap
 msgid "B<-I[FMT]>, B<--iso-8601>[=I<\\,FMT\\/>]"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:34
+#: raw/coreutils/man1/date.1:35
 msgid ""
 "output date/time in ISO 8601 format.  FMT='date' for date only (the "
 "default), \\&'hours', 'minutes', 'seconds', or 'ns' for date and time to the "
@@ -133,672 +135,683 @@ msgid ""
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:34
+#: raw/coreutils/man1/date.1:35
+#, no-wrap
+msgid "B<--resolution>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/date.1:39
+msgid "output the available resolution of timestamps Example: 0.000000001"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/date.1:39
 #, no-wrap
 msgid "B<-R>, B<--rfc-email>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:38
+#: raw/coreutils/man1/date.1:43
 msgid ""
 "output date and time in RFC 5322 format.  Example: Mon, 14 Aug 2006 02:34:56 "
 "B<-0600>"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:38
+#: raw/coreutils/man1/date.1:43
 #, no-wrap
 msgid "B<--rfc-3339>=I<\\,FMT\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:44
+#: raw/coreutils/man1/date.1:49
 msgid ""
 "output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for "
 "date and time to the indicated precision.  Example: 2006-08-14 02:34:56-06:00"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:44
+#: raw/coreutils/man1/date.1:49
 #, no-wrap
 msgid "B<-r>, B<--reference>=I<\\,FILE\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:47
+#: raw/coreutils/man1/date.1:52
 msgid "display the last modification time of FILE"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:47
+#: raw/coreutils/man1/date.1:52
 #, no-wrap
 msgid "B<-s>, B<--set>=I<\\,STRING\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:50
+#: raw/coreutils/man1/date.1:55
 msgid "set time described by STRING"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:50
+#: raw/coreutils/man1/date.1:55
 #, no-wrap
 msgid "B<-u>, B<--utc>, B<--universal>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:53
+#: raw/coreutils/man1/date.1:58
 msgid "print or set Coordinated Universal Time (UTC)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:53
+#: raw/coreutils/man1/date.1:58
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:56
+#: raw/coreutils/man1/date.1:61
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:56
+#: raw/coreutils/man1/date.1:61
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:59
+#: raw/coreutils/man1/date.1:64
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:61
+#: raw/coreutils/man1/date.1:66
 msgid "FORMAT controls the output.  Interpreted sequences are:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:61
+#: raw/coreutils/man1/date.1:66
 #, no-wrap
 msgid "%%"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:64
+#: raw/coreutils/man1/date.1:69
 msgid "a literal %"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:64
+#: raw/coreutils/man1/date.1:69
 #, no-wrap
 msgid "%a"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:67
+#: raw/coreutils/man1/date.1:72
 msgid "locale's abbreviated weekday name (e.g., Sun)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:67
+#: raw/coreutils/man1/date.1:72
 #, no-wrap
 msgid "%A"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:70
+#: raw/coreutils/man1/date.1:75
 msgid "locale's full weekday name (e.g., Sunday)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:70
+#: raw/coreutils/man1/date.1:75
 #, no-wrap
 msgid "%b"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:73
+#: raw/coreutils/man1/date.1:78
 msgid "locale's abbreviated month name (e.g., Jan)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:73
+#: raw/coreutils/man1/date.1:78
 #, no-wrap
 msgid "%B"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:76
+#: raw/coreutils/man1/date.1:81
 msgid "locale's full month name (e.g., January)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:76
+#: raw/coreutils/man1/date.1:81
 #, no-wrap
 msgid "%c"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:79
+#: raw/coreutils/man1/date.1:84
 msgid "locale's date and time (e.g., Thu Mar 3 23:05:25 2005)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:79
+#: raw/coreutils/man1/date.1:84
 #, no-wrap
 msgid "%C"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:82
+#: raw/coreutils/man1/date.1:87
 msgid "century; like %Y, except omit last two digits (e.g., 20)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:82
+#: raw/coreutils/man1/date.1:87
 #, no-wrap
 msgid "%d"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:85
+#: raw/coreutils/man1/date.1:90
 msgid "day of month (e.g., 01)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:85
+#: raw/coreutils/man1/date.1:90
 #, no-wrap
 msgid "%D"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:88
+#: raw/coreutils/man1/date.1:93
 msgid "date; same as %m/%d/%y"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:88
+#: raw/coreutils/man1/date.1:93
 #, no-wrap
 msgid "%e"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:91
+#: raw/coreutils/man1/date.1:96
 msgid "day of month, space padded; same as %_d"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:91
+#: raw/coreutils/man1/date.1:96
 #, no-wrap
 msgid "%F"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:94
+#: raw/coreutils/man1/date.1:99
 msgid "full date; like %+4Y-%m-%d"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:94
+#: raw/coreutils/man1/date.1:99
 #, no-wrap
 msgid "%g"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:97
+#: raw/coreutils/man1/date.1:102
 msgid "last two digits of year of ISO week number (see %G)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:97
+#: raw/coreutils/man1/date.1:102
 #, no-wrap
 msgid "%G"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:100
+#: raw/coreutils/man1/date.1:105
 msgid "year of ISO week number (see %V); normally useful only with %V"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:100
+#: raw/coreutils/man1/date.1:105
 #, no-wrap
 msgid "%h"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:103
+#: raw/coreutils/man1/date.1:108
 msgid "same as %b"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:103
+#: raw/coreutils/man1/date.1:108
 #, no-wrap
 msgid "%H"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:106
+#: raw/coreutils/man1/date.1:111
 msgid "hour (00..23)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:106
+#: raw/coreutils/man1/date.1:111
 #, no-wrap
 msgid "%I"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:109
+#: raw/coreutils/man1/date.1:114
 msgid "hour (01..12)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:109
+#: raw/coreutils/man1/date.1:114
 #, no-wrap
 msgid "%j"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:112
+#: raw/coreutils/man1/date.1:117
 msgid "day of year (001..366)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:112
+#: raw/coreutils/man1/date.1:117
 #, no-wrap
 msgid "%k"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:115
+#: raw/coreutils/man1/date.1:120
 msgid "hour, space padded ( 0..23); same as %_H"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:115
+#: raw/coreutils/man1/date.1:120
 #, no-wrap
 msgid "%l"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:118
+#: raw/coreutils/man1/date.1:123
 msgid "hour, space padded ( 1..12); same as %_I"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:118
+#: raw/coreutils/man1/date.1:123
 #, no-wrap
 msgid "%m"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:121
+#: raw/coreutils/man1/date.1:126
 msgid "month (01..12)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:121
+#: raw/coreutils/man1/date.1:126
 #, no-wrap
 msgid "%M"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:124
+#: raw/coreutils/man1/date.1:129
 msgid "minute (00..59)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:124
+#: raw/coreutils/man1/date.1:129
 #, no-wrap
 msgid "%n"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:127
+#: raw/coreutils/man1/date.1:132
 msgid "a newline"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:127
+#: raw/coreutils/man1/date.1:132
 #, no-wrap
 msgid "%N"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:130
+#: raw/coreutils/man1/date.1:135
 msgid "nanoseconds (000000000..999999999)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:130
+#: raw/coreutils/man1/date.1:135
 #, no-wrap
 msgid "%p"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:133
+#: raw/coreutils/man1/date.1:138
 msgid "locale's equivalent of either AM or PM; blank if not known"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:133
+#: raw/coreutils/man1/date.1:138
 #, no-wrap
 msgid "%P"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:136
+#: raw/coreutils/man1/date.1:141
 msgid "like %p, but lower case"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:136
+#: raw/coreutils/man1/date.1:141
 #, no-wrap
 msgid "%q"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:139
+#: raw/coreutils/man1/date.1:144
 msgid "quarter of year (1..4)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:139
+#: raw/coreutils/man1/date.1:144
 #, no-wrap
 msgid "%r"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:142
+#: raw/coreutils/man1/date.1:147
 msgid "locale's 12-hour clock time (e.g., 11:11:04 PM)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:142
+#: raw/coreutils/man1/date.1:147
 #, no-wrap
 msgid "%R"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:145
+#: raw/coreutils/man1/date.1:150
 msgid "24-hour hour and minute; same as %H:%M"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:145
+#: raw/coreutils/man1/date.1:150
 #, no-wrap
 msgid "%s"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:148
-msgid "seconds since 1970-01-01 00:00:00 UTC"
+#: raw/coreutils/man1/date.1:153
+msgid "seconds since the Epoch (1970-01-01 00:00 UTC)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:148
+#: raw/coreutils/man1/date.1:153
 #, no-wrap
 msgid "%S"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:151
+#: raw/coreutils/man1/date.1:156
 msgid "second (00..60)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:151
+#: raw/coreutils/man1/date.1:156
 #, no-wrap
 msgid "%t"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:154
+#: raw/coreutils/man1/date.1:159
 msgid "a tab"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:154
+#: raw/coreutils/man1/date.1:159
 #, no-wrap
 msgid "%T"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:157
+#: raw/coreutils/man1/date.1:162
 msgid "time; same as %H:%M:%S"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:157
+#: raw/coreutils/man1/date.1:162
 #, no-wrap
 msgid "%u"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:160
+#: raw/coreutils/man1/date.1:165
 msgid "day of week (1..7); 1 is Monday"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:160
+#: raw/coreutils/man1/date.1:165
 #, no-wrap
 msgid "%U"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:163
+#: raw/coreutils/man1/date.1:168
 msgid "week number of year, with Sunday as first day of week (00..53)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:163
+#: raw/coreutils/man1/date.1:168
 #, no-wrap
 msgid "%V"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:166
+#: raw/coreutils/man1/date.1:171
 msgid "ISO week number, with Monday as first day of week (01..53)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:166
+#: raw/coreutils/man1/date.1:171
 #, no-wrap
 msgid "%w"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:169
+#: raw/coreutils/man1/date.1:174
 msgid "day of week (0..6); 0 is Sunday"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:169
+#: raw/coreutils/man1/date.1:174
 #, no-wrap
 msgid "%W"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:172
+#: raw/coreutils/man1/date.1:177
 msgid "week number of year, with Monday as first day of week (00..53)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:172
+#: raw/coreutils/man1/date.1:177
 #, no-wrap
 msgid "%x"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:175
+#: raw/coreutils/man1/date.1:180
 msgid "locale's date representation (e.g., 12/31/99)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:175
+#: raw/coreutils/man1/date.1:180
 #, no-wrap
 msgid "%X"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:178
+#: raw/coreutils/man1/date.1:183
 msgid "locale's time representation (e.g., 23:13:48)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:178
+#: raw/coreutils/man1/date.1:183
 #, no-wrap
 msgid "%y"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:181
+#: raw/coreutils/man1/date.1:186
 msgid "last two digits of year (00..99)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:181
+#: raw/coreutils/man1/date.1:186
 #, no-wrap
 msgid "%Y"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:184
+#: raw/coreutils/man1/date.1:189
 msgid "year"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:184
+#: raw/coreutils/man1/date.1:189
 #, no-wrap
 msgid "%z"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:187
+#: raw/coreutils/man1/date.1:192
 msgid "+hhmm numeric time zone (e.g., B<-0400>)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:187
+#: raw/coreutils/man1/date.1:192
 #, no-wrap
 msgid "%:z"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:190
+#: raw/coreutils/man1/date.1:195
 msgid "+hh:mm numeric time zone (e.g., B<-04>:00)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:190
+#: raw/coreutils/man1/date.1:195
 #, no-wrap
 msgid "%::z"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:193
+#: raw/coreutils/man1/date.1:198
 msgid "+hh:mm:ss numeric time zone (e.g., B<-04>:00:00)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:193
+#: raw/coreutils/man1/date.1:198
 #, no-wrap
 msgid "%:::z"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:196
+#: raw/coreutils/man1/date.1:201
 msgid "numeric time zone with : to necessary precision (e.g., B<-04>, +05:30)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:196
+#: raw/coreutils/man1/date.1:201
 #, no-wrap
 msgid "%Z"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:199
+#: raw/coreutils/man1/date.1:204
 msgid "alphabetic time zone abbreviation (e.g., EDT)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:202
+#: raw/coreutils/man1/date.1:207
 msgid ""
 "By default, date pads numeric fields with zeroes.  The following optional "
 "flags may follow '%':"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:202
+#: raw/coreutils/man1/date.1:207
 #, no-wrap
 msgid "-"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:205
+#: raw/coreutils/man1/date.1:210
 msgid "(hyphen) do not pad the field"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:205
+#: raw/coreutils/man1/date.1:210
 #, no-wrap
 msgid "_"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:208
+#: raw/coreutils/man1/date.1:213
 msgid "(underscore) pad with spaces"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:208
+#: raw/coreutils/man1/date.1:213
 #, no-wrap
 msgid "0"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:211
+#: raw/coreutils/man1/date.1:216
 msgid "(zero) pad with zeros"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:211
+#: raw/coreutils/man1/date.1:216
 #, no-wrap
 msgid "+"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:214
+#: raw/coreutils/man1/date.1:219
 msgid "pad with zeros, and put '+' before future years with E<gt>4 digits"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:214
+#: raw/coreutils/man1/date.1:219
 #, no-wrap
 msgid "^"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:217
+#: raw/coreutils/man1/date.1:222
 msgid "use upper case if possible"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/date.1:217
+#: raw/coreutils/man1/date.1:222
 #, no-wrap
 msgid "#"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:220
+#: raw/coreutils/man1/date.1:225
 msgid "use opposite case if possible"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:225
+#: raw/coreutils/man1/date.1:230
 msgid ""
 "After any flags comes an optional field width, as a decimal number; then an "
 "optional modifier, which is either E to use the locale's alternate "
@@ -807,50 +820,51 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/date.1:225
+#: raw/coreutils/man1/date.1:230
 #, no-wrap
 msgid "EXAMPLES"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:227
-msgid "Convert seconds since the epoch (1970-01-01 UTC) to a date"
+#: raw/coreutils/man1/date.1:232
+msgid "Convert seconds since the Epoch (1970-01-01 UTC) to a date"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:229
+#: raw/coreutils/man1/date.1:234
 msgid "CW<$ date --date='@2147483647'>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:231
-msgid "Show the time on the west coast of the US (use tzselect(1) to find TZ)"
+#: raw/coreutils/man1/date.1:236
+msgid ""
+"Show the time on the west coast of the US (use B<tzselect>(1) to find TZ)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:233
+#: raw/coreutils/man1/date.1:238
 msgid "CW<$ TZ='America/Los_Angeles' date>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:235
+#: raw/coreutils/man1/date.1:240
 msgid "Show the local time for 9AM next Friday on the west coast of the US"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:237
+#: raw/coreutils/man1/date.1:242
 msgid "CW<$ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/date.1:237
+#: raw/coreutils/man1/date.1:242
 #, no-wrap
 msgid "DATE STRING"
 msgstr ""
 
 #.  NOTE: keep this paragraph in sync with the one in touch.x
 #. type: Plain text
-#: raw/coreutils/man1/date.1:246
+#: raw/coreutils/man1/date.1:251
 msgid ""
 "The --date=STRING is a mostly free format human readable date string such as "
 "\"Sun, 29 Feb 2004 16:21:42 -0800\" or \"2004-02-29 16:21:42\" or even "
@@ -862,67 +876,67 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/date.1:246
+#: raw/coreutils/man1/date.1:251
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:248
+#: raw/coreutils/man1/date.1:253
 msgid "Written by David MacKenzie."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/date.1:248
+#: raw/coreutils/man1/date.1:253
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:250
+#: raw/coreutils/man1/date.1:255
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:252
+#: raw/coreutils/man1/date.1:257
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/date.1:252
+#: raw/coreutils/man1/date.1:257
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:255
+#: raw/coreutils/man1/date.1:260
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:258
+#: raw/coreutils/man1/date.1:263
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/date.1:258
+#: raw/coreutils/man1/date.1:263
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:260
+#: raw/coreutils/man1/date.1:265
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/dateE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/date.1:261
+#: raw/coreutils/man1/date.1:266
 msgid "or available locally via: info \\(aq(coreutils) date invocation\\(aq"
 msgstr ""

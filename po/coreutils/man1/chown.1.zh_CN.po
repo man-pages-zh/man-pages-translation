@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-02 14:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2021-11-02 14:50-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,14 +26,16 @@ msgstr "CHOWN"
 
 #. type: TH
 #: raw/coreutils/man1/chown.1:2
-#, no-wrap
-msgid "September 2020"
+#, fuzzy, no-wrap
+#| msgid "September 2020"
+msgid "September 2022"
 msgstr "2020年九月"
 
 #. type: TH
 #: raw/coreutils/man1/chown.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -62,8 +64,8 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:8
 msgid ""
-"B<chown> [I<\\,OPTION\\/>]... [I<\\,OWNER\\/>][I<\\,:\\/>[I<\\,GROUP\\/>]] I<"
-"\\,FILE\\/>..."
+"B<chown> [I<\\,OPTION\\/>]... [I<\\,OWNER\\/>][I<\\,:\\/>[I<\\,GROUP\\/>]] "
+"I<\\,FILE\\/>..."
 msgstr ""
 "B<chown> [I<\\,选项\\/>]... [I<\\,所有者\\/>][I<\\,:\\/>[I<\\,组\\/>]] I<\\,"
 "文件\\/>..."
@@ -395,8 +397,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:116
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -419,7 +425,9 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/chown.1:121
-msgid "chown(2)"
+#, fuzzy
+#| msgid "chown(2)"
+msgid "B<chown>(2)"
 msgstr "chown(2)"
 
 #. type: Plain text

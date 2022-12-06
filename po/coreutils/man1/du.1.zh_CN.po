@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-09 10:31-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,13 +26,14 @@ msgstr "DU"
 #. type: TH
 #: raw/coreutils/man1/du.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/du.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -76,7 +77,11 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:15
-msgid "Summarize disk usage of the set of FILEs, recursively for directories."
+#, fuzzy
+#| msgid ""
+#| "Summarize disk usage of the set of FILEs, recursively for directories."
+msgid ""
+"Summarize device usage of the set of FILEs, recursively for directories."
 msgstr "计算每个文件的磁盘用量，目录则取总用量。"
 
 #. type: Plain text
@@ -115,11 +120,18 @@ msgstr "B<--apparent-size>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:29
+#, fuzzy
+#| msgid ""
+#| "print apparent sizes, rather than disk usage; although the apparent size "
+#| "is usually smaller, it may be larger due to holes in ('sparse') files, "
+#| "internal fragmentation, indirect blocks, and the like"
 msgid ""
-"print apparent sizes, rather than disk usage; although the apparent size is "
+"print apparent sizes rather than device usage; although the apparent size is "
 "usually smaller, it may be larger due to holes in ('sparse') files, internal "
 "fragmentation, indirect blocks, and the like"
-msgstr "显示表面用量，而并非是磁盘用量；虽然表面用量通常会小一些，但有时它会因为稀疏文件间的“洞”、内部碎片、非直接引用的块等原因显得更大一些。"
+msgstr ""
+"显示表面用量，而并非是磁盘用量；虽然表面用量通常会小一些，但有时它会因为稀疏"
+"文件间的“洞”、内部碎片、非直接引用的块等原因显得更大一些。"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:29
@@ -132,7 +144,9 @@ msgstr "B<-B>, B<--block-size>=I<\\,大小\\/>"
 msgid ""
 "scale sizes by SIZE before printing them; e.g., \\&'-BM' prints sizes in "
 "units of 1,048,576 bytes; see SIZE format below"
-msgstr "以指定大小为单位对块大小进行输出；例如，\\&'-BM' 以 1,048,576 字节为单位输出大小；详情请参见下方的“SIZE 格式”部分"
+msgstr ""
+"以指定大小为单位对块大小进行输出；例如，\\&'-BM' 以 1,048,576 字节为单位输出"
+"大小；详情请参见下方的“SIZE 格式”部分"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:34
@@ -180,8 +194,8 @@ msgid ""
 "fewer levels below the command line argument; B<--max-depth>=I<\\,0\\/> is "
 "the same as B<--summarize>"
 msgstr ""
-"仅当目录（或在 B<--all> 选项启用时包括文件）层级不高于命令行参数指定的 N 层时输出对应目录或文件的对应大小；B<--max-depth>=I<"
-"\\,0\\/> 等效于 B<--summarize>"
+"仅当目录（或在 B<--all> 选项启用时包括文件）层级不高于命令行参数指定的 N 层时"
+"输出对应目录或文件的对应大小；B<--max-depth>=I<\\,0\\/> 等效于 B<--summarize>"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:50
@@ -191,10 +205,16 @@ msgstr "B<--files0-from>=I<\\,F\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:55
+#, fuzzy
+#| msgid ""
+#| "summarize disk usage of the NUL-terminated file names specified in file "
+#| "F; if F is -, then read names from standard input"
 msgid ""
-"summarize disk usage of the NUL-terminated file names specified in file F; "
+"summarize device usage of the NUL-terminated file names specified in file F; "
 "if F is -, then read names from standard input"
-msgstr "统计由文件 F 给出的由 NUL 空字符结束的文件名列表所对应各个文件的信息；如果 F 是 -，则从标准输入读取文件名列表"
+msgstr ""
+"统计由文件 F 给出的由 NUL 空字符结束的文件名列表所对应各个文件的信息；如果 F "
+"是 -，则从标准输入读取文件名列表"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:55
@@ -354,7 +374,8 @@ msgstr "B<--time>=I<\\,关键字\\/>"
 msgid ""
 "show time as WORD instead of modification time: atime, access, use, ctime or "
 "status"
-msgstr "显示指定关键字对应的时间而非最后修改时间：atime, access, use, ctime 或 status"
+msgstr ""
+"显示指定关键字对应的时间而非最后修改时间：atime, access, use, ctime 或 status"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:100
@@ -368,8 +389,8 @@ msgid ""
 "show times using STYLE, which can be: full-iso, long-iso, iso, or +FORMAT; "
 "FORMAT is interpreted like in 'date'"
 msgstr ""
-"使用指定格式显示时间，格式可以为：full-iso, long-iso, iso 或 +FORMAT；FORMAT 字符串以与 'date'"
-" 工具类似的方式解读"
+"使用指定格式显示时间，格式可以为：full-iso, long-iso, iso 或 +FORMAT；FORMAT "
+"字符串以与 'date' 工具类似的方式解读"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:105
@@ -480,7 +501,8 @@ msgstr "作者"
 #: raw/coreutils/man1/du.1:150
 msgid ""
 "Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim Meyering."
-msgstr "由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。"
+msgstr ""
+"由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:150
@@ -492,13 +514,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/du.1:152
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:154
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:154
@@ -508,8 +532,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:157
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -539,6 +567,10 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/duE<gt
 #: raw/coreutils/man1/du.1:163
 msgid "or available locally via: info \\(aq(coreutils) du invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) du invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

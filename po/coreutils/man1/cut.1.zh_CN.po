@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-16 11:55-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,13 +26,14 @@ msgstr "CUT"
 #. type: TH
 #: raw/coreutils/man1/cut.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/cut.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -129,7 +130,8 @@ msgstr "B<-f>, B<--fields>=I<\\,列表\\/>"
 msgid ""
 "select only these fields; also print any line that contains no delimiter "
 "character, unless the B<-s> option is specified"
-msgstr "只选中指定的这些域；并打印所有不包含分界符的行，除非同时指定了 B<-s> 选项"
+msgstr ""
+"只选中指定的这些域；并打印所有不包含分界符的行，除非同时指定了 B<-s> 选项"
 
 #. type: TP
 #: raw/coreutils/man1/cut.1:30
@@ -283,13 +285,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/cut.1:74
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:76
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/cut.1:76
@@ -299,8 +303,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:79
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -330,6 +338,10 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/cutE<g
 #: raw/coreutils/man1/cut.1:85
 msgid "or available locally via: info \\(aq(coreutils) cut invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) cut invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

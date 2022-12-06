@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-08 22:49-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "CHMOD"
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/chmod.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -182,23 +183,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:109
+#: raw/coreutils/man1/chmod.1:111
 msgid ""
 "For directories B<chmod> preserves set-user-ID and set-group-ID bits unless "
 "you explicitly specify otherwise.  You can set or clear the bits with "
 "symbolic modes like B<u+s> and B<g-s>.  To clear these bits for directories "
-"with a numeric mode requires an additional leading zero, or leading = like "
-"B<00755> , or B<=755>"
+"with a numeric mode requires an additional leading zero like B<00755>, "
+"leading minus like B<-6000>, or leading equals like B<=755>."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:109
+#: raw/coreutils/man1/chmod.1:111
 #, no-wrap
 msgid "RESTRICTED DELETION FLAG OR STICKY BIT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:120
+#: raw/coreutils/man1/chmod.1:122
 msgid ""
 "The restricted deletion flag or sticky bit is a single bit, whose "
 "interpretation depends on the file type.  For directories, it prevents "
@@ -211,13 +212,13 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:120
+#: raw/coreutils/man1/chmod.1:122
 #, no-wrap
 msgid "OPTIONS"
 msgstr "选项"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:124
+#: raw/coreutils/man1/chmod.1:126
 msgid ""
 "Change the mode of each FILE to MODE.  With B<--reference>, change the mode "
 "of each FILE to that of RFILE."
@@ -226,106 +227,106 @@ msgstr ""
 "模式设置为与参考文件相同。"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:124
+#: raw/coreutils/man1/chmod.1:126
 #, no-wrap
 msgid "B<-c>, B<--changes>"
 msgstr "B<-c>, B<--changes>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:127
+#: raw/coreutils/man1/chmod.1:129
 msgid "like verbose but report only when a change is made"
 msgstr "类似 verbose 选项，但只在做出修改时进行报告"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:127
+#: raw/coreutils/man1/chmod.1:129
 #, no-wrap
 msgid "B<-f>, B<--silent>, B<--quiet>"
 msgstr "B<-f>, B<--silent>, B<--quiet>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:130
+#: raw/coreutils/man1/chmod.1:132
 msgid "suppress most error messages"
 msgstr "隐藏大多数错误信息"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:130
+#: raw/coreutils/man1/chmod.1:132
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:133
+#: raw/coreutils/man1/chmod.1:135
 msgid "output a diagnostic for every file processed"
 msgstr "对每一个处理的文件输出诊断信息"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:133
+#: raw/coreutils/man1/chmod.1:135
 #, no-wrap
 msgid "B<--no-preserve-root>"
 msgstr "B<--no-preserve-root>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:136
+#: raw/coreutils/man1/chmod.1:138
 msgid "do not treat '/' specially (the default)"
 msgstr "不要对“/”特别对待（默认）"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:136
+#: raw/coreutils/man1/chmod.1:138
 #, no-wrap
 msgid "B<--preserve-root>"
 msgstr "B<--preserve-root>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:139
+#: raw/coreutils/man1/chmod.1:141
 msgid "fail to operate recursively on '/'"
 msgstr "不要在“/”下进行递归操作"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:139
+#: raw/coreutils/man1/chmod.1:141
 #, no-wrap
 msgid "B<--reference>=I<\\,RFILE\\/>"
 msgstr "B<--reference>=I<\\,参考文件\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:142
+#: raw/coreutils/man1/chmod.1:144
 msgid "use RFILE's mode instead of MODE values"
 msgstr "使用参考文件的模式作为具体模式值"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:142
+#: raw/coreutils/man1/chmod.1:144
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
 msgstr "B<-R>, B<--recursive>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:145
+#: raw/coreutils/man1/chmod.1:147
 msgid "change files and directories recursively"
 msgstr "递归修改文件和目录"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:145
+#: raw/coreutils/man1/chmod.1:147
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:148
+#: raw/coreutils/man1/chmod.1:150
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #. type: TP
-#: raw/coreutils/man1/chmod.1:148
+#: raw/coreutils/man1/chmod.1:150
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:151
+#: raw/coreutils/man1/chmod.1:153
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:153
+#: raw/coreutils/man1/chmod.1:155
 msgid ""
 "Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'."
 msgstr ""
@@ -333,53 +334,57 @@ msgstr ""
 "[0-7]+\"。"
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:153
+#: raw/coreutils/man1/chmod.1:155
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:155
+#: raw/coreutils/man1/chmod.1:157
 msgid "Written by David MacKenzie and Jim Meyering."
 msgstr "由 David MacKenzie 和 Jim Meyering 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:155
+#: raw/coreutils/man1/chmod.1:157
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:157
+#: raw/coreutils/man1/chmod.1:159
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:159
+#: raw/coreutils/man1/chmod.1:161
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:159
+#: raw/coreutils/man1/chmod.1:161
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:162
+#: raw/coreutils/man1/chmod.1:164
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:165
+#: raw/coreutils/man1/chmod.1:167
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -388,26 +393,32 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/chmod.1:165
+#: raw/coreutils/man1/chmod.1:167
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:167
-msgid "chmod(2)"
+#: raw/coreutils/man1/chmod.1:169
+#, fuzzy
+#| msgid "chmod(2)"
+msgid "B<chmod>(2)"
 msgstr "chmod(2)"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:170
+#: raw/coreutils/man1/chmod.1:172
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/chmodE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/chmodE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/chmod.1:171
+#: raw/coreutils/man1/chmod.1:173
 msgid "or available locally via: info \\(aq(coreutils) chmod invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) chmod invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-09 11:29-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,13 +26,14 @@ msgstr "MKTEMP"
 #. type: TH
 #: raw/coreutils/man1/mktemp.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/mktemp.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -79,8 +80,8 @@ msgid ""
 msgstr ""
 "安全地创建一个临时文件或目录，并打印出其名称。所给定的模板字符串的最后一部分"
 "必须包含至少三个连续的“X”。如果没有指定模板字符串，程序将默认使用“tmp."
-"XXXXXXXXXX”并默认启用 B<--tmpdir> 选项。文件创建时权限使用 u+rw，而目录使用 u"
-"+rwx，在此基础上再减去 umask 所体现的权限限制。"
+"XXXXXXXXXX”并默认启用 B<--tmpdir> 选项。文件创建时权限使用 u+rw，而目录使用 "
+"u+rwx，在此基础上再减去 umask 所体现的权限限制。"
 
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:15
@@ -144,9 +145,9 @@ msgid ""
 "name; unlike with B<-t>, TEMPLATE may contain slashes, but mktemp creates "
 "only the final component"
 msgstr ""
-"将模板解释为相对于给定目录；如果未指定目录，在设置了 $TMPDIR 变量时使用"
-"这个变量的值，否则使用 I<\\,/tmp\\/>。使用该选项时，模板不能是绝对路径；与 "
-"B<-t> 不同，模板字符串可以包含斜线，但此时 mktemp 只会创建斜线后的部分"
+"将模板解释为相对于给定目录；如果未指定目录，在设置了 $TMPDIR 变量时使用这个变"
+"量的值，否则使用 I<\\,/tmp\\/>。使用该选项时，模板不能是绝对路径；与 B<-t> 不"
+"同，模板字符串可以包含斜线，但此时 mktemp 只会创建斜线后的部分"
 
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:35
@@ -161,9 +162,9 @@ msgid ""
 "$TMPDIR, if set; else the directory specified via B<-p>; else I<\\,/tmp\\/> "
 "[deprecated]"
 msgstr ""
-"将模板解释为相对与一个目录的单个文件名部分：该目录在 $TMPDIR 变量已设置时取"
-"该变量的值，否则使用 B<-p> 参数指定的目录，再次将回退至使用 I<\\,/tmp\\/> [不"
-"推荐]"
+"将模板解释为相对与一个目录的单个文件名部分：该目录在 $TMPDIR 变量已设置时取该"
+"变量的值，否则使用 B<-p> 参数指定的目录，再次将回退至使用 I<\\,/tmp\\/> [不推"
+"荐]"
 
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:40
@@ -208,13 +209,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mktemp.1:50
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:52
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/mktemp.1:52
@@ -224,8 +227,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:55
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -248,7 +255,9 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/mktemp.1:60
-msgid "mkstemp(3), mkdtemp(3), mktemp(3)"
+#, fuzzy
+#| msgid "mkstemp(3), mkdtemp(3), mktemp(3)"
+msgid "B<mkstemp>(3), B<mkdtemp>(3), B<mktemp>(3)"
 msgstr "mkstemp(3), mkdtemp(3), mktemp(3)"
 
 #. type: Plain text
@@ -261,6 +270,10 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/mktemp
 #: raw/coreutils/man1/mktemp.1:64
 msgid "or available locally via: info \\(aq(coreutils) mktemp invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) mktemp invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

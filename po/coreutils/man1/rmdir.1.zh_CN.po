@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-09 00:09-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "RMDIR"
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/rmdir.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -75,29 +76,27 @@ msgstr "描述"
 msgid "Remove the DIRECTORY(ies), if they are empty."
 msgstr "删除目录列表中的空目录。"
 
-#. type: Plain text
-#: raw/coreutils/man1/rmdir.1:14
+#. type: TP
+#: raw/coreutils/man1/rmdir.1:12
+#, no-wrap
 msgid "B<--ignore-fail-on-non-empty>"
 msgstr "B<--ignore-fail-on-non-empty>"
 
 #. type: Plain text
 #: raw/coreutils/man1/rmdir.1:16
-msgid "ignore each failure that is solely because a directory"
+#, fuzzy
+#| msgid "ignore each failure that is solely because a directory"
+msgid "ignore each failure that is solely because a directory is non-empty"
 msgstr "忽略每一个仅因目录非空而导致的错误"
 
-#. type: Plain text
-#: raw/coreutils/man1/rmdir.1:18
-msgid "is non-empty"
-msgstr " "
-
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:18
+#: raw/coreutils/man1/rmdir.1:16
 #, no-wrap
 msgid "B<-p>, B<--parents>"
 msgstr "B<-p>, B<--parents>"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:22
+#: raw/coreutils/man1/rmdir.1:20
 msgid ""
 "remove DIRECTORY and its ancestors; e.g., 'rmdir B<-p> a/b/c' is similar to "
 "'rmdir a/b/c a/b a'"
@@ -106,86 +105,90 @@ msgstr ""
 "a'"
 
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:22
+#: raw/coreutils/man1/rmdir.1:20
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:25
+#: raw/coreutils/man1/rmdir.1:23
 msgid "output a diagnostic for every directory processed"
 msgstr "为每一个处理过的目录输出诊断信息"
 
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:25
+#: raw/coreutils/man1/rmdir.1:23
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:28
+#: raw/coreutils/man1/rmdir.1:26
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #. type: TP
-#: raw/coreutils/man1/rmdir.1:28
+#: raw/coreutils/man1/rmdir.1:26
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:31
+#: raw/coreutils/man1/rmdir.1:29
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:31
+#: raw/coreutils/man1/rmdir.1:29
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:33
+#: raw/coreutils/man1/rmdir.1:31
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:33
+#: raw/coreutils/man1/rmdir.1:31
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:35
+#: raw/coreutils/man1/rmdir.1:33
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:37
+#: raw/coreutils/man1/rmdir.1:35
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:37
+#: raw/coreutils/man1/rmdir.1:35
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:40
+#: raw/coreutils/man1/rmdir.1:38
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:43
+#: raw/coreutils/man1/rmdir.1:41
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -194,26 +197,35 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/rmdir.1:43
+#: raw/coreutils/man1/rmdir.1:41
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:45
-msgid "rmdir(2)"
+#: raw/coreutils/man1/rmdir.1:43
+#, fuzzy
+#| msgid "rmdir(2)"
+msgid "B<rmdir>(2)"
 msgstr "rmdir(2)"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:48
+#: raw/coreutils/man1/rmdir.1:46
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/rmdirE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/rmdirE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/rmdir.1:49
+#: raw/coreutils/man1/rmdir.1:47
 msgid "or available locally via: info \\(aq(coreutils) rmdir invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) rmdir invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
+
+#~ msgid "is non-empty"
+#~ msgstr " "
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

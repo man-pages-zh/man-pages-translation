@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-08 23:00-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,13 +26,14 @@ msgstr "CKSUM"
 #. type: TH
 #: raw/coreutils/man1/cksum.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/cksum.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -49,8 +50,8 @@ msgstr "名称"
 
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:5
-msgid "cksum - checksum and count the bytes in a file"
-msgstr "cksum - 显示文件校验和并计数其字节数"
+msgid "cksum - compute and verify file checksums"
+msgstr ""
 
 #. type: SH
 #: raw/coreutils/man1/cksum.1:5
@@ -60,95 +61,387 @@ msgstr "概述"
 
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:8
-msgid "B<cksum> [I<\\,FILE\\/>]..."
+#, fuzzy
+#| msgid "B<cksum> [I<\\,FILE\\/>]..."
+msgid "B<cksum> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
 msgstr "B<cksum> [I<\\,文件列表\\/>]..."
 
-#. type: Plain text
-#: raw/coreutils/man1/cksum.1:11
-msgid "B<cksum> [I<\\,OPTION\\/>]"
-msgstr "B<cksum> [I<\\,选项\\/>]"
-
 #. type: SH
-#: raw/coreutils/man1/cksum.1:11
+#: raw/coreutils/man1/cksum.1:8
 #, no-wrap
 msgid "DESCRIPTION"
 msgstr "描述"
 
 #. type: Plain text
+#: raw/coreutils/man1/cksum.1:13
+msgid "Print or verify checksums.  By default use the 32 bit CRC algorithm."
+msgstr ""
+
+#. type: Plain text
 #: raw/coreutils/man1/cksum.1:15
-msgid "Print CRC checksum and byte counts of each FILE."
-msgstr "显示每个文件的 CRC 校验和和字节计数。"
+msgid "With no FILE, or when FILE is -, read standard input."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:17
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too."
+msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/cksum.1:15
+#: raw/coreutils/man1/cksum.1:17
+#, no-wrap
+msgid "B<-a>, B<--algorithm>=I<\\,TYPE\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:20
+msgid "select the digest type to use.  See DIGEST below."
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:20
+#, no-wrap
+msgid "B<-c>, B<--check>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:23
+msgid "read checksums from the FILEs and check them"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:23
+#, no-wrap
+msgid "B<-l>, B<--length>=I<\\,BITS\\/>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:27
+msgid ""
+"digest length in bits; must not exceed the max for the blake2 algorithm and "
+"must be a multiple of 8"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:27
+#, no-wrap
+msgid "B<--tag>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:30
+msgid "create a BSD-style checksum (the default)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:30
+#, no-wrap
+msgid "B<--untagged>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:33
+msgid "create a reversed style checksum, without digest type"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:33
+#, no-wrap
+msgid "B<-z>, B<--zero>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:37
+msgid ""
+"end each output line with NUL, not newline, and disable file name escaping"
+msgstr ""
+
+#. type: SS
+#: raw/coreutils/man1/cksum.1:37
+#, no-wrap
+msgid "The following five options are useful only when verifying checksums:"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:38
+#, no-wrap
+msgid "B<--ignore-missing>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:41
+msgid "don't fail or report status for missing files"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:41
+#, fuzzy, no-wrap
+#| msgid "B<--help>"
+msgid "B<--quiet>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:44
+msgid "don't print OK for each successfully verified file"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:44
+#, no-wrap
+msgid "B<--status>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:47
+msgid "don't output anything, status code shows success"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:47
+#, fuzzy, no-wrap
+#| msgid "B<--version>"
+msgid "B<--strict>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:50
+msgid "exit non-zero for improperly formatted checksum lines"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:50
+#, no-wrap
+msgid "B<-w>, B<--warn>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:53
+msgid "warn about improperly formatted checksum lines"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:53
+#, fuzzy, no-wrap
+#| msgid "B<--help>"
+msgid "B<--debug>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:56
+msgid "indicate which implementation used"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:56
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:18
+#: raw/coreutils/man1/cksum.1:59
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #. type: TP
-#: raw/coreutils/man1/cksum.1:18
+#: raw/coreutils/man1/cksum.1:59
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:21
+#: raw/coreutils/man1/cksum.1:62
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
+#. type: SS
+#: raw/coreutils/man1/cksum.1:62
+#, no-wrap
+msgid "DIGEST determines the digest algorithm and default output format:"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:63
+#, no-wrap
+msgid "sysv"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:66
+msgid "(equivalent to sum B<-s>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:66
+#, no-wrap
+msgid "bsd"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:69
+msgid "(equivalent to sum B<-r>)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:69
+#, no-wrap
+msgid "crc"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:72
+msgid "(equivalent to cksum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:72
+#, no-wrap
+msgid "md5"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:75
+msgid "(equivalent to md5sum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:75
+#, no-wrap
+msgid "sha1"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:78
+msgid "(equivalent to sha1sum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:78
+#, no-wrap
+msgid "sha224"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:81
+msgid "(equivalent to sha224sum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:81
+#, no-wrap
+msgid "sha256"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:84
+msgid "(equivalent to sha256sum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:84
+#, no-wrap
+msgid "sha384"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:87
+msgid "(equivalent to sha384sum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:87
+#, no-wrap
+msgid "sha512"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:90
+msgid "(equivalent to sha512sum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:90
+#, no-wrap
+msgid "blake2b"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:93
+msgid "(equivalent to b2sum)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/cksum.1:93
+#, no-wrap
+msgid "sm3"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:96
+msgid "(only available through cksum)"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/cksum.1:99
+msgid ""
+"When checking, the input should be a former output of this program, or "
+"equivalent standalone program."
+msgstr ""
+
 #. type: SH
-#: raw/coreutils/man1/cksum.1:21
+#: raw/coreutils/man1/cksum.1:99
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:23
-msgid "Written by Q. Frank Xia."
+#: raw/coreutils/man1/cksum.1:101
+#, fuzzy
+#| msgid "Written by Q. Frank Xia."
+msgid "Written by Padraig Brady and Q. Frank Xia."
 msgstr "由 Q. Frank Xia 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/cksum.1:23
+#: raw/coreutils/man1/cksum.1:101
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:25
+#: raw/coreutils/man1/cksum.1:103
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:27
+#: raw/coreutils/man1/cksum.1:105
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/cksum.1:27
+#: raw/coreutils/man1/cksum.1:105
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:30
+#: raw/coreutils/man1/cksum.1:108
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:33
+#: raw/coreutils/man1/cksum.1:111
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -157,21 +450,34 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/cksum.1:33
+#: raw/coreutils/man1/cksum.1:111
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:35
+#: raw/coreutils/man1/cksum.1:113
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/cksumE<gt>"
 msgstr "完整文档请见：E<lt>https://www.gnu.org/software/coreutils/cksumE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/cksum.1:36
+#: raw/coreutils/man1/cksum.1:114
 msgid "or available locally via: info \\(aq(coreutils) cksum invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) cksum invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
+
+#~ msgid "cksum - checksum and count the bytes in a file"
+#~ msgstr "cksum - 显示文件校验和并计数其字节数"
+
+#~ msgid "B<cksum> [I<\\,OPTION\\/>]"
+#~ msgstr "B<cksum> [I<\\,选项\\/>]"
+
+#~ msgid "Print CRC checksum and byte counts of each FILE."
+#~ msgstr "显示每个文件的 CRC 校验和和字节计数。"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

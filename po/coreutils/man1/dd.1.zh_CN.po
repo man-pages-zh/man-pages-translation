@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-16 11:54-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,13 +26,14 @@ msgstr "DD"
 #. type: TH
 #: raw/coreutils/man1/dd.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/dd.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -199,8 +200,8 @@ msgstr "seek=块数"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:49
-msgid "skip N obs-sized blocks at start of output"
-msgstr "在输出开始处跳过指定的 obs 大小的块数"
+msgid "(or oseek=N) skip N obs-sized output blocks"
+msgstr ""
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:49
@@ -210,8 +211,8 @@ msgstr "skip=块数"
 
 #. type: Plain text
 #: raw/coreutils/man1/dd.1:52
-msgid "skip N ibs-sized blocks at start of input"
-msgstr "在输入开始处跳过指定的 ibs 大小的块数"
+msgid "(or iseek=N) skip N ibs-sized input blocks"
+msgstr ""
 
 #. type: TP
 #: raw/coreutils/man1/dd.1:52
@@ -228,430 +229,404 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:63
+#: raw/coreutils/man1/dd.1:64
 msgid ""
 "N and BYTES may be followed by the following multiplicative suffixes: c=1, "
 "w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, xM=M, "
 "GB=1000*1000*1000, G=1024*1024*1024, and so on for T, P, E, Z, Y.  Binary "
-"prefixes can be used, too: KiB=K, MiB=M, and so on."
+"prefixes can be used, too: KiB=K, MiB=M, and so on.  If N ends in 'B', it "
+"counts bytes not blocks."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:65
+#: raw/coreutils/man1/dd.1:66
 msgid "Each CONV symbol may be:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:65
+#: raw/coreutils/man1/dd.1:66
 #, no-wrap
 msgid "ascii"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:68
+#: raw/coreutils/man1/dd.1:69
 msgid "from EBCDIC to ASCII"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:68
+#: raw/coreutils/man1/dd.1:69
 #, no-wrap
 msgid "ebcdic"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:71
+#: raw/coreutils/man1/dd.1:72
 msgid "from ASCII to EBCDIC"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:71
+#: raw/coreutils/man1/dd.1:72
 #, no-wrap
 msgid "ibm"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:74
+#: raw/coreutils/man1/dd.1:75
 msgid "from ASCII to alternate EBCDIC"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:74
+#: raw/coreutils/man1/dd.1:75
 #, no-wrap
 msgid "block"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:77
+#: raw/coreutils/man1/dd.1:78
 msgid "pad newline-terminated records with spaces to cbs-size"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:77
+#: raw/coreutils/man1/dd.1:78
 #, no-wrap
 msgid "unblock"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:80
+#: raw/coreutils/man1/dd.1:81
 msgid "replace trailing spaces in cbs-size records with newline"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:80
+#: raw/coreutils/man1/dd.1:81
 #, no-wrap
 msgid "lcase"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:83
+#: raw/coreutils/man1/dd.1:84
 msgid "change upper case to lower case"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:83
+#: raw/coreutils/man1/dd.1:84
 #, no-wrap
 msgid "ucase"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:86
+#: raw/coreutils/man1/dd.1:87
 msgid "change lower case to upper case"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:86
+#: raw/coreutils/man1/dd.1:87
 #, no-wrap
 msgid "sparse"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:89
+#: raw/coreutils/man1/dd.1:90
 msgid "try to seek rather than write all-NUL output blocks"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:89
+#: raw/coreutils/man1/dd.1:90
 #, no-wrap
 msgid "swab"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:92
+#: raw/coreutils/man1/dd.1:93
 msgid "swap every pair of input bytes"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:92 raw/coreutils/man1/dd.1:128
+#: raw/coreutils/man1/dd.1:93 raw/coreutils/man1/dd.1:129
 #, no-wrap
 msgid "sync"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:96
+#: raw/coreutils/man1/dd.1:97
 msgid ""
 "pad every input block with NULs to ibs-size; when used with block or "
 "unblock, pad with spaces rather than NULs"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:96
+#: raw/coreutils/man1/dd.1:97
 #, no-wrap
 msgid "excl"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:99
+#: raw/coreutils/man1/dd.1:100
 msgid "fail if the output file already exists"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:99
+#: raw/coreutils/man1/dd.1:100
 #, no-wrap
 msgid "nocreat"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:102
+#: raw/coreutils/man1/dd.1:103
 msgid "do not create the output file"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:102
+#: raw/coreutils/man1/dd.1:103
 #, no-wrap
 msgid "notrunc"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:105
+#: raw/coreutils/man1/dd.1:106
 msgid "do not truncate the output file"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:105
+#: raw/coreutils/man1/dd.1:106
 #, no-wrap
 msgid "noerror"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:108
+#: raw/coreutils/man1/dd.1:109
 msgid "continue after read errors"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:108
+#: raw/coreutils/man1/dd.1:109
 #, no-wrap
 msgid "fdatasync"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:111
+#: raw/coreutils/man1/dd.1:112
 msgid "physically write output file data before finishing"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:111
+#: raw/coreutils/man1/dd.1:112
 #, no-wrap
 msgid "fsync"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:114
+#: raw/coreutils/man1/dd.1:115
 msgid "likewise, but also write metadata"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:116
+#: raw/coreutils/man1/dd.1:117
 msgid "Each FLAG symbol may be:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:116
+#: raw/coreutils/man1/dd.1:117
 #, no-wrap
 msgid "append"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:119
+#: raw/coreutils/man1/dd.1:120
 msgid "append mode (makes sense only for output; conv=notrunc suggested)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:119
+#: raw/coreutils/man1/dd.1:120
 #, no-wrap
 msgid "direct"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:122
+#: raw/coreutils/man1/dd.1:123
 msgid "use direct I/O for data"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:122
+#: raw/coreutils/man1/dd.1:123
 #, no-wrap
 msgid "directory"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:125
+#: raw/coreutils/man1/dd.1:126
 msgid "fail unless a directory"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:125
+#: raw/coreutils/man1/dd.1:126
 #, no-wrap
 msgid "dsync"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:128
+#: raw/coreutils/man1/dd.1:129
 msgid "use synchronized I/O for data"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:131
+#: raw/coreutils/man1/dd.1:132
 msgid "likewise, but also for metadata"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:131
+#: raw/coreutils/man1/dd.1:132
 #, no-wrap
 msgid "fullblock"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:134
+#: raw/coreutils/man1/dd.1:135
 msgid "accumulate full blocks of input (iflag only)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:134
+#: raw/coreutils/man1/dd.1:135
 #, no-wrap
 msgid "nonblock"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:137
+#: raw/coreutils/man1/dd.1:138
 msgid "use non-blocking I/O"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:137
+#: raw/coreutils/man1/dd.1:138
 #, no-wrap
 msgid "noatime"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:140
+#: raw/coreutils/man1/dd.1:141
 msgid "do not update access time"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:140
+#: raw/coreutils/man1/dd.1:141
 #, no-wrap
 msgid "nocache"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:143
+#: raw/coreutils/man1/dd.1:144
 msgid "Request to drop cache.  See also oflag=sync"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:143
+#: raw/coreutils/man1/dd.1:144
 #, no-wrap
 msgid "noctty"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:146
+#: raw/coreutils/man1/dd.1:147
 msgid "do not assign controlling terminal from file"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:146
+#: raw/coreutils/man1/dd.1:147
 #, no-wrap
 msgid "nofollow"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:149
+#: raw/coreutils/man1/dd.1:150
 msgid "do not follow symlinks"
 msgstr ""
 
-#. type: TP
-#: raw/coreutils/man1/dd.1:149
-#, no-wrap
-msgid "count_bytes"
-msgstr ""
-
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:152
-msgid "treat 'count=N' as a byte count (iflag only)"
-msgstr ""
-
-#. type: TP
-#: raw/coreutils/man1/dd.1:152
-#, no-wrap
-msgid "skip_bytes"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/dd.1:155
-msgid "treat 'skip=N' as a byte count (iflag only)"
-msgstr ""
-
-#. type: TP
-#: raw/coreutils/man1/dd.1:155
-#, no-wrap
-msgid "seek_bytes"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/dd.1:158
-msgid "treat 'seek=N' as a byte count (oflag only)"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/dd.1:161
+#: raw/coreutils/man1/dd.1:153
 msgid ""
 "Sending a USR1 signal to a running 'dd' process makes it print I/O "
 "statistics to standard error and then resume copying."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:163
+#: raw/coreutils/man1/dd.1:155
 msgid "Options are:"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:163
+#: raw/coreutils/man1/dd.1:155
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:166
+#: raw/coreutils/man1/dd.1:158
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #. type: TP
-#: raw/coreutils/man1/dd.1:166
+#: raw/coreutils/man1/dd.1:158
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:169
+#: raw/coreutils/man1/dd.1:161
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: SH
-#: raw/coreutils/man1/dd.1:169
+#: raw/coreutils/man1/dd.1:161
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:171
+#: raw/coreutils/man1/dd.1:163
 msgid "Written by Paul Rubin, David MacKenzie, and Stuart Kemp."
 msgstr "由 Paul Rubin、David MacKenzie 和 Stuart Kemp 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/dd.1:171
+#: raw/coreutils/man1/dd.1:163
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:173
+#: raw/coreutils/man1/dd.1:165
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:175
+#: raw/coreutils/man1/dd.1:167
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/dd.1:175
+#: raw/coreutils/man1/dd.1:167
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:178
+#: raw/coreutils/man1/dd.1:170
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:181
+#: raw/coreutils/man1/dd.1:173
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -660,20 +635,30 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/dd.1:181
+#: raw/coreutils/man1/dd.1:173
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:183
+#: raw/coreutils/man1/dd.1:175
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/ddE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/ddE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dd.1:184
+#: raw/coreutils/man1/dd.1:176
 msgid "or available locally via: info \\(aq(coreutils) dd invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) dd invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
+
+#~ msgid "skip N obs-sized blocks at start of output"
+#~ msgstr "在输出开始处跳过指定的 obs 大小的块数"
+
+#~ msgid "skip N ibs-sized blocks at start of input"
+#~ msgstr "在输入开始处跳过指定的 ibs 大小的块数"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

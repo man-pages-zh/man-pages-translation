@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-30 18:47-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-09 11:35-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "TIMEOUT"
 #. type: TH
 #: raw/coreutils/man1/timeout.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/timeout.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -200,14 +201,20 @@ msgstr ""
 "置。"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:63
+#: raw/coreutils/man1/timeout.1:60
+#, fuzzy
+#| msgid ""
+#| "If the command times out, and B<--preserve-status> is not set, then exit "
+#| "with status 124.  Otherwise, exit with the status of COMMAND.  If no "
+#| "signal is specified, send the TERM signal upon timeout.  The TERM signal "
+#| "kills any process that does not block or catch that signal.  It may be "
+#| "necessary to use the KILL (9) signal, since this signal cannot be caught, "
+#| "in which case the exit status is 128+9 rather than 124."
 msgid ""
-"If the command times out, and B<--preserve-status> is not set, then exit "
-"with status 124.  Otherwise, exit with the status of COMMAND.  If no signal "
-"is specified, send the TERM signal upon timeout.  The TERM signal kills any "
-"process that does not block or catch that signal.  It may be necessary to "
-"use the KILL (9) signal, since this signal cannot be caught, in which case "
-"the exit status is 128+9 rather than 124."
+"Upon timeout, send the TERM signal to COMMAND, if no other SIGNAL "
+"specified.  The TERM signal kills any process that does not block or catch "
+"that signal.  It may be necessary to use the KILL signal, since this signal "
+"can't be caught."
 msgstr ""
 "如果命令运行超时，而且 B<--preserve-status> 未设置，则将退出状态值设为 124。"
 "否则，将退出状态值设置为与所运行命令的退出状态值相同。如果没有指定信号类型，"
@@ -215,64 +222,140 @@ msgstr ""
 "进程。您也可能需要使用 KILL (9) 信号，因为该信号不能被捕获。此时，退出状态值"
 "将为 128+9 而非 124。"
 
+#. type: SS
+#: raw/coreutils/man1/timeout.1:60
+#, no-wrap
+msgid "EXIT status:"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/timeout.1:61
+#, no-wrap
+msgid "124"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/timeout.1:64
+msgid "if COMMAND times out, and B<--preserve-status> is not specified"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/timeout.1:64
+#, no-wrap
+msgid "125"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/timeout.1:67
+msgid "if the timeout command itself fails"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/timeout.1:67
+#, no-wrap
+msgid "126"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/timeout.1:70
+msgid "if COMMAND is found but cannot be invoked"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/timeout.1:70
+#, no-wrap
+msgid "127"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/timeout.1:73
+msgid "if COMMAND cannot be found"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/timeout.1:73
+#, no-wrap
+msgid "137"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/timeout.1:76
+msgid "if COMMAND (or timeout itself) is sent the KILL (9) signal (128+9)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/timeout.1:76
+#, no-wrap
+msgid "-"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/timeout.1:79
+msgid "the exit status of COMMAND otherwise"
+msgstr ""
+
 #. type: SH
-#: raw/coreutils/man1/timeout.1:63
+#: raw/coreutils/man1/timeout.1:79
 #, no-wrap
 msgid "BUGS"
 msgstr "BUGS"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:65
+#: raw/coreutils/man1/timeout.1:81
 msgid "Some platforms don't currently support timeouts beyond the year 2038."
 msgstr "某些平台目前不支持将超时时间设置为超过 2038 年。"
 
 #. type: SH
-#: raw/coreutils/man1/timeout.1:65
+#: raw/coreutils/man1/timeout.1:81
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:67
+#: raw/coreutils/man1/timeout.1:83
 msgid "Written by Padraig Brady."
 msgstr "由 Padraig Brady 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/timeout.1:67
+#: raw/coreutils/man1/timeout.1:83
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:69
+#: raw/coreutils/man1/timeout.1:85
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:71
+#: raw/coreutils/man1/timeout.1:87
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/timeout.1:71
+#: raw/coreutils/man1/timeout.1:87
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:74
+#: raw/coreutils/man1/timeout.1:90
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:77
+#: raw/coreutils/man1/timeout.1:93
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -281,27 +364,33 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/timeout.1:77
+#: raw/coreutils/man1/timeout.1:93
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:79
-msgid "kill(1)"
+#: raw/coreutils/man1/timeout.1:95
+#, fuzzy
+#| msgid "kill(1)"
+msgid "B<kill>(1)"
 msgstr "kill(1)"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:82
+#: raw/coreutils/man1/timeout.1:98
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/timeoutE<gt>"
 msgstr ""
 "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/timeoutE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/timeout.1:83
+#: raw/coreutils/man1/timeout.1:99
 msgid "or available locally via: info \\(aq(coreutils) timeout invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) timeout invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

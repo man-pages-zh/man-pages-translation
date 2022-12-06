@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-08 23:19-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "INSTALL"
 #. type: TH
 #: raw/coreutils/man1/install.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/install.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -87,11 +88,17 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/install.1:24
+#, fuzzy
+#| msgid ""
+#| "This install program copies files (often just compiled) into destination "
+#| "locations you choose.  If you want to download and install a ready-to-use "
+#| "package on a GNU/Linux system, you should instead be using a package "
+#| "manager like yum(1) or apt-get(1)."
 msgid ""
 "This install program copies files (often just compiled) into destination "
 "locations you choose.  If you want to download and install a ready-to-use "
 "package on a GNU/Linux system, you should instead be using a package manager "
-"like yum(1) or apt-get(1)."
+"like B<yum>(1) or B<apt-get>(1)."
 msgstr ""
 "本程序将文件（通常是刚编译生成的文件）复制到您选定的目的位置。如果您想要在 "
 "GNU/Linux 系统上下载安装开箱即用的软件包，您应当使用像 yum(1) 或 apt-get(1) "
@@ -156,33 +163,37 @@ msgid "B<-C>, B<--compare>"
 msgstr "B<-C>, B<--compare>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:43
+#: raw/coreutils/man1/install.1:44
+#, fuzzy
+#| msgid ""
+#| "compare each pair of source and destination files, and in some cases, do "
+#| "not modify the destination at all"
 msgid ""
-"compare each pair of source and destination files, and in some cases, do not "
-"modify the destination at all"
+"compare content of source and destination files, and if no change to "
+"content, ownership, and permissions, do not modify the destination at all"
 msgstr "比较每一对源文件与目标文件。在某些情况下，完全不修改目标文件"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:43
+#: raw/coreutils/man1/install.1:44
 #, no-wrap
 msgid "B<-d>, B<--directory>"
 msgstr "B<-d>, B<--directory>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:47
+#: raw/coreutils/man1/install.1:48
 msgid ""
 "treat all arguments as directory names; create all components of the "
 "specified directories"
 msgstr "将所有参数看作目录名称；创建指定目录的所有相关组件"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:47
+#: raw/coreutils/man1/install.1:48
 #, no-wrap
 msgid "B<-D>"
 msgstr "B<-D>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:52
+#: raw/coreutils/man1/install.1:53
 msgid ""
 "create all leading components of DEST except the last, or all components of "
 "B<--target-directory>, then copy SOURCE to DEST"
@@ -191,149 +202,149 @@ msgstr ""
 "target-directory> 的全部组成部分，然后将源文件复制为目标文件"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:52
+#: raw/coreutils/man1/install.1:53
 #, no-wrap
 msgid "B<-g>, B<--group>=I<\\,GROUP\\/>"
 msgstr "B<-g>, B<--group>=I<\\,组名\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:55
+#: raw/coreutils/man1/install.1:56
 msgid "set group ownership, instead of process' current group"
 msgstr "设置组所有权，而不是使用进程的当前组所有权"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:55
+#: raw/coreutils/man1/install.1:56
 #, no-wrap
 msgid "B<-m>, B<--mode>=I<\\,MODE\\/>"
 msgstr "B<-m>, B<--mode>=I<\\,模式\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:58
+#: raw/coreutils/man1/install.1:59
 msgid "set permission mode (as in chmod), instead of rwxr-xr-x"
 msgstr "设置权限模式（类似 chmod），而不是 rwxr-xr-x"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:58
+#: raw/coreutils/man1/install.1:59
 #, no-wrap
 msgid "B<-o>, B<--owner>=I<\\,OWNER\\/>"
 msgstr "B<-o>, B<--owner>=I<\\,所有者\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:61
+#: raw/coreutils/man1/install.1:62
 msgid "set ownership (super-user only)"
 msgstr "设置所有权（仅适用于超级用户）"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:61
+#: raw/coreutils/man1/install.1:62
 #, no-wrap
 msgid "B<-p>, B<--preserve-timestamps>"
 msgstr "B<-p>, B<--preserve-timestamps>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:65
+#: raw/coreutils/man1/install.1:66
 msgid ""
 "apply access/modification times of SOURCE files to corresponding destination "
 "files"
 msgstr "将源文件的访问/修改时间应用于相应目标文件"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:65
+#: raw/coreutils/man1/install.1:66
 #, no-wrap
 msgid "B<-s>, B<--strip>"
 msgstr "B<-s>, B<--strip>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:68
+#: raw/coreutils/man1/install.1:69
 msgid "strip symbol tables"
 msgstr "剥离符号表"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:68
+#: raw/coreutils/man1/install.1:69
 #, no-wrap
 msgid "B<--strip-program>=I<\\,PROGRAM\\/>"
 msgstr "B<--strip-program>=I<\\,程序\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:71
+#: raw/coreutils/man1/install.1:72
 msgid "program used to strip binaries"
 msgstr "指定用于剥离（strip）二进制文件的程序"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:71
+#: raw/coreutils/man1/install.1:72
 #, no-wrap
 msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
 msgstr "B<-S>, B<--suffix>=I<\\,后缀\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:74
+#: raw/coreutils/man1/install.1:75
 msgid "override the usual backup suffix"
 msgstr "替换常用的备份文件后缀"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:74
+#: raw/coreutils/man1/install.1:75
 #, no-wrap
 msgid "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 msgstr "B<-t>, B<--target-directory>=I<\\,目录\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:77
+#: raw/coreutils/man1/install.1:78
 msgid "copy all SOURCE arguments into DIRECTORY"
 msgstr "复制源目录列表中的所有文件到指定目录"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:77
+#: raw/coreutils/man1/install.1:78
 #, no-wrap
 msgid "B<-T>, B<--no-target-directory>"
 msgstr "B<-T>, B<--no-target-directory>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:80
+#: raw/coreutils/man1/install.1:81
 msgid "treat DEST as a normal file"
 msgstr "将目标文件当作普通文件对待（而不是目录）"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:80
+#: raw/coreutils/man1/install.1:81
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr "B<-v>, B<--verbose>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:83
+#: raw/coreutils/man1/install.1:84
 msgid "print the name of each directory as it is created"
 msgstr "每次创建目录都输出目录名"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:83
+#: raw/coreutils/man1/install.1:84
 #, no-wrap
 msgid "B<--preserve-context>"
 msgstr "B<--preserve-context>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:86
+#: raw/coreutils/man1/install.1:87
 msgid "preserve SELinux security context"
 msgstr "保持 SELinux 安全上下文"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:86
+#: raw/coreutils/man1/install.1:87
 #, no-wrap
 msgid "B<-Z>"
 msgstr "B<-Z>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:90
+#: raw/coreutils/man1/install.1:91
 msgid ""
 "set SELinux security context of destination file and each created directory "
 "to default type"
 msgstr "将目标文件和每个创建的目录的 SELinux 安全上下文设置为默认类型"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:90
+#: raw/coreutils/man1/install.1:91
 #, no-wrap
 msgid "B<--context>[=I<\\,CTX\\/>]"
 msgstr "B<--context>[=I<\\,CTX\\/>]"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:94
+#: raw/coreutils/man1/install.1:95
 msgid ""
 "like B<-Z>, or if CTX is specified then set the SELinux or SMACK security "
 "context to CTX"
@@ -342,29 +353,29 @@ msgstr ""
 "定类型"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:94
+#: raw/coreutils/man1/install.1:95
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:97
+#: raw/coreutils/man1/install.1:98
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:97
+#: raw/coreutils/man1/install.1:98
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:100
+#: raw/coreutils/man1/install.1:101
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:104
+#: raw/coreutils/man1/install.1:105
 msgid ""
 "The backup suffix is '~', unless set with B<--suffix> or "
 "SIMPLE_BACKUP_SUFFIX.  The version control method may be selected via the "
@@ -376,97 +387,101 @@ msgstr ""
 "量。可选的值如下所示："
 
 #. type: TP
-#: raw/coreutils/man1/install.1:104
+#: raw/coreutils/man1/install.1:105
 #, no-wrap
 msgid "none, off"
 msgstr "none, off"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:107
+#: raw/coreutils/man1/install.1:108
 msgid "never make backups (even if B<--backup> is given)"
 msgstr "从不做备份（即使给定了 B<--backup>）"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:107
+#: raw/coreutils/man1/install.1:108
 #, no-wrap
 msgid "numbered, t"
 msgstr "numbered, t"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:110
+#: raw/coreutils/man1/install.1:111
 msgid "make numbered backups"
 msgstr "做带编号的备份"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:110
+#: raw/coreutils/man1/install.1:111
 #, no-wrap
 msgid "existing, nil"
 msgstr "existing, nil"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:113
+#: raw/coreutils/man1/install.1:114
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr "如果备份带编号则继续以编号方式备份，否则采用简单备份"
 
 #. type: TP
-#: raw/coreutils/man1/install.1:113
+#: raw/coreutils/man1/install.1:114
 #, no-wrap
 msgid "simple, never"
 msgstr "simple, never"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:116
+#: raw/coreutils/man1/install.1:117
 msgid "always make simple backups"
 msgstr "总做简单备份"
 
 #. type: SH
-#: raw/coreutils/man1/install.1:116
+#: raw/coreutils/man1/install.1:117
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:118
+#: raw/coreutils/man1/install.1:119
 msgid "Written by David MacKenzie."
 msgstr "由 David MacKenzie 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/install.1:118
+#: raw/coreutils/man1/install.1:119
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:120
+#: raw/coreutils/man1/install.1:121
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:122
+#: raw/coreutils/man1/install.1:123
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/install.1:122
+#: raw/coreutils/man1/install.1:123
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:125
+#: raw/coreutils/man1/install.1:126
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:128
+#: raw/coreutils/man1/install.1:129
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -475,22 +490,26 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/install.1:128
+#: raw/coreutils/man1/install.1:129
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:130
+#: raw/coreutils/man1/install.1:131
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/installE<gt>"
 msgstr ""
 "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/installE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:131
+#: raw/coreutils/man1/install.1:132
 msgid "or available locally via: info \\(aq(coreutils) install invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) install invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

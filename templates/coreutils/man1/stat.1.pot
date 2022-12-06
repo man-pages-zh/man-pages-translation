@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/stat.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/stat.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -175,10 +175,10 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:47
 msgid ""
-"The B<--cached> MODE argument can be; always, never, or default.  `always` "
-"will use cached attributes if available, while `never` will try to "
-"synchronize with the latest attributes, and `default` will leave it up to "
-"the underlying file system."
+"The MODE argument of B<--cached> can be: always, never, or default.  "
+"\\&'always' will use cached attributes if available, while \\&'never' will "
+"try to synchronize with the latest attributes, and \\&'default' will leave "
+"it up to the underlying file system."
 msgstr ""
 
 #. type: Plain text
@@ -187,7 +187,7 @@ msgid "The valid format sequences for files (without B<--file-system>):"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:49 raw/coreutils/man1/stat.1:141
+#: raw/coreutils/man1/stat.1:49 raw/coreutils/man1/stat.1:159
 #, no-wrap
 msgid "%a"
 msgstr ""
@@ -209,7 +209,7 @@ msgid "permission bits and file type in human readable form"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:55 raw/coreutils/man1/stat.1:144
+#: raw/coreutils/man1/stat.1:55 raw/coreutils/man1/stat.1:162
 #, no-wrap
 msgid "%b"
 msgstr ""
@@ -242,14 +242,14 @@ msgid "SELinux security context string"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:64 raw/coreutils/man1/stat.1:150
+#: raw/coreutils/man1/stat.1:64 raw/coreutils/man1/stat.1:168
 #, no-wrap
 msgid "%d"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:67
-msgid "device number in decimal"
+msgid "device number in decimal (st_dev)"
 msgstr ""
 
 #. type: TP
@@ -260,364 +260,430 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:70
-msgid "device number in hex"
+msgid "device number in hex (st_dev)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:70 raw/coreutils/man1/stat.1:153
+#: raw/coreutils/man1/stat.1:70
+#, no-wrap
+msgid "%Hd"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:73
+msgid "major device number in decimal"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:73
+#, no-wrap
+msgid "%Ld"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:76
+msgid "minor device number in decimal"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:76 raw/coreutils/man1/stat.1:171
 #, no-wrap
 msgid "%f"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:73
+#: raw/coreutils/man1/stat.1:79
 msgid "raw mode in hex"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:73
+#: raw/coreutils/man1/stat.1:79
 #, no-wrap
 msgid "%F"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:76
+#: raw/coreutils/man1/stat.1:82
 msgid "file type"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:76
+#: raw/coreutils/man1/stat.1:82
 #, no-wrap
 msgid "%g"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:79
+#: raw/coreutils/man1/stat.1:85
 msgid "group ID of owner"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:79
+#: raw/coreutils/man1/stat.1:85
 #, no-wrap
 msgid "%G"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:82
+#: raw/coreutils/man1/stat.1:88
 msgid "group name of owner"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:82
+#: raw/coreutils/man1/stat.1:88
 #, no-wrap
 msgid "%h"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:85
+#: raw/coreutils/man1/stat.1:91
 msgid "number of hard links"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:85 raw/coreutils/man1/stat.1:156
+#: raw/coreutils/man1/stat.1:91 raw/coreutils/man1/stat.1:174
 #, no-wrap
 msgid "%i"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:88
+#: raw/coreutils/man1/stat.1:94
 msgid "inode number"
-msgstr ""
-
-#. type: TP
-#: raw/coreutils/man1/stat.1:88
-#, no-wrap
-msgid "%m"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/stat.1:91
-msgid "mount point"
-msgstr ""
-
-#. type: TP
-#: raw/coreutils/man1/stat.1:91 raw/coreutils/man1/stat.1:162
-#, no-wrap
-msgid "%n"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/stat.1:94 raw/coreutils/man1/stat.1:165
-msgid "file name"
 msgstr ""
 
 #. type: TP
 #: raw/coreutils/man1/stat.1:94
 #, no-wrap
-msgid "%N"
+msgid "%m"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:97
+msgid "mount point"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:97 raw/coreutils/man1/stat.1:180
+#, no-wrap
+msgid "%n"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:100 raw/coreutils/man1/stat.1:183
+msgid "file name"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:100
+#, no-wrap
+msgid "%N"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:103
 msgid "quoted file name with dereference if symbolic link"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:97
+#: raw/coreutils/man1/stat.1:103
 #, no-wrap
 msgid "%o"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:100
+#: raw/coreutils/man1/stat.1:106
 msgid "optimal I/O transfer size hint"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:100 raw/coreutils/man1/stat.1:165
+#: raw/coreutils/man1/stat.1:106 raw/coreutils/man1/stat.1:183
 #, no-wrap
 msgid "%s"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:103
+#: raw/coreutils/man1/stat.1:109
 msgid "total size, in bytes"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:103 raw/coreutils/man1/stat.1:171
+#: raw/coreutils/man1/stat.1:109
+#, no-wrap
+msgid "%r"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:112
+msgid "device type in decimal (st_rdev)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:112
+#, no-wrap
+msgid "%R"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:115
+msgid "device type in hex (st_rdev)"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:115
+#, no-wrap
+msgid "%Hr"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:118
+msgid "major device type in decimal, for character/block device special files"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:118
+#, no-wrap
+msgid "%Lr"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/stat.1:121
+msgid "minor device type in decimal, for character/block device special files"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/stat.1:121 raw/coreutils/man1/stat.1:189
 #, no-wrap
 msgid "%t"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:106
+#: raw/coreutils/man1/stat.1:124
 msgid "major device type in hex, for character/block device special files"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:106 raw/coreutils/man1/stat.1:174
+#: raw/coreutils/man1/stat.1:124 raw/coreutils/man1/stat.1:192
 #, no-wrap
 msgid "%T"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:109
+#: raw/coreutils/man1/stat.1:127
 msgid "minor device type in hex, for character/block device special files"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:109
+#: raw/coreutils/man1/stat.1:127
 #, no-wrap
 msgid "%u"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:112
+#: raw/coreutils/man1/stat.1:130
 msgid "user ID of owner"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:112
+#: raw/coreutils/man1/stat.1:130
 #, no-wrap
 msgid "%U"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:115
+#: raw/coreutils/man1/stat.1:133
 msgid "user name of owner"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:115
+#: raw/coreutils/man1/stat.1:133
 #, no-wrap
 msgid "%w"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:118
+#: raw/coreutils/man1/stat.1:136
 msgid "time of file birth, human-readable; - if unknown"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:118
+#: raw/coreutils/man1/stat.1:136
 #, no-wrap
 msgid "%W"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:121
+#: raw/coreutils/man1/stat.1:139
 msgid "time of file birth, seconds since Epoch; 0 if unknown"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:121
+#: raw/coreutils/man1/stat.1:139
 #, no-wrap
 msgid "%x"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:124
+#: raw/coreutils/man1/stat.1:142
 msgid "time of last access, human-readable"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:124
+#: raw/coreutils/man1/stat.1:142
 #, no-wrap
 msgid "%X"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:127
+#: raw/coreutils/man1/stat.1:145
 msgid "time of last access, seconds since Epoch"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:127
+#: raw/coreutils/man1/stat.1:145
 #, no-wrap
 msgid "%y"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:130
+#: raw/coreutils/man1/stat.1:148
 msgid "time of last data modification, human-readable"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:130
+#: raw/coreutils/man1/stat.1:148
 #, no-wrap
 msgid "%Y"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:133
+#: raw/coreutils/man1/stat.1:151
 msgid "time of last data modification, seconds since Epoch"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:133
+#: raw/coreutils/man1/stat.1:151
 #, no-wrap
 msgid "%z"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:136
+#: raw/coreutils/man1/stat.1:154
 msgid "time of last status change, human-readable"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:136
+#: raw/coreutils/man1/stat.1:154
 #, no-wrap
 msgid "%Z"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:139
+#: raw/coreutils/man1/stat.1:157
 msgid "time of last status change, seconds since Epoch"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:141
+#: raw/coreutils/man1/stat.1:159
 msgid "Valid format sequences for file systems:"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:144
+#: raw/coreutils/man1/stat.1:162
 msgid "free blocks available to non-superuser"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:147
+#: raw/coreutils/man1/stat.1:165
 msgid "total data blocks in file system"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:147
+#: raw/coreutils/man1/stat.1:165
 #, no-wrap
 msgid "%c"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:150
+#: raw/coreutils/man1/stat.1:168
 msgid "total file nodes in file system"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:153
+#: raw/coreutils/man1/stat.1:171
 msgid "free file nodes in file system"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:156
+#: raw/coreutils/man1/stat.1:174
 msgid "free blocks in file system"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:159
+#: raw/coreutils/man1/stat.1:177
 msgid "file system ID in hex"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:159
+#: raw/coreutils/man1/stat.1:177
 #, no-wrap
 msgid "%l"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:162
+#: raw/coreutils/man1/stat.1:180
 msgid "maximum length of filenames"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:168
+#: raw/coreutils/man1/stat.1:186
 msgid "block size (for faster transfers)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/stat.1:168
+#: raw/coreutils/man1/stat.1:186
 #, no-wrap
 msgid "%S"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:171
+#: raw/coreutils/man1/stat.1:189
 msgid "fundamental block size (for block counts)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:174
+#: raw/coreutils/man1/stat.1:192
 msgid "file system type in hex"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:177
+#: raw/coreutils/man1/stat.1:195
 msgid "file system type in human readable form"
 msgstr ""
 
 #. type: SS
-#: raw/coreutils/man1/stat.1:177
+#: raw/coreutils/man1/stat.1:195
 #, no-wrap
 msgid "--terse is equivalent to the following FORMAT:"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:180
+#: raw/coreutils/man1/stat.1:198
 msgid "%n %s %b %f %u %g %D %i %h %t %T %X %Y %Z %W %o %C"
 msgstr ""
 
 #. type: SS
-#: raw/coreutils/man1/stat.1:180
+#: raw/coreutils/man1/stat.1:198
 #, no-wrap
 msgid "--terse --file-system is equivalent to the following FORMAT:"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:183
+#: raw/coreutils/man1/stat.1:201
 msgid "%n %i %l %t %s %S %b %f %a %c %d"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:187
+#: raw/coreutils/man1/stat.1:205
 msgid ""
 "NOTE: your shell may have its own version of stat, which usually supersedes "
 "the version described here.  Please refer to your shell's documentation for "
@@ -625,72 +691,72 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/stat.1:187
+#: raw/coreutils/man1/stat.1:205
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:189
+#: raw/coreutils/man1/stat.1:207
 msgid "Written by Michael Meskes."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/stat.1:189
+#: raw/coreutils/man1/stat.1:207
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:191
+#: raw/coreutils/man1/stat.1:209
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:193
+#: raw/coreutils/man1/stat.1:211
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/stat.1:193
+#: raw/coreutils/man1/stat.1:211
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:196
+#: raw/coreutils/man1/stat.1:214
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:199
+#: raw/coreutils/man1/stat.1:217
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/stat.1:199
+#: raw/coreutils/man1/stat.1:217
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:201
-msgid "stat(2), statfs(2), statx(2)"
+#: raw/coreutils/man1/stat.1:219
+msgid "B<stat>(2), B<statfs>(2), B<statx>(2)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:204
+#: raw/coreutils/man1/stat.1:222
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/statE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/stat.1:205
+#: raw/coreutils/man1/stat.1:223
 msgid "or available locally via: info \\(aq(coreutils) stat invocation\\(aq"
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-09 11:31-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "RM"
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/rm.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -75,7 +76,9 @@ msgstr "描述"
 msgid ""
 "This manual page documents the GNU version of B<rm>.  B<rm> removes each "
 "specified file.  By default, it does not remove directories."
-msgstr "本手册页记录 GNU 版本的 B<rm>。B<rm> 移除每一个指定的文件。默认情况下，它不删除目录。"
+msgstr ""
+"本手册页记录 GNU 版本的 B<rm>。B<rm> 移除每一个指定的文件。默认情况下，它不删"
+"除目录。"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:22
@@ -101,9 +104,10 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "Otherwise, if a file is unwritable, standard input is a terminal, and the "
-#| "I<-f> or I<--force> option is not given, or the I<-i> or I<--interactive"
-#| "\\=always> option is given, B<rm> prompts the user for whether to remove "
-#| "the file.  If the response is not affirmative, the file is skipped."
+#| "I<-f> or I<--force> option is not given, or the I<-i> or I<--"
+#| "interactive\\=always> option is given, B<rm> prompts the user for whether "
+#| "to remove the file.  If the response is not affirmative, the file is "
+#| "skipped."
 msgid ""
 "Otherwise, if a file is unwritable, standard input is a terminal, and the I<-"
 "f> or I<--force> option is not given, or the I<-i> or I<--"
@@ -289,7 +293,8 @@ msgstr ""
 msgid ""
 "To remove a file whose name starts with a '-', for example '-foo', use one "
 "of these commands:"
-msgstr "如果需要删除一个文件名以连字符 “-”起始的文件，例如 '-foo'，请使用下列命令："
+msgstr ""
+"如果需要删除一个文件名以连字符 “-”起始的文件，例如 '-foo'，请使用下列命令："
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:83
@@ -303,10 +308,17 @@ msgstr "rm ./-foo"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:89
+#, fuzzy
+#| msgid ""
+#| "Note that if you use rm to remove a file, it might be possible to recover "
+#| "some of its contents, given sufficient expertise and/or time.  For "
+#| "greater assurance that the contents are truly unrecoverable, consider "
+#| "using shred."
 msgid ""
 "Note that if you use rm to remove a file, it might be possible to recover "
 "some of its contents, given sufficient expertise and/or time.  For greater "
-"assurance that the contents are truly unrecoverable, consider using shred."
+"assurance that the contents are truly unrecoverable, consider using "
+"B<shred>(1)."
 msgstr ""
 "请注意，如果你使用 rm 删除一个文件，在有足够技术水平和/或时间的情况下，它的部"
 "分内容可能仍然能够被恢复。如果需要更高的保障来使得文件内容不可恢复，请考虑使"
@@ -323,7 +335,8 @@ msgstr "作者"
 msgid ""
 "Written by Paul Rubin, David MacKenzie, Richard M. Stallman, and Jim "
 "Meyering."
-msgstr "由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。"
+msgstr ""
+"由 Paul Rubin, David MacKenzie, Richard M. Stallman 和 Jim Meyering 编写。"
 
 #. type: SH
 #: raw/coreutils/man1/rm.1:92
@@ -335,13 +348,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/rm.1:94
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:96
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/rm.1:96
@@ -351,8 +366,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:99
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -375,7 +394,9 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/rm.1:104
-msgid "unlink(1), unlink(2), chattr(1), shred(1)"
+#, fuzzy
+#| msgid "unlink(1), unlink(2), chattr(1), shred(1)"
+msgid "B<unlink>(1), B<unlink>(2), B<chattr>(1), B<shred>(1)"
 msgstr "unlink(1), unlink(2), chattr(1), shred(1)"
 
 #. type: Plain text
@@ -387,6 +408,10 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/rmE<gt
 #: raw/coreutils/man1/rm.1:108
 msgid "or available locally via: info \\(aq(coreutils) rm invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) rm invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

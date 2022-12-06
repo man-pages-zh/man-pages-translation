@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/du.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/du.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -74,7 +74,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:15
-msgid "Summarize disk usage of the set of FILEs, recursively for directories."
+msgid ""
+"Summarize device usage of the set of FILEs, recursively for directories."
 msgstr ""
 
 #. type: Plain text
@@ -114,7 +115,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/du.1:29
 msgid ""
-"print apparent sizes, rather than disk usage; although the apparent size is "
+"print apparent sizes rather than device usage; although the apparent size is "
 "usually smaller, it may be larger due to holes in ('sparse') files, internal "
 "fragmentation, indirect blocks, and the like"
 msgstr ""
@@ -188,7 +189,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/du.1:55
 msgid ""
-"summarize disk usage of the NUL-terminated file names specified in file F; "
+"summarize device usage of the NUL-terminated file names specified in file F; "
 "if F is -, then read names from standard input"
 msgstr ""
 
@@ -503,7 +504,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/du.1:157
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 

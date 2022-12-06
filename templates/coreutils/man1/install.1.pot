@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/install.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/install.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -88,7 +88,7 @@ msgid ""
 "This install program copies files (often just compiled) into destination "
 "locations you choose.  If you want to download and install a ready-to-use "
 "package on a GNU/Linux system, you should instead be using a package manager "
-"like yum(1) or apt-get(1)."
+"like B<yum>(1) or B<apt-get>(1)."
 msgstr ""
 
 #. type: Plain text
@@ -145,211 +145,211 @@ msgid "B<-C>, B<--compare>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:43
+#: raw/coreutils/man1/install.1:44
 msgid ""
-"compare each pair of source and destination files, and in some cases, do not "
-"modify the destination at all"
+"compare content of source and destination files, and if no change to "
+"content, ownership, and permissions, do not modify the destination at all"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:43
+#: raw/coreutils/man1/install.1:44
 #, no-wrap
 msgid "B<-d>, B<--directory>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:47
+#: raw/coreutils/man1/install.1:48
 msgid ""
 "treat all arguments as directory names; create all components of the "
 "specified directories"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:47
+#: raw/coreutils/man1/install.1:48
 #, no-wrap
 msgid "B<-D>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:52
+#: raw/coreutils/man1/install.1:53
 msgid ""
 "create all leading components of DEST except the last, or all components of "
 "B<--target-directory>, then copy SOURCE to DEST"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:52
+#: raw/coreutils/man1/install.1:53
 #, no-wrap
 msgid "B<-g>, B<--group>=I<\\,GROUP\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:55
+#: raw/coreutils/man1/install.1:56
 msgid "set group ownership, instead of process' current group"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:55
+#: raw/coreutils/man1/install.1:56
 #, no-wrap
 msgid "B<-m>, B<--mode>=I<\\,MODE\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:58
+#: raw/coreutils/man1/install.1:59
 msgid "set permission mode (as in chmod), instead of rwxr-xr-x"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:58
+#: raw/coreutils/man1/install.1:59
 #, no-wrap
 msgid "B<-o>, B<--owner>=I<\\,OWNER\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:61
+#: raw/coreutils/man1/install.1:62
 msgid "set ownership (super-user only)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:61
+#: raw/coreutils/man1/install.1:62
 #, no-wrap
 msgid "B<-p>, B<--preserve-timestamps>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:65
+#: raw/coreutils/man1/install.1:66
 msgid ""
 "apply access/modification times of SOURCE files to corresponding destination "
 "files"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:65
+#: raw/coreutils/man1/install.1:66
 #, no-wrap
 msgid "B<-s>, B<--strip>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:68
+#: raw/coreutils/man1/install.1:69
 msgid "strip symbol tables"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:68
+#: raw/coreutils/man1/install.1:69
 #, no-wrap
 msgid "B<--strip-program>=I<\\,PROGRAM\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:71
+#: raw/coreutils/man1/install.1:72
 msgid "program used to strip binaries"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:71
+#: raw/coreutils/man1/install.1:72
 #, no-wrap
 msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:74
+#: raw/coreutils/man1/install.1:75
 msgid "override the usual backup suffix"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:74
+#: raw/coreutils/man1/install.1:75
 #, no-wrap
 msgid "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:77
+#: raw/coreutils/man1/install.1:78
 msgid "copy all SOURCE arguments into DIRECTORY"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:77
+#: raw/coreutils/man1/install.1:78
 #, no-wrap
 msgid "B<-T>, B<--no-target-directory>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:80
+#: raw/coreutils/man1/install.1:81
 msgid "treat DEST as a normal file"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:80
+#: raw/coreutils/man1/install.1:81
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:83
+#: raw/coreutils/man1/install.1:84
 msgid "print the name of each directory as it is created"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:83
+#: raw/coreutils/man1/install.1:84
 #, no-wrap
 msgid "B<--preserve-context>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:86
+#: raw/coreutils/man1/install.1:87
 msgid "preserve SELinux security context"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:86
+#: raw/coreutils/man1/install.1:87
 #, no-wrap
 msgid "B<-Z>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:90
+#: raw/coreutils/man1/install.1:91
 msgid ""
 "set SELinux security context of destination file and each created directory "
 "to default type"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:90
+#: raw/coreutils/man1/install.1:91
 #, no-wrap
 msgid "B<--context>[=I<\\,CTX\\/>]"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:94
+#: raw/coreutils/man1/install.1:95
 msgid ""
 "like B<-Z>, or if CTX is specified then set the SELinux or SMACK security "
 "context to CTX"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:94
+#: raw/coreutils/man1/install.1:95
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:97
+#: raw/coreutils/man1/install.1:98
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:97
+#: raw/coreutils/man1/install.1:98
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:100
+#: raw/coreutils/man1/install.1:101
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:104
+#: raw/coreutils/man1/install.1:105
 msgid ""
 "The backup suffix is '~', unless set with B<--suffix> or "
 "SIMPLE_BACKUP_SUFFIX.  The version control method may be selected via the "
@@ -358,111 +358,111 @@ msgid ""
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:104
+#: raw/coreutils/man1/install.1:105
 #, no-wrap
 msgid "none, off"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:107
+#: raw/coreutils/man1/install.1:108
 msgid "never make backups (even if B<--backup> is given)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:107
+#: raw/coreutils/man1/install.1:108
 #, no-wrap
 msgid "numbered, t"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:110
+#: raw/coreutils/man1/install.1:111
 msgid "make numbered backups"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:110
+#: raw/coreutils/man1/install.1:111
 #, no-wrap
 msgid "existing, nil"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:113
+#: raw/coreutils/man1/install.1:114
 msgid "numbered if numbered backups exist, simple otherwise"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/install.1:113
+#: raw/coreutils/man1/install.1:114
 #, no-wrap
 msgid "simple, never"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:116
+#: raw/coreutils/man1/install.1:117
 msgid "always make simple backups"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/install.1:116
+#: raw/coreutils/man1/install.1:117
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:118
+#: raw/coreutils/man1/install.1:119
 msgid "Written by David MacKenzie."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/install.1:118
+#: raw/coreutils/man1/install.1:119
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:120
+#: raw/coreutils/man1/install.1:121
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:122
+#: raw/coreutils/man1/install.1:123
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/install.1:122
+#: raw/coreutils/man1/install.1:123
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:125
+#: raw/coreutils/man1/install.1:126
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:128
+#: raw/coreutils/man1/install.1:129
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/install.1:128
+#: raw/coreutils/man1/install.1:129
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:130
+#: raw/coreutils/man1/install.1:131
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/installE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/install.1:131
+#: raw/coreutils/man1/install.1:132
 msgid "or available locally via: info \\(aq(coreutils) install invocation\\(aq"
 msgstr ""

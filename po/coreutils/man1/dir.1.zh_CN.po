@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-16 11:54-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,13 +26,14 @@ msgstr "DIR"
 #. type: TH
 #: raw/coreutils/man1/dir.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/dir.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -184,377 +185,366 @@ msgid "B<--color>[=I<\\,WHEN\\/>]"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:47
-msgid ""
-"colorize the output; WHEN can be 'always' (default if omitted), 'auto', or "
-"'never'; more info below"
+#: raw/coreutils/man1/dir.1:46
+msgid "color the output WHEN; more info below"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:47
+#: raw/coreutils/man1/dir.1:46
 #, no-wrap
 msgid "B<-d>, B<--directory>"
 msgstr "B<-d>, B<--directory>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:50
+#: raw/coreutils/man1/dir.1:49
 msgid "list directories themselves, not their contents"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:50
+#: raw/coreutils/man1/dir.1:49
 #, no-wrap
 msgid "B<-D>, B<--dired>"
 msgstr "B<-D>, B<--dired>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:53
+#: raw/coreutils/man1/dir.1:52
 msgid "generate output designed for Emacs' dired mode"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:53
+#: raw/coreutils/man1/dir.1:52
 #, no-wrap
 msgid "B<-f>"
 msgstr "B<-f>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:56
-msgid "do not sort, enable B<-aU>, disable B<-ls> B<--color>"
-msgstr ""
+#: raw/coreutils/man1/dir.1:55
+#, fuzzy
+#| msgid "do not sort; list entries in directory order"
+msgid "list all entries in directory order"
+msgstr "不要排序；按照目录顺序列出各条目"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:56
-#, no-wrap
-msgid "B<-F>, B<--classify>"
+#: raw/coreutils/man1/dir.1:55
+#, fuzzy, no-wrap
+#| msgid "B<-F>, B<--classify>"
+msgid "B<-F>, B<--classify>[=I<\\,WHEN\\/>]"
 msgstr "B<-F>, B<--classify>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:59
-msgid "append indicator (one of */=E<gt>@|) to entries"
+#: raw/coreutils/man1/dir.1:58
+msgid "append indicator (one of */=E<gt>@|) to entries WHEN"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:59
+#: raw/coreutils/man1/dir.1:58
 #, no-wrap
 msgid "B<--file-type>"
 msgstr "B<--file-type>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:62
+#: raw/coreutils/man1/dir.1:61
 msgid "likewise, except do not append '*'"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:62
+#: raw/coreutils/man1/dir.1:61
 #, no-wrap
 msgid "B<--format>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:66
+#: raw/coreutils/man1/dir.1:65
 msgid ""
 "across B<-x>, commas B<-m>, horizontal B<-x>, long B<-l>, single-column "
 "B<-1>, verbose B<-l>, vertical B<-C>"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:66
+#: raw/coreutils/man1/dir.1:65
 #, no-wrap
 msgid "B<--full-time>"
 msgstr "B<--full-time>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:69
+#: raw/coreutils/man1/dir.1:68
 msgid "like B<-l> B<--time-style>=I<\\,full-iso\\/>"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:69
+#: raw/coreutils/man1/dir.1:68
 #, no-wrap
 msgid "B<-g>"
 msgstr "B<-g>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:72
+#: raw/coreutils/man1/dir.1:71
 msgid "like B<-l>, but do not list owner"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:72
+#: raw/coreutils/man1/dir.1:71
 #, no-wrap
 msgid "B<--group-directories-first>"
 msgstr "B<--group-directories-first>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:75
-msgid "group directories before files;"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/dir.1:78
+#: raw/coreutils/man1/dir.1:76
 msgid ""
-"can be augmented with a B<--sort> option, but any use of B<--sort>=I<\\,none"
-"\\/> (B<-U>) disables grouping"
+"group directories before files; can be augmented with a B<--sort> option, "
+"but any use of B<--sort>=I<\\,none\\/> (B<-U>) disables grouping"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:78
+#: raw/coreutils/man1/dir.1:76
 #, no-wrap
 msgid "B<-G>, B<--no-group>"
 msgstr "B<-G>, B<--no-group>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:81
+#: raw/coreutils/man1/dir.1:79
 msgid "in a long listing, don't print group names"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:81
+#: raw/coreutils/man1/dir.1:79
 #, no-wrap
 msgid "B<-h>, B<--human-readable>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:84
+#: raw/coreutils/man1/dir.1:82
 msgid "with B<-l> and B<-s>, print sizes like 1K 234M 2G etc."
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:84
+#: raw/coreutils/man1/dir.1:82
 #, no-wrap
 msgid "B<--si>"
 msgstr "B<--si>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:87
+#: raw/coreutils/man1/dir.1:85
 msgid "likewise, but use powers of 1000 not 1024"
 msgstr "类似，但是使用1000的乘方，不使用1024"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:87
+#: raw/coreutils/man1/dir.1:85
 #, no-wrap
 msgid "B<-H>, B<--dereference-command-line>"
 msgstr "B<-H>, B<--dereference-command-line>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:90
+#: raw/coreutils/man1/dir.1:88
 msgid "follow symbolic links listed on the command line"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:90
+#: raw/coreutils/man1/dir.1:88
 #, no-wrap
 msgid "B<--dereference-command-line-symlink-to-dir>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:93
-msgid "follow each command line symbolic link"
-msgstr ""
-
-#. type: Plain text
-#: raw/coreutils/man1/dir.1:95
-msgid "that points to a directory"
+#: raw/coreutils/man1/dir.1:92
+msgid "follow each command line symbolic link that points to a directory"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:95
+#: raw/coreutils/man1/dir.1:92
 #, no-wrap
 msgid "B<--hide>=I<\\,PATTERN\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:99
+#: raw/coreutils/man1/dir.1:96
 msgid ""
 "do not list implied entries matching shell PATTERN (overridden by B<-a> or "
 "B<-A>)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:99
+#: raw/coreutils/man1/dir.1:96
 #, fuzzy, no-wrap
 #| msgid "B<--sort>=I<\\,WORD\\/>"
 msgid "B<--hyperlink>[=I<\\,WHEN\\/>]"
 msgstr "B<--sort>=I<\\,关键字\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:103
-msgid ""
-"hyperlink file names; WHEN can be 'always' (default if omitted), 'auto', or "
-"'never'"
+#: raw/coreutils/man1/dir.1:99
+msgid "hyperlink file names WHEN"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:103
+#: raw/coreutils/man1/dir.1:99
 #, no-wrap
 msgid "B<--indicator-style>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:108
+#: raw/coreutils/man1/dir.1:104
 msgid ""
 "append indicator with style WORD to entry names: none (default), slash (B<-"
 "p>), file-type (B<--file-type>), classify (B<-F>)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:108
+#: raw/coreutils/man1/dir.1:104
 #, no-wrap
 msgid "B<-i>, B<--inode>"
 msgstr "B<-i>, B<--inode>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:111
+#: raw/coreutils/man1/dir.1:107
 msgid "print the index number of each file"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:111
+#: raw/coreutils/man1/dir.1:107
 #, no-wrap
 msgid "B<-I>, B<--ignore>=I<\\,PATTERN\\/>"
 msgstr "B<-I>, B<--ignore>=I<\\,模式字符串\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:114
+#: raw/coreutils/man1/dir.1:110
 msgid "do not list implied entries matching shell PATTERN"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:114
+#: raw/coreutils/man1/dir.1:110
 #, no-wrap
 msgid "B<-k>, B<--kibibytes>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:118
+#: raw/coreutils/man1/dir.1:114
 msgid ""
-"default to 1024-byte blocks for disk usage; used only with B<-s> and per "
-"directory totals"
+"default to 1024-byte blocks for file system usage; used only with B<-s> and "
+"per directory totals"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:118
+#: raw/coreutils/man1/dir.1:114
 #, no-wrap
 msgid "B<-l>"
 msgstr "B<-l>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:121
+#: raw/coreutils/man1/dir.1:117
 msgid "use a long listing format"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:121
+#: raw/coreutils/man1/dir.1:117
 #, no-wrap
 msgid "B<-L>, B<--dereference>"
 msgstr "B<-L>, B<--dereference>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:126
+#: raw/coreutils/man1/dir.1:122
 msgid ""
 "when showing file information for a symbolic link, show information for the "
 "file the link references rather than for the link itself"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:126
+#: raw/coreutils/man1/dir.1:122
 #, no-wrap
 msgid "B<-m>"
 msgstr "B<-m>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:129
+#: raw/coreutils/man1/dir.1:125
 msgid "fill width with a comma separated list of entries"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:129
+#: raw/coreutils/man1/dir.1:125
 #, no-wrap
 msgid "B<-n>, B<--numeric-uid-gid>"
 msgstr "B<-n>, B<--numeric-uid-gid>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:132
+#: raw/coreutils/man1/dir.1:128
 msgid "like B<-l>, but list numeric user and group IDs"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:132
+#: raw/coreutils/man1/dir.1:128
 #, no-wrap
 msgid "B<-N>, B<--literal>"
 msgstr "B<-N>, B<--literal>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:135
+#: raw/coreutils/man1/dir.1:131
 msgid "print entry names without quoting"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:135
+#: raw/coreutils/man1/dir.1:131
 #, no-wrap
 msgid "B<-o>"
 msgstr "B<-o>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:138
+#: raw/coreutils/man1/dir.1:134
 msgid "like B<-l>, but do not list group information"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:138
+#: raw/coreutils/man1/dir.1:134
 #, no-wrap
 msgid "B<-p>, B<--indicator-style>=I<\\,slash\\/>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:141
+#: raw/coreutils/man1/dir.1:137
 msgid "append / indicator to directories"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:141
+#: raw/coreutils/man1/dir.1:137
 #, no-wrap
 msgid "B<-q>, B<--hide-control-chars>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:144
+#: raw/coreutils/man1/dir.1:140
 msgid "print ? instead of nongraphic characters"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:144
+#: raw/coreutils/man1/dir.1:140
 #, no-wrap
 msgid "B<--show-control-chars>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:148
+#: raw/coreutils/man1/dir.1:144
 msgid ""
 "show nongraphic characters as-is (the default, unless program is 'ls' and "
 "output is a terminal)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:148
+#: raw/coreutils/man1/dir.1:144
 #, no-wrap
 msgid "B<-Q>, B<--quote-name>"
 msgstr "B<-Q>, B<--quote-name>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:151
+#: raw/coreutils/man1/dir.1:147
 msgid "enclose entry names in double quotes"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:151
+#: raw/coreutils/man1/dir.1:147
 #, no-wrap
 msgid "B<--quoting-style>=I<\\,WORD\\/>"
 msgstr "B<--quoting-style>=I<\\,关键字\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:157
+#: raw/coreutils/man1/dir.1:153
 msgid ""
 "use quoting style WORD for entry names: literal, locale, shell, shell-"
 "always, shell-escape, shell-escape-always, c, escape (overrides "
@@ -562,230 +552,242 @@ msgid ""
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:157
+#: raw/coreutils/man1/dir.1:153
 #, no-wrap
 msgid "B<-r>, B<--reverse>"
 msgstr "B<-r>, B<--reverse>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:160
+#: raw/coreutils/man1/dir.1:156
 msgid "reverse order while sorting"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:160
+#: raw/coreutils/man1/dir.1:156
 #, no-wrap
 msgid "B<-R>, B<--recursive>"
 msgstr "B<-R>, B<--recursive>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:163
+#: raw/coreutils/man1/dir.1:159
 msgid "list subdirectories recursively"
 msgstr "递归列出子目录内容"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:163
+#: raw/coreutils/man1/dir.1:159
 #, no-wrap
 msgid "B<-s>, B<--size>"
 msgstr "B<-s>, B<--size>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:166
+#: raw/coreutils/man1/dir.1:162
 msgid "print the allocated size of each file, in blocks"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:166
+#: raw/coreutils/man1/dir.1:162
 #, no-wrap
 msgid "B<-S>"
 msgstr "B<-S>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:169
+#: raw/coreutils/man1/dir.1:165
 msgid "sort by file size, largest first"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:169
+#: raw/coreutils/man1/dir.1:165
 #, no-wrap
 msgid "B<--sort>=I<\\,WORD\\/>"
 msgstr "B<--sort>=I<\\,关键字\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:173
+#: raw/coreutils/man1/dir.1:169
 msgid ""
 "sort by WORD instead of name: none (B<-U>), size (B<-S>), time (B<-t>), "
-"version (B<-v>), extension (B<-X>)"
+"version (B<-v>), extension (B<-X>), width"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:173
+#: raw/coreutils/man1/dir.1:169
 #, no-wrap
 msgid "B<--time>=I<\\,WORD\\/>"
 msgstr "B<--time>=I<\\,关键字\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:179
+#: raw/coreutils/man1/dir.1:175
 msgid ""
 "change the default of using modification times; access time (B<-u>): atime, "
 "access, use; change time (B<-c>): ctime, status; birth time: birth, creation;"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:182
+#: raw/coreutils/man1/dir.1:178
 msgid ""
 "with B<-l>, WORD determines which time to show; with B<--sort>=I<\\,time\\/"
 ">, sort by WORD (newest first)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:182
+#: raw/coreutils/man1/dir.1:178
 #, fuzzy, no-wrap
 #| msgid "B<--quoting-style>=I<\\,WORD\\/>"
 msgid "B<--time-style>=I<\\,TIME_STYLE\\/>"
 msgstr "B<--quoting-style>=I<\\,关键字\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:185
+#: raw/coreutils/man1/dir.1:181
 msgid "time/date format with B<-l>; see TIME_STYLE below"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:185
+#: raw/coreutils/man1/dir.1:181
 #, no-wrap
 msgid "B<-t>"
 msgstr "B<-t>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:188
+#: raw/coreutils/man1/dir.1:184
 msgid "sort by time, newest first; see B<--time>"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:188
+#: raw/coreutils/man1/dir.1:184
 #, fuzzy, no-wrap
 msgid "B<-T>, B<--tabsize>=I<\\,COLS\\/>"
 msgstr "B<-s>, B<--size>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:191
+#: raw/coreutils/man1/dir.1:187
 msgid "assume tab stops at each COLS instead of 8"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:191
+#: raw/coreutils/man1/dir.1:187
 #, no-wrap
 msgid "B<-u>"
 msgstr "B<-u>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:196
+#: raw/coreutils/man1/dir.1:192
 msgid ""
 "with B<-lt>: sort by, and show, access time; with B<-l>: show access time "
 "and sort by name; otherwise: sort by access time, newest first"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:196
+#: raw/coreutils/man1/dir.1:192
 #, no-wrap
 msgid "B<-U>"
 msgstr "B<-U>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:199
+#: raw/coreutils/man1/dir.1:195
 msgid "do not sort; list entries in directory order"
 msgstr "不要排序；按照目录顺序列出各条目"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:199
+#: raw/coreutils/man1/dir.1:195
 #, no-wrap
 msgid "B<-v>"
 msgstr "B<-v>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:202
+#: raw/coreutils/man1/dir.1:198
 msgid "natural sort of (version) numbers within text"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:202
+#: raw/coreutils/man1/dir.1:198
 #, no-wrap
 msgid "B<-w>, B<--width>=I<\\,COLS\\/>"
 msgstr "B<-w>, B<--width>=I<\\,列数\\/>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:205
+#: raw/coreutils/man1/dir.1:201
 msgid "set output width to COLS.  0 means no limit"
 msgstr "将输出宽度设置为给定列数。0 代表没有限制"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:205
+#: raw/coreutils/man1/dir.1:201
 #, no-wrap
 msgid "B<-x>"
 msgstr "B<-x>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:208
+#: raw/coreutils/man1/dir.1:204
 msgid "list entries by lines instead of by columns"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:208
+#: raw/coreutils/man1/dir.1:204
 #, no-wrap
 msgid "B<-X>"
 msgstr "B<-X>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:211
+#: raw/coreutils/man1/dir.1:207
 msgid "sort alphabetically by entry extension"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:211
+#: raw/coreutils/man1/dir.1:207
 #, no-wrap
 msgid "B<-Z>, B<--context>"
 msgstr "B<-Z>, B<--context>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:214
+#: raw/coreutils/man1/dir.1:210
 msgid "print any security context of each file"
 msgstr "打印每个文件的所有安全上下文"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:214
+#: raw/coreutils/man1/dir.1:210
+#, fuzzy, no-wrap
+#| msgid "B<--version>"
+msgid "B<--zero>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:213
+msgid "end each output line with NUL, not newline"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/dir.1:213
 #, no-wrap
 msgid "B<-1>"
 msgstr "B<-1>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:217
-msgid "list one file per line.  Avoid '\\en' with B<-q> or B<-b>"
+#: raw/coreutils/man1/dir.1:216
+msgid "list one file per line"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:217
+#: raw/coreutils/man1/dir.1:216
 #, no-wrap
 msgid "B<--help>"
 msgstr "B<--help>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:220
+#: raw/coreutils/man1/dir.1:219
 msgid "display this help and exit"
 msgstr "显示此帮助信息并退出"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:220
+#: raw/coreutils/man1/dir.1:219
 #, no-wrap
 msgid "B<--version>"
 msgstr "B<--version>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:223
+#: raw/coreutils/man1/dir.1:222
 msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:227
+#: raw/coreutils/man1/dir.1:226
 msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
@@ -793,10 +795,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:233
+#: raw/coreutils/man1/dir.1:232
 msgid ""
 "The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.  "
-"FORMAT is interpreted like in date(1).  If FORMAT is "
+"FORMAT is interpreted like in B<date>(1).  If FORMAT is "
 "FORMAT1E<lt>newlineE<gt>FORMAT2, then FORMAT1 applies to non-recent files "
 "and FORMAT2 to recent files.  TIME_STYLE prefixed with 'posix-' takes effect "
 "only outside the POSIX locale.  Also the TIME_STYLE environment variable "
@@ -804,100 +806,112 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:238
+#: raw/coreutils/man1/dir.1:234
+msgid ""
+"The WHEN argument defaults to 'always' and can also be 'auto' or 'never'."
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/dir.1:239
 msgid ""
 "Using color to distinguish file types is disabled both by default and with "
 "B<--color>=I<\\,never\\/>.  With B<--color>=I<\\,auto\\/>, ls emits color "
 "codes only when standard output is connected to a terminal.  The LS_COLORS "
-"environment variable can change the settings.  Use the dircolors command to "
-"set it."
+"environment variable can change the settings.  Use the B<dircolors>(1) "
+"command to set it."
 msgstr ""
 
 #. type: SS
-#: raw/coreutils/man1/dir.1:238
+#: raw/coreutils/man1/dir.1:239
 #, no-wrap
 msgid "Exit status:"
 msgstr "退出状态："
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:239
+#: raw/coreutils/man1/dir.1:240
 #, no-wrap
 msgid "0"
 msgstr "0"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:242
+#: raw/coreutils/man1/dir.1:243
 msgid "if OK,"
 msgstr "如果成功，"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:242
+#: raw/coreutils/man1/dir.1:243
 #, no-wrap
 msgid "1"
 msgstr "1"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:245
+#: raw/coreutils/man1/dir.1:246
 msgid "if minor problems (e.g., cannot access subdirectory),"
 msgstr "如果出现了不严重的问题（例如，无法访问子目录），"
 
 #. type: TP
-#: raw/coreutils/man1/dir.1:245
+#: raw/coreutils/man1/dir.1:246
 #, no-wrap
 msgid "2"
 msgstr "2"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:248
+#: raw/coreutils/man1/dir.1:249
 msgid "if serious trouble (e.g., cannot access command-line argument)."
 msgstr "如果出现了严重问题（例如，无法访问命令行参数给出的路径）。"
 
 #. type: SH
-#: raw/coreutils/man1/dir.1:248
+#: raw/coreutils/man1/dir.1:249
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:250
+#: raw/coreutils/man1/dir.1:251
 msgid "Written by Richard M. Stallman and David MacKenzie."
 msgstr "由 Richard M. Stallman 和 David MacKenzie 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/dir.1:250
+#: raw/coreutils/man1/dir.1:251
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:252
+#: raw/coreutils/man1/dir.1:253
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:254
+#: raw/coreutils/man1/dir.1:255
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/dir.1:254
+#: raw/coreutils/man1/dir.1:255
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:257
+#: raw/coreutils/man1/dir.1:258
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:260
+#: raw/coreutils/man1/dir.1:261
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -906,20 +920,24 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/dir.1:260
+#: raw/coreutils/man1/dir.1:261
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:262
+#: raw/coreutils/man1/dir.1:263
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/dirE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/dirE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/dir.1:263
+#: raw/coreutils/man1/dir.1:264
 msgid "or available locally via: info \\(aq(coreutils) dir invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) dir invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

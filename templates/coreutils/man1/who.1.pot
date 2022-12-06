@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/who.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/who.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -119,154 +119,167 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/who.1:24
 #, no-wrap
+msgid "B<--ips>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/who.1:29
+msgid ""
+"print ips instead of hostnames. with B<--lookup>, canonicalizes based on "
+"stored IP, if available, rather than stored hostname"
+msgstr ""
+
+#. type: TP
+#: raw/coreutils/man1/who.1:29
+#, no-wrap
 msgid "B<-l>, B<--login>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:27
+#: raw/coreutils/man1/who.1:32
 msgid "print system login processes"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:27
+#: raw/coreutils/man1/who.1:32
 #, no-wrap
 msgid "B<--lookup>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:30
+#: raw/coreutils/man1/who.1:35
 msgid "attempt to canonicalize hostnames via DNS"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:30
+#: raw/coreutils/man1/who.1:35
 #, no-wrap
 msgid "B<-m>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:33
+#: raw/coreutils/man1/who.1:38
 msgid "only hostname and user associated with stdin"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:33
+#: raw/coreutils/man1/who.1:38
 #, no-wrap
 msgid "B<-p>, B<--process>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:36
+#: raw/coreutils/man1/who.1:41
 msgid "print active processes spawned by init"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:36
+#: raw/coreutils/man1/who.1:41
 #, no-wrap
 msgid "B<-q>, B<--count>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:39
+#: raw/coreutils/man1/who.1:44
 msgid "all login names and number of users logged on"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:39
+#: raw/coreutils/man1/who.1:44
 #, no-wrap
 msgid "B<-r>, B<--runlevel>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:42
+#: raw/coreutils/man1/who.1:47
 msgid "print current runlevel"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:42
+#: raw/coreutils/man1/who.1:47
 #, no-wrap
 msgid "B<-s>, B<--short>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:45
+#: raw/coreutils/man1/who.1:50
 msgid "print only name, line, and time (default)"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:45
+#: raw/coreutils/man1/who.1:50
 #, no-wrap
 msgid "B<-t>, B<--time>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:48
+#: raw/coreutils/man1/who.1:53
 msgid "print last system clock change"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:48
+#: raw/coreutils/man1/who.1:53
 #, no-wrap
 msgid "B<-T>, B<-w>, B<--mesg>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:51
+#: raw/coreutils/man1/who.1:56
 msgid "add user's message status as +, - or ?"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:51
+#: raw/coreutils/man1/who.1:56
 #, no-wrap
 msgid "B<-u>, B<--users>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:54
+#: raw/coreutils/man1/who.1:59
 msgid "list users logged in"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:54
+#: raw/coreutils/man1/who.1:59
 #, no-wrap
 msgid "B<--message>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:57 raw/coreutils/man1/who.1:60
+#: raw/coreutils/man1/who.1:62 raw/coreutils/man1/who.1:65
 msgid "same as B<-T>"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:57
+#: raw/coreutils/man1/who.1:62
 #, no-wrap
 msgid "B<--writable>"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:60
+#: raw/coreutils/man1/who.1:65
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:63
+#: raw/coreutils/man1/who.1:68
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/who.1:63
+#: raw/coreutils/man1/who.1:68
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:66
+#: raw/coreutils/man1/who.1:71
 msgid "output version information and exit"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:69
+#: raw/coreutils/man1/who.1:74
 msgid ""
 "If FILE is not specified, use I<\\,/var/run/utmp\\/>.  I<\\,/var/log/wtmp\\/"
 "> as FILE is common.  If ARG1 ARG2 given, B<-m> presumed: 'am i' or 'mom "
@@ -274,66 +287,66 @@ msgid ""
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/who.1:69
+#: raw/coreutils/man1/who.1:74
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:71
+#: raw/coreutils/man1/who.1:76
 msgid "Written by Joseph Arceneaux, David MacKenzie, and Michael Stone."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/who.1:71
+#: raw/coreutils/man1/who.1:76
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:73
+#: raw/coreutils/man1/who.1:78
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:75
+#: raw/coreutils/man1/who.1:80
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/who.1:75
+#: raw/coreutils/man1/who.1:80
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:78
+#: raw/coreutils/man1/who.1:83
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:81
+#: raw/coreutils/man1/who.1:86
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/who.1:81
+#: raw/coreutils/man1/who.1:86
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:83
+#: raw/coreutils/man1/who.1:88
 msgid "Full documentation E<lt>https://www.gnu.org/software/coreutils/whoE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/who.1:84
+#: raw/coreutils/man1/who.1:89
 msgid "or available locally via: info \\(aq(coreutils) who invocation\\(aq"
 msgstr ""

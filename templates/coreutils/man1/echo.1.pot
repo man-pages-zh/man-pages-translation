@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/echo.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/echo.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -277,68 +277,80 @@ msgid ""
 "details about the options it supports."
 msgstr ""
 
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:75
+msgid ""
+"NOTE: B<printf>(1) is a preferred alternative, which does not have issues "
+"outputting option-like strings."
+msgstr ""
+
 #. type: SH
-#: raw/coreutils/man1/echo.1:72
+#: raw/coreutils/man1/echo.1:75
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/echo.1:74
+#: raw/coreutils/man1/echo.1:77
 msgid "Written by Brian Fox and Chet Ramey."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/echo.1:74
+#: raw/coreutils/man1/echo.1:77
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/echo.1:76
+#: raw/coreutils/man1/echo.1:79
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/echo.1:78
+#: raw/coreutils/man1/echo.1:81
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/echo.1:78
+#: raw/coreutils/man1/echo.1:81
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/echo.1:81
+#: raw/coreutils/man1/echo.1:84
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/echo.1:84
+#: raw/coreutils/man1/echo.1:87
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/echo.1:84
+#: raw/coreutils/man1/echo.1:87
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/echo.1:86
+#: raw/coreutils/man1/echo.1:89
+msgid "B<printf>(1)"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/echo.1:92
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/echoE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/echo.1:87
+#: raw/coreutils/man1/echo.1:93
 msgid "or available locally via: info \\(aq(coreutils) echo invocation\\(aq"
 msgstr ""

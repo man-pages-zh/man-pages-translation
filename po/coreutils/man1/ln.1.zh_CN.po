@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-12 10:21-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -26,13 +26,14 @@ msgstr "LN"
 #. type: TH
 #: raw/coreutils/man1/ln.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/ln.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -95,13 +96,12 @@ msgid ""
 "TARGET must exist.  Symbolic links can hold arbitrary text; if later "
 "resolved, a relative link is interpreted in relation to its parent directory."
 msgstr ""
-"在第一种格式中，创建具有指定链接名且指向指定目标的链接。"
-"在第二种格式中，在当前目录创建指向目标位置的链接。"
-"在第三、四种格式中，在指定目录中创建指向指定目标的链接。"
-"默认创建硬链接，当使用 B<--symbolic> 时创建符号链接。"
-"默认情况下，创建每个目标时不应存在与新链接的名称相同的文件。"
-"创建硬链接时，每个指定的目标都必须存在。符号链接可以指向任意的位置；"
-"当链接解析正常时，将其解析为一个相对于其父目录的相对链接。"
+"在第一种格式中，创建具有指定链接名且指向指定目标的链接。在第二种格式中，在当"
+"前目录创建指向目标位置的链接。在第三、四种格式中，在指定目录中创建指向指定目"
+"标的链接。默认创建硬链接，当使用 B<--symbolic> 时创建符号链接。默认情况下，创"
+"建每个目标时不应存在与新链接的名称相同的文件。创建硬链接时，每个指定的目标都"
+"必须存在。符号链接可以指向任意的位置；当链接解析正常时，将其解析为一个相对于"
+"其父目录的相对链接。"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:30
@@ -143,7 +143,8 @@ msgstr "B<-d>, B<-F>, B<--directory>"
 msgid ""
 "allow the superuser to attempt to hard link directories (note: will probably "
 "fail due to system restrictions, even for the superuser)"
-msgstr "允许超级用户尝试创建指向目录的硬链接（注意：此操作可能因系统限制而失败）"
+msgstr ""
+"允许超级用户尝试创建指向目录的硬链接（注意：此操作可能因系统限制而失败）"
 
 #. type: TP
 #: raw/coreutils/man1/ln.1:41
@@ -209,7 +210,9 @@ msgstr "B<-r>, B<--relative>"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:60
-msgid "create symbolic links relative to link location"
+#, fuzzy
+#| msgid "create symbolic links relative to link location"
+msgid "with B<-s>, create links relative to link location"
 msgstr "创建相对于链接位置的符号链接"
 
 #. type: TP
@@ -297,9 +300,8 @@ msgid ""
 "B<--backup> option or through the VERSION_CONTROL environment variable.  "
 "Here are the values:"
 msgstr ""
-"备份文件的后缀为\"~\"，除非以 B<--suffix> 选项或是"
-"SIMPLE_BACKUP_SUFFIX 环境变量指定。版本控制的方式可通过"
-"B<--backup> 选项或 VERSION_CONTROL 环境变量来选择"
+"备份文件的后缀为\"~\"，除非以 B<--suffix> 选项或是SIMPLE_BACKUP_SUFFIX 环境变"
+"量指定。版本控制的方式可通过B<--backup> 选项或 VERSION_CONTROL 环境变量来选择"
 "以下是可用的变量值："
 
 #. type: TP
@@ -352,8 +354,8 @@ msgid ""
 "Using B<-s> ignores B<-L> and B<-P>.  Otherwise, the last option specified "
 "controls behavior when a TARGET is a symbolic link, defaulting to B<-P>."
 msgstr ""
-"使用 B<-s> 选项会忽略 B<-L> 和 B<-P>。否则当给定的目标为一个"
-"符号链接（默认为 B<-P>）时，会由最后一个指定的选项来控制行为。"
+"使用 B<-s> 选项会忽略 B<-L> 和 B<-P>。否则当给定的目标为一个符号链接（默认为 "
+"B<-P>）时，会由最后一个指定的选项来控制行为。"
 
 #. type: SH
 #: raw/coreutils/man1/ln.1:101
@@ -376,13 +378,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/ln.1:105
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:107
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/ln.1:107
@@ -392,8 +396,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:110
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -416,7 +424,9 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/ln.1:115
-msgid "link(2), symlink(2)"
+#, fuzzy
+#| msgid "link(2), symlink(2)"
+msgid "B<link>(2), B<symlink>(2)"
 msgstr "link(2), symlink(2)"
 
 #. type: Plain text
@@ -428,6 +438,10 @@ msgstr "完整文档请见：E<lt>https://www.gnu.org/software/coreutils/lnE<gt>
 #: raw/coreutils/man1/ln.1:119
 msgid "or available locally via: info \\(aq(coreutils) ln invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) ln invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-08 23:39-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "MD5SUM"
 #. type: TH
 #: raw/coreutils/man1/md5sum.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/md5sum.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -99,7 +100,9 @@ msgstr "B<-c>, B<--check>"
 
 #. type: Plain text
 #: raw/coreutils/man1/md5sum.1:20
-msgid "read MD5 sums from the FILEs and check them"
+#, fuzzy
+#| msgid "read MD5 sums from the FILEs and check them"
+msgid "read checksums from the FILEs and check them"
 msgstr "从指定文件中读取 MD5 文件校验和信息并对它们进行检查"
 
 #. type: TP
@@ -220,12 +223,19 @@ msgid "output version information and exit"
 msgstr "显示版本信息并退出"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:57
+#: raw/coreutils/man1/md5sum.1:58
+#, fuzzy
+#| msgid ""
+#| "The sums are computed as described in RFC 1321.  When checking, the input "
+#| "should be a former output of this program.  The default mode is to print "
+#| "a line with checksum, a space, a character indicating input mode ('*' for "
+#| "binary, \\&' ' for text or where binary is insignificant), and name for "
+#| "each FILE."
 msgid ""
 "The sums are computed as described in RFC 1321.  When checking, the input "
 "should be a former output of this program.  The default mode is to print a "
-"line with checksum, a space, a character indicating input mode ('*' for "
-"binary, \\&' ' for text or where binary is insignificant), and name for each "
+"line with: checksum, a space, a character indicating input mode ('*' for "
+"binary, ' ' for text or where binary is insignificant), and name for each "
 "FILE."
 msgstr ""
 "校验和按照 RFC 1321 描述的方式进行计算。在校验过程中，其输入内容应当为该程序"
@@ -233,77 +243,88 @@ msgstr ""
 "式的字符（'*' 表示二进制输入，空格表示字符输入）以及每个文件的名称。"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:59
+#: raw/coreutils/man1/md5sum.1:60
 msgid ""
 "Note: There is no difference between binary mode and text mode on GNU "
 "systems."
 msgstr "注意：GNU 系统上二进制模式和文本模式没有区别。"
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:59
+#: raw/coreutils/man1/md5sum.1:60
 #, no-wrap
 msgid "BUGS"
 msgstr "BUGS"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:64
+#: raw/coreutils/man1/md5sum.1:65
+#, fuzzy
+#| msgid ""
+#| "Do not use the MD5 algorithm for security related purposes.  Instead, use "
+#| "an SHA-2 algorithm, implemented in the programs sha224sum(1), "
+#| "sha256sum(1), sha384sum(1), sha512sum(1), or the BLAKE2 algorithm, "
+#| "implemented in b2sum(1)"
 msgid ""
 "Do not use the MD5 algorithm for security related purposes.  Instead, use an "
-"SHA-2 algorithm, implemented in the programs sha224sum(1), sha256sum(1), "
-"sha384sum(1), sha512sum(1), or the BLAKE2 algorithm, implemented in b2sum(1)"
+"SHA-2 algorithm, implemented in the programs B<sha224sum>(1), "
+"B<sha256sum>(1), B<sha384sum>(1), B<sha512sum>(1), or the BLAKE2 algorithm, "
+"implemented in B<b2sum>(1)"
 msgstr ""
 "不要为与安全相关的目的使用 MD5 算法。作为替代，请使用一个 SHA-2 算法，它们分"
 "别在 sha224sum(1)、sha256sum(1)、sha384sum(1)、sha512sum(1) 这些程序中实现；"
 "或者请使用 BLAKE2 算法，它在 b2sum(1) 程序中实现"
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:64
+#: raw/coreutils/man1/md5sum.1:65
 #, no-wrap
 msgid "AUTHOR"
 msgstr "作者"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:66
+#: raw/coreutils/man1/md5sum.1:67
 msgid "Written by Ulrich Drepper, Scott Miller, and David Madore."
 msgstr "由 Ulrich Drepper, Scott Miller 和 David Madore 编写。"
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:66
+#: raw/coreutils/man1/md5sum.1:67
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr "报告错误"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:68
+#: raw/coreutils/man1/md5sum.1:69
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:70
+#: raw/coreutils/man1/md5sum.1:71
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:70
+#: raw/coreutils/man1/md5sum.1:71
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:73
+#: raw/coreutils/man1/md5sum.1:74
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:76
+#: raw/coreutils/man1/md5sum.1:77
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -312,21 +333,30 @@ msgstr ""
 "NO WARRANTY, to the extent permitted by law."
 
 #. type: SH
-#: raw/coreutils/man1/md5sum.1:76
+#: raw/coreutils/man1/md5sum.1:77
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:78
+#: raw/coreutils/man1/md5sum.1:79
+msgid "B<cksum>(1)"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/md5sum.1:82
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/md5sumE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/md5sumE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/md5sum.1:79
+#: raw/coreutils/man1/md5sum.1:83
 msgid "or available locally via: info \\(aq(coreutils) md5sum invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) md5sum invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

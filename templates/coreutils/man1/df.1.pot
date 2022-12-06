@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/df.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/df.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -47,7 +47,7 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:5
-msgid "df - report file system disk space usage"
+msgid "df - report file system space usage"
 msgstr ""
 
 #. type: SH
@@ -71,9 +71,9 @@ msgstr ""
 #: raw/coreutils/man1/df.1:19
 msgid ""
 "This manual page documents the GNU version of B<df>.  B<df> displays the "
-"amount of disk space available on the file system containing each file name "
+"amount of space available on the file system containing each file name "
 "argument.  If no file name is given, the space available on all currently "
-"mounted file systems is shown.  Disk space is shown in 1K blocks by default, "
+"mounted file systems is shown.  Space is shown in 1K blocks by default, "
 "unless the environment variable POSIXLY_CORRECT is set, in which case 512-"
 "byte blocks are used."
 msgstr ""
@@ -81,7 +81,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/df.1:29
 msgid ""
-"If an argument is the absolute file name of a disk device node containing a "
+"If an argument is the absolute file name of a device node containing a "
 "mounted file system, B<df> shows the space available on that file system "
 "rather than on the file system containing the device node.  This version of "
 "B<df> cannot show the space available on unmounted file systems, because on "
@@ -374,7 +374,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/df.1:114
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 

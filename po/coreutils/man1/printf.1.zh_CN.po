@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-16 11:52-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "PRINTF"
 #. type: TH
 #: raw/coreutils/man1/printf.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/printf.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -310,8 +311,8 @@ msgid ""
 "ARGUMENT is printed in a format that can be reused as shell input, escaping "
 "non-printable characters with the proposed POSIX $'' syntax."
 msgstr ""
-"参数列表以一种可被 shell 输出重新读取的格式进行输出，并使用建议的 POSIX  "
-"$'' 语法对不可打印字符进行转义。"
+"参数列表以一种可被 shell 输出重新读取的格式进行输出，并使用建议的 POSIX  $'' "
+"语法对不可打印字符进行转义。"
 
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:82
@@ -353,13 +354,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/printf.1:90
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:92
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/printf.1:92
@@ -369,8 +372,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:95
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -393,7 +400,9 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/printf.1:100
-msgid "printf(3)"
+#, fuzzy
+#| msgid "printf(3)"
+msgid "B<printf>(3)"
 msgstr "printf(3)"
 
 #. type: Plain text
@@ -406,6 +415,10 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/printf
 #: raw/coreutils/man1/printf.1:104
 msgid "or available locally via: info \\(aq(coreutils) printf invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) printf invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"

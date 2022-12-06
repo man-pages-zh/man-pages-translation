@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/mkdir.1:2
 #, no-wrap
-msgid "March 2020"
+msgid "September 2022"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/mkdir.1:2
 #, no-wrap
-msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr ""
 
 #. type: TH
@@ -96,135 +96,137 @@ msgid "B<-p>, B<--parents>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:20
-msgid "no error if existing, make parent directories as needed"
+#: raw/coreutils/man1/mkdir.1:21
+msgid ""
+"no error if existing, make parent directories as needed, with their file "
+"modes unaffected by any B<-m> option."
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/mkdir.1:20
+#: raw/coreutils/man1/mkdir.1:21
 #, no-wrap
 msgid "B<-v>, B<--verbose>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:23
+#: raw/coreutils/man1/mkdir.1:24
 msgid "print a message for each created directory"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/mkdir.1:23
+#: raw/coreutils/man1/mkdir.1:24
 #, no-wrap
 msgid "B<-Z>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:27
+#: raw/coreutils/man1/mkdir.1:28
 msgid ""
 "set SELinux security context of each created directory to the default type"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/mkdir.1:27
+#: raw/coreutils/man1/mkdir.1:28
 #, no-wrap
 msgid "B<--context>[=I<\\,CTX\\/>]"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:31
+#: raw/coreutils/man1/mkdir.1:32
 msgid ""
 "like B<-Z>, or if CTX is specified then set the SELinux or SMACK security "
 "context to CTX"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/mkdir.1:31
+#: raw/coreutils/man1/mkdir.1:32
 #, no-wrap
 msgid "B<--help>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:34
+#: raw/coreutils/man1/mkdir.1:35
 msgid "display this help and exit"
 msgstr ""
 
 #. type: TP
-#: raw/coreutils/man1/mkdir.1:34
+#: raw/coreutils/man1/mkdir.1:35
 #, no-wrap
 msgid "B<--version>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:37
+#: raw/coreutils/man1/mkdir.1:38
 msgid "output version information and exit"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/mkdir.1:37
+#: raw/coreutils/man1/mkdir.1:38
 #, no-wrap
 msgid "AUTHOR"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:39
+#: raw/coreutils/man1/mkdir.1:40
 msgid "Written by David MacKenzie."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/mkdir.1:39
+#: raw/coreutils/man1/mkdir.1:40
 #, no-wrap
 msgid "REPORTING BUGS"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:41
+#: raw/coreutils/man1/mkdir.1:42
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:43
+#: raw/coreutils/man1/mkdir.1:44
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/mkdir.1:43
+#: raw/coreutils/man1/mkdir.1:44
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:46
+#: raw/coreutils/man1/mkdir.1:47
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:49
+#: raw/coreutils/man1/mkdir.1:50
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/mkdir.1:49
+#: raw/coreutils/man1/mkdir.1:50
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:51
-msgid "mkdir(2)"
+#: raw/coreutils/man1/mkdir.1:52
+msgid "B<mkdir>(2)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:54
+#: raw/coreutils/man1/mkdir.1:55
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/mkdirE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/mkdir.1:55
+#: raw/coreutils/man1/mkdir.1:56
 msgid "or available locally via: info \\(aq(coreutils) mkdir invocation\\(aq"
 msgstr ""

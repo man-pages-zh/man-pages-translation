@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-09 00:29-0400\n"
+"POT-Creation-Date: 2022-12-06 00:29-0500\n"
 "PO-Revision-Date: 2020-05-09 11:29-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -27,13 +27,14 @@ msgstr "LOGNAME"
 #. type: TH
 #: raw/coreutils/man1/logname.1:2
 #, no-wrap
-msgid "March 2020"
-msgstr "2020年三月"
+msgid "September 2022"
+msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/logname.1:2
-#, no-wrap
-msgid "GNU coreutils 8.32"
+#, fuzzy, no-wrap
+#| msgid "GNU coreutils 8.32"
+msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 8.32"
 
 #. type: TH
@@ -72,8 +73,10 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/logname.1:12
-msgid "Print the name of the current user."
-msgstr "显示当前用户名。"
+#, fuzzy
+#| msgid "logname - print user\\'s login name"
+msgid "Print the user's login name."
+msgstr "logname - 显示用户的登录名"
 
 #. type: TP
 #: raw/coreutils/man1/logname.1:12
@@ -118,13 +121,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/logname.1:22
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/logname.1:24
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/logname.1:24
@@ -134,8 +139,12 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/logname.1:27
+#, fuzzy
+#| msgid ""
+#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
+#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
@@ -158,14 +167,27 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/logname.1:32
-msgid ""
-"Full documentation E<lt>https://www.gnu.org/software/coreutils/lognameE<gt>"
-msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/lognameE<gt>"
+msgid "B<getlogin>(3)"
+msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/logname.1:33
+#: raw/coreutils/man1/logname.1:35
+msgid ""
+"Full documentation E<lt>https://www.gnu.org/software/coreutils/lognameE<gt>"
+msgstr ""
+"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/lognameE<gt>"
+
+#. type: Plain text
+#: raw/coreutils/man1/logname.1:36
 msgid "or available locally via: info \\(aq(coreutils) logname invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) logname invocation\\(aq"
+
+#, no-wrap
+#~ msgid "March 2020"
+#~ msgstr "2020年三月"
+
+#~ msgid "Print the name of the current user."
+#~ msgstr "显示当前用户名。"
 
 #~ msgid "October 2017"
 #~ msgstr "2017年10月"
