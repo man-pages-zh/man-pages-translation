@@ -27,7 +27,7 @@ for potitem in templates/*/man*/*.pot; do
         # NO, we don't use msgmerge anymore.
         # msgmerge cannot recognize comment styles, which causes problems.
         # we would directly use raw file.
-        po4a-updatepo -f man -m "${rawitem}" -M utf8 -p "${poitem}"
+        po4a-updatepo -f man -m "${rawitem}" -M utf8 -p "${poitem}" -o 'groff_code=translate'
     else
         (>&2 printf "%s does not exist, trying to create one..." "${i}.${_MAN_LANG}.po")
         msginit --no-translator -i "${potitem}" -o "${poitem}" -l "${_MAN_LANG}.UTF-8"

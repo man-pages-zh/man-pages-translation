@@ -18,7 +18,7 @@ for manfile in raw/*/man*/*; do
         continue
     fi
     releasefile="src/$(dirname "${manfile}" | cut -d/ -f2-)/$(basename "${manfile}")"
-    po4a-translate -M "UTF-8" -L "UTF-8" -f man -m "${manfile}" -p "${pofile}" -l "${releasefile}"
+    po4a-translate -M "UTF-8" -L "UTF-8" -f man -m "${manfile}" -p "${pofile}" -l "${releasefile}" -o 'groff_code=translate'
     po4a_retvalue="${?}"
     printf "%s\n" "Tried to generate ${releasefile}... retvalue: ${po4a_retvalue}"
 done
