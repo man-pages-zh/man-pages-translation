@@ -1,0 +1,1650 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2022 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-12-07 14:01-0500\n"
+"PO-Revision-Date: 2022-12-07 14:01-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: groff code
+#: raw/grep/man1/grep.1:2
+#, no-wrap
+msgid ""
+".if  !\\n(.g \\{\\\n"
+".\tif !\\w|\\*(lq| \\{\\\n"
+".\t\tds lq ``\n"
+".\t\tif \\w'\\(lq' .ds lq \"\\(lq\n"
+".\t\\}\n"
+".\tif !\\w|\\*(rq| \\{\\\n"
+".\t\tds rq ''\n"
+".\t\tif \\w'\\(rq' .ds rq \"\\(rq\n"
+".\t\\}\n"
+".\\}\n"
+msgstr ""
+
+#. type: groff code
+#: raw/grep/man1/grep.1:13
+#, no-wrap
+msgid ""
+".ie  \\n[.g] .mso www.tmac\n"
+".el \\{\\\n"
+". de MTO\n"
+"\\\\$2 \\(laemail: \\\\$1 \\(ra\\\\$3\n"
+"..\n"
+". de URL\n"
+"\\\\$2 \\(laURL: \\\\$1 \\(ra\\\\$3\n"
+"..\n"
+".\\}\n"
+msgstr ""
+
+#. type: TH
+#: raw/grep/man1/grep.1:23
+#, no-wrap
+msgid "GREP"
+msgstr ""
+
+#. type: TH
+#: raw/grep/man1/grep.1:23
+#, no-wrap
+msgid "\\*(Dt"
+msgstr ""
+
+#. type: TH
+#: raw/grep/man1/grep.1:23
+#, no-wrap
+msgid "GNU grep 2.27"
+msgstr ""
+
+#. type: TH
+#: raw/grep/man1/grep.1:23
+#, no-wrap
+msgid "User Commands"
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:26
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:28
+msgid "grep, egrep, fgrep, rgrep - print lines matching a pattern"
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:29
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:34
+msgid "B<grep> [I<OPTIONS>] I<PATTERN> [I<FILE>.\\|.\\|.]"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:42
+msgid ""
+"B<grep> [I<OPTIONS>] [B<-e> I<PATTERN>].\\|.\\|.  [B<-f> I<FILE>].\\|.\\|.  "
+"[I<FILE>.\\|.\\|.]"
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:43
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:57
+msgid ""
+"B<grep> searches the named input I<FILE>s for lines containing a match to "
+"the given I<PATTERN>.  If no files are specified, or if the file ``B<->'' is "
+"given, B<grep> searches standard input.  By default, B<grep> prints the "
+"matching lines."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:70
+msgid ""
+"In addition, the variant programs B<egrep>, B<fgrep> and B<rgrep> are the "
+"same as B<grep\\ -E>, B<grep\\ -F>, and B<grep\\ -r>, respectively.  These "
+"variants are deprecated, but are provided for backward compatibility."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:71
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:72
+#, no-wrap
+msgid "Generic Program Information"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:73
+#, no-wrap
+msgid "B<-\\^-help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:76
+msgid "Output a usage message and exit."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:76
+#, no-wrap
+msgid "B<-V>, B<-\\^-version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:81
+msgid "Output the version number of B<grep> and exit."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:81
+#, no-wrap
+msgid "Matcher Selection"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:82
+#, no-wrap
+msgid "B<-E>, B<-\\^-extended-regexp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:87
+msgid ""
+"Interpret I<PATTERN> as an extended regular expression (ERE, see below)."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:87
+#, no-wrap
+msgid "B<-F>, B<-\\^-fixed-strings>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:94
+msgid ""
+"Interpret I<PATTERN> as a list of fixed strings (instead of regular "
+"expressions), separated by newlines, any of which is to be matched."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:94
+#, no-wrap
+msgid "B<-G>, B<-\\^-basic-regexp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:100
+msgid ""
+"Interpret I<PATTERN> as a basic regular expression (BRE, see below).  This "
+"is the default."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:100
+#, no-wrap
+msgid "B<-P>, B<-\\^-perl-regexp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:106
+msgid ""
+"Interpret the pattern as a Perl-compatible regular expression (PCRE).  This "
+"is highly experimental and B<grep -P> may warn of unimplemented features."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:106
+#, no-wrap
+msgid "Matching Control"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:107
+#, no-wrap
+msgid "B<-e>I< PATTERN>,B< -\\^-regexp=>I<PATTERN>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:117
+msgid ""
+"Use I<PATTERN> as the pattern.  If this option is used multiple times or is "
+"combined with the B<-f> (B<--file>)  option, search for all patterns given.  "
+"This option can be used to protect a pattern beginning with ``-''."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:117
+#, no-wrap
+msgid "B<-f>I< FILE>,B< -\\^-file=>I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:127
+msgid ""
+"Obtain patterns from I<FILE>, one per line.  If this option is used multiple "
+"times or is combined with the B<-e> (B<--regexp>)  option, search for all "
+"patterns given.  The empty file contains zero patterns, and therefore "
+"matches nothing."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:127
+#, no-wrap
+msgid "B<-i>, B<-\\^-ignore-case>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:132
+msgid "Ignore case distinctions in both the I<PATTERN> and the input files."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:132
+#, no-wrap
+msgid "B<-v>, B<-\\^-invert-match>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:135
+msgid "Invert the sense of matching, to select non-matching lines."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:135
+#, no-wrap
+msgid "B<-w>, B<-\\^-word-regexp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:147
+msgid ""
+"Select only those lines containing matches that form whole words.  The test "
+"is that the matching substring must either be at the beginning of the line, "
+"or preceded by a non-word constituent character.  Similarly, it must be "
+"either at the end of the line or followed by a non-word constituent "
+"character.  Word-constituent characters are letters, digits, and the "
+"underscore.  This option has no effect if B<-x> is also specified."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:147
+#, no-wrap
+msgid "B<-x>, B<-\\^-line-regexp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:155
+msgid ""
+"Select only those matches that exactly match the whole line.  For a regular "
+"expression pattern, this is like parenthesizing the pattern and then "
+"surrounding it with B<^> and B<$>."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:155
+#, no-wrap
+msgid "B<-y>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:159
+msgid "Obsolete synonym for B<-i>."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:159
+#, no-wrap
+msgid "General Output Control"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:160
+#, no-wrap
+msgid "B<-c>, B<-\\^-count>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:167
+msgid ""
+"Suppress normal output; instead print a count of matching lines for each "
+"input file.  With the B<-v>, B<-\\^-invert-match> option (see below), count "
+"non-matching lines."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:167
+#, no-wrap
+msgid "B<-\\^-color>[B<=>I<WHEN>], B<-\\^-colour>[B<=>I<WHEN>]"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:181
+msgid ""
+"Surround the matched (non-empty) strings, matching lines, context lines, "
+"file names, line numbers, byte offsets, and separators (for fields and "
+"groups of context lines) with escape sequences to display them in color on "
+"the terminal.  The colors are defined by the environment variable "
+"B<GREP_COLORS>.  The deprecated environment variable B<GREP_COLOR> is still "
+"supported, but its setting does not have priority.  I<WHEN> is B<never>, "
+"B<always>, or B<auto>."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:181
+#, no-wrap
+msgid "B<-L>, B<-\\^-files-without-match>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:187
+msgid ""
+"Suppress normal output; instead print the name of each input file from which "
+"no output would normally have been printed.  The scanning will stop on the "
+"first match."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:187
+#, no-wrap
+msgid "B<-l>, B<-\\^-files-with-matches>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:193
+msgid ""
+"Suppress normal output; instead print the name of each input file from which "
+"output would normally have been printed.  The scanning will stop on the "
+"first match."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:193
+#, no-wrap
+msgid "B<-m>I< NUM>,B< -\\^-max-count=>I<NUM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:229
+msgid ""
+"Stop reading a file after I<NUM> matching lines.  If the input is standard "
+"input from a regular file, and I<NUM> matching lines are output, B<grep> "
+"ensures that the standard input is positioned to just after the last "
+"matching line before exiting, regardless of the presence of trailing context "
+"lines.  This enables a calling process to resume a search.  When B<grep> "
+"stops after I<NUM> matching lines, it outputs any trailing context lines.  "
+"When the B<-c> or B<-\\^-count> option is also used, B<grep> does not output "
+"a count greater than I<NUM>.  When the B<-v> or B<-\\^-invert-match> option "
+"is also used, B<grep> stops after outputting I<NUM> non-matching lines."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:229
+#, no-wrap
+msgid "B<-o>, B<-\\^-only-matching>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:233
+msgid ""
+"Print only the matched (non-empty) parts of a matching line, with each such "
+"part on a separate output line."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:233
+#, no-wrap
+msgid "B<-q>, B<-\\^-quiet>, B<-\\^-silent>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:243
+msgid ""
+"Quiet; do not write anything to standard output.  Exit immediately with zero "
+"status if any match is found, even if an error was detected.  Also see the "
+"B<-s> or B<-\\^-no-messages> option."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:243
+#, no-wrap
+msgid "B<-s>, B<-\\^-no-messages>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:246
+msgid "Suppress error messages about nonexistent or unreadable files."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:246
+#, no-wrap
+msgid "Output Line Prefix Control"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:247
+#, no-wrap
+msgid "B<-b>, B<-\\^-byte-offset>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:256
+msgid ""
+"Print the 0-based byte offset within the input file before each line of "
+"output.  If B<-o> (B<-\\^-only-matching>)  is specified, print the offset of "
+"the matching part itself."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:256
+#, no-wrap
+msgid "B<-H>, B<-\\^-with-filename>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:260
+msgid ""
+"Print the file name for each match.  This is the default when there is more "
+"than one file to search."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:260
+#, no-wrap
+msgid "B<-h>, B<-\\^-no-filename>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:265
+msgid ""
+"Suppress the prefixing of file names on output.  This is the default when "
+"there is only one file (or only standard input) to search."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:265
+#, no-wrap
+msgid "B<-\\^-label=>I<LABEL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:276
+msgid ""
+"Display input actually coming from standard input as input coming from file "
+"I<LABEL>.  This is especially useful when implementing tools like B<zgrep>, "
+"e.g., B<gzip -cd foo.gz | grep --label=foo -H something>.  See also the B<-"
+"H> option."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:276
+#, no-wrap
+msgid "B<-n>, B<-\\^-line-number>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:280
+msgid ""
+"Prefix each line of output with the 1-based line number within its input "
+"file."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:280
+#, no-wrap
+msgid "B<-T>, B<-\\^-initial-tab>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:292
+msgid ""
+"Make sure that the first character of actual line content lies on a tab "
+"stop, so that the alignment of tabs looks normal.  This is useful with "
+"options that prefix their output to the actual content: B<-H>,B<-n>, and B<-"
+"b>.  In order to improve the probability that lines from a single file will "
+"all start at the same column, this also causes the line number and byte "
+"offset (if present)  to be printed in a minimum size field width."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:292
+#, no-wrap
+msgid "B<-u>, B<-\\^-unix-byte-offsets>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:306
+msgid ""
+"Report Unix-style byte offsets.  This switch causes B<grep> to report byte "
+"offsets as if the file were a Unix-style text file, i.e., with CR characters "
+"stripped off.  This will produce results identical to running B<grep> on a "
+"Unix machine.  This option has no effect unless B<-b> option is also used; "
+"it has no effect on platforms other than \\s-1MS-DOS\\s0 and \\s-1MS\\s0-"
+"Windows."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:306
+#, no-wrap
+msgid "B<-Z>, B<-\\^-null>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:324
+msgid ""
+"Output a zero byte (the \\s-1ASCII\\s0 B<NUL> character) instead of the "
+"character that normally follows a file name.  For example, B<grep -lZ> "
+"outputs a zero byte after each file name instead of the usual newline.  This "
+"option makes the output unambiguous, even in the presence of file names "
+"containing unusual characters like newlines.  This option can be used with "
+"commands like B<find -print0>, B<perl -0>, B<sort -z>, and B<xargs -0> to "
+"process arbitrary file names, even those that contain newline characters."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:324
+#, no-wrap
+msgid "Context Line Control"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:325
+#, no-wrap
+msgid "B<-A>I< NUM>,B< -\\^-after-context=>I<NUM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:338
+msgid ""
+"Print I<NUM> lines of trailing context after matching lines.  Places a line "
+"containing a group separator (B<-\\^->)  between contiguous groups of "
+"matches.  With the B<-o> or B<-\\^-only-matching> option, this has no effect "
+"and a warning is given."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:338
+#, no-wrap
+msgid "B<-B>I< NUM>,B< -\\^-before-context=>I<NUM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:351
+msgid ""
+"Print I<NUM> lines of leading context before matching lines.  Places a line "
+"containing a group separator (B<-\\^->)  between contiguous groups of "
+"matches.  With the B<-o> or B<-\\^-only-matching> option, this has no effect "
+"and a warning is given."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:351
+#, no-wrap
+msgid "B<-C>I< NUM>,B< ->I<NUM>,B< -\\^-context=>I<NUM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:364
+msgid ""
+"Print I<NUM> lines of output context.  Places a line containing a group "
+"separator (B<-\\^->)  between contiguous groups of matches.  With the B<-o> "
+"or B<-\\^-only-matching> option, this has no effect and a warning is given."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:364
+#, no-wrap
+msgid "File and Directory Selection"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:365
+#, no-wrap
+msgid "B<-a>, B<-\\^-text>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:370
+msgid ""
+"Process a binary file as if it were text; this is equivalent to the B<-\\^-"
+"binary-files=text> option."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:370
+#, no-wrap
+msgid "B<-\\^-binary-files=>I<TYPE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:380
+msgid ""
+"If a file's data or metadata indicate that the file contains binary data, "
+"assume that the file is of type I<TYPE>.  Non-text bytes indicate binary "
+"data; these are either output bytes that are improperly encoded for the "
+"current locale, or null input bytes when the B<-z> option is not given."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:390
+msgid ""
+"By default, I<TYPE> is B<binary>, and when B<grep> discovers that a file is "
+"binary it suppresses any further output, and instead outputs either a one-"
+"line message saying that a binary file matches, or no message if there is no "
+"match."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:401
+msgid ""
+"If I<TYPE> is B<without-match>, when B<grep> discovers that a file is binary "
+"it assumes that the rest of the file does not match; this is equivalent to "
+"the B<-I> option."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:410
+msgid ""
+"If I<TYPE> is B<text>, B<grep> processes a binary file as if it were text; "
+"this is equivalent to the B<-a> option."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:443
+msgid ""
+"When I<type> is B<binary>, B<grep> may treat non-text bytes as line "
+"terminators even without the B<-z> option.  This means choosing B<binary> "
+"versus B<text> can affect whether a pattern matches a file.  For example, "
+"when I<type> is B<binary> the pattern B<q$ might> match B<q> immediately "
+"followed by a null byte, even though this is not matched when I<type> is "
+"B<text>.  Conversely, when I<type> is B<binary> the pattern B<.\\&> (period) "
+"might not match a null byte."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:457
+msgid ""
+"I<Warning:> The B<-a> option might output binary garbage, which can have "
+"nasty side effects if the output is a terminal and if the terminal driver "
+"interprets some of it as commands.  On the other hand, when reading files "
+"whose text encodings are unknown, it can be helpful to use B<-a> or to set "
+"B<LC_ALL='C'> in the environment, in order to find more matches even if the "
+"matches are unsafe for direct display."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:457
+#, no-wrap
+msgid "B<-D>I< ACTION>,B< -\\^-devices=>I<ACTION>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:472
+msgid ""
+"If an input file is a device, FIFO or socket, use I<ACTION> to process it.  "
+"By default, I<ACTION> is B<read>, which means that devices are read just as "
+"if they were ordinary files.  If I<ACTION> is B<skip>, devices are silently "
+"skipped."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:472
+#, no-wrap
+msgid "B<-d>I< ACTION>,B< -\\^-directories=>I<ACTION>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:496
+msgid ""
+"If an input file is a directory, use I<ACTION> to process it.  By default, "
+"I<ACTION> is B<read>, i.e., read directories just as if they were ordinary "
+"files.  If I<ACTION> is B<skip>, silently skip directories.  If I<ACTION> is "
+"B<recurse>, read all files under each directory, recursively, following "
+"symbolic links only if they are on the command line.  This is equivalent to "
+"the B<-r> option."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:496
+#, no-wrap
+msgid "B<-\\^-exclude=>I<GLOB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:516
+msgid ""
+"Skip any command-line file with a name suffix that matches the pattern "
+"I<GLOB>, using wildcard matching; a name suffix is either the whole name, or "
+"any suffix starting after a B</> and before a +non-B</>.  When searching "
+"recursively, skip any subfile whose base name matches I<GLOB>; the base name "
+"is the part after the last B</>.  A pattern can use B<*>, B<?>, and B<[>..."
+"B<]> as wildcards, and B<\\e> to quote a wildcard or backslash character "
+"literally."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:516
+#, no-wrap
+msgid "B<-\\^-exclude-from=>I<FILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:522
+msgid ""
+"Skip files whose base name matches any of the file-name globs read from "
+"I<FILE> (using wildcard matching as described under B<-\\^-exclude>)."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:522
+#, no-wrap
+msgid "B<-\\^-exclude-dir=>I<GLOB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:532
+msgid ""
+"Skip any command-line directory with a name suffix that matches the pattern "
+"I<GLOB>.  When searching recursively, skip any subdirectory whose base name "
+"matches I<GLOB>.  Ignore any redundant trailing slashes in I<GLOB>."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:532
+#, no-wrap
+msgid "B<-I>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:538
+msgid ""
+"Process a binary file as if it did not contain matching data; this is "
+"equivalent to the B<-\\^-binary-files=without-match> option."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:538
+#, no-wrap
+msgid "B<-\\^-include=>I<GLOB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:544
+msgid ""
+"Search only files whose base name matches I<GLOB> (using wildcard matching "
+"as described under B<-\\^-exclude>)."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:544
+#, no-wrap
+msgid "B<-r>, B<-\\^-recursive>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:552
+msgid ""
+"Read all files under each directory, recursively, following symbolic links "
+"only if they are on the command line.  Note that if no file operand is "
+"given, grep searches the working directory.  This is equivalent to the B<-d "
+"recurse> option."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:552
+#, no-wrap
+msgid "B<-R>, B<-\\^-dereference-recursive>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:557
+msgid ""
+"Read all files under each directory, recursively.  Follow all symbolic "
+"links, unlike B<-r>."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:557
+#, no-wrap
+msgid "Other Options"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:558
+#, no-wrap
+msgid "B<-\\^-line-buffered>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:562
+msgid "Use line buffering on output.  This can cause a performance penalty."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:562
+#, no-wrap
+msgid "B<-U>, B<-\\^-binary>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:586
+msgid ""
+"Treat the file(s) as binary.  By default, under \\s-1MS-DOS\\s0 and "
+"\\s-1MS\\s0-Windows, B<grep> guesses whether a file is text or binary as "
+"described for the B<-\\^-binary-files> option.  If B<grep> decides the file "
+"is a text file, it strips the CR characters from the original file contents "
+"(to make regular expressions with B<^> and B<$> work correctly).  Specifying "
+"B<-U> overrules this guesswork, causing all files to be read and passed to "
+"the matching mechanism verbatim; if the file is a text file with CR/LF pairs "
+"at the end of each line, this will cause some regular expressions to fail.  "
+"This option has no effect on platforms other than \\s-1MS-DOS\\s0 and "
+"\\s-1MS\\s0-Windows."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:586
+#, no-wrap
+msgid "B<-z>, B<-\\^-null-data>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:597
+msgid ""
+"Treat input and output data as sequences of lines, each terminated by a zero "
+"byte (the ASCII NUL character) instead of a newline.  Like the B<-Z> or B<-"
+"\\^-null> option, this option can be used with commands like B<sort -z> to "
+"process arbitrary file names."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:598
+#, no-wrap
+msgid "REGULAR EXPRESSIONS"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:602
+msgid ""
+"A regular expression is a pattern that describes a set of strings.  Regular "
+"expressions are constructed analogously to arithmetic expressions, by using "
+"various operators to combine smaller expressions."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:616
+msgid ""
+"B<grep> understands three different versions of regular expression syntax: "
+"``basic'' (BRE), ``extended'' (ERE) and ``perl'' (PCRE).  In \\s-1GNU\\s0\\ "
+"B<grep>, there is no difference in available functionality between basic and "
+"extended syntaxes.  In other implementations, basic regular expressions are "
+"less powerful.  The following description applies to extended regular "
+"expressions; differences for basic regular expressions are summarized "
+"afterwards.  Perl-compatible regular expressions give additional "
+"functionality, and are documented in pcresyntax(3) and pcrepattern(3), but "
+"work only if PCRE is available in the system."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:623
+msgid ""
+"The fundamental building blocks are the regular expressions that match a "
+"single character.  Most characters, including all letters and digits, are "
+"regular expressions that match themselves.  Any meta-character with special "
+"meaning may be quoted by preceding it with a backslash."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:627
+msgid "The period B<.\\&> matches any single character."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:627
+#, no-wrap
+msgid "Character Classes and Bracket Expressions"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:644
+msgid ""
+"A I<bracket expression> is a list of characters enclosed by B<[> and B<]>.  "
+"It matches any single character in that list; if the first character of the "
+"list is the caret B<^> then it matches any character I<not> in the list.  "
+"For example, the regular expression B<[0123456789]> matches any single digit."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:666
+msgid ""
+"Within a bracket expression, a I<range expression> consists of two "
+"characters separated by a hyphen.  It matches any single character that "
+"sorts between the two characters, inclusive, using the locale's collating "
+"sequence and character set.  For example, in the default C locale, B<[a-d]> "
+"is equivalent to B<[abcd]>.  Many locales sort characters in dictionary "
+"order, and in these locales B<[a-d]> is typically not equivalent to "
+"B<[abcd]>; it might be equivalent to B<[aBbCcDd]>, for example.  To obtain "
+"the traditional interpretation of bracket expressions, you can use the C "
+"locale by setting the B<LC_ALL> environment variable to the value B<C>."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:701
+msgid ""
+"Finally, certain named classes of characters are predefined within bracket "
+"expressions, as follows.  Their names are self explanatory, and they are B<[:"
+"alnum:]>, B<[:alpha:]>, B<[:cntrl:]>, B<[:digit:]>, B<[:graph:]>, B<[:"
+"lower:]>, B<[:print:]>, B<[:punct:]>, B<[:space:]>, B<[:upper:]>, and B<[:"
+"xdigit:].> For example, B<[[:alnum:]]> means the character class of numbers "
+"and letters in the current locale. In the C locale and \\s-1ASCII\\s0 "
+"character set encoding, this is the same as B<[0-9A-Za-z]>.  (Note that the "
+"brackets in these class names are part of the symbolic names, and must be "
+"included in addition to the brackets delimiting the bracket expression.)  "
+"Most meta-characters lose their special meaning inside bracket expressions.  "
+"To include a literal B<]> place it first in the list.  Similarly, to include "
+"a literal B<^> place it anywhere but first.  Finally, to include a literal "
+"B<-> place it last."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:701
+#, no-wrap
+msgid "Anchoring"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:708
+msgid ""
+"The caret B<^> and the dollar sign B<$> are meta-characters that "
+"respectively match the empty string at the beginning and end of a line."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:708
+#, no-wrap
+msgid "The Backslash Character and Special Expressions"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:730
+msgid ""
+"The symbols B<\\eE<lt>> and B<\\eE<gt>> respectively match the empty string "
+"at the beginning and end of a word.  The symbol B<\\eb> matches the empty "
+"string at the edge of a word, and B<\\eB> matches the empty string provided "
+"it's I<not> at the edge of a word.  The symbol B<\\ew> is a synonym for "
+"B<[_[:alnum:]]> and B<\\eW> is a synonym for B<[^_[:alnum:]]>."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:730
+#, no-wrap
+msgid "Repetition"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:732
+msgid ""
+"A regular expression may be followed by one of several repetition operators:"
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:733
+#, no-wrap
+msgid "B<?>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:736
+msgid "The preceding item is optional and matched at most once."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:736
+#, no-wrap
+msgid "B<*>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:739
+msgid "The preceding item will be matched zero or more times."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:739
+#, no-wrap
+msgid "B<+>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:742
+msgid "The preceding item will be matched one or more times."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:742
+#, no-wrap
+msgid "B<{>I<n>B<}>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:747
+msgid "The preceding item is matched exactly I<n> times."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:747
+#, no-wrap
+msgid "B<{>I<n>B<,}>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:752
+msgid "The preceding item is matched I<n> or more times."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:752
+#, no-wrap
+msgid "B<{,>I<m>B<}>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:758
+msgid ""
+"The preceding item is matched at most I<m> times.  This is a \\s-1GNU\\s0 "
+"extension."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:758
+#, no-wrap
+msgid "B<{>I<n>B<,>I<m>B<}>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:765
+msgid ""
+"The preceding item is matched at least I<n> times, but not more than I<m> "
+"times."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:766
+#, no-wrap
+msgid "Concatenation"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:771
+msgid ""
+"Two regular expressions may be concatenated; the resulting regular "
+"expression matches any string formed by concatenating two substrings that "
+"respectively match the concatenated expressions."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:771
+#, no-wrap
+msgid "Alternation"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:776
+msgid ""
+"Two regular expressions may be joined by the infix operator B<|>; the "
+"resulting regular expression matches any string matching either alternate "
+"expression."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:776
+#, no-wrap
+msgid "Precedence"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:781
+msgid ""
+"Repetition takes precedence over concatenation, which in turn takes "
+"precedence over alternation.  A whole expression may be enclosed in "
+"parentheses to override these precedence rules and form a subexpression."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:781
+#, no-wrap
+msgid "Back References and Subexpressions"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:790
+msgid ""
+"The back-reference B<\\e>I<n>\\&, where I<n> is a single digit, matches the "
+"substring previously matched by the I<n>th parenthesized subexpression of "
+"the regular expression."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:790
+#, no-wrap
+msgid "Basic vs Extended Regular Expressions"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:808
+msgid ""
+"In basic regular expressions the meta-characters B<?>, B<+>, B<{>, B<|>, "
+"B<(>, and B<)> lose their special meaning; instead use the backslashed "
+"versions B<\\e?>, B<\\e+>, B<\\e{>, B<\\e|>, B<\\e(>, and B<\\e)>."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:809
+#, no-wrap
+msgid "ENVIRONMENT VARIABLES"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:813
+msgid ""
+"The behavior of B<grep> is affected by the following environment variables."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:838
+msgid ""
+"The locale for category B<LC_>I<foo> is specified by examining the three "
+"environment variables B<LC_ALL>, B<LC_>I<foo>, B<LANG>, in that order.  The "
+"first of these variables that is set specifies the locale.  For example, if "
+"B<LC_ALL> is not set, but B<LC_MESSAGES> is set to B<pt_BR>, then the "
+"Brazilian Portuguese locale is used for the B<LC_MESSAGES> category.  The C "
+"locale is used if none of these environment variables are set, if the locale "
+"catalog is not installed, or if B<grep> was not compiled with national "
+"language support (\\s-1NLS\\s0).  The shell command B<locale -a> lists "
+"locales that are currently available."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:838
+#, no-wrap
+msgid "B<GREP_OPTIONS>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:849
+msgid ""
+"This variable specifies default options to be placed in front of any "
+"explicit options.  As this causes problems when writing portable scripts, "
+"this feature will be removed in a future release of B<grep>, and B<grep> "
+"warns if it is used.  Please use an alias or script instead."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:849
+#, no-wrap
+msgid "B<GREP_COLOR>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:874
+msgid ""
+"This variable specifies the color used to highlight matched (non-empty) "
+"text.  It is deprecated in favor of B<GREP_COLORS>, but still supported.  "
+"The B<mt>, B<ms>, and B<mc> capabilities of B<GREP_COLORS> have priority "
+"over it.  It can only specify the color used to highlight the matching non-"
+"empty text in any matching line (a selected line when the B<-v> command-line "
+"option is omitted, or a context line when B<-v> is specified).  The default "
+"is B<01;31>, which means a bold red foreground text on the terminal's "
+"default background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:874
+#, no-wrap
+msgid "B<GREP_COLORS>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:887
+msgid ""
+"Specifies the colors and other attributes used to highlight various parts of "
+"the output.  Its value is a colon-separated list of capabilities that "
+"defaults to B<ms=01;31:mc=01;31:sl=:cx=:fn=35:ln=32:bn=32:se=36> with the "
+"B<rv> and B<ne> boolean capabilities omitted (i.e., false).  Supported "
+"capabilities are as follows."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:888
+#, no-wrap
+msgid "B<sl=>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:906
+msgid ""
+"SGR substring for whole selected lines (i.e., matching lines when the B<-v> "
+"command-line option is omitted, or non-matching lines when B<-v> is "
+"specified).  If however the boolean B<rv> capability and the B<-v> command-"
+"line option are both specified, it applies to context matching lines "
+"instead.  The default is empty (i.e., the terminal's default color pair)."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:906
+#, no-wrap
+msgid "B<cx=>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:924
+msgid ""
+"SGR substring for whole context lines (i.e., non-matching lines when the B<-"
+"v> command-line option is omitted, or matching lines when B<-v> is "
+"specified).  If however the boolean B<rv> capability and the B<-v> command-"
+"line option are both specified, it applies to selected non-matching lines "
+"instead.  The default is empty (i.e., the terminal's default color pair)."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:924
+#, no-wrap
+msgid "B<rv>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:936
+msgid ""
+"Boolean value that reverses (swaps) the meanings of the B<sl=> and B<cx=> "
+"capabilities when the B<-v> command-line option is specified.  The default "
+"is false (i.e., the capability is omitted)."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:936
+#, no-wrap
+msgid "B<mt=01;31>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:952
+msgid ""
+"SGR substring for matching non-empty text in any matching line (i.e., a "
+"selected line when the B<-v> command-line option is omitted, or a context "
+"line when B<-v> is specified).  Setting this is equivalent to setting both "
+"B<ms=> and B<mc=> at once to the same value.  The default is a bold red text "
+"foreground over the current line background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:952
+#, no-wrap
+msgid "B<ms=01;31>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:966
+msgid ""
+"SGR substring for matching non-empty text in a selected line.  (This is only "
+"used when the B<-v> command-line option is omitted.)  The effect of the "
+"B<sl=> (or B<cx=> if B<rv>)  capability remains active when this kicks in.  "
+"The default is a bold red text foreground over the current line background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:966
+#, no-wrap
+msgid "B<mc=01;31>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:980
+msgid ""
+"SGR substring for matching non-empty text in a context line.  (This is only "
+"used when the B<-v> command-line option is specified.)  The effect of the "
+"B<cx=> (or B<sl=> if B<rv>)  capability remains active when this kicks in.  "
+"The default is a bold red text foreground over the current line background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:980
+#, no-wrap
+msgid "B<fn=35>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:984
+msgid ""
+"SGR substring for file names prefixing any content line.  The default is a "
+"magenta text foreground over the terminal's default background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:984
+#, no-wrap
+msgid "B<ln=32>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:988
+msgid ""
+"SGR substring for line numbers prefixing any content line.  The default is a "
+"green text foreground over the terminal's default background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:988
+#, no-wrap
+msgid "B<bn=32>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:992
+msgid ""
+"SGR substring for byte offsets prefixing any content line.  The default is a "
+"green text foreground over the terminal's default background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:992
+#, no-wrap
+msgid "B<se=36>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1002
+msgid ""
+"SGR substring for separators that are inserted between selected line fields "
+"(B<:>), between context line fields, (B<->), and between groups of adjacent "
+"lines when nonzero context is specified (B<-\\^->).  The default is a cyan "
+"text foreground over the terminal's default background."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:1002
+#, no-wrap
+msgid "B<ne>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1017
+msgid ""
+"Boolean value that prevents clearing to the end of line using Erase in Line "
+"(EL) to Right (B<\\e\\33[K>)  each time a colorized item ends.  This is "
+"needed on terminals on which EL is not supported.  It is otherwise useful on "
+"terminals for which the B<back_color_erase> (B<bce>)  boolean terminfo "
+"capability does not apply, when the chosen highlight colors do not affect "
+"the background, or when EL is too slow or causes too much flicker.  The "
+"default is false (i.e., the capability is omitted)."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1022
+msgid ""
+"Note that boolean capabilities have no B<=>...  part.  They are omitted (i."
+"e., false) by default and become true when specified."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1069
+msgid ""
+"See the Select Graphic Rendition (SGR) section in the documentation of the "
+"text terminal that is used for permitted values and their meaning as "
+"character attributes.  These substring values are integers in decimal "
+"representation and can be concatenated with semicolons.  B<grep> takes care "
+"of assembling the result into a complete SGR sequence (B<\\e\\33[>...B<m>).  "
+"Common values to concatenate include B<1> for bold, B<4> for underline, B<5> "
+"for blink, B<7> for inverse, B<39> for default foreground color, B<30> to "
+"B<37> for foreground colors, B<90> to B<97> for 16-color mode foreground "
+"colors, B<38;5;0> to B<38;5;255> for 88-color and 256-color modes foreground "
+"colors, B<49> for default background color, B<40> to B<47> for background "
+"colors, B<100> to B<107> for 16-color mode background colors, and B<48;5;0> "
+"to B<48;5;255> for 88-color and 256-color modes background colors."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:1070
+#, no-wrap
+msgid "B<LC_ALL>, B<LC_COLLATE>, B<LANG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1078
+msgid ""
+"These variables specify the locale for the B<LC_COLLATE> category, which "
+"determines the collating sequence used to interpret range expressions like "
+"B<[a-z]>."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:1078
+#, no-wrap
+msgid "B<LC_ALL>, B<LC_CTYPE>, B<LANG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1089
+msgid ""
+"These variables specify the locale for the B<LC_CTYPE> category, which "
+"determines the type of characters, e.g., which characters are whitespace.  "
+"This category also determines the character encoding, that is, whether text "
+"is encoded in UTF-8, ASCII, or some other encoding.  In the C or POSIX "
+"locale, all characters are encoded as a single byte and every byte is a "
+"valid character."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:1089
+#, no-wrap
+msgid "B<LC_ALL>, B<LC_MESSAGES>, B<LANG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1098
+msgid ""
+"These variables specify the locale for the B<LC_MESSAGES> category, which "
+"determines the language that B<grep> uses for messages.  The default C "
+"locale uses American English messages."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:1098
+#, no-wrap
+msgid "B<POSIXLY_CORRECT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1114
+msgid ""
+"If set, B<grep> behaves as \\s-1POSIX\\s0 requires; otherwise, B<grep> "
+"behaves more like other \\s-1GNU\\s0 programs.  \\s-1POSIX\\s0 requires that "
+"options that follow file names must be treated as file names; by default, "
+"such options are permuted to the front of the operand list and are treated "
+"as options.  Also, \\s-1POSIX\\s0 requires that unrecognized options be "
+"diagnosed as ``illegal'', but since they are not really against the law the "
+"default is to diagnose them as ``invalid''.  B<POSIXLY_CORRECT> also "
+"disables B<_>I<N>B<_GNU_nonoption_argv_flags_>, described below."
+msgstr ""
+
+#. type: TP
+#: raw/grep/man1/grep.1:1114
+#, no-wrap
+msgid "B<_>I<N>B<_GNU_nonoption_argv_flags_>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1136
+msgid ""
+"(Here I<N> is B<grep>'s numeric process ID.)  If the I<i>th character of "
+"this environment variable's value is B<1>, do not consider the I<i>th "
+"operand of B<grep> to be an option, even if it appears to be one.  A shell "
+"can put this variable in the environment for each command it runs, "
+"specifying which operands are the results of file name wildcard expansion "
+"and therefore should not be treated as options.  This behavior is available "
+"only with the \\s-1GNU\\s0 C library, and only when B<POSIXLY_CORRECT> is "
+"not set."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:1137
+#, no-wrap
+msgid "EXIT STATUS"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1147
+msgid ""
+"Normally the exit status is 0 if a line is selected, 1 if no lines were "
+"selected, and 2 if an error occurred.  However, if the B<-q> or B<-\\^-"
+"quiet> or B<-\\^-silent> is used and a line is selected, the exit status is "
+"0 even if an error occurred."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:1148
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1150
+msgid "Copyright 1998-2000, 2002, 2005-2016 Free Software Foundation, Inc."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1155
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO "
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:1156
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:1157
+#, no-wrap
+msgid "Reporting Bugs"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1171
+msgid ""
+"Email bug reports to E<.MT bug-grep@gnu.org> the bug-reporting address E<."
+"ME .> An E<.UR https://lists.gnu.org/mailman/listinfo/bug-grep> email "
+"archive E<.UE> and a E<.UR https://debbugs.gnu.org/cgi/pkgreport.cgi?"
+"package=grep> bug tracker E<.UE> are available."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:1171
+#, no-wrap
+msgid "Known Bugs"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1182
+msgid ""
+"Large repetition counts in the B<{>I<n>B<,>I<m>B<}> construct may cause "
+"B<grep> to use lots of memory.  In addition, certain other obscure regular "
+"expressions require exponential time and space, and may cause B<grep> to run "
+"out of memory."
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1184
+msgid "Back-references are very slow, and may require exponential time."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:1185
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:1186
+#, no-wrap
+msgid "Regular Manual Pages"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1193
+msgid ""
+"awk(1), cmp(1), diff(1), find(1), gzip(1), perl(1), sed(1), sort(1), "
+"xargs(1), zgrep(1), read(2), pcre(3), pcresyntax(3), pcrepattern(3), "
+"terminfo(5), glob(7), regex(7)."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:1193
+#, no-wrap
+msgid "\\s-1POSIX\\s0 Programmer's Manual Page"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1195
+msgid "grep(1p)."
+msgstr ""
+
+#. type: SS
+#: raw/grep/man1/grep.1:1195
+#, no-wrap
+msgid "Full Documentation"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1206
+msgid ""
+"A E<.UR https://www.gnu.org/software/grep/manual/> complete manual E<.UE> is "
+"available.  If the B<info> and B<grep> programs are properly installed at "
+"your site, the command"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1208
+msgid "B<info grep>"
+msgstr ""
+
+#. type: Plain text
+#: raw/grep/man1/grep.1:1210
+msgid "should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: raw/grep/man1/grep.1:1211
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#.  Work around problems with some troff -man implementations.
+#. type: Plain text
+#: raw/grep/man1/grep.1:1215
+msgid ""
+"This man page is maintained only fitfully; the full documentation is often "
+"more up-to-date."
+msgstr ""

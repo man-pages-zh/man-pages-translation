@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-07 14:02-0500\n"
 "PO-Revision-Date: 2022-12-06 22:17-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -33,7 +33,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/ls.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -77,7 +76,8 @@ msgid ""
 "List information about the FILEs (the current directory by default).  Sort "
 "entries alphabetically if none of B<-cftuvSUX> nor B<--sort> is specified."
 msgstr ""
-"列出指定“文件”（默认为当前目录）的信息。如果既没有指定 B<-cftuvSUX> 中任何一个，也没有指定 B<--sort>，则按字母排序项目。"
+"列出指定“文件”（默认为当前目录）的信息。如果既没有指定 B<-cftuvSUX> 中任何一"
+"个，也没有指定 B<--sort>，则按字母排序项目。"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:15
@@ -140,7 +140,9 @@ msgstr "B<--block-size>=I<\\,大小\\/>"
 msgid ""
 "with B<-l>, scale sizes by SIZE when printing them; e.g., '--block-size=M'; "
 "see SIZE format below"
-msgstr "与 B<-l> 同时使用时，打印文件大小前将其除以指定的块大小；例如：\"--block-size=M\"；参见下方的“大小”格式"
+msgstr ""
+"与 B<-l> 同时使用时，打印文件大小前将其除以指定的块大小；例如：\"--block-"
+"size=M\"；参见下方的“大小”格式"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:31
@@ -166,8 +168,9 @@ msgid ""
 "status information); with B<-l>: show ctime and sort by name; otherwise: "
 "sort by ctime, newest first"
 msgstr ""
-"与 B<-lt> 一起使用时：按照 ctime 排序，并显示 ctime（文件状态信息最后变更的时间）；与 B<-l> 一起使用时：显示 ctime"
-" 并按照名称排序；其它情况：按照 ctime 排序，最新的最前"
+"与 B<-lt> 一起使用时：按照 ctime 排序，并显示 ctime（文件状态信息最后变更的时"
+"间）；与 B<-l> 一起使用时：显示 ctime 并按照名称排序；其它情况：按照 ctime 排"
+"序，最新的最前"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:40
@@ -221,14 +224,12 @@ msgstr "B<-f>"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:55
-#| msgid "ls - list directory contents"
 msgid "list all entries in directory order"
 msgstr "按照目录顺序列出各项目"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:55
 #, no-wrap
-#| msgid "B<-F>, B<--classify>"
 msgid "B<-F>, B<--classify>[=I<\\,WHEN\\/>]"
 msgstr "B<-F>, B<--classify>[=I<\\,何时\\/>]"
 
@@ -260,8 +261,8 @@ msgid ""
 "across B<-x>, commas B<-m>, horizontal B<-x>, long B<-l>, single-column "
 "B<-1>, verbose B<-l>, vertical B<-C>"
 msgstr ""
-"across 同 B<-x>、commas 同 B<-m>、horizontal 同 B<-x>、long 同 B<-l>、single-column 同"
-" B<-1>、verbose 同 B<-l>、vertical 同 B<-C>"
+"across 同 B<-x>、commas 同 B<-m>、horizontal 同 B<-x>、long 同 B<-l>、single-"
+"column 同 B<-1>、verbose 同 B<-l>、vertical 同 B<-C>"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:65
@@ -297,7 +298,8 @@ msgid ""
 "group directories before files; can be augmented with a B<--sort> option, "
 "but any use of B<--sort>=I<\\,none\\/> (B<-U>) disables grouping"
 msgstr ""
-"将目录排在文件前面；此选项可与 B<--sort> 一起使用，但是一旦使用 B<--sort>=I<\\,none\\/> (B<-U>) 则禁用此选项"
+"将目录排在文件前面；此选项可与 B<--sort> 一起使用，但是一旦使用 B<--"
+"sort>=I<\\,none\\/> (B<-U>) 则禁用此选项"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:76
@@ -390,8 +392,8 @@ msgid ""
 "append indicator with style WORD to entry names: none (default), slash (B<-"
 "p>), file-type (B<--file-type>), classify (B<-F>)"
 msgstr ""
-"指定在项目名称后追加的指示符号的风格：none（默认）、slash（同 B<-p>）、file-type（同 B<--file-type"
-">）、classify（同 B<-F>）"
+"指定在项目名称后追加的指示符号的风格：none（默认）、slash（同 B<-p>）、file-"
+"type（同 B<--file-type>）、classify（同 B<-F>）"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:104
@@ -426,7 +428,9 @@ msgstr "B<-k>, B<--kibibytes>"
 msgid ""
 "default to 1024-byte blocks for file system usage; used only with B<-s> and "
 "per directory totals"
-msgstr "显示文件系统使用量时，默认使用 1024 字节的块大小；只用于 B<-s> 和每个目录的总计"
+msgstr ""
+"显示文件系统使用量时，默认使用 1024 字节的块大小；只用于 B<-s> 和每个目录的总"
+"计"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:114
@@ -450,7 +454,9 @@ msgstr "B<-L>, B<--dereference>"
 msgid ""
 "when showing file information for a symbolic link, show information for the "
 "file the link references rather than for the link itself"
-msgstr "显示符号链接的文件信息时，显示符号链接指向的文件的信息，而非符号链接本身的信息"
+msgstr ""
+"显示符号链接的文件信息时，显示符号链接指向的文件的信息，而非符号链接本身的信"
+"息"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:122
@@ -529,7 +535,9 @@ msgstr "B<--show-control-chars>"
 msgid ""
 "show nongraphic characters as-is (the default, unless program is 'ls' and "
 "output is a terminal)"
-msgstr "原样显示无法打印的字符（这是默认行为，除非被调用时的程序名是 \"ls\" 且在终端中进行输出）"
+msgstr ""
+"原样显示无法打印的字符（这是默认行为，除非被调用时的程序名是 \"ls\" 且在终端"
+"中进行输出）"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:144
@@ -555,8 +563,9 @@ msgid ""
 "always, shell-escape, shell-escape-always, c, escape (overrides "
 "QUOTING_STYLE environment variable)"
 msgstr ""
-"使用指定的加引号方式显示项目名称：literal、locale、shell、shell-always、shell-escape、shell-escape-"
-"always、c、escape（该选项优先于 QUOTING_STYLE 环境变量）"
+"使用指定的加引号方式显示项目名称：literal、locale、shell、shell-always、"
+"shell-escape、shell-escape-always、c、escape（该选项优先于 QUOTING_STYLE 环境"
+"变量）"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:153
@@ -614,8 +623,8 @@ msgid ""
 "sort by WORD instead of name: none (B<-U>), size (B<-S>), time (B<-t>), "
 "version (B<-v>), extension (B<-X>), width"
 msgstr ""
-"按照关键字而非名称进行排序：none（同 -U）、size（同 -S）、time（同 -t）、version（同 -v）、extension（同"
-" -X）、width"
+"按照关键字而非名称进行排序：none（同 -U）、size（同 -S）、time（同 -t）、"
+"version（同 -v）、extension（同 -X）、width"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:169
@@ -629,15 +638,17 @@ msgid ""
 "change the default of using modification times; access time (B<-u>): atime, "
 "access, use; change time (B<-c>): ctime, status; birth time: birth, creation;"
 msgstr ""
-"改变使用的时间类型，默认为修改时间；访问时间（同 B<-u>）：atime、access、use；变更时间（同 B<-c"
-">）：ctime、status；创建时间：birth、creation；"
+"改变使用的时间类型，默认为修改时间；访问时间（同 B<-u>）：atime、access、"
+"use；变更时间（同 B<-c>）：ctime、status；创建时间：birth、creation；"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:178
 msgid ""
 "with B<-l>, WORD determines which time to show; with B<--sort>=I<\\,time\\/"
 ">, sort by WORD (newest first)"
-msgstr "和 -l 同时使用时，关键字 指定要显示的时间类型；和 --sort=time 同时使用时，按照关键字进行排序（最新的最前）"
+msgstr ""
+"和 -l 同时使用时，关键字 指定要显示的时间类型；和 --sort=time 同时使用时，按"
+"照关键字进行排序（最新的最前）"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:178
@@ -684,7 +695,8 @@ msgid ""
 "with B<-lt>: sort by, and show, access time; with B<-l>: show access time "
 "and sort by name; otherwise: sort by access time, newest first"
 msgstr ""
-"与 B<-lt> 同时使用时：显示访问时间且按访问时间排序；与 B<-l> 同时使用时：显示访问时间但按名称排序；其他情况：按访问时间排序，最新的最前"
+"与 B<-lt> 同时使用时：显示访问时间且按访问时间排序；与 B<-l> 同时使用时：显示"
+"访问时间但按名称排序；其他情况：按访问时间排序，最新的最前"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:192
@@ -755,7 +767,6 @@ msgstr "输出每个文件的所有安全上下文信息"
 #. type: TP
 #: raw/coreutils/man1/ls.1:210
 #, no-wrap
-#| msgid "B<--version>"
 msgid "B<--zero>"
 msgstr "B<--zero>"
 
@@ -804,8 +815,9 @@ msgid ""
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
 "of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
-"大小的参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位有 K、M、G、T、P、E、Z、Y（1024 的幂）以及"
-" KB、MB、...（1000 的幂）。也可以使用二进制前缀：KiB=K、MiB=M，以此类推。"
+"大小的参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位"
+"有 K、M、G、T、P、E、Z、Y（1024 的幂）以及 KB、MB、...（1000 的幂）。也可以使"
+"用二进制前缀：KiB=K、MiB=M，以此类推。"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:232
@@ -817,9 +829,11 @@ msgid ""
 "only outside the POSIX locale.  Also the TIME_STYLE environment variable "
 "sets the default style to use."
 msgstr ""
-"时间风格参数可以是 full-iso、long-iso、iso、locale，或者“+格式”。“格式”的解析方式同 B<date>(1)。如果“格式”是"
-" 格式1E<lt>换行符E<gt>格式2 的话，则 格式1 将应用于时间较久远的文件，格式2 将应用于时间较近的文件。“时间风格”如果带有"
-" \"posix-\" 前缀，则它只会在区域设置非 POSIX 时生效。另外，可以使用 TIME_STYLE 环境变量设置默认使用的风格。"
+"时间风格参数可以是 full-iso、long-iso、iso、locale，或者“+格式”。“格式”的解析"
+"方式同 B<date>(1)。如果“格式”是 格式1E<lt>换行符E<gt>格式2 的话，则 格式1 将"
+"应用于时间较久远的文件，格式2 将应用于时间较近的文件。“时间风格”如果带有 "
+"\"posix-\" 前缀，则它只会在区域设置非 POSIX 时生效。另外，可以使用 "
+"TIME_STYLE 环境变量设置默认使用的风格。"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:234
@@ -836,9 +850,10 @@ msgid ""
 "environment variable can change the settings.  Use the B<dircolors>(1) "
 "command to set it."
 msgstr ""
-"使用颜色来区分文件类型的功能默认禁用，也可以使用 B<--color>=I<\\,never\\/> 禁用。若使用 B<--color>=I<"
-"\\,auto\\/> 选项，ls 只在标准输出连接至终端时才生成颜色代码。LS_COLORS 环境变量可以改变颜色设置。可以使用 B<dircolors"
-">(1) 命令来设置它。"
+"使用颜色来区分文件类型的功能默认禁用，也可以使用 B<--color>=I<\\,never\\/> 禁"
+"用。若使用 B<--color>=I<\\,auto\\/> 选项，ls 只在标准输出连接至终端时才生成颜"
+"色代码。LS_COLORS 环境变量可以改变颜色设置。可以使用 B<dircolors>(1) 命令来设"
+"置它。"
 
 #. type: SS
 #: raw/coreutils/man1/ls.1:239
@@ -900,13 +915,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/ls.1:253
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:255
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/ls.1:255
@@ -916,9 +933,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/ls.1:258
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -931,7 +945,9 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
+msgstr ""
+"本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何"
+"保证。"
 
 #. type: SH
 #: raw/coreutils/man1/ls.1:261
