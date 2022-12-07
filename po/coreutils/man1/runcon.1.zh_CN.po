@@ -2,20 +2,20 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016, 2017, 2020.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2020-05-16 11:54-0400\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"POT-Creation-Date: 2022-12-07 13:28-0500\n"
+"PO-Revision-Date: 2022-12-07 12:57-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/runcon.1:2
@@ -27,14 +27,13 @@ msgstr "RUNCON"
 #: raw/coreutils/man1/runcon.1:2
 #, no-wrap
 msgid "September 2022"
-msgstr ""
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/runcon.1:2
-#, fuzzy, no-wrap
-#| msgid "GNU coreutils 8.32"
+#, no-wrap
 msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 8.32"
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/runcon.1:2
@@ -239,15 +238,11 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/runcon.1:61
-#, fuzzy
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
@@ -256,8 +251,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+"本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何"
+"保证。"
 
 #. type: SH
 #: raw/coreutils/man1/runcon.1:64

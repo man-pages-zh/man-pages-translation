@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 22:29-0500\n"
-"PO-Revision-Date: 2022-12-06 21:53-0500\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2022-12-07 13:26-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -148,7 +148,7 @@ msgstr ""
 #: raw/coreutils/man1/tail.1:33
 #, no-wrap
 msgid "B<--max-unchanged-stats>=I<\\,N\\/>"
-msgstr ""
+msgstr "B<--max-unchanged-stats>=I<\\,N\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:36
@@ -172,7 +172,7 @@ msgstr "B<--pid>=I<\\,PID\\/>"
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:44
 msgid "with B<-f>, terminate after process ID, PID dies"
-msgstr ""
+msgstr "和 B<-f> 同时使用时，在进程号为 PID 的进程结束后终止执行"
 
 #. type: TP
 #: raw/coreutils/man1/tail.1:44
@@ -183,7 +183,7 @@ msgstr "B<-q>, B<--quiet>, B<--silent>"
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:47
 msgid "never output headers giving file names"
-msgstr ""
+msgstr "不输出含有文件名的头"
 
 #. type: TP
 #: raw/coreutils/man1/tail.1:47
@@ -200,7 +200,7 @@ msgstr "如果文件无法访问，一直重复尝试打开文件"
 #: raw/coreutils/man1/tail.1:50
 #, no-wrap
 msgid "B<-s>, B<--sleep-interval>=I<\\,N\\/>"
-msgstr ""
+msgstr "B<-s>, B<--sleep-interval>=I<\\,N\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:56
@@ -209,6 +209,8 @@ msgid ""
 "iterations; with inotify and B<--pid>=I<\\,P\\/>, check process P at least "
 "once every N seconds"
 msgstr ""
+"和 B< -f> 同时使用时，在两次迭代之间睡眠约 N 秒（默认 1.0 秒）；内核支持 inotify 且使用了 B<--pid>=I<\\,P\\/>"
+" 时，每 N 秒至少检查一次进程 P"
 
 #. type: TP
 #: raw/coreutils/man1/tail.1:56
@@ -299,15 +301,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/tail.1:85
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:87
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/tail.1:87

@@ -46,8 +46,7 @@ fragmentation, indirect blocks, and the like
 层时输出对应目录或文件的对应大小；\fB\-\-max\-depth\fP=\fI\,0\/\fP 等效于 \fB\-\-summarize\fP
 .TP 
 \fB\-\-files0\-from\fP=\fI\,F\/\fP
-summarize device usage of the NUL\-terminated file names specified in file F;
-if F is \-, then read names from standard input
+统计文件 F 中的以 NUL 空字符分隔的文件名所对应的各个文件的设备使用量；如果 F 是 "\-"，则从标准输入读取文件名
 .TP 
 \fB\-H\fP
 和 \fB\-\-dereference\-args\fP（\fB\-D\fP）等效
@@ -110,14 +109,11 @@ if F is \-, then read names from standard input
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-Display values are in units of the first available SIZE from
-\fB\-\-block\-size\fP, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment
-variables.  Otherwise, units default to 1024 bytes (or 512 if
-POSIXLY_CORRECT is set).
+所显示的数值的单位是 \fB\-\-block\-size\fP 选项的参数、DU_BLOCK_SIZE、BLOCK_SIZE 和 BLOCKSIZE
+环境变量的值中，第一个可用的大小。否则，默认单位是 1024 字节（如果 POSIXLY_CORRECT 被设定，则为 512 字节）。
 .PP
-The SIZE argument is an integer and optional unit (example: 10K is
-10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers
-of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+大小 参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位有 K、M、G、T、P、E、Z、Y（1024 的幂）以及
+KB、MB、...（1000 的幂）。也可以使用二进制前缀：KiB=K、MiB=M，以此类推。
 .SH PATTERNS
 PATTERN is a shell pattern (not a regular expression).  The pattern \fB?\&\fP
 matches any one character, whereas \fB*\fP matches any string (composed of

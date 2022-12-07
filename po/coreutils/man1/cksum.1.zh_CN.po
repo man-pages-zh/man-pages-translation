@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 22:29-0500\n"
-"PO-Revision-Date: 2022-12-06 22:15-0500\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"POT-Creation-Date: 2022-12-07 13:27-0500\n"
+"PO-Revision-Date: 2022-12-07 12:59-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:5
 msgid "cksum - compute and verify file checksums"
-msgstr ""
+msgstr "cksum - 计算并验证文件校验和"
 
 #. type: SH
 #: raw/coreutils/man1/cksum.1:5
@@ -60,10 +60,8 @@ msgstr "概述"
 
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:8
-#, fuzzy
-#| msgid "B<cksum> [I<\\,FILE\\/>]..."
 msgid "B<cksum> [I<\\,OPTION\\/>]... [I<\\,FILE\\/>]..."
-msgstr "B<cksum> [I<\\,文件列表\\/>]..."
+msgstr "B<cksum> [I<\\,选项\\/>]... [I<\\,文件列表\\/>]..."
 
 #. type: SH
 #: raw/coreutils/man1/cksum.1:8
@@ -74,40 +72,40 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:13
 msgid "Print or verify checksums.  By default use the 32 bit CRC algorithm."
-msgstr ""
+msgstr "显示或验证校验和。默认使用 32 位 CRC 算法。"
 
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:15
 msgid "With no FILE, or when FILE is -, read standard input."
-msgstr ""
+msgstr "如果没有指定文件，或者指定文件为“-”，则从标准输入读取。"
 
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:17
 msgid ""
 "Mandatory arguments to long options are mandatory for short options too."
-msgstr ""
+msgstr "必选参数对长短选项同时适用。"
 
 #. type: TP
 #: raw/coreutils/man1/cksum.1:17
 #, no-wrap
 msgid "B<-a>, B<--algorithm>=I<\\,TYPE\\/>"
-msgstr ""
+msgstr "B<-a>, B<--algorithm>=I<\\,类型\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:20
 msgid "select the digest type to use.  See DIGEST below."
-msgstr ""
+msgstr "选择要使用的摘要类型。参见下文中的“摘要”一段。"
 
 #. type: TP
 #: raw/coreutils/man1/cksum.1:20
 #, no-wrap
 msgid "B<-c>, B<--check>"
-msgstr ""
+msgstr "B<-c>, B<--check>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cksum.1:23
 msgid "read checksums from the FILEs and check them"
-msgstr ""
+msgstr "从指定文件中读取校验和并进行检验"
 
 #. type: TP
 #: raw/coreutils/man1/cksum.1:23

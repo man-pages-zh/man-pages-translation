@@ -41,18 +41,17 @@ or renamed (this is the usual case of rotated log files); with inotify, this
 option is rarely useful
 .TP 
 \fB\-\-pid\fP=\fI\,PID\/\fP
-with \fB\-f\fP, terminate after process ID, PID dies
+和 \fB\-f\fP 同时使用时，在进程号为 PID 的进程结束后终止执行
 .TP 
 \fB\-q\fP, \fB\-\-quiet\fP, \fB\-\-silent\fP
-never output headers giving file names
+不输出含有文件名的头
 .TP 
 \fB\-\-retry\fP
 如果文件无法访问，一直重复尝试打开文件
 .TP 
 \fB\-s\fP, \fB\-\-sleep\-interval\fP=\fI\,N\/\fP
-with \fB\-f\fP, sleep for approximately N seconds (default 1.0) between
-iterations; with inotify and \fB\-\-pid\fP=\fI\,P\/\fP, check process P at least
-once every N seconds
+和 \fB \-f\fP 同时使用时，在两次迭代之间睡眠约 N 秒（默认 1.0 秒）；内核支持 inotify 且使用了 \fB\-\-pid\fP=\fI\,P\/\fP
+时，每 N 秒至少检查一次进程 P
 .TP 
 \fB\-v\fP, \fB\-\-verbose\fP
 总是输出含有文件名的头

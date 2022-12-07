@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 22:29-0500\n"
-"PO-Revision-Date: 2022-12-06 22:23-0500\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2022-12-07 12:56-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -177,14 +177,14 @@ msgstr "用给定后缀替代通常使用的备份文件后缀"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:44
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
-msgstr "B<-T>, B<--no-target-directory>"
+msgstr "B<-t>, B<--target-directory>=I<\\,DIRECTORY\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:47
 msgid "move all SOURCE arguments into DIRECTORY"
-msgstr ""
+msgstr "将所有源文件移动至目标目录中"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:47
@@ -208,7 +208,7 @@ msgstr "B<-u>, B<--update>"
 msgid ""
 "move only when the SOURCE file is newer than the destination file or when "
 "the destination file is missing"
-msgstr ""
+msgstr "仅在源文件比目标文件更新，或者目标文件不存在时，才进行移动操作"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:55
@@ -331,15 +331,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mv.1:88
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:90
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/mv.1:90

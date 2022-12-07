@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 22:29-0500\n"
-"PO-Revision-Date: 2022-12-06 21:28-0500\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"POT-Creation-Date: 2022-12-07 13:27-0500\n"
+"PO-Revision-Date: 2022-12-07 12:54-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -201,16 +201,12 @@ msgstr "B<--files0-from>=I<\\,F\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:55
-#, fuzzy
-#| msgid ""
-#| "summarize disk usage of the NUL-terminated file names specified in file "
-#| "F; if F is -, then read names from standard input"
 msgid ""
 "summarize device usage of the NUL-terminated file names specified in file F; "
 "if F is -, then read names from standard input"
 msgstr ""
-"统计由文件 F 给出的由 NUL 空字符结束的文件名列表所对应各个文件的信息；如果 F "
-"是 -，则从标准输入读取文件名列表"
+"统计文件 F 中的以 NUL 空字符分隔的文件名所对应的各个文件的设备使用量；如果 F "
+"是 \"-\"，则从标准输入读取文件名"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:55
@@ -451,6 +447,9 @@ msgid ""
 "variables.  Otherwise, units default to 1024 bytes (or 512 if "
 "POSIXLY_CORRECT is set)."
 msgstr ""
+"所显示的数值的单位是 B<--block-size> 选项的参数、DU_BLOCK_SIZE、BLOCK_SIZE "
+"和 BLOCKSIZE 环境变量的值中，第一个可用的大小。否则，默认单位是 1024 字节（如"
+"果 POSIXLY_CORRECT 被设定，则为 512 字节）。"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:128
@@ -459,6 +458,9 @@ msgid ""
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
 "of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
+"大小 参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位"
+"有 K、M、G、T、P、E、Z、Y（1024 的幂）以及 KB、MB、...（1000 的幂）。也可以使"
+"用二进制前缀：KiB=K、MiB=M，以此类推。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:128
@@ -478,7 +480,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/du.1:141
 msgid "B<du --exclude=\\(aq*.o\\(aq>"
-msgstr ""
+msgstr "B<du --exclude=\\(aq*.o\\(aq>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:147
