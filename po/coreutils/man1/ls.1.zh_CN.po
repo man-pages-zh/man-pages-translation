@@ -555,7 +555,7 @@ msgid ""
 "always, shell-escape, shell-escape-always, c, escape (overrides "
 "QUOTING_STYLE environment variable)"
 msgstr ""
-"使用指定的加引号方式显示项目名称：\literal、locale、shell、shell-always、shell-escape、shell-escape-"
+"使用指定的加引号方式显示项目名称：literal、locale、shell、shell-always、shell-escape、shell-escape-"
 "always、c、escape（该选项优先于 QUOTING_STYLE 环境变量）"
 
 #. type: TP
