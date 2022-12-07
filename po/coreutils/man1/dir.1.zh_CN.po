@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 22:20-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -32,7 +32,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/dir.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -219,7 +218,6 @@ msgstr "B<-f>"
 
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:55
-#| msgid "do not sort; list entries in directory order"
 msgid "list all entries in directory order"
 msgstr "按照目录顺序列出各项目"
 
@@ -880,13 +878,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/dir.1:253
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:255
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/dir.1:255
@@ -896,9 +896,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:258
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."

@@ -297,7 +297,7 @@ msgid ""
 "group directories before files; can be augmented with a B<--sort> option, "
 "but any use of B<--sort>=I<\\,none\\/> (B<-U>) disables grouping"
 msgstr ""
-"将目录排在文件前面；此选项可与 B<--sort> 一起使用，但是一旦使用\B<--sort>=I<\\,none\\/> (B<-U>) 则禁用此选项"
+"将目录排在文件前面；此选项可与 B<--sort> 一起使用，但是一旦使用 B<--sort>=I<\\,none\\/> (B<-U>) 则禁用此选项"
 
 #. type: TP
 #: raw/coreutils/man1/ls.1:76

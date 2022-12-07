@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 21:28-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -32,7 +32,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/du.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -77,8 +76,6 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:15
-#| msgid ""
-#| "Summarize disk usage of the set of FILEs, recursively for directories."
 msgid ""
 "Summarize device usage of the set of FILEs, recursively for directories."
 msgstr "计算每个文件的设备用量，目录则取总用量。"
@@ -373,7 +370,8 @@ msgstr "B<--time>=I<\\,关键字\\/>"
 msgid ""
 "show time as WORD instead of modification time: atime, access, use, ctime or "
 "status"
-msgstr "显示指定关键字对应的时间而非最后修改时间：atime, access, use, ctime 或 status"
+msgstr ""
+"显示指定关键字对应的时间而非最后修改时间：atime, access, use, ctime 或 status"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:100
@@ -499,7 +497,8 @@ msgstr "作者"
 #: raw/coreutils/man1/du.1:150
 msgid ""
 "Written by Torbjorn Granlund, David MacKenzie, Paul Eggert, and Jim Meyering."
-msgstr "由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。"
+msgstr ""
+"由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:150
@@ -511,13 +510,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/du.1:152
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:154
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:154
@@ -527,9 +528,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:157
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -542,7 +540,9 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
+msgstr ""
+"本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何"
+"保证。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:160

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 21:05-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -32,7 +32,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/sha256sum.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -99,7 +98,6 @@ msgstr "B<-c>, B<--check>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:20
-#| msgid "read SHA256 sums from the FILEs and check them"
 msgid "read checksums from the FILEs and check them"
 msgstr "从指定文件中校验和信息并对它们进行检查"
 
@@ -222,12 +220,6 @@ msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:58
-#| msgid ""
-#| "The sums are computed as described in FIPS-180-2.  When checking, the "
-#| "input should be a former output of this program.  The default mode is to "
-#| "print a line with checksum, a space, a character indicating input mode "
-#| "('*' for binary, \\&' ' for text or where binary is insignificant), and "
-#| "name for each FILE."
 msgid ""
 "The sums are computed as described in FIPS-180-2.  When checking, the input "
 "should be a former output of this program.  The default mode is to print a "
@@ -236,8 +228,8 @@ msgid ""
 "FILE."
 msgstr ""
 "校验和按照 FIPS-180-2 描述的方式进行计算。在校验过程中，其输入内容应当为该程"
-"序先前的输出内容。默认模式是输出一行文字，包含：校验和、一个指示输入模式的字符"
-"（'*' 指示二进制输入，' ' 指示二进制特性不明显的文本输入）以及每个文件的名"
+"序先前的输出内容。默认模式是输出一行文字，包含：校验和、一个指示输入模式的字"
+"符（'*' 指示二进制输入，' ' 指示二进制特性不明显的文本输入）以及每个文件的名"
 "称。"
 
 #. type: Plain text
@@ -268,13 +260,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/sha256sum.1:64
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:66
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:66
@@ -284,9 +278,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:69
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -299,7 +290,9 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
+msgstr ""
+"本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何"
+"保证。"
 
 #. type: SH
 #: raw/coreutils/man1/sha256sum.1:72
@@ -316,7 +309,8 @@ msgstr "B<cksum>(1)"
 #: raw/coreutils/man1/sha256sum.1:77
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/sha256sumE<gt>"
-msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha256sumE<gt>"
+msgstr ""
+"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha256sumE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha256sum.1:78

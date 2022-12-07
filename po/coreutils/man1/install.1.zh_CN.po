@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 16:55-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -33,7 +33,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/install.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -88,11 +87,6 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/install.1:24
-#| msgid ""
-#| "This install program copies files (often just compiled) into destination "
-#| "locations you choose.  If you want to download and install a ready-to-use "
-#| "package on a GNU/Linux system, you should instead be using a package "
-#| "manager like yum(1) or apt-get(1)."
 msgid ""
 "This install program copies files (often just compiled) into destination "
 "locations you choose.  If you want to download and install a ready-to-use "
@@ -100,8 +94,8 @@ msgid ""
 "like B<yum>(1) or B<apt-get>(1)."
 msgstr ""
 "本程序将文件（通常是刚编译生成的文件）复制到您选定的目的位置。如果您想要在 "
-"GNU/Linux 系统上下载安装开箱即用的软件包，您应当使用像 B<yum>(1) 或 B<apt-get>(1) "
-"这样的软件包管理器。"
+"GNU/Linux 系统上下载安装开箱即用的软件包，您应当使用像 B<yum>(1) 或 B<apt-"
+"get>(1) 这样的软件包管理器。"
 
 # Shall we add some information about "DIR components" according to texinfo document?
 #. type: Plain text
@@ -163,13 +157,12 @@ msgstr "B<-C>, B<--compare>"
 
 #. type: Plain text
 #: raw/coreutils/man1/install.1:44
-#| msgid ""
-#| "compare each pair of source and destination files, and in some cases, do "
-#| "not modify the destination at all"
 msgid ""
 "compare content of source and destination files, and if no change to "
 "content, ownership, and permissions, do not modify the destination at all"
-msgstr "比较源文件与目标文件的内容。如果没有内容、所有者和权限的区别，则完全不修改目标文件"
+msgstr ""
+"比较源文件与目标文件的内容。如果没有内容、所有者和权限的区别，则完全不修改目"
+"标文件"
 
 #. type: TP
 #: raw/coreutils/man1/install.1:44
@@ -449,13 +442,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/install.1:121
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/install.1:123
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/install.1:123
@@ -465,9 +460,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/install.1:126
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -494,7 +486,8 @@ msgstr "参见"
 #: raw/coreutils/man1/install.1:131
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/installE<gt>"
-msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/installE<gt>"
+msgstr ""
+"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/installE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/install.1:132

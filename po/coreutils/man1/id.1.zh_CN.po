@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 20:04-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -32,7 +32,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/id.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -73,13 +72,12 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/id.1:13
-#| msgid ""
-#| "Print user and group information for each specified USER, or (when USER "
-#| "omitted) for the current user."
 msgid ""
 "Print user and group information for each specified USER, or (when USER "
 "omitted) for the current process."
-msgstr "输出指定用户的用户和用户组信息，或（当没有指定用户信息时）默认使用当前进程的信息。"
+msgstr ""
+"输出指定用户的用户和用户组信息，或（当没有指定用户信息时）默认使用当前进程的"
+"信息。"
 
 #. type: TP
 #: raw/coreutils/man1/id.1:13
@@ -222,13 +220,16 @@ msgstr "报告错误"
 #: raw/coreutils/man1/id.1:51
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/id.1:53
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告任何翻译错误"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告任何翻译错"
+"误"
 
 #. type: SH
 #: raw/coreutils/man1/id.1:53
@@ -238,9 +239,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/id.1:56
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -253,7 +251,9 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
+msgstr ""
+"本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何"
+"保证。"
 
 #. type: SH
 #: raw/coreutils/man1/id.1:59

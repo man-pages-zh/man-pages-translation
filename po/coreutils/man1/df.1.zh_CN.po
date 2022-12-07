@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 21:38-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -33,7 +33,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/df.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -51,7 +50,6 @@ msgstr "名称"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:5
-#| msgid "df - report file system disk space usage"
 msgid "df - report file system space usage"
 msgstr "df - 报告文件系统空间使用情况"
 
@@ -83,9 +81,9 @@ msgid ""
 "byte blocks are used."
 msgstr ""
 "本手册页是 GNU 版 B<df> 的文档。B<df> 命令列出指定的每一个文件名所在的文件系"
-"统上可用空间的数量。如果没有指定文件名，则显示当前所有已挂载的文件系统。"
-"磁盘空间默认以 1K 为一块显示，如果环境变量 POSIXLY_CORRECT 已设置，则采用 512"
-"字节作为一块显示。"
+"统上可用空间的数量。如果没有指定文件名，则显示当前所有已挂载的文件系统。磁盘"
+"空间默认以 1K 为一块显示，如果环境变量 POSIXLY_CORRECT 已设置，则采用 512字节"
+"作为一块显示。"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:29
@@ -336,8 +334,9 @@ msgid ""
 "variables.  Otherwise, units default to 1024 bytes (or 512 if "
 "POSIXLY_CORRECT is set)."
 msgstr ""
-"所显示的数值的单位是 B<--block-size> 选项的参数、DF_BLOCK_SIZE、BLOCK_SIZE 和 BLOCKSIZE"
-" 环境变量的值中，第一个可用的“大小”。否则，默认单位是 1024 字节（如果 POSIXLY_CORRECT 被设定，则为 512 字节）。"
+"所显示的数值的单位是 B<--block-size> 选项的参数、DF_BLOCK_SIZE、BLOCK_SIZE "
+"和 BLOCKSIZE 环境变量的值中，第一个可用的“大小”。否则，默认单位是 1024 字节"
+"（如果 POSIXLY_CORRECT 被设定，则为 512 字节）。"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:101
@@ -346,8 +345,9 @@ msgid ""
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
 "of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
-"“大小”参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位有 K、M、G、T、P、E、Z、Y（1024 的幂）以及"
-" KB、MB、...（1000 的幂）。也可以使用二进制前缀：KiB=K、MiB=M，以此类推。"
+"“大小”参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位"
+"有 K、M、G、T、P、E、Z、Y（1024 的幂）以及 KB、MB、...（1000 的幂）。也可以使"
+"用二进制前缀：KiB=K、MiB=M，以此类推。"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:105
@@ -356,9 +356,9 @@ msgid ""
 "names are: 'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent', "
 "\\&'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page)."
 msgstr ""
-"\"字段列表\" 是以逗号分隔的列表，指示需要包含在内的列。有效的字段名称包括：\"source\"、\"fstype\"、\"itotal\"、\"ius"
-"ed\"、\"iavail\"、\"ipcent\"、\\&\"size\"、\"used\"、\"avail\"、\"pcent\"、\"file\""
-" 和 \"target\"（请参考 info 信息页）。"
+"\"字段列表\" 是以逗号分隔的列表，指示需要包含在内的列。有效的字段名称包括："
+"\"source\"、\"fstype\"、\"itotal\"、\"iused\"、\"iavail\"、\"ipcent\"、\\&\"size\"、\"used\"、\"avail\"、\"pcent\"、\"file\" "
+"和 \"target\"（请参考 info 信息页）。"
 
 #. type: SH
 #: raw/coreutils/man1/df.1:105
@@ -381,13 +381,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/df.1:109
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:111
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/df.1:111
@@ -397,9 +399,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/df.1:114
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -412,7 +411,9 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
+msgstr ""
+"本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何"
+"保证。"
 
 #. type: SH
 #: raw/coreutils/man1/df.1:117

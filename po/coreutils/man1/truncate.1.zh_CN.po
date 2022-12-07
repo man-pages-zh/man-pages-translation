@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 21:17-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -32,7 +32,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/truncate.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -164,17 +163,14 @@ msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:42
-#| msgid ""
-#| "The SIZE argument is an integer and optional unit (example: 10K is "
-#| "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... "
-#| "(powers of 1000)."
 msgid ""
 "The SIZE argument is an integer and optional unit (example: 10K is "
 "10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers "
 "of 1000).  Binary prefixes can be used, too: KiB=K, MiB=M, and so on."
 msgstr ""
-"所指定的尺寸值参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位有 K、M、G、T、P、E、Z、Y（1024 的幂）以及"
-" KB、MB、...（1000 的幂）。也可以使用二进制前缀：KiB=K、MiB=M，以此类推。"
+"所指定的尺寸值参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可"
+"用的单位有 K、M、G、T、P、E、Z、Y（1024 的幂）以及 KB、MB、...（1000 的幂）。"
+"也可以使用二进制前缀：KiB=K、MiB=M，以此类推。"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:46
@@ -208,13 +204,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/truncate.1:50
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:52
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/truncate.1:52
@@ -224,9 +222,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:55
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -239,7 +234,9 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
+msgstr ""
+"本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何"
+"保证。"
 
 #. type: SH
 #: raw/coreutils/man1/truncate.1:58
@@ -249,7 +246,6 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:60
-#| msgid "dd(1), truncate(2), ftruncate(2)"
 msgid "B<dd>(1), B<truncate>(2), B<ftruncate>(2)"
 msgstr "B<dd>(1), B<truncate>(2), B<ftruncate>(2)"
 
@@ -257,7 +253,8 @@ msgstr "B<dd>(1), B<truncate>(2), B<ftruncate>(2)"
 #: raw/coreutils/man1/truncate.1:63
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
-msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
+msgstr ""
+"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/truncateE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/truncate.1:64

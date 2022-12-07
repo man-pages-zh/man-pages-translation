@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 16:50-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -33,7 +33,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/chgrp.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -142,7 +141,8 @@ msgstr "B<-h>, B<--no-dereference>"
 msgid ""
 "affect symbolic links instead of any referenced file (useful only on systems "
 "that can change the ownership of a symlink)"
-msgstr "影响符号链接本身而不是其引用的文件 （只在可以修改符号链接所有权的系统上有效）"
+msgstr ""
+"影响符号链接本身而不是其引用的文件 （只在可以修改符号链接所有权的系统上有效）"
 
 #. type: TP
 #: raw/coreutils/man1/chgrp.1:34
@@ -303,13 +303,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/chgrp.1:79
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/chgrp.1:81
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/chgrp.1:81
@@ -319,9 +321,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/chgrp.1:84
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -344,7 +343,6 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/chgrp.1:89
-#| msgid "chown(1), chown(2)"
 msgid "B<chown>(1), B<chown>(2)"
 msgstr "B<chown>(1), B<chown>(2)"
 

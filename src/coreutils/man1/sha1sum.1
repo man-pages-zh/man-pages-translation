@@ -4,7 +4,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH SHA1SUM 1 "September 2022" "GNU coreutils 9.1" 用户命令
+.TH SHA1SUM 1 2022年9月 "GNU coreutils 9.1" 用户命令
 .SH 名称
 sha1sum \- 计算并校验 SHA1 信息摘要
 .SH 概述
@@ -20,7 +20,7 @@ sha1sum \- 计算并校验 SHA1 信息摘要
 以二进制模式读入
 .TP 
 \fB\-c\fP, \fB\-\-check\fP
-read checksums from the FILEs and check them
+从指定文件中校验和信息并对它们进行检查
 .TP 
 \fB\-\-tag\fP
 创建一个 BSD 风格的校验和
@@ -53,18 +53,15 @@ read checksums from the FILEs and check them
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-The sums are computed as described in FIPS\-180\-1.  When checking, the input
-should be a former output of this program.  The default mode is to print a
-line with: checksum, a space, a character indicating input mode ('*' for
-binary, ' ' for text or where binary is insignificant), and name for each
-FILE.
+校验和按照 FIPS\-180\-1
+描述的方式进行计算。在校验过程中，其输入内容应当为该程序先前的输出内容。默认模式是输出一行文字，包含：校验和、一个指示输入模式的字符（'*'
+指示二进制输入，' ' 指示二进制特性不明显的文本输入）以及每个文件的名称。
 .PP
 注意：GNU 系统上二进制模式和文本模式没有区别。
 .SH 错误
-Do not use the SHA\-1 algorithm for security related purposes.  Instead, use
-an SHA\-2 algorithm, implemented in the programs \fBsha224sum\fP(1),
-\fBsha256sum\fP(1), \fBsha384sum\fP(1), \fBsha512sum\fP(1), or the BLAKE2 algorithm,
-implemented in \fBb2sum\fP(1)
+不要为与安全相关的目的使用 SHA\-1 算法。作为替代，请使用一个 SHA\-2 算法，它们分别在
+\fBsha224sum\fP(1)、\fBsha256sum\fP(1)、\fBsha384sum\fP(1)、\fBsha512sum\fP(1)
+这些程序中实现；或者请使用 BLAKE2 算法，它在 \fBb2sum\fP(1) 程序中实现
 .SH 作者
 由 Ulrich Drepper, Scott Miller 和 David Madore 编写。
 .SH 报告错误
@@ -75,8 +72,7 @@ GNU coreutils 的在线帮助： <https://www.gnu.org/software/coreutils/>
 Copyright \(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL
 version 3 or later <https://gnu.org/licenses/gpl.html>.
 .br
-This is free software: you are free to change and redistribute it.  There is
-NO WARRANTY, to the extent permitted by law.
+本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。
 .SH 参见
 \fBcksum\fP(1)
 .PP

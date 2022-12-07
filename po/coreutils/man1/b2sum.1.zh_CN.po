@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils 8.32\n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2022-12-06 22:29-0500\n"
 "PO-Revision-Date: 2022-12-06 16:47-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -33,7 +33,6 @@ msgstr "2022年9月"
 #. type: TH
 #: raw/coreutils/man1/b2sum.1:2
 #, no-wrap
-#| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
 msgstr "GNU coreutils 9.1"
 
@@ -73,7 +72,6 @@ msgstr "描述"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:12
-#| msgid "Print or check BLAKE2 (512-bit) checksums."
 msgid "Print or check BLAKE2b (512-bit) checksums."
 msgstr "输出或检查 BLAKE2b（512位）校验和。"
 
@@ -107,22 +105,17 @@ msgstr "B<-c>, B<--check>"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:22
-#| msgid "read BLAKE2 sums from the FILEs and check them"
 msgid "read checksums from the FILEs and check them"
 msgstr "从指定文件中读取校验和并进行检验"
 
 #. type: TP
 #: raw/coreutils/man1/b2sum.1:22
 #, no-wrap
-#| msgid "B<-l>, B<--length>"
 msgid "B<-l>, B<--length>=I<\\,BITS\\/>"
 msgstr "B<-l>, B<--length>=I<\\,位数\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:26
-#| msgid ""
-#| "digest length in bits; must not exceed the maximum for the blake2 "
-#| "algorithm and must be a multiple of 8"
 msgid ""
 "digest length in bits; must not exceed the max for the blake2 algorithm and "
 "must be a multiple of 8"
@@ -249,12 +242,6 @@ msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:64
-#| msgid ""
-#| "The sums are computed as described in RFC 7693.  When checking, the input "
-#| "should be a former output of this program.  The default mode is to print "
-#| "a line with checksum, a space, a character indicating input mode ('*' for "
-#| "binary, \\&' ' for text or where binary is insignificant), and name for "
-#| "each FILE."
 msgid ""
 "The sums are computed as described in RFC 7693.  When checking, the input "
 "should be a former output of this program.  The default mode is to print a "
@@ -295,13 +282,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/b2sum.1:70
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:72
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/b2sum.1:72
@@ -311,9 +300,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/b2sum.1:75
-#| msgid ""
-#| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
-#| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
