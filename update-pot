@@ -22,7 +22,7 @@
 
 POT_DIR="templates"
 
-#set -e
+set -e
 
 logv() {
     printf "%s\n" "$1"

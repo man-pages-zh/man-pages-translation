@@ -7,6 +7,8 @@
 # This script is released into the Public Domain.
 #
 
+set -e
+
 _MAN_LANG=zh_CN
 
 printf "%s\n" "# UPDATE-RELEASE #############################"

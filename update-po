@@ -10,7 +10,7 @@
 
 _MAN_LANG="zh_CN"
 
-#set -e
+set -e
 
 printf "%s\n" "# UPDATE-PO #######################"
 for potitem in templates/*/man*/*.pot; do
