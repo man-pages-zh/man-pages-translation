@@ -2,12 +2,12 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2017, 2020.
+# Boyuan Yang <073plan@gmail.com>, 2017, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2020-05-15 22:52-0400\n"
+"PO-Revision-Date: 2022-12-06 22:23-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
@@ -27,14 +27,14 @@ msgstr "MV"
 #: raw/coreutils/man1/mv.1:2
 #, no-wrap
 msgid "September 2022"
-msgstr ""
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 8.32"
+msgstr "GNU coreutils 9.1"
 
 #. type: TH
 #: raw/coreutils/man1/mv.1:2
@@ -123,7 +123,7 @@ msgstr "B<-f>, B<--force>"
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:29
 msgid "do not prompt before overwriting"
-msgstr ""
+msgstr "覆盖前不询问"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:29
@@ -134,7 +134,7 @@ msgstr "B<-i>, B<--interactive>"
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:32
 msgid "prompt before overwrite"
-msgstr ""
+msgstr "覆盖前询问"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:32
@@ -145,14 +145,14 @@ msgstr "B<-n>, B<--no-clobber>"
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:35
 msgid "do not overwrite an existing file"
-msgstr ""
+msgstr "不覆盖已存在的文件"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:37
 msgid ""
 "If you specify more than one of B<-i>, B<-f>, B<-n>, only the final one "
 "takes effect."
-msgstr ""
+msgstr "如果您指定了 B<-i>、B<-f>、B<-n> 中的多个，仅最后一个生效。"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:37
@@ -163,18 +163,18 @@ msgstr "B<--strip-trailing-slashes>"
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:41
 msgid "remove any trailing slashes from each SOURCE argument"
-msgstr ""
+msgstr "去掉每个“源文件”参数尾部的斜杠"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:41
 #, no-wrap
 msgid "B<-S>, B<--suffix>=I<\\,SUFFIX\\/>"
-msgstr ""
+msgstr "B<-S>, B<--suffix>=I<\\,后缀\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:44
 msgid "override the usual backup suffix"
-msgstr ""
+msgstr "用给定后缀替代通常使用的备份文件后缀"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:44
@@ -231,7 +231,7 @@ msgstr "B<-Z>, B<--context>"
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:62
 msgid "set SELinux security context of destination file to default type"
-msgstr ""
+msgstr "将目标文件的 SELinux 安全上下文设置为默认类型"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:62
@@ -263,50 +263,52 @@ msgid ""
 "B<--backup> option or through the VERSION_CONTROL environment variable.  "
 "Here are the values:"
 msgstr ""
+"备份文件的后缀为 \"~\"，除非使用了 B<--suffix> 选项或 SIMPLE_BACKUP_SUFFIX"
+" 环境变量指定了其他后缀。版本控制的方式可通过 B<--backup> 选项或 VERSION_CONTROL 环境变量来选择。以下是可用的设置值："
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:72
 #, no-wrap
 msgid "none, off"
-msgstr ""
+msgstr "none, off"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:75
 msgid "never make backups (even if B<--backup> is given)"
-msgstr ""
+msgstr "不进行备份（即使使用了 B<--backup> 选项）"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:75
 #, no-wrap
 msgid "numbered, t"
-msgstr ""
+msgstr "numbered, t"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:78
 msgid "make numbered backups"
-msgstr ""
+msgstr "使用带有数字编号的备份文件进行备份"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:78
 #, no-wrap
 msgid "existing, nil"
-msgstr ""
+msgstr "existing, nil"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:81
 msgid "numbered if numbered backups exist, simple otherwise"
-msgstr ""
+msgstr "若带数字的备份文件已经存在则使用 numbered，否则使用 simple"
 
 #. type: TP
 #: raw/coreutils/man1/mv.1:81
 #, no-wrap
 msgid "simple, never"
-msgstr ""
+msgstr "simple, never"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:84
 msgid "always make simple backups"
-msgstr ""
+msgstr "总是使用简单方式进行备份"
 
 #. type: SH
 #: raw/coreutils/man1/mv.1:84
@@ -329,15 +331,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/mv.1:88
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:90
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/mv.1:90
@@ -347,7 +347,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:93
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -355,7 +354,7 @@ msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
@@ -363,9 +362,7 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
 
 #. type: SH
 #: raw/coreutils/man1/mv.1:96
@@ -375,10 +372,9 @@ msgstr "参见"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:98
-#, fuzzy
 #| msgid "rename(2)"
 msgid "B<rename>(2)"
-msgstr "rename(2)"
+msgstr "B<rename>(2)"
 
 #. type: Plain text
 #: raw/coreutils/man1/mv.1:101

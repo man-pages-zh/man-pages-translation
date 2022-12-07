@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2022-12-06 16:56-0500\n"
-"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
+"PO-Revision-Date: 2022-12-06 21:52-0500\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -200,7 +200,6 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:60
-#, fuzzy
 #| msgid ""
 #| "If the command times out, and B<--preserve-status> is not set, then exit "
 #| "with status 124.  Otherwise, exit with the status of COMMAND.  If no "
@@ -214,83 +213,80 @@ msgid ""
 "that signal.  It may be necessary to use the KILL signal, since this signal "
 "can't be caught."
 msgstr ""
-"如果命令运行超时，而且 B<--preserve-status> 未设置，则将退出状态值设为 124。"
-"否则，将退出状态值设置为与所运行命令的退出状态值相同。如果没有指定信号类型，"
-"程序将在超时发生时送出 TERM 信号。TERM 信号能够杀死任何没有阻塞或捕获该信号的"
-"进程。您也可能需要使用 KILL (9) 信号，因为该信号不能被捕获。此时，退出状态值"
-"将为 128+9 而非 124。"
+"超时以后，如果没有指定其他“信号”，则向给定“命令”发送 TERM 信号。TERM 信号将杀死没有阻塞或捕获该信号的进程。有时可能需要使用 KILL"
+" 信号，因为此信号无法被捕获。"
 
 #. type: SS
 #: raw/coreutils/man1/timeout.1:60
 #, no-wrap
 msgid "EXIT status:"
-msgstr ""
+msgstr "退出状态："
 
 #. type: TP
 #: raw/coreutils/man1/timeout.1:61
 #, no-wrap
 msgid "124"
-msgstr ""
+msgstr "124"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:64
 msgid "if COMMAND times out, and B<--preserve-status> is not specified"
-msgstr ""
+msgstr "如果指定“命令”超时，且未指定 B<--preserve-status> 选项"
 
 #. type: TP
 #: raw/coreutils/man1/timeout.1:64
 #, no-wrap
 msgid "125"
-msgstr ""
+msgstr "125"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:67
 msgid "if the timeout command itself fails"
-msgstr ""
+msgstr "如果 timeout 命令本身执行失败"
 
 #. type: TP
 #: raw/coreutils/man1/timeout.1:67
 #, no-wrap
 msgid "126"
-msgstr ""
+msgstr "126"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:70
 msgid "if COMMAND is found but cannot be invoked"
-msgstr ""
+msgstr "如果找到了命令，但无法执行"
 
 #. type: TP
 #: raw/coreutils/man1/timeout.1:70
 #, no-wrap
 msgid "127"
-msgstr ""
+msgstr "127"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:73
 msgid "if COMMAND cannot be found"
-msgstr ""
+msgstr "如果未找到命令"
 
 #. type: TP
 #: raw/coreutils/man1/timeout.1:73
 #, no-wrap
 msgid "137"
-msgstr ""
+msgstr "137"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:76
 msgid "if COMMAND (or timeout itself) is sent the KILL (9) signal (128+9)"
-msgstr ""
+msgstr "如果命令（或 timeout 命令本身）收到了 KILL (9) 信号（即 128+9）"
 
 #. type: TP
 #: raw/coreutils/man1/timeout.1:76
 #, no-wrap
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #. type: Plain text
 #: raw/coreutils/man1/timeout.1:79
 msgid "the exit status of COMMAND otherwise"
-msgstr ""
+msgstr "其他情况下，退出状态是命令的退出状态"
 
 #. type: SH
 #: raw/coreutils/man1/timeout.1:79

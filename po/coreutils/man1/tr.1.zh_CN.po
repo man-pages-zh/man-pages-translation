@@ -2,12 +2,12 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2016, 2017, 2020.
+# Boyuan Yang <073plan@gmail.com>, 2016, 2017, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2020-05-09 10:25-0400\n"
+"PO-Revision-Date: 2022-12-06 21:53-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/tr.1:2
@@ -27,14 +27,14 @@ msgstr "TR"
 #: raw/coreutils/man1/tr.1:2
 #, no-wrap
 msgid "September 2022"
-msgstr ""
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/tr.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 8.32"
+msgstr "GNU coreutils 9.1"
 
 #. type: TH
 #: raw/coreutils/man1/tr.1:2
@@ -449,7 +449,7 @@ msgstr ""
 #: raw/coreutils/man1/tr.1:119
 #, no-wrap
 msgid "BUGS"
-msgstr ""
+msgstr "缺陷"
 
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:128
@@ -481,15 +481,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/tr.1:132
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:134
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/tr.1:134
@@ -499,7 +497,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/tr.1:137
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -507,7 +504,7 @@ msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
@@ -515,9 +512,7 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
 
 #. type: SH
 #: raw/coreutils/man1/tr.1:140

@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
 # Darcy Shen <sadhen@zoho.com>, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017, 2020.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2020-05-09 11:34-0400\n"
+"PO-Revision-Date: 2022-12-06 21:29-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/tee.1:2
@@ -28,14 +28,14 @@ msgstr "TEE"
 #: raw/coreutils/man1/tee.1:2
 #, no-wrap
 msgid "September 2022"
-msgstr ""
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/tee.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 8.32"
+msgstr "GNU coreutils 9.1"
 
 #. type: TH
 #: raw/coreutils/man1/tee.1:2
@@ -150,10 +150,10 @@ msgstr "模式确定向输出写入出错时的行为："
 
 #. type: TP
 #: raw/coreutils/man1/tee.1:31
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "\\&'warn'"
 msgid "warn"
-msgstr "\\&'warn'"
+msgstr "warn"
 
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:34
@@ -162,10 +162,10 @@ msgstr "对向任何文件输出出错的情况进行诊断"
 
 #. type: TP
 #: raw/coreutils/man1/tee.1:34
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "\\&'warn-nopipe'"
 msgid "warn-nopipe"
-msgstr "\\&'warn-nopipe'"
+msgstr "warn-nopipe"
 
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:37
@@ -174,10 +174,10 @@ msgstr "对向除了管道以外的任何文件输出出错的情况进行诊断
 
 #. type: TP
 #: raw/coreutils/man1/tee.1:37
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "\\&'exit'"
 msgid "exit"
-msgstr "\\&'exit'"
+msgstr "exit"
 
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:40
@@ -186,10 +186,10 @@ msgstr "一旦输出出错，则退出程序"
 
 #. type: TP
 #: raw/coreutils/man1/tee.1:40
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "\\&'exit-nopipe'"
 msgid "exit-nopipe"
-msgstr "\\&'exit-nopipe'"
+msgstr "exit-nopipe"
 
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:43
@@ -227,15 +227,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/tee.1:52
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:54
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/tee.1:54
@@ -245,7 +243,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/tee.1:57
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -253,7 +250,7 @@ msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
@@ -261,9 +258,7 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
 
 #. type: SH
 #: raw/coreutils/man1/tee.1:60

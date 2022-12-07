@@ -2,12 +2,12 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015-2020.
+# Boyuan Yang <073plan@gmail.com>, 2015-2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2020-05-09 00:27-0400\n"
+"PO-Revision-Date: 2022-12-06 22:26-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/vdir.1:2
@@ -27,14 +27,14 @@ msgstr "VDIR"
 #: raw/coreutils/man1/vdir.1:2
 #, no-wrap
 msgid "September 2022"
-msgstr ""
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/vdir.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 8.32"
+msgstr "GNU coreutils 9.1"
 
 #. type: TH
 #: raw/coreutils/man1/vdir.1:2
@@ -713,7 +713,7 @@ msgstr "B<-x>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:204
 msgid "list entries by lines instead of by columns"
-msgstr ""
+msgstr "逐行列出项目而不是逐列列出"
 
 #. type: TP
 #: raw/coreutils/man1/vdir.1:204
@@ -724,7 +724,7 @@ msgstr "B<-X>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:207
 msgid "sort alphabetically by entry extension"
-msgstr ""
+msgstr "按照扩展名的字母顺序排序"
 
 #. type: TP
 #: raw/coreutils/man1/vdir.1:207
@@ -735,14 +735,14 @@ msgstr "B<-Z>, B<--context>"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:210
 msgid "print any security context of each file"
-msgstr ""
+msgstr "输出每个文件的所有安全上下文信息"
 
 #. type: TP
 #: raw/coreutils/man1/vdir.1:210
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "B<--version>"
 msgid "B<--zero>"
-msgstr "B<--version>"
+msgstr "B<--zero>"
 
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:213
@@ -816,6 +816,9 @@ msgid ""
 "environment variable can change the settings.  Use the B<dircolors>(1) "
 "command to set it."
 msgstr ""
+"使用颜色来区分文件类型的功能默认禁用，也可以使用 B<--color>=I<\\,never\\/> 禁用。若使用 B<--color>=I<"
+"\\,auto\\/> 选项，ls 只在标准输出连接至终端时才生成颜色代码。LS_COLORS 环境变量可以改变颜色设置。可以使用 B<dircolors"
+">(1) 命令来设置它。"
 
 #. type: SS
 #: raw/coreutils/man1/vdir.1:239
@@ -843,7 +846,7 @@ msgstr "1"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:246
 msgid "if minor problems (e.g., cannot access subdirectory),"
-msgstr ""
+msgstr "表示小问题（例如：无法访问子目录），"
 
 #. type: TP
 #: raw/coreutils/man1/vdir.1:246
@@ -854,7 +857,7 @@ msgstr "2"
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:249
 msgid "if serious trouble (e.g., cannot access command-line argument)."
-msgstr ""
+msgstr "表示严重问题（例如：无法使用命令行参数）。"
 
 #. type: SH
 #: raw/coreutils/man1/vdir.1:249
@@ -877,15 +880,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/vdir.1:253
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:255
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/vdir.1:255
@@ -895,7 +896,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/vdir.1:258
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -903,7 +903,7 @@ msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
@@ -911,9 +911,7 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
 
 #. type: SH
 #: raw/coreutils/man1/vdir.1:261

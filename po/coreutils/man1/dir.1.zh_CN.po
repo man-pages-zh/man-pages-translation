@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2022-12-06 16:59-0500\n"
-"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
+"PO-Revision-Date: 2022-12-06 22:20-0500\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -176,13 +176,13 @@ msgstr "B<-C>"
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:43
 msgid "list entries by columns"
-msgstr ""
+msgstr "逐列列出项目"
 
 #. type: TP
 #: raw/coreutils/man1/dir.1:43
 #, no-wrap
 msgid "B<--color>[=I<\\,WHEN\\/>]"
-msgstr ""
+msgstr "B<--color>[=I<\\,何时\\/>]"
 
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:46
@@ -219,10 +219,9 @@ msgstr "B<-f>"
 
 #. type: Plain text
 #: raw/coreutils/man1/dir.1:55
-#, fuzzy
 #| msgid "do not sort; list entries in directory order"
 msgid "list all entries in directory order"
-msgstr "不要排序；按照目录顺序列出各条目"
+msgstr "按照目录顺序列出各项目"
 
 #. type: TP
 #: raw/coreutils/man1/dir.1:55

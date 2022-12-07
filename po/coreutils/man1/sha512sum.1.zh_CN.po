@@ -2,13 +2,13 @@
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2015.
-# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017, 2020.
+# Boyuan Yang <073plan@gmail.com>, 2015, 2016, 2017, 2020, 2022.
 # Darcy Shen <sadhen@zoho.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-06 00:29-0500\n"
-"PO-Revision-Date: 2020-05-09 11:32-0400\n"
+"PO-Revision-Date: 2022-12-06 21:05-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/coreutils/man1/sha512sum.1:2
@@ -28,14 +28,14 @@ msgstr "SHA512SUM"
 #: raw/coreutils/man1/sha512sum.1:2
 #, no-wrap
 msgid "September 2022"
-msgstr ""
+msgstr "2022年9月"
 
 #. type: TH
 #: raw/coreutils/man1/sha512sum.1:2
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "GNU coreutils 8.32"
 msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 8.32"
+msgstr "GNU coreutils 9.1"
 
 #. type: TH
 #: raw/coreutils/man1/sha512sum.1:2
@@ -100,10 +100,9 @@ msgstr "B<-c>, B<--check>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:20
-#, fuzzy
 #| msgid "read SHA512 sums from the FILEs and check them"
 msgid "read checksums from the FILEs and check them"
-msgstr "从指定文件中读取 SHA512 文件校验和信息并对它们进行检查"
+msgstr "从指定文件中校验和信息并对它们进行检查"
 
 #. type: TP
 #: raw/coreutils/man1/sha512sum.1:20
@@ -224,7 +223,6 @@ msgstr "显示版本信息并退出"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:58
-#, fuzzy
 #| msgid ""
 #| "The sums are computed as described in FIPS-180-2.  When checking, the "
 #| "input should be a former output of this program.  The default mode is to "
@@ -239,8 +237,8 @@ msgid ""
 "FILE."
 msgstr ""
 "校验和按照 FIPS-180-2 描述的方式进行计算。在校验过程中，其输入内容应当为该程"
-"序先前的输出内容。默认模式是输出一行文字，包含校验和、一个空格、一个指示输入"
-"模式的字符（'*' 指示二进制输入，\\&' ' 指示二进制特性不明显的文本输入）以及每"
+"序先前的输出内容。默认模式是输出一行文字，包含：校验和、一个空格、一个指示输入"
+"模式的字符（'*' 指示二进制输入，' ' 指示二进制特性不明显的文本输入）以及每"
 "个文件的名称。"
 
 #. type: Plain text
@@ -271,15 +269,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/sha512sum.1:64
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:66
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/sha512sum.1:66
@@ -289,7 +285,6 @@ msgstr "版权"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:69
-#, fuzzy
 #| msgid ""
 #| "Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU "
 #| "GPL version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
@@ -297,7 +292,7 @@ msgid ""
 "Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 
 #. type: Plain text
@@ -305,9 +300,7 @@ msgstr ""
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
-msgstr ""
-"This is free software: you are free to change and redistribute it.  There is "
-"NO WARRANTY, to the extent permitted by law."
+msgstr "本软件是自由软件：您可以自由修改和重新发布它。在法律允许的范围内，不提供任何保证。"
 
 #. type: SH
 #: raw/coreutils/man1/sha512sum.1:72
@@ -318,14 +311,13 @@ msgstr "参见"
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:74
 msgid "B<cksum>(1)"
-msgstr ""
+msgstr "B<cksum>(1)"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:77
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/sha512sumE<gt>"
-msgstr ""
-"完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha512sumE<gt>"
+msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sha512sumE<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/sha512sum.1:78
