@@ -67,7 +67,7 @@ for pkgdir in raw/*; do
             #    logv "New pot file ${_potfile} created."
             #else
             #fi
-            po4a-updatepo -f man -m "${manfile}" -M utf8 -p "${_potfile}"
+            po4a-updatepo -f man -m "${manfile}" -M utf8 -p "${_potfile}" -o 'groff_code=translate'
             if [ "x$?" != "x0" ]; then
                 logv "W: po4a exited with status code ${?}."
             fi
