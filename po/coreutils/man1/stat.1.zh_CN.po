@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-12-07 14:08-0500\n"
-"PO-Revision-Date: 2022-12-07 14:07-0500\n"
+"PO-Revision-Date: 2022-12-08 15:31-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -61,7 +61,7 @@ msgstr "概述"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:8
 msgid "B<stat> [I<\\,OPTION\\/>]... I<\\,FILE\\/>..."
-msgstr ""
+msgstr "B<stat> [I<\\,选项\\/>]... I<\\,文件\\/>..."
 
 #. type: SH
 #: raw/coreutils/man1/stat.1:8
@@ -72,7 +72,7 @@ msgstr "描述"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:12
 msgid "Display file or file system status."
-msgstr ""
+msgstr "显示文件或文件系统的状态。"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:14
@@ -89,7 +89,7 @@ msgstr "B<-L>, B<--dereference>"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:17
 msgid "follow links"
-msgstr ""
+msgstr "跟随链接"
 
 #. type: TP
 #: raw/coreutils/man1/stat.1:17
@@ -100,13 +100,13 @@ msgstr "B<-f>, B<--file-system>"
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:20
 msgid "display file system status instead of file status"
-msgstr ""
+msgstr "显示文件系统状态而非文件状态"
 
 #. type: TP
 #: raw/coreutils/man1/stat.1:20
 #, no-wrap
 msgid "B<--cached>=I<\\,MODE\\/>"
-msgstr ""
+msgstr "B<--cached>=I<\\,模式\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:24
@@ -150,7 +150,7 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:36
 msgid "print the information in terse form"
-msgstr ""
+msgstr "使用简洁格式输出"
 
 #. type: TP
 #: raw/coreutils/man1/stat.1:36
@@ -717,15 +717,13 @@ msgstr "报告错误"
 #: raw/coreutils/man1/stat.1:209
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:211
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: SH
 #: raw/coreutils/man1/stat.1:211
