@@ -2,17 +2,20 @@
 # Copyright (C) 2003  Davide Libenzi
 # This file is distributed under the same license as the Linux man-pages project.
 # Minda Li <mdl@hust.edu.cn>, 2021.
+# Yang, Boyuan <073plan@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: man-pages 5.12\n"
 "POT-Creation-Date: 2021-07-30 18:47-0400\n"
-"PO-Revision-Date: 2021-07-17 21:27+0800\n"
-"Last-Translator: Minda Li <mdl@hust.edu.cn>\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-12-09 14:24-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
+"Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/manpages/man7/epoll.7:21
@@ -36,7 +39,7 @@ msgstr "Linux"
 #: raw/manpages/man7/epoll.7:21
 #, no-wrap
 msgid "Linux Programmer's Manual"
-msgstr "Linux Programmer's Manual"
+msgstr "Linux 程序员手册"
 
 #. type: SH
 #: raw/manpages/man7/epoll.7:22
@@ -53,7 +56,7 @@ msgstr "epoll - I/O 事件通知设施"
 #: raw/manpages/man7/epoll.7:24
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr "概要"
+msgstr "概述"
 
 #. type: Plain text
 #: raw/manpages/man7/epoll.7:27
@@ -697,8 +700,7 @@ msgstr "我可以通过 UNIX 域套接字发送一个 B<epoll> 文件描述符�
 msgid ""
 "Yes, but it does not make sense to do this, since the receiving process "
 "would not have copies of the file descriptors in the interest list."
-msgstr ""
-"可以，但这样做是没有意义的，因为接收进程不会得到兴趣列表中文件描述符的副本。"
+msgstr "可以，但这样做是没有意义的，因为接收进程不会得到兴趣列表中文件描述符的副本。"
 
 #. type: IP
 #: raw/manpages/man7/epoll.7:455
@@ -936,8 +938,7 @@ msgstr "版本"
 msgid ""
 "The B<epoll> API was introduced in Linux kernel 2.5.44.  Support was added "
 "to glibc in version 2.3.2."
-msgstr ""
-"B<epoll> API 在 Linux 内核2.5.44中引入。2.3.2版本的 glibc 加入了对其的支持。"
+msgstr "B<epoll> API 在 Linux 内核2.5.44中引入。2.3.2版本的 glibc 加入了对其的支持。"
 
 #. type: SH
 #: raw/manpages/man7/epoll.7:596

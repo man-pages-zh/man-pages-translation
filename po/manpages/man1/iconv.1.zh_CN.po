@@ -2,22 +2,23 @@
 # manpages 软件包的简体中文翻译
 # Copyright (C) 2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the manpages package.
-# Automatically generated, 2017.
-# Boyuan Yang <073plan@gmail.com>, 2017.
-# Zheng Junyi <zhengjunyi@live.com>, 2020.
 #
+# Automatically generated, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2017, 2022.
+# Zheng Junyi <zhengjunyi@live.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-14 19:14+0800\n"
-"PO-Revision-Date: 2017-02-14 19:14+0800\n"
-"Last-Translator: Zheng Junyi <zhengjunyi@live.com>\n"
+"PO-Revision-Date: 2022-12-09 14:23-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/manpages/man1/iconv.1:26
@@ -41,7 +42,7 @@ msgstr "GNU"
 #: raw/manpages/man1/iconv.1:26
 #, no-wrap
 msgid "Linux User Manual"
-msgstr "Linux User Manual"
+msgstr "Linux 用户手册"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:27
@@ -93,8 +94,7 @@ msgid ""
 "If no I<from-encoding> is given, the default is derived from the current "
 "locale's character encoding.  If no I<to-encoding> is given, the default is "
 "derived from the current locale's character encoding."
-msgstr ""
-"如果没有给定I<原始文本编码>，则将默认采用当前 B<locale> 的编码，没有也是同理"
+msgstr "如果没有给定I<原始文本编码>，则将默认采用当前 B<locale> 的编码，没有也是同理"
 
 #. type: SH
 #: raw/manpages/man1/iconv.1:56
@@ -129,8 +129,7 @@ msgstr "I<输出编码>指定转换到什么编码"
 msgid ""
 "If the string B<//IGNORE> is appended to I<to-encoding>, characters that "
 "cannot be converted are discarded and an error is printed after conversion."
-msgstr ""
-"如果I<输出编码>中包含字符串 B<//IGNORE>，则忽略无法转换的字符，并在转换完成后给出错误提示"
+msgstr "如果I<输出编码>中包含字符串 B<//IGNORE>，则忽略无法转换的字符，并在转换完成后给出错误提示"
 
 #. type: Plain text
 #: raw/manpages/man1/iconv.1:85

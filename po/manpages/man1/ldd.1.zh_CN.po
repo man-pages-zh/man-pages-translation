@@ -2,22 +2,23 @@
 # manpages 软件包的简体中文翻译
 # Copyright (C) 2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the manpages package.
-# Automatically generated, 2017.
-# Boyuan Yang <073plan@gmail.com>, 2017.
-# Zheng Junyi <zhengjunyi@live.com>, 2020.
 #
+# Automatically generated, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2017, 2022.
+# Zheng Junyi <zhengjunyi@live.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-02-14 19:14+0800\n"
-"PO-Revision-Date: 2017-02-14 19:14+0800\n"
-"Last-Translator: Zheng Junyi <zhengjunyi@live.com>\n"
+"PO-Revision-Date: 2022-12-09 14:23-0500\n"
+"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. type: TH
 #: raw/manpages/man1/ldd.1:14
@@ -35,7 +36,7 @@ msgstr "2016-07-17"
 #: raw/manpages/man1/ldd.1:14
 #, no-wrap
 msgid "Linux Programmer's Manual"
-msgstr "Linux Programmer's Manual"
+msgstr "Linux 程序员手册"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:15
@@ -71,8 +72,7 @@ msgid ""
 "B<ldd> prints the shared objects (shared libraries) required by each program "
 "or shared object specified on the command line.  An example of its use and "
 "output is the following:"
-msgstr ""
-"B<ldd> 显示命令行上指定的每个程序或共享库所需的共享库 (共享库) 。其用法和输出示例如下："
+msgstr "B<ldd> 显示命令行上指定的每个程序或共享库所需的共享库 (共享库) 。其用法和输出示例如下："
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:37
@@ -185,8 +185,7 @@ msgstr "B<-v>, B<--verbose>"
 #: raw/manpages/man1/ldd.1:103
 msgid ""
 "Print all information, including, for example, symbol versioning information."
-msgstr ""
-"显示所有信息，包括符号版本 (symbol versioning) 信息。"
+msgstr "显示所有信息，包括符号版本 (symbol versioning) 信息。"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:103
@@ -221,8 +220,7 @@ msgstr "B<-r>, B<--function-relocs>"
 msgid ""
 "Perform relocations for both data objects and functions, and report any "
 "missing objects or functions (ELF only)."
-msgstr ""
-"对数据对象和函数执行重定向，并报告所有缺少的对象或函数 (仅限于 ELF) 。"
+msgstr "对数据对象和函数执行重定向，并报告所有缺少的对象或函数 (仅限于 ELF) 。"
 
 #. type: TP
 #: raw/manpages/man1/ldd.1:114

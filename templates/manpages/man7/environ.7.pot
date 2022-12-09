@@ -1,0 +1,462 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-12-09 14:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/manpages/man7/environ.7:15
+#, no-wrap
+msgid "ENVIRON"
+msgstr ""
+
+#. type: TH
+#: raw/manpages/man7/environ.7:15
+#, no-wrap
+msgid "2022-10-09"
+msgstr ""
+
+#. type: TH
+#: raw/manpages/man7/environ.7:15
+#, no-wrap
+msgid "Linux man-pages 6.01"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/environ.7:16
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:18
+msgid "environ - user environment"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/environ.7:18
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:21
+#, no-wrap
+msgid "B<extern char **>I<environ>B<;>\n"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/environ.7:22
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:35
+msgid ""
+"The variable I<environ> points to an array of pointers to strings called the "
+"\"environment\".  The last pointer in this array has the value NULL.  This "
+"array of strings is made available to the process by the B<execve>(2)  call "
+"when a new program is started.  When a child process is created via "
+"B<fork>(2), it inherits a I<copy> of its parent's environment."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:44
+msgid ""
+"By convention, the strings in I<environ> have the form "
+"\"I<name>B<=>I<value>\".  The name is case-sensitive and may not contain the "
+"character \"B<=>\".  The value can be anything that can be represented as a "
+"string.  The name and the value may not contain an embedded null byte "
+"(\\(aq\\e0\\(aq), since this is assumed to terminate the string."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:53
+msgid ""
+"Environment variables may be placed in the shell's environment by the "
+"I<export> command in B<sh>(1), or by the I<setenv> command if you use "
+"B<csh>(1)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:66
+msgid ""
+"The initial environment of the shell is populated in various ways, such as "
+"definitions from I</etc/environment> that are processed by B<pam_env>(8)  "
+"for all users at login time (on systems that employ B<pam>(8)).  In "
+"addition, various shell initialization scripts, such as the system-wide "
+"I</etc/profile> script and per-user initializations script may include "
+"commands that add variables to the shell's environment; see the manual page "
+"of your preferred shell for details."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:68
+msgid "Bourne-style shells support the syntax"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:72
+#, no-wrap
+msgid "NAME=value command\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:80
+msgid ""
+"to create an environment variable definition only in the scope of the "
+"process that executes I<command>.  Multiple variable definitions, separated "
+"by white space, may precede I<command>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:90
+msgid ""
+"Arguments may also be placed in the environment at the point of an "
+"B<exec>(3).  A C program can manipulate its environment using the functions "
+"B<getenv>(3), B<putenv>(3), B<setenv>(3), and B<unsetenv>(3)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:97
+msgid ""
+"What follows is a list of environment variables typically seen on a system.  "
+"This list is incomplete and includes only common variables seen by average "
+"users in their day-to-day routine.  Environment variables specific to a "
+"particular program or library function are documented in the ENVIRONMENT "
+"section of the appropriate manual page."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:97
+#, no-wrap
+msgid "B<USER>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:101
+msgid ""
+"The name of the logged-in user (used by some BSD-derived programs).  Set at "
+"login time, see section NOTES below."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:101
+#, no-wrap
+msgid "B<LOGNAME>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:105
+msgid ""
+"The name of the logged-in user (used by some System-V derived programs).  "
+"Set at login time, see section NOTES below."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:105
+#, no-wrap
+msgid "B<HOME>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:109
+msgid "A user's login directory.  Set at login time, see section NOTES below."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:109
+#, no-wrap
+msgid "B<LANG>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:127
+msgid ""
+"The name of a locale to use for locale categories when not overridden by "
+"B<LC_ALL> or more specific environment variables such as B<LC_COLLATE>, "
+"B<LC_CTYPE>, B<LC_MESSAGES>, B<LC_MONETARY>, B<LC_NUMERIC>, and B<LC_TIME> "
+"(see B<locale>(7)  for further details of the B<LC_*> environment "
+"variables)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:127
+#, no-wrap
+msgid "B<PATH>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:139
+msgid ""
+"The sequence of directory prefixes that B<sh>(1)  and many other programs "
+"employ when searching for an executable file that is specified as a simple "
+"filename (i.a., a pathname that contains no slashes).  The prefixes are "
+"separated by colons (B<:>).  The list of prefixes is searched from beginning "
+"to end, by checking the pathname formed by concatenating a prefix, a slash, "
+"and the filename, until a file with execute permission is found."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:148
+msgid ""
+"As a legacy feature, a zero-length prefix (specified as two adjacent colons, "
+"or an initial or terminating colon)  is interpreted to mean the current "
+"working directory.  However, use of this feature is deprecated, and POSIX "
+"notes that a conforming application shall use an explicit pathname (e.g., "
+"I<.>)  to specify the current working directory."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:159
+msgid ""
+"Analogously to B<PATH>, one has B<CDPATH> used by some shells to find the "
+"target of a change directory command, B<MANPATH> used by B<man>(1)  to find "
+"manual pages, and so on."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:159
+#, no-wrap
+msgid "B<PWD>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:167
+msgid ""
+"Absolute path to the current working directory; required to be partially "
+"canonical (no I<.\\&> or I<..\\&> components)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:167
+#, no-wrap
+msgid "B<SHELL>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:171
+msgid ""
+"The absolute pathname of the user's login shell.  Set at login time, see "
+"section NOTES below."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:171
+#, no-wrap
+msgid "B<TERM>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:174
+msgid "The terminal type for which output is to be prepared."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:174
+#, no-wrap
+msgid "B<PAGER>"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:187
+msgid ""
+"The user's preferred utility to display text files.  Any string acceptable "
+"as a command-string operand to the I<sh\\ -c> command shall be valid.  If "
+"B<PAGER> is null or is not set, then applications that launch a pager will "
+"default to a program such as B<less>(1)  or B<more>(1)."
+msgstr ""
+
+#. type: TP
+#: raw/manpages/man7/environ.7:187
+#, no-wrap
+msgid "B<EDITOR>/B<VISUAL>"
+msgstr ""
+
+#.  .TP
+#.  .B BROWSER
+#.  The user's preferred utility to browse URLs. Sequence of colon-separated
+#.  browser commands. See http://www.catb.org/\(tiesr/BROWSER/ .
+#. type: Plain text
+#: raw/manpages/man7/environ.7:197
+msgid ""
+"The user's preferred utility to edit text files.  Any string acceptable as a "
+"command_string operand to the I<sh\\ -c> command shall be valid."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:201
+msgid ""
+"Note that the behavior of many programs and library routines is influenced "
+"by the presence or value of certain environment variables.  Examples include "
+"the following:"
+msgstr ""
+
+#. type: IP
+#: raw/manpages/man7/environ.7:201 raw/manpages/man7/environ.7:210
+#: raw/manpages/man7/environ.7:217 raw/manpages/man7/environ.7:224
+#: raw/manpages/man7/environ.7:228 raw/manpages/man7/environ.7:234
+#: raw/manpages/man7/environ.7:240 raw/manpages/man7/environ.7:251
+#: raw/manpages/man7/environ.7:255 raw/manpages/man7/environ.7:258
+#, no-wrap
+msgid "*"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:210
+msgid ""
+"The variables B<LANG>, B<LANGUAGE>, B<NLSPATH>, B<LOCPATH>, B<LC_ALL>, "
+"B<LC_MESSAGES>, and so on influence locale handling; see B<catopen>(3), "
+"B<gettext>(3), and B<locale>(7)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:217
+msgid ""
+"B<TMPDIR> influences the path prefix of names created by B<tempnam>(3)  and "
+"other routines, and the temporary directory used by B<sort>(1)  and other "
+"programs."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:224
+msgid ""
+"B<LD_LIBRARY_PATH>, B<LD_PRELOAD>, and other B<LD_*> variables influence the "
+"behavior of the dynamic loader/linker.  See also B<ld.so>(8)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:228
+msgid ""
+"B<POSIXLY_CORRECT> makes certain programs and library routines follow the "
+"prescriptions of POSIX."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:234
+msgid "The behavior of B<malloc>(3)  is influenced by B<MALLOC_*> variables."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:240
+msgid ""
+"The variable B<HOSTALIASES> gives the name of a file containing aliases to "
+"be used with B<gethostbyname>(3)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:251
+msgid ""
+"B<TZ> and B<TZDIR> give timezone information used by B<tzset>(3)  and "
+"through that by functions like B<ctime>(3), B<localtime>(3), B<mktime>(3), "
+"B<strftime>(3).  See also B<tzselect>(8)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:255
+msgid ""
+"B<TERMCAP> gives information on how to address a given terminal (or gives "
+"the name of a file containing such information)."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:258
+msgid ""
+"B<COLUMNS> and B<LINES> tell applications about the window size, possibly "
+"overriding the actual size."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:263
+msgid ""
+"B<PRINTER> or B<LPDEST> may specify the desired printer to use.  See "
+"B<lpr>(1)."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/environ.7:263
+#, no-wrap
+msgid "NOTES"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:275
+msgid ""
+"Historically and by standard, I<environ> must be declared in the user "
+"program.  However, as a (nonstandard) programmer convenience, I<environ> is "
+"declared in the header file I<E<lt>unistd.hE<gt>> if the B<_GNU_SOURCE> "
+"feature test macro is defined (see B<feature_test_macros>(7))."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:282
+msgid ""
+"The B<prctl>(2)  B<PR_SET_MM_ENV_START> and B<PR_SET_MM_ENV_END> operations "
+"can be used to control the location of the process's environment."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:303
+msgid ""
+"The B<HOME>, B<LOGNAME>, B<SHELL>, and B<USER> variables are set when the "
+"user is changed via a session management interface, typically by a program "
+"such as B<login>(1)  from a user database (such as B<passwd>(5)).  "
+"(Switching to the root user using B<su>(1)  may result in a mixed "
+"environment where B<LOGNAME> and B<USER> are retained from old user; see the "
+"B<su>(1)  manual page.)"
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/environ.7:303
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:308
+msgid ""
+"Clearly there is a security risk here.  Many a system command has been "
+"tricked into mischief by a user who specified unusual values for B<IFS> or "
+"B<LD_LIBRARY_PATH>."
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:336
+msgid ""
+"There is also the risk of name space pollution.  Programs like I<make> and "
+"I<autoconf> allow overriding of default utility names from the environment "
+"with similarly named variables in all caps.  Thus one uses B<CC> to select "
+"the desired C compiler (and similarly B<MAKE>, B<AR>, B<AS>, B<FC>, B<LD>, "
+"B<LEX>, B<RM>, B<YACC>, etc.).  However, in some traditional uses such an "
+"environment variable gives options for the program instead of a pathname.  "
+"Thus, one has B<MORE> and B<LESS>.  Such usage is considered mistaken, and "
+"to be avoided in new programs."
+msgstr ""
+
+#. type: SH
+#: raw/manpages/man7/environ.7:336
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/manpages/man7/environ.7:354
+msgid ""
+"B<bash>(1), B<csh>(1), B<env>(1), B<login>(1), B<printenv>(1), B<sh>(1), "
+"B<su>(1), B<tcsh>(1), B<execve>(2), B<clearenv>(3), B<exec>(3), "
+"B<getenv>(3), B<putenv>(3), B<setenv>(3), B<unsetenv>(3), B<locale>(7), "
+"B<ld.so>(8), B<pam_env>(8)"
+msgstr ""
