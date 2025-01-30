@@ -9,34 +9,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-01-30 13:55-0500\n"
-"PO-Revision-Date: 2022-12-09 14:25-0500\n"
-"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
+"PO-Revision-Date: 2025-01-30 14:50-0500\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Poedit 3.5\n"
 
 #. type: TH
 #: raw/manpages/man7/environ.7:15
 #, no-wrap
 msgid "environ"
-msgstr ""
+msgstr "environ"
 
 #. type: TH
 #: raw/manpages/man7/environ.7:15
 #, no-wrap
 msgid "2024-06-15"
-msgstr ""
+msgstr "2024-06-15"
 
 #. type: TH
 #: raw/manpages/man7/environ.7:15
-#, fuzzy, no-wrap
-#| msgid "Linux man-pages 6.01"
+#, no-wrap
 msgid "Linux man-pages 6.9.1"
-msgstr "Linux 手册页 6.01"
+msgstr "Linux 手册页 6.9.1"
 
 #. type: SH
 #: raw/manpages/man7/environ.7:16
@@ -76,6 +75,10 @@ msgid ""
 "when a new program is started.  When a child process is created via "
 "B<fork>(2), it inherits a I<copy> of its parent's environment."
 msgstr ""
+"变量 I<environ> 指向一个存储指针的数组，这些指针指向被称为“环境"
+"（environment）”的字符串。数组中最后一个指针的值为 NULL。该字符串数组在新程序"
+"启动时被 B<execve>(2) 调用提供给进程。当子进程被 B<fork>(2) 创建时，它继承其"
+"父进程环境的一份I<副本>。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:44
@@ -86,6 +89,10 @@ msgid ""
 "string.  The name and the value may not contain an embedded null byte (\\[aq]"
 "\\[rs]0\\[aq]), since this is assumed to terminate the string."
 msgstr ""
+"习惯上约定在 I<environ> 中的字符串有类似“I<名称>B<=>I<值>”的形式。其中的名称"
+"是大小写敏感的，且不能包含字符“B<=>”。其中的值可以为任何字符串可以表示的文"
+"本。名称和值不能包含内嵌的空字节字符（\\[aq]\\[rs]0\\[aq]），以此避免其被误认"
+"为字符串终止位置。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:53
@@ -94,6 +101,8 @@ msgid ""
 "I<export> command in B<sh>(1), or by the I<setenv> command if you use "
 "B<csh>(1)."
 msgstr ""
+"环境变量可由 B<sh>(1) 中的 I<export> 命令在 shell 的环境中被设定，或者在使用 "
+"B<csh>(1) 时使用 I<setenv> 命令。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:66
@@ -106,17 +115,22 @@ msgid ""
 "that add variables to the shell's environment; see the manual page of your "
 "preferred shell for details."
 msgstr ""
+"对 shell 来说，其初始的环境相关变量可经由多种方式被填充，如在使用了 "
+"B<pam>(8) 的系统上，B<pam_env>(8) 会对所有用户在登录时启用 I</etc/"
+"environment> 中的定义。除此之外，许多 shell 初始化脚本，如系统层级的 I</etc/"
+"profile> 脚本和各个用户的初始化脚本，可能包含一些会向 shell 的环境中添加变量"
+"的命令；请参考您使用的 shell 的手册页了解详细信息。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:68
 msgid "Bourne-style shells support the syntax"
-msgstr ""
+msgstr "Bourne 风格的 shell 支持下面的语法"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:72
 #, no-wrap
 msgid "NAME=value command\n"
-msgstr ""
+msgstr "名称=值 命令\n"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:80
@@ -125,6 +139,8 @@ msgid ""
 "process that executes I<command>.  Multiple variable definitions, separated "
 "by white space, may precede I<command>."
 msgstr ""
+"它可被用来仅在执行 I<命令> 时创建对应的环境变量定义。在 I<命令> 之前，可以存"
+"在多个变量定义，其间使用空格进行分隔。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:90
@@ -133,6 +149,8 @@ msgid ""
 "B<exec>(3).  A C program can manipulate its environment using the functions "
 "B<getenv>(3), B<putenv>(3), B<setenv>(3), and B<unsetenv>(3)."
 msgstr ""
+"参数还可以在调用 B<exec>(3)时被放置于环境之中。C 程序可以使用诸如 "
+"B<getenv>(3), B<putenv>(3), B<setenv>(3) 和 B<unsetenv>(3) 的函数操纵其环境。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:97
@@ -143,12 +161,15 @@ msgid ""
 "particular program or library function are documented in the ENVIRONMENT "
 "section of the appropriate manual page."
 msgstr ""
+"本文的下述部分列出了系统上常见的环境变量。这个列表并不完整，且仅包含普通用户"
+"在日常使用中常见的变量。特定程序或软件库函数所使用的环境变量通常会在其对应的"
+"手册页中的“环境”一节中进行描述。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:97
 #, no-wrap
 msgid "B<USER>"
-msgstr ""
+msgstr "B<USER>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:101
@@ -156,12 +177,14 @@ msgid ""
 "The name of the logged-in user (used by some BSD-derived programs).  Set at "
 "login time, see section NOTES below."
 msgstr ""
+"已登录用户的名称（被某些 BSD 衍生的程序所使用）。其在登录时被设置，请见下文的"
+"备注一节。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:101
 #, no-wrap
 msgid "B<LOGNAME>"
-msgstr ""
+msgstr "B<LOGNAME>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:105
@@ -169,23 +192,25 @@ msgid ""
 "The name of the logged-in user (used by some System-V derived programs).  "
 "Set at login time, see section NOTES below."
 msgstr ""
+"已登录用户的名称（被某些 System-V 衍生的程序所使用）。其在登录时被设置，请见"
+"下文的备注一节。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:105
 #, no-wrap
 msgid "B<HOME>"
-msgstr ""
+msgstr "B<HOME>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:109
 msgid "A user's login directory.  Set at login time, see section NOTES below."
-msgstr ""
+msgstr "用户登录时的目录。其在登录时被设置，请见下文的备注一节。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:109
 #, no-wrap
 msgid "B<LANG>"
-msgstr ""
+msgstr "B<LANG>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:127
@@ -195,12 +220,16 @@ msgid ""
 "B<LC_CTYPE>, B<LC_MESSAGES>, B<LC_MONETARY>, B<LC_NUMERIC>, and B<LC_TIME> "
 "(see B<locale>(7)  for further details of the B<LC_*> environment variables)."
 msgstr ""
+"用于语言和区域设置类别的名称，它在未被 B<LC_ALL> 或更具体的环境变量，如 "
+"B<LC_COLLATE>, B<LC_CTYPE>, B<LC_MESSAGES>, B<LC_MONETARY>, B<LC_NUMERIC> 和 "
+"B<LC_TIME> 所覆盖时生效（请参见 B<locale>(7) 以了解 B<LC_*> 环境变量的具体细"
+"节）。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:127
 #, no-wrap
 msgid "B<PATH>"
-msgstr ""
+msgstr "B<PATH>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:139
@@ -212,6 +241,10 @@ msgid ""
 "to end, by checking the pathname formed by concatenating a prefix, a slash, "
 "and the filename, until a file with execute permission is found."
 msgstr ""
+"它是一系列目录前缀，可被 B<sh>(1) 和许多其他程序所使用以搜索由简单的文件名"
+"（即不含有斜线的路径名）所指定的可执行文件。各个前缀之间被冒号（B<:>）所分"
+"隔。整个前缀列表会被从前到后进行搜索，程序会检查给定路径名在附加前缀、斜线和"
+"文件名之后的路径是否存在，直到找到一个符合条件的可执行文件为止。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:148
@@ -222,6 +255,10 @@ msgid ""
 "notes that a conforming application shall use an explicit pathname (e.g., "
 "I<.>)  to specify the current working directory."
 msgstr ""
+"还存在一个遗留的特性：如果前缀长度为零（即由两个相邻的冒号组成，或者有起始或"
+"终止位置的冒号存在），该前缀会被解释为指定当前工作目录。然而，当前已不推荐使"
+"用该特性，且 POSIX 认为一个符合标准的应用程序应当使用显式的路径名（如 I<.>）"
+"来指定当前工作目录。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:159
@@ -230,12 +267,14 @@ msgid ""
 "target of a change directory command, B<MANPATH> used by B<man>(1)  to find "
 "manual pages, and so on."
 msgstr ""
+"类似 B<PATH>，还存在 B<CDPATH> 会被某些 shell 用来寻找更改目录指令的目标目"
+"录，以及被 B<man>(1) 所使用寻找手册页的 B<MANPATH>，等等。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:159
 #, no-wrap
 msgid "B<PWD>"
-msgstr ""
+msgstr "B<PWD>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:167
@@ -243,36 +282,38 @@ msgid ""
 "Absolute path to the current working directory; required to be partially "
 "canonical (no I<.\\&> or I<..\\&> components)."
 msgstr ""
+"当前工作目录的绝对路径。它的组成部分必须被规范化（即不可出现 I<.\\&> 或 I<.."
+"\\&> 的路径部分）。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:167
 #, no-wrap
 msgid "B<SHELL>"
-msgstr ""
+msgstr "B<SHELL>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:171
 msgid ""
 "The absolute pathname of the user's login shell.  Set at login time, see "
 "section NOTES below."
-msgstr ""
+msgstr "用户登录 shell 的绝对路径名。其在登录时被设置，请见下文的备注一节。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:171
 #, no-wrap
 msgid "B<TERM>"
-msgstr ""
+msgstr "B<TERM>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:174
 msgid "The terminal type for which output is to be prepared."
-msgstr ""
+msgstr "输出应当兼容的终端类型。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:174
 #, no-wrap
 msgid "B<PAGER>"
-msgstr ""
+msgstr "B<PAGER>"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:187
@@ -282,12 +323,15 @@ msgid ""
 "B<PAGER> is null or is not set, then applications that launch a pager will "
 "default to a program such as B<less>(1)  or B<more>(1)."
 msgstr ""
+"用户偏好的显示文本文件的实用工具。可被设置为任何 I<sh\\ -c> 命令可接受的命令"
+"字符串操作符。如果 B<PAGER> 的值为空或未被设置，则启动分页器的应用程序会默认"
+"选择一个程序，如 B<less>(1) 或 B<more>(1)。"
 
 #. type: TP
 #: raw/manpages/man7/environ.7:187
 #, no-wrap
 msgid "B<EDITOR>/B<VISUAL>"
-msgstr ""
+msgstr "B<EDITOR>/B<VISUAL>"
 
 #.  .TP
 #.  .B BROWSER
@@ -299,6 +343,8 @@ msgid ""
 "The user's preferred utility to edit text files.  Any string acceptable as a "
 "command_string operand to the I<sh\\ -c> command shall be valid."
 msgstr ""
+"用户偏好使用的编辑文本文件的工具。可被设置为任何 I<sh\\ -c> 命令可接受的命令"
+"字符串操作符。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:201
@@ -307,6 +353,8 @@ msgid ""
 "by the presence or value of certain environment variables.  Examples include "
 "the following:"
 msgstr ""
+"请注意，许多程序和软件库例程的行为都会受到特定环境变量存在与否及其取值的影"
+"响。下面给出一些例子："
 
 #. type: IP
 #: raw/manpages/man7/environ.7:201 raw/manpages/man7/environ.7:210
@@ -316,7 +364,7 @@ msgstr ""
 #: raw/manpages/man7/environ.7:255 raw/manpages/man7/environ.7:258
 #, no-wrap
 msgid "\\[bu]"
-msgstr ""
+msgstr "\\[bu]"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:210
@@ -325,6 +373,9 @@ msgid ""
 "B<LC_MESSAGES>, and so on influence locale handling; see B<catopen>(3), "
 "B<gettext>(3), and B<locale>(7)."
 msgstr ""
+"B<LANG>, B<LANGUAGE>, B<NLSPATH>, B<LOCPATH>, B<LC_ALL>, B<LC_MESSAGES> 等等"
+"变量会影响语言和区域设置的处理；请参见 B<catopen>(3), B<gettext>(3) 和 "
+"B<locale>(7)。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:217
@@ -333,6 +384,8 @@ msgid ""
 "other routines, and the temporary directory used by B<sort>(1)  and other "
 "programs."
 msgstr ""
+"B<TMPDIR> 影响由 B<tempnam>(3) 和其他例程创建的路径名称的前缀，以及由 "
+"B<sort>(1) 和其他程序所使用的临时目录名。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:224
@@ -340,18 +393,20 @@ msgid ""
 "B<LD_LIBRARY_PATH>, B<LD_PRELOAD>, and other B<LD_*> variables influence the "
 "behavior of the dynamic loader/linker.  See also B<ld.so>(8)."
 msgstr ""
+"B<LD_LIBRARY_PATH>, B<LD_PRELOAD> 和其他 B<LD_*> 变量会影响动态加载器/链接器"
+"的行为。请参见 B<ld.so>(8)。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:228
 msgid ""
 "B<POSIXLY_CORRECT> makes certain programs and library routines follow the "
 "prescriptions of POSIX."
-msgstr ""
+msgstr "B<POSIXLY_CORRECT> 使得特定的程序和软件库例程遵循 POSIX 所指定的行为。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:234
 msgid "The behavior of B<malloc>(3)  is influenced by B<MALLOC_*> variables."
-msgstr ""
+msgstr "B<malloc>(3) 的行为受到 B<MALLOC_*> 变量的影响。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:240
@@ -359,6 +414,8 @@ msgid ""
 "The variable B<HOSTALIASES> gives the name of a file containing aliases to "
 "be used with B<gethostbyname>(3)."
 msgstr ""
+"B<HOSTALIASES> 变量给出包含 B<gethostbyname>(3) 将要使用的主机别名的文件的名"
+"称。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:251
@@ -367,6 +424,9 @@ msgid ""
 "through that by functions like B<ctime>(3), B<localtime>(3), B<mktime>(3), "
 "B<strftime>(3).  See also B<tzselect>(8)."
 msgstr ""
+"B<TZ> 和 B<TZDIR> 给出 B<tzset>(3) 所使用的时区信息，并涉及诸如 B<ctime>(3), "
+"B<localtime>(3), B<mktime>(3), B<strftime>(3) 等函数。另请参见 "
+"B<tzselect>(8)。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:255
@@ -374,6 +434,8 @@ msgid ""
 "B<TERMCAP> gives information on how to address a given terminal (or gives "
 "the name of a file containing such information)."
 msgstr ""
+"B<TERMCAP> 提供如何处理给定终端的相关信息（或者给出包含这些信息的文件的文件"
+"名）"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:258
@@ -381,19 +443,21 @@ msgid ""
 "B<COLUMNS> and B<LINES> tell applications about the window size, possibly "
 "overriding the actual size."
 msgstr ""
+"B<COLUMNS> 和 B<LINES> 会告知应用程序窗口大小信息，它可能会覆盖实际大小的配"
+"置。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:263
 msgid ""
 "B<PRINTER> or B<LPDEST> may specify the desired printer to use.  See "
 "B<lpr>(1)."
-msgstr ""
+msgstr "B<PRINTER> 或 B<LPDEST> 可能指定要使用的打印机。请见 B<lpr>(1)。"
 
 #. type: SH
 #: raw/manpages/man7/environ.7:263
 #, no-wrap
 msgid "NOTES"
-msgstr ""
+msgstr "备注"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:275
@@ -403,6 +467,9 @@ msgid ""
 "declared in the header file I<E<lt>unistd.hE<gt>> if the B<_GNU_SOURCE> "
 "feature test macro is defined (see B<feature_test_macros>(7))."
 msgstr ""
+"历史上以及标准上，I<environ> 必须被用户程序所声明。然而，一个现存的不标准的方"
+"便程序员工作的方法是将 I<environ> 声明在 I<E<lt>unistd.hE<gt>> 头文件中，前提"
+"是 B<_GNU_SOURCE> 功能测试宏已被定义（参见 B<feature_test_macros>(7)）。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:282
@@ -410,6 +477,8 @@ msgid ""
 "The B<prctl>(2)  B<PR_SET_MM_ENV_START> and B<PR_SET_MM_ENV_END> operations "
 "can be used to control the location of the process's environment."
 msgstr ""
+"B<prctl>(2) 中的 B<PR_SET_MM_ENV_START> 和 B<PR_SET_MM_ENV_END> 操作可被用来"
+"控制进程环境的位置。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:303
@@ -421,6 +490,10 @@ msgid ""
 "environment where B<LOGNAME> and B<USER> are retained from old user; see the "
 "B<su>(1)  manual page.)"
 msgstr ""
+"B<HOME>, B<LOGNAME>, B<SHELL> 和 B<USER> 变量会在用户经由会话管理界面被变更时"
+"被设置。者通常是经由类似 B<login>(1) 的程序以及用户数据库（例如 "
+"B<passwd>(5)）所完成的。（使用 B<su>(1) 切换到 root 用户可能导致混合的环境变"
+"量，其中 B<LOGNAME> 和 B<USER> 被保留为旧有用户的值；参见 B<su>(1) 手册页。）"
 
 #. type: SH
 #: raw/manpages/man7/environ.7:303
@@ -435,6 +508,8 @@ msgid ""
 "tricked into mischief by a user who specified unusual values for B<IFS> or "
 "B<LD_LIBRARY_PATH>."
 msgstr ""
+"很显然，这个机制有安全风险。许多系统命令可被用户指定的不同寻常的 B<IFS> 或 "
+"B<LD_LIBRARY_PATH> 的值所欺骗。"
 
 #. type: Plain text
 #: raw/manpages/man7/environ.7:336
@@ -448,6 +523,12 @@ msgid ""
 "Thus, one has B<MORE> and B<LESS>.  Such usage is considered mistaken, and "
 "to be avoided in new programs."
 msgstr ""
+"还存在命名空间污染的风险。如 I<make> 和 I<autoconf> 等程序允许环境中具有和实"
+"用工具相同命名（但全大写）的变量覆盖默认所使用的工具路径。因此，用户可以使用 "
+"B<CC> 来选择想要使用的 C 编译器（类似地，还有 B<MAKE>, B<AR>, B<AS>, B<FC>, "
+"B<LD>, B<LEX>, B<RM>, B<YACC> 等等）。然而，在某些传统的使用场景中这些环境变"
+"量还会被赋值为程序选项而非路径名，例如 B<MORE> 和 B<LESS>。这些用法被认为是错"
+"误的，应当在新程序中避免。"
 
 #. type: SH
 #: raw/manpages/man7/environ.7:336
