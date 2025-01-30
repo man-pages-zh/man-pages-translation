@@ -12,7 +12,7 @@
 .\" Modified Wed Jan 24 06:37:24 2001 by Eric S. Raymond (esr@thyrsus.com)
 .\" Modified Thu Dec 13 23:53:27 2001 by Martin Schulze <joey@infodrom.org>
 .\"
-.TH ENVIRON 7 2022-10-09 "Linux man-pages 6.01"
+.TH environ 7 2024-06-15 "Linux man-pages 6.9.1"
 .SH NAME
 environ \- user environment
 .SH SYNOPSIS
@@ -32,16 +32,16 @@ When a child process is created via
 it inherits a
 .I copy
 of its parent's environment.
-.PP
+.P
 By convention, the strings in
 .I environ
 have the form "\fIname\fP\fB=\fP\fIvalue\fP".
 The name is case-sensitive and may not contain
 the character "\fB=\fP".
 The value can be anything that can be represented as a string.
-The name and the value may not contain an embedded null byte (\(aq\e0\(aq),
+The name and the value may not contain an embedded null byte (\[aq]\[rs]0\[aq]),
 since this is assumed to terminate the string.
-.PP
+.P
 Environment variables may be placed in the shell's environment by the
 .I export
 command in
@@ -50,7 +50,7 @@ or by the
 .I setenv
 command if you use
 .BR csh (1).
-.PP
+.P
 The initial environment of the shell is populated in various ways,
 such as definitions from
 .I /etc/environment
@@ -63,21 +63,21 @@ In addition, various shell initialization scripts, such as the system-wide
 script and per-user initializations script may include commands
 that add variables to the shell's environment;
 see the manual page of your preferred shell for details.
-.PP
+.P
 Bourne-style shells support the syntax
-.PP
+.P
 .in +4n
 .EX
 NAME=value command
 .EE
 .in
-.PP
+.P
 to create an environment variable definition only in the scope
 of the process that executes
 .IR command .
 Multiple variable definitions, separated by white space, may precede
 .IR command .
-.PP
+.P
 Arguments may also be placed in the
 environment at the point of an
 .BR exec (3).
@@ -87,7 +87,7 @@ A C program can manipulate its environment using the functions
 .BR setenv (3),
 and
 .BR unsetenv (3).
-.PP
+.P
 What follows is a list of environment variables typically seen on a
 system.
 This list is incomplete and includes only common variables seen
@@ -193,12 +193,12 @@ command shall be valid.
 .\" .TP
 .\" .B BROWSER
 .\" The user's preferred utility to browse URLs. Sequence of colon-separated
-.\" browser commands. See http://www.catb.org/\(tiesr/BROWSER/ .
-.PP
+.\" browser commands. See http://www.catb.org/\[ti]esr/BROWSER/ .
+.P
 Note that the behavior of many programs and library routines is
 influenced by the presence or value of certain environment variables.
 Examples include the following:
-.IP * 3
+.IP \[bu] 3
 The variables
 .BR LANG ", " LANGUAGE ", " NLSPATH ", " LOCPATH ,
 .BR LC_ALL ", " LC_MESSAGES ,
@@ -207,37 +207,37 @@ and so on influence locale handling; see
 .BR gettext (3),
 and
 .BR locale (7).
-.IP *
+.IP \[bu]
 .B TMPDIR
 influences the path prefix of names created by
 .BR tempnam (3)
 and other routines, and the temporary directory used by
 .BR sort (1)
 and other programs.
-.IP *
+.IP \[bu]
 .BR LD_LIBRARY_PATH ", " LD_PRELOAD ,
 and other
 .B LD_*
 variables influence the behavior of the dynamic loader/linker.
 See also
 .BR ld.so (8).
-.IP *
+.IP \[bu]
 .B POSIXLY_CORRECT
 makes certain programs and library routines follow
 the prescriptions of POSIX.
-.IP *
+.IP \[bu]
 The behavior of
 .BR malloc (3)
 is influenced by
 .B MALLOC_*
 variables.
-.IP *
+.IP \[bu]
 The variable
 .B HOSTALIASES
 gives the name of a file containing aliases
 to be used with
 .BR gethostbyname (3).
-.IP *
+.IP \[bu]
 .BR TZ " and " TZDIR
 give timezone information used by
 .BR tzset (3)
@@ -248,14 +248,14 @@ and through that by functions like
 .BR strftime (3).
 See also
 .BR tzselect (8).
-.IP *
+.IP \[bu]
 .B TERMCAP
 gives information on how to address a given terminal
 (or gives the name of a file containing such information).
-.IP *
+.IP \[bu]
 .BR COLUMNS " and " LINES
 tell applications about the window size, possibly overriding the actual size.
-.IP *
+.IP \[bu]
 .BR PRINTER " or " LPDEST
 may specify the desired printer to use.
 See
@@ -272,14 +272,14 @@ if the
 .B _GNU_SOURCE
 feature test macro is defined (see
 .BR feature_test_macros (7)).
-.PP
+.P
 The
 .BR prctl (2)
 .B PR_SET_MM_ENV_START
 and
 .B PR_SET_MM_ENV_END
 operations can be used to control the location of the process's environment.
-.PP
+.P
 The
 .BR HOME ,
 .BR LOGNAME ,
@@ -305,7 +305,7 @@ Clearly there is a security risk here.
 Many a system command has been
 tricked into mischief by a user who specified unusual values for
 .BR IFS " or " LD_LIBRARY_PATH .
-.PP
+.P
 There is also the risk of name space pollution.
 Programs like
 .I make

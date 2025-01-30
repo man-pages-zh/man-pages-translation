@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-12-09 14:20-0500\n"
+"POT-Creation-Date: 2025-01-30 13:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +19,19 @@ msgstr ""
 #. type: TH
 #: raw/manpages/man7/environ.7:15
 #, no-wrap
-msgid "ENVIRON"
+msgid "environ"
 msgstr ""
 
 #. type: TH
 #: raw/manpages/man7/environ.7:15
 #, no-wrap
-msgid "2022-10-09"
+msgid "2024-06-15"
 msgstr ""
 
 #. type: TH
 #: raw/manpages/man7/environ.7:15
 #, no-wrap
-msgid "Linux man-pages 6.01"
+msgid "Linux man-pages 6.9.1"
 msgstr ""
 
 #. type: SH
@@ -79,8 +79,8 @@ msgid ""
 "By convention, the strings in I<environ> have the form "
 "\"I<name>B<=>I<value>\".  The name is case-sensitive and may not contain the "
 "character \"B<=>\".  The value can be anything that can be represented as a "
-"string.  The name and the value may not contain an embedded null byte "
-"(\\(aq\\e0\\(aq), since this is assumed to terminate the string."
+"string.  The name and the value may not contain an embedded null byte (\\[aq]"
+"\\[rs]0\\[aq]), since this is assumed to terminate the string."
 msgstr ""
 
 #. type: Plain text
@@ -97,10 +97,10 @@ msgid ""
 "The initial environment of the shell is populated in various ways, such as "
 "definitions from I</etc/environment> that are processed by B<pam_env>(8)  "
 "for all users at login time (on systems that employ B<pam>(8)).  In "
-"addition, various shell initialization scripts, such as the system-wide "
-"I</etc/profile> script and per-user initializations script may include "
-"commands that add variables to the shell's environment; see the manual page "
-"of your preferred shell for details."
+"addition, various shell initialization scripts, such as the system-wide I</"
+"etc/profile> script and per-user initializations script may include commands "
+"that add variables to the shell's environment; see the manual page of your "
+"preferred shell for details."
 msgstr ""
 
 #. type: Plain text
@@ -189,8 +189,7 @@ msgid ""
 "The name of a locale to use for locale categories when not overridden by "
 "B<LC_ALL> or more specific environment variables such as B<LC_COLLATE>, "
 "B<LC_CTYPE>, B<LC_MESSAGES>, B<LC_MONETARY>, B<LC_NUMERIC>, and B<LC_TIME> "
-"(see B<locale>(7)  for further details of the B<LC_*> environment "
-"variables)."
+"(see B<locale>(7)  for further details of the B<LC_*> environment variables)."
 msgstr ""
 
 #. type: TP
@@ -289,7 +288,7 @@ msgstr ""
 #.  .TP
 #.  .B BROWSER
 #.  The user's preferred utility to browse URLs. Sequence of colon-separated
-#.  browser commands. See http://www.catb.org/\(tiesr/BROWSER/ .
+#.  browser commands. See http://www.catb.org/\[ti]esr/BROWSER/ .
 #. type: Plain text
 #: raw/manpages/man7/environ.7:197
 msgid ""
@@ -312,7 +311,7 @@ msgstr ""
 #: raw/manpages/man7/environ.7:240 raw/manpages/man7/environ.7:251
 #: raw/manpages/man7/environ.7:255 raw/manpages/man7/environ.7:258
 #, no-wrap
-msgid "*"
+msgid "\\[bu]"
 msgstr ""
 
 #. type: Plain text
