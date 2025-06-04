@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-02-15 09:46-0500\n"
-"PO-Revision-Date: 2025-06-04 10:26-0400\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-06-04 15:44-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: TH
 #: raw/findutils/man1/xargs.1:1
@@ -166,15 +166,15 @@ msgstr "B<--delimiter=>I<分隔符>B<, -d>I< 分隔符>"
 #: raw/findutils/man1/xargs.1:109
 msgid ""
 "Input items are terminated by the specified character.  The specified "
-"delimiter may be a single character, a C-style character escape such as B<"
-"\\en>, or an octal or hexadecimal escape code.  Octal and hexadecimal escape "
-"codes are understood as for the B<printf> command.  Multibyte characters are "
-"not supported.  When processing the input, quotes and backslash are not "
-"special; every character in the input is taken literally.  The B<-d> option "
-"disables any end-of-file string, which is treated like any other argument.  "
-"You can use this option when the input consists of simply newline-separated "
-"items, although it is almost always better to design your program to use B<--"
-"null> where this is possible."
+"delimiter may be a single character, a C-style character escape such as "
+"B<\\en>, or an octal or hexadecimal escape code.  Octal and hexadecimal "
+"escape codes are understood as for the B<printf> command.  Multibyte "
+"characters are not supported.  When processing the input, quotes and "
+"backslash are not special; every character in the input is taken literally.  "
+"The B<-d> option disables any end-of-file string, which is treated like any "
+"other argument.  You can use this option when the input consists of simply "
+"newline-separated items, although it is almost always better to design your "
+"program to use B<--null> where this is possible."
 msgstr ""
 "输入条目由指定字符分隔而结束。所指定的分隔符可能是单个字符、类似 B<\\en> 的 "
 "C 风格字符转义序列、或者八进制/十六进制转义代码。八进制和十六进制转义代码和 "
@@ -223,7 +223,7 @@ msgstr ""
 #: raw/findutils/man1/xargs.1:135
 #, no-wrap
 msgid "B<-I>I< replace-str>"
-msgstr ""
+msgstr "B<-I>I< 替换占位字符串>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:146
@@ -233,12 +233,15 @@ msgid ""
 "items; instead the separator is the newline character.  Implies B<-x> and B<-"
 "L> 1."
 msgstr ""
+"将给定初始参数中出现的I<替换占位字符串>替换为从标准输入中读取得到的字符串。另"
+"外，未被引号包括的空白字符不会被视为输入项目的分隔符；此时分隔符是换行符。该"
+"选项隐含启用了 B<-x> 和 B<-L> 1 选项。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:146
 #, no-wrap
 msgid "B<-i>[I<replace-str>], B<--replace>[I<=replace-str>]"
-msgstr ""
+msgstr "B<-i>[I<替换占位字符串>], B<--replace>[I<=替换占位字符串>]"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:162
@@ -247,12 +250,14 @@ msgid ""
 "specified.  If the I<replace-str> argument is missing, the effect is the "
 "same as B<-I>{}.  The B<-i> option is deprecated; use B<-I> instead."
 msgstr ""
+"如果给出了I<替换占位字符串>，则该选项和 B<-I>I<替换占位字符串>同义。如果缺失"
+"了I<替换占位字符串>，则其效果等同于 B<-I>{}。B<-i> 已被弃用，请改用 B<-I>。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:162
 #, no-wrap
 msgid "B<-L>I< max-lines>"
-msgstr "B<-L>I< max-lines>"
+msgstr "B<-L>I< 最大行数>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:169
@@ -261,12 +266,14 @@ msgid ""
 "blanks cause an input line to be logically continued on the next input "
 "line.  Implies B<-x>."
 msgstr ""
+"每个命令行使用至多I<最大行数>个非空输入行。行末尾的空白字符会使得下一行成为上"
+"一行逻辑上的延续。隐含启用 B<-x>。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:169
 #, no-wrap
 msgid "B<-l>[I<max-lines>], B<--max-lines>[=I<max-lines>]"
-msgstr ""
+msgstr "B<-l>[I<最大行数>], B<--max-lines>[=I<最大行数>]"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:187
@@ -275,12 +282,15 @@ msgid ""
 "optional.  If I<max-lines> is not specified, it defaults to one.  The B<-l> "
 "option is deprecated since the POSIX standard specifies B<-L> instead."
 msgstr ""
+"和 B<-L> 选项同义。但与 B<-L> 不同，此时I<最大行数>的参数是可选的。如果未指定"
+"I<最大行数>，则默认取值为 1。B<-l> 选项已被弃用，因为 POSIX 标准指定了使用 "
+"B<-L> 选项。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:187
 #, no-wrap
 msgid "B<-n>I< max-args>, B<--max-args>=I<max-args>"
-msgstr ""
+msgstr "B<-n>I< max-args>, B<--max-args>=I<max-args>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:199
@@ -289,12 +299,15 @@ msgid ""
 "arguments will be used if the size (see the B<-s> option) is exceeded, "
 "unless the B<-x> option is given, in which case B<xargs> will exit."
 msgstr ""
+"每条命令行最多使用 I<max-args> 个参数。如果参数总大小超过限制（参见 B<-s> 选"
+"项），则实际使用的参数数量可能少于 I<max-args>，除非指定了 B<-x> 选项；在这种"
+"情况下，B<xargs> 将直接退出。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:199
 #, no-wrap
 msgid "B<-P>I< max-procs>, B<--max-procs>=I<max-procs>"
-msgstr ""
+msgstr "B<-P>I< max-procs>, B<--max-procs>=I<max-procs>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:231
@@ -311,6 +324,14 @@ msgid ""
 "to terminate before starting another.  B<xargs> always waits for all child "
 "processes to exit before exiting itself (but see BUGS)."
 msgstr ""
+"同时最多运行 I<max-procs> 个进程；默认值为 1。如果 I<max-procs> 为 0，则 "
+"B<xargs> 会尽可能多地同时运行进程。应当配合 B<-n> 选项或 B<-L> 选项与 B<-P> "
+"一起使用；否则很可能只执行一次 exec。在 B<xargs> 运行期间，你可以向其进程发"
+"送 SIGUSR1 信号来增加并行运行的命令数，或发送 SIGUSR2 信号来减少该数量。增加"
+"数量时不能超过实现定义的上限（可通过 --show-limits 查看），减少数量时不能低"
+"于 1。B<xargs> 永远不会主动终止其启动的命令；当请求减少并发数时，它只会在已有"
+"的多个命令终止之后才启动新的。B<xargs> 在退出前总是会等待所有子进程结束（但有"
+"例外，请参见本文档“缺陷”一节）。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:241
@@ -319,6 +340,9 @@ msgid ""
 "SIGUSR2 signals, meaning that they will terminate the program (unless they "
 "were blocked in the parent process before B<xargs> was started)."
 msgstr ""
+"如果未使用 B<-P> 选项，B<xargs> 将不会处理 SIGUSR1 和 SIGUSR2 信号，这意味着"
+"这些信号将会终止该程序（除非在启动 B<xargs> 之前，这些信号已在父进程中被屏"
+"蔽）。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:255
@@ -333,6 +357,12 @@ msgid ""
 "performance difference, simply arrange for each process to produce a "
 "separate output file (or otherwise use separate resources)."
 msgstr ""
+"B<请注意>，被调用的进程需自行负责正确管理对共享资源的并发访问。例如，如果多个"
+"进程同时尝试向标准输出打印内容，除非它们以某种方式进行协作防止冲突，否则输出"
+"的顺序将无法确定（并且很可能会混杂在一起）。采用某种锁机制是一种防止此类问题"
+"的方法。一般而言，使用锁机制有助于确保输出正确，但会降低性能。如果你不希望承"
+"受性能差异的影响，可以让每个进程输出到不同的文件，或者以其他方式使用不同的资"
+"源。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:255
@@ -347,6 +377,8 @@ msgid ""
 "command.  This is useful if you want B<xargs> to run an interactive "
 "application."
 msgstr ""
+"在执行命令之前，在子进程中将标准输入重新打开为 I</dev/tty>。如果你希望 "
+"B<xargs> 运行一个交互式应用程序，这将非常有用。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:263
@@ -361,12 +393,14 @@ msgid ""
 "the terminal.  Only run the command line if the response starts with `y' or "
 "`Y'.  Implies B<-t>."
 msgstr ""
+"在执行每条命令行之前提示用户确认，并从终端读取一行输入。仅当用户的响应"
+"以“y”或“Y”开头时才执行该命令行。此选项隐含启用 B<-t>。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:270
 #, no-wrap
 msgid "B<--process-slot-var>=I<name>"
-msgstr ""
+msgstr "B<--process-slot-var>=I<name>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:277
@@ -375,12 +409,14 @@ msgid ""
 "process.  Values are reused once child processes exit.  This can be used in "
 "a rudimentary load distribution scheme, for example."
 msgstr ""
+"将环境变量 I<name> 设置为每个正在运行的子进程中的唯一值。一旦子进程退出，该值"
+"会被重新使用。例如，这可以用于实现一个基本的负载分配方案。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:277
 #, no-wrap
 msgid "B<-r, --no-run-if-empty>"
-msgstr ""
+msgstr "B<-r, --no-run-if-empty>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:283
@@ -389,12 +425,14 @@ msgid ""
 "command.  Normally, the command is run once even if there is no input.  This "
 "option is a GNU extension."
 msgstr ""
+"如果标准输入中不包含任何非空白字符，则不执行命令。通常情况下，即使没有输入，"
+"命令也会执行一次。此选项是 GNU 扩展功能。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:283
 #, no-wrap
 msgid "B<-s>I< max-chars>, B<--max-chars>I<=max-chars>"
-msgstr ""
+msgstr "B<-s>I< max-chars>, B<--max-chars>I<=max-chars>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:296
@@ -408,6 +446,11 @@ msgid ""
 "maximum.  1\\ KiB is 1024 bytes.  B<xargs> automatically adapts to tighter "
 "constraints."
 msgstr ""
+"每条命令行最多使用 I<max-chars> 个字符，包括命令本身、初始参数以及每个参数字"
+"符串末尾的空字符。最大允许值依赖于系统，其计算方式为：exec 的参数长度限制，减"
+"去环境变量所占空间，再减去 2048 字节的保留空间。如果计算出的值超过 128\\ "
+"KiB，则默认值为 128\\ KiB；否则，默认值为该最大值。其中 1\\ KiB 等于 1024 字"
+"节。B<xargs> 会自动适应更严格的限制。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:296
@@ -423,35 +466,38 @@ msgid ""
 "Pipe the input from I</dev/null> (and perhaps specify B<--no-run-if-empty>)  "
 "if you don't want B<xargs> to do anything."
 msgstr ""
+"显示操作系统施加的命令行长度限制、B<xargs> 所选择的缓冲区大小，以及 B<-s> 选"
+"项所设定的限制。如果你不希望 B<xargs> 实际执行任何操作，可以将输入通过管道重"
+"定向为来自 I</dev/null>（并可考虑加上 B<--no-run-if-empty> 选项）。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:311
 #, no-wrap
 msgid "B<-t, --verbose>"
-msgstr ""
+msgstr "B<-t, --verbose>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:315
 msgid ""
 "Print the command line on the standard error output before executing it."
-msgstr ""
+msgstr "在执行命令之前，将该命令行打印到标准错误输出上。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:315
 #, no-wrap
 msgid "B<-x, --exit>"
-msgstr ""
+msgstr "B<-x, --exit>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:320
 msgid "Exit if the size (see the B<-s> option) is exceeded."
-msgstr ""
+msgstr "如果大小超出限制（参见 B<-s> 选项），则退出程序。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:320
 #, no-wrap
 msgid "B<-->"
-msgstr ""
+msgstr "B<-->"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:336
@@ -462,28 +508,32 @@ msgid ""
 "and B<xargs -- --mycommand> runs the command I<--mycommand> instead of "
 "rejecting this as unrecognized option."
 msgstr ""
+"用于标记选项列表的结束。其后的参数（如果有）即使以 I<-> 开头，也会被当作操作"
+"数处理。例如，B<xargs -- --help> 会运行 I<PATH> 中名为 I<--help> 的命令，而不"
+"是打印用法说明；B<xargs -- --mycommand> 会执行命令 I<--mycommand>，而不会将其"
+"视为无法识别的选项而报错。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:336
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:341
 msgid "Print a summary of the options to B<xargs> and exit."
-msgstr ""
+msgstr "打印 B<xargs> 的选项摘要并退出。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:341
 #, no-wrap
 msgid "B<--version>"
-msgstr ""
+msgstr "B<--version>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:346
 msgid "Print the version number of B<xargs> and exit."
-msgstr ""
+msgstr "打印 B<xargs> 的版本号并退出。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:377
@@ -498,6 +548,12 @@ msgid ""
 "ignored after the B<--replace> option and its aliases B<-I> and B<-i>, "
 "because it would not actually conflict."
 msgstr ""
+"选项 B<--max-lines>（B<-L>、B<-l>）、B<--replace>（B<-I>、B<-i>）以及 B<--"
+"max-args>（B<-n>）是互斥的。如果同时指定了其中多个选项，B<xargs> 通常会采用命"
+"令行中最后指定的选项，也就是说，之前指定的冲突选项会被重置为默认值。此外，"
+"B<xargs> 会在 I<stderr> 上发出警告信息。此规则有一个例外：当使用 B<--"
+"replace> 或其别名 B<-I>、B<-i> 后，若再次指定特殊值 I<1>（即 'B<-n>I<1>'），"
+"该值将被忽略，因为它实际上并不构成冲突。"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:379
@@ -518,11 +574,13 @@ msgid ""
 "Note that this will work incorrectly if there are any filenames containing "
 "newlines or spaces."
 msgstr ""
+"在 B</tmp> 目录中或其子目录下查找名为 B<core> 的文件并将其删除。请注意，如果"
+"有任何文件名中包含换行符或空格，该操作可能无法正确执行。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:393
 msgid "B<find /tmp -name core -type f -print0 | xargs -0 /bin/rm -f>"
-msgstr ""
+msgstr "B<find /tmp -name core -type f -print0 | xargs -0 /bin/rm -f>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:400
@@ -531,11 +589,13 @@ msgid ""
 "processing filenames in such a way that file or directory names containing "
 "spaces or newlines are correctly handled."
 msgstr ""
+"在 B</tmp> 目录中或其子目录下查找名为 B<core> 的文件并将其删除，处理文件名时"
+"会正确处理包含空格或换行符的文件或目录名称。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:403
 msgid "B<find /tmp -depth -name core -type f -delete>"
-msgstr ""
+msgstr "B<find /tmp -depth -name core -type f -delete>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:418
@@ -545,17 +605,20 @@ msgid ""
 "to use B<fork>(2)  and B<exec>(2)  to launch B<rm> and we don't need the "
 "extra B<xargs> process)."
 msgstr ""
+"在 B</tmp> 目录中或其子目录下查找名为 B<core> 的文件并将其删除，且比前一个示"
+"例更高效（因为我们避免了使用 B<fork>(2) 和 B<exec>(2) 来启动 B<rm>，也不需要"
+"额外的 B<xargs> 进程）。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:422
 #, no-wrap
 msgid "B<cut -d: -f1 E<lt> /etc/passwd | sort | xargs echo>\n"
-msgstr ""
+msgstr "B<cut -d: -f1 E<lt> /etc/passwd | sort | xargs echo>\n"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:425
 msgid "Generates a compact listing of all the users on the system."
-msgstr ""
+msgstr "生成系统上所有用户的简洁列表。"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:426
@@ -745,6 +808,12 @@ msgid ""
 "documentation.  The B<-execdir> option of B<find> can often be used as a "
 "more secure alternative."
 msgstr ""
+"无法保证 B<xargs> 能够完全安全地运行，因为在产生输入文件的列表和其被 "
+"B<xargs> 执行的命令所处理这两个事件之间总有时间差。如果有其他用户同时在访问系"
+"统，他们可以在这个时间窗口内操作文件系统并迫使 B<xargs> 要运行的命令本来要处"
+"理的文件和实际处理的文件不相同。如需了解对这个问题和相关问题更详细的讨论，请"
+"参考 findutils Texinfo 文档中的“Security Considerations”章节。B<find> 工具的 "
+"B<-execdir> 选项通常可以被用来提供更为安全的功能替代。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:534
@@ -756,11 +825,15 @@ msgid ""
 "of buffer space that B<xargs> uses, and you can also use an extra invocation "
 "of B<xargs> to ensure that very long lines do not occur.  For example:"
 msgstr ""
+"在使用 B<-I> 选项时，从输入读取的每一行都会存储在内部缓冲区。这意味着使用 B<-"
+"I> 选项时 B<xargs> 能接受的输入行数存在上限。如需绕过这个限制，可以使用 B<-"
+"s> 选项来加大 B<xargs> 所使用的缓冲区大小，且另外也可以使用多次额外的 "
+"B<xargs> 调用来确保不会出现超长的行。例如："
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:536
 msgid "B<somecommand | xargs -s 50000 echo | xargs -I '{}' -s 100000 rm '{}'>"
-msgstr ""
+msgstr "B<某些命令 | xargs -s 50000 echo | xargs -I '{}' -s 100000 rm '{}'>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:557
@@ -773,6 +846,11 @@ msgid ""
 "why this discussion appears in the BUGS section.  The problem doesn't occur "
 "with the output of B<find>(1)  because it emits just one filename per line."
 msgstr ""
+"在这里，第一次调用的 B<xargs> 因为未使用 B<-i> 选项而没有输入行长度限制。第二"
+"次调用的 B<xargs> 确实存在限制，但我们已确保了它永远不会遇到超出其处理能力范"
+"围的行。这并不是最理想的解决方法。理想情况下，B<-i> 选项不应该预设行长度限"
+"制，这也是本段讨论会出现在“缺陷”一节中的原因。这个问题在处理 B<find>(1) 的输"
+"出时并不会出现，因其每行只会输出一个文件名。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:564
@@ -781,6 +859,8 @@ msgid ""
 "exit while some of its children were still running, if one of them exited "
 "with status 255."
 msgstr ""
+"在 B<xargs> 4.9.0 版本及之前的版本中，B<xargs -P> 在其子进程仍在运行，但其中"
+"某些已经返回 255 的情况下会退出。"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:565
@@ -802,11 +882,12 @@ msgstr ""
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:571
 msgid "Report any other issue via the form at the GNU Savannah bug tracker:"
-msgstr ""
+msgstr "请使用 GNU Savannah 缺陷追踪系统上的表格报告任何出现的问题："
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:573
@@ -819,6 +900,7 @@ msgid ""
 "General topics about the GNU findutils package are discussed at the I<bug-"
 "findutils> mailing list:"
 msgstr ""
+"有关 GNU findutils 软件包的通用主题可以在 I<bug-findutils> 邮件列表上讨论："
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:579
@@ -835,9 +917,11 @@ msgstr "版权"
 #: raw/findutils/man1/xargs.1:584
 msgid ""
 "Copyright \\(co 1990\\(en2024 Free Software Foundation, Inc.  License "
-"GPLv3+: GNU GPL version 3 or later E<lt>https://gnu.org/licenses/gpl."
-"htmlE<gt>."
+"GPLv3+: GNU GPL version 3 or later E<lt>https://gnu.org/licenses/"
+"gpl.htmlE<gt>."
 msgstr ""
+"版权所有 \\(co 1990\\(en2024 自由软件基金会。许可证 GPLv3+：GNU GPL 第 3 版或"
+"更新版本 E<lt>https://gnu.org/licenses/gpl.htmlE<gt>。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:587
@@ -845,6 +929,8 @@ msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
+"这是自由软件：您可以自由地更改并对其重新发布。在法律所允许的范围内不含任何担"
+"保。"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:588
