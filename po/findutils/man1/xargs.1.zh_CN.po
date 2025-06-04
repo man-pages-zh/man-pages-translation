@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-02-15 09:46-0500\n"
-"PO-Revision-Date: 2025-02-15 10:01-0500\n"
+"PO-Revision-Date: 2025-06-04 10:26-0400\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: zh_CN\n"
@@ -135,12 +135,16 @@ msgid ""
 "marks, or backslashes.  The GNU find -print0 option produces input suitable "
 "for this mode."
 msgstr ""
+"输入条目以空字符结束，而不是以空白结束，引号和反斜杠也不特殊（每个字符都按字"
+"面意思理解）。禁用文件结束字符串（EOF），该字符串与其他参数按相同方法处理。当"
+"输入项可能包含空白、引号或反斜线时，该选项非常有用。GNU find -print0 选项产生"
+"的输入适合这种模式。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:78
 #, no-wrap
 msgid "B<-a >I<file>B<, --arg-file=>I<file>"
-msgstr ""
+msgstr "B<-a >I<文件>B<, --arg-file=>I<文件>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:86
@@ -149,12 +153,14 @@ msgid ""
 "stdin remains unchanged when commands are run.  Otherwise, stdin is "
 "redirected from I</dev/null>."
 msgstr ""
+"从给定I<file>而不是标准输入读取条目。如果使用该选项，运行命令时标准输入将保持"
+"不变。否则，标准输入将从 I</dev/null> 重定向。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:87
 #, no-wrap
 msgid "B<--delimiter=>I<delim>B<, -d>I< delim>"
-msgstr ""
+msgstr "B<--delimiter=>I<分隔符>B<, -d>I< 分隔符>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:109
@@ -170,12 +176,19 @@ msgid ""
 "items, although it is almost always better to design your program to use B<--"
 "null> where this is possible."
 msgstr ""
+"输入条目由指定字符分隔而结束。所指定的分隔符可能是单个字符、类似 B<\\en> 的 "
+"C 风格字符转义序列、或者八进制/十六进制转义代码。八进制和十六进制转义代码和 "
+"B<printf> 命令所使用的格式一致。不支持多字节字符。处理输入时，引号和反斜线并"
+"不会被特殊处理；输入中的每个字符都被按照其字面样式进行处理。使用 B<-d> 选项会"
+"禁用所有文件结束字符串，令其与其它参数按照相同方式处理。在输入仅包含用换行符"
+"分隔的条目时可以使用该选项；但如果可能的话，设计让程序使用 B<--null> 选项几乎"
+"总是更好的方案。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:110
 #, no-wrap
 msgid "B<-E>I< eof-str>"
-msgstr ""
+msgstr "B<-E>I< eof-str>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:120
@@ -184,12 +197,15 @@ msgid ""
 "as a line of input, the rest of the input is ignored.  If neither B<-E> nor "
 "B<-e> is used, no end-of-file string is used."
 msgstr ""
+"将文件结束字符串设置为 I<eof-str>。如果该文件结束字符串作为一行输入出现，则其"
+"后的输入内容均会被忽略。如果既未使用 B<-E> 也未使用 B<-e>，则不使用任何文件结"
+"束字符串。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:120
 #, no-wrap
 msgid "B<-e>[I<eof-str>], B<--eof>[I<=eof-str>]"
-msgstr ""
+msgstr "B<-e>[I<eof-str>], B<--eof>[I<=eof-str>]"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:135
@@ -199,6 +215,9 @@ msgid ""
 "there is no end-of-file string.  If neither B<-E> nor B<-e> is used, no end-"
 "of-file string is used."
 msgstr ""
+"该选项是 B<-E> 选项的同义词。请使用 B<-E> ，因为它符合 POSIX 标准，而该选项不"
+"符合 POSIX 标准。如果省略 I<eof-str> ，则没有文件结束字符串。如果既没有使用 "
+"B<-E> 也没有使用 B<-e>，则不会使用文件结尾字符串。"
 
 #. type: TP
 #: raw/findutils/man1/xargs.1:135
@@ -233,7 +252,7 @@ msgstr ""
 #: raw/findutils/man1/xargs.1:162
 #, no-wrap
 msgid "B<-L>I< max-lines>"
-msgstr ""
+msgstr "B<-L>I< max-lines>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:169
@@ -319,7 +338,7 @@ msgstr ""
 #: raw/findutils/man1/xargs.1:255
 #, no-wrap
 msgid "B<-o, --open-tty>"
-msgstr ""
+msgstr "B<-o, --open-tty>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:263
@@ -333,7 +352,7 @@ msgstr ""
 #: raw/findutils/man1/xargs.1:263
 #, no-wrap
 msgid "B<-p, --interactive>"
-msgstr ""
+msgstr "B<-p, --interactive>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:270
@@ -394,7 +413,7 @@ msgstr ""
 #: raw/findutils/man1/xargs.1:296
 #, no-wrap
 msgid "B<--show-limits>"
-msgstr ""
+msgstr "B<--show-limits>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:311
@@ -542,89 +561,89 @@ msgstr ""
 #: raw/findutils/man1/xargs.1:426
 #, no-wrap
 msgid "EXIT STATUS"
-msgstr ""
+msgstr "退出状态"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:429
 msgid "B<xargs> exits with the following status:"
-msgstr ""
+msgstr "B<xargs> 退出时会使用下列状态码："
 
 #. type: IP
 #: raw/findutils/man1/xargs.1:430
 #, no-wrap
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:432
 msgid "if it succeeds"
-msgstr ""
+msgstr "表示运行成功"
 
 #. type: IP
 #: raw/findutils/man1/xargs.1:432
 #, no-wrap
 msgid "123"
-msgstr ""
+msgstr "123"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:434
 msgid "if any invocation of the command exited with status 1\\(en125"
-msgstr ""
+msgstr "表示所调用的命令中出现了退出状态码在 1\\(en125 范围内的情况"
 
 #. type: IP
 #: raw/findutils/man1/xargs.1:434
 #, no-wrap
 msgid "124"
-msgstr ""
+msgstr "124"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:436
 msgid "if the command exited with status 255"
-msgstr ""
+msgstr "表示命令以 255 退出"
 
 #. type: IP
 #: raw/findutils/man1/xargs.1:436
 #, no-wrap
 msgid "125"
-msgstr ""
+msgstr "125"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:438
 msgid "if the command is killed by a signal"
-msgstr ""
+msgstr "表示命令被信号杀死"
 
 #. type: IP
 #: raw/findutils/man1/xargs.1:438
 #, no-wrap
 msgid "126"
-msgstr ""
+msgstr "126"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:440
 msgid "if the command cannot be run"
-msgstr ""
+msgstr "表示无法运行命令"
 
 #. type: IP
 #: raw/findutils/man1/xargs.1:440
 #, no-wrap
 msgid "127"
-msgstr ""
+msgstr "127"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:442
 msgid "if the command is not found"
-msgstr ""
+msgstr "表示命令未找到"
 
 #. type: IP
 #: raw/findutils/man1/xargs.1:442
 #, no-wrap
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:444
 msgid "if some other error occurred."
-msgstr ""
+msgstr "表示出现了其他错误。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:449
@@ -632,12 +651,13 @@ msgid ""
 "Exit codes greater than 128 are used by the shell to indicate that a program "
 "died due to a fatal signal."
 msgstr ""
+"大于 128 的退出状态码通常由 shell 所使用，指示程序由于某个致命信号而停止。"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:450
 #, no-wrap
 msgid "STANDARDS CONFORMANCE"
-msgstr ""
+msgstr "遵循标准"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:455
@@ -646,6 +666,8 @@ msgid ""
 "have a logical end-of-file marker.  POSIX (IEEE Std 1003.1, 2004 Edition) "
 "allows this."
 msgstr ""
+"截至 GNU xargs 第 4.2.9 版，B<xargs> 的默认行为是不适用逻辑上的文件结束标记。"
+"POSIX (IEEE Std 1003.1, 2004 版) 允许该行为。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:459
@@ -654,13 +676,15 @@ msgid ""
 "do not appear in the 2004 version of the standard.  Therefore you should use "
 "-L and -I instead, respectively."
 msgstr ""
+"-l 和 -i 选项在 POSIX 标准的 1997 版出现，但在 2004 版中未出现。因此最好应使"
+"用 -L 和 -I 进行替代。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:462
 msgid ""
 "The -o option is an extension to the POSIX standard for better compatibility "
 "with BSD."
-msgstr ""
+msgstr "-o 选项是 POSIX 标准中为了加强与 BSD 的兼容性而出现的扩展。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:475
@@ -672,6 +696,10 @@ msgid ""
 "whose actual limit is that small.  The B<--show-limits> option can be used "
 "to discover the actual limits in force on the current system."
 msgstr ""
+"POSIX 标准允许具体实现设置 B<exec> 函数的参数大小限制。包含环境在内，其限制最"
+"小可以低至 4096 字节。如需编写可移植脚本，脚本不能假定更大的限制值。然而，笔"
+"者至今未曾见到最大值限制如此低的实现版本。可以使用 B<--show-limits> 选项检查"
+"当前系统上生效的实际限制值。"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:484
@@ -680,6 +708,8 @@ msgid ""
 "SIGUSR2 would not cause B<xargs> to terminate even if the B<-P> option was "
 "not used."
 msgstr ""
+"在 B<xargs> 4.9.0 版和之前版本中，即便未使用 B<-P> 选项，SIGUSR1 和 SIGUSR2 "
+"也不会导致 B<xargs> 终止运行。"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:485
@@ -693,6 +723,8 @@ msgid ""
 "The B<xargs> program was invented by Herb Gellis at Bell Labs.  See the "
 "Texinfo manual for findutils, I<Finding Files>, for more information."
 msgstr ""
+"B<xargs> 程序由贝尔实验室的 Herb Gellis 所发明。请参见 findutils 的 texinfo "
+"手册中 I<Finding Files> 一节以了解更多信息。"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:494
@@ -779,7 +811,7 @@ msgstr ""
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:573
 msgid "E<lt>https://savannah.gnu.org/bugs/?group=findutilsE<gt>"
-msgstr ""
+msgstr "E<lt>https://savannah.gnu.org/bugs/?group=findutilsE<gt>"
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:577
@@ -791,7 +823,7 @@ msgstr ""
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:579
 msgid "E<lt>https://lists.gnu.org/mailman/listinfo/bug-findutilsE<gt>"
-msgstr ""
+msgstr "E<lt>https://lists.gnu.org/mailman/listinfo/bug-findutilsE<gt>"
 
 #. type: SH
 #: raw/findutils/man1/xargs.1:581
