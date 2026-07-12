@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2026-07-12 14:56-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:17
-msgid "B<[\\& ]\">"
+msgid "B<[\\& ]\\&>"
 msgstr ""
 
 #. type: Plain text

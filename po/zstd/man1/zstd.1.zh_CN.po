@@ -1,0 +1,1690 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-07-12 14:56-0400\n"
+"PO-Revision-Date: 2026-07-12 15:40-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#. type: TH
+#: raw/zstd/man1/zstd.1:2
+#, no-wrap
+msgid "ZSTD"
+msgstr "ZSTD"
+
+#. type: TH
+#: raw/zstd/man1/zstd.1:2
+#, no-wrap
+msgid "February 2025"
+msgstr "2025年二月"
+
+#. type: TH
+#: raw/zstd/man1/zstd.1:2
+#, no-wrap
+msgid "zstd 1.5.7"
+msgstr "zstd 1.5.7"
+
+#. type: TH
+#: raw/zstd/man1/zstd.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:4
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:6
+msgid ""
+"B<zstd> - zstd, zstdmt, unzstd, zstdcat - Compress or decompress .zst files"
+msgstr "B<zstd> - zstd, zstdmt, unzstd, zstdcat - 压缩或解压缩 .zst 文件"
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:7
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:9
+msgid "B<zstd> [I<OPTIONS>] [-|I<INPUT-FILE>] [-o I<OUTPUT-FILE>]"
+msgstr "B<zstd> [I<选项>] [-|I<输入文件>] [-o I<输出文件>]"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:12
+msgid "B<zstdmt> is equivalent to B<zstd -T0>"
+msgstr "B<zstdmt> 等效于 B<zstd -T0>"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:15
+msgid "B<unzstd> is equivalent to B<zstd -d>"
+msgstr "B<unzstd> 等效于 B<zstd -d>"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:18
+msgid "B<zstdcat> is equivalent to B<zstd -dcf>"
+msgstr "B<zstdcat> 等效于 B<zstd -dcf>"
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:19
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:21
+msgid ""
+"B<zstd> is a fast lossless compression algorithm and data compression tool, "
+"with command line syntax similar to B<gzip>(1) and B<xz>(1). It is based on "
+"the B<LZ77> family, with further FSE & huff0 entropy stages. B<zstd> offers "
+"highly configurable compression speed, from fast modes at E<gt> 200 MB/s per "
+"core, to strong modes with excellent compression ratios. It also features a "
+"very fast decoder, with speeds E<gt> 500 MB/s per core, which remains "
+"roughly stable at all compression settings."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:24
+msgid ""
+"B<zstd> command line syntax is generally similar to gzip, but features the "
+"following few differences:"
+msgstr ""
+
+#. type: IP
+#: raw/zstd/man1/zstd.1:25 raw/zstd/man1/zstd.1:28 raw/zstd/man1/zstd.1:31
+#: raw/zstd/man1/zstd.1:34 raw/zstd/man1/zstd.1:37 raw/zstd/man1/zstd.1:48
+#: raw/zstd/man1/zstd.1:51 raw/zstd/man1/zstd.1:101 raw/zstd/man1/zstd.1:104
+#: raw/zstd/man1/zstd.1:107 raw/zstd/man1/zstd.1:110 raw/zstd/man1/zstd.1:113
+#: raw/zstd/man1/zstd.1:122 raw/zstd/man1/zstd.1:125 raw/zstd/man1/zstd.1:131
+#: raw/zstd/man1/zstd.1:137 raw/zstd/man1/zstd.1:140 raw/zstd/man1/zstd.1:143
+#: raw/zstd/man1/zstd.1:158 raw/zstd/man1/zstd.1:161 raw/zstd/man1/zstd.1:164
+#: raw/zstd/man1/zstd.1:167 raw/zstd/man1/zstd.1:170 raw/zstd/man1/zstd.1:179
+#: raw/zstd/man1/zstd.1:182 raw/zstd/man1/zstd.1:185 raw/zstd/man1/zstd.1:188
+#: raw/zstd/man1/zstd.1:191 raw/zstd/man1/zstd.1:194 raw/zstd/man1/zstd.1:197
+#: raw/zstd/man1/zstd.1:200 raw/zstd/man1/zstd.1:203 raw/zstd/man1/zstd.1:206
+#: raw/zstd/man1/zstd.1:209 raw/zstd/man1/zstd.1:212 raw/zstd/man1/zstd.1:215
+#: raw/zstd/man1/zstd.1:218 raw/zstd/man1/zstd.1:224 raw/zstd/man1/zstd.1:227
+#: raw/zstd/man1/zstd.1:230 raw/zstd/man1/zstd.1:233 raw/zstd/man1/zstd.1:236
+#: raw/zstd/man1/zstd.1:239 raw/zstd/man1/zstd.1:242 raw/zstd/man1/zstd.1:245
+#: raw/zstd/man1/zstd.1:248 raw/zstd/man1/zstd.1:535 raw/zstd/man1/zstd.1:538
+#: raw/zstd/man1/zstd.1:541 raw/zstd/man1/zstd.1:544 raw/zstd/man1/zstd.1:547
+#: raw/zstd/man1/zstd.1:550 raw/zstd/man1/zstd.1:553 raw/zstd/man1/zstd.1:556
+#, no-wrap
+msgid "\\(bu"
+msgstr "\\(bu"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:27
+msgid ""
+"Source files are preserved by default. It\\'s possible to remove them "
+"automatically by using the B<--rm> command."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:30
+msgid ""
+"When compressing a single file, B<zstd> displays progress notifications and "
+"result summary by default. Use B<-q> to turn them off."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:33
+msgid ""
+"B<zstd> displays a short help page when command line is an error. Use B<-q> "
+"to turn it off."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:36
+msgid ""
+"B<zstd> does not accept input from console, though it does accept B<stdin> "
+"when it\\'s not the console."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:39
+msgid ""
+"B<zstd> does not store the input\\'s filename or attributes, only its "
+"contents."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:44
+msgid ""
+"B<zstd> processes each I<file> according to the selected operation mode. If "
+"no I<files> are given or I<file> is B<->, B<zstd> reads from standard input "
+"and writes the processed data to standard output. B<zstd> will refuse to "
+"write compressed data to standard output if it is a terminal: it will "
+"display an error message and skip the file. Similarly, B<zstd> will refuse "
+"to read compressed data from standard input if it is a terminal."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:47
+msgid ""
+"Unless B<--stdout> or B<-o> is specified, I<files> are written to a new file "
+"whose name is derived from the source I<file> name:"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:50
+msgid ""
+"When compressing, the suffix B<.zst> is appended to the source filename to "
+"get the target filename."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:53
+msgid ""
+"When decompressing, the B<.zst> suffix is removed from the source filename "
+"to get the target filename"
+msgstr ""
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:56
+#, no-wrap
+msgid "Concatenation with .zst Files"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:58
+msgid ""
+"It is possible to concatenate multiple B<.zst> files. B<zstd> will "
+"decompress such agglomerated file as if it was a single B<.zst> file."
+msgstr ""
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:59
+#, no-wrap
+msgid "OPTIONS"
+msgstr "选项"
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:61
+#, no-wrap
+msgid "Integer Suffixes and Special Values"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:63
+msgid ""
+"In most places where an integer argument is expected, an optional suffix is "
+"supported to easily indicate large integers. There must be no space between "
+"the integer and the suffix."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:64
+#, no-wrap
+msgid "B<KiB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:67
+msgid ""
+"Multiply the integer by 1,024 (2^10). B<Ki>, B<K>, and B<KB> are accepted as "
+"synonyms for B<KiB>."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:68
+#, no-wrap
+msgid "B<MiB>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:71
+msgid ""
+"Multiply the integer by 1,048,576 (2^20). B<Mi>, B<M>, and B<MB> are "
+"accepted as synonyms for B<MiB>."
+msgstr ""
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:72
+#, no-wrap
+msgid "Operation Mode"
+msgstr "操作模式"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:74
+msgid ""
+"If multiple operation mode options are given, the last one takes effect."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:75
+#, no-wrap
+msgid "B<-z>, B<--compress>"
+msgstr "B<-z>, B<--compress>"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:78
+msgid ""
+"Compress. This is the default operation mode when no operation mode option "
+"is specified and no other operation mode is implied from the command name "
+"(for example, B<unzstd> implies B<--decompress>)."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:79
+#, no-wrap
+msgid "B<-d>, B<--decompress>, B<--uncompress>"
+msgstr "B<-d>, B<--decompress>, B<--uncompress>"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:82
+msgid "Decompress."
+msgstr "解压缩。"
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:83
+#, no-wrap
+msgid "B<-t>, B<--test>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:86
+msgid ""
+"Test the integrity of compressed I<files>. This option is equivalent to B<--"
+"decompress --stdout E<gt> /dev/null>, decompressed data is discarded and "
+"checksummed for errors. No files are created or removed."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:87
+#, no-wrap
+msgid "B<-b#>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:90
+msgid ""
+"Benchmark file(s) using compression level I<#>. See I<BENCHMARK> below for a "
+"description of this operation."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:91
+#, no-wrap
+msgid "B<--train FILES>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:94
+msgid ""
+"Use I<FILES> as a training set to create a dictionary. The training set "
+"should contain a lot of small files (E<gt> 100). See I<DICTIONARY BUILDER> "
+"below for a description of this operation."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:95
+#, no-wrap
+msgid "B<-l>, B<--list>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:98
+msgid ""
+"Display information related to a zstd compressed file, such as size, ratio, "
+"and checksum. Some of these fields may not be available. This command\\'s "
+"output can be augmented with the B<-v> modifier."
+msgstr ""
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:99
+#, no-wrap
+msgid "Operation Modifiers"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:103
+msgid ""
+"B<-#>: selects B<#> compression level [1-19] (default: 3). Higher "
+"compression levels I<generally> produce higher compression ratio at the "
+"expense of speed and memory. A rough rule of thumb is that compression speed "
+"is expected to be divided by 2 every 2 levels. Technically, each level is "
+"mapped to a set of advanced parameters (that can also be modified "
+"individually, see below). Because the compressor\\'s behavior highly depends "
+"on the content to compress, there\\'s no guarantee of a smooth progression "
+"from one level to another."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:106
+msgid ""
+"B<--ultra>: unlocks high compression levels 20+ (maximum 22), using a lot "
+"more memory. Note that decompression will also require more memory when "
+"using these levels."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:109
+msgid ""
+"B<--fast[=#]>: switch to ultra-fast compression levels. If B<=#> is not "
+"present, it defaults to B<1>. The higher the value, the faster the "
+"compression speed, at the cost of some compression ratio. This setting "
+"overwrites compression level if one was set previously. Similarly, if a "
+"compression level is set after B<--fast>, it overrides it."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:112
+msgid ""
+"B<-T#>, B<--threads=#>: Compress using B<#> working threads (default: "
+"between 1 and 4 depending on physical CPU cores; see B<ZSTD_NBTHREADS> "
+"below). If B<#> is 0, attempt to detect and use the number of physical CPU "
+"cores. In all cases, the nb of threads is capped to B<ZSTDMT_NBWORKERS_MAX>, "
+"which is either 64 in 32-bit mode, or 256 for 64-bit environments. This "
+"modifier does nothing if B<zstd> is compiled without multithread support."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:115
+msgid ""
+"B<--single-thread>: Use a single thread for both I/O and compression. As "
+"compression is serialized with I/O, this can be slightly slower. Single-"
+"thread mode features significantly lower memory usage, which can be useful "
+"for systems with limited amount of memory, such as 32-bit systems."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:118
+msgid ""
+"Note 1: this mode is the only available one when multithread support is "
+"disabled."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:121
+msgid ""
+"Note 2: this mode is different from B<-T1>, which spawns 1 compression "
+"thread in parallel with I/O. Final compressed result is also slightly "
+"different from B<-T1>."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:124
+msgid ""
+"B<--auto-threads={physical,logical} (default: physical)>: When using a "
+"default amount of threads via B<-T0>, choose the default based on the number "
+"of detected physical or logical cores."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:127
+msgid ""
+"B<--adapt[=min=#,max=#]>: B<zstd> will dynamically adapt compression level "
+"to perceived I/O conditions. Compression level adaptation can be observed "
+"live by using command B<-v>. Adaptation can be constrained between supplied "
+"B<min> and B<max> levels. The feature works when combined with multi-"
+"threading and B<--long> mode. It does not work with B<--single-thread>. It "
+"sets window size to 8 MiB by default (can be changed manually, see B<wlog>). "
+"Due to the chaotic nature of dynamic adaptation, compressed result is not "
+"reproducible."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:130
+msgid ""
+"I<Note>: at the time of this writing, B<--adapt> can remain stuck at low "
+"speed when combined with multiple worker threads (E<gt>=2)."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:133
+msgid ""
+"B<--long[=#]>: enables long distance matching with B<#> B<windowLog>, if "
+"B<#> is not present it defaults to B<27>. This increases the window size "
+"(B<windowLog>) and memory usage for both the compressor and decompressor. "
+"This setting is designed to improve the compression ratio for files with "
+"long matches at a large distance."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:136 raw/zstd/man1/zstd.1:298
+msgid ""
+"Note: If B<windowLog> is set to larger than 27, B<--long=windowLog> or B<--"
+"memory=windowSize> needs to be passed to the decompressor."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:139
+msgid ""
+"B<--max>: set advanced parameters to maximum compression. warning: this "
+"setting is very slow and uses a lot of resources. It\\'s inappropriate for "
+"32-bit mode and therefore disabled in this mode."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:142
+msgid "B<-D DICT>: use B<DICT> as Dictionary to compress or decompress FILE(s)"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:145
+msgid ""
+"B<--patch-from FILE>: Specify the file to be used as a reference point for "
+"zstd\\'s diff engine. This is effectively dictionary compression with some "
+"convenient parameter selection, namely that I<windowSize> E<gt> I<srcSize>."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:148
+msgid "Note: cannot use both this and B<-D> together."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:151
+msgid ""
+"Note: B<--long> mode will be automatically activated if I<chainLog> E<lt> "
+"I<fileLog> (I<fileLog> being the I<windowLog> required to cover the whole "
+"file). You can also manually force it."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:154
+msgid ""
+"Note: up to level 15, you can use B<--patch-from> in B<--single-thread> mode "
+"to improve compression ratio marginally at the cost of speed. Using \\'--"
+"single-thread\\' above level 15 will lead to lower compression ratios."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:157
+msgid ""
+"Note: for level 19, you can get increased compression ratio at the cost of "
+"speed by specifying B<--zstd=targetLength=> to be something large (i.e. "
+"4096), and by setting a large B<--zstd=chainLog=>."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:160
+msgid ""
+"B<--rsyncable>: B<zstd> will periodically synchronize the compression state "
+"to make the compressed file more rsync-friendly. There is a negligible "
+"impact to compression ratio, and a potential impact to compression speed, "
+"perceptible at higher speeds, for example when combining B<--rsyncable> with "
+"many parallel worker threads. This feature does not work with B<--single-"
+"thread>. You probably don\\'t want to use it with long range mode, since it "
+"will decrease the effectiveness of the synchronization points, but your "
+"mileage may vary."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:163
+msgid ""
+"B<-C>, B<--[no-]check>: add integrity check computed from uncompressed data "
+"(default: enabled)"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:166
+msgid ""
+"B<--[no-]content-size>: enable / disable whether or not the original size of "
+"the file is placed in the header of the compressed file. The default option "
+"is B<--content-size> (meaning that the original size will be placed in the "
+"header)."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:169
+msgid ""
+"B<--no-dictID>: do not store dictionary ID within frame header (dictionary "
+"compression). The decoder will have to rely on implicit knowledge about "
+"which dictionary to use, it won\\'t be able to check if it\\'s correct."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:172
+msgid ""
+"B<-M#>, B<--memory=#>: Set a memory usage limit. By default, B<zstd> uses "
+"128 MiB for decompression as the maximum amount of memory the decompressor "
+"is allowed to use, but you can override this manually if need be in either "
+"direction (i.e. you can increase or decrease it)."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:175
+msgid ""
+"This is also used during compression when using with B<--patch-from=>. In "
+"this case, this parameter overrides that maximum size allowed for a "
+"dictionary. (128 MiB)."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:178
+msgid ""
+"Additionally, this can be used to limit memory for dictionary training. This "
+"parameter overrides the default limit of 2 GiB. zstd will load training "
+"samples up to the memory limit and ignore the rest."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:181
+msgid ""
+"B<--stream-size=#>: Sets the pledged source size of input coming from a "
+"stream. This value must be exact, as it will be included in the produced "
+"frame header. Incorrect stream sizes will cause an error. This information "
+"will be used to better optimize compression parameters, resulting in better "
+"and potentially faster compression, especially for smaller source sizes."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:184
+msgid ""
+"B<--size-hint=#>: When handling input from a stream, B<zstd> must guess how "
+"large the source size will be when optimizing compression parameters. If the "
+"stream size is relatively small, this guess may be a poor one, resulting in "
+"a higher compression ratio than expected. This feature allows for "
+"controlling the guess when needed. Exact guesses result in better "
+"compression ratios. Overestimates result in slightly degraded compression "
+"ratios, while underestimates may result in significant degradation."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:187
+msgid ""
+"B<--target-compressed-block-size=#>: Attempt to produce compressed blocks of "
+"approximately this size. This will split larger blocks in order to approach "
+"this target. This feature is notably useful for improved latency, when the "
+"receiver can leverage receiving early incomplete data. This parameter "
+"defines a loose target: compressed blocks will target this size \"on "
+"average\", but individual blocks can still be larger or smaller. Enabling "
+"this feature can decrease compression speed by up to ~10% at level 1. Higher "
+"levels will see smaller relative speed regression, becoming invisible at "
+"higher settings."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:190
+msgid ""
+"B<-f>, B<--force>: disable input and output checks. Allows overwriting "
+"existing files, input from console, output to stdout, operating on links, "
+"block devices, etc. During decompression and when the output destination is "
+"stdout, pass-through unrecognized formats as-is."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:193
+msgid ""
+"B<-c>, B<--stdout>: write to standard output (even if it is the console); "
+"keep original files (disable B<--rm>)."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:196
+msgid ""
+"B<-o FILE>: save result into B<FILE>. Note that this operation is in "
+"conflict with B<-c>. If both operations are present on the command line, the "
+"last expressed one wins."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:199
+msgid ""
+"B<--[no-]sparse>: enable / disable sparse FS support, to make files with "
+"many zeroes smaller on disk. Creating sparse files may save disk space and "
+"speed up decompression by reducing the amount of disk I/O. default: enabled "
+"when output is into a file, and disabled when output is stdout. This setting "
+"overrides default and can force sparse mode over stdout."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:202
+msgid ""
+"B<--[no-]pass-through> enable / disable passing through uncompressed files "
+"as-is. During decompression when pass-through is enabled, unrecognized "
+"formats will be copied as-is from the input to the output. By default, pass-"
+"through will occur when the output destination is stdout and the force (B<-"
+"f>) option is set."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:205
+msgid ""
+"B<--rm>: remove source file(s) after successful compression or "
+"decompression. This command is silently ignored if output is B<stdout>. If "
+"used in combination with B<-o>, triggers a confirmation prompt (which can be "
+"silenced with B<-f>), as this is a destructive operation."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:208
+msgid ""
+"B<-k>, B<--keep>: keep source file(s) after successful compression or "
+"decompression. This is the default behavior."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:211
+msgid ""
+"B<-r>: operate recursively on directories. It selects all files in the named "
+"directory and all its subdirectories. This can be useful both to reduce "
+"command line typing, and to circumvent shell expansion limitations, when "
+"there are a lot of files and naming breaks the maximum size of a command "
+"line."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:214
+msgid ""
+"B<--filelist FILE> read a list of files to process as content from B<FILE>. "
+"Format is compatible with B<ls> output, with one file per line."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:217
+msgid ""
+"B<--output-dir-flat DIR>: resulting files are stored into target B<DIR> "
+"directory, instead of same directory as origin file. Be aware that this "
+"command can introduce name collision issues, if multiple files, from "
+"different directories, end up having the same name. Collision resolution "
+"ensures first file with a given name will be present in B<DIR>, while in "
+"combination with B<-f>, the last file will be present instead."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:220
+msgid ""
+"B<--output-dir-mirror DIR>: similar to B<--output-dir-flat>, the output "
+"files are stored underneath target B<DIR> directory, but this option will "
+"replicate input directory hierarchy into output B<DIR>."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:223
+msgid ""
+"If input directory contains \"..\", the files in this directory will be "
+"ignored. If input directory is an absolute directory (i.e. \"/var/tmp/"
+"abc\"), it will be stored into the \"output-dir/var/tmp/abc\". If there are "
+"multiple input files or directories, name collision resolution will follow "
+"the same rules as B<--output-dir-flat>."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:226
+msgid ""
+"B<--format=FORMAT>: compress and decompress in other formats. If compiled "
+"with support, zstd can compress to or decompress from other compression "
+"algorithm formats. Possibly available options are B<zstd>, B<gzip>, B<xz>, "
+"B<lzma>, and B<lz4>. If no such format is provided, B<zstd> is the default."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:229
+msgid "B<-h>/B<-H>, B<--help>: display help/long help and exit"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:232
+msgid ""
+"B<-V>, B<--version>: display version number and immediately exit. note that, "
+"since it exits, flags specified after B<-V> are effectively ignored. "
+"Advanced: B<-vV> also displays supported formats. B<-vvV> also displays "
+"POSIX support. B<-qV> will only display the version number, suitable for "
+"machine reading."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:235
+msgid "B<-v>, B<--verbose>: verbose mode, display more information"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:238
+msgid ""
+"B<-q>, B<--quiet>: suppress warnings, interactivity, and notifications. "
+"specify twice to suppress errors too."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:241
+msgid ""
+"B<--no-progress>: do not display the progress bar, but keep all other "
+"messages."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:244
+msgid ""
+"B<--show-default-cparams>: shows the default compression parameters that "
+"will be used for a particular input file, based on the provided compression "
+"level and the input size. If the provided file is not a regular file (e.g. a "
+"pipe), this flag will output the parameters used for inputs of unknown size."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:247
+msgid ""
+"B<--exclude-compressed>: only compress files that are not already compressed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:250
+msgid "B<-->: All arguments after B<--> are treated as files"
+msgstr ""
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:253
+#, no-wrap
+msgid "gzip Operation Modifiers"
+msgstr "gzip 操作修饰符"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:255
+msgid ""
+"When invoked via a B<gzip> symlink, B<zstd> will support further options "
+"that intend to mimic the B<gzip> behavior:"
+msgstr ""
+"在经由 B<gzip> 符号链接调用时，B<zstd> 将支持以下额外的选项来模拟 B<gzip> 的"
+"行为："
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:256
+#, no-wrap
+msgid "B<-n>, B<--no-name>"
+msgstr "B<-n>, B<--no-name>"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:259
+msgid ""
+"do not store the original filename and timestamps when compressing a file. "
+"This is the default behavior and hence a no-op."
+msgstr ""
+"压缩文件时不要保存原始文件名和时间戳。这是默认选项，因此不会改变程序行为。"
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:260
+#, no-wrap
+msgid "B<--best>"
+msgstr "B<--best>"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:263
+msgid "alias to the option B<-9>."
+msgstr "是 B<-9> 选项的别名。"
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:264
+#, no-wrap
+msgid "Environment Variables"
+msgstr "环境变量"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:266
+msgid ""
+"Employing environment variables to set parameters has security implications. "
+"Therefore, this avenue is intentionally limited. Only B<ZSTD_CLEVEL> and "
+"B<ZSTD_NBTHREADS> are currently supported. They set the default compression "
+"level and number of threads to use during compression, respectively."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:269
+msgid ""
+"B<ZSTD_CLEVEL> can be used to set the level between 1 and 19 (the \"normal\" "
+"range). If the value of B<ZSTD_CLEVEL> is not a valid integer, it will be "
+"ignored with a warning message. B<ZSTD_CLEVEL> just replaces the default "
+"compression level (B<3>)."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:272
+msgid ""
+"B<ZSTD_NBTHREADS> can be used to set the number of threads B<zstd> will "
+"attempt to use during compression. If the value of B<ZSTD_NBTHREADS> is not "
+"a valid unsigned integer, it will be ignored with a warning message. "
+"B<ZSTD_NBTHREADS> has a default value of B<max(1, min(4, nbCores/4))>, and "
+"is capped at ZSTDMT_NBWORKERS_MAX==200. B<zstd> must be compiled with "
+"multithread support for this variable to have any effect."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:275
+msgid ""
+"They can both be overridden by corresponding command line arguments: B<-#> "
+"for compression level and B<-T#> for number of compression threads."
+msgstr ""
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:276
+#, no-wrap
+msgid "ADVANCED COMPRESSION OPTIONS"
+msgstr "高级压缩选项"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:278
+msgid ""
+"B<zstd> provides 22 predefined regular compression levels plus the fast "
+"levels. A compression level is translated internally into multiple advanced "
+"parameters that control the behavior of the compressor (one can observe the "
+"result of this translation with B<--show-default-cparams>). These advanced "
+"parameters can be overridden using advanced compression options."
+msgstr ""
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:279
+#, no-wrap
+msgid "--zstd[=options]:"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:281
+msgid ""
+"The I<options> are provided as a comma-separated list. You may specify only "
+"the options you want to change and the rest will be taken from the selected "
+"or default compression level. The list of available I<options>:"
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:282
+#, no-wrap
+msgid "B<strategy>=I<strat>, B<strat>=I<strat>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:285
+msgid "Specify a strategy used by a match finder."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:288
+msgid ""
+"There are 9 strategies numbered from 1 to 9, from fastest to strongest: "
+"1=B<ZSTD_fast>, 2=B<ZSTD_dfast>, 3=B<ZSTD_greedy>, 4=B<ZSTD_lazy>, "
+"5=B<ZSTD_lazy2>, 6=B<ZSTD_btlazy2>, 7=B<ZSTD_btopt>, 8=B<ZSTD_btultra>, "
+"9=B<ZSTD_btultra2>."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:289
+#, no-wrap
+msgid "B<windowLog>=I<wlog>, B<wlog>=I<wlog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:292
+msgid "Specify the maximum number of bits for a match distance."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:295
+msgid ""
+"The higher number of increases the chance to find a match which usually "
+"improves compression ratio. It also increases memory requirements for the "
+"compressor and decompressor. The minimum I<wlog> is 10 (1 KiB) and the "
+"maximum is 30 (1 GiB) on 32-bit platforms and 31 (2 GiB) on 64-bit platforms."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:299
+#, no-wrap
+msgid "B<hashLog>=I<hlog>, B<hlog>=I<hlog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:302
+msgid "Specify the maximum number of bits for a hash table."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:305
+msgid ""
+"Bigger hash tables cause fewer collisions which usually makes compression "
+"faster, but requires more memory during compression."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:308
+msgid ""
+"The minimum I<hlog> is 6 (64 entries / 256 B) and the maximum is 30 (1B "
+"entries / 4 GiB)."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:309
+#, no-wrap
+msgid "B<chainLog>=I<clog>, B<clog>=I<clog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:312
+msgid ""
+"Specify the maximum number of bits for the secondary search structure, whose "
+"form depends on the selected B<strategy>."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:315
+msgid ""
+"Higher numbers of bits increases the chance to find a match which usually "
+"improves compression ratio. It also slows down compression speed and "
+"increases memory requirements for compression. This option is ignored for "
+"the B<ZSTD_fast> B<strategy>, which only has the primary hash table."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:318
+msgid ""
+"The minimum I<clog> is 6 (64 entries / 256 B) and the maximum is 29 (512M "
+"entries / 2 GiB) on 32-bit platforms and 30 (1B entries / 4 GiB) on 64-bit "
+"platforms."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:319
+#, no-wrap
+msgid "B<searchLog>=I<slog>, B<slog>=I<slog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:322
+msgid ""
+"Specify the maximum number of searches in a hash chain or a binary tree "
+"using logarithmic scale."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:325
+msgid ""
+"More searches increases the chance to find a match which usually increases "
+"compression ratio but decreases compression speed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:328
+msgid "The minimum I<slog> is 1 and the maximum is \\'windowLog\\' - 1."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:329
+#, no-wrap
+msgid "B<minMatch>=I<mml>, B<mml>=I<mml>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:332
+msgid "Specify the minimum searched length of a match in a hash table."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:335
+msgid ""
+"Larger search lengths usually decrease compression ratio but improve "
+"decompression speed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:338
+msgid "The minimum I<mml> is 3 and the maximum is 7."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:339
+#, no-wrap
+msgid "B<targetLength>=I<tlen>, B<tlen>=I<tlen>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:342
+msgid "The impact of this field vary depending on selected strategy."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:345
+msgid ""
+"For B<ZSTD_btopt>, B<ZSTD_btultra> and B<ZSTD_btultra2>, it specifies the "
+"minimum match length that causes match finder to stop searching. A larger "
+"B<targetLength> usually improves compression ratio but decreases compression "
+"speed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:348
+msgid ""
+"For B<ZSTD_fast>, it triggers ultra-fast mode when E<gt> 0. The value "
+"represents the amount of data skipped between match sampling. Impact is "
+"reversed: a larger B<targetLength> increases compression speed but decreases "
+"compression ratio."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:351
+msgid "For all other strategies, this field has no impact."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:354
+msgid "The minimum I<tlen> is 0 and the maximum is 128 KiB."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:355
+#, no-wrap
+msgid "B<overlapLog>=I<ovlog>, B<ovlog>=I<ovlog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:358
+msgid ""
+"Determine B<overlapSize>, amount of data reloaded from previous job. This "
+"parameter is only available when multithreading is enabled. Reloading more "
+"data improves compression ratio, but decreases speed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:361
+msgid ""
+"The minimum I<ovlog> is 0, and the maximum is 9. 1 means \"no overlap\", "
+"hence completely independent jobs. 9 means \"full overlap\", meaning up to "
+"B<windowSize> is reloaded from previous job. Reducing I<ovlog> by 1 reduces "
+"the reloaded amount by a factor 2. For example, 8 means \"windowSize/2\", "
+"and 6 means \"windowSize/8\". Value 0 is special and means \"default\": "
+"I<ovlog> is automatically determined by B<zstd>. In which case, I<ovlog> "
+"will range from 6 to 9, depending on selected I<strat>."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:362
+#, no-wrap
+msgid "B<ldmHashRateLog>=I<lhrlog>, B<lhrlog>=I<lhrlog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:365
+msgid ""
+"Specify the frequency of inserting entries into the long distance matching "
+"hash table."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:368 raw/zstd/man1/zstd.1:381 raw/zstd/man1/zstd.1:394
+#: raw/zstd/man1/zstd.1:407
+msgid "This option is ignored unless long distance matching is enabled."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:371
+msgid ""
+"Larger values will improve compression speed. Deviating far from the default "
+"value will likely result in a decrease in compression ratio."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:374
+msgid "The default value varies between 4 and 7, depending on B<strategy>."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:375
+#, no-wrap
+msgid "B<ldmHashLog>=I<lhlog>, B<lhlog>=I<lhlog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:378
+msgid ""
+"Specify the maximum size for a hash table used for long distance matching."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:384
+msgid ""
+"Bigger hash tables usually improve compression ratio at the expense of more "
+"memory during compression and a decrease in compression speed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:387
+msgid ""
+"The minimum I<lhlog> is 6 and the maximum is 30 (default: B<windowLog - "
+"ldmHashRateLog>)."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:388
+#, no-wrap
+msgid "B<ldmMinMatch>=I<lmml>, B<lmml>=I<lmml>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:391
+msgid ""
+"Specify the minimum searched length of a match for long distance matching."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:397
+msgid "Larger/very small values usually decrease compression ratio."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:400
+msgid ""
+"The minimum I<lmml> is 4 and the maximum is 4096 (default: 32 to 64, "
+"depending on B<strategy>)."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:401
+#, no-wrap
+msgid "B<ldmBucketSizeLog>=I<lblog>, B<lblog>=I<lblog>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:404
+msgid ""
+"Specify the size of each bucket for the hash table used for long distance "
+"matching."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:410
+msgid ""
+"Larger bucket sizes improve collision resolution but decrease compression "
+"speed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:413
+msgid ""
+"The minimum I<lblog> is 1 and the maximum is 8 (default: 4 to 8, depending "
+"on B<strategy>)."
+msgstr ""
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:414
+#, no-wrap
+msgid "Example"
+msgstr "示例"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:416
+msgid ""
+"The following parameters sets advanced compression options to something "
+"similar to predefined level 19 for files bigger than 256 KB:"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:419
+msgid "B<--zstd>=wlog=23,clog=23,hlog=22,slog=6,mml=3,tlen=48,strat=6"
+msgstr ""
+
+#. type: SS
+#: raw/zstd/man1/zstd.1:420
+#, no-wrap
+msgid "-B#:"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:422
+msgid ""
+"Specify the size of each compression job. This parameter is only available "
+"when multi-threading is enabled. Each compression job is run in parallel, so "
+"this value indirectly impacts the nb of active threads. Default job size "
+"varies depending on compression level (generally B<4 * windowSize>). B<-B#> "
+"makes it possible to manually select a custom size. Note that job size must "
+"respect a minimum value which is enforced transparently. This minimum is "
+"either 512 KB, or B<overlapSize>, whichever is largest. Different job sizes "
+"will lead to non-identical compressed frames."
+msgstr ""
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:423
+#, no-wrap
+msgid "DICTIONARY BUILDER"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:425
+msgid ""
+"B<zstd> offers I<dictionary> compression, which greatly improves efficiency "
+"on small files and messages. It\\'s possible to train B<zstd> with a set of "
+"samples, the result of which is saved into a file called a B<dictionary>. "
+"Then, during compression and decompression, reference the same dictionary, "
+"using command B<-D dictionaryFileName>. Compression of small files similar "
+"to the sample set will be greatly improved."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:426
+#, no-wrap
+msgid "B<--train FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:429
+msgid ""
+"Use FILEs as training set to create a dictionary. The training set should "
+"ideally contain a lot of samples (E<gt> 100), and weight typically 100x the "
+"target dictionary size (for example, ~10 MB for a 100 KB dictionary). B<--"
+"train> can be combined with B<-r> to indicate a directory rather than "
+"listing all the files, which can be useful to circumvent shell expansion "
+"limits."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:432
+msgid ""
+"Since dictionary compression is mostly effective for small files, the "
+"expectation is that the training set will only contain small files. In the "
+"case where some samples happen to be large, only the first 128 KiB of these "
+"samples will be used for training."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:435
+msgid ""
+"B<--train> supports multithreading if B<zstd> is compiled with threading "
+"support (default). Additional advanced parameters can be specified with B<--"
+"train-fastcover>. The legacy dictionary builder can be accessed with B<--"
+"train-legacy>. The slower cover dictionary builder can be accessed with B<--"
+"train-cover>. Default B<--train> is equivalent to B<--train-"
+"fastcover=d=8,steps=4>."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:436
+#, no-wrap
+msgid "B<-o FILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:439
+msgid "Dictionary saved into B<FILE> (default name: dictionary)."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:440
+#, no-wrap
+msgid "B<--maxdict=#>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:443
+msgid ""
+"Limit dictionary to specified size (default: 112640 bytes). As usual, "
+"quantities are expressed in bytes by default, and it\\'s possible to employ "
+"suffixes (like B<KB> or B<MB>) to specify larger values."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:444
+#, no-wrap
+msgid "B<-#>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:447
+msgid ""
+"Use B<#> compression level during training (optional). Will generate "
+"statistics more tuned for selected compression level, resulting in a "
+"I<small> compression ratio improvement for this level."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:448
+#, no-wrap
+msgid "B<-B#>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:451
+msgid "Split input files into blocks of size # (default: no split)"
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:452
+#, no-wrap
+msgid "B<-M#>, B<--memory=#>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:455
+msgid ""
+"Limit the amount of sample data loaded for training (default: 2 GB). Note "
+"that the default (2 GB) is also the maximum. This parameter can be useful in "
+"situations where the training set size is not well controlled and could be "
+"potentially very large. Since speed of the training process is directly "
+"correlated to the size of the training sample set, a smaller sample set "
+"leads to faster training."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:458
+msgid ""
+"In situations where the training set is larger than maximum memory, the CLI "
+"will randomly select samples among the available ones, up to the maximum "
+"allowed memory budget. This is meant to improve dictionary relevance by "
+"mitigating the potential impact of clustering, such as selecting only files "
+"from the beginning of a list sorted by modification date, or sorted by "
+"alphabetical order. The randomization process is deterministic, so training "
+"of the same list of files with the same parameters will lead to the creation "
+"of the same dictionary."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:459
+#, no-wrap
+msgid "B<--dictID=#>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:462
+msgid ""
+"A dictionary ID is a locally unique ID. The decoder will use this value to "
+"verify it is using the right dictionary. By default, zstd will create a 4-"
+"bytes random number ID. It\\'s possible to provide an explicit number ID "
+"instead. It\\'s up to the dictionary manager to not assign twice the same ID "
+"to 2 different dictionaries. Note that short numbers have an advantage: an "
+"ID E<lt> 256 will only need 1 byte in the compressed frame header, and an ID "
+"E<lt> 65536 will only need 2 bytes. This compares favorably to 4 bytes "
+"default."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:465
+msgid ""
+"Note that RFC8878 reserves IDs less than 32768 and greater than or equal to "
+"2^31, so they should not be used in public."
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:466
+#, no-wrap
+msgid "B<--train-cover[=k#,d=#,steps=#,split=#,shrink[=#]]>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:469
+msgid ""
+"Select parameters for the default dictionary builder algorithm named cover. "
+"If I<d> is not specified, then it tries I<d> = 6 and I<d> = 8. If I<k> is "
+"not specified, then it tries I<steps> values in the range [50, 2000]. If "
+"I<steps> is not specified, then the default value of 40 is used. If I<split> "
+"is not specified or split E<lt>= 0, then the default value of 100 is used. "
+"Requires that I<d> E<lt>= I<k>. If I<shrink> flag is not used, then the "
+"default value for I<shrinkDict> of 0 is used. If I<shrink> is not specified, "
+"then the default value for I<shrinkDictMaxRegression> of 1 is used."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:472
+msgid ""
+"Selects segments of size I<k> with highest score to put in the dictionary. "
+"The score of a segment is computed by the sum of the frequencies of all the "
+"subsegments of size I<d>. Generally I<d> should be in the range [6, 8], "
+"occasionally up to 16, but the algorithm will run faster with d E<lt>= I<8>. "
+"Good values for I<k> vary widely based on the input data, but a safe range "
+"is [2 * I<d>, 2000]. If I<split> is 100, all input samples are used for both "
+"training and testing to find optimal I<d> and I<k> to build dictionary. "
+"Supports multithreading if B<zstd> is compiled with threading support. "
+"Having I<shrink> enabled takes a truncated dictionary of minimum size and "
+"doubles in size until compression ratio of the truncated dictionary is at "
+"most I<shrinkDictMaxRegression%> worse than the compression ratio of the "
+"largest dictionary."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:475 raw/zstd/man1/zstd.1:506 raw/zstd/man1/zstd.1:519
+msgid "Examples:"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:478
+msgid "B<zstd --train-cover FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:481
+msgid "B<zstd --train-cover=k=50,d=8 FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:484
+msgid "B<zstd --train-cover=d=8,steps=500 FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:487
+msgid "B<zstd --train-cover=k=50 FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:490
+msgid "B<zstd --train-cover=k=50,split=60 FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:493
+msgid "B<zstd --train-cover=shrink FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:496
+msgid "B<zstd --train-cover=shrink=2 FILEs>"
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:497
+#, no-wrap
+msgid "B<--train-fastcover[=k#,d=#,f=#,steps=#,split=#,accel=#]>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:500
+msgid ""
+"Same as cover but with extra parameters I<f> and I<accel> and different "
+"default value of split If I<split> is not specified, then it tries I<split> "
+"= 75. If I<f> is not specified, then it tries I<f> = 20. Requires that 0 "
+"E<lt> I<f> E<lt> 32. If I<accel> is not specified, then it tries I<accel> = "
+"1. Requires that 0 E<lt> I<accel> E<lt>= 10. Requires that I<d> = 6 or I<d> "
+"= 8."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:503
+msgid ""
+"I<f> is log of size of array that keeps track of frequency of subsegments of "
+"size I<d>. The subsegment is hashed to an index in the range [0,2^I<f> - 1]. "
+"It is possible that 2 different subsegments are hashed to the same index, "
+"and they are considered as the same subsegment when computing frequency. "
+"Using a higher I<f> reduces collision but takes longer."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:509
+msgid "B<zstd --train-fastcover FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:512
+msgid "B<zstd --train-fastcover=d=8,f=15,accel=2 FILEs>"
+msgstr ""
+
+#. type: TP
+#: raw/zstd/man1/zstd.1:513
+#, no-wrap
+msgid "B<--train-legacy[=selectivity=#]>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:516
+msgid ""
+"Use legacy dictionary builder algorithm with the given dictionary "
+"I<selectivity> (default: 9). The smaller the I<selectivity> value, the "
+"denser the dictionary, improving its efficiency but reducing its achievable "
+"maximum size. B<--train-legacy=s=#> is also accepted."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:522
+msgid "B<zstd --train-legacy FILEs>"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:525
+msgid "B<zstd --train-legacy=selectivity=8 FILEs>"
+msgstr ""
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:526
+#, no-wrap
+msgid "BENCHMARK"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:528
+msgid ""
+"The B<zstd> CLI provides a benchmarking mode that can be used to easily find "
+"suitable compression parameters, or alternatively to benchmark a "
+"computer\\'s performance. B<zstd -b [FILE(s)]> will benchmark B<zstd> for "
+"both compression and decompression using default compression level. Note "
+"that results are very dependent on the content being compressed."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:531
+msgid ""
+"It\\'s possible to pass multiple files to the benchmark, and even a "
+"directory with B<-r DIRECTORY>. When no B<FILE> is provided, the benchmark "
+"will use a procedurally generated B<lorem ipsum> text."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:534
+msgid ""
+"Benchmarking will employ B<max(1, min(4, nbCores/4))> worker threads by "
+"default in order to match the behavior of the normal CLI I/O."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:537
+msgid "B<-b#>: benchmark file(s) using compression level #"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:540
+msgid ""
+"B<-e#>: benchmark file(s) using multiple compression levels, from B<-b#> to "
+"B<-e#> (inclusive)"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:543
+msgid ""
+"B<-d>: benchmark decompression speed only (requires providing a zstd-"
+"compressed content)"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:546
+msgid ""
+"B<-i#>: minimum evaluation time, in seconds (default: 3s), benchmark mode "
+"only"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:549
+msgid ""
+"B<-B#>, B<--block-size=#>: cut file(s) into independent chunks of size # "
+"(default: no chunking)"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:552
+msgid ""
+"B<-S>: output one benchmark result per input file (default: consolidated "
+"result)"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:555
+msgid "B<-D dictionary> benchmark using dictionary"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:558
+msgid "B<--priority=rt>: set process priority to real-time (Windows)"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:563
+msgid ""
+"Beyond compression levels, benchmarking is also compatible with other "
+"parameters, such as number of threads (B<-T#>), advanced compression "
+"parameters (B<--zstd=###>), dictionary compression (B<-D dictionary>), or "
+"even disabling checksum verification for example."
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:566
+msgid ""
+"B<Output Format:> CompressionLevel#Filename: InputSize -E<gt> OutputSize "
+"(CompressionRatio), CompressionSpeed, DecompressionSpeed"
+msgstr ""
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:569
+msgid ""
+"B<Methodology:> For speed measurement, the entire input is compressed/"
+"decompressed in-memory to measure speed. A run lasts at least 1 sec, so when "
+"files are small, they are compressed/decompressed several times per run, in "
+"order to improve measurement accuracy."
+msgstr ""
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:570
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:572
+msgid "B<zstdgrep>(1), B<zstdless>(1), B<gzip>(1), B<xz>(1)"
+msgstr "B<zstdgrep>(1), B<zstdless>(1), B<gzip>(1), B<xz>(1)"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:575
+msgid ""
+"The I<zstandard> format is specified in Y. Collet, \"Zstandard Compression "
+"and the \\'application/zstd\\' Media Type\", https://www.ietf.org/rfc/"
+"rfc8878.txt, Internet RFC 8878 (February 2021)."
+msgstr ""
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:576
+#, no-wrap
+msgid "BUGS"
+msgstr "BUGS"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:578
+msgid "Report bugs at: https://github.com/facebook/zstd/issues"
+msgstr "请在该网页报告漏洞：https://github.com/facebook/zstd/issues"
+
+#. type: SH
+#: raw/zstd/man1/zstd.1:579
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: raw/zstd/man1/zstd.1:580
+msgid "Yann Collet"
+msgstr "Yann Collet"
