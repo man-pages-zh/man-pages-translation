@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-07-12 14:56-0400\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2026-07-12 15:40-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
@@ -96,13 +96,18 @@ msgid ""
 "very fast decoder, with speeds E<gt> 500 MB/s per core, which remains "
 "roughly stable at all compression settings."
 msgstr ""
+"B<zstd> 是一个快速的无损压缩算法和数据压缩工具，其命令行语法与 B<gzip>(1) 和 "
+"B<xz>(1) 类似。它基于 B<LZ77> 系列算法，并额外采用了 FSE 和 huff0 熵编码阶"
+"段。B<zstd> 提供高度可配置的压缩速度，从每个核心 E<gt> 200 MB/s 的快速模式，"
+"到具有出色压缩率的强力模式。它还具有非常快的解码器，每个核心的速度 E<gt> 500 "
+"MB/s，并且在所有压缩设置下都大致保持稳定。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:24
 msgid ""
 "B<zstd> command line syntax is generally similar to gzip, but features the "
 "following few differences:"
-msgstr ""
+msgstr "B<zstd> 的命令行语法总体上与 gzip 类似，但存在以下几处差异："
 
 #. type: IP
 #: raw/zstd/man1/zstd.1:25 raw/zstd/man1/zstd.1:28 raw/zstd/man1/zstd.1:31
@@ -132,7 +137,7 @@ msgstr "\\(bu"
 msgid ""
 "Source files are preserved by default. It\\'s possible to remove them "
 "automatically by using the B<--rm> command."
-msgstr ""
+msgstr "默认情况下会保留源文件。可以使用 B<--rm> 命令自动删除它们。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:30
@@ -140,6 +145,8 @@ msgid ""
 "When compressing a single file, B<zstd> displays progress notifications and "
 "result summary by default. Use B<-q> to turn them off."
 msgstr ""
+"在压缩单个文件时，B<zstd> 默认会显示进度通知和结果摘要。使用 B<-q> 可将其关"
+"闭。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:33
@@ -147,6 +154,7 @@ msgid ""
 "B<zstd> displays a short help page when command line is an error. Use B<-q> "
 "to turn it off."
 msgstr ""
+"当命令行有误时，B<zstd> 会显示一个简短的帮助页面。使用 B<-q> 可将其关闭。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:36
@@ -154,13 +162,15 @@ msgid ""
 "B<zstd> does not accept input from console, though it does accept B<stdin> "
 "when it\\'s not the console."
 msgstr ""
+"B<zstd> 不接受来自控制台的输入，但当 B<stdin> 不是控制台时，它会接受来自 "
+"B<stdin> 的输入。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:39
 msgid ""
 "B<zstd> does not store the input\\'s filename or attributes, only its "
 "contents."
-msgstr ""
+msgstr "B<zstd> 不会保存输入的文件名或属性，只保存其内容。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:44
@@ -172,6 +182,10 @@ msgid ""
 "display an error message and skip the file. Similarly, B<zstd> will refuse "
 "to read compressed data from standard input if it is a terminal."
 msgstr ""
+"B<zstd> 会根据所选的操作模式处理每个 I<file>。如果没有给出 I<files>，或者 "
+"I<file> 为 B<->，则 B<zstd> 从标准输入读取，并将处理后的数据写入标准输出。如"
+"果标准输出是终端，B<zstd> 将拒绝向其写入压缩数据：它会显示一条错误消息并跳过"
+"该文件。类似地，如果标准输入是终端，B<zstd> 也将拒绝从中读取压缩数据。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:47
@@ -179,26 +193,28 @@ msgid ""
 "Unless B<--stdout> or B<-o> is specified, I<files> are written to a new file "
 "whose name is derived from the source I<file> name:"
 msgstr ""
+"除非指定了 B<--stdout> 或 B<-o>，否则 I<files> 会被写入一个新文件，其名称由"
+"源 I<file> 名称派生而来："
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:50
 msgid ""
 "When compressing, the suffix B<.zst> is appended to the source filename to "
 "get the target filename."
-msgstr ""
+msgstr "压缩时，会在源文件名后附加 B<.zst> 后缀以得到目标文件名。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:53
 msgid ""
 "When decompressing, the B<.zst> suffix is removed from the source filename "
 "to get the target filename"
-msgstr ""
+msgstr "解压缩时，会从源文件名中移除 B<.zst> 后缀以得到目标文件名"
 
 #. type: SS
 #: raw/zstd/man1/zstd.1:56
 #, no-wrap
 msgid "Concatenation with .zst Files"
-msgstr ""
+msgstr "拼接 .zst 文件"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:58
@@ -206,6 +222,8 @@ msgid ""
 "It is possible to concatenate multiple B<.zst> files. B<zstd> will "
 "decompress such agglomerated file as if it was a single B<.zst> file."
 msgstr ""
+"可以将多个 B<.zst> 文件拼接在一起。B<zstd> 会将这样拼接而成的文件当作单个 "
+"B<.zst> 文件进行解压缩。"
 
 #. type: SH
 #: raw/zstd/man1/zstd.1:59
@@ -217,7 +235,7 @@ msgstr "选项"
 #: raw/zstd/man1/zstd.1:61
 #, no-wrap
 msgid "Integer Suffixes and Special Values"
-msgstr ""
+msgstr "整数后缀与特殊值"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:63
@@ -226,12 +244,14 @@ msgid ""
 "supported to easily indicate large integers. There must be no space between "
 "the integer and the suffix."
 msgstr ""
+"在大多数需要整数参数的地方，都支持使用可选的后缀来方便地表示较大的整数。整数"
+"与后缀之间不能有空格。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:64
 #, no-wrap
 msgid "B<KiB>"
-msgstr ""
+msgstr "B<KiB>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:67
@@ -239,12 +259,13 @@ msgid ""
 "Multiply the integer by 1,024 (2^10). B<Ki>, B<K>, and B<KB> are accepted as "
 "synonyms for B<KiB>."
 msgstr ""
+"将整数乘以 1,024（2^10）。B<Ki>、B<K> 和 B<KB> 都可作为 B<KiB> 的同义词。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:68
 #, no-wrap
 msgid "B<MiB>"
-msgstr ""
+msgstr "B<MiB>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:71
@@ -252,6 +273,7 @@ msgid ""
 "Multiply the integer by 1,048,576 (2^20). B<Mi>, B<M>, and B<MB> are "
 "accepted as synonyms for B<MiB>."
 msgstr ""
+"将整数乘以 1,048,576（2^20）。B<Mi>、B<M> 和 B<MB> 都可作为 B<MiB> 的同义词。"
 
 #. type: SS
 #: raw/zstd/man1/zstd.1:72
@@ -263,7 +285,7 @@ msgstr "操作模式"
 #: raw/zstd/man1/zstd.1:74
 msgid ""
 "If multiple operation mode options are given, the last one takes effect."
-msgstr ""
+msgstr "如果给出了多个操作模式选项，则以最后一个为准。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:75
@@ -278,6 +300,8 @@ msgid ""
 "is specified and no other operation mode is implied from the command name "
 "(for example, B<unzstd> implies B<--decompress>)."
 msgstr ""
+"压缩。当未指定操作模式选项，且命令名称也未隐含其他操作模式时（例如 B<unzstd> "
+"隐含 B<--decompress>），这是默认的操作模式。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:79
@@ -294,7 +318,7 @@ msgstr "解压缩。"
 #: raw/zstd/man1/zstd.1:83
 #, no-wrap
 msgid "B<-t>, B<--test>"
-msgstr ""
+msgstr "B<-t>, B<--test>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:86
@@ -303,12 +327,15 @@ msgid ""
 "decompress --stdout E<gt> /dev/null>, decompressed data is discarded and "
 "checksummed for errors. No files are created or removed."
 msgstr ""
+"测试压缩 I<files> 的完整性。此选项等效于 B<--decompress --stdout E<gt> /dev/"
+"null>，解压缩后的数据会被丢弃，并进行校验和计算以检查错误。不会创建或删除任何"
+"文件。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:87
 #, no-wrap
 msgid "B<-b#>"
-msgstr ""
+msgstr "B<-b#>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:90
@@ -316,12 +343,14 @@ msgid ""
 "Benchmark file(s) using compression level I<#>. See I<BENCHMARK> below for a "
 "description of this operation."
 msgstr ""
+"使用压缩级别 I<#> 对文件进行基准测试。有关此操作的说明，请参见下方的 "
+"I<BENCHMARK>（基准测试）一节。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:91
 #, no-wrap
 msgid "B<--train FILES>"
-msgstr ""
+msgstr "B<--train FILES>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:94
@@ -330,12 +359,14 @@ msgid ""
 "should contain a lot of small files (E<gt> 100). See I<DICTIONARY BUILDER> "
 "below for a description of this operation."
 msgstr ""
+"使用 I<FILES> 作为训练集来创建字典。训练集应包含大量小文件（E<gt> 100 个）。"
+"有关此操作的说明，请参见下方的 I<DICTIONARY BUILDER>（字典构建器）一节。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:95
 #, no-wrap
 msgid "B<-l>, B<--list>"
-msgstr ""
+msgstr "B<-l>, B<--list>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:98
@@ -344,12 +375,14 @@ msgid ""
 "and checksum. Some of these fields may not be available. This command\\'s "
 "output can be augmented with the B<-v> modifier."
 msgstr ""
+"显示与 zstd 压缩文件相关的信息，例如大小、压缩率和校验和。其中某些字段可能不"
+"可用。此命令的输出可以通过 B<-v> 修饰符加以扩充。"
 
 #. type: SS
 #: raw/zstd/man1/zstd.1:99
 #, no-wrap
 msgid "Operation Modifiers"
-msgstr ""
+msgstr "操作修饰符"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:103
@@ -363,6 +396,11 @@ msgid ""
 "on the content to compress, there\\'s no guarantee of a smooth progression "
 "from one level to another."
 msgstr ""
+"B<-#>：选择 B<#> 压缩级别 [1-19]（默认值：3）。更高的压缩级别 I<通常> 会以速"
+"度和内存为代价换取更高的压缩率。一条粗略的经验法则是，压缩级别每提高 2 级，压"
+"缩速度预计会减半。从技术上讲，每个级别都会映射到一组高级参数（这些参数也可以"
+"单独修改，参见下文）。由于压缩器的行为在很大程度上取决于要压缩的内容，因此无"
+"法保证从一个级别到另一个级别是平滑过渡的。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:106
@@ -371,6 +409,8 @@ msgid ""
 "more memory. Note that decompression will also require more memory when "
 "using these levels."
 msgstr ""
+"B<--ultra>：解锁 20 以上（最高 22）的高压缩级别，这会使用多得多的内存。请注"
+"意，使用这些级别时，解压缩也将需要更多内存。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:109
@@ -381,6 +421,9 @@ msgid ""
 "overwrites compression level if one was set previously. Similarly, if a "
 "compression level is set after B<--fast>, it overrides it."
 msgstr ""
+"B<--fast[=#]>：切换到超快压缩级别。如果没有给出 B<=#>，则默认为 B<1>。数值越"
+"大，压缩速度越快，但会牺牲一定的压缩率。如果先前设置过压缩级别，此设置会将其"
+"覆盖。类似地，如果在 B<--fast> 之后设置了压缩级别，则会覆盖此设置。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:112
@@ -392,6 +435,11 @@ msgid ""
 "which is either 64 in 32-bit mode, or 256 for 64-bit environments. This "
 "modifier does nothing if B<zstd> is compiled without multithread support."
 msgstr ""
+"B<-T#>, B<--threads=#>：使用 B<#> 个工作线程进行压缩（默认值：根据物理 CPU 核"
+"心数在 1 到 4 之间；参见下方的 B<ZSTD_NBTHREADS>）。如果 B<#> 为 0，则尝试检"
+"测并使用物理 CPU 核心的数量。在所有情况下，线程数都会被限制在 "
+"B<ZSTDMT_NBWORKERS_MAX> 以内，该值在 32 位模式下为 64，在 64 位环境下为 256。"
+"如果编译 B<zstd> 时未启用多线程支持，则此修饰符不起作用。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:115
@@ -401,13 +449,16 @@ msgid ""
 "thread mode features significantly lower memory usage, which can be useful "
 "for systems with limited amount of memory, such as 32-bit systems."
 msgstr ""
+"B<--single-thread>：使用单个线程同时处理 I/O 和压缩。由于压缩与 I/O 是串行进"
+"行的，这可能会稍慢一些。单线程模式的内存占用显著更低，这对于内存有限的系统"
+"（例如 32 位系统）可能很有用。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:118
 msgid ""
 "Note 1: this mode is the only available one when multithread support is "
 "disabled."
-msgstr ""
+msgstr "注 1：当禁用多线程支持时，这是唯一可用的模式。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:121
@@ -416,6 +467,8 @@ msgid ""
 "thread in parallel with I/O. Final compressed result is also slightly "
 "different from B<-T1>."
 msgstr ""
+"注 2：此模式不同于 B<-T1>，后者会派生 1 个与 I/O 并行的压缩线程。最终的压缩结"
+"果也与 B<-T1> 略有不同。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:124
@@ -424,6 +477,8 @@ msgid ""
 "default amount of threads via B<-T0>, choose the default based on the number "
 "of detected physical or logical cores."
 msgstr ""
+"B<--auto-threads={physical,logical} (default: physical)>：当通过 B<-T0> 使用"
+"默认线程数时，根据检测到的物理或逻辑核心数量来选择默认值。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:127
@@ -437,6 +492,11 @@ msgid ""
 "Due to the chaotic nature of dynamic adaptation, compressed result is not "
 "reproducible."
 msgstr ""
+"B<--adapt[=min=#,max=#]>：B<zstd> 会根据感知到的 I/O 状况动态调整压缩级别。可"
+"以使用 B<-v> 命令实时观察压缩级别的自适应过程。自适应可以被约束在所提供的 "
+"B<min> 和 B<max> 级别之间。该特性在与多线程以及 B<--long> 模式结合使用时有"
+"效。它不适用于 B<--single-thread>。它默认将窗口大小设置为 8 MiB（可手动更改，"
+"参见 B<wlog>）。由于动态自适应具有混沌特性，压缩结果不可复现。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:130
@@ -444,6 +504,8 @@ msgid ""
 "I<Note>: at the time of this writing, B<--adapt> can remain stuck at low "
 "speed when combined with multiple worker threads (E<gt>=2)."
 msgstr ""
+"I<注>：在撰写本文时，B<--adapt> 与多个工作线程（E<gt>=2）结合使用时，可能会一"
+"直停留在低速状态。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:133
@@ -454,6 +516,9 @@ msgid ""
 "This setting is designed to improve the compression ratio for files with "
 "long matches at a large distance."
 msgstr ""
+"B<--long[=#]>：启用长距离匹配，其 B<windowLog> 为 B<#>；如果没有给出 B<#>，则"
+"默认为 B<27>。这会增大窗口大小（B<windowLog>）以及压缩器和解压缩器的内存占"
+"用。此设置旨在提高那些在较大距离上存在长匹配的文件的压缩率。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:136 raw/zstd/man1/zstd.1:298
@@ -461,6 +526,8 @@ msgid ""
 "Note: If B<windowLog> is set to larger than 27, B<--long=windowLog> or B<--"
 "memory=windowSize> needs to be passed to the decompressor."
 msgstr ""
+"注意：如果 B<windowLog> 设置为大于 27，则需要向解压缩器传递 B<--"
+"long=windowLog> 或 B<--memory=windowSize>。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:139
@@ -469,11 +536,13 @@ msgid ""
 "setting is very slow and uses a lot of resources. It\\'s inappropriate for "
 "32-bit mode and therefore disabled in this mode."
 msgstr ""
+"B<--max>：将高级参数设置为最大压缩。警告：此设置非常慢，并且会占用大量资源。"
+"它不适用于 32 位模式，因此在该模式下被禁用。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:142
 msgid "B<-D DICT>: use B<DICT> as Dictionary to compress or decompress FILE(s)"
-msgstr ""
+msgstr "B<-D DICT>：使用 B<DICT> 作为字典来压缩或解压缩文件"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:145
@@ -482,11 +551,13 @@ msgid ""
 "zstd\\'s diff engine. This is effectively dictionary compression with some "
 "convenient parameter selection, namely that I<windowSize> E<gt> I<srcSize>."
 msgstr ""
+"B<--patch-from FILE>：指定要用作 zstd 差分引擎参考点的文件。这实际上就是字典"
+"压缩，只是采用了一些方便的参数选择，即 I<windowSize> E<gt> I<srcSize>。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:148
 msgid "Note: cannot use both this and B<-D> together."
-msgstr ""
+msgstr "注意：不能同时使用此选项和 B<-D>。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:151
@@ -495,6 +566,8 @@ msgid ""
 "I<fileLog> (I<fileLog> being the I<windowLog> required to cover the whole "
 "file). You can also manually force it."
 msgstr ""
+"注意：如果 I<chainLog> E<lt> I<fileLog>（I<fileLog> 即覆盖整个文件所需的 "
+"I<windowLog>），则会自动激活 B<--long> 模式。你也可以手动强制启用它。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:154
@@ -503,6 +576,9 @@ msgid ""
 "to improve compression ratio marginally at the cost of speed. Using \\'--"
 "single-thread\\' above level 15 will lead to lower compression ratios."
 msgstr ""
+"注意：在不超过 15 级的情况下，你可以在 B<--single-thread> 模式下使用 B<--"
+"patch-from>，以速度为代价略微提高压缩率。在 15 级以上使用 “--single-thread” "
+"会导致更低的压缩率。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:157
@@ -511,6 +587,8 @@ msgid ""
 "speed by specifying B<--zstd=targetLength=> to be something large (i.e. "
 "4096), and by setting a large B<--zstd=chainLog=>."
 msgstr ""
+"注意：对于 19 级，你可以通过将 B<--zstd=targetLength=> 指定为较大的值（例如 "
+"4096），并设置较大的 B<--zstd=chainLog=>，以速度为代价来提高压缩率。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:160
@@ -524,6 +602,11 @@ msgid ""
 "will decrease the effectiveness of the synchronization points, but your "
 "mileage may vary."
 msgstr ""
+"B<--rsyncable>：B<zstd> 会定期同步压缩状态，以使压缩文件对 rsync 更友好。这对"
+"压缩率的影响可以忽略不计，但可能会影响压缩速度，在较高速度下会较为明显，例如"
+"当 B<--rsyncable> 与许多并行工作线程结合使用时。此特性不适用于 B<--single-"
+"thread>。你或许不会想在长距离模式下使用它，因为这会降低同步点的效果，不过实际"
+"情况可能因人而异。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:163
@@ -531,6 +614,8 @@ msgid ""
 "B<-C>, B<--[no-]check>: add integrity check computed from uncompressed data "
 "(default: enabled)"
 msgstr ""
+"B<-C>, B<--[no-]check>：添加根据未压缩数据计算得出的完整性校验（默认值：启"
+"用）"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:166
@@ -540,6 +625,8 @@ msgid ""
 "is B<--content-size> (meaning that the original size will be placed in the "
 "header)."
 msgstr ""
+"B<--[no-]content-size>：启用/禁用是否将文件的原始大小放入压缩文件的头部。默认"
+"选项为 B<--content-size>（意味着原始大小将被放入头部）。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:169
@@ -548,6 +635,8 @@ msgid ""
 "compression). The decoder will have to rely on implicit knowledge about "
 "which dictionary to use, it won\\'t be able to check if it\\'s correct."
 msgstr ""
+"B<--no-dictID>：不在帧头部中存储字典 ID（字典压缩）。解码器将不得不依赖关于使"
+"用哪个字典的隐式知识，而无法检查其是否正确。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:172
@@ -557,6 +646,9 @@ msgid ""
 "is allowed to use, but you can override this manually if need be in either "
 "direction (i.e. you can increase or decrease it)."
 msgstr ""
+"B<-M#>, B<--memory=#>：设置内存使用上限。默认情况下，B<zstd> 将 128 MiB 作为"
+"解压缩器允许使用的最大内存量，但如有需要，你可以手动在任一方向上覆盖此值（即"
+"可以增大或减小它）。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:175
@@ -565,6 +657,8 @@ msgid ""
 "this case, this parameter overrides that maximum size allowed for a "
 "dictionary. (128 MiB)."
 msgstr ""
+"在与 B<--patch-from=> 一起使用进行压缩时，也会用到此值。在这种情况下，此参数"
+"会覆盖字典所允许的最大大小（128 MiB）。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:178
@@ -573,6 +667,8 @@ msgid ""
 "parameter overrides the default limit of 2 GiB. zstd will load training "
 "samples up to the memory limit and ignore the rest."
 msgstr ""
+"此外，这还可用于限制字典训练所用的内存。此参数会覆盖默认的 2 GiB 限制。zstd "
+"将加载训练样本直到达到内存上限，并忽略其余部分。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:181
@@ -583,6 +679,9 @@ msgid ""
 "will be used to better optimize compression parameters, resulting in better "
 "and potentially faster compression, especially for smaller source sizes."
 msgstr ""
+"B<--stream-size=#>：设置来自流的输入所承诺的源大小。此值必须精确，因为它将被"
+"包含在生成的帧头部中。不正确的流大小会导致错误。此信息将用于更好地优化压缩参"
+"数，从而带来更好且可能更快的压缩，尤其是对于较小的源大小。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:184
@@ -595,6 +694,10 @@ msgid ""
 "compression ratios. Overestimates result in slightly degraded compression "
 "ratios, while underestimates may result in significant degradation."
 msgstr ""
+"B<--size-hint=#>：在处理来自流的输入时，B<zstd> 在优化压缩参数时必须猜测源大"
+"小会有多大。如果流的大小相对较小，这一猜测可能不准确，从而导致压缩率高于预"
+"期。此特性允许在需要时控制该猜测值。精确的猜测会带来更好的压缩率。高估会导致"
+"压缩率略有下降，而低估则可能导致显著下降。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:187
@@ -609,6 +712,11 @@ msgid ""
 "levels will see smaller relative speed regression, becoming invisible at "
 "higher settings."
 msgstr ""
+"B<--target-compressed-block-size=#>：尝试生成大约为此大小的压缩块。为了接近此"
+"目标，较大的块会被拆分。当接收方能够利用提前收到的不完整数据时，此特性对于改"
+"善延迟尤其有用。此参数定义的是一个宽松的目标：压缩块会以“平均”达到此大小为目"
+"标，但各个块仍可能更大或更小。启用此特性在 1 级时最多可使压缩速度降低约 10%。"
+"级别越高，相对速度的下降越小，在更高的设置下则难以察觉。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:190
@@ -618,6 +726,9 @@ msgid ""
 "block devices, etc. During decompression and when the output destination is "
 "stdout, pass-through unrecognized formats as-is."
 msgstr ""
+"B<-f>, B<--force>：禁用输入和输出检查。允许覆盖现有文件、从控制台输入、输出"
+"到 stdout、对链接和块设备等进行操作。在解压缩过程中且输出目标为 stdout 时，将"
+"无法识别的格式原样透传。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:193
@@ -625,6 +736,8 @@ msgid ""
 "B<-c>, B<--stdout>: write to standard output (even if it is the console); "
 "keep original files (disable B<--rm>)."
 msgstr ""
+"B<-c>, B<--stdout>：写入标准输出（即使它是控制台）；保留原始文件（禁用 B<--"
+"rm>）。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:196
@@ -633,6 +746,8 @@ msgid ""
 "conflict with B<-c>. If both operations are present on the command line, the "
 "last expressed one wins."
 msgstr ""
+"B<-o FILE>：将结果保存到 B<FILE>。请注意，此操作与 B<-c> 冲突。如果命令行中同"
+"时出现这两个操作，则以最后给出的为准。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:199
@@ -643,6 +758,10 @@ msgid ""
 "when output is into a file, and disabled when output is stdout. This setting "
 "overrides default and can force sparse mode over stdout."
 msgstr ""
+"B<--[no-]sparse>：启用/禁用稀疏文件系统支持，以使含有大量零字节的文件在磁盘上"
+"占用更小的空间。创建稀疏文件可以节省磁盘空间，并通过减少磁盘 I/O 量来加快解压"
+"缩。默认值：当输出到文件时启用，当输出为 stdout 时禁用。此设置会覆盖默认值，"
+"并可强制在 stdout 上使用稀疏模式。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:202
@@ -653,6 +772,9 @@ msgid ""
 "through will occur when the output destination is stdout and the force (B<-"
 "f>) option is set."
 msgstr ""
+"B<--[no-]pass-through>：启用/禁用将未压缩文件原样透传。在解压缩过程中启用透传"
+"时，无法识别的格式将从输入原样复制到输出。默认情况下，当输出目标为 stdout 且"
+"设置了强制（B<-f>）选项时，会进行透传。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:205
@@ -662,13 +784,16 @@ msgid ""
 "used in combination with B<-o>, triggers a confirmation prompt (which can be "
 "silenced with B<-f>), as this is a destructive operation."
 msgstr ""
+"B<--rm>：在压缩或解压缩成功后删除源文件。如果输出为 B<stdout>，此命令会被静默"
+"忽略。如果与 B<-o> 结合使用，由于这是一项破坏性操作，会触发确认提示（可用 B<-"
+"f> 使其静默）。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:208
 msgid ""
 "B<-k>, B<--keep>: keep source file(s) after successful compression or "
 "decompression. This is the default behavior."
-msgstr ""
+msgstr "B<-k>, B<--keep>：在压缩或解压缩成功后保留源文件。这是默认行为。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:211
@@ -679,6 +804,9 @@ msgid ""
 "there are a lot of files and naming breaks the maximum size of a command "
 "line."
 msgstr ""
+"B<-r>：对目录进行递归操作。它会选中指定目录及其所有子目录中的全部文件。当文件"
+"很多且文件名会超出命令行的最大长度时，这既有助于减少命令行输入，也可以规避 "
+"shell 展开的限制。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:214
@@ -686,6 +814,8 @@ msgid ""
 "B<--filelist FILE> read a list of files to process as content from B<FILE>. "
 "Format is compatible with B<ls> output, with one file per line."
 msgstr ""
+"B<--filelist FILE>：从 B<FILE> 中读取要处理的文件列表作为内容。其格式与 "
+"B<ls> 的输出兼容，每行一个文件。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:217
@@ -697,6 +827,10 @@ msgid ""
 "ensures first file with a given name will be present in B<DIR>, while in "
 "combination with B<-f>, the last file will be present instead."
 msgstr ""
+"B<--output-dir-flat DIR>：生成的文件会被存储到目标 B<DIR> 目录中，而不是与源"
+"文件相同的目录。请注意，如果来自不同目录的多个文件最终具有相同的名称，此命令"
+"可能会引入命名冲突问题。冲突解决机制会确保具有某一名称的第一个文件出现在 "
+"B<DIR> 中，而在与 B<-f> 结合使用时，则会改为保留最后一个文件。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:220
@@ -705,6 +839,8 @@ msgid ""
 "files are stored underneath target B<DIR> directory, but this option will "
 "replicate input directory hierarchy into output B<DIR>."
 msgstr ""
+"B<--output-dir-mirror DIR>：与 B<--output-dir-flat> 类似，输出文件会被存储在"
+"目标 B<DIR> 目录之下，但此选项会将输入的目录层次结构复制到输出的 B<DIR> 中。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:223
@@ -715,6 +851,9 @@ msgid ""
 "multiple input files or directories, name collision resolution will follow "
 "the same rules as B<--output-dir-flat>."
 msgstr ""
+"如果输入目录包含 “..”，则该目录中的文件将被忽略。如果输入目录是绝对目录（例"
+"如 “/var/tmp/abc”），它将被存储到 “output-dir/var/tmp/abc” 中。如果有多个输入"
+"文件或目录，命名冲突的解决将遵循与 B<--output-dir-flat> 相同的规则。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:226
@@ -724,11 +863,14 @@ msgid ""
 "algorithm formats. Possibly available options are B<zstd>, B<gzip>, B<xz>, "
 "B<lzma>, and B<lz4>. If no such format is provided, B<zstd> is the default."
 msgstr ""
+"B<--format=FORMAT>：以其他格式进行压缩和解压缩。如果编译时启用了相应支持，"
+"zstd 可以压缩为其他压缩算法格式，或从中解压缩。可能可用的选项有 B<zstd>、"
+"B<gzip>、B<xz>、B<lzma> 和 B<lz4>。如果未提供此类格式，则默认为 B<zstd>。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:229
 msgid "B<-h>/B<-H>, B<--help>: display help/long help and exit"
-msgstr ""
+msgstr "B<-h>/B<-H>, B<--help>：显示帮助/详细帮助并退出"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:232
@@ -739,25 +881,28 @@ msgid ""
 "POSIX support. B<-qV> will only display the version number, suitable for "
 "machine reading."
 msgstr ""
+"B<-V>, B<--version>：显示版本号并立即退出。请注意，由于它会退出，在 B<-V> 之"
+"后指定的标志实际上会被忽略。高级用法：B<-vV> 还会显示所支持的格式。B<-vvV> 还"
+"会显示 POSIX 支持情况。B<-qV> 将只显示版本号，适合机器读取。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:235
 msgid "B<-v>, B<--verbose>: verbose mode, display more information"
-msgstr ""
+msgstr "B<-v>, B<--verbose>：详细模式，显示更多信息"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:238
 msgid ""
 "B<-q>, B<--quiet>: suppress warnings, interactivity, and notifications. "
 "specify twice to suppress errors too."
-msgstr ""
+msgstr "B<-q>, B<--quiet>：抑制警告、交互和通知。指定两次也会抑制错误。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:241
 msgid ""
 "B<--no-progress>: do not display the progress bar, but keep all other "
 "messages."
-msgstr ""
+msgstr "B<--no-progress>：不显示进度条，但保留所有其他消息。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:244
@@ -767,17 +912,20 @@ msgid ""
 "level and the input size. If the provided file is not a regular file (e.g. a "
 "pipe), this flag will output the parameters used for inputs of unknown size."
 msgstr ""
+"B<--show-default-cparams>：根据所提供的压缩级别和输入大小，显示将用于某个特定"
+"输入文件的默认压缩参数。如果所提供的文件不是普通文件（例如管道），此标志将输"
+"出用于未知大小输入的参数。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:247
 msgid ""
 "B<--exclude-compressed>: only compress files that are not already compressed."
-msgstr ""
+msgstr "B<--exclude-compressed>：仅压缩尚未被压缩的文件。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:250
 msgid "B<-->: All arguments after B<--> are treated as files"
-msgstr ""
+msgstr "B<-->：B<--> 之后的所有参数都被视为文件"
 
 #. type: SS
 #: raw/zstd/man1/zstd.1:253
@@ -833,6 +981,9 @@ msgid ""
 "B<ZSTD_NBTHREADS> are currently supported. They set the default compression "
 "level and number of threads to use during compression, respectively."
 msgstr ""
+"使用环境变量来设置参数会带来安全方面的影响。因此，这一途径被有意加以限制。目"
+"前仅支持 B<ZSTD_CLEVEL> 和 B<ZSTD_NBTHREADS>。它们分别设置压缩时使用的默认压"
+"缩级别和线程数。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:269
@@ -842,6 +993,9 @@ msgid ""
 "ignored with a warning message. B<ZSTD_CLEVEL> just replaces the default "
 "compression level (B<3>)."
 msgstr ""
+"B<ZSTD_CLEVEL> 可用于设置 1 到 19 之间（即“正常”范围）的级别。如果 "
+"B<ZSTD_CLEVEL> 的值不是有效的整数，它将被忽略并给出一条警告消息。"
+"B<ZSTD_CLEVEL> 只是替换默认的压缩级别（B<3>）。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:272
@@ -853,6 +1007,11 @@ msgid ""
 "is capped at ZSTDMT_NBWORKERS_MAX==200. B<zstd> must be compiled with "
 "multithread support for this variable to have any effect."
 msgstr ""
+"B<ZSTD_NBTHREADS> 可用于设置 B<zstd> 在压缩时将尝试使用的线程数。如果 "
+"B<ZSTD_NBTHREADS> 的值不是有效的无符号整数，它将被忽略并给出一条警告消息。"
+"B<ZSTD_NBTHREADS> 的默认值为 B<max(1, min(4, nbCores/4))>，且上限为 "
+"ZSTDMT_NBWORKERS_MAX==200。必须在编译 B<zstd> 时启用多线程支持，此变量才会产"
+"生任何效果。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:275
@@ -860,6 +1019,8 @@ msgid ""
 "They can both be overridden by corresponding command line arguments: B<-#> "
 "for compression level and B<-T#> for number of compression threads."
 msgstr ""
+"这两者都可以被相应的命令行参数覆盖：B<-#> 用于压缩级别，B<-T#> 用于压缩线程"
+"数。"
 
 #. type: SH
 #: raw/zstd/man1/zstd.1:276
@@ -876,12 +1037,15 @@ msgid ""
 "result of this translation with B<--show-default-cparams>). These advanced "
 "parameters can be overridden using advanced compression options."
 msgstr ""
+"B<zstd> 提供 22 个预定义的常规压缩级别以及快速级别。在内部，压缩级别会被转换"
+"为多个控制压缩器行为的高级参数（可以用 B<--show-default-cparams> 观察这一转换"
+"的结果）。这些高级参数可以使用高级压缩选项来覆盖。"
 
 #. type: SS
 #: raw/zstd/man1/zstd.1:279
 #, no-wrap
 msgid "--zstd[=options]:"
-msgstr ""
+msgstr "--zstd[=options]:"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:281
@@ -890,17 +1054,19 @@ msgid ""
 "the options you want to change and the rest will be taken from the selected "
 "or default compression level. The list of available I<options>:"
 msgstr ""
+"I<options> 以逗号分隔的列表形式提供。你可以只指定想要更改的选项，其余的将取自"
+"所选的或默认的压缩级别。可用 I<options> 的列表如下："
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:282
 #, no-wrap
 msgid "B<strategy>=I<strat>, B<strat>=I<strat>"
-msgstr ""
+msgstr "B<strategy>=I<strat>, B<strat>=I<strat>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:285
 msgid "Specify a strategy used by a match finder."
-msgstr ""
+msgstr "指定匹配查找器所使用的策略。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:288
@@ -910,17 +1076,20 @@ msgid ""
 "5=B<ZSTD_lazy2>, 6=B<ZSTD_btlazy2>, 7=B<ZSTD_btopt>, 8=B<ZSTD_btultra>, "
 "9=B<ZSTD_btultra2>."
 msgstr ""
+"共有 9 种策略，编号从 1 到 9，从最快到最强：1=B<ZSTD_fast>, 2=B<ZSTD_dfast>, "
+"3=B<ZSTD_greedy>, 4=B<ZSTD_lazy>, 5=B<ZSTD_lazy2>, 6=B<ZSTD_btlazy2>, "
+"7=B<ZSTD_btopt>, 8=B<ZSTD_btultra>, 9=B<ZSTD_btultra2>。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:289
 #, no-wrap
 msgid "B<windowLog>=I<wlog>, B<wlog>=I<wlog>"
-msgstr ""
+msgstr "B<windowLog>=I<wlog>, B<wlog>=I<wlog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:292
 msgid "Specify the maximum number of bits for a match distance."
-msgstr ""
+msgstr "指定匹配距离的最大位数。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:295
@@ -930,17 +1099,20 @@ msgid ""
 "compressor and decompressor. The minimum I<wlog> is 10 (1 KiB) and the "
 "maximum is 30 (1 GiB) on 32-bit platforms and 31 (2 GiB) on 64-bit platforms."
 msgstr ""
+"该值越大，找到匹配的机会就越大，这通常会提高压缩率。它也会增加压缩器和解压缩"
+"器的内存需求。I<wlog> 的最小值为 10（1 KiB），最大值在 32 位平台上为 30（1 "
+"GiB），在 64 位平台上为 31（2 GiB）。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:299
 #, no-wrap
 msgid "B<hashLog>=I<hlog>, B<hlog>=I<hlog>"
-msgstr ""
+msgstr "B<hashLog>=I<hlog>, B<hlog>=I<hlog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:302
 msgid "Specify the maximum number of bits for a hash table."
-msgstr ""
+msgstr "指定哈希表的最大位数。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:305
@@ -948,6 +1120,7 @@ msgid ""
 "Bigger hash tables cause fewer collisions which usually makes compression "
 "faster, but requires more memory during compression."
 msgstr ""
+"更大的哈希表会减少冲突，这通常会使压缩更快，但在压缩过程中需要更多内存。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:308
@@ -955,19 +1128,21 @@ msgid ""
 "The minimum I<hlog> is 6 (64 entries / 256 B) and the maximum is 30 (1B "
 "entries / 4 GiB)."
 msgstr ""
+"I<hlog> 的最小值为 6（64 个条目 / 256 B），最大值为 30（10 亿个条目 / 4 "
+"GiB）。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:309
 #, no-wrap
 msgid "B<chainLog>=I<clog>, B<clog>=I<clog>"
-msgstr ""
+msgstr "B<chainLog>=I<clog>, B<clog>=I<clog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:312
 msgid ""
 "Specify the maximum number of bits for the secondary search structure, whose "
 "form depends on the selected B<strategy>."
-msgstr ""
+msgstr "指定次级搜索结构的最大位数，其形式取决于所选的 B<strategy>。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:315
@@ -977,6 +1152,8 @@ msgid ""
 "increases memory requirements for compression. This option is ignored for "
 "the B<ZSTD_fast> B<strategy>, which only has the primary hash table."
 msgstr ""
+"位数越多，找到匹配的机会就越大，这通常会提高压缩率。它也会降低压缩速度并增加"
+"压缩的内存需求。对于只有主哈希表的 B<ZSTD_fast> B<strategy>，此选项会被忽略。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:318
@@ -985,65 +1162,67 @@ msgid ""
 "entries / 2 GiB) on 32-bit platforms and 30 (1B entries / 4 GiB) on 64-bit "
 "platforms."
 msgstr ""
+"I<clog> 的最小值为 6（64 个条目 / 256 B），最大值在 32 位平台上为 29（5.12 亿"
+"个条目 / 2 GiB），在 64 位平台上为 30（10 亿个条目 / 4 GiB）。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:319
 #, no-wrap
 msgid "B<searchLog>=I<slog>, B<slog>=I<slog>"
-msgstr ""
+msgstr "B<searchLog>=I<slog>, B<slog>=I<slog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:322
 msgid ""
 "Specify the maximum number of searches in a hash chain or a binary tree "
 "using logarithmic scale."
-msgstr ""
+msgstr "以对数刻度指定在哈希链或二叉树中的最大搜索次数。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:325
 msgid ""
 "More searches increases the chance to find a match which usually increases "
 "compression ratio but decreases compression speed."
-msgstr ""
+msgstr "更多的搜索会增大找到匹配的机会，这通常会提高压缩率但会降低压缩速度。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:328
 msgid "The minimum I<slog> is 1 and the maximum is \\'windowLog\\' - 1."
-msgstr ""
+msgstr "I<slog> 的最小值为 1，最大值为 “windowLog” - 1。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:329
 #, no-wrap
 msgid "B<minMatch>=I<mml>, B<mml>=I<mml>"
-msgstr ""
+msgstr "B<minMatch>=I<mml>, B<mml>=I<mml>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:332
 msgid "Specify the minimum searched length of a match in a hash table."
-msgstr ""
+msgstr "指定在哈希表中匹配的最小搜索长度。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:335
 msgid ""
 "Larger search lengths usually decrease compression ratio but improve "
 "decompression speed."
-msgstr ""
+msgstr "更大的搜索长度通常会降低压缩率，但会提高解压缩速度。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:338
 msgid "The minimum I<mml> is 3 and the maximum is 7."
-msgstr ""
+msgstr "I<mml> 的最小值为 3，最大值为 7。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:339
 #, no-wrap
 msgid "B<targetLength>=I<tlen>, B<tlen>=I<tlen>"
-msgstr ""
+msgstr "B<targetLength>=I<tlen>, B<tlen>=I<tlen>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:342
 msgid "The impact of this field vary depending on selected strategy."
-msgstr ""
+msgstr "此字段的影响因所选策略而异。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:345
@@ -1053,6 +1232,9 @@ msgid ""
 "B<targetLength> usually improves compression ratio but decreases compression "
 "speed."
 msgstr ""
+"对于 B<ZSTD_btopt>、B<ZSTD_btultra> 和 B<ZSTD_btultra2>，它指定使匹配查找器停"
+"止搜索的最小匹配长度。更大的 B<targetLength> 通常会提高压缩率但会降低压缩速"
+"度。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:348
@@ -1062,22 +1244,25 @@ msgid ""
 "reversed: a larger B<targetLength> increases compression speed but decreases "
 "compression ratio."
 msgstr ""
+"对于 B<ZSTD_fast>，当其 E<gt> 0 时会触发超快模式。该值表示在匹配采样之间跳过"
+"的数据量。其影响是相反的：更大的 B<targetLength> 会提高压缩速度但会降低压缩"
+"率。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:351
 msgid "For all other strategies, this field has no impact."
-msgstr ""
+msgstr "对于所有其他策略，此字段没有影响。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:354
 msgid "The minimum I<tlen> is 0 and the maximum is 128 KiB."
-msgstr ""
+msgstr "I<tlen> 的最小值为 0，最大值为 128 KiB。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:355
 #, no-wrap
 msgid "B<overlapLog>=I<ovlog>, B<ovlog>=I<ovlog>"
-msgstr ""
+msgstr "B<overlapLog>=I<ovlog>, B<ovlog>=I<ovlog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:358
@@ -1086,6 +1271,8 @@ msgid ""
 "parameter is only available when multithreading is enabled. Reloading more "
 "data improves compression ratio, but decreases speed."
 msgstr ""
+"确定 B<overlapSize>，即从上一个任务重新加载的数据量。此参数仅在启用多线程时可"
+"用。重新加载更多数据会提高压缩率，但会降低速度。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:361
@@ -1098,49 +1285,55 @@ msgid ""
 "I<ovlog> is automatically determined by B<zstd>. In which case, I<ovlog> "
 "will range from 6 to 9, depending on selected I<strat>."
 msgstr ""
+"I<ovlog> 的最小值为 0，最大值为 9。1 表示“无重叠”，因此任务之间完全独立。9 表"
+"示“完全重叠”，即从上一个任务最多重新加载 B<windowSize> 大小的数据。将 "
+"I<ovlog> 减小 1 会使重新加载的数据量减少为原来的一半。例如，8 表"
+"示“windowSize/2”，6 表示“windowSize/8”。值 0 比较特殊，表示“默认”：I<ovlog> "
+"由 B<zstd> 自动确定。在这种情况下，I<ovlog> 的取值将在 6 到 9 之间，具体取决"
+"于所选的 I<strat>。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:362
 #, no-wrap
 msgid "B<ldmHashRateLog>=I<lhrlog>, B<lhrlog>=I<lhrlog>"
-msgstr ""
+msgstr "B<ldmHashRateLog>=I<lhrlog>, B<lhrlog>=I<lhrlog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:365
 msgid ""
 "Specify the frequency of inserting entries into the long distance matching "
 "hash table."
-msgstr ""
+msgstr "指定向长距离匹配哈希表中插入条目的频率。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:368 raw/zstd/man1/zstd.1:381 raw/zstd/man1/zstd.1:394
 #: raw/zstd/man1/zstd.1:407
 msgid "This option is ignored unless long distance matching is enabled."
-msgstr ""
+msgstr "除非启用了长距离匹配，否则此选项会被忽略。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:371
 msgid ""
 "Larger values will improve compression speed. Deviating far from the default "
 "value will likely result in a decrease in compression ratio."
-msgstr ""
+msgstr "更大的值将提高压缩速度。与默认值偏离太远很可能会导致压缩率下降。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:374
 msgid "The default value varies between 4 and 7, depending on B<strategy>."
-msgstr ""
+msgstr "默认值在 4 到 7 之间变化，具体取决于 B<strategy>。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:375
 #, no-wrap
 msgid "B<ldmHashLog>=I<lhlog>, B<lhlog>=I<lhlog>"
-msgstr ""
+msgstr "B<ldmHashLog>=I<lhlog>, B<lhlog>=I<lhlog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:378
 msgid ""
 "Specify the maximum size for a hash table used for long distance matching."
-msgstr ""
+msgstr "指定用于长距离匹配的哈希表的最大大小。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:384
@@ -1148,6 +1341,8 @@ msgid ""
 "Bigger hash tables usually improve compression ratio at the expense of more "
 "memory during compression and a decrease in compression speed."
 msgstr ""
+"更大的哈希表通常会提高压缩率，但代价是压缩过程中占用更多内存以及压缩速度下"
+"降。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:387
@@ -1155,23 +1350,24 @@ msgid ""
 "The minimum I<lhlog> is 6 and the maximum is 30 (default: B<windowLog - "
 "ldmHashRateLog>)."
 msgstr ""
+"I<lhlog> 的最小值为 6，最大值为 30（默认值：B<windowLog - ldmHashRateLog>）。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:388
 #, no-wrap
 msgid "B<ldmMinMatch>=I<lmml>, B<lmml>=I<lmml>"
-msgstr ""
+msgstr "B<ldmMinMatch>=I<lmml>, B<lmml>=I<lmml>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:391
 msgid ""
 "Specify the minimum searched length of a match for long distance matching."
-msgstr ""
+msgstr "指定长距离匹配中匹配的最小搜索长度。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:397
 msgid "Larger/very small values usually decrease compression ratio."
-msgstr ""
+msgstr "过大或过小的值通常都会降低压缩率。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:400
@@ -1179,26 +1375,28 @@ msgid ""
 "The minimum I<lmml> is 4 and the maximum is 4096 (default: 32 to 64, "
 "depending on B<strategy>)."
 msgstr ""
+"I<lmml> 的最小值为 4，最大值为 4096（默认值：32 到 64，具体取决于 "
+"B<strategy>）。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:401
 #, no-wrap
 msgid "B<ldmBucketSizeLog>=I<lblog>, B<lblog>=I<lblog>"
-msgstr ""
+msgstr "B<ldmBucketSizeLog>=I<lblog>, B<lblog>=I<lblog>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:404
 msgid ""
 "Specify the size of each bucket for the hash table used for long distance "
 "matching."
-msgstr ""
+msgstr "指定用于长距离匹配的哈希表中每个桶的大小。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:410
 msgid ""
 "Larger bucket sizes improve collision resolution but decrease compression "
 "speed."
-msgstr ""
+msgstr "更大的桶大小会改善冲突解决，但会降低压缩速度。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:413
@@ -1206,6 +1404,7 @@ msgid ""
 "The minimum I<lblog> is 1 and the maximum is 8 (default: 4 to 8, depending "
 "on B<strategy>)."
 msgstr ""
+"I<lblog> 的最小值为 1，最大值为 8（默认值：4 到 8，具体取决于 B<strategy>）。"
 
 #. type: SS
 #: raw/zstd/man1/zstd.1:414
@@ -1219,17 +1418,18 @@ msgid ""
 "The following parameters sets advanced compression options to something "
 "similar to predefined level 19 for files bigger than 256 KB:"
 msgstr ""
+"对于大于 256 KB 的文件，以下参数会将高级压缩选项设置为类似于预定义的 19 级："
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:419
 msgid "B<--zstd>=wlog=23,clog=23,hlog=22,slog=6,mml=3,tlen=48,strat=6"
-msgstr ""
+msgstr "B<--zstd>=wlog=23,clog=23,hlog=22,slog=6,mml=3,tlen=48,strat=6"
 
 #. type: SS
 #: raw/zstd/man1/zstd.1:420
 #, no-wrap
 msgid "-B#:"
-msgstr ""
+msgstr "-B#:"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:422
@@ -1243,12 +1443,17 @@ msgid ""
 "either 512 KB, or B<overlapSize>, whichever is largest. Different job sizes "
 "will lead to non-identical compressed frames."
 msgstr ""
+"指定每个压缩任务的大小。此参数仅在启用多线程时可用。每个压缩任务并行运行，因"
+"此此值会间接影响活动线程的数量。默认任务大小因压缩级别而异（通常为 B<4 * "
+"windowSize>）。B<-B#> 使得手动选择自定义大小成为可能。请注意，任务大小必须满"
+"足一个透明强制执行的最小值。该最小值为 512 KB 或 B<overlapSize> 中的较大者。"
+"不同的任务大小会导致不完全相同的压缩帧。"
 
 #. type: SH
 #: raw/zstd/man1/zstd.1:423
 #, no-wrap
 msgid "DICTIONARY BUILDER"
-msgstr ""
+msgstr "字典构建器"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:425
@@ -1260,12 +1465,16 @@ msgid ""
 "using command B<-D dictionaryFileName>. Compression of small files similar "
 "to the sample set will be greatly improved."
 msgstr ""
+"B<zstd> 提供 I<字典> 压缩，这可以大大提高对小文件和消息的压缩效率。可以用一组"
+"样本来训练 B<zstd>，其结果会被保存到一个称为 B<dictionary>（字典）的文件中。"
+"然后，在压缩和解压缩时，使用 B<-D dictionaryFileName> 命令引用同一个字典。对"
+"与样本集相似的小文件的压缩将得到极大改善。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:426
 #, no-wrap
 msgid "B<--train FILEs>"
-msgstr ""
+msgstr "B<--train FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:429
@@ -1277,6 +1486,10 @@ msgid ""
 "listing all the files, which can be useful to circumvent shell expansion "
 "limits."
 msgstr ""
+"使用 FILEs 作为训练集来创建字典。理想情况下，训练集应包含大量样本（E<gt> 100 "
+"个），且其总大小通常为目标字典大小的 100 倍（例如，对于 100 KB 的字典约为 10 "
+"MB）。B<--train> 可以与 B<-r> 结合使用以指定一个目录，而不必列出所有文件，这"
+"有助于规避 shell 展开的限制。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:432
@@ -1286,6 +1499,8 @@ msgid ""
 "case where some samples happen to be large, only the first 128 KiB of these "
 "samples will be used for training."
 msgstr ""
+"由于字典压缩主要对小文件有效，因此预期训练集只包含小文件。如果某些样本恰好很"
+"大，则只有这些样本的前 128 KiB 会被用于训练。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:435
@@ -1297,23 +1512,27 @@ msgid ""
 "train-cover>. Default B<--train> is equivalent to B<--train-"
 "fastcover=d=8,steps=4>."
 msgstr ""
+"如果编译 B<zstd> 时启用了线程支持（默认），B<--train> 支持多线程。可以使用 "
+"B<--train-fastcover> 指定额外的高级参数。可以通过 B<--train-legacy> 访问旧版"
+"字典构建器。可以通过 B<--train-cover> 访问速度较慢的 cover 字典构建器。默认"
+"的 B<--train> 等效于 B<--train-fastcover=d=8,steps=4>。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:436
 #, no-wrap
 msgid "B<-o FILE>"
-msgstr ""
+msgstr "B<-o FILE>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:439
 msgid "Dictionary saved into B<FILE> (default name: dictionary)."
-msgstr ""
+msgstr "字典将被保存到 B<FILE> 中（默认名称：dictionary）。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:440
 #, no-wrap
 msgid "B<--maxdict=#>"
-msgstr ""
+msgstr "B<--maxdict=#>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:443
@@ -1322,12 +1541,14 @@ msgid ""
 "quantities are expressed in bytes by default, and it\\'s possible to employ "
 "suffixes (like B<KB> or B<MB>) to specify larger values."
 msgstr ""
+"将字典限制为指定大小（默认值：112640 字节）。与通常一样，数量默认以字节表示，"
+"并且可以使用后缀（如 B<KB> 或 B<MB>）来指定更大的值。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:444
 #, no-wrap
 msgid "B<-#>"
-msgstr ""
+msgstr "B<-#>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:447
@@ -1336,23 +1557,25 @@ msgid ""
 "statistics more tuned for selected compression level, resulting in a "
 "I<small> compression ratio improvement for this level."
 msgstr ""
+"在训练期间使用 B<#> 压缩级别（可选）。这将生成更针对所选压缩级别进行调优的统"
+"计信息，从而使该级别的压缩率有 I<小幅> 提升。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:448
 #, no-wrap
 msgid "B<-B#>"
-msgstr ""
+msgstr "B<-B#>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:451
 msgid "Split input files into blocks of size # (default: no split)"
-msgstr ""
+msgstr "将输入文件拆分为大小为 # 的块（默认值：不拆分）"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:452
 #, no-wrap
 msgid "B<-M#>, B<--memory=#>"
-msgstr ""
+msgstr "B<-M#>, B<--memory=#>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:455
@@ -1364,6 +1587,9 @@ msgid ""
 "correlated to the size of the training sample set, a smaller sample set "
 "leads to faster training."
 msgstr ""
+"限制为训练而加载的样本数据量（默认值：2 GB）。请注意，默认值（2 GB）同时也是"
+"最大值。当训练集大小未得到良好控制且可能非常大时，此参数会很有用。由于训练过"
+"程的速度与训练样本集的大小直接相关，因此较小的样本集会带来更快的训练。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:458
@@ -1377,12 +1603,16 @@ msgid ""
 "of the same list of files with the same parameters will lead to the creation "
 "of the same dictionary."
 msgstr ""
+"当训练集大于最大内存时，CLI 将在可用样本中随机选取样本，直到达到所允许的最大"
+"内存预算。这样做是为了通过减轻聚集所带来的潜在影响来提高字典的相关性，例如避"
+"免只选取按修改日期排序或按字母顺序排序的列表开头的文件。该随机化过程是确定性"
+"的，因此使用相同参数训练相同的文件列表将会创建出相同的字典。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:459
 #, no-wrap
 msgid "B<--dictID=#>"
-msgstr ""
+msgstr "B<--dictID=#>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:462
@@ -1396,6 +1626,11 @@ msgid ""
 "E<lt> 65536 will only need 2 bytes. This compares favorably to 4 bytes "
 "default."
 msgstr ""
+"字典 ID 是一个在本地唯一的 ID。解码器将使用此值来验证它所使用的字典是否正确。"
+"默认情况下，zstd 会创建一个 4 字节的随机数 ID。也可以改为提供一个明确的数字 "
+"ID。由字典管理者负责确保不会将同一个 ID 分配给两个不同的字典。请注意，较小的"
+"数字有一个优势：ID E<lt> 256 在压缩帧头部中只需 1 字节，ID E<lt> 65536 只需 "
+"2 字节。这相比默认的 4 字节更有优势。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:465
@@ -1403,12 +1638,14 @@ msgid ""
 "Note that RFC8878 reserves IDs less than 32768 and greater than or equal to "
 "2^31, so they should not be used in public."
 msgstr ""
+"请注意，RFC8878 保留了小于 32768 以及大于或等于 2^31 的 ID，因此它们不应在公"
+"开场合使用。"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:466
 #, no-wrap
 msgid "B<--train-cover[=k#,d=#,steps=#,split=#,shrink[=#]]>"
-msgstr ""
+msgstr "B<--train-cover[=k#,d=#,steps=#,split=#,shrink[=#]]>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:469
@@ -1422,6 +1659,12 @@ msgid ""
 "default value for I<shrinkDict> of 0 is used. If I<shrink> is not specified, "
 "then the default value for I<shrinkDictMaxRegression> of 1 is used."
 msgstr ""
+"为名为 cover 的默认字典构建器算法选择参数。如果未指定 I<d>，则会尝试 I<d> = "
+"6 和 I<d> = 8。如果未指定 I<k>，则会在 [50, 2000] 范围内尝试 I<steps> 个取"
+"值。如果未指定 I<steps>，则使用默认值 40。如果未指定 I<split> 或 split "
+"E<lt>= 0，则使用默认值 100。要求 I<d> E<lt>= I<k>。如果未使用 I<shrink> 标"
+"志，则使用 I<shrinkDict> 的默认值 0。如果未指定 I<shrink>，则使用 "
+"I<shrinkDictMaxRegression> 的默认值 1。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:472
@@ -1439,52 +1682,60 @@ msgid ""
 "most I<shrinkDictMaxRegression%> worse than the compression ratio of the "
 "largest dictionary."
 msgstr ""
+"选取得分最高的、大小为 I<k> 的片段放入字典。一个片段的得分由所有大小为 I<d> "
+"的子片段的频率之和计算得出。通常 I<d> 应在 [6, 8] 范围内，偶尔可高达 16，但"
+"当 d E<lt>= I<8> 时算法运行得更快。I<k> 的合适取值因输入数据而有很大差异，但"
+"一个安全的范围是 [2 * I<d>, 2000]。如果 I<split> 为 100，则所有输入样本都会同"
+"时用于训练和测试，以找到用于构建字典的最优 I<d> 和 I<k>。如果编译 B<zstd> 时"
+"启用了线程支持，则支持多线程。启用 I<shrink> 时，会取一个最小大小的截断字典，"
+"并将其大小翻倍，直到该截断字典的压缩率与最大字典的压缩率相比最多差 "
+"I<shrinkDictMaxRegression%>。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:475 raw/zstd/man1/zstd.1:506 raw/zstd/man1/zstd.1:519
 msgid "Examples:"
-msgstr ""
+msgstr "示例："
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:478
 msgid "B<zstd --train-cover FILEs>"
-msgstr ""
+msgstr "B<zstd --train-cover FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:481
 msgid "B<zstd --train-cover=k=50,d=8 FILEs>"
-msgstr ""
+msgstr "B<zstd --train-cover=k=50,d=8 FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:484
 msgid "B<zstd --train-cover=d=8,steps=500 FILEs>"
-msgstr ""
+msgstr "B<zstd --train-cover=d=8,steps=500 FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:487
 msgid "B<zstd --train-cover=k=50 FILEs>"
-msgstr ""
+msgstr "B<zstd --train-cover=k=50 FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:490
 msgid "B<zstd --train-cover=k=50,split=60 FILEs>"
-msgstr ""
+msgstr "B<zstd --train-cover=k=50,split=60 FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:493
 msgid "B<zstd --train-cover=shrink FILEs>"
-msgstr ""
+msgstr "B<zstd --train-cover=shrink FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:496
 msgid "B<zstd --train-cover=shrink=2 FILEs>"
-msgstr ""
+msgstr "B<zstd --train-cover=shrink=2 FILEs>"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:497
 #, no-wrap
 msgid "B<--train-fastcover[=k#,d=#,f=#,steps=#,split=#,accel=#]>"
-msgstr ""
+msgstr "B<--train-fastcover[=k#,d=#,f=#,steps=#,split=#,accel=#]>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:500
@@ -1496,6 +1747,10 @@ msgid ""
 "1. Requires that 0 E<lt> I<accel> E<lt>= 10. Requires that I<d> = 6 or I<d> "
 "= 8."
 msgstr ""
+"与 cover 相同，但带有额外的参数 I<f> 和 I<accel>，且 split 的默认值不同。如果"
+"未指定 I<split>，则会尝试 I<split> = 75。如果未指定 I<f>，则会尝试 I<f> = "
+"20。要求 0 E<lt> I<f> E<lt> 32。如果未指定 I<accel>，则会尝试 I<accel> = 1。"
+"要求 0 E<lt> I<accel> E<lt>= 10。要求 I<d> = 6 或 I<d> = 8。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:503
@@ -1506,22 +1761,26 @@ msgid ""
 "and they are considered as the same subsegment when computing frequency. "
 "Using a higher I<f> reduces collision but takes longer."
 msgstr ""
+"I<f> 是用于跟踪大小为 I<d> 的子片段频率的数组大小的对数。子片段被哈希到 "
+"[0,2^I<f> - 1] 范围内的一个索引。两个不同的子片段有可能被哈希到同一个索引，此"
+"时在计算频率时它们会被视为同一个子片段。使用更高的 I<f> 会减少冲突，但耗时更"
+"长。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:509
 msgid "B<zstd --train-fastcover FILEs>"
-msgstr ""
+msgstr "B<zstd --train-fastcover FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:512
 msgid "B<zstd --train-fastcover=d=8,f=15,accel=2 FILEs>"
-msgstr ""
+msgstr "B<zstd --train-fastcover=d=8,f=15,accel=2 FILEs>"
 
 #. type: TP
 #: raw/zstd/man1/zstd.1:513
 #, no-wrap
 msgid "B<--train-legacy[=selectivity=#]>"
-msgstr ""
+msgstr "B<--train-legacy[=selectivity=#]>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:516
@@ -1531,22 +1790,25 @@ msgid ""
 "denser the dictionary, improving its efficiency but reducing its achievable "
 "maximum size. B<--train-legacy=s=#> is also accepted."
 msgstr ""
+"使用旧版字典构建器算法，并采用给定的字典 I<selectivity>（默认值：9）。"
+"I<selectivity> 值越小，字典越密集，从而提高其效率但会降低其可达到的最大大小。"
+"也接受 B<--train-legacy=s=#>。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:522
 msgid "B<zstd --train-legacy FILEs>"
-msgstr ""
+msgstr "B<zstd --train-legacy FILEs>"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:525
 msgid "B<zstd --train-legacy=selectivity=8 FILEs>"
-msgstr ""
+msgstr "B<zstd --train-legacy=selectivity=8 FILEs>"
 
 #. type: SH
 #: raw/zstd/man1/zstd.1:526
 #, no-wrap
 msgid "BENCHMARK"
-msgstr ""
+msgstr "基准测试"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:528
@@ -1557,6 +1819,10 @@ msgid ""
 "both compression and decompression using default compression level. Note "
 "that results are very dependent on the content being compressed."
 msgstr ""
+"B<zstd> 命令行工具提供了一种基准测试模式，可用于轻松找到合适的压缩参数，或者"
+"用于对计算机的性能进行基准测试。B<zstd -b [FILE(s)]> 将使用默认压缩级别对 "
+"B<zstd> 的压缩和解压缩进行基准测试。请注意，结果在很大程度上取决于所压缩的内"
+"容。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:531
@@ -1565,6 +1831,8 @@ msgid ""
 "directory with B<-r DIRECTORY>. When no B<FILE> is provided, the benchmark "
 "will use a procedurally generated B<lorem ipsum> text."
 msgstr ""
+"可以向基准测试传递多个文件，甚至可以用 B<-r DIRECTORY> 传递一个目录。当未提"
+"供 B<FILE> 时，基准测试将使用程序化生成的 B<lorem ipsum> 文本。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:534
@@ -1572,11 +1840,13 @@ msgid ""
 "Benchmarking will employ B<max(1, min(4, nbCores/4))> worker threads by "
 "default in order to match the behavior of the normal CLI I/O."
 msgstr ""
+"为了与普通命令行 I/O 的行为保持一致，基准测试默认将使用 B<max(1, min(4, "
+"nbCores/4))> 个工作线程。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:537
 msgid "B<-b#>: benchmark file(s) using compression level #"
-msgstr ""
+msgstr "B<-b#>：使用压缩级别 # 对文件进行基准测试"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:540
@@ -1584,20 +1854,21 @@ msgid ""
 "B<-e#>: benchmark file(s) using multiple compression levels, from B<-b#> to "
 "B<-e#> (inclusive)"
 msgstr ""
+"B<-e#>：使用多个压缩级别对文件进行基准测试，从 B<-b#> 到 B<-e#>（含两端）"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:543
 msgid ""
 "B<-d>: benchmark decompression speed only (requires providing a zstd-"
 "compressed content)"
-msgstr ""
+msgstr "B<-d>：仅对解压缩速度进行基准测试（需要提供 zstd 压缩过的内容）"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:546
 msgid ""
 "B<-i#>: minimum evaluation time, in seconds (default: 3s), benchmark mode "
 "only"
-msgstr ""
+msgstr "B<-i#>：最短评估时间，以秒为单位（默认值：3 秒），仅用于基准测试模式"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:549
@@ -1605,23 +1876,24 @@ msgid ""
 "B<-B#>, B<--block-size=#>: cut file(s) into independent chunks of size # "
 "(default: no chunking)"
 msgstr ""
+"B<-B#>, B<--block-size=#>：将文件切分为大小为 # 的独立块（默认值：不切分）"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:552
 msgid ""
 "B<-S>: output one benchmark result per input file (default: consolidated "
 "result)"
-msgstr ""
+msgstr "B<-S>：为每个输入文件输出一个基准测试结果（默认值：汇总结果）"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:555
 msgid "B<-D dictionary> benchmark using dictionary"
-msgstr ""
+msgstr "B<-D dictionary>：使用字典进行基准测试"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:558
 msgid "B<--priority=rt>: set process priority to real-time (Windows)"
-msgstr ""
+msgstr "B<--priority=rt>：将进程优先级设置为实时（Windows）"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:563
@@ -1631,6 +1903,8 @@ msgid ""
 "parameters (B<--zstd=###>), dictionary compression (B<-D dictionary>), or "
 "even disabling checksum verification for example."
 msgstr ""
+"除了压缩级别之外，基准测试还兼容其他参数，例如线程数（B<-T#>）、高级压缩参数"
+"（B<--zstd=###>）、字典压缩（B<-D dictionary>），甚至可以禁用校验和验证等。"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:566
@@ -1638,6 +1912,8 @@ msgid ""
 "B<Output Format:> CompressionLevel#Filename: InputSize -E<gt> OutputSize "
 "(CompressionRatio), CompressionSpeed, DecompressionSpeed"
 msgstr ""
+"B<输出格式：> 压缩级别#文件名: 输入大小 -E<gt> 输出大小 (压缩率), 压缩速度, "
+"解压缩速度"
 
 #. type: Plain text
 #: raw/zstd/man1/zstd.1:569
@@ -1647,6 +1923,9 @@ msgid ""
 "files are small, they are compressed/decompressed several times per run, in "
 "order to improve measurement accuracy."
 msgstr ""
+"B<方法：> 对于速度测量，整个输入会在内存中被压缩/解压缩以测量速度。一次运行至"
+"少持续 1 秒，因此当文件较小时，每次运行会对它们进行多次压缩/解压缩，以提高测"
+"量的准确性。"
 
 #. type: SH
 #: raw/zstd/man1/zstd.1:570
@@ -1666,6 +1945,9 @@ msgid ""
 "and the \\'application/zstd\\' Media Type\", https://www.ietf.org/rfc/"
 "rfc8878.txt, Internet RFC 8878 (February 2021)."
 msgstr ""
+"I<zstandard> 格式的规范见于 Y. Collet 所著 “Zstandard Compression and the "
+"‘application/zstd’ Media Type”，https://www.ietf.org/rfc/rfc8878.txt，互联网 "
+"RFC 8878（2021 年 2 月）。"
 
 #. type: SH
 #: raw/zstd/man1/zstd.1:576

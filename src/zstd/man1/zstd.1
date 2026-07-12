@@ -1,0 +1,671 @@
+.
+.\"*******************************************************************
+.\"
+.\" This file was generated with po4a. Translate the source file.
+.\"
+.\"*******************************************************************
+.TH ZSTD 1 2025年二月 "zstd 1.5.7" 用户命令
+.
+.SH 名称
+\fBzstd\fP \- zstd, zstdmt, unzstd, zstdcat \- 压缩或解压缩 .zst 文件
+.
+.SH 概述
+\fBzstd\fP [\fI选项\fP] [\-|\fI输入文件\fP] [\-o \fI输出文件\fP]
+.
+.P
+\fBzstdmt\fP 等效于 \fBzstd \-T0\fP
+.
+.P
+\fBunzstd\fP 等效于 \fBzstd \-d\fP
+.
+.P
+\fBzstdcat\fP 等效于 \fBzstd \-dcf\fP
+.
+.SH 描述
+\fBzstd\fP 是一个快速的无损压缩算法和数据压缩工具，其命令行语法与 \fBgzip\fP(1) 和 \fBxz\fP(1) 类似。它基于 \fBLZ77\fP
+系列算法，并额外采用了 FSE 和 huff0 熵编码阶段。\fBzstd\fP 提供高度可配置的压缩速度，从每个核心 > 200 MB/s
+的快速模式，到具有出色压缩率的强力模式。它还具有非常快的解码器，每个核心的速度 > 500 MB/s，并且在所有压缩设置下都大致保持稳定。
+.
+.P
+\fBzstd\fP 的命令行语法总体上与 gzip 类似，但存在以下几处差异：
+.
+.IP \(bu 4
+默认情况下会保留源文件。可以使用 \fB\-\-rm\fP 命令自动删除它们。
+.
+.IP \(bu 4
+在压缩单个文件时，\fBzstd\fP 默认会显示进度通知和结果摘要。使用 \fB\-q\fP 可将其关闭。
+.
+.IP \(bu 4
+当命令行有误时，\fBzstd\fP 会显示一个简短的帮助页面。使用 \fB\-q\fP 可将其关闭。
+.
+.IP \(bu 4
+\fBzstd\fP 不接受来自控制台的输入，但当 \fBstdin\fP 不是控制台时，它会接受来自 \fBstdin\fP 的输入。
+.
+.IP \(bu 4
+\fBzstd\fP 不会保存输入的文件名或属性，只保存其内容。
+.
+.IP "" 0
+.
+.P
+\fBzstd\fP 会根据所选的操作模式处理每个 \fIfile\fP。如果没有给出 \fIfiles\fP，或者 \fIfile\fP 为 \fB\-\fP，则 \fBzstd\fP
+从标准输入读取，并将处理后的数据写入标准输出。如果标准输出是终端，\fBzstd\fP
+将拒绝向其写入压缩数据：它会显示一条错误消息并跳过该文件。类似地，如果标准输入是终端，\fBzstd\fP 也将拒绝从中读取压缩数据。
+.
+.P
+除非指定了 \fB\-\-stdout\fP 或 \fB\-o\fP，否则 \fIfiles\fP 会被写入一个新文件，其名称由源 \fIfile\fP 名称派生而来：
+.
+.IP \(bu 4
+压缩时，会在源文件名后附加 \fB.zst\fP 后缀以得到目标文件名。
+.
+.IP \(bu 4
+解压缩时，会从源文件名中移除 \fB.zst\fP 后缀以得到目标文件名
+.
+.IP "" 0
+.
+.SS "拼接 .zst 文件"
+可以将多个 \fB.zst\fP 文件拼接在一起。\fBzstd\fP 会将这样拼接而成的文件当作单个 \fB.zst\fP 文件进行解压缩。
+.
+.SH 选项
+.
+.SS 整数后缀与特殊值
+在大多数需要整数参数的地方，都支持使用可选的后缀来方便地表示较大的整数。整数与后缀之间不能有空格。
+.
+.TP
+\fBKiB\fP
+将整数乘以 1,024（2^10）。\fBKi\fP、\fBK\fP 和 \fBKB\fP 都可作为 \fBKiB\fP 的同义词。
+.
+.TP
+\fBMiB\fP
+将整数乘以 1,048,576（2^20）。\fBMi\fP、\fBM\fP 和 \fBMB\fP 都可作为 \fBMiB\fP 的同义词。
+.
+.SS 操作模式
+如果给出了多个操作模式选项，则以最后一个为准。
+.
+.TP
+\fB\-z\fP, \fB\-\-compress\fP
+压缩。当未指定操作模式选项，且命令名称也未隐含其他操作模式时（例如 \fBunzstd\fP 隐含 \fB\-\-decompress\fP），这是默认的操作模式。
+.
+.TP
+\fB\-d\fP, \fB\-\-decompress\fP, \fB\-\-uncompress\fP
+解压缩。
+.
+.TP
+\fB\-t\fP, \fB\-\-test\fP
+测试压缩 \fIfiles\fP 的完整性。此选项等效于 \fB\-\-decompress \-\-stdout > /dev/null\fP，解压缩后的数据会被丢弃，并进行校验和计算以检查错误。不会创建或删除任何文件。
+.
+.TP
+\fB\-b#\fP
+使用压缩级别 \fI#\fP 对文件进行基准测试。有关此操作的说明，请参见下方的 \fIBENCHMARK\fP（基准测试）一节。
+.
+.TP
+\fB\-\-train FILES\fP
+使用 \fIFILES\fP 作为训练集来创建字典。训练集应包含大量小文件（> 100 个）。有关此操作的说明，请参见下方的 \fIDICTIONARY BUILDER\fP（字典构建器）一节。
+.
+.TP
+\fB\-l\fP, \fB\-\-list\fP
+显示与 zstd 压缩文件相关的信息，例如大小、压缩率和校验和。其中某些字段可能不可用。此命令的输出可以通过 \fB\-v\fP 修饰符加以扩充。
+.
+.SS 操作修饰符
+.
+.IP \(bu 4
+\fB\-#\fP：选择 \fB#\fP 压缩级别 [1\-19]（默认值：3）。更高的压缩级别 \fI通常\fP
+会以速度和内存为代价换取更高的压缩率。一条粗略的经验法则是，压缩级别每提高 2
+级，压缩速度预计会减半。从技术上讲，每个级别都会映射到一组高级参数（这些参数也可以单独修改，参见下文）。由于压缩器的行为在很大程度上取决于要压缩的内容，因此无法保证从一个级别到另一个级别是平滑过渡的。
+.
+.IP \(bu 4
+\fB\-\-ultra\fP：解锁 20 以上（最高 22）的高压缩级别，这会使用多得多的内存。请注意，使用这些级别时，解压缩也将需要更多内存。
+.
+.IP \(bu 4
+\fB\-\-fast[=#]\fP：切换到超快压缩级别。如果没有给出 \fB=#\fP，则默认为
+\fB1\fP。数值越大，压缩速度越快，但会牺牲一定的压缩率。如果先前设置过压缩级别，此设置会将其覆盖。类似地，如果在 \fB\-\-fast\fP
+之后设置了压缩级别，则会覆盖此设置。
+.
+.IP \(bu 4
+\fB\-T#\fP, \fB\-\-threads=#\fP：使用 \fB#\fP 个工作线程进行压缩（默认值：根据物理 CPU 核心数在 1 到 4 之间；参见下方的
+\fBZSTD_NBTHREADS\fP）。如果 \fB#\fP 为 0，则尝试检测并使用物理 CPU 核心的数量。在所有情况下，线程数都会被限制在
+\fBZSTDMT_NBWORKERS_MAX\fP 以内，该值在 32 位模式下为 64，在 64 位环境下为 256。如果编译 \fBzstd\fP
+时未启用多线程支持，则此修饰符不起作用。
+.
+.IP \(bu 4
+\fB\-\-single\-thread\fP：使用单个线程同时处理 I/O 和压缩。由于压缩与 I/O
+是串行进行的，这可能会稍慢一些。单线程模式的内存占用显著更低，这对于内存有限的系统（例如 32 位系统）可能很有用。
+.
+.IP
+注 1：当禁用多线程支持时，这是唯一可用的模式。
+.
+.IP
+注 2：此模式不同于 \fB\-T1\fP，后者会派生 1 个与 I/O 并行的压缩线程。最终的压缩结果也与 \fB\-T1\fP 略有不同。
+.
+.IP \(bu 4
+\fB\-\-auto\-threads={physical,logical} (default: physical)\fP：当通过 \fB\-T0\fP
+使用默认线程数时，根据检测到的物理或逻辑核心数量来选择默认值。
+.
+.IP \(bu 4
+\fB\-\-adapt[=min=#,max=#]\fP：\fBzstd\fP 会根据感知到的 I/O 状况动态调整压缩级别。可以使用 \fB\-v\fP
+命令实时观察压缩级别的自适应过程。自适应可以被约束在所提供的 \fBmin\fP 和 \fBmax\fP 级别之间。该特性在与多线程以及 \fB\-\-long\fP
+模式结合使用时有效。它不适用于 \fB\-\-single\-thread\fP。它默认将窗口大小设置为 8 MiB（可手动更改，参见
+\fBwlog\fP）。由于动态自适应具有混沌特性，压缩结果不可复现。
+.
+.IP
+\fI注\fP：在撰写本文时，\fB\-\-adapt\fP 与多个工作线程（>=2）结合使用时，可能会一直停留在低速状态。
+.
+.IP \(bu 4
+\fB\-\-long[=#]\fP：启用长距离匹配，其 \fBwindowLog\fP 为 \fB#\fP；如果没有给出 \fB#\fP，则默认为
+\fB27\fP。这会增大窗口大小（\fBwindowLog\fP）以及压缩器和解压缩器的内存占用。此设置旨在提高那些在较大距离上存在长匹配的文件的压缩率。
+.
+.IP
+注意：如果 \fBwindowLog\fP 设置为大于 27，则需要向解压缩器传递 \fB\-\-long=windowLog\fP 或
+\fB\-\-memory=windowSize\fP。
+.
+.IP \(bu 4
+\fB\-\-max\fP：将高级参数设置为最大压缩。警告：此设置非常慢，并且会占用大量资源。它不适用于 32 位模式，因此在该模式下被禁用。
+.
+.IP \(bu 4
+\fB\-D DICT\fP：使用 \fBDICT\fP 作为字典来压缩或解压缩文件
+.
+.IP \(bu 4
+\fB\-\-patch\-from FILE\fP：指定要用作 zstd 差分引擎参考点的文件。这实际上就是字典压缩，只是采用了一些方便的参数选择，即
+\fIwindowSize\fP > \fIsrcSize\fP。
+.
+.IP
+注意：不能同时使用此选项和 \fB\-D\fP。
+.
+.IP
+注意：如果 \fIchainLog\fP < \fIfileLog\fP（\fIfileLog\fP 即覆盖整个文件所需的
+\fIwindowLog\fP），则会自动激活 \fB\-\-long\fP 模式。你也可以手动强制启用它。
+.
+.IP
+注意：在不超过 15 级的情况下，你可以在 \fB\-\-single\-thread\fP 模式下使用
+\fB\-\-patch\-from\fP，以速度为代价略微提高压缩率。在 15 级以上使用 “\-\-single\-thread” 会导致更低的压缩率。
+.
+.IP
+注意：对于 19 级，你可以通过将 \fB\-\-zstd=targetLength=\fP 指定为较大的值（例如 4096），并设置较大的
+\fB\-\-zstd=chainLog=\fP，以速度为代价来提高压缩率。
+.
+.IP \(bu 4
+\fB\-\-rsyncable\fP：\fBzstd\fP 会定期同步压缩状态，以使压缩文件对 rsync
+更友好。这对压缩率的影响可以忽略不计，但可能会影响压缩速度，在较高速度下会较为明显，例如当 \fB\-\-rsyncable\fP
+与许多并行工作线程结合使用时。此特性不适用于
+\fB\-\-single\-thread\fP。你或许不会想在长距离模式下使用它，因为这会降低同步点的效果，不过实际情况可能因人而异。
+.
+.IP \(bu 4
+\fB\-C\fP, \fB\-\-[no\-]check\fP：添加根据未压缩数据计算得出的完整性校验（默认值：启用）
+.
+.IP \(bu 4
+\fB\-\-[no\-]content\-size\fP：启用/禁用是否将文件的原始大小放入压缩文件的头部。默认选项为
+\fB\-\-content\-size\fP（意味着原始大小将被放入头部）。
+.
+.IP \(bu 4
+\fB\-\-no\-dictID\fP：不在帧头部中存储字典 ID（字典压缩）。解码器将不得不依赖关于使用哪个字典的隐式知识，而无法检查其是否正确。
+.
+.IP \(bu 4
+\fB\-M#\fP, \fB\-\-memory=#\fP：设置内存使用上限。默认情况下，\fBzstd\fP 将 128 MiB
+作为解压缩器允许使用的最大内存量，但如有需要，你可以手动在任一方向上覆盖此值（即可以增大或减小它）。
+.
+.IP
+在与 \fB\-\-patch\-from=\fP 一起使用进行压缩时，也会用到此值。在这种情况下，此参数会覆盖字典所允许的最大大小（128 MiB）。
+.
+.IP
+此外，这还可用于限制字典训练所用的内存。此参数会覆盖默认的 2 GiB 限制。zstd 将加载训练样本直到达到内存上限，并忽略其余部分。
+.
+.IP \(bu 4
+\fB\-\-stream\-size=#\fP：设置来自流的输入所承诺的源大小。此值必须精确，因为它将被包含在生成的帧头部中。不正确的流大小会导致错误。此信息将用于更好地优化压缩参数，从而带来更好且可能更快的压缩，尤其是对于较小的源大小。
+.
+.IP \(bu 4
+\fB\-\-size\-hint=#\fP：在处理来自流的输入时，\fBzstd\fP
+在优化压缩参数时必须猜测源大小会有多大。如果流的大小相对较小，这一猜测可能不准确，从而导致压缩率高于预期。此特性允许在需要时控制该猜测值。精确的猜测会带来更好的压缩率。高估会导致压缩率略有下降，而低估则可能导致显著下降。
+.
+.IP \(bu 4
+\fB\-\-target\-compressed\-block\-size=#\fP：尝试生成大约为此大小的压缩块。为了接近此目标，较大的块会被拆分。当接收方能够利用提前收到的不完整数据时，此特性对于改善延迟尤其有用。此参数定义的是一个宽松的目标：压缩块会以“平均”达到此大小为目标，但各个块仍可能更大或更小。启用此特性在
+1 级时最多可使压缩速度降低约 10%。级别越高，相对速度的下降越小，在更高的设置下则难以察觉。
+.
+.IP \(bu 4
+\fB\-f\fP, \fB\-\-force\fP：禁用输入和输出检查。允许覆盖现有文件、从控制台输入、输出到
+stdout、对链接和块设备等进行操作。在解压缩过程中且输出目标为 stdout 时，将无法识别的格式原样透传。
+.
+.IP \(bu 4
+\fB\-c\fP, \fB\-\-stdout\fP：写入标准输出（即使它是控制台）；保留原始文件（禁用 \fB\-\-rm\fP）。
+.
+.IP \(bu 4
+\fB\-o FILE\fP：将结果保存到 \fBFILE\fP。请注意，此操作与 \fB\-c\fP 冲突。如果命令行中同时出现这两个操作，则以最后给出的为准。
+.
+.IP \(bu 4
+\fB\-\-[no\-]sparse\fP：启用/禁用稀疏文件系统支持，以使含有大量零字节的文件在磁盘上占用更小的空间。创建稀疏文件可以节省磁盘空间，并通过减少磁盘
+I/O 量来加快解压缩。默认值：当输出到文件时启用，当输出为 stdout 时禁用。此设置会覆盖默认值，并可强制在 stdout 上使用稀疏模式。
+.
+.IP \(bu 4
+\fB\-\-[no\-]pass\-through\fP：启用/禁用将未压缩文件原样透传。在解压缩过程中启用透传时，无法识别的格式将从输入原样复制到输出。默认情况下，当输出目标为
+stdout 且设置了强制（\fB\-f\fP）选项时，会进行透传。
+.
+.IP \(bu 4
+\fB\-\-rm\fP：在压缩或解压缩成功后删除源文件。如果输出为 \fBstdout\fP，此命令会被静默忽略。如果与 \fB\-o\fP
+结合使用，由于这是一项破坏性操作，会触发确认提示（可用 \fB\-f\fP 使其静默）。
+.
+.IP \(bu 4
+\fB\-k\fP, \fB\-\-keep\fP：在压缩或解压缩成功后保留源文件。这是默认行为。
+.
+.IP \(bu 4
+\fB\-r\fP：对目录进行递归操作。它会选中指定目录及其所有子目录中的全部文件。当文件很多且文件名会超出命令行的最大长度时，这既有助于减少命令行输入，也可以规避
+shell 展开的限制。
+.
+.IP \(bu 4
+\fB\-\-filelist FILE\fP：从 \fBFILE\fP 中读取要处理的文件列表作为内容。其格式与 \fBls\fP 的输出兼容，每行一个文件。
+.
+.IP \(bu 4
+\fB\-\-output\-dir\-flat DIR\fP：生成的文件会被存储到目标 \fBDIR\fP
+目录中，而不是与源文件相同的目录。请注意，如果来自不同目录的多个文件最终具有相同的名称，此命令可能会引入命名冲突问题。冲突解决机制会确保具有某一名称的第一个文件出现在
+\fBDIR\fP 中，而在与 \fB\-f\fP 结合使用时，则会改为保留最后一个文件。
+.
+.IP \(bu 4
+\fB\-\-output\-dir\-mirror DIR\fP：与 \fB\-\-output\-dir\-flat\fP 类似，输出文件会被存储在目标 \fBDIR\fP
+目录之下，但此选项会将输入的目录层次结构复制到输出的 \fBDIR\fP 中。
+.
+.IP
+如果输入目录包含 “..”，则该目录中的文件将被忽略。如果输入目录是绝对目录（例如 “/var/tmp/abc”），它将被存储到
+“output\-dir/var/tmp/abc” 中。如果有多个输入文件或目录，命名冲突的解决将遵循与 \fB\-\-output\-dir\-flat\fP
+相同的规则。
+.
+.IP \(bu 4
+\fB\-\-format=FORMAT\fP：以其他格式进行压缩和解压缩。如果编译时启用了相应支持，zstd
+可以压缩为其他压缩算法格式，或从中解压缩。可能可用的选项有 \fBzstd\fP、\fBgzip\fP、\fBxz\fP、\fBlzma\fP 和
+\fBlz4\fP。如果未提供此类格式，则默认为 \fBzstd\fP。
+.
+.IP \(bu 4
+\fB\-h\fP/\fB\-H\fP, \fB\-\-help\fP：显示帮助/详细帮助并退出
+.
+.IP \(bu 4
+\fB\-V\fP, \fB\-\-version\fP：显示版本号并立即退出。请注意，由于它会退出，在 \fB\-V\fP 之后指定的标志实际上会被忽略。高级用法：\fB\-vV\fP
+还会显示所支持的格式。\fB\-vvV\fP 还会显示 POSIX 支持情况。\fB\-qV\fP 将只显示版本号，适合机器读取。
+.
+.IP \(bu 4
+\fB\-v\fP, \fB\-\-verbose\fP：详细模式，显示更多信息
+.
+.IP \(bu 4
+\fB\-q\fP, \fB\-\-quiet\fP：抑制警告、交互和通知。指定两次也会抑制错误。
+.
+.IP \(bu 4
+\fB\-\-no\-progress\fP：不显示进度条，但保留所有其他消息。
+.
+.IP \(bu 4
+\fB\-\-show\-default\-cparams\fP：根据所提供的压缩级别和输入大小，显示将用于某个特定输入文件的默认压缩参数。如果所提供的文件不是普通文件（例如管道），此标志将输出用于未知大小输入的参数。
+.
+.IP \(bu 4
+\fB\-\-exclude\-compressed\fP：仅压缩尚未被压缩的文件。
+.
+.IP \(bu 4
+\fB\-\-\fP：\fB\-\-\fP 之后的所有参数都被视为文件
+.
+.IP "" 0
+.
+.SS "gzip 操作修饰符"
+在经由 \fBgzip\fP 符号链接调用时，\fBzstd\fP 将支持以下额外的选项来模拟 \fBgzip\fP 的行为：
+.
+.TP
+\fB\-n\fP, \fB\-\-no\-name\fP
+压缩文件时不要保存原始文件名和时间戳。这是默认选项，因此不会改变程序行为。
+.
+.TP
+\fB\-\-best\fP
+是 \fB\-9\fP 选项的别名。
+.
+.SS 环境变量
+使用环境变量来设置参数会带来安全方面的影响。因此，这一途径被有意加以限制。目前仅支持 \fBZSTD_CLEVEL\fP 和
+\fBZSTD_NBTHREADS\fP。它们分别设置压缩时使用的默认压缩级别和线程数。
+.
+.P
+\fBZSTD_CLEVEL\fP 可用于设置 1 到 19 之间（即“正常”范围）的级别。如果 \fBZSTD_CLEVEL\fP
+的值不是有效的整数，它将被忽略并给出一条警告消息。\fBZSTD_CLEVEL\fP 只是替换默认的压缩级别（\fB3\fP）。
+.
+.P
+\fBZSTD_NBTHREADS\fP 可用于设置 \fBzstd\fP 在压缩时将尝试使用的线程数。如果 \fBZSTD_NBTHREADS\fP
+的值不是有效的无符号整数，它将被忽略并给出一条警告消息。\fBZSTD_NBTHREADS\fP 的默认值为 \fBmax(1, min(4, nbCores/4))\fP，且上限为 ZSTDMT_NBWORKERS_MAX==200。必须在编译 \fBzstd\fP
+时启用多线程支持，此变量才会产生任何效果。
+.
+.P
+这两者都可以被相应的命令行参数覆盖：\fB\-#\fP 用于压缩级别，\fB\-T#\fP 用于压缩线程数。
+.
+.SH 高级压缩选项
+\fBzstd\fP 提供 22 个预定义的常规压缩级别以及快速级别。在内部，压缩级别会被转换为多个控制压缩器行为的高级参数（可以用
+\fB\-\-show\-default\-cparams\fP 观察这一转换的结果）。这些高级参数可以使用高级压缩选项来覆盖。
+.
+.SS \-\-zstd[=options]:
+\fIoptions\fP 以逗号分隔的列表形式提供。你可以只指定想要更改的选项，其余的将取自所选的或默认的压缩级别。可用 \fIoptions\fP 的列表如下：
+.
+.TP
+\fBstrategy\fP=\fIstrat\fP, \fBstrat\fP=\fIstrat\fP
+指定匹配查找器所使用的策略。
+.
+.IP
+共有 9 种策略，编号从 1 到 9，从最快到最强：1=\fBZSTD_fast\fP, 2=\fBZSTD_dfast\fP, 3=\fBZSTD_greedy\fP,
+4=\fBZSTD_lazy\fP, 5=\fBZSTD_lazy2\fP, 6=\fBZSTD_btlazy2\fP, 7=\fBZSTD_btopt\fP,
+8=\fBZSTD_btultra\fP, 9=\fBZSTD_btultra2\fP。
+.
+.TP
+\fBwindowLog\fP=\fIwlog\fP, \fBwlog\fP=\fIwlog\fP
+指定匹配距离的最大位数。
+.
+.IP
+该值越大，找到匹配的机会就越大，这通常会提高压缩率。它也会增加压缩器和解压缩器的内存需求。\fIwlog\fP 的最小值为 10（1 KiB），最大值在 32
+位平台上为 30（1 GiB），在 64 位平台上为 31（2 GiB）。
+.
+.IP
+注意：如果 \fBwindowLog\fP 设置为大于 27，则需要向解压缩器传递 \fB\-\-long=windowLog\fP 或
+\fB\-\-memory=windowSize\fP。
+.
+.TP
+\fBhashLog\fP=\fIhlog\fP, \fBhlog\fP=\fIhlog\fP
+指定哈希表的最大位数。
+.
+.IP
+更大的哈希表会减少冲突，这通常会使压缩更快，但在压缩过程中需要更多内存。
+.
+.IP
+\fIhlog\fP 的最小值为 6（64 个条目 / 256 B），最大值为 30（10 亿个条目 / 4 GiB）。
+.
+.TP
+\fBchainLog\fP=\fIclog\fP, \fBclog\fP=\fIclog\fP
+指定次级搜索结构的最大位数，其形式取决于所选的 \fBstrategy\fP。
+.
+.IP
+位数越多，找到匹配的机会就越大，这通常会提高压缩率。它也会降低压缩速度并增加压缩的内存需求。对于只有主哈希表的 \fBZSTD_fast\fP
+\fBstrategy\fP，此选项会被忽略。
+.
+.IP
+\fIclog\fP 的最小值为 6（64 个条目 / 256 B），最大值在 32 位平台上为 29（5.12 亿个条目 / 2 GiB），在 64
+位平台上为 30（10 亿个条目 / 4 GiB）。
+.
+.TP
+\fBsearchLog\fP=\fIslog\fP, \fBslog\fP=\fIslog\fP
+以对数刻度指定在哈希链或二叉树中的最大搜索次数。
+.
+.IP
+更多的搜索会增大找到匹配的机会，这通常会提高压缩率但会降低压缩速度。
+.
+.IP
+\fIslog\fP 的最小值为 1，最大值为 “windowLog” \- 1。
+.
+.TP
+\fBminMatch\fP=\fImml\fP, \fBmml\fP=\fImml\fP
+指定在哈希表中匹配的最小搜索长度。
+.
+.IP
+更大的搜索长度通常会降低压缩率，但会提高解压缩速度。
+.
+.IP
+\fImml\fP 的最小值为 3，最大值为 7。
+.
+.TP
+\fBtargetLength\fP=\fItlen\fP, \fBtlen\fP=\fItlen\fP
+此字段的影响因所选策略而异。
+.
+.IP
+对于 \fBZSTD_btopt\fP、\fBZSTD_btultra\fP 和 \fBZSTD_btultra2\fP，它指定使匹配查找器停止搜索的最小匹配长度。更大的
+\fBtargetLength\fP 通常会提高压缩率但会降低压缩速度。
+.
+.IP
+对于 \fBZSTD_fast\fP，当其 > 0 时会触发超快模式。该值表示在匹配采样之间跳过的数据量。其影响是相反的：更大的
+\fBtargetLength\fP 会提高压缩速度但会降低压缩率。
+.
+.IP
+对于所有其他策略，此字段没有影响。
+.
+.IP
+\fItlen\fP 的最小值为 0，最大值为 128 KiB。
+.
+.TP
+\fBoverlapLog\fP=\fIovlog\fP, \fBovlog\fP=\fIovlog\fP
+确定 \fBoverlapSize\fP，即从上一个任务重新加载的数据量。此参数仅在启用多线程时可用。重新加载更多数据会提高压缩率，但会降低速度。
+.
+.IP
+\fIovlog\fP 的最小值为 0，最大值为 9。1 表示“无重叠”，因此任务之间完全独立。9 表示“完全重叠”，即从上一个任务最多重新加载
+\fBwindowSize\fP 大小的数据。将 \fIovlog\fP 减小 1 会使重新加载的数据量减少为原来的一半。例如，8
+表示“windowSize/2”，6 表示“windowSize/8”。值 0 比较特殊，表示“默认”：\fIovlog\fP 由 \fBzstd\fP
+自动确定。在这种情况下，\fIovlog\fP 的取值将在 6 到 9 之间，具体取决于所选的 \fIstrat\fP。
+.
+.TP
+\fBldmHashRateLog\fP=\fIlhrlog\fP, \fBlhrlog\fP=\fIlhrlog\fP
+指定向长距离匹配哈希表中插入条目的频率。
+.
+.IP
+除非启用了长距离匹配，否则此选项会被忽略。
+.
+.IP
+更大的值将提高压缩速度。与默认值偏离太远很可能会导致压缩率下降。
+.
+.IP
+默认值在 4 到 7 之间变化，具体取决于 \fBstrategy\fP。
+.
+.TP
+\fBldmHashLog\fP=\fIlhlog\fP, \fBlhlog\fP=\fIlhlog\fP
+指定用于长距离匹配的哈希表的最大大小。
+.
+.IP
+除非启用了长距离匹配，否则此选项会被忽略。
+.
+.IP
+更大的哈希表通常会提高压缩率，但代价是压缩过程中占用更多内存以及压缩速度下降。
+.
+.IP
+\fIlhlog\fP 的最小值为 6，最大值为 30（默认值：\fBwindowLog \- ldmHashRateLog\fP）。
+.
+.TP
+\fBldmMinMatch\fP=\fIlmml\fP, \fBlmml\fP=\fIlmml\fP
+指定长距离匹配中匹配的最小搜索长度。
+.
+.IP
+除非启用了长距离匹配，否则此选项会被忽略。
+.
+.IP
+过大或过小的值通常都会降低压缩率。
+.
+.IP
+\fIlmml\fP 的最小值为 4，最大值为 4096（默认值：32 到 64，具体取决于 \fBstrategy\fP）。
+.
+.TP
+\fBldmBucketSizeLog\fP=\fIlblog\fP, \fBlblog\fP=\fIlblog\fP
+指定用于长距离匹配的哈希表中每个桶的大小。
+.
+.IP
+除非启用了长距离匹配，否则此选项会被忽略。
+.
+.IP
+更大的桶大小会改善冲突解决，但会降低压缩速度。
+.
+.IP
+\fIlblog\fP 的最小值为 1，最大值为 8（默认值：4 到 8，具体取决于 \fBstrategy\fP）。
+.
+.SS 示例
+对于大于 256 KB 的文件，以下参数会将高级压缩选项设置为类似于预定义的 19 级：
+.
+.P
+\fB\-\-zstd\fP=wlog=23,clog=23,hlog=22,slog=6,mml=3,tlen=48,strat=6
+.
+.SS \-B#:
+指定每个压缩任务的大小。此参数仅在启用多线程时可用。每个压缩任务并行运行，因此此值会间接影响活动线程的数量。默认任务大小因压缩级别而异（通常为 \fB4 * windowSize\fP）。\fB\-B#\fP 使得手动选择自定义大小成为可能。请注意，任务大小必须满足一个透明强制执行的最小值。该最小值为 512 KB
+或 \fBoverlapSize\fP 中的较大者。不同的任务大小会导致不完全相同的压缩帧。
+.
+.SH 字典构建器
+\fBzstd\fP 提供 \fI字典\fP 压缩，这可以大大提高对小文件和消息的压缩效率。可以用一组样本来训练 \fBzstd\fP，其结果会被保存到一个称为
+\fBdictionary\fP（字典）的文件中。然后，在压缩和解压缩时，使用 \fB\-D dictionaryFileName\fP
+命令引用同一个字典。对与样本集相似的小文件的压缩将得到极大改善。
+.
+.TP
+\fB\-\-train FILEs\fP
+使用 FILEs 作为训练集来创建字典。理想情况下，训练集应包含大量样本（> 100 个），且其总大小通常为目标字典大小的 100
+倍（例如，对于 100 KB 的字典约为 10 MB）。\fB\-\-train\fP 可以与 \fB\-r\fP
+结合使用以指定一个目录，而不必列出所有文件，这有助于规避 shell 展开的限制。
+.
+.IP
+由于字典压缩主要对小文件有效，因此预期训练集只包含小文件。如果某些样本恰好很大，则只有这些样本的前 128 KiB 会被用于训练。
+.
+.IP
+如果编译 \fBzstd\fP 时启用了线程支持（默认），\fB\-\-train\fP 支持多线程。可以使用 \fB\-\-train\-fastcover\fP
+指定额外的高级参数。可以通过 \fB\-\-train\-legacy\fP 访问旧版字典构建器。可以通过 \fB\-\-train\-cover\fP 访问速度较慢的
+cover 字典构建器。默认的 \fB\-\-train\fP 等效于 \fB\-\-train\-fastcover=d=8,steps=4\fP。
+.
+.TP
+\fB\-o FILE\fP
+字典将被保存到 \fBFILE\fP 中（默认名称：dictionary）。
+.
+.TP
+\fB\-\-maxdict=#\fP
+将字典限制为指定大小（默认值：112640 字节）。与通常一样，数量默认以字节表示，并且可以使用后缀（如 \fBKB\fP 或 \fBMB\fP）来指定更大的值。
+.
+.TP
+\fB\-#\fP
+在训练期间使用 \fB#\fP 压缩级别（可选）。这将生成更针对所选压缩级别进行调优的统计信息，从而使该级别的压缩率有 \fI小幅\fP 提升。
+.
+.TP
+\fB\-B#\fP
+将输入文件拆分为大小为 # 的块（默认值：不拆分）
+.
+.TP
+\fB\-M#\fP, \fB\-\-memory=#\fP
+限制为训练而加载的样本数据量（默认值：2 GB）。请注意，默认值（2
+GB）同时也是最大值。当训练集大小未得到良好控制且可能非常大时，此参数会很有用。由于训练过程的速度与训练样本集的大小直接相关，因此较小的样本集会带来更快的训练。
+.
+.IP
+当训练集大于最大内存时，CLI
+将在可用样本中随机选取样本，直到达到所允许的最大内存预算。这样做是为了通过减轻聚集所带来的潜在影响来提高字典的相关性，例如避免只选取按修改日期排序或按字母顺序排序的列表开头的文件。该随机化过程是确定性的，因此使用相同参数训练相同的文件列表将会创建出相同的字典。
+.
+.TP
+\fB\-\-dictID=#\fP
+字典 ID 是一个在本地唯一的 ID。解码器将使用此值来验证它所使用的字典是否正确。默认情况下，zstd 会创建一个 4 字节的随机数
+ID。也可以改为提供一个明确的数字 ID。由字典管理者负责确保不会将同一个 ID 分配给两个不同的字典。请注意，较小的数字有一个优势：ID <
+256 在压缩帧头部中只需 1 字节，ID < 65536 只需 2 字节。这相比默认的 4 字节更有优势。
+.
+.IP
+请注意，RFC8878 保留了小于 32768 以及大于或等于 2^31 的 ID，因此它们不应在公开场合使用。
+.
+.TP
+\fB\-\-train\-cover[=k#,d=#,steps=#,split=#,shrink[=#]]\fP
+为名为 cover 的默认字典构建器算法选择参数。如果未指定 \fId\fP，则会尝试 \fId\fP = 6 和 \fId\fP = 8。如果未指定 \fIk\fP，则会在
+[50, 2000] 范围内尝试 \fIsteps\fP 个取值。如果未指定 \fIsteps\fP，则使用默认值 40。如果未指定 \fIsplit\fP 或
+split <= 0，则使用默认值 100。要求 \fId\fP <= \fIk\fP。如果未使用 \fIshrink\fP 标志，则使用
+\fIshrinkDict\fP 的默认值 0。如果未指定 \fIshrink\fP，则使用 \fIshrinkDictMaxRegression\fP 的默认值 1。
+.
+.IP
+选取得分最高的、大小为 \fIk\fP 的片段放入字典。一个片段的得分由所有大小为 \fId\fP 的子片段的频率之和计算得出。通常 \fId\fP 应在 [6, 8]
+范围内，偶尔可高达 16，但当 d <= \fI8\fP 时算法运行得更快。\fIk\fP 的合适取值因输入数据而有很大差异，但一个安全的范围是 [2 *
+\fId\fP, 2000]。如果 \fIsplit\fP 为 100，则所有输入样本都会同时用于训练和测试，以找到用于构建字典的最优 \fId\fP 和
+\fIk\fP。如果编译 \fBzstd\fP 时启用了线程支持，则支持多线程。启用 \fIshrink\fP
+时，会取一个最小大小的截断字典，并将其大小翻倍，直到该截断字典的压缩率与最大字典的压缩率相比最多差
+\fIshrinkDictMaxRegression%\fP。
+.
+.IP
+示例：
+.
+.IP
+\fBzstd \-\-train\-cover FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-cover=k=50,d=8 FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-cover=d=8,steps=500 FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-cover=k=50 FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-cover=k=50,split=60 FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-cover=shrink FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-cover=shrink=2 FILEs\fP
+.
+.TP
+\fB\-\-train\-fastcover[=k#,d=#,f=#,steps=#,split=#,accel=#]\fP
+与 cover 相同，但带有额外的参数 \fIf\fP 和 \fIaccel\fP，且 split 的默认值不同。如果未指定 \fIsplit\fP，则会尝试
+\fIsplit\fP = 75。如果未指定 \fIf\fP，则会尝试 \fIf\fP = 20。要求 0 < \fIf\fP < 32。如果未指定
+\fIaccel\fP，则会尝试 \fIaccel\fP = 1。要求 0 < \fIaccel\fP <= 10。要求 \fId\fP = 6 或 \fId\fP
+= 8。
+.
+.IP
+\fIf\fP 是用于跟踪大小为 \fId\fP 的子片段频率的数组大小的对数。子片段被哈希到 [0,2^\fIf\fP \- 1]
+范围内的一个索引。两个不同的子片段有可能被哈希到同一个索引，此时在计算频率时它们会被视为同一个子片段。使用更高的 \fIf\fP 会减少冲突，但耗时更长。
+.
+.IP
+示例：
+.
+.IP
+\fBzstd \-\-train\-fastcover FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-fastcover=d=8,f=15,accel=2 FILEs\fP
+.
+.TP
+\fB\-\-train\-legacy[=selectivity=#]\fP
+使用旧版字典构建器算法，并采用给定的字典 \fIselectivity\fP（默认值：9）。\fIselectivity\fP
+值越小，字典越密集，从而提高其效率但会降低其可达到的最大大小。也接受 \fB\-\-train\-legacy=s=#\fP。
+.
+.IP
+示例：
+.
+.IP
+\fBzstd \-\-train\-legacy FILEs\fP
+.
+.IP
+\fBzstd \-\-train\-legacy=selectivity=8 FILEs\fP
+.
+.SH 基准测试
+\fBzstd\fP 命令行工具提供了一种基准测试模式，可用于轻松找到合适的压缩参数，或者用于对计算机的性能进行基准测试。\fBzstd \-b [FILE(s)]\fP 将使用默认压缩级别对 \fBzstd\fP 的压缩和解压缩进行基准测试。请注意，结果在很大程度上取决于所压缩的内容。
+.
+.P
+可以向基准测试传递多个文件，甚至可以用 \fB\-r DIRECTORY\fP 传递一个目录。当未提供 \fBFILE\fP 时，基准测试将使用程序化生成的
+\fBlorem ipsum\fP 文本。
+.
+.P
+为了与普通命令行 I/O 的行为保持一致，基准测试默认将使用 \fBmax(1, min(4, nbCores/4))\fP 个工作线程。
+.
+.IP \(bu 4
+\fB\-b#\fP：使用压缩级别 # 对文件进行基准测试
+.
+.IP \(bu 4
+\fB\-e#\fP：使用多个压缩级别对文件进行基准测试，从 \fB\-b#\fP 到 \fB\-e#\fP（含两端）
+.
+.IP \(bu 4
+\fB\-d\fP：仅对解压缩速度进行基准测试（需要提供 zstd 压缩过的内容）
+.
+.IP \(bu 4
+\fB\-i#\fP：最短评估时间，以秒为单位（默认值：3 秒），仅用于基准测试模式
+.
+.IP \(bu 4
+\fB\-B#\fP, \fB\-\-block\-size=#\fP：将文件切分为大小为 # 的独立块（默认值：不切分）
+.
+.IP \(bu 4
+\fB\-S\fP：为每个输入文件输出一个基准测试结果（默认值：汇总结果）
+.
+.IP \(bu 4
+\fB\-D dictionary\fP：使用字典进行基准测试
+.
+.IP \(bu 4
+\fB\-\-priority=rt\fP：将进程优先级设置为实时（Windows）
+.
+.IP "" 0
+.
+.P
+除了压缩级别之外，基准测试还兼容其他参数，例如线程数（\fB\-T#\fP）、高级压缩参数（\fB\-\-zstd=###\fP）、字典压缩（\fB\-D dictionary\fP），甚至可以禁用校验和验证等。
+.
+.P
+\fB输出格式：\fP 压缩级别#文件名: 输入大小 \-> 输出大小 (压缩率), 压缩速度, 解压缩速度
+.
+.P
+\fB方法：\fP 对于速度测量，整个输入会在内存中被压缩/解压缩以测量速度。一次运行至少持续 1
+秒，因此当文件较小时，每次运行会对它们进行多次压缩/解压缩，以提高测量的准确性。
+.
+.SH 参见
+\fBzstdgrep\fP(1), \fBzstdless\fP(1), \fBgzip\fP(1), \fBxz\fP(1)
+.
+.P
+\fIzstandard\fP 格式的规范见于 Y. Collet 所著 “Zstandard Compression and the
+‘application/zstd’ Media Type”，https://www.ietf.org/rfc/rfc8878.txt，互联网 RFC
+8878（2021 年 2 月）。
+.
+.SH BUGS
+请在该网页报告漏洞：https://github.com/facebook/zstd/issues
+.
+.SH 作者
+Yann Collet
