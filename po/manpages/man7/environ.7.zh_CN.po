@@ -548,11 +548,3 @@ msgstr ""
 "B<su>(1), B<tcsh>(1), B<execve>(2), B<clearenv>(3), B<exec>(3), "
 "B<getenv>(3), B<putenv>(3), B<setenv>(3), B<unsetenv>(3), B<locale>(7), "
 "B<ld.so>(8), B<pam_env>(8)"
-
-#, no-wrap
-#~ msgid "ENVIRON"
-#~ msgstr "ENVIRON"
-
-#, no-wrap
-#~ msgid "2022-10-09"
-#~ msgstr "2022-10-09"

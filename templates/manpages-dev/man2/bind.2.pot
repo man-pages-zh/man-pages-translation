@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,8 +179,8 @@ msgid ""
 "(Internet domain sockets)  The port number was specified as zero in the "
 "socket address structure, but, upon attempting to bind to an ephemeral port, "
 "it was determined that all port numbers in the ephemeral port range are "
-"currently in use.  See the discussion of "
-"I</proc/sys/net/ipv4/ip_local_port_range> B<ip>(7)."
+"currently in use.  See the discussion of I</proc/sys/net/ipv4/"
+"ip_local_port_range> B<ip>(7)."
 msgstr ""
 
 #. type: TP
@@ -246,8 +246,7 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/bind.2:208
 msgid ""
-"A nonexistent interface was requested or the requested address was not "
-"local."
+"A nonexistent interface was requested or the requested address was not local."
 msgstr ""
 
 #. type: TP
@@ -291,7 +290,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/bind.2:223
-msgid "A component in the directory prefix of the socket pathname does not exist."
+msgid ""
+"A component in the directory prefix of the socket pathname does not exist."
 msgstr ""
 
 #. type: TP
@@ -538,6 +538,6 @@ msgstr ""
 msgid ""
 "This page is part of release 4.09 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""

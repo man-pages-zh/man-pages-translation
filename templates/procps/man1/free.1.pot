@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:59+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,8 +140,8 @@ msgstr ""
 #. type: Plain text
 #: raw/procps/man1/free.1:35
 msgid ""
-"Memory used by the page cache and slabs (Cached and SReclaimable in "
-"/proc/meminfo)"
+"Memory used by the page cache and slabs (Cached and SReclaimable in /proc/"
+"meminfo)"
 msgstr ""
 
 #. type: TP
@@ -378,8 +378,7 @@ msgstr ""
 msgid ""
 "Continuously display the result I<delay> seconds apart.  You may actually "
 "specify any floating point number for I<delay> using either . or , for "
-"decimal point.  B<usleep>(3)  is used for microsecond resolution delay "
-"times."
+"decimal point.  B<usleep>(3)  is used for microsecond resolution delay times."
 msgstr ""
 
 #. type: TP

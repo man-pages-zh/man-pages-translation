@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-07 13:27-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-07 12:54-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -561,13 +561,3 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/duE<gt
 #: raw/coreutils/man1/du.1:163
 msgid "or available locally via: info \\(aq(coreutils) du invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) du invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"
-
-#~ msgid "January 2017"
-#~ msgstr "2017年1月"

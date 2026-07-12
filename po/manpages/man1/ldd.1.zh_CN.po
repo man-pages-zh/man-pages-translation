@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-02-14 19:14+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-09 14:23-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -72,7 +72,9 @@ msgid ""
 "B<ldd> prints the shared objects (shared libraries) required by each program "
 "or shared object specified on the command line.  An example of its use and "
 "output is the following:"
-msgstr "B<ldd> 显示命令行上指定的每个程序或共享库所需的共享库 (共享库) 。其用法和输出示例如下："
+msgstr ""
+"B<ldd> 显示命令行上指定的每个程序或共享库所需的共享库 (共享库) 。其用法和输出"
+"示例如下："
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:37
@@ -103,20 +105,21 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:63
 msgid ""
-"In the usual case, B<ldd> invokes the standard dynamic linker (see B<ld."
-"so>(8))  with the B<LD_TRACE_LOADED_OBJECTS> environment variable set to 1.  "
-"This causes the dynamic linker to inspect the program's dynamic "
+"In the usual case, B<ldd> invokes the standard dynamic linker (see "
+"B<ld.so>(8))  with the B<LD_TRACE_LOADED_OBJECTS> environment variable set "
+"to 1.  This causes the dynamic linker to inspect the program's dynamic "
 "dependencies, and find (according to the rules described in B<ld.so>(8))  "
 "and load the objects that satisfy those dependencies.  For each dependency, "
 "B<ldd> displays the location of the matching object and the (hexadecimal) "
 "address at which it is loaded.  (The I<linux-vdso> and I<ld-linux> shared "
 "dependencies are special; see B<vdso>(7)  and B<ld.so>(8).)"
 msgstr ""
-"在通常情况下，如果环境变量 B<LD_TRACE_LOADED_OBJECTS> 设置为 1，则 B<ldd> 会调用标准"
-"动态链接程序 (请参阅 B<ld.so>(8)) 。这将检查程序的动态库的依赖关系， 并查找 (根据 B<ld.so>(8) "
-"中描述的规则) 与加载满足那些依赖关系的对象。 对于每个依赖项，B<ldd> 显示匹配对象的位置以及加载该"
-"对象的 (十六进制) 地址。 (I<linux-vdso> 和 I<ld-linux> 共享依赖项是特殊的；请参阅 B<vdso>(7)"
-" 和 B<ld.so>(8)。) "
+"在通常情况下，如果环境变量 B<LD_TRACE_LOADED_OBJECTS> 设置为 1，则 B<ldd> 会"
+"调用标准动态链接程序 (请参阅 B<ld.so>(8)) 。这将检查程序的动态库的依赖关系， "
+"并查找 (根据 B<ld.so>(8) 中描述的规则) 与加载满足那些依赖关系的对象。 对于每"
+"个依赖项，B<ldd> 显示匹配对象的位置以及加载该对象的 (十六进制) 地址。 "
+"(I<linux-vdso> 和 I<ld-linux> 共享依赖项是特殊的；请参阅 B<vdso>(7) 和 "
+"B<ld.so>(8)。) "
 
 #. type: SS
 #: raw/manpages/man1/ldd.1:63
@@ -147,10 +150,11 @@ msgid ""
 "executable, since this may result in the execution of arbitrary code.  A "
 "safer alternative when dealing with untrusted executables is:"
 msgstr ""
-"请注意，在某些情况下 (例如，程序指定了 I<ld-linux.so> 以外的 ELF 解释器) ，某些版本的 B<ldd> "
-"可能会尝试通过尝试直接执行程序来获取依赖项信息 (这可能导致执行程序的 ELF 解释器中定义的任何代码，"
-"甚至可能导致直接执行程序本身) 。因此，您不应该在不受信任的可执行文件上使用 B<ldd>，因为这可能会导致"
-"执行任意代码。处理不受信任的可执行文件时，更安全的选择是："
+"请注意，在某些情况下 (例如，程序指定了 I<ld-linux.so> 以外的 ELF 解释器) ，某"
+"些版本的 B<ldd> 可能会尝试通过尝试直接执行程序来获取依赖项信息 (这可能导致执"
+"行程序的 ELF 解释器中定义的任何代码，甚至可能导致直接执行程序本身) 。因此，您"
+"不应该在不受信任的可执行文件上使用 B<ldd>，因为这可能会导致执行任意代码。处理"
+"不受信任的可执行文件时，更安全的选择是："
 
 #. type: Plain text
 #: raw/manpages/man1/ldd.1:94
@@ -272,8 +276,9 @@ msgid ""
 "on one of these programs, the program will attempt to run with I<argc> = 0 "
 "and the results will be unpredictable."
 msgstr ""
-"对于某些非常老的 a.out 程序，构建时所使用的编译器尚未添加 B<ldd> 支持，B<ldd> 可能无法正常"
-"工作。如果在这些程序上使用 B<ldd>，则该程序将尝试以 I<argc>=0 运行，结果将不可预测。"
+"对于某些非常老的 a.out 程序，构建时所使用的编译器尚未添加 B<ldd> 支持，"
+"B<ldd> 可能无法正常工作。如果在这些程序上使用 B<ldd>，则该程序将尝试以 "
+"I<argc>=0 运行，结果将不可预测。"
 
 #. type: SH
 #: raw/manpages/man1/ldd.1:151

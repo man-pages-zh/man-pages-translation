@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,9 +68,7 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/accept.2:50
 #, no-wrap
-msgid ""
-"B<int accept(int >I<sockfd>B<, struct sockaddr *>I<addr>B<, socklen_t "
-"*>I<addrlen>B<);>\n"
+msgid "B<int accept(int >I<sockfd>B<, struct sockaddr *>I<addr>B<, socklen_t *>I<addrlen>B<);>\n"
 msgstr ""
 
 #. type: Plain text
@@ -180,8 +178,7 @@ msgstr ""
 #: raw/manpages-dev/man2/accept.2:158
 msgid ""
 "Set the B<O_NONBLOCK> file status flag on the new open file description.  "
-"Using this flag saves extra calls to B<fcntl>(2)  to achieve the same "
-"result."
+"Using this flag saves extra calls to B<fcntl>(2)  to achieve the same result."
 msgstr ""
 
 #. type: TP
@@ -225,8 +222,8 @@ msgid ""
 "on the new socket as an error code from B<accept>().  This behavior differs "
 "from other BSD socket implementations.  For reliable operation the "
 "application should detect the network errors defined for the protocol after "
-"B<accept>()  and treat them like B<EAGAIN> by retrying.  In the case of "
-"TCP/IP, these are B<ENETDOWN>, B<EPROTO>, B<ENOPROTOOPT>, B<EHOSTDOWN>, "
+"B<accept>()  and treat them like B<EAGAIN> by retrying.  In the case of TCP/"
+"IP, these are B<ENETDOWN>, B<EPROTO>, B<ENOPROTOOPT>, B<EHOSTDOWN>, "
 "B<ENONET>, B<EHOSTUNREACH>, B<EOPNOTSUPP>, and B<ENETUNREACH>."
 msgstr ""
 
@@ -282,7 +279,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/accept.2:224
-msgid "The I<addr> argument is not in a writable part of the user address space."
+msgid ""
+"The I<addr> argument is not in a writable part of the user address space."
 msgstr ""
 
 #. type: TP
@@ -337,7 +335,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/accept.2:245
-msgid "The system-wide limit on the total number of open files has been reached."
+msgid ""
+"The system-wide limit on the total number of open files has been reached."
 msgstr ""
 
 #. type: TP
@@ -551,6 +550,6 @@ msgstr ""
 msgid ""
 "This page is part of release 4.09 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""

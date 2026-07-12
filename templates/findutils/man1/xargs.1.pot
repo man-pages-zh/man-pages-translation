@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-02-15 09:46-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,21 +61,21 @@ msgid ""
 "This manual page documents the GNU version of B<xargs>.  B<xargs> reads "
 "items from the standard input, delimited by blanks (which can be protected "
 "with double or single quotes or a backslash) or newlines, and executes the "
-"I<command> (default is I<echo>)  one or more times with any "
-"I<initial-arguments> followed by items read from standard input.  Blank "
-"lines on the standard input are ignored."
+"I<command> (default is I<echo>)  one or more times with any I<initial-"
+"arguments> followed by items read from standard input.  Blank lines on the "
+"standard input are ignored."
 msgstr ""
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:44
 msgid ""
-"The command line for I<command> is built up until it reaches a "
-"system-defined limit (unless the B<-n> and B<-L> options are used).  The "
-"specified I<command> will be invoked as many times as necessary to use up "
-"the list of input items.  In general, there will be many fewer invocations "
-"of I<command> than there were items in the input.  This will normally have "
-"significant performance benefits.  Some commands can usefully be executed in "
-"parallel too; see the B<-P> option."
+"The command line for I<command> is built up until it reaches a system-"
+"defined limit (unless the B<-n> and B<-L> options are used).  The specified "
+"I<command> will be invoked as many times as necessary to use up the list of "
+"input items.  In general, there will be many fewer invocations of I<command> "
+"than there were items in the input.  This will normally have significant "
+"performance benefits.  Some commands can usefully be executed in parallel "
+"too; see the B<-P> option."
 msgstr ""
 
 #. type: Plain text
@@ -181,8 +181,8 @@ msgstr ""
 msgid ""
 "This option is a synonym for the B<-E> option.  Use B<-E> instead, because "
 "it is POSIX compliant while this option is not.  If I<eof-str> is omitted, "
-"there is no end-of-file string.  If neither B<-E> nor B<-e> is used, no "
-"end-of-file string is used."
+"there is no end-of-file string.  If neither B<-E> nor B<-e> is used, no end-"
+"of-file string is used."
 msgstr ""
 
 #. type: TP
@@ -196,8 +196,8 @@ msgstr ""
 msgid ""
 "Replace occurrences of I<replace-str> in the initial-arguments with names "
 "read from standard input.  Also, unquoted blanks do not terminate input "
-"items; instead the separator is the newline character.  Implies B<-x> and "
-"B<-L> 1."
+"items; instead the separator is the newline character.  Implies B<-x> and B<-"
+"L> 1."
 msgstr ""
 
 #. type: TP
@@ -265,17 +265,17 @@ msgstr ""
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:231
 msgid ""
-"Run up to I<max-procs> processes at a time; the default is 1.  If "
-"I<max-procs> is 0, B<xargs> will run as many processes as possible at a "
-"time.  Use the B<-n> option or the B<-L> option with B<-P>; otherwise "
-"chances are that only one exec will be done.  While B<xargs> is running, you "
-"can send its process a SIGUSR1 signal to increase the number of commands to "
-"run simultaneously, or a SIGUSR2 to decrease the number.  You cannot "
-"increase it above an implementation-defined limit (which is shown with "
-"--show-limits).  You cannot decrease it below 1.  B<xargs> never terminates "
-"its commands; when asked to decrease, it merely waits for more than one "
-"existing command to terminate before starting another.  B<xargs> always "
-"waits for all child processes to exit before exiting itself (but see BUGS)."
+"Run up to I<max-procs> processes at a time; the default is 1.  If I<max-"
+"procs> is 0, B<xargs> will run as many processes as possible at a time.  Use "
+"the B<-n> option or the B<-L> option with B<-P>; otherwise chances are that "
+"only one exec will be done.  While B<xargs> is running, you can send its "
+"process a SIGUSR1 signal to increase the number of commands to run "
+"simultaneously, or a SIGUSR2 to decrease the number.  You cannot increase it "
+"above an implementation-defined limit (which is shown with --show-limits).  "
+"You cannot decrease it below 1.  B<xargs> never terminates its commands; "
+"when asked to decrease, it merely waits for more than one existing command "
+"to terminate before starting another.  B<xargs> always waits for all child "
+"processes to exit before exiting itself (but see BUGS)."
 msgstr ""
 
 #. type: Plain text
@@ -398,7 +398,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:315
-msgid "Print the command line on the standard error output before executing it."
+msgid ""
+"Print the command line on the standard error output before executing it."
 msgstr ""
 
 #. type: TP
@@ -743,15 +744,14 @@ msgstr ""
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:567
 msgid ""
-"GNU findutils online help: "
-"E<lt>https://www.gnu.org/software/findutils/#get-helpE<gt>"
+"GNU findutils online help: E<lt>https://www.gnu.org/software/findutils/#get-"
+"helpE<gt>"
 msgstr ""
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:569
 msgid ""
-"Report any translation bugs to "
-"E<lt>https://translationproject.org/team/E<gt>"
+"Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: Plain text
@@ -767,8 +767,8 @@ msgstr ""
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:577
 msgid ""
-"General topics about the GNU findutils package are discussed at the "
-"I<bug-findutils> mailing list:"
+"General topics about the GNU findutils package are discussed at the I<bug-"
+"findutils> mailing list:"
 msgstr ""
 
 #. type: Plain text
@@ -786,8 +786,8 @@ msgstr ""
 #: raw/findutils/man1/xargs.1:584
 msgid ""
 "Copyright \\(co 1990\\(en2024 Free Software Foundation, Inc.  License "
-"GPLv3+: GNU GPL version 3 or later "
-"E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+"GPLv3+: GNU GPL version 3 or later E<lt>https://gnu.org/licenses/"
+"gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
@@ -812,7 +812,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/findutils/man1/xargs.1:599
-msgid "Full documentation E<lt>https://www.gnu.org/software/findutils/xargsE<gt>"
+msgid ""
+"Full documentation E<lt>https://www.gnu.org/software/findutils/xargsE<gt>"
 msgstr ""
 
 #. type: Plain text

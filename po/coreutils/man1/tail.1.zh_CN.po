@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 22:29-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-07 13:26-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -209,8 +209,8 @@ msgid ""
 "iterations; with inotify and B<--pid>=I<\\,P\\/>, check process P at least "
 "once every N seconds"
 msgstr ""
-"和 B< -f> 同时使用时，在两次迭代之间睡眠约 N 秒（默认 1.0 秒）；内核支持 inotify 且使用了 B<--pid>=I<\\,P\\/>"
-" 时，每 N 秒至少检查一次进程 P"
+"和 B< -f> 同时使用时，在两次迭代之间睡眠约 N 秒（默认 1.0 秒）；内核支持 "
+"inotify 且使用了 B<--pid>=I<\\,P\\/> 时，每 N 秒至少检查一次进程 P"
 
 #. type: TP
 #: raw/coreutils/man1/tail.1:56
@@ -301,13 +301,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/tail.1:85
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:87
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/tail.1:87
@@ -354,13 +356,3 @@ msgstr "完整文档请见：E<lt>https://www.gnu.org/software/coreutils/tailE<g
 #: raw/coreutils/man1/tail.1:99
 msgid "or available locally via: info \\(aq(coreutils) tail invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) tail invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"
-
-#~ msgid "January 2017"
-#~ msgstr "2017年1月"

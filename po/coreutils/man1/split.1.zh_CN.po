@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 00:29-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2020-05-16 11:54-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -432,13 +432,3 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/splitE
 #: raw/coreutils/man1/split.1:108
 msgid "or available locally via: info \\(aq(coreutils) split invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) split invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"
-
-#~ msgid "January 2017"
-#~ msgstr "2017年1月"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 22:29-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-08 15:28-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -151,7 +151,8 @@ msgid ""
 "Optional - before SETTING indicates negation.  An * marks non-POSIX "
 "settings.  The underlying system defines which settings are available."
 msgstr ""
-"设置字符串可以添加 \"-\" 前缀，表示禁用该项设置。下文中的 * 表示这项设置不属于 POSIX 标准。各项设置是否可用取决于底层的系统。"
+"设置字符串可以添加 \"-\" 前缀，表示禁用该项设置。下文中的 * 表示这项设置不属"
+"于 POSIX 标准。各项设置是否可用取决于底层的系统。"
 
 #. type: SS
 #: raw/coreutils/man1/stty.1:38
@@ -1214,7 +1215,8 @@ msgid ""
 "same as brkint ignpar istrip icrnl ixon opost isig icanon, eof and eol "
 "characters to their default values"
 msgstr ""
-"同 brkint ignpar istrip icrnl ixon opost isig icanon 且将 eof 和 eol 字符设为默认值"
+"同 brkint ignpar istrip icrnl ixon opost isig icanon 且将 eof 和 eol 字符设为"
+"默认值"
 
 #. type: TP
 #: raw/coreutils/man1/stty.1:325
@@ -1456,8 +1458,9 @@ msgid ""
 "CHAR is taken literally, or coded as in ^c, 0x37, 0177 or 127; special "
 "values ^- or undef used to disable special characters."
 msgstr ""
-"处理连接到标准输入的 tty 行设置。不带参数时，程序会输出波特率、行规则以及与标准 stty 设置不同的设置。在设置中，字符可以直接输入，或者使用形如"
-" ^c、0x37、0177 或 127 的格式进行表示；可使用特殊值 ^- 或 undef 禁用特殊字符。"
+"处理连接到标准输入的 tty 行设置。不带参数时，程序会输出波特率、行规则以及与标"
+"准 stty 设置不同的设置。在设置中，字符可以直接输入，或者使用形如 ^c、0x37、"
+"0177 或 127 的格式进行表示；可使用特殊值 ^- 或 undef 禁用特殊字符。"
 
 #. type: SH
 #: raw/coreutils/man1/stty.1:398
@@ -1480,13 +1483,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/stty.1:402
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stty.1:404
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+msgstr ""
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
 
 #. type: SH
 #: raw/coreutils/man1/stty.1:404
@@ -1528,15 +1533,3 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/sttyE<
 #: raw/coreutils/man1/stty.1:413
 msgid "or available locally via: info \\(aq(coreutils) stty invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) stty invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#, fuzzy
-#~| msgid "December 2016"
-#~ msgid "October 2017"
-#~ msgstr "2016年12月"
-
-#~ msgid "January 2017"
-#~ msgstr "2017年1月"

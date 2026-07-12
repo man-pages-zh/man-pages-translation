@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-07-12 14:56-0400\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-06 16:57-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -663,22 +663,3 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/test[E
 #: raw/coreutils/man1/test.1:179
 msgid "or available locally via: info \\(aq(coreutils) test invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) test invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#~ msgid "FILE exists and read permission is granted"
-#~ msgstr "指定文件存在且具备读取权限"
-
-#~ msgid "FILE exists and write permission is granted"
-#~ msgstr "文件存在且被赋予了写权限"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"
-
-#~ msgid "B<[> ]"
-#~ msgstr "B<[> ]"
-
-#~ msgid "January 2017"
-#~ msgstr "2017年1月"

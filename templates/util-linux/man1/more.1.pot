@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -207,7 +207,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:101
-msgid "The I<string> to be searched in each file before starting to display it."
+msgid ""
+"The I<string> to be searched in each file before starting to display it."
 msgstr ""
 
 #. type: SH
@@ -269,7 +270,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/util-linux/man1/more.1:128
-msgid "Display next k lines of text.  Defaults to 1.  Argument becomes new default."
+msgid ""
+"Display next k lines of text.  Defaults to 1.  Argument becomes new default."
 msgstr ""
 
 #. type: TP

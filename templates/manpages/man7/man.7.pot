@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-01 23:44-0400\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,8 +93,8 @@ msgstr ""
 #: raw/manpages/man7/man.7:74
 msgid ""
 "Note that NET-2 BSD mdoc man pages can be used with B<groff> simply by "
-"specifying the B<-mdoc> option instead of the B<-man> option.  Using the "
-"B<-mandoc> option is, however, recommended, since this will automatically "
+"specifying the B<-mdoc> option instead of the B<-man> option.  Using the B<-"
+"mandoc> option is, however, recommended, since this will automatically "
 "detect which macro package is in use."
 msgstr ""
 
@@ -183,8 +183,8 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages/man7/man.7:131
 msgid ""
-"For a list of other sections that might appear in a manual page, see "
-"B<man-pages>(7)."
+"For a list of other sections that might appear in a manual page, see B<man-"
+"pages>(7)."
 msgstr ""
 
 #. type: SS
@@ -218,8 +218,7 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages/man7/man.7:140
 msgid ""
-"Bold alternating with italics (especially useful for function "
-"specifications)"
+"Bold alternating with italics (especially useful for function specifications)"
 msgstr ""
 
 #. type: TP
@@ -529,7 +528,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages/man7/man.7:296
-msgid "Reset tabs to default tab values (every 0.5 inches); does not cause a break."
+msgid ""
+"Reset tabs to default tab values (every 0.5 inches); does not cause a break."
 msgstr ""
 
 #. type: TP
@@ -554,8 +554,7 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages/man7/man.7:308
 msgid ""
-"Subheading I<t> (like B<\\&.SH>, but used for a subsection inside a "
-"section)."
+"Subheading I<t> (like B<\\&.SH>, but used for a subsection inside a section)."
 msgstr ""
 
 #. type: SS
@@ -638,13 +637,13 @@ msgid ""
 "troff's abilities.  Thus, it's best to avoid some of troff's more exotic "
 "abilities where possible to permit these other tools to work correctly.  "
 "Avoid using the various troff preprocessors (if you must, go ahead and use "
-"B<tbl>(1), but try to use the B<IP> and B<TP> commands instead for "
-"two-column tables).  Avoid using computations; most other tools can't "
-"process them.  Use simple commands that are easy to translate to other "
-"formats.  The following troff macros are believed to be safe (though in many "
-"cases they will be ignored by translators): B<\\e\">, B<.>, B<ad>, B<bp>, "
-"B<br>, B<ce>, B<de>, B<ds>, B<el>, B<ie>, B<if>, B<fi>, B<ft>, B<hy>, B<ig>, "
-"B<in>, B<na>, B<ne>, B<nf>, B<nh>, B<ps>, B<so>, B<sp>, B<ti>, B<tr>."
+"B<tbl>(1), but try to use the B<IP> and B<TP> commands instead for two-"
+"column tables).  Avoid using computations; most other tools can't process "
+"them.  Use simple commands that are easy to translate to other formats.  The "
+"following troff macros are believed to be safe (though in many cases they "
+"will be ignored by translators): B<\\e\">, B<.>, B<ad>, B<bp>, B<br>, B<ce>, "
+"B<de>, B<ds>, B<el>, B<ie>, B<if>, B<fi>, B<ft>, B<hy>, B<ig>, B<in>, B<na>, "
+"B<ne>, B<nf>, B<nh>, B<ps>, B<so>, B<sp>, B<ti>, B<tr>."
 msgstr ""
 
 #. type: Plain text
@@ -712,9 +711,9 @@ msgid ""
 "By all means include full URLs (or URIs) in the text itself; some tools such "
 "as B<man2html>(1)  can automatically turn them into hypertext links.  You "
 "can also use the B<UR> and B<UE> macros to identify links to related "
-"information.  If you include URLs, use the full URL (e.g., E<.UR "
-"http://www.kernel.org> E<.UE )> to ensure that tools can automatically find "
-"the URLs."
+"information.  If you include URLs, use the full URL (e.g., E<.UR http://"
+"www.kernel.org> E<.UE )> to ensure that tools can automatically find the "
+"URLs."
 msgstr ""
 
 #. type: Plain text
@@ -852,8 +851,8 @@ msgstr ""
 #: raw/manpages/man7/man.7:524
 msgid ""
 "B<apropos>(1), B<groff>(1), B<lexgrog>(1), B<man>(1), B<man2html>(1), "
-"B<groff_mdoc>(7), B<whatis>(1), B<groff_man>(7), B<groff_www>(7), "
-"B<man-pages>(7), B<mdoc>(7)"
+"B<groff_mdoc>(7), B<whatis>(1), B<groff_man>(7), B<groff_www>(7), B<man-"
+"pages>(7), B<mdoc>(7)"
 msgstr ""
 
 #. type: SH
@@ -867,6 +866,6 @@ msgstr ""
 msgid ""
 "This page is part of release 5.10 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""

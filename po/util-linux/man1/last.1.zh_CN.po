@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2021-08-01 14:58-0400\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: none\n"
@@ -228,9 +228,9 @@ msgstr ""
 #. type: Plain text
 #: raw/util-linux/man1/last.1:118
 msgid ""
-"Display the state of logins since the specified I<time>.  This is useful, e."
-"g., to easily determine who was logged in at a particular time.  The option "
-"is often combined with B<--until>."
+"Display the state of logins since the specified I<time>.  This is useful, "
+"e.g., to easily determine who was logged in at a particular time.  The "
+"option is often combined with B<--until>."
 msgstr ""
 
 #. type: TP
@@ -449,8 +449,8 @@ msgstr ""
 #. type: Plain text
 #: raw/util-linux/man1/last.1:194
 msgid ""
-"The last command is part of the util-linux package and is available from E<."
-"UR ftp://\\:ftp.kernel.org\\:/pub\\:/linux\\:/utils\\:/util-linux/> Linux "
+"The last command is part of the util-linux package and is available from "
+"E<.UR ftp://\\:ftp.kernel.org\\:/pub\\:/linux\\:/utils\\:/util-linux/> Linux "
 "Kernel Archive E<.UE .>"
 msgstr ""
 

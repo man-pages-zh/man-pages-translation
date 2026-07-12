@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 22:29-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-06 20:14-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -78,9 +78,9 @@ msgid ""
 "created u+rw, and directories u+rwx, minus umask restrictions."
 msgstr ""
 "安全地创建一个临时文件或目录，并打印出其名称。所给定的模板字符串的最后一部分"
-"必须包含至少三个连续的“X”。如果没有指定模板字符串，程序将默认使用“tmp."
-"XXXXXXXXXX”并默认启用 B<--tmpdir> 选项。文件创建时权限使用 u+rw，而目录使用 "
-"u+rwx，在此基础上再减去 umask 所体现的权限限制。"
+"必须包含至少三个连续的“X”。如果没有指定模板字符串，程序将默认使"
+"用“tmp.XXXXXXXXXX”并默认启用 B<--tmpdir> 选项。文件创建时权限使用 u+rw，而目"
+"录使用 u+rwx，在此基础上再减去 umask 所体现的权限限制。"
 
 #. type: TP
 #: raw/coreutils/man1/mktemp.1:15
@@ -263,13 +263,3 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/mktemp
 #: raw/coreutils/man1/mktemp.1:64
 msgid "or available locally via: info \\(aq(coreutils) mktemp invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) mktemp invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"
-
-#~ msgid "January 2017"
-#~ msgstr "2017年1月"

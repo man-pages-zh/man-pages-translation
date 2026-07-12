@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-14 19:14+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -387,8 +387,8 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages/man1/intro.1:310
 msgid ""
-"Special topics are often treated in HOWTOs.  Look in "
-"I</usr/share/doc/howto/en> and use a browser if you find HTML files there."
+"Special topics are often treated in HOWTOs.  Look in I</usr/share/doc/howto/"
+"en> and use a browser if you find HTML files there."
 msgstr ""
 
 #. type: SH
@@ -416,6 +416,6 @@ msgstr ""
 msgid ""
 "This page is part of release 4.09 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""

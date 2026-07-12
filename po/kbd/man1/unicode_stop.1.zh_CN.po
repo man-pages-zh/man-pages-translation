@@ -70,8 +70,8 @@ msgid ""
 "B<unicode_start>.  It puts the keyboard in ASCII (XLATE) mode, and clears "
 "the console UTF-8 mode."
 msgstr ""
-"B<unicode_stop> 命令会一定程度上撤销 B<unicode_start> 命令的效果。它会将键"
-"盘置于 ASCII (XLATE) 模式，并清除控制台的 UTF-8 模式。"
+"B<unicode_stop> 命令会一定程度上撤销 B<unicode_start> 命令的效果。它会将键盘"
+"置于 ASCII (XLATE) 模式，并清除控制台的 UTF-8 模式。"
 
 #. type: SH
 #: raw/kbd/man1/unicode_stop.1:15

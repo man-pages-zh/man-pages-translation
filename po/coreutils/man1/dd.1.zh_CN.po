@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-06 22:29-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-06 20:18-0500\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -646,16 +646,3 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/ddE<gt
 #: raw/coreutils/man1/dd.1:176
 msgid "or available locally via: info \\(aq(coreutils) dd invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) dd invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#~ msgid "skip N obs-sized blocks at start of output"
-#~ msgstr "在输出开始处跳过指定的 obs 大小的块数"
-
-#~ msgid "skip N ibs-sized blocks at start of input"
-#~ msgstr "在输入开始处跳过指定的 ibs 大小的块数"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"

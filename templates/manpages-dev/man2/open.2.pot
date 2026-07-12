@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,8 +71,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "B<int open(const char *>I<pathname>B<, int >I<flags>B<);>\n"
-"B<int open(const char *>I<pathname>B<, int >I<flags>B<, mode_t "
-">I<mode>B<);>\n"
+"B<int open(const char *>I<pathname>B<, int >I<flags>B<, mode_t >I<mode>B<);>\n"
 msgstr ""
 
 #. type: Plain text
@@ -85,15 +84,14 @@ msgstr ""
 #: raw/manpages-dev/man2/open.2:68
 #, no-wrap
 msgid ""
-"B<int openat(int >I<dirfd>B<, const char *>I<pathname>B<, int "
-">I<flags>B<);>\n"
-"B<int openat(int >I<dirfd>B<, const char *>I<pathname>B<, int >I<flags>B<, "
-"mode_t >I<mode>B<);>\n"
+"B<int openat(int >I<dirfd>B<, const char *>I<pathname>B<, int >I<flags>B<);>\n"
+"B<int openat(int >I<dirfd>B<, const char *>I<pathname>B<, int >I<flags>B<, mode_t >I<mode>B<);>\n"
 msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:73
-msgid "Feature Test Macro Requirements for glibc (see B<feature_test_macros>(7)):"
+msgid ""
+"Feature Test Macro Requirements for glibc (see B<feature_test_macros>(7)):"
 msgstr ""
 
 #. type: Plain text
@@ -164,8 +162,8 @@ msgstr ""
 #: raw/manpages-dev/man2/open.2:131
 msgid ""
 "The argument I<flags> must include one of the following I<access modes>: "
-"B<O_RDONLY>, B<O_WRONLY>, or B<O_RDWR>.  These request opening the file "
-"read-only, write-only, or read/write, respectively."
+"B<O_RDONLY>, B<O_WRONLY>, or B<O_RDWR>.  These request opening the file read-"
+"only, write-only, or read/write, respectively."
 msgstr ""
 
 #.  SUSv4 divides the flags into:
@@ -193,7 +191,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:171
-msgid "The full list of file creation flags and file status flags is as follows:"
+msgid ""
+"The full list of file creation flags and file status flags is as follows:"
 msgstr ""
 
 #. type: TP
@@ -505,9 +504,9 @@ msgstr ""
 msgid ""
 "Try to minimize cache effects of the I/O to and from this file.  In general "
 "this will degrade performance, but it is useful in special situations, such "
-"as when applications do their own caching.  File I/O is done directly "
-"to/from user-space buffers.  The B<O_DIRECT> flag on its own makes an effort "
-"to transfer data synchronously, but does not give the guarantees of the "
+"as when applications do their own caching.  File I/O is done directly to/"
+"from user-space buffers.  The B<O_DIRECT> flag on its own makes an effort to "
+"transfer data synchronously, but does not give the guarantees of the "
 "B<O_SYNC> flag that data and necessary metadata are transferred.  To "
 "guarantee synchronous I/O, B<O_SYNC> must be used in addition to "
 "B<O_DIRECT>.  See NOTES below for further discussion."
@@ -602,10 +601,10 @@ msgid ""
 "condition.  Portable programs that want to perform atomic file locking using "
 "a lockfile, and need to avoid reliance on NFS support for B<O_EXCL>, can "
 "create a unique file on the same filesystem (e.g., incorporating hostname "
-"and PID), and use B<link>(2)  to make a link to the lockfile.  If B<link>(2)  "
-"returns 0, the lock is successful.  Otherwise, use B<stat>(2)  on the unique "
-"file to check if its link count has increased to 2, in which case the lock "
-"is also successful."
+"and PID), and use B<link>(2)  to make a link to the lockfile.  If "
+"B<link>(2)  returns 0, the lock is successful.  Otherwise, use B<stat>(2)  "
+"on the unique file to check if its link count has increased to 2, in which "
+"case the lock is also successful."
 msgstr ""
 
 #. type: TP
@@ -640,11 +639,16 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:492
-msgid "This flag can be employed only if one of the following conditions is true:"
+msgid ""
+"This flag can be employed only if one of the following conditions is true:"
 msgstr ""
 
 #. type: IP
-#: raw/manpages-dev/man2/open.2:493 raw/manpages-dev/man2/open.2:497 raw/manpages-dev/man2/open.2:582 raw/manpages-dev/man2/open.2:590 raw/manpages-dev/man2/open.2:596 raw/manpages-dev/man2/open.2:602 raw/manpages-dev/man2/open.2:608 raw/manpages-dev/man2/open.2:621 raw/manpages-dev/man2/open.2:742 raw/manpages-dev/man2/open.2:750
+#: raw/manpages-dev/man2/open.2:493 raw/manpages-dev/man2/open.2:497
+#: raw/manpages-dev/man2/open.2:582 raw/manpages-dev/man2/open.2:590
+#: raw/manpages-dev/man2/open.2:596 raw/manpages-dev/man2/open.2:602
+#: raw/manpages-dev/man2/open.2:608 raw/manpages-dev/man2/open.2:621
+#: raw/manpages-dev/man2/open.2:742 raw/manpages-dev/man2/open.2:750
 #, no-wrap
 msgid "*"
 msgstr ""
@@ -744,10 +748,10 @@ msgstr ""
 msgid "B<O_PATH> (since Linux 2.6.39)"
 msgstr ""
 
+#
 #.  commit 1abf0c718f15a56a0a435588d1b104c7a37dc9bd
 #.  commit 326be7b484843988afe57566b627fb7a70beac56
 #.  commit 65cfc6722361570bfe255698d9cd4dccaf47570d
-#
 #.  http://thread.gmane.org/gmane.linux.man/2790/focus=3496
 #. 	Subject: Re: [PATCH] open(2): document O_PATH
 #. 	Newsgroups: gmane.linux.man, gmane.linux.kernel
@@ -773,13 +777,13 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:590
 msgid ""
-"B<close>(2); B<fchdir>(2)  (since Linux 3.5); B<fstat>(2)  (since Linux "
-"3.6)."
+"B<close>(2); B<fchdir>(2)  (since Linux 3.5); B<fstat>(2)  (since Linux 3.6)."
 msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:596
-msgid "Duplicating the file descriptor (B<dup>(2), B<fcntl>(2)  B<F_DUPFD>, etc.)."
+msgid ""
+"Duplicating the file descriptor (B<dup>(2), B<fcntl>(2)  B<F_DUPFD>, etc.)."
 msgstr ""
 
 #. type: Plain text
@@ -1044,7 +1048,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:850
-msgid "B<open>(), B<openat>(), and B<creat>()  can fail with the following errors:"
+msgid ""
+"B<open>(), B<openat>(), and B<creat>()  can fail with the following errors:"
 msgstr ""
 
 #. type: TP
@@ -1123,7 +1128,8 @@ msgid ""
 msgstr ""
 
 #. type: TP
-#: raw/manpages-dev/man2/open.2:886 raw/manpages-dev/man2/open.2:894 raw/manpages-dev/man2/open.2:899
+#: raw/manpages-dev/man2/open.2:886 raw/manpages-dev/man2/open.2:894
+#: raw/manpages-dev/man2/open.2:899
 #, no-wrap
 msgid "B<EINVAL>"
 msgstr ""
@@ -1219,7 +1225,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:959
-msgid "The system-wide limit on the total number of open files has been reached."
+msgid ""
+"The system-wide limit on the total number of open files has been reached."
 msgstr ""
 
 #. type: TP
@@ -1464,8 +1471,8 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/open.2:1107
 msgid ""
-"The B<O_DIRECT>, B<O_NOATIME>, B<O_PATH>, and B<O_TMPFILE> flags are "
-"Linux-specific.  One must define B<_GNU_SOURCE> to obtain their definitions."
+"The B<O_DIRECT>, B<O_NOATIME>, B<O_PATH>, and B<O_TMPFILE> flags are Linux-"
+"specific.  One must define B<_GNU_SOURCE> to obtain their definitions."
 msgstr ""
 
 #. type: Plain text
@@ -1649,10 +1656,10 @@ msgstr ""
 msgid ""
 "Since Linux 2.6.33, proper B<O_SYNC> support is provided.  However, to "
 "ensure backward binary compatibility, B<O_DSYNC> was defined with the same "
-"value as the historical B<O_SYNC>, and B<O_SYNC> was defined as a new "
-"(two-bit) flag value that includes the B<O_DSYNC> flag value.  This ensures "
-"that applications compiled against new headers get at least B<O_DSYNC> "
-"semantics on pre-2.6.33 kernels."
+"value as the historical B<O_SYNC>, and B<O_SYNC> was defined as a new (two-"
+"bit) flag value that includes the B<O_DSYNC> flag value.  This ensures that "
+"applications compiled against new headers get at least B<O_DSYNC> semantics "
+"on pre-2.6.33 kernels."
 msgstr ""
 
 #. type: SS
@@ -1765,8 +1772,8 @@ msgstr ""
 msgid ""
 "Second, B<openat>()  allows the implementation of a per-thread \"current "
 "working directory\", via file descriptor(s) maintained by the application.  "
-"(This functionality can also be obtained by tricks based on the use of "
-"I</proc/self/fd/>dirfd, but less efficiently.)"
+"(This functionality can also be obtained by tricks based on the use of I</"
+"proc/self/fd/>dirfd, but less efficiently.)"
 msgstr ""
 
 #. type: SS
@@ -1939,6 +1946,6 @@ msgstr ""
 msgid ""
 "This page is part of release 4.09 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-07 14:08-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-08 15:31-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -717,13 +717,15 @@ msgstr "报告错误"
 #: raw/coreutils/man1/stat.1:209
 msgid ""
 "GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: Plain text
 #: raw/coreutils/man1/stat.1:211
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
-msgstr "GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
 
 #. type: SH
 #: raw/coreutils/man1/stat.1:211
@@ -770,13 +772,3 @@ msgstr "完整文档请见：E<lt>https://www.gnu.org/software/coreutils/statE<g
 #: raw/coreutils/man1/stat.1:223
 msgid "or available locally via: info \\(aq(coreutils) stat invocation\\(aq"
 msgstr "或者在本地使用：info \\(aq(coreutils) stat invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"
-
-#~ msgid "stat(2)"
-#~ msgstr "stat(2)"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-08 19:39-0400\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,8 +123,8 @@ msgstr ""
 #. type: Plain text
 #: raw/util-linux/man1/last.1:72
 msgid ""
-"Display the hostname in the last column.  Useful in combination with the "
-"B<--dns> option."
+"Display the hostname in the last column.  Useful in combination with the B<--"
+"dns> option."
 msgstr ""
 
 #. type: TP
@@ -150,8 +150,8 @@ msgstr ""
 #. type: Plain text
 #: raw/util-linux/man1/last.1:87
 msgid ""
-"Tell B<last> to use a specific I<file> instead of I</var/log/wtmp>.  The "
-"B<--file> option can be given multiple times, and all of the specified files "
+"Tell B<last> to use a specific I<file> instead of I</var/log/wtmp>.  The B<--"
+"file> option can be given multiple times, and all of the specified files "
 "will be processed."
 msgstr ""
 
@@ -290,7 +290,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/util-linux/man1/last.1:155
-msgid "The options that take the I<time> argument understand the following formats:"
+msgid ""
+"The options that take the I<time> argument understand the following formats:"
 msgstr ""
 
 #. type: tbl table

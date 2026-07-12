@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-12-07 13:27-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2022-12-07 13:24-0500\n"
 "Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
@@ -67,11 +67,11 @@ msgstr "B<date> [I<\\,选项\\/>]... [I<\\,+格式字符串\\/>]"
 #. type: Plain text
 #: raw/coreutils/man1/date.1:11
 msgid ""
-"B<date> [I<\\,-u|--utc|--universal\\/>] [I<\\,MMDDhhmm\\/>[[I<\\,CC\\/>]I<\\,"
-"YY\\/>][I<\\,.ss\\/>]]"
+"B<date> [I<\\,-u|--utc|--universal\\/>] [I<\\,MMDDhhmm\\/>[[I<\\,CC\\/"
+">]I<\\,YY\\/>][I<\\,.ss\\/>]]"
 msgstr ""
-"B<date> [I<\\,-u|--utc|--universal\\/>] [I<\\,MMDDhhmm\\/>[[I<\\,CC\\/>]I<\\,"
-"YY\\/>][I<\\,.ss\\/>]]"
+"B<date> [I<\\,-u|--utc|--universal\\/>] [I<\\,MMDDhhmm\\/>[[I<\\,CC\\/"
+">]I<\\,YY\\/>][I<\\,.ss\\/>]]"
 
 #. type: SH
 #: raw/coreutils/man1/date.1:11
@@ -85,8 +85,8 @@ msgid ""
 "Display date and time in the given FORMAT.  With B<-s>, or with "
 "[MMDDhhmm[[CC]YY][.ss]], set the date and time."
 msgstr ""
-"按照给定的格式字符串显示日期和时间。使用了 B<-s> 选项或 [MMDDhhmm[[CC]YY][."
-"ss]] 参数时，设置日期和时间。"
+"按照给定的格式字符串显示日期和时间。使用了 B<-s> 选项或 [MMDDhhmm[[CC]YY]"
+"[.ss]] 参数时，设置日期和时间。"
 
 #. type: Plain text
 #: raw/coreutils/man1/date.1:18
@@ -968,12 +968,3 @@ msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/dateE<
 #: raw/coreutils/man1/date.1:266
 msgid "or available locally via: info \\(aq(coreutils) date invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) date invocation\\(aq"
-
-#, no-wrap
-#~ msgid "March 2020"
-#~ msgstr "2020年三月"
-
-#, fuzzy
-#~| msgid "December 2016"
-#~ msgid "October 2017"
-#~ msgstr "2016年12月"

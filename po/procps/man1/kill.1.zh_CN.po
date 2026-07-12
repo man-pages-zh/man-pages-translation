@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:59+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: 2017-02-12 00:59+0800\n"
 "Last-Translator: Zheng Junyi <zhengjunyi@live.com>\n"
 "Language-Team: none\n"
@@ -79,10 +79,10 @@ msgid ""
 "groups; see the PGID column in ps command output.  A PID of B<-1> is "
 "special; it indicates all processes except the kill process itself and init."
 msgstr ""
-"默认的终止信号是 TERM。 使用 B<-l> 或 B<-L> 列出可用的信号。常用的信号包括 HUP，INT，"
-"KILL，STOP，CONT 和 0。可以用三种方式指定备用信号：B<-9>，B<-SIGKILL> 或 B<-KILL>。"
-"负数 PID 值可用于选择整个进程组。请参阅 ps 命令输出的 PGID 列。B<-1> 是特殊的 PID；"
-"它表示除 kill 进程本身和 init 之外的所有进程。"
+"默认的终止信号是 TERM。 使用 B<-l> 或 B<-L> 列出可用的信号。常用的信号包括 "
+"HUP，INT，KILL，STOP，CONT 和 0。可以用三种方式指定备用信号：B<-9>，B<-"
+"SIGKILL> 或 B<-KILL>。负数 PID 值可用于选择整个进程组。请参阅 ps 命令输出的 "
+"PGID 列。B<-1> 是特殊的 PID；它表示除 kill 进程本身和 init 之外的所有进程。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:30
@@ -126,7 +126,8 @@ msgid ""
 "or number.  The behavior of signals is explained in B<signal>(7)  manual "
 "page."
 msgstr ""
-"指定要发送的 B<信号>。信号可以使用信号名或数字给出。信号的行为在 B<signal>(7) 手册页中进行了说明。"
+"指定要发送的 B<信号>。信号可以使用信号名或数字给出。信号的行为在 "
+"B<signal>(7) 手册页中进行了说明。"
 
 #. type: TP
 #: raw/procps/man1/kill.1:46
@@ -140,7 +141,8 @@ msgid ""
 "List signal names.  This option has optional argument, which will convert "
 "signal number to signal name, or other way round."
 msgstr ""
-"列出可用的信号的名称。此选项具有可选参数，该参数将信号编号 (数字) 转换为信号名称，反之亦然。"
+"列出可用的信号的名称。此选项具有可选参数，该参数将信号编号 (数字) 转换为信号"
+"名称，反之亦然。"
 
 #. type: TP
 #: raw/procps/man1/kill.1:50
@@ -166,7 +168,8 @@ msgid ""
 "may need to run the command described here as /bin/kill to solve the "
 "conflict."
 msgstr ""
-"您的 Shell 程序（命令行解释器）可能具有内置的 kill 命令。您可能需要运行 /bin/kill 的命令来避免“冲突”。"
+"您的 Shell 程序（命令行解释器）可能具有内置的 kill 命令。您可能需要运行 /bin/"
+"kill 的命令来避免“冲突”。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:59
@@ -243,8 +246,7 @@ msgstr "标准"
 #: raw/procps/man1/kill.1:84
 msgid ""
 "This command meets appropriate standards. The B<-L> flag is Linux-specific."
-msgstr ""
-"该命令符合适当的标准。B<-L> 是 Linux 特有的。"
+msgstr "该命令符合适当的标准。B<-L> 是 Linux 特有的。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:84
@@ -259,8 +261,8 @@ msgid ""
 "replace a bsdutils one that was not standards compliant.  The util-linux one "
 "might also work correctly."
 msgstr ""
-"E<.UR albert@users.sf.net> Albert Cahalan E<.UE> 在 1999 年写了一个 kill 程序来"
-"替换不符合标准的 bsdutils。util-linux 也实现了一个可以工作的版本。"
+"E<.UR albert@users.sf.net> Albert Cahalan E<.UE> 在 1999 年写了一个 kill 程序"
+"来替换不符合标准的 bsdutils。util-linux 也实现了一个可以工作的版本。"
 
 #. type: SH
 #: raw/procps/man1/kill.1:90

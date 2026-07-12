@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-02-12 00:59+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +197,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/procps/man1/w.1:60
-msgid "Old style output.  Prints blank space for idle times less than one minute."
+msgid ""
+"Old style output.  Prints blank space for idle times less than one minute."
 msgstr ""
 
 #. type: TP

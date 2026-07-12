@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-12-07 14:01-0500\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,7 +171,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/grep/man1/grep.1:87
-msgid "Interpret I<PATTERN> as an extended regular expression (ERE, see below)."
+msgid ""
+"Interpret I<PATTERN> as an extended regular expression (ERE, see below)."
 msgstr ""
 
 #. type: TP
@@ -493,8 +494,8 @@ msgstr ""
 msgid ""
 "Display input actually coming from standard input as input coming from file "
 "I<LABEL>.  This is especially useful when implementing tools like B<zgrep>, "
-"e.g., B<gzip -cd foo.gz | grep --label=foo -H something>.  See also the "
-"B<-H> option."
+"e.g., B<gzip -cd foo.gz | grep --label=foo -H something>.  See also the B<-"
+"H> option."
 msgstr ""
 
 #. type: TP
@@ -521,9 +522,9 @@ msgstr ""
 msgid ""
 "Make sure that the first character of actual line content lies on a tab "
 "stop, so that the alignment of tabs looks normal.  This is useful with "
-"options that prefix their output to the actual content: B<-H>,B<-n>, and "
-"B<-b>.  In order to improve the probability that lines from a single file "
-"will all start at the same column, this also causes the line number and byte "
+"options that prefix their output to the actual content: B<-H>,B<-n>, and B<-"
+"b>.  In order to improve the probability that lines from a single file will "
+"all start at the same column, this also causes the line number and byte "
 "offset (if present)  to be printed in a minimum size field width."
 msgstr ""
 
@@ -540,8 +541,8 @@ msgid ""
 "offsets as if the file were a Unix-style text file, i.e., with CR characters "
 "stripped off.  This will produce results identical to running B<grep> on a "
 "Unix machine.  This option has no effect unless B<-b> option is also used; "
-"it has no effect on platforms other than \\s-1MS-DOS\\s0 and "
-"\\s-1MS\\s0-Windows."
+"it has no effect on platforms other than \\s-1MS-DOS\\s0 and \\s-1MS\\s0-"
+"Windows."
 msgstr ""
 
 #. type: TP
@@ -627,8 +628,8 @@ msgstr ""
 #. type: Plain text
 #: raw/grep/man1/grep.1:370
 msgid ""
-"Process a binary file as if it were text; this is equivalent to the "
-"B<-\\^-binary-files=text> option."
+"Process a binary file as if it were text; this is equivalent to the B<-\\^-"
+"binary-files=text> option."
 msgstr ""
 
 #. type: TP
@@ -650,9 +651,9 @@ msgstr ""
 #: raw/grep/man1/grep.1:390
 msgid ""
 "By default, I<TYPE> is B<binary>, and when B<grep> discovers that a file is "
-"binary it suppresses any further output, and instead outputs either a "
-"one-line message saying that a binary file matches, or no message if there "
-"is no match."
+"binary it suppresses any further output, and instead outputs either a one-"
+"line message saying that a binary file matches, or no message if there is no "
+"match."
 msgstr ""
 
 #. type: Plain text
@@ -872,9 +873,9 @@ msgstr ""
 #: raw/grep/man1/grep.1:597
 msgid ""
 "Treat input and output data as sequences of lines, each terminated by a zero "
-"byte (the ASCII NUL character) instead of a newline.  Like the B<-Z> or "
-"B<-\\^-null> option, this option can be used with commands like B<sort -z> "
-"to process arbitrary file names."
+"byte (the ASCII NUL character) instead of a newline.  Like the B<-Z> or B<-"
+"\\^-null> option, this option can be used with commands like B<sort -z> to "
+"process arbitrary file names."
 msgstr ""
 
 #. type: SH
@@ -931,8 +932,7 @@ msgid ""
 "A I<bracket expression> is a list of characters enclosed by B<[> and B<]>.  "
 "It matches any single character in that list; if the first character of the "
 "list is the caret B<^> then it matches any character I<not> in the list.  "
-"For example, the regular expression B<[0123456789]> matches any single "
-"digit."
+"For example, the regular expression B<[0123456789]> matches any single digit."
 msgstr ""
 
 #. type: Plain text
@@ -1004,7 +1004,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/grep/man1/grep.1:732
-msgid "A regular expression may be followed by one of several repetition operators:"
+msgid ""
+"A regular expression may be followed by one of several repetition operators:"
 msgstr ""
 
 #. type: TP
@@ -1166,7 +1167,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/grep/man1/grep.1:813
-msgid "The behavior of B<grep> is affected by the following environment variables."
+msgid ""
+"The behavior of B<grep> is affected by the following environment variables."
 msgstr ""
 
 #. type: Plain text
@@ -1210,11 +1212,11 @@ msgid ""
 "This variable specifies the color used to highlight matched (non-empty) "
 "text.  It is deprecated in favor of B<GREP_COLORS>, but still supported.  "
 "The B<mt>, B<ms>, and B<mc> capabilities of B<GREP_COLORS> have priority "
-"over it.  It can only specify the color used to highlight the matching "
-"non-empty text in any matching line (a selected line when the B<-v> "
-"command-line option is omitted, or a context line when B<-v> is specified).  "
-"The default is B<01;31>, which means a bold red foreground text on the "
-"terminal's default background."
+"over it.  It can only specify the color used to highlight the matching non-"
+"empty text in any matching line (a selected line when the B<-v> command-line "
+"option is omitted, or a context line when B<-v> is specified).  The default "
+"is B<01;31>, which means a bold red foreground text on the terminal's "
+"default background."
 msgstr ""
 
 #. type: TP
@@ -1244,8 +1246,8 @@ msgstr ""
 msgid ""
 "SGR substring for whole selected lines (i.e., matching lines when the B<-v> "
 "command-line option is omitted, or non-matching lines when B<-v> is "
-"specified).  If however the boolean B<rv> capability and the B<-v> "
-"command-line option are both specified, it applies to context matching lines "
+"specified).  If however the boolean B<rv> capability and the B<-v> command-"
+"line option are both specified, it applies to context matching lines "
 "instead.  The default is empty (i.e., the terminal's default color pair)."
 msgstr ""
 
@@ -1258,12 +1260,11 @@ msgstr ""
 #. type: Plain text
 #: raw/grep/man1/grep.1:924
 msgid ""
-"SGR substring for whole context lines (i.e., non-matching lines when the "
-"B<-v> command-line option is omitted, or matching lines when B<-v> is "
-"specified).  If however the boolean B<rv> capability and the B<-v> "
-"command-line option are both specified, it applies to selected non-matching "
-"lines instead.  The default is empty (i.e., the terminal's default color "
-"pair)."
+"SGR substring for whole context lines (i.e., non-matching lines when the B<-"
+"v> command-line option is omitted, or matching lines when B<-v> is "
+"specified).  If however the boolean B<rv> capability and the B<-v> command-"
+"line option are both specified, it applies to selected non-matching lines "
+"instead.  The default is empty (i.e., the terminal's default color pair)."
 msgstr ""
 
 #. type: TP
@@ -1515,9 +1516,9 @@ msgstr ""
 #: raw/grep/man1/grep.1:1147
 msgid ""
 "Normally the exit status is 0 if a line is selected, 1 if no lines were "
-"selected, and 2 if an error occurred.  However, if the B<-q> or "
-"B<-\\^-quiet> or B<-\\^-silent> is used and a line is selected, the exit "
-"status is 0 even if an error occurred."
+"selected, and 2 if an error occurred.  However, if the B<-q> or B<-\\^-"
+"quiet> or B<-\\^-silent> is used and a line is selected, the exit status is "
+"0 even if an error occurred."
 msgstr ""
 
 #. type: SH
@@ -1553,10 +1554,10 @@ msgstr ""
 #. type: Plain text
 #: raw/grep/man1/grep.1:1171
 msgid ""
-"Email bug reports to E<.MT bug-grep@gnu.org> the bug-reporting address E<.ME "
-".> An E<.UR https://lists.gnu.org/mailman/listinfo/bug-grep> email archive "
-"E<.UE> and a E<.UR https://debbugs.gnu.org/cgi/pkgreport.cgi?package=grep> "
-"bug tracker E<.UE> are available."
+"Email bug reports to E<.MT bug-grep@gnu.org> the bug-reporting address "
+"E<.ME .> An E<.UR https://lists.gnu.org/mailman/listinfo/bug-grep> email "
+"archive E<.UE> and a E<.UR https://debbugs.gnu.org/cgi/pkgreport.cgi?"
+"package=grep> bug tracker E<.UE> are available."
 msgstr ""
 
 #. type: SS

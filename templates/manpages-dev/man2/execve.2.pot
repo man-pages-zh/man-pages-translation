@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,7 +198,19 @@ msgid ""
 msgstr ""
 
 #. type: IP
-#: raw/manpages-dev/man2/execve.2:136 raw/manpages-dev/man2/execve.2:140 raw/manpages-dev/man2/execve.2:143 raw/manpages-dev/man2/execve.2:146 raw/manpages-dev/man2/execve.2:149 raw/manpages-dev/man2/execve.2:152 raw/manpages-dev/man2/execve.2:155 raw/manpages-dev/man2/execve.2:158 raw/manpages-dev/man2/execve.2:161 raw/manpages-dev/man2/execve.2:164 raw/manpages-dev/man2/execve.2:168 raw/manpages-dev/man2/execve.2:172 raw/manpages-dev/man2/execve.2:181 raw/manpages-dev/man2/execve.2:188 raw/manpages-dev/man2/execve.2:193 raw/manpages-dev/man2/execve.2:200 raw/manpages-dev/man2/execve.2:207 raw/manpages-dev/man2/execve.2:214 raw/manpages-dev/man2/execve.2:219 raw/manpages-dev/man2/execve.2:226 raw/manpages-dev/man2/execve.2:230 raw/manpages-dev/man2/execve.2:233 raw/manpages-dev/man2/execve.2:241 raw/manpages-dev/man2/execve.2:245 raw/manpages-dev/man2/execve.2:250
+#: raw/manpages-dev/man2/execve.2:136 raw/manpages-dev/man2/execve.2:140
+#: raw/manpages-dev/man2/execve.2:143 raw/manpages-dev/man2/execve.2:146
+#: raw/manpages-dev/man2/execve.2:149 raw/manpages-dev/man2/execve.2:152
+#: raw/manpages-dev/man2/execve.2:155 raw/manpages-dev/man2/execve.2:158
+#: raw/manpages-dev/man2/execve.2:161 raw/manpages-dev/man2/execve.2:164
+#: raw/manpages-dev/man2/execve.2:168 raw/manpages-dev/man2/execve.2:172
+#: raw/manpages-dev/man2/execve.2:181 raw/manpages-dev/man2/execve.2:188
+#: raw/manpages-dev/man2/execve.2:193 raw/manpages-dev/man2/execve.2:200
+#: raw/manpages-dev/man2/execve.2:207 raw/manpages-dev/man2/execve.2:214
+#: raw/manpages-dev/man2/execve.2:219 raw/manpages-dev/man2/execve.2:226
+#: raw/manpages-dev/man2/execve.2:230 raw/manpages-dev/man2/execve.2:233
+#: raw/manpages-dev/man2/execve.2:241 raw/manpages-dev/man2/execve.2:245
+#: raw/manpages-dev/man2/execve.2:250
 #, no-wrap
 msgid "*"
 msgstr ""
@@ -262,7 +274,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/execve.2:175
-msgid "The floating-point environment is reset to the default (see B<fenv>(3))."
+msgid ""
+"The floating-point environment is reset to the default (see B<fenv>(3))."
 msgstr ""
 
 #. type: Plain text
@@ -276,8 +289,8 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/execve.2:188
 msgid ""
-"The B<prctl>(2)  B<PR_SET_DUMPABLE> flag is set, unless a set-user-ID or "
-"set-group ID program is being executed, in which case it is cleared."
+"The B<prctl>(2)  B<PR_SET_DUMPABLE> flag is set, unless a set-user-ID or set-"
+"group ID program is being executed, in which case it is cleared."
 msgstr ""
 
 #. type: Plain text
@@ -335,8 +348,8 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/execve.2:233
 msgid ""
-"The equivalent of I<setlocale(LC_ALL, \"C\")> is executed at program "
-"start-up."
+"The equivalent of I<setlocale(LC_ALL, \"C\")> is executed at program start-"
+"up."
 msgstr ""
 
 #. type: Plain text
@@ -357,7 +370,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/execve.2:250
-msgid "For the handling of capabilities during B<execve>(), see B<capabilities>(7)."
+msgid ""
+"For the handling of capabilities during B<execve>(), see B<capabilities>(7)."
 msgstr ""
 
 #.  On Linux it appears that these file descriptors are
@@ -439,12 +453,11 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/execve.2:337
 msgid ""
-"Most UNIX implementations impose some limit on the total size of the "
-"command-line argument (I<argv>)  and environment (I<envp>)  strings that may "
-"be passed to a new program.  POSIX.1 allows an implementation to advertise "
-"this limit using the B<ARG_MAX> constant (either defined in "
-"I<E<lt>limits.hE<gt>> or available at run time using the call "
-"I<sysconf(_SC_ARG_MAX)>)."
+"Most UNIX implementations impose some limit on the total size of the command-"
+"line argument (I<argv>)  and environment (I<envp>)  strings that may be "
+"passed to a new program.  POSIX.1 allows an implementation to advertise this "
+"limit using the B<ARG_MAX> constant (either defined in I<E<lt>limits.hE<gt>> "
+"or available at run time using the call I<sysconf(_SC_ARG_MAX)>)."
 msgstr ""
 
 #. type: Plain text
@@ -480,8 +493,7 @@ msgid ""
 "have at least as much argument and environment space as was provided by "
 "Linux 2.6.23 and earlier.  (This guarantee was not provided in Linux 2.6.23 "
 "and 2.6.24.)  Additionally, the limit per string is 32 pages (the kernel "
-"constant B<MAX_ARG_STRLEN>), and the maximum number of strings is "
-"0x7FFFFFFF."
+"constant B<MAX_ARG_STRLEN>), and the maximum number of strings is 0x7FFFFFFF."
 msgstr ""
 
 #. type: SH
@@ -517,7 +529,8 @@ msgid ""
 msgstr ""
 
 #. type: TP
-#: raw/manpages-dev/man2/execve.2:394 raw/manpages-dev/man2/execve.2:401 raw/manpages-dev/man2/execve.2:404 raw/manpages-dev/man2/execve.2:407
+#: raw/manpages-dev/man2/execve.2:394 raw/manpages-dev/man2/execve.2:401
+#: raw/manpages-dev/man2/execve.2:404 raw/manpages-dev/man2/execve.2:407
 #, no-wrap
 msgid "B<EACCES>"
 msgstr ""
@@ -536,7 +549,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/execve.2:407
-msgid "Execute permission is denied for the file or a script or ELF interpreter."
+msgid ""
+"Execute permission is denied for the file or a script or ELF interpreter."
 msgstr ""
 
 #. type: Plain text
@@ -672,7 +686,8 @@ msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/execve.2:465
-msgid "The system-wide limit on the total number of open files has been reached."
+msgid ""
+"The system-wide limit on the total number of open files has been reached."
 msgstr ""
 
 #. type: TP
@@ -727,7 +742,8 @@ msgid ""
 msgstr ""
 
 #. type: TP
-#: raw/manpages-dev/man2/execve.2:485 raw/manpages-dev/man2/execve.2:491 raw/manpages-dev/man2/execve.2:495
+#: raw/manpages-dev/man2/execve.2:485 raw/manpages-dev/man2/execve.2:491
+#: raw/manpages-dev/man2/execve.2:495
 #, no-wrap
 msgid "B<EPERM>"
 msgstr ""
@@ -799,8 +815,8 @@ msgid ""
 "The result of mounting a filesystem I<nosuid> varies across Linux kernel "
 "versions: some will refuse execution of set-user-ID and set-group-ID "
 "executables when this would give the user powers she did not have already "
-"(and return B<EPERM>), some will just ignore the set-user-ID and "
-"set-group-ID bits and B<exec>()  successfully."
+"(and return B<EPERM>), some will just ignore the set-user-ID and set-group-"
+"ID bits and B<exec>()  successfully."
 msgstr ""
 
 #.  e.g., EFAULT on Solaris 8 and FreeBSD 6.1; but
@@ -914,8 +930,8 @@ msgid ""
 "B<PF_NPROC_EXCEEDED> flag is set and the resource limit is still exceeded at "
 "the time of a subsequent B<execve>()  call, that call fails with the error "
 "B<EAGAIN>.  This kernel logic ensures that the B<RLIMIT_NPROC> resource "
-"limit is still enforced for the common privileged daemon "
-"workflow\\(emnamely, B<fork>(2)  + B<set*uid>()  + B<execve>()."
+"limit is still enforced for the common privileged daemon workflow\\"
+"(emnamely, B<fork>(2)  + B<set*uid>()  + B<execve>()."
 msgstr ""
 
 #. type: Plain text
@@ -1044,8 +1060,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    if (argc != 2) {\n"
-"        fprintf(stderr, \"Usage: %s E<lt>file-to-execE<gt>\\en\", "
-"argv[0]);\n"
+"        fprintf(stderr, \"Usage: %s E<lt>file-to-execE<gt>\\en\", argv[0]);\n"
 "        exit(EXIT_FAILURE);\n"
 "    }\n"
 msgstr ""
@@ -1143,6 +1158,6 @@ msgstr ""
 msgid ""
 "This page is part of release 4.09 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""

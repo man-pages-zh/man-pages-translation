@@ -79,8 +79,8 @@ msgid ""
 "numeric keypad, and again produce UTF-8."
 msgstr ""
 "对键盘来说，这意味着用户可以使用 B<loadkeys>(1) 将16位 U+xxxx 的值附加在键盘"
-"的按键上，并令其成为用户程序的 UTF-8 输入。同时，用户可以使用小键盘键入十六"
-"进制的 Alt-xxxx 字符，并同样产生 UTF-8 输入效果。"
+"的按键上，并令其成为用户程序的 UTF-8 输入。同时，用户可以使用小键盘键入十六进"
+"制的 Alt-xxxx 字符，并同样产生 UTF-8 输入效果。"
 
 #. type: Plain text
 #: raw/kbd/man1/unicode_start.1:23

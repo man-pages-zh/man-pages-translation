@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-03-05 23:51+0800\n"
+"POT-Creation-Date: 2026-07-12 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,27 +68,21 @@ msgstr ""
 #. type: Plain text
 #: raw/manpages-dev/man2/send.2:50
 #, no-wrap
-msgid ""
-"B<ssize_t send(int >I<sockfd>B<, const void *>I<buf>B<, size_t >I<len>B<, "
-"int >I<flags>B<);>\n"
+msgid "B<ssize_t send(int >I<sockfd>B<, const void *>I<buf>B<, size_t >I<len>B<, int >I<flags>B<);>\n"
 msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/send.2:54
 #, no-wrap
 msgid ""
-"B<ssize_t sendto(int >I<sockfd>B<, const void *>I<buf>B<, size_t >I<len>B<, "
-"int >I<flags>B<,>\n"
-"B<               const struct sockaddr *>I<dest_addr>B<, socklen_t "
-">I<addrlen>B<);>\n"
+"B<ssize_t sendto(int >I<sockfd>B<, const void *>I<buf>B<, size_t >I<len>B<, int >I<flags>B<,>\n"
+"B<               const struct sockaddr *>I<dest_addr>B<, socklen_t >I<addrlen>B<);>\n"
 msgstr ""
 
 #. type: Plain text
 #: raw/manpages-dev/man2/send.2:57
 #, no-wrap
-msgid ""
-"B<ssize_t sendmsg(int >I<sockfd>B<, const struct msghdr *>I<msg>B<, int "
-">I<flags>B<);>\n"
+msgid "B<ssize_t sendmsg(int >I<sockfd>B<, const struct msghdr *>I<msg>B<, int >I<flags>B<);>\n"
 msgstr ""
 
 #. type: SH
@@ -363,8 +357,8 @@ msgstr ""
 msgid ""
 "You may send control information using the I<msg_control> and "
 "I<msg_controllen> members.  The maximum control buffer length the kernel can "
-"process is limited per socket by the value in "
-"I</proc/sys/net/core/optmem_max>; see B<socket>(7)."
+"process is limited per socket by the value in I</proc/sys/net/core/"
+"optmem_max>; see B<socket>(7)."
 msgstr ""
 
 #.  Still to be documented:
@@ -452,8 +446,8 @@ msgid ""
 "(Internet domain datagram sockets)  The socket referred to by I<sockfd> had "
 "not previously been bound to an address and, upon attempting to bind it to "
 "an ephemeral port, it was determined that all port numbers in the ephemeral "
-"port range are currently in use.  See the discussion of "
-"I</proc/sys/net/ipv4/ip_local_port_range> in B<ip>(7)."
+"port range are currently in use.  See the discussion of I</proc/sys/net/ipv4/"
+"ip_local_port_range> in B<ip>(7)."
 msgstr ""
 
 #. type: TP
@@ -715,6 +709,6 @@ msgstr ""
 msgid ""
 "This page is part of release 4.09 of the Linux I<man-pages> project.  A "
 "description of the project, information about reporting bugs, and the latest "
-"version of this page, can be found at "
-"\\%https://www.kernel.org/doc/man-pages/."
+"version of this page, can be found at \\%https://www.kernel.org/doc/man-"
+"pages/."
 msgstr ""
