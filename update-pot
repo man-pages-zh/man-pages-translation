@@ -1,79 +1,15 @@
 #!/bin/sh
 #
-# update-pot -- Update pot file from upstream man page.
+# update-pot -- refresh the POT templates from the upstream man pages.
 #
-# Copyright (c) 2015-2020 Boyuan Yang <073plan@gmail.com>
-#
+# Copyright (c) 2015-2026 Boyuan Yang <073plan@gmail.com>
 # This script is released into the Public Domain.
 #
-#
-# Upstream man pages should be extracted into subdirs inside "raw/" directory
-# in advance.
-#
-# If no pot files were found, this script should do things like "gettextize"
-# using po4a-gettextize.
-#
-# Directories:
-# ------------
-# * raw/
-# * templates/
-# * po/
-#
-
-POT_DIR="templates"
+# NOTE: with the unified po4a(1), the POT templates and the PO catalogs are
+# refreshed together in a single pass, so there is no longer a separate
+# POT-only step -- this is now equivalent to ./update-po and is kept only for
+# backwards compatibility.
 
 set -e
 
-logv() {
-    printf "%s\n" "$1"
-}
-
-test_po4a() {
-    if ! command -v po4a-updatepo > /dev/null 2> /dev/null ; then
-        logv "E: You must install po4a before proceeding!"
-        exit 1
-    fi
-}
-
-test_po4a
-printf "%s\n" "# UPDATE-POT ###############################"
-for pkgdir in raw/*; do
-    if ! [ -d "${pkgdir}" ]; then
-        logv "${pkgdir} not a dir, skipping..."
-        continue
-    fi
-    logv "found dir ${pkgdir}..."
-    for mansection in 1 2 3 4 5 6 7 8; do
-        _rawmandir="${pkgdir}/man${mansection}"
-        if ! [ -e "${_rawmandir}" ]; then
-            continue
-        fi
-        for manfile in "${_rawmandir}"/*; do
-            if [ -L "${manfile}" ]; then
-                continue
-            fi
-
-            # Now $manfile is the one needs process
-            _package_name="$(basename "${pkgdir}")"
-            _section_name="${mansection}"
-            _command_name="$(basename "${manfile}" | rev | cut -d"." -f2- | rev)"
-            logv "pkgname: ${_package_name}, section: ${_section_name}, command: ${_command_name}"
-
-            # TODO FINISH ME
-            _potfile="${POT_DIR}/${_package_name}/man${_section_name}/$(basename "${manfile}").pot"
-            mkdir -p "$(dirname "${_potfile}")"
-            #if ! [ -e "${_potfile}" ]; then
-            #    po4a-gettextize -f man -m "${manfile}" -p "${_potfile}"
-            #    logv "New pot file ${_potfile} created."
-            #else
-            #fi
-            po4a-updatepo -f man -m "${manfile}" -M utf8 -p "${_potfile}" -o 'groff_code=translate'
-            if [ "x$?" != "x0" ]; then
-                logv "W: po4a exited with status code ${?}."
-            fi
-            logv "Processed ${_potfile}..."
-
-        done
-    done
-done
-printf "%s\n" "# UPDATE-POT ### END ##########################"
+exec "$(dirname "$0")/update-po"

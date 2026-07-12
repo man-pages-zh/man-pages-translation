@@ -1,25 +1,20 @@
 #!/bin/sh
 #
-# update-release - update released translated man pages
+# update-release -- (re)generate the released, translated man pages under src/.
 #
-# Copyright (c) 2015-2020 Boyuan Yang <073plan@gmail.com>
-#
+# Copyright (c) 2015-2026 Boyuan Yang <073plan@gmail.com>
 # This script is released into the Public Domain.
 #
+# Builds src/*/man*/* from the upstream man pages and the existing PO catalogs
+# using the unified po4a(1) with --no-update, so no POT/PO file is modified.
+# As with the previous po4a-translate step, only translations at or above
+# po4a's default threshold (80%) are written out; pages below it are skipped and
+# any existing output for them is left untouched.
 
 set -e
 
-_MAN_LANG=zh_CN
+. "$(dirname "$0")/update-lib.sh"
 
-printf "%s\n" "# UPDATE-RELEASE #############################"
-for manfile in raw/*/man*/*; do
-    pofile="po/$(dirname "${manfile}" | cut -d/ -f2-)/$(basename "${manfile}").${_MAN_LANG}.po"
-    if ! [ -f "${pofile}" ]; then
-        continue
-    fi
-    releasefile="src/$(dirname "${manfile}" | cut -d/ -f2-)/$(basename "${manfile}")"
-    po4a-translate -M "UTF-8" -L "UTF-8" -f man -m "${manfile}" -p "${pofile}" -l "${releasefile}" -o 'groff_code=translate'
-    po4a_retvalue="${?}"
-    printf "%s\n" "Tried to generate ${releasefile}... retvalue: ${po4a_retvalue}"
-done
-printf "%s\n" "# UPDATE-RELEASE ### END #####################"
+printf '# UPDATE-RELEASE (po4a --no-update, %s jobs) #####\n' "$_PO4A_JOBS"
+run_po4a "--no-update"
+printf '# UPDATE-RELEASE ### END #########################\n'

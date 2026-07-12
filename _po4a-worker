@@ -1,0 +1,46 @@
+#!/bin/sh
+#
+# _po4a-worker -- internal helper for the update-* scripts; not meant to be run
+# by hand. Processes a single upstream man page with the unified po4a(1).
+#
+# Copyright (c) 2015-2026 Boyuan Yang <073plan@gmail.com>
+# This file is released into the Public Domain.
+#
+# Usage: _po4a-worker LANG MODE MASTER
+#   LANG    target language, e.g. zh_CN
+#   MODE    extra po4a flag: "" | --no-translations | --no-update
+#   MASTER  path to an upstream man page under raw/<pkg>/man<N>/<file>
+#
+# A throwaway one-file po4a config is built so that the page is handled in
+# isolation (no shared compendium across pages -- see update-lib.sh), then the
+# unified po4a is run on it. This replaces the deprecated po4a-updatepo and
+# po4a-translate calls and produces templates/<...>.pot, po/<...>.LANG.po and
+# src/<...> exactly where the old scripts did.
+
+set -e
+
+_lang="$1"
+_mode="$2"
+_master="$3"
+
+_rel="${_master#raw/}"                  # <pkg>/man<N>/<file>
+_pot="templates/${_rel}.pot"
+_po="po/${_rel}.${_lang}.po"
+_out="src/${_rel}"
+
+mkdir -p "$(dirname "$_pot")" "$(dirname "$_po")" "$(dirname "$_out")"
+
+_cfg="$(mktemp)"
+trap 'rm -f "$_cfg"' EXIT INT TERM
+
+# $master is expanded by po4a to the pot= value below, so templates/po/src all
+# land under the <pkg>/man<N>/ subtree. groff_code=translate matches the option
+# the previous scripts passed to po4a.
+cat > "$_cfg" <<EOF
+[po4a_langs] ${_lang}
+[po4a_paths] templates/\$master.pot \$lang:po/\$master.\$lang.po
+[type: man] ${_master} \$lang:${_out} pot=${_rel} opt:"-o groff_code=translate"
+EOF
+
+# shellcheck disable=SC2086  # $_mode must word-split (it may be empty)
+po4a ${_mode} "$_cfg"

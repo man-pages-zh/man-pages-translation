@@ -1,15 +1,20 @@
 #!/bin/sh
-
-# Copyright (c) 2015-2020 Boyuan Yang <073plan@gmail.com>
 #
+# update-all -- one-shot refresh of the whole translation tree.
+#
+# Copyright (c) 2015-2026 Boyuan Yang <073plan@gmail.com>
 # This script is released into the Public Domain.
+#
+# Updates templates/*.pot and po/*.po from the upstream man pages AND regenerates
+# the translated man pages under src/, using a single parallel po4a pass per
+# page. Previously this ran update-pot, update-po and update-release one after
+# another (three sequential passes over every file); the unified po4a(1) does all
+# three phases at once, so this is both simpler and much faster.
 
 set -e
 
-main() {
-    ./update-pot
-    ./update-po
-    ./update-release
-}
+. "$(dirname "$0")/update-lib.sh"
 
-main
+printf '# UPDATE-ALL (po4a, %s parallel jobs) ############\n' "$_PO4A_JOBS"
+run_po4a ""
+printf '# UPDATE-ALL ### END #############################\n'
