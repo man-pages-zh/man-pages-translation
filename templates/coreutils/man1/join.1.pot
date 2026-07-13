@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-07-12 15:29-0400\n"
+"POT-Creation-Date: 2026-07-13 11:32-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgstr ""
 #. type: TH
 #: raw/coreutils/man1/join.1:2
 #, no-wrap
-msgid "September 2022"
+msgid "April 2026"
 msgstr ""
 
 #. type: TH
 #: raw/coreutils/man1/join.1:2
 #, no-wrap
-msgid "GNU coreutils 9.1"
+msgid "GNU coreutils 9.11"
 msgstr ""
 
 #. type: TH
@@ -83,7 +83,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:15
 #, no-wrap
-msgid "B<-a> FILENUM"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-a'B<-a FILENUM>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -96,7 +96,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:19
 #, no-wrap
-msgid "B<-e> STRING"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-e'B<-e STRING>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -109,7 +109,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:23
 #, no-wrap
-msgid "B<-i>, B<--ignore-case>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-i'B<-i, --ignore-case>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -120,7 +120,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:26
 #, no-wrap
-msgid "B<-j> FIELD"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-j'B<-j FIELD>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -131,7 +131,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:29
 #, no-wrap
-msgid "B<-o> FORMAT"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-o'B<-o FORMAT>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -142,7 +142,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:32
 #, no-wrap
-msgid "B<-t> CHAR"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-t'B<-t CHAR>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -153,7 +153,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:35
 #, no-wrap
-msgid "B<-v> FILENUM"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-v'B<-v FILENUM>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -164,7 +164,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:38
 #, no-wrap
-msgid "B<-1> FIELD"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-1'B<-1 FIELD>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -175,7 +175,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:41
 #, no-wrap
-msgid "B<-2> FIELD"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-2'B<-2 FIELD>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -186,7 +186,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:44
 #, no-wrap
-msgid "B<--check-order>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--check-order'B<--check-order>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -199,7 +199,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:48
 #, no-wrap
-msgid "B<--nocheck-order>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--nocheck-order'B<--nocheck-order>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -210,7 +210,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:51
 #, no-wrap
-msgid "B<--header>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--header'B<--header>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -223,7 +223,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:55
 #, no-wrap
-msgid "B<-z>, B<--zero-terminated>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-z'B<-z, --zero-terminated>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -234,7 +234,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:58
 #, no-wrap
-msgid "B<--help>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/join#join--help'B<--help>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -245,7 +245,7 @@ msgstr ""
 #. type: TP
 #: raw/coreutils/man1/join.1:61
 #, no-wrap
-msgid "B<--version>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/join#join--version'B<--version>\\X'tty: link'"
 msgstr ""
 
 #. type: Plain text
@@ -270,7 +270,7 @@ msgstr ""
 msgid ""
 "Important: FILE1 and FILE2 must be sorted on the join fields.  E.g., use "
 "\"sort B<-k> 1b,1\" if 'join' has no options, or use \"join B<-t> ''\" if "
-"'sort' has no options.  Note, comparisons honor the rules specified by "
+"'sort' has no options.  Comparisons honor the rules specified by "
 "'LC_COLLATE'.  If the input is not sorted and some lines cannot be joined, a "
 "warning message will be given."
 msgstr ""
@@ -294,54 +294,64 @@ msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:83
-msgid ""
-"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgid "Report bugs to: bug-coreutils@gnu.org"
 msgstr ""
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:85
+msgid ""
+"GNU coreutils home page: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/join.1:87
+msgid "General help using GNU software: E<lt>https://www.gnu.org/gethelp/E<gt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/coreutils/man1/join.1:89
 msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/join.1:85
+#: raw/coreutils/man1/join.1:89
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:88
+#: raw/coreutils/man1/join.1:92
 msgid ""
-"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2026 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:91
+#: raw/coreutils/man1/join.1:95
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: SH
-#: raw/coreutils/man1/join.1:91
+#: raw/coreutils/man1/join.1:95
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:93
+#: raw/coreutils/man1/join.1:97
 msgid "B<comm>(1), B<uniq>(1)"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:96
+#: raw/coreutils/man1/join.1:100
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/joinE<gt>"
 msgstr ""
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:97
+#: raw/coreutils/man1/join.1:101
 msgid "or available locally via: info \\(aq(coreutils) join invocation\\(aq"
 msgstr ""

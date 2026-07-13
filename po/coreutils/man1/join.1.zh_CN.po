@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-07-12 15:29-0400\n"
-"PO-Revision-Date: 2022-12-08 15:25-0500\n"
-"Last-Translator: Yang, Boyuan <073plan@gmail.com>\n"
+"POT-Creation-Date: 2026-07-13 11:32-0400\n"
+"PO-Revision-Date: 2026-07-13 12:00-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: TH
 #: raw/coreutils/man1/join.1:2
@@ -27,14 +27,14 @@ msgstr "JOIN"
 #. type: TH
 #: raw/coreutils/man1/join.1:2
 #, no-wrap
-msgid "September 2022"
-msgstr "2022年9月"
+msgid "April 2026"
+msgstr "2026年四月"
 
 #. type: TH
 #: raw/coreutils/man1/join.1:2
 #, no-wrap
-msgid "GNU coreutils 9.1"
-msgstr "GNU coreutils 9.1"
+msgid "GNU coreutils 9.11"
+msgstr "GNU coreutils 9.11"
 
 #. type: TH
 #: raw/coreutils/man1/join.1:2
@@ -51,7 +51,7 @@ msgstr "名称"
 #. type: Plain text
 #: raw/coreutils/man1/join.1:5
 msgid "join - join lines of two files on a common field"
-msgstr ""
+msgstr "join - 根据公共字段连接两个文件的行"
 
 #. type: SH
 #: raw/coreutils/man1/join.1:5
@@ -82,13 +82,13 @@ msgstr ""
 #. type: Plain text
 #: raw/coreutils/man1/join.1:15
 msgid "When FILE1 or FILE2 (not both) is -, read standard input."
-msgstr ""
+msgstr "当 文件1 或 文件2 为 - 时（不能两者同时为 -），从标准输入读取。"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:15
 #, no-wrap
-msgid "B<-a> FILENUM"
-msgstr ""
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-a'B<-a FILENUM>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-a'B<-a 文件编号>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:19
@@ -96,12 +96,14 @@ msgid ""
 "also print unpairable lines from file FILENUM, where FILENUM is 1 or 2, "
 "corresponding to FILE1 or FILE2"
 msgstr ""
+"同时打印文件编号所对应文件的无法配对的行，其中文件编号可以是 1 或者 2，分别对"
+"应于 文件1 或 文件2"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:19
 #, no-wrap
-msgid "B<-e> STRING"
-msgstr ""
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-e'B<-e STRING>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-e'B<-e 字符串>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:23
@@ -109,34 +111,35 @@ msgid ""
 "replace missing (empty) input fields with STRING; I.e., missing fields "
 "specified with '-12jo' options"
 msgstr ""
+"用给定字符串替换缺失的（空）输入字段；即，由 '-12jo' 选项指定的缺失字段"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:23
 #, no-wrap
-msgid "B<-i>, B<--ignore-case>"
-msgstr "B<-i>, B<--ignore-case>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-i'B<-i, --ignore-case>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-i'B<-i, --ignore-case>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:26
 msgid "ignore differences in case when comparing fields"
-msgstr "比较各个域时忽略大小写"
+msgstr "比较各个域时忽略大小写差异"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:26
 #, no-wrap
-msgid "B<-j> FIELD"
-msgstr "B<-j> 域"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-j'B<-j FIELD>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-j'B<-j 字段>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:29
 msgid "equivalent to '-1 FIELD B<-2> FIELD'"
-msgstr "等效于 \"-1 域 B<-2> 域\""
+msgstr "等效于 \"-1 字段 B<-2> 字段\""
 
 #. type: TP
 #: raw/coreutils/man1/join.1:29
 #, no-wrap
-msgid "B<-o> FORMAT"
-msgstr "B<-o> 格式"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-o'B<-o FORMAT>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-o'B<-o 格式>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:32
@@ -146,89 +149,89 @@ msgstr "按照指定格式构造输出行"
 #. type: TP
 #: raw/coreutils/man1/join.1:32
 #, no-wrap
-msgid "B<-t> CHAR"
-msgstr "B<-t> 字符"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-t'B<-t CHAR>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-t'B<-t 字符>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:35
 msgid "use CHAR as input and output field separator"
-msgstr "使用指定字符作为输入和输出域的分隔符"
+msgstr "使用指定字符作为输入和输出字段的分隔符"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:35
 #, no-wrap
-msgid "B<-v> FILENUM"
-msgstr ""
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-v'B<-v FILENUM>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-v'B<-v 文件编号>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:38
 msgid "like B<-a> FILENUM, but suppress joined output lines"
-msgstr ""
+msgstr "类似 B<-a> 文件编号，但不输出已连接的行"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:38
 #, no-wrap
-msgid "B<-1> FIELD"
-msgstr ""
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-1'B<-1 FIELD>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-1'B<-1 字段>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:41
 msgid "join on this FIELD of file 1"
-msgstr ""
+msgstr "根据 文件1 的该字段进行连接"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:41
 #, no-wrap
-msgid "B<-2> FIELD"
-msgstr ""
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-2'B<-2 FIELD>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-2'B<-2 字段>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:44
 msgid "join on this FIELD of file 2"
-msgstr ""
+msgstr "根据 文件2 的该字段进行连接"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:44
 #, no-wrap
-msgid "B<--check-order>"
-msgstr "B<--check-order>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--check-order'B<--check-order>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--check-order'B<--check-order>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:48
 msgid ""
 "check that the input is correctly sorted, even if all input lines are "
 "pairable"
-msgstr ""
+msgstr "检查输入是否正确排序，即便所有输出行均可配对"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:48
 #, no-wrap
-msgid "B<--nocheck-order>"
-msgstr "B<--nocheck-order>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--nocheck-order'B<--nocheck-order>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--nocheck-order'B<--nocheck-order>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:51
 msgid "do not check that the input is correctly sorted"
-msgstr ""
+msgstr "不要检查输入是否正确排序"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:51
 #, no-wrap
-msgid "B<--header>"
-msgstr "B<--header>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--header'B<--header>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join--header'B<--header>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:55
 msgid ""
 "treat the first line in each file as field headers, print them without "
 "trying to pair them"
-msgstr ""
+msgstr "将每个文件的第一行视为字段标题，将其打印出来且不尝试进行配对"
 
 #. type: TP
 #: raw/coreutils/man1/join.1:55
 #, no-wrap
-msgid "B<-z>, B<--zero-terminated>"
-msgstr "B<-z>, B<--zero-terminated>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-z'B<-z, --zero-terminated>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/manual/coreutils.html#join-z'B<-z, --zero-terminated>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:58
@@ -238,8 +241,8 @@ msgstr "以 NUL 作为行的分隔符，而非换行符"
 #. type: TP
 #: raw/coreutils/man1/join.1:58
 #, no-wrap
-msgid "B<--help>"
-msgstr "B<--help>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/join#join--help'B<--help>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/join#join--help'B<--help>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:61
@@ -249,8 +252,8 @@ msgstr "显示此帮助信息并退出"
 #. type: TP
 #: raw/coreutils/man1/join.1:61
 #, no-wrap
-msgid "B<--version>"
-msgstr "B<--version>"
+msgid "\\X'tty: link https://www.gnu.org/software/coreutils/join#join--version'B<--version>\\X'tty: link'"
+msgstr "\\X'tty: link https://www.gnu.org/software/coreutils/join#join--version'B<--version>\\X'tty: link'"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:64
@@ -268,16 +271,26 @@ msgid ""
 "by CHAR.  If FORMAT is the keyword 'auto', then the first line of each file "
 "determines the number of fields output for each line."
 msgstr ""
+"除非给出了 B<-t> 字符，前导空白字符将被用于分隔字段并被忽略；否则给定的字符将"
+"被用来分隔字段。任何给定的字段应为从 1 开始计数的字段编号。给定的格式应为一个"
+"或多个以逗号或空白字符分隔的规范字串，其中每个字串格式为“文件编号.字段”或"
+"者“0”。默认的格式将输出被连接的字段、来自 文件1 的剩余字段以及来自 文件2 的剩"
+"余字段；它们都由给定分隔用字符所分隔。如果给定格式字串为“auto”关键字，那么每"
+"个文件的第一行决定每行输出的字段数量。"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:79
 msgid ""
 "Important: FILE1 and FILE2 must be sorted on the join fields.  E.g., use "
 "\"sort B<-k> 1b,1\" if 'join' has no options, or use \"join B<-t> ''\" if "
-"'sort' has no options.  Note, comparisons honor the rules specified by "
+"'sort' has no options.  Comparisons honor the rules specified by "
 "'LC_COLLATE'.  If the input is not sorted and some lines cannot be joined, a "
 "warning message will be given."
 msgstr ""
+"重要提示：文件1 和 文件2 必须按照连接字段排序。例如，如果 'join' 没有选项，则"
+"使用 \"sort B<-k> 1b,1\"；或者如果 'sort' 没有选项则使用 \"join B<-t> \\(aq\\"
+"(aq\"。比较遵循“LC_COLLATE”指定的规则。如果输入未排序且某些行无法连接，程序将"
+"会给出警告信息。"
 
 #. type: SH
 #: raw/coreutils/man1/join.1:79
@@ -298,35 +311,44 @@ msgstr "报告错误"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:83
-msgid ""
-"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
-msgstr ""
-"GNU coreutils 的在线帮助： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgid "Report bugs to: bug-coreutils@gnu.org"
+msgstr "请报告问题至：bug-coreutils@gnu.org"
 
 #. type: Plain text
 #: raw/coreutils/man1/join.1:85
 msgid ""
+"GNU coreutils home page: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr "GNU coreutils 主页： E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: raw/coreutils/man1/join.1:87
+msgid "General help using GNU software: E<lt>https://www.gnu.org/gethelp/E<gt>"
+msgstr "使用 GNU 软件的通用帮助： E<lt>https://www.gnu.org/gethelp/E<gt>"
+
+#. type: Plain text
+#: raw/coreutils/man1/join.1:89
+msgid ""
 "Report any translation bugs to E<lt>https://translationproject.org/team/E<gt>"
 msgstr ""
-"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误。"
+"请向 E<lt>https://translationproject.org/team/zh_CN.htmlE<gt> 报告翻译错误"
 
 #. type: SH
-#: raw/coreutils/man1/join.1:85
+#: raw/coreutils/man1/join.1:89
 #, no-wrap
 msgid "COPYRIGHT"
 msgstr "版权"
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:88
+#: raw/coreutils/man1/join.1:92
 msgid ""
-"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"Copyright \\(co 2026 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
 "version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
 msgstr ""
-"Copyright \\(co 2022 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
-"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+"版权所有 \\(co 2026 自由软件基金会。许可证 GPLv3+: GNU GPL 第 3 版或更新版本 "
+"E<lt>https://gnu.org/licenses/gpl.htmlE<gt>。"
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:91
+#: raw/coreutils/man1/join.1:95
 msgid ""
 "This is free software: you are free to change and redistribute it.  There is "
 "NO WARRANTY, to the extent permitted by law."
@@ -335,23 +357,23 @@ msgstr ""
 "保证。"
 
 #. type: SH
-#: raw/coreutils/man1/join.1:91
+#: raw/coreutils/man1/join.1:95
 #, no-wrap
 msgid "SEE ALSO"
 msgstr "参见"
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:93
+#: raw/coreutils/man1/join.1:97
 msgid "B<comm>(1), B<uniq>(1)"
 msgstr "B<comm>(1), B<uniq>(1)"
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:96
+#: raw/coreutils/man1/join.1:100
 msgid ""
 "Full documentation E<lt>https://www.gnu.org/software/coreutils/joinE<gt>"
 msgstr "完整文档请见： E<lt>https://www.gnu.org/software/coreutils/joinE<gt>"
 
 #. type: Plain text
-#: raw/coreutils/man1/join.1:97
+#: raw/coreutils/man1/join.1:101
 msgid "or available locally via: info \\(aq(coreutils) join invocation\\(aq"
 msgstr "或者在本地使用： info \\(aq(coreutils) join invocation\\(aq"
