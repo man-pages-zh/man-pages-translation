@@ -1,0 +1,475 @@
+# Chinese translations for PACKAGE package
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-07-14 19:54-0400\n"
+"PO-Revision-Date: 2026-07-14 20:09-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#. type: TH
+#: raw/autoconf/man1/autoconf.1:2
+#, no-wrap
+msgid "AUTOCONF"
+msgstr "AUTOCONF"
+
+#. type: TH
+#: raw/autoconf/man1/autoconf.1:2
+#, no-wrap
+msgid "March 2026"
+msgstr "2026年三月"
+
+#. type: TH
+#: raw/autoconf/man1/autoconf.1:2
+#, no-wrap
+msgid "GNU Autoconf 2.73"
+msgstr "GNU Autoconf 2.73"
+
+#. type: TH
+#: raw/autoconf/man1/autoconf.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "用户命令"
+
+#. type: SH
+#: raw/autoconf/man1/autoconf.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:5
+msgid "autoconf - Generate configuration scripts"
+msgstr "autoconf - 生成配置脚本"
+
+#. type: SH
+#: raw/autoconf/man1/autoconf.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:8
+msgid "B<autoconf> [I<\\,OPTION\\/>]... [I<\\,TEMPLATE-FILE\\/>]"
+msgstr "B<autoconf> [I<\\,选项\\/>]... [I<\\,模板文件\\/>]"
+
+#. type: SH
+#: raw/autoconf/man1/autoconf.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:13
+msgid ""
+"Generate a configuration script from a TEMPLATE-FILE if given, or "
+"\\&'configure.ac' if present, or else 'configure.in'.  Output is sent to the "
+"standard output if TEMPLATE-FILE is given, else into \\&'configure'."
+msgstr ""
+"如果给定了模板文件，则据其生成配置脚本；否则 \\&'configure.ac' 则使用它，再否"
+"则使用 'configure.in'。如果给定了模板文件，则输出被送往标准输出，否则送入 "
+"\\&'configure'。"
+
+#. type: SS
+#: raw/autoconf/man1/autoconf.1:13
+#, no-wrap
+msgid "Operation modes:"
+msgstr "工作模式："
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:14
+#, no-wrap
+msgid "B<-h>, B<--help>"
+msgstr "B<-h>, B<--help>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:17
+msgid "print this help, then exit"
+msgstr "打印该帮助消息，然后退出"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:17
+#, no-wrap
+msgid "B<-V>, B<--version>"
+msgstr "B<-V>, B<--version>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:20
+msgid "print version number, then exit"
+msgstr "打印版本号，然后退出"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:20
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--verbose>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:23
+msgid "verbosely report processing"
+msgstr "详细报告处理过程"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:23
+#, no-wrap
+msgid "B<-d>, B<--debug>"
+msgstr "B<-d>, B<--debug>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:26
+msgid "don't remove temporary files"
+msgstr "不删除临时文件"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:26
+#, no-wrap
+msgid "B<-f>, B<--force>"
+msgstr "B<-f>, B<--force>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:29
+msgid "consider all files obsolete"
+msgstr "将所有文件视为过时"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:29
+#, no-wrap
+msgid "B<-o>, B<--output>=I<\\,FILE\\/>"
+msgstr "B<-o>, B<--output>=I<\\,文件\\/>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:32
+msgid "save output in FILE (stdout is the default)"
+msgstr "将输出保存到指定文件中（默认为标准输出）"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:32
+#, no-wrap
+msgid "B<-W>, B<--warnings>=I<\\,CATEGORY\\/>"
+msgstr "B<-W>, B<--warnings>=I<\\,类别\\/>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:36
+msgid "report the warnings falling in CATEGORY (comma-separated list accepted)"
+msgstr "报告属于指定类别的警告（可接受逗号分隔的列表）"
+
+#. type: SS
+#: raw/autoconf/man1/autoconf.1:36
+#, no-wrap
+msgid "Warning categories are:"
+msgstr "警告类别包括："
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:37
+#, no-wrap
+msgid "cross"
+msgstr "cross"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:40
+msgid "cross compilation issues"
+msgstr "交叉编译事项"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:40
+#, no-wrap
+msgid "gnu"
+msgstr "gnu"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:43
+msgid "GNU coding standards (default in gnu and gnits modes)"
+msgstr "GNU 编程规范（在 gnu 和 gnits 模式下默认启用）"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:43
+#, no-wrap
+msgid "obsolete"
+msgstr "obsolete"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:46
+msgid "obsolete features or constructions (default)"
+msgstr "过时的特性或构造（默认启用）"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:46
+#, no-wrap
+msgid "override"
+msgstr "override"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:49
+msgid "user redefinitions of Automake rules or variables"
+msgstr "用户对 Automake 规则或变量的重新定义"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:49
+#, no-wrap
+msgid "portability"
+msgstr "portability"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:52
+msgid "portability issues (default in gnu and gnits modes)"
+msgstr "可移植性事项（在 gnu 和 gnits 模式下默认启用）"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:52
+#, no-wrap
+msgid "portability-recursive"
+msgstr "portability-recursive"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:55
+msgid "nested Make variables (default with B<-Wportability>)"
+msgstr "嵌套的 Make 变量（在使用 B<-Wportability> 时默认启用）"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:55
+#, no-wrap
+msgid "extra-portability"
+msgstr "extra-portability"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:58
+msgid "extra portability issues related to obscure tools"
+msgstr "与冷门工具相关的额外可移植性事项"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:58
+#, no-wrap
+msgid "syntax"
+msgstr "syntax"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:61
+msgid "dubious syntactic constructs (default)"
+msgstr "可疑的语法构造（默认启用）"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:61
+#, no-wrap
+msgid "unsupported"
+msgstr "unsupported"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:64
+msgid "unsupported or incomplete features (default)"
+msgstr "不支持或不完整的特性（默认启用）"
+
+#. type: SS
+#: raw/autoconf/man1/autoconf.1:64
+#, no-wrap
+msgid "-W also understands:"
+msgstr "-W 同时理解下面的参数："
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:65
+#, no-wrap
+msgid "all"
+msgstr "all"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:68
+msgid "turn on all the warnings"
+msgstr "启用所有警告"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:68
+#, no-wrap
+msgid "none"
+msgstr "none"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:71
+msgid "turn off all the warnings"
+msgstr "关闭所有警告"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:71
+#, no-wrap
+msgid "no-CATEGORY"
+msgstr "no-类别"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:74
+msgid "turn off warnings in CATEGORY"
+msgstr "关闭指定类别的警告"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:74
+#, no-wrap
+msgid "error"
+msgstr "error"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:77
+msgid "treat all enabled warnings as errors"
+msgstr "将所有启用的警告视为错误"
+
+#. type: SS
+#: raw/autoconf/man1/autoconf.1:77
+#, no-wrap
+msgid "Library directories:"
+msgstr "库目录："
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:78
+#, no-wrap
+msgid "B<-B>, B<--prepend-include>=I<\\,DIR\\/>"
+msgstr "B<-B>, B<--prepend-include>=I<\\,目录\\/>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:81
+msgid "prepend directory DIR to search path"
+msgstr "将指定目录添加到搜索路径的开头"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:81
+#, no-wrap
+msgid "B<-I>, B<--include>=I<\\,DIR\\/>"
+msgstr "B<-I>, B<--include>=I<\\,目录\\/>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:84
+msgid "append directory DIR to search path"
+msgstr "将指定目录追加到搜索路径的末尾"
+
+#. type: SS
+#: raw/autoconf/man1/autoconf.1:84
+#, no-wrap
+msgid "Tracing:"
+msgstr "追踪："
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:85
+#, no-wrap
+msgid "B<-t>, B<--trace>=I<\\,MACRO[\\/>:FORMAT]"
+msgstr "B<-t>, B<--trace>=I<\\,宏[\\/>:格式]"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:88
+msgid "report the list of calls to MACRO"
+msgstr "报告对指定宏的调用列表"
+
+#. type: TP
+#: raw/autoconf/man1/autoconf.1:88
+#, no-wrap
+msgid "B<-i>, B<--initialization>"
+msgstr "B<-i>, B<--initialization>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:91
+msgid "also trace Autoconf's initialization process"
+msgstr "同时追踪 Autoconf 的初始化过程"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:94
+msgid ""
+"In tracing mode, no configuration script is created.  FORMAT defaults to '$f:"
+"$l:$n:$%'; see 'autom4te B<--help>' for information about FORMAT."
+msgstr ""
+"在追踪模式下，不会创建配置脚本。FORMAT 默认为 '$f:$l:$n:$%'；有关 FORMAT 的信"
+"息请参见 'autom4te B<--help>'。"
+
+#. type: SH
+#: raw/autoconf/man1/autoconf.1:94
+#, no-wrap
+msgid "AUTHOR"
+msgstr "作者"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:96
+msgid "Written by David J. MacKenzie and Akim Demaille."
+msgstr "由 David J. MacKenzie 和 Akim Demaille 编写。"
+
+#. type: SH
+#: raw/autoconf/man1/autoconf.1:96
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "报告错误"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:103
+msgid ""
+"Report bugs to E<.MT bug-autoconf@gnu.org> E<.ME ,> or via Savannah: E<.UR "
+"https://savannah.gnu.org/support/?group=autoconf> E<.UE .>"
+msgstr ""
+"请将错误报告至 E<.MT bug-autoconf@gnu.org> E<.ME ,> 或通过 Savannah 报告："
+"E<.UR https://savannah.gnu.org/support/?group=autoconf> E<.UE .>"
+
+#. type: SH
+#: raw/autoconf/man1/autoconf.1:103
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "版权"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:107
+msgid ""
+"Copyright \\(co 2026 Free Software Foundation, Inc.  License GPLv3+/"
+"Autoconf: GNU GPL version 3 or later E<lt>https://gnu.org/licenses/"
+"gpl.htmlE<gt>, E<lt>https://gnu.org/licenses/exceptions.htmlE<gt>"
+msgstr ""
+"版权所有 \\(co 2026 Free Software Foundation, Inc.  许可证 GPLv3+/Autoconf："
+"GNU GPL 第 3 版或更新版本 E<lt>https://gnu.org/licenses/gpl.htmlE<gt>, "
+"E<lt>https://gnu.org/licenses/exceptions.htmlE<gt>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:110
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"这是自由软件：您可以自由地更改并对其重新发布。在法律所允许的范围内不含任何担"
+"保。"
+
+#. type: SH
+#: raw/autoconf/man1/autoconf.1:110
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "亦见"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:121
+msgid ""
+"B<autoconf>(1), B<automake>(1), B<autoreconf>(1), B<autoupdate>(1), "
+"B<autoheader>(1), B<autoscan>(1), B<config.guess>(1), B<config.sub>(1), "
+"B<ifnames>(1), B<libtool>(1)."
+msgstr ""
+"B<autoconf>(1), B<automake>(1), B<autoreconf>(1), B<autoupdate>(1), "
+"B<autoheader>(1), B<autoscan>(1), B<config.guess>(1), B<config.sub>(1), "
+"B<ifnames>(1), B<libtool>(1)."
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:124
+msgid ""
+"The full documentation for Autoconf is maintained as a Texinfo manual.  To "
+"read the manual locally, use the command"
+msgstr ""
+"Autoconf 的完整文档以 Texinfo 手册的形式维护。要在本地阅读该手册，请使用以下"
+"命令"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:126
+msgid "B<info autoconf>"
+msgstr "B<info autoconf>"
+
+#. type: Plain text
+#: raw/autoconf/man1/autoconf.1:129
+msgid ""
+"You can also consult the Web version of the manual at E<.UR https://gnu.org/"
+"software/autoconf/manual/> E<.UE .>"
+msgstr ""
+"您也可以在以下网址查阅手册的网页版本：E<.UR https://gnu.org/software/"
+"autoconf/manual/> E<.UE .>"
