@@ -1,0 +1,675 @@
+# Chinese translations for PACKAGE package
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-19 16:52+0800\n"
+"PO-Revision-Date: 2026-10-19 16:52+0800\n"
+"Last-Translator: manpages-zh contributors\n"
+"Language: zh_CN\n"
+"Language-Team: none\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#. type: TH
+#: raw/findutils/man1/locate.1:1
+#, no-wrap
+msgid "LOCATE"
+msgstr "LOCATE"
+
+#. type: SH
+#: raw/findutils/man1/locate.1:2
+#, no-wrap
+msgid "NAME"
+msgstr "名称"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:4
+msgid "locate - list files in databases that match a pattern"
+msgstr "locate - 列出数据库中与模式匹配的文件"
+
+#. type: SH
+#: raw/findutils/man1/locate.1:4
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "概述"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:24
+msgid ""
+"B<locate> [-d path | --database=path] [-e | -E | --[non-]existing] [-i | "
+"--ignore-case] [-0 | --null] [-c | --count] [-w | --wholename] [-b | "
+"--basename] [-l N | --limit=N] [-S | --statistics] [-r | --regex ] "
+"[--max-database-age D] [-P | -H | --nofollow] [-L | --follow] [--version]"
+" [-A | --all] [-p | --print] [--help] pattern..."
+msgstr ""
+"B<locate> [-d 路径 | --database=路径] [-e | -E | --[non-]existing] [-i | "
+"--ignore-case] [-0 | --null] [-c | --count] [-w | --wholename] [-b | "
+"--basename] [-l N | --limit=N] [-S | --statistics] [-r | --regex ] "
+"[--max-database-age D] [-P | -H | --nofollow] [-L | --follow] [--version]"
+" [-A | --all] [-p | --print] [--help] 模式..."
+
+#. type: SH
+#: raw/findutils/man1/locate.1:24
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:38
+msgid ""
+"This manual page documents the GNU version of B<locate>.  For each given "
+"pattern, B<locate> searches one or more databases of file names and "
+"displays the file names that contain the pattern.  Patterns can contain "
+"shell-style metacharacters: `*', `?', and `[]'.  The metacharacters do "
+"not treat `/' or `.' specially.  Therefore, a pattern `foo*bar' can match"
+" a file name that contains `foo3/bar', and a pattern `*duck*' can match a"
+" file name that contains `lake/.ducky'.  Patterns that contain "
+"metacharacters should be quoted to protect them from expansion by the "
+"shell."
+msgstr ""
+"本手册页介绍 GNU 版本的 B<locate>。对于每个给定的模式，B<locate> "
+"会搜索一个或多个文件名数据库，并显示包含该模式的文件名。模式可以包含 shell 风格元字符：`*'、`?' 和 `[]'。这些元字符不会对 "
+"`/' 或 `.' 做特殊处理。因此，模式 `foo*bar' 可以匹配包含 `foo3/bar' 的文件名，模式 `*duck*' 可以匹配包含"
+" `lake/.ducky' 的文件名。包含元字符的模式应加引号，以防止被 shell 展开。"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:49
+msgid ""
+"If a pattern is a plain string \\(em it contains no metacharacters \\(em "
+"B<locate> displays all file names in the database that contain that "
+"string anywhere.  If a pattern does contain metacharacters, B<locate> "
+"only displays file names that match the pattern exactly.  As a result, "
+"patterns that contain metacharacters should usually begin with a `*', and"
+" will most often end with one as well.  The exceptions are patterns that "
+"are intended to explicitly match the beginning or end of a file name."
+msgstr ""
+"如果模式是普通字符串——不包含元字符——B<locate> "
+"会显示数据库中任意位置包含该字符串的所有文件名。如果模式确实包含元字符，B<locate> "
+"只显示与模式完全匹配的文件名。因此，包含元字符的模式通常应以 `*' 开头，并且通常也以 `*' "
+"结尾。例外情况是打算显式匹配文件名开头或结尾的模式。"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:55
+msgid ""
+"The file name databases contain lists of files that were on the system "
+"when the databases were last updated.  The system administrator can "
+"choose the file name of the default database, the frequency with which "
+"the databases are updated, and the directories for which they contain "
+"entries; see B<updatedb>(1)."
+msgstr ""
+"文件名数据库包含数据库上次更新时系统上存在的文件列表。系统管理员可以选择默认数据库的文件名、数据库更新的频率，以及数据库包含条目的目录；参见 "
+"B<updatedb>(1)。"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:63
+msgid ""
+"If B<locate>'s output is going to a terminal, unusual characters in the "
+"output are escaped in the same way as for the -print action of the "
+"B<find> command.  If the output is not going to a terminal, file names "
+"are printed exactly as-is."
+msgstr ""
+"如果 B<locate> 的输出要发送到终端，输出中的异常字符会按照 B<find> 命令 -print "
+"操作的相同方式进行转义。如果输出不发送到终端，文件名将完全按原样打印。"
+
+#. type: SH
+#: raw/findutils/man1/locate.1:64
+#, no-wrap
+msgid "OPTIONS"
+msgstr "选项"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:65
+#, no-wrap
+msgid "I<-0, --null>"
+msgstr "I<-0, --null>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:68
+msgid "Use ASCII NUL as a separator, instead of newline."
+msgstr "使用 ASCII NUL 而不是换行符作为分隔符。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:68
+#, no-wrap
+msgid "I<-A, --all>"
+msgstr "I<-A, --all>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:72
+msgid ""
+"Print only names which match all non-option arguments, not those matching"
+" one or more non-option arguments."
+msgstr "仅打印匹配所有非选项参数（而不是匹配一个或多个非选项参数）的名称。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:72
+#, no-wrap
+msgid "I<-b, --basename>"
+msgstr "I<-b, --basename>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:77
+msgid ""
+"Results are considered to match if the pattern specified matches the "
+"final component of the name of a file as listed in the database.  This "
+"final component is usually referred to as the `base name'."
+msgstr "如果指定的模式与数据库中列出的文件名的最后一部分匹配，则认为结果匹配。最后一部分通常称为“基名”。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:77
+#, no-wrap
+msgid "I<-c, --count>"
+msgstr "I<-c, --count>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:81
+msgid ""
+"Instead of printing the matched filenames, just print the total number of"
+" matches we found, unless --I<print> (-p) is also present."
+msgstr "不打印匹配的文件名，而只打印找到的匹配总数，除非同时指定了 --I<print>（-p）。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:81
+#, no-wrap
+msgid "I<-d path, --database=path>"
+msgstr "I<-d path, --database=path>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:94
+msgid ""
+"Instead of searching the default file name database, search the file name"
+" databases in I<path>, which is a colon-separated list of database file "
+"names.  You can also use the environment variable B<LOCATE_PATH> to set "
+"the list of database files to search.  The option overrides the "
+"environment variable if both are used.  Empty elements in the path are "
+"taken to be synonyms for the file name of the default database.  A "
+"database can be supplied on stdin, using `-' as an element of I<path>. If"
+" more than one element of I<path> is `-', later instances are ignored "
+"(and a warning message is printed)."
+msgstr ""
+"不在默认文件名数据库中搜索，而是在 I<path> 指定的文件名数据库中搜索；I<path> 是以冒号分隔的数据库文件名列表。也可以使用环境变量 "
+"B<LOCATE_PATH> "
+"设置要搜索的数据库文件列表。如果同时使用两者，该选项会覆盖环境变量。路径中的空元素被视为默认数据库文件名的同义词。可以使用 `-' 作为 "
+"I<path> 的元素，从标准输入提供数据库。如果 I<path> 中有多个元素为 `-'，后续实例会被忽略（并打印警告消息）。"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:111
+msgid ""
+"The file name database format changed starting with GNU B<find> and "
+"B<locate> version 4.0 to allow machines with different byte orderings to "
+"share the databases.  This version of B<locate> can automatically "
+"recognize and read databases produced for older versions of GNU B<locate>"
+" or Unix versions of B<locate> or B<find>.  Support for the old locate "
+"database format will be discontinued in a future release."
+msgstr ""
+"从 GNU B<find> 和 B<locate> 4.0 版开始，文件名数据库格式发生了变化，以允许不同字节序的机器共享数据库。此版本的 "
+"B<locate> 可以自动识别并读取旧版 GNU B<locate> 或 Unix 版 B<locate> 或 B<find> "
+"生成的数据库。对旧 locate 数据库格式的支持将在未来版本中停止。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:111
+#, no-wrap
+msgid "I<-e, --existing>"
+msgstr "I<-e, --existing>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:120
+msgid ""
+"Only print out such names that currently exist (instead of such names "
+"that existed when the database was created).  Note that this may slow "
+"down the program a lot, if there are many matches in the database.  If "
+"you are using this option within a program, please note that it is "
+"possible for the file to be deleted after B<locate> has checked that it "
+"exists, but before you use it."
+msgstr ""
+"仅打印当前存在的名称（而不是数据库创建时存在的名称）。请注意，如果数据库中有很多匹配项，这可能会显著降低程序速度。如果在程序中使用此选项，请注意文件可能在"
+" B<locate> 检查其存在之后、你使用它之前被删除。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:120
+#, no-wrap
+msgid "I<-E, --non-existing>"
+msgstr "I<-E, --non-existing>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:126
+msgid ""
+"Only print out such names that currently do not exist (instead of such "
+"names that existed when the database was created).  Note that this may "
+"slow down the program a lot, if there are many matches in the database."
+msgstr "仅打印当前不存在的名称（而不是数据库创建时存在的名称）。请注意，如果数据库中有很多匹配项，这可能会显著降低程序速度。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:126
+#, no-wrap
+msgid "I<--help>"
+msgstr "I<--help>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:131
+msgid "Print a summary of the options to B<locate> and exit."
+msgstr "打印 B<locate> 的选项摘要并退出。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:131
+#, no-wrap
+msgid "I<-i, --ignore-case>"
+msgstr "I<-i, --ignore-case>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:134
+msgid "Ignore case distinctions in both the pattern and the file names."
+msgstr "忽略模式和文件名中的大小写差异。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:134
+#, no-wrap
+msgid "I<-l N, --limit=N>"
+msgstr "I<-l N, --limit=N>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:139
+msgid ""
+"Limit the number of matches to N.  If a limit is set via this option, the"
+" number of results printed for the -c option will never be larger than "
+"this number."
+msgstr "将匹配数限制为 N。如果通过此选项设置了限制，则 -c 选项打印的结果数永远不会大于此数量。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:139
+#, no-wrap
+msgid "I<-L, --follow>"
+msgstr "I<-L, --follow>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:143
+msgid ""
+"If testing for the existence of files (with the -e or -E options), "
+"consider broken symbolic links to be non-existing.  This is the default."
+msgstr "在测试文件是否存在时（使用 -e 或 -E 选项），将损坏的符号链接视为不存在。这是默认行为。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:143
+#, no-wrap
+msgid "I<--max-database-age D>"
+msgstr "I<--max-database-age D>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:150
+msgid ""
+"Normally, B<locate> will issue a warning message when it searches a "
+"database which is more than 8 days old.  This option changes that value "
+"to something other than 8.  The effect of specifying a negative value is "
+"undefined."
+msgstr "通常，B<locate> 在搜索超过 8 天的数据库时会发出警告消息。此选项将该值改为 8 以外的值。指定负值的效果未定义。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:150
+#, no-wrap
+msgid "I<-m, --mmap>"
+msgstr "I<-m, --mmap>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:154 raw/findutils/man1/locate.1:183
+msgid "Accepted but does nothing, for compatibility with BSD B<locate>."
+msgstr "为兼容 BSD B<locate> 而接受，但不起任何作用。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:154
+#, no-wrap
+msgid "I<-P, -H, --nofollow>"
+msgstr "I<-P, -H, --nofollow>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:161
+msgid ""
+"If testing for the existence of files (with the -e or -E options), treat "
+"broken symbolic links as if they were existing files.  The -H form of "
+"this option is provided purely for similarity with B<find>; the use of -P"
+" is recommended over -H."
+msgstr ""
+"在测试文件是否存在时（使用 -e 或 -E 选项），将损坏的符号链接视为已存在文件。-H 形式仅为与 B<find> 相似而提供；建议使用 -P "
+"而不是 -H。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:161
+#, no-wrap
+msgid "I<-p, --print>"
+msgstr "I<-p, --print>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:165
+msgid ""
+"Print search results when they normally would not, because of the "
+"presence of --statistics (-S) or --count (-c)."
+msgstr "在由于存在 --statistics（-S）或 --count（-c）而通常不打印搜索结果时，仍然打印搜索结果。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:165
+#, no-wrap
+msgid "I<-r, --regex >"
+msgstr "I<-r, --regex >"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:179
+msgid ""
+"The pattern specified on the command line is understood to be a regular "
+"expression, as opposed to a glob pattern.  The Regular expressions work "
+"in the same was as in B<emacs> and B<find>, except for the fact that "
+"\".\" will match a newline.  Filenames whose full paths match the "
+"specified regular expression are printed (or, in the case of the -c "
+"option, counted).  If you wish to anchor your regular expression at the "
+"ends of the full path name, then as is usual with regular expressions, "
+"you should use the characters ^ and $ to signify this."
+msgstr ""
+"命令行指定的模式被理解为正则表达式，而不是通配符模式。正则表达式的工作方式与 B<emacs> 和 B<find> 中相同，只是 \".\" "
+"会匹配换行符。完整路径匹配指定正则表达式的文件名会被打印（对于 -c "
+"选项则会被计数）。如果希望将正则表达式锚定在完整路径名的两端，则应像通常的正则表达式那样使用字符 ^ 和 $ 来表示。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:179
+#, no-wrap
+msgid "I<-s, --stdio>"
+msgstr "I<-s, --stdio>"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:183
+#, no-wrap
+msgid "I<-S, --statistics>"
+msgstr "I<-S, --statistics>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:192
+msgid ""
+"Print various statistics about each locate database and then exit without"
+" performing a search, unless non-option arguments are given.  For "
+"compatibility with BSD, -S is accepted as a synonym for --statistics.  "
+"However, the output of B<locate -S> is different for the GNU and BSD "
+"implementations of B<locate>."
+msgstr ""
+"打印每个 locate 数据库的各种统计信息，然后退出而不执行搜索，除非给出了非选项参数。为兼容 BSD，-S 可作为 --statistics "
+"的同义词。然而，GNU 和 BSD 实现的 B<locate> 的 B<locate -S> 输出不同。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:192
+#, no-wrap
+msgid "I<--version>"
+msgstr "I<--version>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:197
+msgid "Print the version number of B<locate> and exit."
+msgstr "打印 B<locate> 的版本号并退出。"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:197
+#, no-wrap
+msgid "I<-w, --wholename>"
+msgstr "I<-w, --wholename>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:201
+msgid ""
+"Match against the whole name of the file as listed in the database.  This"
+" is the default."
+msgstr "针对数据库中列出的文件完整名称进行匹配。这是默认行为。"
+
+#. type: SH
+#: raw/findutils/man1/locate.1:201
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr "环境"
+
+#. type: TP
+#: raw/findutils/man1/locate.1:202
+#, no-wrap
+msgid "B<LOCATE_PATH>"
+msgstr "B<LOCATE_PATH>"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:208
+msgid ""
+"Colon-separated list of databases to search.  If the value has a leading "
+"or trailing colon, or has two colons in a row, you may get results that "
+"vary between different versions of B<locate>."
+msgstr "以冒号分隔的要搜索的数据库列表。如果值以冒号开头或结尾，或者连续出现两个冒号，不同版本的 B<locate> 可能会给出不同结果。"
+
+#. type: SH
+#: raw/findutils/man1/locate.1:209
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "参见"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:212
+msgid "B<find>(1), B<locatedb>(5), B<updatedb>(1), B<xargs>(1), B<glob>(3)"
+msgstr "B<find>(1), B<locatedb>(5), B<updatedb>(1), B<xargs>(1), B<glob>(3)"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:222
+msgid ""
+"The full documentation for B<locate> is maintained as a Texinfo manual.  "
+"If the B<info> and B<locate> programs are properly installed at your "
+"site, the command B<info locate> should give you access to the complete "
+"manual."
+msgstr ""
+"B<locate> 的完整文档以 Texinfo 手册形式维护。如果站点上正确安装了 B<info> 和 B<locate> 程序，命令 "
+"B<info locate> 应能让你访问完整手册。"
+
+#. type: SH
+#: raw/findutils/man1/locate.1:224
+#, no-wrap
+msgid "HISTORY"
+msgstr "历史"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:244
+msgid ""
+"The B<locate> program started life as the BSD fast find program, "
+"contributed to BSD by James A. Woods.  This was described by his paper "
+"I<Finding Files Fast> which was published in Usenix I<;login:>, Vol 8, No"
+" 1, February/March, 1983, pp. 8-10.  When the B<find> program began to "
+"assume a default B<-print> action if no action was specified, this "
+"changed the interpretation of B<find> B<pattern>.  The BSD developers "
+"therefore moved the fast find functionality into B<locate>.  The GNU "
+"implementation of B<locate> appears to be derived from the same code."
+msgstr ""
+"B<locate> 程序最初是 BSD fast find 程序，由 James A. Woods 贡献给 BSD。他的论文 I<Finding "
+"Files Fast> 对此进行了描述，该论文发表于 Usenix I<;login:>，第 8 卷第 1 期，1983 年 2 月/3 月，第 "
+"8-10 页。当 B<find> 程序开始在未指定操作时采用默认的 B<-print> 操作时，这改变了 B<find> B<pattern> "
+"的解释。因此，BSD 开发者将 fast find 功能移入 B<locate>。GNU 版 B<locate> 似乎源自同一代码。"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:248
+msgid "Significant changes to B<locate> in reverse order:"
+msgstr "B<locate> 的重要变更（按时间倒序）："
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:251
+#, no-wrap
+msgid "4.3.7 "
+msgstr "4.3.7 "
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:251
+#, no-wrap
+msgid " Byte-order independent support for old database format"
+msgstr " 旧数据库格式的字节序无关支持"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:252
+#, no-wrap
+msgid "4.3.3 "
+msgstr "4.3.3 "
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:252
+#, no-wrap
+msgid " locate I<-i> supports multi-byte characters correctly"
+msgstr " locate I<-i> 正确支持多字节字符"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:253
+#, no-wrap
+msgid " Introduced I<--max_db_age>"
+msgstr " 引入 I<--max_db_age>"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:254
+#, no-wrap
+msgid "4.3.2 "
+msgstr "4.3.2 "
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:254
+#, no-wrap
+msgid " Support for the slocate database format"
+msgstr " 支持 slocate 数据库格式"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:255
+#, no-wrap
+msgid "4.2.22"
+msgstr "4.2.22"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:255
+#, no-wrap
+msgid " Introduced the I<--all> option"
+msgstr " 引入 I<--all> 选项"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:256
+#, no-wrap
+msgid "4.2.15"
+msgstr "4.2.15"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:256
+#, no-wrap
+msgid " Introduced the I<--regex> option"
+msgstr " 引入 I<--regex> 选项"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:257
+#, no-wrap
+msgid "4.2.14"
+msgstr "4.2.14"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:257
+#, no-wrap
+msgid " Introduced options I<-L, -P, -H>"
+msgstr " 引入 I<-L, -P, -H> 选项"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:258
+#, no-wrap
+msgid "4.2.12"
+msgstr "4.2.12"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:258
+#, no-wrap
+msgid " Empty items in B<LOCATE_PATH> now indicate the default database"
+msgstr " B<LOCATE_PATH> 中的空项现在表示默认数据库"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:259
+#, no-wrap
+msgid "4.2.11"
+msgstr "4.2.11"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:259
+#, no-wrap
+msgid " Introduced the I<--statistics> option"
+msgstr " 引入 I<--statistics> 选项"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:260
+#, no-wrap
+msgid "4.2.4 "
+msgstr "4.2.4 "
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:260
+#, no-wrap
+msgid " Introduced I<--count> and I<--limit>"
+msgstr " 引入 I<--count> 和 I<--limit>"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:261
+#, no-wrap
+msgid "4.2.0 "
+msgstr "4.2.0 "
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:261
+#, no-wrap
+msgid " Glob characters cause matching against the whole file name"
+msgstr " 通配字符会导致针对整个文件名进行匹配"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:262
+#, no-wrap
+msgid "4.0   "
+msgstr "4.0   "
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:262
+#, no-wrap
+msgid " Introduced the LOCATE02 database format"
+msgstr " 引入 LOCATE02 数据库格式"
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:263
+#, no-wrap
+msgid "3.7   "
+msgstr "3.7   "
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:263
+#, no-wrap
+msgid " Locate can search multiple databases"
+msgstr " locate 可以搜索多个数据库"
+
+#. type: SH
+#: raw/findutils/man1/locate.1:265
+#, no-wrap
+msgid "BUGS"
+msgstr "缺陷"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:275
+msgid ""
+"The locate database correctly handles filenames containing newlines, but "
+"only if the system's sort command has a working -z option.  If you "
+"suspect that B<locate> may need to return filenames containing newlines, "
+"consider using its I<--null> option."
+msgstr ""
+"locate 数据库能够正确处理包含换行符的文件名，但前提是系统的 sort 命令具有可用的 -z 选项。如果你怀疑 B<locate> "
+"可能需要返回包含换行符的文件名，请考虑使用其 I<--null> 选项。"
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:283
+msgid ""
+"The best way to report a bug is to use the form at "
+"http://savannah.gnu.org/bugs/?group=findutils.  The reason for this is "
+"that you will then be able to track progress in fixing the problem.  "
+"Other comments about B<locate>(1) and about the findutils package in "
+"general can be sent to the I<bug-findutils> mailing list.  To join the "
+"list, send email to I<bug-findutils-request@gnu.org>."
+msgstr ""
+"报告缺陷的最佳方式是使用 http://savannah.gnu.org/bugs/?group=findutils "
+"上的表单。这样你就可以跟踪问题修复进度。有关 B<locate>(1) 以及 findutils 软件包的其他评论，可以发送到 I<bug-"
+"findutils> 邮件列表。要加入列表，请发送电子邮件至 I<bug-findutils-request@gnu.org>。"
+
