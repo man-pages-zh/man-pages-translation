@@ -37,10 +37,10 @@ cut \- 从文件的每一行中移除某些段
 补全选中的字节、字符或域
 .TP 
 \fB\-s\fP, \fB\-\-only\-delimited\fP
-do not print lines not containing delimiters
+不打印不包含分界符的行
 .TP 
-\fB\-\-output\-delimiter\fP=\fI\,STRING\/\fP
-use STRING as the output delimiter the default is to use the input delimiter
+\fB\-\-output\-delimiter\fP=\fI\,字符串\/\fP
+使用指定字符串作为输出分界符，默认使用输入分界符
 .TP 
 \fB\-z\fP, \fB\-\-zero\-terminated\fP
 以 NUL 空字符而非换行符作为行分隔符
@@ -51,10 +51,8 @@ use STRING as the output delimiter the default is to use the input delimiter
 \fB\-\-version\fP
 显示版本信息并退出
 .PP
-Use one, and only one of \fB\-b\fP, \fB\-c\fP or \fB\-f\fP.  Each LIST is made up of one
-range, or many ranges separated by commas.  Selected input is written in the
-same order that it is read, and is written exactly once.  Each range is one
-of:
+使用且仅使用 \fB\-b\fP、\fB\-c\fP 或 \fB\-f\fP
+中的一个。每个列表由一个范围构成，或者由逗号分隔的多个范围构成。被选中的输入按读取顺序输出，且每个仅输出一次。每个范围可以是以下之一：
 .TP 
 N
 第 N 个字节、字符或字段（从 1 开始数）

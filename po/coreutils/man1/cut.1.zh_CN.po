@@ -158,24 +158,24 @@ msgstr "补全选中的字节、字符或域"
 #: raw/coreutils/man1/cut.1:37
 #, no-wrap
 msgid "B<-s>, B<--only-delimited>"
-msgstr ""
+msgstr "B<-s>, B<--only-delimited>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:40
 msgid "do not print lines not containing delimiters"
-msgstr ""
+msgstr "不打印不包含分界符的行"
 
 #. type: TP
 #: raw/coreutils/man1/cut.1:40
 #, no-wrap
 msgid "B<--output-delimiter>=I<\\,STRING\\/>"
-msgstr ""
+msgstr "B<--output-delimiter>=I<\\,字符串\\/>"
 
 #. type: Plain text
 #: raw/coreutils/man1/cut.1:44
 msgid ""
 "use STRING as the output delimiter the default is to use the input delimiter"
-msgstr ""
+msgstr "使用指定字符串作为输出分界符，默认使用输入分界符"
 
 #. type: TP
 #: raw/coreutils/man1/cut.1:44
@@ -218,6 +218,9 @@ msgid ""
 "same order that it is read, and is written exactly once.  Each range is one "
 "of:"
 msgstr ""
+"使用且仅使用 B<-b>、B<-c> 或 B<-f> 中的一个。每个列表由一个范围构成，或者由逗号分隔"
+"的多个范围构成。被选中的输入按读取顺序输出，且每个仅输出一次。每个范围可以是以下"
+"之一："
 
 #. type: TP
 #: raw/coreutils/man1/cut.1:58

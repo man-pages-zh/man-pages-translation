@@ -135,7 +135,7 @@ msgstr "和 B<--follow>=I<\\,name\\/> B<--retry> 相同"
 #: raw/coreutils/man1/tail.1:29
 #, no-wrap
 msgid "B<-n>, B<--lines>=I<\\,[\\/>+]NUM"
-msgstr ""
+msgstr "B<-n>, B<--lines>=I<\\,[\\/>+]NUM"
 
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:33
@@ -143,6 +143,7 @@ msgid ""
 "output the last NUM lines, instead of the last 10; or use B<-n> +NUM to "
 "output starting with line NUM"
 msgstr ""
+"输出最后 NUM 行，而不是最后 10 行；或者使用 B<-n> +NUM 从第 NUM 行开始输出"
 
 #. type: TP
 #: raw/coreutils/man1/tail.1:33
@@ -154,6 +155,7 @@ msgstr "B<--max-unchanged-stats>=I<\\,N\\/>"
 #: raw/coreutils/man1/tail.1:36
 msgid "with B<--follow>=I<\\,name\\/>, reopen a FILE which has not"
 msgstr ""
+"使用 B<--follow>=I<\\,name\\/> 时，重新打开一个文件，该文件在 N（默认 5）次迭代后仍未"
 
 #. type: Plain text
 #: raw/coreutils/man1/tail.1:41
@@ -162,6 +164,8 @@ msgid ""
 "or renamed (this is the usual case of rotated log files); with inotify, this "
 "option is rarely useful"
 msgstr ""
+"改变大小，以确认它是否已被删除或重命名（这是轮转日志文件的常见情况）；使用 "
+"inotify 时，此选项通常没有用处"
 
 #. type: TP
 #: raw/coreutils/man1/tail.1:41
@@ -278,6 +282,10 @@ msgid ""
 "track the named file in a way that accommodates renaming, removal and "
 "creation."
 msgstr ""
+"使用 B<--follow>（B<-f>）时，tail 默认跟踪文件描述符，这意味着即使被跟踪的文件被重命名，"
+"tail 仍会继续跟踪文件的末尾。当您真正想跟踪文件的实际名称而非文件描述符（例如日志轮转）"
+"时，这种默认行为并不理想。在这种情况下，请使用 B<--follow>=I<\\,name\\/>。这会使 tail "
+"跟踪指定名称的文件，从而适应重命名、删除和创建。"
 
 #. type: SH
 #: raw/coreutils/man1/tail.1:80

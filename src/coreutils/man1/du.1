@@ -25,9 +25,7 @@ du \- 估计磁盘文件使用量
 输出所有文件的磁盘用量，不仅仅是目录
 .TP 
 \fB\-\-apparent\-size\fP
-print apparent sizes rather than device usage; although the apparent size is
-usually smaller, it may be larger due to holes in ('sparse') files, internal
-fragmentation, indirect blocks, and the like
+显示表面使用量，而不是设备使用量；虽然表面使用量通常会小一些，但有时它会因为稀疏文件中的“洞”、内部碎片、间接块等原因显得更大一些。
 .TP 
 \fB\-B\fP, \fB\-\-block\-size\fP=\fI\,大小\/\fP
 以指定大小为单位对块大小进行输出；例如，\&'\-BM' 以 1,048,576 字节为单位输出大小；详情请参见下方的“SIZE 格式”部分
@@ -114,16 +112,13 @@ fragmentation, indirect blocks, and the like
 .PP
 大小 参数是一个整数，后面可以跟一个单位（例如：10K 指 10*1024）。可用的单位有 K、M、G、T、P、E、Z、Y（1024 的幂）以及
 KB、MB、...（1000 的幂）。也可以使用二进制前缀：KiB=K、MiB=M，以此类推。
-.SH PATTERNS
-PATTERN is a shell pattern (not a regular expression).  The pattern \fB?\&\fP
-matches any one character, whereas \fB*\fP matches any string (composed of
-zero, one or multiple characters).  For example, \fB*.o\fP will match any files
-whose names end in \fB.o\fP.  Therefore, the command
+.SH 模式
+PATTERN 是一个 shell 通配模式（不是正则表达式）。模式 \fB?\&\fP 匹配任意单个字符，而 \fB*\fP
+匹配任意字符串（由零个、一个或多个字符组成）。例如，\fB*.o\fP 将匹配任何名称以 \fB.o\fP 结尾的文件。因此，以下命令
 .IP
 \fBdu \-\-exclude=\(aq*.o\(aq\fP
 .PP
-will skip all files and subdirectories ending in \fB.o\fP (including the file
-\&\fB.o\fP itself).
+将跳过所有以 \fB.o\fP 结尾的文件和子目录（包括文件 \fB.o\fP 本身）。
 .SH 作者
 由 Torbjorn Granlund、David MacKenzie、Paul Eggert 和 Jim Meyering 编写。
 .SH 报告错误
