@@ -1,0 +1,727 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-10-19 16:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/time/man1/time.1:4
+#, no-wrap
+msgid "TIME"
+msgstr ""
+
+#. type: TH
+#: raw/time/man1/time.1:4
+#, no-wrap
+msgid "Debian GNU/Linux"
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:8
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:10
+msgid "time - run programs and summarize system resource usage"
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:10
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:12
+#, no-wrap
+msgid "B<time>"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:21
+msgid "[ B<-apqvV> ] [ B<-f>I< FORMAT> ] [ B<-o>I< FILE> ]"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:31
+msgid "[ B<--append> ] [ B<--verbose> ] [ B<--quiet> ] [ B<--portability> ]"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:39
+msgid "[ B<--format=>I<FORMAT> ] [ B<--output=>I<FILE> ] [ B<--version> ]"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:47
+msgid "[ B<--help> ] I<COMMAND> [ I<ARGS> ]"
+msgstr ""
+
+#. type: groff code
+#: raw/time/man1/time.1:49
+#, no-wrap
+msgid ".if  n .ad l\n"
+msgstr ""
+
+#.  For nroff, turn off justification.
+#. type: SH
+#: raw/time/man1/time.1:50
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:67
+msgid ""
+"B<time> run the program I<COMMAND> with any given arguments I<ARG...>.  When "
+"I<COMMAND> finishes, B<time> displays information about resources used by "
+"I<COMMAND> (on the standard error output, by default).  If I<COMMAND> exits "
+"with non-zero status, B<time> displays a warning message and the exit status."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:79
+msgid ""
+"B<time> determines which information to display about the resources used by "
+"the I<COMMAND> from the string I<FORMAT>.  If no format is specified on the "
+"command line, but the B<TIME> environment variable is set, its value is used "
+"as the format.  Otherwise, a default format built into B<time> is used."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:88
+msgid ""
+"Options to B<time> must appear on the command line before I<COMMAND>.  "
+"Anything on the command line after I<COMMAND> is passed as arguments to "
+"I<COMMAND>."
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:89
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:90
+#, no-wrap
+msgid "B<-o>I< FILE, >B<--output=>I<FILE >"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:98
+msgid ""
+"Write the resource use statistics to I<FILE> instead of to the standard "
+"error stream.  By default, this overwrites the file, destroying the file's "
+"previous contents.  This option is useful for collecting information on "
+"interactive programs and programs that produce output on the standard error "
+"stream."
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:98
+#, no-wrap
+msgid "B<-a>, B<--append>"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:102
+msgid ""
+"Append the resource use information to the output file instead of "
+"overwriting it.  This option is only useful with the `-o' or `--output' "
+"option."
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:102
+#, no-wrap
+msgid "B<-f>I< FORMAT, >B<--format>I< FORMAT >"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:109
+msgid ""
+"Use I<FORMAT> as the format string that controls the output of B<time>.  See "
+"the below more information."
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:109
+#, no-wrap
+msgid "B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:112
+msgid "Print a summary of the command line options and exit."
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:112
+#, no-wrap
+msgid "B<-p>, B<--portability>"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:118
+#, no-wrap
+msgid ""
+"Use the following format string, for conformance with POSIX standard 1003.2:\n"
+"          real %e\n"
+"          user %U\n"
+"          sys %S\n"
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:118
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:123
+msgid ""
+"Use the built-in verbose format, which displays each available piece of "
+"information on the program's resource use on its own line, with an English "
+"description of its meaning."
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:123
+#, no-wrap
+msgid "B<--quiet>"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:126
+msgid ""
+"Do not report the status of the program even if it is different from zero."
+msgstr ""
+
+#. type: TP
+#: raw/time/man1/time.1:126
+#, no-wrap
+msgid "B<-V>, B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:131
+msgid "Print the version number of B<time> and exit."
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:132
+#, no-wrap
+msgid "FORMATTING THE OUTPUT"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:145
+#, no-wrap
+msgid ""
+"The format string\n"
+"I<FORMAT>\n"
+"controls the contents of the\n"
+"B<time>\n"
+"output.  The format string can be set using the `-f' or `--format', `-v' or\n"
+"`--verbose', or `-p' or `--portability' options.  If they are not\n"
+"given, but the\n"
+"I<TIME>\n"
+"environment variable is set, its value is used as the format string.\n"
+"Otherwise, a built-in default format is used.  The default format is:\n"
+"  %Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n"
+"  %Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:152
+msgid ""
+"The format string usually consists of `resource specifiers' interspersed "
+"with plain text.  A percent sign (`%') in the format string causes the "
+"following character to be interpreted as a resource specifier, which is "
+"similar to the formatting characters in the B<printf>(3)  function."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:159
+msgid ""
+"A backslash (`\\e') introduces a `backslash escape', which is translated "
+"into a single printing character upon output.  `\\et' outputs a tab "
+"character, `\\en' outputs a newline, and `\\e\\e' outputs a backslash.  A "
+"backslash followed by any other character outputs a question mark (`?') "
+"followed by a backslash, to indicate that an invalid backslash escape was "
+"given."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:165
+msgid ""
+"Other text in the format string is copied verbatim to the output.  B<time> "
+"always prints a newline after printing the resource use information, so "
+"normally format strings do not end with a newline character (or `\\en')."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:172
+msgid ""
+"There are many resource specifications.  Not all resources are measured by "
+"all versions of Unix, so some of the values might be reported as zero.  Any "
+"character following a percent sign that is not listed in the table below "
+"causes a question mark (`?') to be output, followed by that character, to "
+"indicate that an invalid resource specifier was given."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:179
+msgid ""
+"The resource specifiers, which are a superset of those recognized by the "
+"B<tcsh>(1)  builtin `time' command, are:"
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:180
+#, no-wrap
+msgid "%"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:182
+msgid "A literal `%'."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:182
+#, no-wrap
+msgid "C"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:184
+msgid "Name and command line arguments of the command being timed."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:184
+#, no-wrap
+msgid "D"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:186
+msgid "Average size of the process's unshared data area, in Kilobytes."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:186
+#, no-wrap
+msgid "E"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:188
+msgid ""
+"Elapsed real (wall clock) time used by the process, in [hours:]minutes:"
+"seconds."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:188
+#, no-wrap
+msgid "F"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:192
+msgid ""
+"Number of major, or I/O-requiring, page faults that occurred while the "
+"process was running.  These are faults where the page has actually migrated "
+"out of primary memory."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:192
+#, no-wrap
+msgid "I"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:194
+msgid "Number of file system inputs by the process."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:194
+#, no-wrap
+msgid "K"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:197
+msgid ""
+"Average total (data+stack+text) memory use of the process, in Kilobytes."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:197
+#, no-wrap
+msgid "M"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:200
+msgid ""
+"Maximum resident set size of the process during its lifetime, in Kilobytes."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:200
+#, no-wrap
+msgid "O"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:202
+msgid "Number of file system outputs by the process."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:202
+#, no-wrap
+msgid "P"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:206
+msgid ""
+"Percentage of the CPU that this job got.  This is just user + system times "
+"divided by the total running time.  It also prints a percentage sign."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:206
+#, no-wrap
+msgid "R"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:211
+msgid ""
+"Number of minor, or recoverable, page faults.  These are pages that are not "
+"valid (so they fault) but which have not yet been claimed by other virtual "
+"pages.  Thus the data in the page is still valid but the system tables must "
+"be updated."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:211
+#, no-wrap
+msgid "S"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:214
+msgid ""
+"Total number of CPU-seconds used by the system on behalf of the process (in "
+"kernel mode), in seconds."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:214
+#, no-wrap
+msgid "U"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:217
+msgid ""
+"Total number of CPU-seconds that the process used directly (in user mode), "
+"in seconds."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:217
+#, no-wrap
+msgid "W"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:219
+msgid "Number of times the process was swapped out of main memory."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:219
+#, no-wrap
+msgid "X"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:221
+msgid "Average amount of shared text in the process, in Kilobytes."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:221
+#, no-wrap
+msgid "Z"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:224
+msgid ""
+"System's page size, in bytes.  This is a per-system constant, but varies "
+"between systems."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:224
+#, no-wrap
+msgid "c"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:227
+msgid ""
+"Number of times the process was context-switched involuntarily (because the "
+"time slice expired)."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:227
+#, no-wrap
+msgid "e"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:229
+msgid "Elapsed real (wall clock) time used by the process, in seconds."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:229
+#, no-wrap
+msgid "k"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:231
+msgid "Number of signals delivered to the process."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:231
+#, no-wrap
+msgid "p"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:233
+msgid "Average unshared stack size of the process, in Kilobytes."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:233
+#, no-wrap
+msgid "r"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:235
+msgid "Number of socket messages received by the process."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:235
+#, no-wrap
+msgid "s"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:237
+msgid "Number of socket messages sent by the process."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:237
+#, no-wrap
+msgid "t"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:239
+msgid "Average resident set size of the process, in Kilobytes."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:239
+#, no-wrap
+msgid "w"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:242
+msgid ""
+"Number of times that the program was context-switched voluntarily, for "
+"instance while waiting for an I/O operation to complete."
+msgstr ""
+
+#. type: IP
+#: raw/time/man1/time.1:242
+#, no-wrap
+msgid "x"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:244
+msgid "Exit status of the command."
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:246
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:249
+#, no-wrap
+msgid ""
+"To run the command `wc /etc/hosts' and show the default information:\n"
+"     time wc /etc/hosts\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:253
+#, no-wrap
+msgid ""
+"To run the command `ls -Fs' and show just the user, system, and total\n"
+"time:\n"
+"     time -f \"\\et%E real,\\et%U user,\\et%S sys\" ls -Fs\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:260
+#, no-wrap
+msgid ""
+"To edit the file BORK and have `time' append the elapsed time and\n"
+"number of signals to the file `log', reading the format string from the\n"
+"environment variable `TIME':\n"
+"     export TIME=\"\\et%E,\\et%k\" # If using bash or ksh\n"
+"     setenv TIME \"\\et%E,\\et%k\" # If using csh or tcsh\n"
+"     time -a -o log emacs bork\n"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:271
+#, no-wrap
+msgid ""
+"Users of the\n"
+"B<bash>\n"
+"shell need to use an explicit path in order to run the external\n"
+"B<time>\n"
+"command and not the shell builtin variant.  On system where\n"
+"B<time>\n"
+"is installed in\n"
+"I</usr/bin>,\n"
+"the first example would become\n"
+"     /usr/bin/time wc /etc/hosts\n"
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:272
+#, no-wrap
+msgid "ACCURACY"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:281
+msgid ""
+"The elapsed time is not collected atomically with the execution of the "
+"program; as a result, in bizarre circumstances (if the B<time> command gets "
+"stopped or swapped out in between when the program being timed exits and "
+"when B<time> calculates how long it took to run), it could be much larger "
+"than the actual execution time."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:285
+msgid ""
+"When the running time of a command is very nearly zero, some values (e.g., "
+"the percentage of CPU used) may be reported as either zero (which is wrong) "
+"or a question mark."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:302
+msgid ""
+"Most information shown by B<time> is derived from the B<wait3>(2)  system "
+"call.  The numbers are only as good as those returned by B<wait3>(2).  On "
+"systems that do not have a B<wait3>(2)  call that returns status "
+"information, the B<times>(2)  system call is used instead.  However, it "
+"provides much less information than B<wait3>(2), so on those systems B<time> "
+"reports the majority of the resources as zero."
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:307
+msgid ""
+"The `%I' and `%O' values are allegedly only `real' input and output and do "
+"not include those supplied by caching devices.  The meaning of `real' I/O "
+"reported by `%I' and `%O' may be muddled for workstations, especially "
+"diskless ones."
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:308
+#, no-wrap
+msgid "DIAGNOSTICS"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:317
+msgid ""
+"The B<time> command returns when the program exits, stops, or is terminated "
+"by a signal.  If the program exited normally, the return value of B<time> is "
+"the return value of the program it executed and measured.  Otherwise, the "
+"return value is 128 plus the number of the signal which caused the program "
+"to stop or terminate."
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:317
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:322
+msgid ""
+"B<time> was written by David MacKenzie.  This man page was added by Dirk "
+"Eddelbuettel E<lt>edd@debian.orgE<gt>, the Debian GNU/Linux maintainer, for "
+"use by the Debian GNU/Linux distribution but may of course be used by others."
+msgstr ""
+
+#. type: SH
+#: raw/time/man1/time.1:323
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/time/man1/time.1:325
+msgid "B<tcsh>(1), B<printf>(3)"
+msgstr ""

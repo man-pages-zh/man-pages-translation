@@ -1,0 +1,1679 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-10-19 16:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/iproute2/man8/ss.8:1
+#, no-wrap
+msgid "SS"
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:2
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:4
+msgid "ss - another utility to investigate sockets"
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:4
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:7
+msgid "B<ss> [I<options>]I< [ FILTER ]>"
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:7
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:13
+msgid ""
+"B<ss> is used to dump socket statistics. It allows showing information "
+"similar to I<netstat>.  It can display more TCP and state information than "
+"other tools."
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:14
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:17
+msgid ""
+"When no option is used ss displays a list of open non-listening sockets (e."
+"g. TCP/UNIX/UDP) that have established connections."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:17
+#, no-wrap
+msgid "B<-h, --help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:20
+msgid "Show summary of options."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:20
+#, no-wrap
+msgid "B<-V, --version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:23
+msgid "Output version information."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:23
+#, no-wrap
+msgid "B<-H, --no-header>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:26
+msgid "Suppress header line."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:26
+#, no-wrap
+msgid "B<-Q, --no-queues>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:29
+msgid "Suppress sending and receiving queue columns."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:29
+#, no-wrap
+msgid "B<-O, --oneline>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:32
+msgid "Print each socket's data on a single line."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:32
+#, no-wrap
+msgid "B<-n, --numeric>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:35
+msgid ""
+"Do not try to resolve service names. Show exact bandwidth values, instead of "
+"human-readable values."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:35
+#, no-wrap
+msgid "B<-r, --resolve>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:38
+msgid "Try to resolve numeric address/ports."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:38
+#, no-wrap
+msgid "B<-a, --all>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:42
+msgid ""
+"Display both listening and non-listening (for TCP this means established "
+"connections) sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:42
+#, no-wrap
+msgid "B<-l, --listening>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:45
+msgid "Display only listening sockets (these are omitted by default)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:45
+#, no-wrap
+msgid "B<-B, --bound-inactive>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:49
+msgid ""
+"Display only TCP bound but inactive (not listening, connecting, etc.) "
+"sockets (these are omitted by default)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:49
+#, no-wrap
+msgid "B<-o, --options>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:52
+msgid "Show timer information. For TCP protocol, the output format is:"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:55
+msgid "timer:(E<lt>timer_nameE<gt>,E<lt>expire_timeE<gt>,E<lt>retransE<gt>)"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:56
+#, no-wrap
+msgid "B<E<lt>timer_nameE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:59
+msgid "the name of the timer, there are five kinds of timer names:"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:64
+msgid ""
+"B<on> : means one of these timers: TCP retrans timer, TCP early retrans "
+"timer and tail loss probe timer"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:66
+msgid "B<keepalive>: tcp keep alive timer"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:68
+msgid "B<timewait>: timewait stage timer"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:70
+msgid "B<persist>: zero window probe timer"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:72
+msgid "B<unknown>: none of the above timers"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:73
+#, no-wrap
+msgid "B<E<lt>expire_timeE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:76
+msgid "how long until the timer will expire"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:77
+#, no-wrap
+msgid "B<E<lt>retransE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:80
+msgid "how many times retransmissions have occurred"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:81
+#, no-wrap
+msgid "B<-e, --extended>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:84
+msgid "Show detailed socket information. The output format is:"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:87
+msgid "uid:E<lt>uid_numberE<gt> ino:E<lt>inode_numberE<gt> sk:E<lt>cookieE<gt>"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:88
+#, no-wrap
+msgid "B<E<lt>uid_numberE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:91
+msgid "the user id the socket belongs to"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:92
+#, no-wrap
+msgid "B<E<lt>inode_numberE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:95
+msgid "the socket's inode number in VFS"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:96
+#, no-wrap
+msgid "B<E<lt>cookieE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:99
+msgid "a uuid of the socket"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:100
+#, no-wrap
+msgid "B<-m, --memory>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:103
+msgid "Show socket memory usage. The output format is:"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:106
+msgid ""
+"skmem:(rE<lt>rmem_allocE<gt>,rbE<lt>rcv_bufE<gt>,tE<lt>wmem_allocE<gt>,"
+"tbE<lt>snd_bufE<gt>,"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:110
+msgid "fE<lt>fwd_allocE<gt>,wE<lt>wmem_queuedE<gt>,oE<lt>opt_memE<gt>,"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:116
+msgid "blE<lt>back_logE<gt>,dE<lt>sock_dropE<gt>)"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:119
+#, no-wrap
+msgid "B<E<lt>rmem_allocE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:122
+msgid "the memory allocated for receiving packets"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:123
+#, no-wrap
+msgid "B<E<lt>rcv_bufE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:126
+msgid "the total memory that can be allocated for receiving packets"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:127
+#, no-wrap
+msgid "B<E<lt>wmem_allocE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:130
+msgid "the memory used for sending packets (which has been sent to layer 3)"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:131
+#, no-wrap
+msgid "B<E<lt>snd_bufE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:134
+msgid "the total memory that can be allocated for sending packets"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:135
+#, no-wrap
+msgid "B<E<lt>fwd_allocE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:141
+msgid ""
+"the memory allocated by the socket as cache, but not used for receiving/"
+"sending packets yet. If memory is needed to send/receive packets, the memory "
+"in this cache will be used before allocating additional memory."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:142
+#, no-wrap
+msgid "B<E<lt>wmem_queuedE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:145
+msgid ""
+"The memory allocated for sending packets (which has not been sent to layer 3)"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:146
+#, no-wrap
+msgid "B<E<lt>opt_memE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:149
+msgid ""
+"The memory used for storing socket options, e.g., the key for TCP MD5 "
+"signature"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:150
+#, no-wrap
+msgid "B<E<lt>back_logE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:156
+msgid ""
+"The memory used for the sk backlog queue. On a process context, if the "
+"process is receiving packets, and a new packet is received, it will be put "
+"into the sk backlog queue, so it can be received by the process immediately."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:157
+#, no-wrap
+msgid "B<E<lt>sock_dropE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:160
+msgid ""
+"the number of packets dropped before they are de-multiplexed into the socket"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:161
+#, no-wrap
+msgid "B<-p, --processes>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:164
+msgid "Show processes using sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:164
+#, no-wrap
+msgid "B<-T, --threads>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:168
+msgid "Show threads using sockets. Implies B<-p>."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:168
+#, no-wrap
+msgid "B<-i, --info>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:171
+msgid "Show internal TCP information. Below fields may appear:"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:173
+#, no-wrap
+msgid "B<ts>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:176
+msgid "show string \"ts\" if the timestamp option is set"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:177
+#, no-wrap
+msgid "B<sack>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:180
+msgid "show string \"sack\" if the sack option is set"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:181
+#, no-wrap
+msgid "B<ecn>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:184
+msgid ""
+"show string \"ecn\" if the explicit congestion notification option is set"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:185
+#, no-wrap
+msgid "B<ecnseen>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:188
+msgid ""
+"show string \"ecnseen\" if the saw ecn flag is found in received packets"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:189
+#, no-wrap
+msgid "B<fastopen>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:192
+msgid "show string \"fastopen\" if the fastopen option is set"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:193
+#, no-wrap
+msgid "B<cong_alg>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:196
+msgid ""
+"the congestion algorithm name, the default congestion algorithm is \"cubic\""
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:197
+#, no-wrap
+msgid "B<wscale:E<lt>snd_wscaleE<gt>:E<lt>rcv_wscaleE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:201
+msgid ""
+"if window scale option is used, this field shows the send scale factor and "
+"receive scale factor"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:202
+#, no-wrap
+msgid "B<rto:E<lt>icsk_rtoE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:205
+msgid "tcp re-transmission timeout value, the unit is millisecond"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:206
+#, no-wrap
+msgid "B<backoff:E<lt>icsk_backoffE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:210
+msgid ""
+"used for exponential backoff re-transmission, the actual re-transmission "
+"timeout value is icsk_rto E<lt>E<lt> icsk_backoff"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:211
+#, no-wrap
+msgid "B<rtt:E<lt>rttE<gt>/E<lt>rttvarE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:215
+msgid ""
+"rtt is the average round trip time, rttvar is the mean deviation of rtt, "
+"their units are millisecond"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:216
+#, no-wrap
+msgid "B<ato:E<lt>atoE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:219
+msgid "ack timeout, unit is millisecond, used for delay ack mode"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:220
+#, no-wrap
+msgid "B<mss:E<lt>mssE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:223
+msgid "max segment size"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:224
+#, no-wrap
+msgid "B<cwnd:E<lt>cwndE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:227
+msgid "congestion window size"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:228
+#, no-wrap
+msgid "B<pmtu:E<lt>pmtuE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:231
+msgid "path MTU value"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:232
+#, no-wrap
+msgid "B<ssthresh:E<lt>ssthreshE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:235
+msgid "tcp congestion window slow start threshold"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:236
+#, no-wrap
+msgid "B<bytes_acked:E<lt>bytes_ackedE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:239
+msgid "bytes acked"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:240
+#, no-wrap
+msgid "B<bytes_received:E<lt>bytes_receivedE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:243
+msgid "bytes received"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:244
+#, no-wrap
+msgid "B<segs_out:E<lt>segs_outE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:247
+msgid "segments sent out"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:248
+#, no-wrap
+msgid "B<segs_in:E<lt>segs_inE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:251
+msgid "segments received"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:252
+#, no-wrap
+msgid "B<send E<lt>send_bpsE<gt>bps>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:255
+msgid "egress bps"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:256
+#, no-wrap
+msgid "B<lastsnd:E<lt>lastsndE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:259
+msgid ""
+"how long it has been since the last packet sent, the unit is millisecond"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:260
+#, no-wrap
+msgid "B<lastrcv:E<lt>lastrcvE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:263
+msgid ""
+"how long it has been since the last packet received, the unit is millisecond"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:264
+#, no-wrap
+msgid "B<lastack:E<lt>lastackE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:267
+msgid ""
+"how long it has been since the last ack received, the unit is millisecond"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:268
+#, no-wrap
+msgid "B<pacing_rate E<lt>pacing_rateE<gt>bps/E<lt>max_pacing_rateE<gt>bps>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:271
+msgid "the pacing rate and max pacing rate"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:272
+#, no-wrap
+msgid "B<rcv_space:E<lt>rcv_spaceE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:275
+msgid "a helper variable for TCP internal auto tuning socket receive buffer"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:276
+#, no-wrap
+msgid "B<tcp-ulp-mptcp flags:[MmBbJjecv] token:E<lt>rem_token(rem_id)/loc_token(loc_id)E<gt> seq:E<lt>snE<gt> sfseq:E<lt>ssnE<gt> ssnoff:E<lt>offE<gt> maplen:E<lt>maplenE<gt>>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:279
+msgid "MPTCP subflow information"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:281
+#, no-wrap
+msgid "B<--tos>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:284
+msgid "Show ToS and priority information. Below fields may appear:"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:286
+#, no-wrap
+msgid "B<tos>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:289
+msgid "IPv4 Type-of-Service byte"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:290
+#, no-wrap
+msgid "B<tclass>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:293
+msgid "IPv6 Traffic Class byte"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:294
+#, no-wrap
+msgid "B<class_id>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:298
+msgid ""
+"Class id set by net_cls cgroup. If class is zero this shows priority set by "
+"SO_PRIORITY."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:299
+#, no-wrap
+msgid "B<--cgroup>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:302
+msgid "Show cgroup information. Below fields may appear:"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:304
+#, no-wrap
+msgid "B<cgroup>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:307
+msgid ""
+"Cgroup v2 pathname. This pathname is relative to the mount point of the "
+"hierarchy."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:308
+#, no-wrap
+msgid "B<--tipcinfo>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:311
+msgid "Show internal tipc socket information."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:311
+#, no-wrap
+msgid "B<-K, --kill>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:316
+msgid ""
+"Attempts to forcibly close sockets. This option displays sockets that are "
+"successfully closed and silently skips sockets that the kernel does not "
+"support closing. It supports IPv4 and IPv6 sockets only."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:316
+#, no-wrap
+msgid "B<-s, --summary>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:321
+msgid ""
+"Print summary statistics. This option does not parse socket lists obtaining "
+"summary from various sources. It is useful when amount of sockets is so huge "
+"that parsing /proc/net/tcp is painful."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:321
+#, no-wrap
+msgid "B<-E, --events>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:324
+msgid "Continually display sockets as they are destroyed"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:324
+#, no-wrap
+msgid "B<-Z, --context>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:331
+msgid ""
+"As the B<-p> option but also shows process security context. If the B<-T> "
+"option is used, also shows thread security context."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:335
+msgid ""
+"For B<netlink>(7)  sockets the initiating process context is displayed as "
+"follows:"
+msgstr ""
+
+#. type: IP
+#: raw/iproute2/man8/ss.8:337
+#, no-wrap
+msgid "1."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:339
+msgid "If valid pid show the process context."
+msgstr ""
+
+#. type: IP
+#: raw/iproute2/man8/ss.8:339
+#, no-wrap
+msgid "2."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:341
+msgid "If destination is kernel (pid = 0) show kernel initial context."
+msgstr ""
+
+#. type: IP
+#: raw/iproute2/man8/ss.8:341
+#, no-wrap
+msgid "3."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:345
+msgid ""
+"If a unique identifier has been allocated by the kernel or netlink user, "
+"show context as \"unavailable\". This will generally indicate that a process "
+"has more than one netlink socket active."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:347
+#, no-wrap
+msgid "B<-z, --contexts>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:357
+msgid ""
+"As the B<-Z> option but also shows the socket context. The socket context is "
+"taken from the associated inode and is not the actual socket context held by "
+"the kernel. Sockets are typically labeled with the context of the creating "
+"process, however the context shown will reflect any policy role, type and/or "
+"range transition rules applied, and is therefore a useful reference."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:357
+#, no-wrap
+msgid "B<-N NSNAME, --net=NSNAME>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:360
+msgid "Switch to the specified network namespace name."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:360
+#, no-wrap
+msgid "B<-b, --bpf>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:364
+msgid ""
+"Show socket classic BPF filters (only administrators are allowed to get this "
+"information)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:364
+#, no-wrap
+msgid "B<-4, --ipv4>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:367
+msgid "Display only IP version 4 sockets (alias for -f inet)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:367
+#, no-wrap
+msgid "B<-6, --ipv6>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:370
+msgid "Display only IP version 6 sockets (alias for -f inet6)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:370
+#, no-wrap
+msgid "B<-0, --packet>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:373
+msgid "Display PACKET sockets (alias for -f link)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:373
+#, no-wrap
+msgid "B<-t, --tcp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:376
+msgid "Display TCP sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:376
+#, no-wrap
+msgid "B<-u, --udp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:379
+msgid "Display UDP sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:379
+#, no-wrap
+msgid "B<-w, --raw>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:382
+msgid "Display RAW sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:382
+#, no-wrap
+msgid "B<-x, --unix>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:385
+msgid "Display Unix domain sockets (alias for -f unix)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:385
+#, no-wrap
+msgid "B<-S, --sctp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:388
+msgid "Display SCTP sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:388
+#, no-wrap
+msgid "B<--tipc>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:391
+msgid "Display tipc sockets (alias for -f tipc)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:391
+#, no-wrap
+msgid "B<--vsock>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:394
+msgid "Display vsock sockets (alias for -f vsock)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:394
+#, no-wrap
+msgid "B<--xdp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:397
+msgid "Display XDP sockets (alias for -f xdp)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:397
+#, no-wrap
+msgid "B<-M, --mptcp>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:400
+msgid "Display MPTCP sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:400
+#, no-wrap
+msgid "B<--inet-sockopt>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:403
+msgid "Display inet socket options."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:403
+#, no-wrap
+msgid "B<-f FAMILY, --family=FAMILY>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:407
+msgid ""
+"Display sockets of type FAMILY.  Currently the following families are "
+"supported: unix, inet, inet6, link, netlink, vsock, tipc, xdp."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:407
+#, no-wrap
+msgid "B<-A QUERY, --query=QUERY, --socket=QUERY>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:416
+msgid ""
+"List of socket tables to dump, separated by commas. The following "
+"identifiers are understood: all, inet, tcp, udp, raw, unix, packet, netlink, "
+"unix_dgram, unix_stream, unix_seqpacket, packet_raw, packet_dgram, sctp, "
+"tipc, vsock_stream, vsock_dgram, xdp, mptcp. Any item in the list may "
+"optionally be prefixed by an exclamation mark (B<!>)  to exclude that socket "
+"table from being dumped."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:416
+#, no-wrap
+msgid "B<-D FILE, --diag=FILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:420
+msgid ""
+"Do not display anything, just dump raw information about TCP sockets to FILE "
+"after applying filters. If FILE is - stdout is used."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:420
+#, no-wrap
+msgid "B<-F FILE, --filter=FILE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:424
+msgid ""
+"Read filter information from FILE.  Each line of FILE is interpreted like "
+"single command line option. If FILE is - stdin is used."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:424
+#, no-wrap
+msgid "B<--bpf-maps>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:427
+msgid "Pretty-print all the BPF socket-local data entries for each socket."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:427
+#, no-wrap
+msgid "B<--bpf-map-id=MAP_ID>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:430
+msgid ""
+"Pretty-print the BPF socket-local data entries for the requested map ID. Can "
+"be used more than once."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:430
+#, no-wrap
+msgid "B<FILTER := [ state STATE-FILTER ] [ EXPRESSION ]>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:433
+msgid ""
+"Please take a look at the official documentation for details regarding "
+"filters."
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:434
+#, no-wrap
+msgid "STATE-FILTER"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:440
+msgid ""
+"B<STATE-FILTER> allows one to construct an arbitrary set of states to match. "
+"Its syntax is sequence of keywords state and exclude followed by identifier "
+"of state."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:440
+#, no-wrap
+msgid "Available identifiers are:"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:446
+msgid ""
+"All standard TCP states: B<established>, B<syn-sent>, B<syn-recv>, B<fin-"
+"wait-1>, B<fin-wait-2>, B<time-wait>, B<closed>, B<close-wait>, B<last-ack>, "
+"B<listening> and B<closing.>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:449
+msgid "B<all> - for all the states"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:453
+msgid "B<connected> - all the states except for B<listening> and B<closed>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:459
+msgid "B<synchronized> - all the B<connected> states except for B<syn-sent>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:463
+msgid ""
+"B<bucket> - states, which are maintained as minisockets, i.e.  B<time-wait> "
+"and B<syn-recv>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:467
+msgid "B<big> - opposite to B<bucket>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:470
+msgid ""
+"B<bound-inactive> - bound but otherwise inactive sockets (not listening, "
+"connecting, etc.)"
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:471
+#, no-wrap
+msgid "EXPRESSION"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:486
+msgid ""
+"B<EXPRESSION> allows filtering based on specific criteria.  B<EXPRESSION> "
+"consists of a series of predicates combined by boolean operators. The "
+"possible operators in increasing order of precedence are B<or> (or | or ||), "
+"B<and> (or & or &&), and B<not> (or !). If no operator is between "
+"consecutive predicates, an implicit B<and> operator is assumed. "
+"Subexpressions can be grouped with \"(\" and \")\"."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:488
+msgid "The following predicates are supported:"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:489
+#, no-wrap
+msgid "B<{dst|src} [=] HOST>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:492
+msgid ""
+"Test if the destination or source matches HOST. See HOST SYNTAX for details."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:492
+#, no-wrap
+msgid "B<{dport|sport} [OP] [FAMILY:]:PORT>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:497
+msgid ""
+"Compare the destination or source port to PORT. OP can be any of \"E<lt>\", "
+"\"E<lt>=\", \"=\", \"!=\", \"E<gt>=\" and \"E<gt>\", following normal "
+"arithmetic rules. FAMILY and PORT are as described in HOST SYNTAX below."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:497
+#, no-wrap
+msgid "B<dev [=|!=] DEVICE>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:501
+msgid ""
+"Match based on the device the connection uses. DEVICE can either be a device "
+"name or the index of the interface."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:501
+#, no-wrap
+msgid "B<fwmark [=|!=] MASK>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:506
+msgid ""
+"Matches based on the fwmark value for the connection. This can either be a "
+"specific mark value or a mark value followed by a \"/\" and a bitmask of "
+"which bits to use in the comparison. For example \"fwmark = 0x01/0x03\" "
+"would match if the two least significant bits of the fwmark were 0x01."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:506
+#, no-wrap
+msgid "B<cgroup [=|!=] PATH>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:509
+msgid "Match if the connection is part of a cgroup at the given path."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:509
+#, no-wrap
+msgid "B<autobound>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:513
+msgid ""
+"Match if the port or path of the source address was automatically allocated "
+"(rather than explicitly specified)."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:516
+msgid ""
+"Most operators have aliases. If no operator is supplied \"=\" is assumed.  "
+"Each of the following groups of operators are all equivalent:"
+msgstr ""
+
+#. type: IP
+#: raw/iproute2/man8/ss.8:517 raw/iproute2/man8/ss.8:519
+#: raw/iproute2/man8/ss.8:521 raw/iproute2/man8/ss.8:523
+#: raw/iproute2/man8/ss.8:525 raw/iproute2/man8/ss.8:527
+#: raw/iproute2/man8/ss.8:529 raw/iproute2/man8/ss.8:531
+#: raw/iproute2/man8/ss.8:533
+#, no-wrap
+msgid "\\(bu"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:519
+msgid "= == eq"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:521
+msgid "!= ne neq"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:523
+msgid "E<gt> gt"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:525
+msgid "E<lt> lt"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:527
+msgid "E<gt>= ge geq"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:529
+msgid "E<lt>= le leq"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:531
+msgid "! not"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:533
+msgid "| || or"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:535
+msgid "& && and"
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:536
+#, no-wrap
+msgid "HOST SYNTAX"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:539
+msgid "The general host syntax is [FAMILY:]ADDRESS[:PORT]."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:545
+msgid ""
+"FAMILY must be one of the families supported by the -f option. If not given "
+"it defaults to the family given with the -f option, and if that is also "
+"missing, will assume either inet or inet6. Note that all host conditions in "
+"the expression should either all be the same family or be only inet and "
+"inet6. If there is some other mixture of families, the results will probably "
+"be unexpected."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:549
+msgid ""
+"The form of ADDRESS and PORT depends on the family used. \"*\" can be used "
+"as a wildcard for either the address or port. The details for each family "
+"are as follows:"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:549
+#, no-wrap
+msgid "B<unix>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:555
+msgid ""
+"ADDRESS is a glob pattern (see B<fnmatch>(3))  that will be matched case-"
+"insensitively against the unix socket's address. Both path and abstract "
+"names are supported. Unix addresses do not support a port, and \"*\" cannot "
+"be used as a wildcard."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:555
+#, no-wrap
+msgid "B<link>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:560
+msgid ""
+"ADDRESS is the case-insensitive name of an Ethernet protocol to match. PORT "
+"is either a device name or a device index for the desired link device, as "
+"seen in the output of ip link."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:560
+#, no-wrap
+msgid "B<netlink>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:566
+msgid ""
+"ADDRESS is a descriptor of the netlink family. Possible values come from /"
+"etc/iproute2/nl_protos. PORT is the port id of the socket, which is usually "
+"the same as the owning process id. The value \"kernel\" can be used to "
+"represent the kernel (port id of 0)."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:566
+#, no-wrap
+msgid "B<vsock>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:569
+msgid ""
+"ADDRESS is an integer representing the CID address, and PORT is the port."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:569
+#, no-wrap
+msgid "B<inet>\\ and\\ B<inet6>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:577
+msgid ""
+"ADDRESS is an ip address (either v4 or v6 depending on the family) or a DNS "
+"hostname that resolves to an ip address of the required version. An ipv6 "
+"address must be enclosed in \"[\" and \"]\" to disambiguate the port "
+"separator. The address may additionally have a prefix length given in CIDR "
+"notation (a slash followed by the prefix length in bits). PORT is either the "
+"numerical socket port, or the service name for the port to match."
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:578
+#, no-wrap
+msgid "USAGE EXAMPLES"
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:579
+#, no-wrap
+msgid "B<ss -t -a>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:582
+msgid "Display all TCP sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:582
+#, no-wrap
+msgid "B<ss -t -a -Z>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:585
+msgid "Display all TCP sockets with process SELinux security contexts."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:585
+#, no-wrap
+msgid "B<ss -u -a>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:588
+msgid "Display all UDP sockets."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:588
+#, no-wrap
+msgid "B<ss -o state established '( dport = :ssh or sport = :ssh )'>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:591
+msgid "Display all established ssh connections."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:591
+#, no-wrap
+msgid "B<ss -x src /tmp/.X11-unix/*>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:594
+msgid "Find all local processes connected to X server."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:594
+#, no-wrap
+msgid "B<ss -o state fin-wait-1 '( sport = :http or sport = :https )' dst 193.233.7/24>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:598
+msgid ""
+"List all the tcp sockets in state FIN-WAIT-1 for our apache to network "
+"193.233.7/24 and look at their timers."
+msgstr ""
+
+#. type: TP
+#: raw/iproute2/man8/ss.8:598
+#, no-wrap
+msgid "B<ss -a -A 'all,!tcp'>"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:601
+msgid "List sockets in all states from all socket tables but TCP."
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:601
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:603
+msgid "B<ip>(8),"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:606
+msgid "B<RFC> 793 - https://tools.ietf.org/rfc/rfc793.txt (TCP states)"
+msgstr ""
+
+#. type: SH
+#: raw/iproute2/man8/ss.8:607
+#, no-wrap
+msgid "AUTHOR"
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:610
+msgid "I<ss> was written by Alexey Kuznetsov, E<lt>kuznet@ms2.inr.ac.ruE<gt>."
+msgstr ""
+
+#. type: Plain text
+#: raw/iproute2/man8/ss.8:612
+msgid ""
+"This manual page was written by Michael Prokop E<lt>mika@grml.orgE<gt> for "
+"the Debian project (but may be used by others)."
+msgstr ""

@@ -1,0 +1,625 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-10-19 16:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: TH
+#: raw/findutils/man1/locate.1:1
+#, no-wrap
+msgid "LOCATE"
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:2
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:4
+msgid "locate - list files in databases that match a pattern"
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:4
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:24
+msgid ""
+"B<locate> [-d path | --database=path] [-e | -E | --[non-]existing] [-i | --"
+"ignore-case] [-0 | --null] [-c | --count] [-w | --wholename] [-b | --"
+"basename] [-l N | --limit=N] [-S | --statistics] [-r | --regex ] [--max-"
+"database-age D] [-P | -H | --nofollow] [-L | --follow] [--version] [-A | --"
+"all] [-p | --print] [--help] pattern..."
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:24
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:38
+msgid ""
+"This manual page documents the GNU version of B<locate>.  For each given "
+"pattern, B<locate> searches one or more databases of file names and displays "
+"the file names that contain the pattern.  Patterns can contain shell-style "
+"metacharacters: `*', `?', and `[]'.  The metacharacters do not treat `/' or "
+"`.' specially.  Therefore, a pattern `foo*bar' can match a file name that "
+"contains `foo3/bar', and a pattern `*duck*' can match a file name that "
+"contains `lake/.ducky'.  Patterns that contain metacharacters should be "
+"quoted to protect them from expansion by the shell."
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:49
+msgid ""
+"If a pattern is a plain string \\(em it contains no metacharacters \\(em "
+"B<locate> displays all file names in the database that contain that string "
+"anywhere.  If a pattern does contain metacharacters, B<locate> only displays "
+"file names that match the pattern exactly.  As a result, patterns that "
+"contain metacharacters should usually begin with a `*', and will most often "
+"end with one as well.  The exceptions are patterns that are intended to "
+"explicitly match the beginning or end of a file name."
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:55
+msgid ""
+"The file name databases contain lists of files that were on the system when "
+"the databases were last updated.  The system administrator can choose the "
+"file name of the default database, the frequency with which the databases "
+"are updated, and the directories for which they contain entries; see "
+"B<updatedb>(1)."
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:63
+msgid ""
+"If B<locate>'s output is going to a terminal, unusual characters in the "
+"output are escaped in the same way as for the -print action of the B<find> "
+"command.  If the output is not going to a terminal, file names are printed "
+"exactly as-is."
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:64
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:65
+#, no-wrap
+msgid "I<-0, --null>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:68
+msgid "Use ASCII NUL as a separator, instead of newline."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:68
+#, no-wrap
+msgid "I<-A, --all>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:72
+msgid ""
+"Print only names which match all non-option arguments, not those matching "
+"one or more non-option arguments."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:72
+#, no-wrap
+msgid "I<-b, --basename>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:77
+msgid ""
+"Results are considered to match if the pattern specified matches the final "
+"component of the name of a file as listed in the database.  This final "
+"component is usually referred to as the `base name'."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:77
+#, no-wrap
+msgid "I<-c, --count>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:81
+msgid ""
+"Instead of printing the matched filenames, just print the total number of "
+"matches we found, unless --I<print> (-p) is also present."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:81
+#, no-wrap
+msgid "I<-d path, --database=path>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:94
+msgid ""
+"Instead of searching the default file name database, search the file name "
+"databases in I<path>, which is a colon-separated list of database file "
+"names.  You can also use the environment variable B<LOCATE_PATH> to set the "
+"list of database files to search.  The option overrides the environment "
+"variable if both are used.  Empty elements in the path are taken to be "
+"synonyms for the file name of the default database.  A database can be "
+"supplied on stdin, using `-' as an element of I<path>. If more than one "
+"element of I<path> is `-', later instances are ignored (and a warning "
+"message is printed)."
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:111
+msgid ""
+"The file name database format changed starting with GNU B<find> and "
+"B<locate> version 4.0 to allow machines with different byte orderings to "
+"share the databases.  This version of B<locate> can automatically recognize "
+"and read databases produced for older versions of GNU B<locate> or Unix "
+"versions of B<locate> or B<find>.  Support for the old locate database "
+"format will be discontinued in a future release."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:111
+#, no-wrap
+msgid "I<-e, --existing>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:120
+msgid ""
+"Only print out such names that currently exist (instead of such names that "
+"existed when the database was created).  Note that this may slow down the "
+"program a lot, if there are many matches in the database.  If you are using "
+"this option within a program, please note that it is possible for the file "
+"to be deleted after B<locate> has checked that it exists, but before you use "
+"it."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:120
+#, no-wrap
+msgid "I<-E, --non-existing>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:126
+msgid ""
+"Only print out such names that currently do not exist (instead of such names "
+"that existed when the database was created).  Note that this may slow down "
+"the program a lot, if there are many matches in the database."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:126
+#, no-wrap
+msgid "I<--help>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:131
+msgid "Print a summary of the options to B<locate> and exit."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:131
+#, no-wrap
+msgid "I<-i, --ignore-case>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:134
+msgid "Ignore case distinctions in both the pattern and the file names."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:134
+#, no-wrap
+msgid "I<-l N, --limit=N>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:139
+msgid ""
+"Limit the number of matches to N.  If a limit is set via this option, the "
+"number of results printed for the -c option will never be larger than this "
+"number."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:139
+#, no-wrap
+msgid "I<-L, --follow>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:143
+msgid ""
+"If testing for the existence of files (with the -e or -E options), consider "
+"broken symbolic links to be non-existing.  This is the default."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:143
+#, no-wrap
+msgid "I<--max-database-age D>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:150
+msgid ""
+"Normally, B<locate> will issue a warning message when it searches a database "
+"which is more than 8 days old.  This option changes that value to something "
+"other than 8.  The effect of specifying a negative value is undefined."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:150
+#, no-wrap
+msgid "I<-m, --mmap>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:154 raw/findutils/man1/locate.1:183
+msgid "Accepted but does nothing, for compatibility with BSD B<locate>."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:154
+#, no-wrap
+msgid "I<-P, -H, --nofollow>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:161
+msgid ""
+"If testing for the existence of files (with the -e or -E options), treat "
+"broken symbolic links as if they were existing files.  The -H form of this "
+"option is provided purely for similarity with B<find>; the use of -P is "
+"recommended over -H."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:161
+#, no-wrap
+msgid "I<-p, --print>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:165
+msgid ""
+"Print search results when they normally would not, because of the presence "
+"of --statistics (-S) or --count (-c)."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:165
+#, no-wrap
+msgid "I<-r, --regex >"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:179
+msgid ""
+"The pattern specified on the command line is understood to be a regular "
+"expression, as opposed to a glob pattern.  The Regular expressions work in "
+"the same was as in B<emacs> and B<find>, except for the fact that \".\" will "
+"match a newline.  Filenames whose full paths match the specified regular "
+"expression are printed (or, in the case of the -c option, counted).  If you "
+"wish to anchor your regular expression at the ends of the full path name, "
+"then as is usual with regular expressions, you should use the characters ^ "
+"and $ to signify this."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:179
+#, no-wrap
+msgid "I<-s, --stdio>"
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:183
+#, no-wrap
+msgid "I<-S, --statistics>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:192
+msgid ""
+"Print various statistics about each locate database and then exit without "
+"performing a search, unless non-option arguments are given.  For "
+"compatibility with BSD, -S is accepted as a synonym for --statistics.  "
+"However, the output of B<locate -S> is different for the GNU and BSD "
+"implementations of B<locate>."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:192
+#, no-wrap
+msgid "I<--version>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:197
+msgid "Print the version number of B<locate> and exit."
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:197
+#, no-wrap
+msgid "I<-w, --wholename>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:201
+msgid ""
+"Match against the whole name of the file as listed in the database.  This is "
+"the default."
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:201
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr ""
+
+#. type: TP
+#: raw/findutils/man1/locate.1:202
+#, no-wrap
+msgid "B<LOCATE_PATH>"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:208
+msgid ""
+"Colon-separated list of databases to search.  If the value has a leading or "
+"trailing colon, or has two colons in a row, you may get results that vary "
+"between different versions of B<locate>."
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:209
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:212
+msgid "B<find>(1), B<locatedb>(5), B<updatedb>(1), B<xargs>(1), B<glob>(3)"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:222
+msgid ""
+"The full documentation for B<locate> is maintained as a Texinfo manual.  If "
+"the B<info> and B<locate> programs are properly installed at your site, the "
+"command B<info locate> should give you access to the complete manual."
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:224
+#, no-wrap
+msgid "HISTORY"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:244
+msgid ""
+"The B<locate> program started life as the BSD fast find program, contributed "
+"to BSD by James A. Woods.  This was described by his paper I<Finding Files "
+"Fast> which was published in Usenix I<;login:>, Vol 8, No 1, February/March, "
+"1983, pp. 8-10.  When the B<find> program began to assume a default B<-"
+"print> action if no action was specified, this changed the interpretation of "
+"B<find> B<pattern>.  The BSD developers therefore moved the fast find "
+"functionality into B<locate>.  The GNU implementation of B<locate> appears "
+"to be derived from the same code."
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:248
+msgid "Significant changes to B<locate> in reverse order:"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:251
+#, no-wrap
+msgid "4.3.7 "
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:251
+#, no-wrap
+msgid " Byte-order independent support for old database format"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:252
+#, no-wrap
+msgid "4.3.3 "
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:252
+#, no-wrap
+msgid " locate I<-i> supports multi-byte characters correctly"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:253
+#, no-wrap
+msgid " Introduced I<--max_db_age>"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:254
+#, no-wrap
+msgid "4.3.2 "
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:254
+#, no-wrap
+msgid " Support for the slocate database format"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:255
+#, no-wrap
+msgid "4.2.22"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:255
+#, no-wrap
+msgid " Introduced the I<--all> option"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:256
+#, no-wrap
+msgid "4.2.15"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:256
+#, no-wrap
+msgid " Introduced the I<--regex> option"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:257
+#, no-wrap
+msgid "4.2.14"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:257
+#, no-wrap
+msgid " Introduced options I<-L, -P, -H>"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:258
+#, no-wrap
+msgid "4.2.12"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:258
+#, no-wrap
+msgid " Empty items in B<LOCATE_PATH> now indicate the default database"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:259
+#, no-wrap
+msgid "4.2.11"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:259
+#, no-wrap
+msgid " Introduced the I<--statistics> option"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:260
+#, no-wrap
+msgid "4.2.4 "
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:260
+#, no-wrap
+msgid " Introduced I<--count> and I<--limit>"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:261
+#, no-wrap
+msgid "4.2.0 "
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:261
+#, no-wrap
+msgid " Glob characters cause matching against the whole file name"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:262
+#, no-wrap
+msgid "4.0   "
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:262
+#, no-wrap
+msgid " Introduced the LOCATE02 database format"
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:263
+#, no-wrap
+msgid "3.7   "
+msgstr ""
+
+#. type: tbl table
+#: raw/findutils/man1/locate.1:263
+#, no-wrap
+msgid " Locate can search multiple databases"
+msgstr ""
+
+#. type: SH
+#: raw/findutils/man1/locate.1:265
+#, no-wrap
+msgid "BUGS"
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:275
+msgid ""
+"The locate database correctly handles filenames containing newlines, but "
+"only if the system's sort command has a working -z option.  If you suspect "
+"that B<locate> may need to return filenames containing newlines, consider "
+"using its I<--null> option."
+msgstr ""
+
+#. type: Plain text
+#: raw/findutils/man1/locate.1:283
+msgid ""
+"The best way to report a bug is to use the form at http://savannah.gnu.org/"
+"bugs/?group=findutils.  The reason for this is that you will then be able to "
+"track progress in fixing the problem.  Other comments about B<locate>(1) and "
+"about the findutils package in general can be sent to the I<bug-findutils> "
+"mailing list.  To join the list, send email to I<bug-findutils-request@gnu."
+"org>."
+msgstr ""
