@@ -30,15 +30,12 @@ tail \- 输出文件的末尾部分
 和 \fB\-\-follow\fP=\fI\,name\/\fP \fB\-\-retry\fP 相同
 .TP 
 \fB\-n\fP, \fB\-\-lines\fP=\fI\,[\/\fP+]NUM
-output the last NUM lines, instead of the last 10; or use \fB\-n\fP +NUM to
-output starting with line NUM
+输出最后 NUM 行，而不是最后 10 行；或者使用 \fB\-n\fP +NUM 从第 NUM 行开始输出
 .TP 
 \fB\-\-max\-unchanged\-stats\fP=\fI\,N\/\fP
-with \fB\-\-follow\fP=\fI\,name\/\fP, reopen a FILE which has not
+使用 \fB\-\-follow\fP=\fI\,name\/\fP 时，重新打开一个文件，该文件在 N（默认 5）次迭代后仍未
 .IP
-changed size after N (default 5) iterations to see if it has been unlinked
-or renamed (this is the usual case of rotated log files); with inotify, this
-option is rarely useful
+改变大小，以确认它是否已被删除或重命名（这是轮转日志文件的常见情况）；使用 inotify 时，此选项通常没有用处
 .TP 
 \fB\-\-pid\fP=\fI\,PID\/\fP
 和 \fB\-f\fP 同时使用时，在进程号为 PID 的进程结束后终止执行
@@ -68,13 +65,9 @@ option is rarely useful
 NUM 后面可以加上乘数后缀：b 512、kB 1000、K 1024、MB 1000*1000、M 1024*1024, GB
 1000*1000*1000、G 1024*1024*1024，T、P、E、Z、Y 以此类推。 也可以使用二进制前缀：KiB=K、MiB=M，以此类推。
 .PP
-With \fB\-\-follow\fP (\fB\-f\fP), tail defaults to following the file descriptor,
-which means that even if a tail'ed file is renamed, tail will continue to
-track its end.  This default behavior is not desirable when you really want
-to track the actual name of the file, not the file descriptor (e.g., log
-rotation).  Use \fB\-\-follow\fP=\fI\,name\/\fP in that case.  That causes tail to
-track the named file in a way that accommodates renaming, removal and
-creation.
+使用 \fB\-\-follow\fP（\fB\-f\fP）时，tail 默认跟踪文件描述符，这意味着即使被跟踪的文件被重命名，tail
+仍会继续跟踪文件的末尾。当您真正想跟踪文件的实际名称而非文件描述符（例如日志轮转）时，这种默认行为并不理想。在这种情况下，请使用
+\fB\-\-follow\fP=\fI\,name\/\fP。这会使 tail 跟踪指定名称的文件，从而适应重命名、删除和创建。
 .SH 作者
 由 Paul Rubin、David MacKenzie 和 Jim Meyering 编写。
 .SH 报告错误

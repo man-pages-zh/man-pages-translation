@@ -116,18 +116,13 @@ msgstr "B<--apparent-size>"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:29
-#, fuzzy
-#| msgid ""
-#| "print apparent sizes, rather than disk usage; although the apparent size "
-#| "is usually smaller, it may be larger due to holes in ('sparse') files, "
-#| "internal fragmentation, indirect blocks, and the like"
 msgid ""
 "print apparent sizes rather than device usage; although the apparent size is "
 "usually smaller, it may be larger due to holes in ('sparse') files, internal "
 "fragmentation, indirect blocks, and the like"
 msgstr ""
-"显示表面用量，而并非是磁盘用量；虽然表面用量通常会小一些，但有时它会因为稀疏"
-"文件间的“洞”、内部碎片、非直接引用的块等原因显得更大一些。"
+"显示表面使用量，而不是设备使用量；虽然表面使用量通常会小一些，但有时它会因为稀疏"
+"文件中的“洞”、内部碎片、间接块等原因显得更大一些。"
 
 #. type: TP
 #: raw/coreutils/man1/du.1:29
@@ -466,7 +461,7 @@ msgstr ""
 #: raw/coreutils/man1/du.1:128
 #, no-wrap
 msgid "PATTERNS"
-msgstr ""
+msgstr "模式"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:139
@@ -476,6 +471,9 @@ msgid ""
 "zero, one or multiple characters).  For example, B<*.o> will match any files "
 "whose names end in B<.o>.  Therefore, the command"
 msgstr ""
+"PATTERN 是一个 shell 通配模式（不是正则表达式）。模式 B<?\\&> 匹配任意单个字符，"
+"而 B<*> 匹配任意字符串（由零个、一个或多个字符组成）。例如，B<*.o> 将匹配"
+"任何名称以 B<.o> 结尾的文件。因此，以下命令"
 
 #. type: Plain text
 #: raw/coreutils/man1/du.1:141
@@ -488,6 +486,7 @@ msgid ""
 "will skip all files and subdirectories ending in B<.o> (including the file "
 "B<.o> itself)."
 msgstr ""
+"将跳过所有以 B<.o> 结尾的文件和子目录（包括文件 B<.o> 本身）。"
 
 #. type: SH
 #: raw/coreutils/man1/du.1:147

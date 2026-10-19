@@ -77,10 +77,8 @@ msgstr "B<[\\&> I<表达式> B<]\\&>"
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:17
-#, fuzzy
-#| msgid "B<[\\& ]\">"
 msgid "B<[\\& ]\\&>"
-msgstr "B<[\\& ]\">"
+msgstr "B<[\\& ]\\&>"
 
 #. type: Plain text
 #: raw/coreutils/man1/test.1:20
